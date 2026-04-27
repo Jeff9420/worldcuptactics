@@ -13,6 +13,9 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
+  other: {
+    "google-adsense-account": "ca-pub-7585038406357402",
+  },
   title: "World Cup Tactics — AI Tactical Analysis for Every World Cup Match",
   description:
     "AI-powered tactical analysis for every World Cup match from 1930 to 2026. Animated diagrams, formation breakdowns, and goal-by-goal tactical commentary. Launching June 2026.",
