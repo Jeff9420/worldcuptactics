@@ -18,8 +18,9 @@ export default function Nav() {
         <Link href="/matches" className={`nav-link ${pathname.startsWith("/matches") ? "active" : ""}`}>
           Matches
         </Link>
-        <span className="nav-link" style={{ cursor: "not-allowed", opacity: 0.5 }}>Formations</span>
-        <span className="nav-link" style={{ cursor: "not-allowed", opacity: 0.5 }}>AI Insights</span>
+        <Link href="/about" className={`nav-link ${pathname === "/about" ? "active" : ""}`}>
+          About
+        </Link>
       </div>
       <div className="nav-right">
         <div className="live-badge">
