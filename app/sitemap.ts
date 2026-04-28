@@ -6,7 +6,7 @@ const BASE = "https://worldcuptactics.com";
 export default function sitemap(): MetadataRoute.Sitemap {
   const matchUrls: MetadataRoute.Sitemap = getAllMatchIds().map((id) => ({
     url: `${BASE}/matches/${id}`,
-    lastModified: new Date("2026-04-28"),
+    lastModified: new Date("2026-04-29"),
     changeFrequency: "monthly",
     priority: 0.9,
   }));
@@ -14,8 +14,8 @@ export default function sitemap(): MetadataRoute.Sitemap {
   return [
     { url: BASE, lastModified: new Date(), changeFrequency: "daily", priority: 1 },
     { url: `${BASE}/matches`, lastModified: new Date(), changeFrequency: "weekly", priority: 0.95 },
-    { url: `${BASE}/about`, lastModified: new Date("2026-04-28"), changeFrequency: "monthly", priority: 0.6 },
-    { url: `${BASE}/privacy`, lastModified: new Date("2026-04-28"), changeFrequency: "yearly", priority: 0.3 },
+    { url: `${BASE}/about`, lastModified: new Date("2026-04-29"), changeFrequency: "monthly", priority: 0.6 },
+    { url: `${BASE}/privacy`, lastModified: new Date("2026-04-29"), changeFrequency: "yearly", priority: 0.3 },
     ...matchUrls,
   ];
 }
