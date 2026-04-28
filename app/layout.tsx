@@ -2,19 +2,33 @@ import type { Metadata } from "next";
 import "./globals.css";
 
 export const metadata: Metadata = {
+  metadataBase: new URL("https://worldcuptactics.com"),
   other: {
     "google-adsense-account": "ca-pub-7585038406357402",
   },
   title: "World Cup Tactics — AI Tactical Analysis for Every World Cup Match",
   description:
-    "AI-powered tactical analysis for every World Cup match from 1930 to 2026. Animated diagrams, formation breakdowns, and goal-by-goal tactical commentary.",
-  keywords: "world cup tactics, football tactical analysis, AI football analysis, world cup 2026, tactical diagram",
+    "AI-powered tactical analysis for the greatest World Cup matches in history — formations, xG models, and deep tactical breakdowns from 1954 to 2026.",
+  keywords:
+    "world cup tactics, football tactical analysis, AI football analysis, world cup 2026, tactical diagram, formation analysis, xG football",
   openGraph: {
-    title: "World Cup Tactics",
-    description: "AI tactical analysis for every World Cup match — 1930 to 2026.",
+    title: "WorldCupTactics — AI Football Tactical Analysis",
+    description:
+      "Deep tactical breakdowns for the greatest World Cup matches ever played — formations, xG, key moments, and AI analysis.",
     url: "https://worldcuptactics.com",
-    siteName: "World Cup Tactics",
+    siteName: "WorldCupTactics",
     type: "website",
+    locale: "en_US",
+  },
+  twitter: {
+    card: "summary",
+    title: "WorldCupTactics — AI Football Tactical Analysis",
+    description:
+      "Deep tactical breakdowns for the greatest World Cup matches — formations, xG, and AI insights from 1954 to 2026.",
+    site: "@worldcuptactics",
+  },
+  alternates: {
+    canonical: "https://worldcuptactics.com",
   },
 };
 

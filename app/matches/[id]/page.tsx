@@ -2,7 +2,7 @@ import { notFound } from "next/navigation";
 import type { Metadata } from "next";
 import Nav from "../../components/Nav";
 import MatchDetail from "./MatchDetail";
-import { getMatch, getAllMatchIds } from "../../lib/matches";
+import { getMatch, getAllMatchIds, MATCHES } from "../../lib/matches";
 
 export async function generateStaticParams() {
   return getAllMatchIds().map((id) => ({ id }));
@@ -63,6 +63,9 @@ export default async function MatchPage({
     organizer: { "@type": "Organization", name: "FIFA" },
   };
 
+  // Pick 3 other matches as "related" — prioritise different eras
+  const related = MATCHES.filter((m) => m.id !== id).slice(0, 3);
+
   return (
     <>
       <script
@@ -70,7 +73,7 @@ export default async function MatchPage({
         dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
       />
       <Nav />
-      <MatchDetail match={match} />
+      <MatchDetail match={match} relatedMatches={related} />
     </>
   );
 }

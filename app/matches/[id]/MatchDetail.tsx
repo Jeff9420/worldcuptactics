@@ -26,7 +26,13 @@ const EVENT_ICONS: Record<string, string> = {
   sub: "↕",
 };
 
-export default function MatchDetail({ match }: { match: Match }) {
+export default function MatchDetail({
+  match,
+  relatedMatches = [],
+}: {
+  match: Match;
+  relatedMatches?: Match[];
+}) {
   const [activeTab, setActiveTab] = useState<Tab>("tactics");
   const [activeCtrl, setActiveCtrl] = useState("Formation");
 
@@ -801,6 +807,197 @@ export default function MatchDetail({ match }: { match: Match }) {
           </div>
         </div>
       </div>
+
+      {/* RELATED MATCHES */}
+      {relatedMatches.length > 0 && (
+        <div
+          style={{
+            borderTop: "1px solid var(--border)",
+            background: "var(--bg-surface)",
+            padding: "2.5rem 3rem",
+          }}
+        >
+          <div
+            style={{
+              display: "flex",
+              alignItems: "baseline",
+              gap: "0.75rem",
+              marginBottom: "1.5rem",
+            }}
+          >
+            <div
+              style={{
+                fontFamily: "'Barlow Condensed',sans-serif",
+                fontSize: "1.4rem",
+                fontWeight: 800,
+                letterSpacing: "0.04em",
+                textTransform: "uppercase",
+              }}
+            >
+              More Classic Matches
+            </div>
+            <div
+              style={{
+                fontFamily: "'JetBrains Mono',monospace",
+                fontSize: "0.68rem",
+                color: "var(--text-muted)",
+                letterSpacing: "0.1em",
+              }}
+            >
+              // TACTICAL BREAKDOWNS
+            </div>
+            <Link
+              href="/matches"
+              style={{
+                marginLeft: "auto",
+                fontFamily: "'Barlow Condensed',sans-serif",
+                fontSize: "0.8rem",
+                fontWeight: 600,
+                letterSpacing: "0.06em",
+                textTransform: "uppercase",
+                color: "var(--accent-green)",
+                textDecoration: "none",
+              }}
+            >
+              All Matches →
+            </Link>
+          </div>
+          <div
+            style={{
+              display: "grid",
+              gridTemplateColumns: "repeat(auto-fit, minmax(260px, 1fr))",
+              gap: "1rem",
+            }}
+          >
+            {relatedMatches.map((r) => {
+              const score = `${r.home.score}–${r.away.score}`;
+              const statusText =
+                r.status === "PSO"
+                  ? `Pens ${r.penaltyScore}`
+                  : r.status === "AET"
+                  ? "AET"
+                  : "Full Time";
+              return (
+                <Link
+                  key={r.id}
+                  href={`/matches/${r.id}`}
+                  style={{ textDecoration: "none", color: "inherit" }}
+                >
+                  <div
+                    style={{
+                      background: "var(--bg-elevated)",
+                      border: "1px solid var(--border)",
+                      borderRadius: "8px",
+                      padding: "1.25rem",
+                      cursor: "pointer",
+                      transition: "border-color 0.15s",
+                    }}
+                    onMouseEnter={(e) =>
+                      ((e.currentTarget as HTMLDivElement).style.borderColor =
+                        "var(--border-mid)")
+                    }
+                    onMouseLeave={(e) =>
+                      ((e.currentTarget as HTMLDivElement).style.borderColor =
+                        "var(--border)")
+                    }
+                  >
+                    <div
+                      style={{
+                        display: "flex",
+                        gap: "0.5rem",
+                        marginBottom: "0.75rem",
+                      }}
+                    >
+                      <span
+                        style={{
+                          fontFamily: "'JetBrains Mono',monospace",
+                          fontSize: "0.65rem",
+                          letterSpacing: "0.08em",
+                          textTransform: "uppercase",
+                          background: "rgba(45,255,124,0.08)",
+                          color: "var(--accent-green)",
+                          border: "1px solid rgba(45,255,124,0.2)",
+                          borderRadius: "3px",
+                          padding: "0.15rem 0.5rem",
+                        }}
+                      >
+                        {r.year}
+                      </span>
+                      <span
+                        style={{
+                          fontFamily: "'JetBrains Mono',monospace",
+                          fontSize: "0.65rem",
+                          letterSpacing: "0.08em",
+                          textTransform: "uppercase",
+                          background: "rgba(245,197,24,0.08)",
+                          color: "var(--accent-gold)",
+                          border: "1px solid rgba(245,197,24,0.2)",
+                          borderRadius: "3px",
+                          padding: "0.15rem 0.5rem",
+                        }}
+                      >
+                        {r.stage}
+                      </span>
+                    </div>
+                    <div
+                      style={{
+                        display: "flex",
+                        alignItems: "center",
+                        justifyContent: "space-between",
+                        gap: "0.5rem",
+                      }}
+                    >
+                      <div
+                        style={{
+                          fontFamily: "'Barlow Condensed',sans-serif",
+                          fontSize: "1rem",
+                          fontWeight: 700,
+                          textTransform: "uppercase",
+                        }}
+                      >
+                        {r.home.flag} {r.home.name}
+                      </div>
+                      <div
+                        style={{
+                          fontFamily: "'Barlow Condensed',sans-serif",
+                          fontSize: "1.3rem",
+                          fontWeight: 800,
+                          color: "var(--accent-green)",
+                          flexShrink: 0,
+                        }}
+                      >
+                        {score}
+                      </div>
+                      <div
+                        style={{
+                          fontFamily: "'Barlow Condensed',sans-serif",
+                          fontSize: "1rem",
+                          fontWeight: 700,
+                          textTransform: "uppercase",
+                          textAlign: "right",
+                        }}
+                      >
+                        {r.away.name} {r.away.flag}
+                      </div>
+                    </div>
+                    <div
+                      style={{
+                        fontFamily: "'JetBrains Mono',monospace",
+                        fontSize: "0.68rem",
+                        color: "var(--text-muted)",
+                        marginTop: "0.4rem",
+                        textAlign: "center",
+                      }}
+                    >
+                      {statusText} · xG {r.xG.home.toFixed(1)} vs {r.xG.away.toFixed(1)}
+                    </div>
+                  </div>
+                </Link>
+              );
+            })}
+          </div>
+        </div>
+      )}
     </>
   );
 }
