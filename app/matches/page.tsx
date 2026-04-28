@@ -1,11 +1,12 @@
 "use client";
 
-import { useState } from "react";
+import { useState, useMemo } from "react";
 import Link from "next/link";
 import Nav from "../components/Nav";
 import { MATCHES } from "../lib/matches";
 
 const ROUNDS = ["All", "Finals", "Semi-Finals", "Quarter-Finals", "Other Rounds"];
+const ERAS = ["All Eras", "1950s–60s", "1970s–80s", "1990s–00s", "2010s–20s"];
 
 function matchRoundBucket(stage: string): string {
   const s = stage.toLowerCase();
@@ -15,35 +16,45 @@ function matchRoundBucket(stage: string): string {
   return "Other Rounds";
 }
 
+function matchEraBucket(year: number): string {
+  if (year <= 1969) return "1950s–60s";
+  if (year <= 1989) return "1970s–80s";
+  if (year <= 2009) return "1990s–00s";
+  return "2010s–20s";
+}
+
 export default function MatchesPage() {
   const [activeRound, setActiveRound] = useState("All");
+  const [activeEra, setActiveEra] = useState("All Eras");
   const [search, setSearch] = useState("");
 
-  const filtered = MATCHES.filter((m) => {
-    const roundOk =
-      activeRound === "All" || matchRoundBucket(m.stage) === activeRound;
+  const filtered = useMemo(() => MATCHES.filter((m) => {
+    const roundOk = activeRound === "All" || matchRoundBucket(m.stage) === activeRound;
+    const eraOk = activeEra === "All Eras" || matchEraBucket(m.year) === activeEra;
     const searchOk =
       !search ||
       m.home.name.toLowerCase().includes(search.toLowerCase()) ||
       m.away.name.toLowerCase().includes(search.toLowerCase()) ||
       m.year.toString().includes(search);
-    return roundOk && searchOk;
-  });
+    return roundOk && eraOk && searchOk;
+  }), [activeRound, activeEra, search]);
 
   // Group by tournament (year + name)
-  const grouped = filtered.reduce<Record<string, typeof MATCHES>>((acc, m) => {
-    const key = `${m.tournament}`;
-    if (!acc[key]) acc[key] = [];
-    acc[key].push(m);
-    return acc;
-  }, {});
+  const sortedGroups = useMemo(() => {
+    const grouped = filtered.reduce<Record<string, typeof MATCHES>>((acc, m) => {
+      const key = m.tournament;
+      if (!acc[key]) acc[key] = [];
+      acc[key].push(m);
+      return acc;
+    }, {});
+    return Object.entries(grouped).sort(([a], [b]) => {
+      const yearA = parseInt(a.match(/\d{4}/)?.[0] ?? "0");
+      const yearB = parseInt(b.match(/\d{4}/)?.[0] ?? "0");
+      return yearB - yearA;
+    });
+  }, [filtered]);
 
-  // Sort groups newest first
-  const sortedGroups = Object.entries(grouped).sort(([a], [b]) => {
-    const yearA = parseInt(a.match(/\d{4}/)?.[0] ?? "0");
-    const yearB = parseInt(b.match(/\d{4}/)?.[0] ?? "0");
-    return yearB - yearA;
-  });
+  const totalShown = filtered.length;
 
   return (
     <>
@@ -57,27 +68,60 @@ export default function MatchesPage() {
         </div>
       </div>
 
-      <div className="filter-bar">
-        <span className="filter-label">Round:</span>
-        {ROUNDS.map((r) => (
-          <button
-            key={r}
-            className={`filter-btn ${activeRound === r ? "active" : ""}`}
-            onClick={() => setActiveRound(r)}
+      {/* FILTER BAR */}
+      <div style={{ padding: "0 2rem", maxWidth: "1200px", margin: "0 auto" }}>
+        {/* Row 1: Round + Search */}
+        <div className="filter-bar" style={{ marginBottom: "0.5rem" }}>
+          <span className="filter-label">Round:</span>
+          {ROUNDS.map((r) => (
+            <button
+              key={r}
+              className={`filter-btn ${activeRound === r ? "active" : ""}`}
+              onClick={() => setActiveRound(r)}
+            >
+              {r}
+            </button>
+          ))}
+          <div className="filter-spacer" />
+          <input
+            className="search-box"
+            type="text"
+            placeholder="🔍 Search teams or year..."
+            value={search}
+            onChange={(e) => setSearch(e.target.value)}
+          />
+        </div>
+
+        {/* Row 2: Era + Count */}
+        <div style={{ display: "flex", alignItems: "center", gap: "0.5rem", paddingBottom: "1rem", flexWrap: "wrap" }}>
+          <span className="filter-label">Era:</span>
+          {ERAS.map((era) => (
+            <button
+              key={era}
+              className={`filter-btn ${activeEra === era ? "active" : ""}`}
+              onClick={() => setActiveEra(era)}
+            >
+              {era}
+            </button>
+          ))}
+          <div className="filter-spacer" />
+          <div
+            style={{
+              fontFamily: "'JetBrains Mono',monospace",
+              fontSize: "0.72rem",
+              color: "var(--text-muted)",
+              letterSpacing: "0.06em",
+              whiteSpace: "nowrap",
+            }}
           >
-            {r}
-          </button>
-        ))}
-        <div className="filter-spacer" />
-        <input
-          className="search-box"
-          type="text"
-          placeholder="🔍 Search teams or year..."
-          value={search}
-          onChange={(e) => setSearch(e.target.value)}
-        />
+            {totalShown === MATCHES.length
+              ? `${MATCHES.length} matches`
+              : `${totalShown} / ${MATCHES.length} matches`}
+          </div>
+        </div>
       </div>
 
+      {/* MATCH LIST */}
       <div className="matches-section">
         {sortedGroups.length === 0 && (
           <div
@@ -118,6 +162,13 @@ export default function MatchesPage() {
               const xgAwayColor =
                 m.xG.away > m.xG.home ? "var(--accent-gold)" : "var(--text-secondary)";
 
+              const stageBadgeColor = (() => {
+                const b = matchRoundBucket(m.stage);
+                if (b === "Finals") return { bg: "rgba(245,197,24,0.1)", color: "var(--accent-gold)", border: "rgba(245,197,24,0.3)" };
+                if (b === "Semi-Finals") return { bg: "rgba(45,255,124,0.08)", color: "var(--accent-green)", border: "rgba(45,255,124,0.25)" };
+                return { bg: "rgba(255,255,255,0.04)", color: "var(--text-muted)", border: "var(--border)" };
+              })();
+
               return (
                 <Link
                   key={m.id}
@@ -126,7 +177,21 @@ export default function MatchesPage() {
                 >
                   <div className="match-list-item">
                     <div className="match-date">
-                      {m.date.split(",")[0]}
+                      <div style={{
+                        display: "inline-block",
+                        background: stageBadgeColor.bg,
+                        border: `1px solid ${stageBadgeColor.border}`,
+                        color: stageBadgeColor.color,
+                        borderRadius: "4px",
+                        padding: "1px 6px",
+                        fontFamily: "'JetBrains Mono',monospace",
+                        fontSize: "0.58rem",
+                        letterSpacing: "0.06em",
+                        textTransform: "uppercase",
+                        marginBottom: "4px",
+                      }}>
+                        {m.stage}
+                      </div>
                       <br />
                       <span style={{ fontSize: "0.6rem", color: "var(--text-muted)" }}>
                         {m.year}
