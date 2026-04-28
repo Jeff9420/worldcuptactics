@@ -45,8 +45,30 @@ export default async function MatchPage({
   const match = getMatch(id);
   if (!match) notFound();
 
+  const jsonLd = {
+    "@context": "https://schema.org",
+    "@type": "SportsEvent",
+    name: `${match.home.name} vs ${match.away.name} — ${match.tournament}`,
+    description: match.tacticalAnalysis.substring(0, 200),
+    startDate: match.date,
+    location: {
+      "@type": "Place",
+      name: match.venue,
+      address: match.city,
+    },
+    homeTeam: { "@type": "SportsTeam", name: match.home.name },
+    awayTeam: { "@type": "SportsTeam", name: match.away.name },
+    sport: "Football",
+    url: `https://worldcuptactics.com/matches/${match.id}`,
+    organizer: { "@type": "Organization", name: "FIFA" },
+  };
+
   return (
     <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+      />
       <Nav />
       <MatchDetail match={match} />
     </>
