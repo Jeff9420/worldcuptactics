@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { GoogleAnalytics } from "@next/third-parties/google";
 import "./globals.css";
 
 export const metadata: Metadata = {
@@ -50,6 +51,7 @@ export default function RootLayout({
           crossOrigin="anonymous"
         />
         {children}
+        <GoogleAnalytics gaId="G-P35NEJ2SVG" />
       </body>
     </html>
   );
