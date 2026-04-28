@@ -7,8 +7,11 @@ const FEATURED = MATCHES.find((m) => m.id === "argentina-vs-france-2022-final")!
 
 const GRID_MATCHES = [
   MATCHES.find((m) => m.id === "germany-vs-brazil-2014-sf")!,
+  MATCHES.find((m) => m.id === "france-vs-argentina-2018-r16")!,
   MATCHES.find((m) => m.id === "argentina-vs-england-1986-qf")!,
+  MATCHES.find((m) => m.id === "italy-vs-france-2006-final")!,
   MATCHES.find((m) => m.id === "brazil-vs-italy-1970-final")!,
+  MATCHES.find((m) => m.id === "uruguay-vs-brazil-1950-final")!,
 ];
 
 export default function Home() {
@@ -37,7 +40,7 @@ export default function Home() {
           </div>
           <div className="hero-stats">
             <div>
-              <div className="hero-stat-num">10</div>
+              <div className="hero-stat-num">30</div>
               <div className="hero-stat-label">Classics Analyzed</div>
             </div>
             <div>
@@ -198,7 +201,7 @@ export default function Home() {
         <div className="section-header">
           <div className="section-title">Classic Matches</div>
           <div className="section-sub">// TACTICAL BREAKDOWNS</div>
-          <Link href="/matches" className="section-link">All 10 Matches →</Link>
+          <Link href="/matches" className="section-link">All 30 Matches →</Link>
         </div>
         <div className="match-grid">
           {GRID_MATCHES.map((m) => {
