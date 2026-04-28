@@ -1,5 +1,6 @@
 import Link from "next/link";
 import Nav from "./components/Nav";
+import EmailCapture from "./components/EmailCapture";
 import { MATCHES } from "./lib/matches";
 
 const FEATURED = MATCHES.find((m) => m.id === "argentina-vs-france-2022-final")!;
@@ -248,6 +249,11 @@ export default function Home() {
             );
           })}
         </div>
+      </div>
+
+      {/* EMAIL CAPTURE */}
+      <div className="section" style={{ borderTop: "1px solid var(--border)" }}>
+        <EmailCapture />
       </div>
 
       {/* AI FEATURES */}
