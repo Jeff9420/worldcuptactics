@@ -776,6 +776,1397 @@ The penalty shootout — played in intense Californian heat — was decided by t
       { name: "Roberto Baggio", side: "away", position: "CF · 🇮🇹", rating: 7.8, note: "Tournament's best player (5 goals in knockouts) — the miss that defines his legacy" },
     ],
   },
+  // ─────────────────────────────────────────────
+  // 11. West Germany 2-1 Netherlands — 1974 Final
+  // ─────────────────────────────────────────────
+  {
+    id: "west-germany-vs-netherlands-1974-final",
+    tournament: "FIFA World Cup 1974",
+    year: 1974,
+    stage: "Final",
+    date: "July 7, 1974",
+    venue: "Olympiastadion",
+    city: "Munich, West Germany",
+    home: {
+      name: "West Germany",
+      flag: "🇩🇪",
+      formation: "4-2-4",
+      color: "#2DFF7C",
+      colorDim: "rgba(45,255,124,0.18)",
+      players: ["Maier","Vogts","Schwarzenbeck","Beckenbauer","Breitner","Bonhof","Overath","Grabowski","Müller","Hoeneß","Holzenbein"],
+      score: 2,
+    },
+    away: {
+      name: "Netherlands",
+      flag: "🇳🇱",
+      formation: "4-3-3",
+      color: "#F5C518",
+      colorDim: "rgba(245,197,24,0.18)",
+      players: ["Jongbloed","Suurbier","Rijsbergen","Haan","Krol","Jansen","Neeskens","Van Hanegem","Rep","Cruyff","Rensenbrink"],
+      score: 1,
+    },
+    status: "FT",
+    xG: { home: 2.2, away: 2.0 },
+    possession: { home: 44, away: 56 },
+    timeline: [
+      { minute: "2'", side: "away", player: "Neeskens", type: "pen_goal", description: "Penalty before Germany touched the ball — Holzenbein fouled in the box" },
+      { minute: "25'", side: "home", player: "Breitner", type: "pen_goal", description: "Germany's equaliser from the spot after Holzenbein goes down" },
+      { minute: "43'", side: "home", player: "Müller", type: "goal", description: "Müller turns brilliantly in a tight space and fires past Jongbloed" },
+    ],
+    stats: [
+      { label: "Possession", home: 44, away: 56, homeWidth: 44, awayWidth: 56 },
+      { label: "Shots", home: 16, away: 14, homeWidth: 53, awayWidth: 47 },
+      { label: "Shots on Target", home: 8, away: 6, homeWidth: 57, awayWidth: 43 },
+      { label: "Pass Accuracy", home: "79%", away: "84%", homeWidth: 48, awayWidth: 52 },
+      { label: "Corners", home: 6, away: 8, homeWidth: 43, awayWidth: 57 },
+      { label: "Fouls", home: 20, away: 22, homeWidth: 48, awayWidth: 52 },
+      { label: "xG", home: "2.18", away: "1.97", homeWidth: 53, awayWidth: 47 },
+    ],
+    tacticalAnalysis: `The 1974 World Cup Final pitted two of football's most distinctive tactical philosophies against each other: the Dutch Total Football revolution against the pragmatic German efficiency. Netherlands, led by Johan Cruyff, played a fluid 4-3-3 where players interchanged positions constantly — a system so advanced it took European football a decade to fully understand it.
+
+Germany's manager Helmut Schön deployed a more direct 4-2-4 with Beckenbauer operating as a libero. The key tactical instruction was simple: stop Cruyff. Berti Vogts was assigned to man-mark him throughout, and succeeded in limiting Cruyff's influence after the opening exchanges.
+
+The match's tactical turning point came in the first two minutes. Netherlands received a penalty before Germany had touched the ball — Neeskens converted with an emphatic straight run-up. The Dutch, celebrating a lead so early, relaxed their pressing intensity. Germany, stung into urgency, pressed higher and created chances through Müller's movement.
+
+Breitner's penalty equalised before Müller — the tournament's top scorer — turned in the box with his characteristic compact technique to put Germany ahead before half-time. Schön's pragmatic team, written off by most observers, had beaten the most exciting team of the decade.`,
+    keyMoments: [
+      "2': Neeskens scores before Germany touch the ball — the fastest goal in World Cup Final history at the time",
+      "Netherlands lead 1-0 but stop pressing, allowing Germany to grow into the match",
+      "43': Müller's winner — his compact turn and finish epitomised the efficiency that Total Football lacked",
+      "Vogts successfully neutralises Cruyff, the world's best player, with relentless man-marking",
+      "Germany become the first host nation to win the World Cup since England in 1966",
+    ],
+    historicalSignificance: `The 1974 Final marked the end of an era and the beginning of a debate that continues today: which matters more, beauty or effectiveness? Netherlands' Total Football was revolutionary and influenced every subsequent generation of coaches. Yet it never won a World Cup. Germany, less celebrated aesthetically, won two of the next three tournaments. The match launched Beckenbauer as a global icon — he is the only man to win the World Cup as both captain (1974) and manager (1990).`,
+    topPerformers: [
+      { name: "Gerd Müller", side: "home", position: "CF · 🇩🇪", rating: 9.2, note: "Match-winning goal — tournament top scorer; the most clinical finisher of his era" },
+      { name: "Franz Beckenbauer", side: "home", position: "SW · 🇩🇪", rating: 9.0, note: "Controlled the game from the back — the libero role redefined" },
+      { name: "Johan Cruyff", side: "away", position: "CF · 🇳🇱", rating: 8.3, note: "Neutralised by Vogts after a brilliant opening; tournament's best player overall" },
+      { name: "Johan Neeskens", side: "away", position: "CM · 🇳🇱", rating: 8.0, note: "Scored inside 2 minutes; Total Football's engine room throughout" },
+    ],
+  },
+
+  // ─────────────────────────────────────────────
+  // 12. Argentina 3-1 Netherlands — 1978 Final (AET)
+  // ─────────────────────────────────────────────
+  {
+    id: "argentina-vs-netherlands-1978-final",
+    tournament: "FIFA World Cup 1978",
+    year: 1978,
+    stage: "Final",
+    date: "June 25, 1978",
+    venue: "Estadio Monumental",
+    city: "Buenos Aires, Argentina",
+    home: {
+      name: "Argentina",
+      flag: "🇦🇷",
+      formation: "4-3-3",
+      color: "#2DFF7C",
+      colorDim: "rgba(45,255,124,0.18)",
+      players: ["Fillol","Olguín","Galván","Passarella","Tarantini","Ardiles","Gallego","Kempes","Bertoni","Luque","Ortiz"],
+      score: 3,
+    },
+    away: {
+      name: "Netherlands",
+      flag: "🇳🇱",
+      formation: "4-3-3",
+      color: "#F5C518",
+      colorDim: "rgba(245,197,24,0.18)",
+      players: ["Jongbloed","Poortvliet","Brandts","Krol","Jansen","Neeskens","Haan","Rep","Rensenbrink","W. van de Kerkhof","R. van de Kerkhof"],
+      score: 1,
+    },
+    status: "AET",
+    xG: { home: 2.6, away: 1.8 },
+    possession: { home: 51, away: 49 },
+    timeline: [
+      { minute: "38'", side: "home", player: "Kempes", type: "goal", description: "Kempes drives through the Dutch defence — Argentina lead at half-time" },
+      { minute: "82'", side: "away", player: "Nanninga", type: "goal", description: "Substitute Nanninga heads in to level — set up by the Van de Kerkhof twins" },
+      { minute: "90'", side: "away", player: "Rensenbrink", type: "goal", description: "Rensenbrink hits the post — the moment that saved Argentina's World Cup" },
+      { minute: "105'", side: "home", player: "Kempes", type: "goal", description: "Kempes bundles in after a goalmouth scramble — Argentina ahead in extra time" },
+      { minute: "115'", side: "home", player: "Bertoni", type: "goal", description: "Bertoni seals it — Argentina are world champions" },
+    ],
+    stats: [
+      { label: "Possession", home: 51, away: 49, homeWidth: 51, awayWidth: 49 },
+      { label: "Shots", home: 17, away: 15, homeWidth: 53, awayWidth: 47 },
+      { label: "Shots on Target", home: 9, away: 6, homeWidth: 60, awayWidth: 40 },
+      { label: "Pass Accuracy", home: "81%", away: "83%", homeWidth: 49, awayWidth: 51 },
+      { label: "Corners", home: 7, away: 9, homeWidth: 44, awayWidth: 56 },
+      { label: "Fouls", home: 18, away: 21, homeWidth: 46, awayWidth: 54 },
+      { label: "xG", home: "2.58", away: "1.84", homeWidth: 58, awayWidth: 42 },
+    ],
+    tacticalAnalysis: `The 1978 World Cup Final was played against the backdrop of Argentina's military dictatorship — the junta of General Jorge Videla used the tournament as a propaganda exercise. On the pitch, the match was a dramatic contest that came within inches of going to a penalty shootout.
+
+Argentina, under César Luis Menotti, played an attacking 4-3-3 built around the physical and creative genius of Mario Kempes. Menotti's philosophy was attack-minded — he wanted Argentine football to express itself without pragmatic compromise. Kempes, the tournament's top scorer, was given freedom to drift wide and drive at defenders.
+
+Netherlands, without the retired Johan Cruyff, were still dangerous with the Van de Kerkhof twins providing creativity from wide areas. Their 4-3-3 pressed high and created chances — but Rensenbrink's post in the 90th minute remains one of football's great what-ifs. Had that gone in, history would have been very different.
+
+Extra time was Argentina's. Kempes' bundled second goal gave Argentina the lead they deserved on the night's attacking intent, and Bertoni's finish confirmed the first World Cup won by an Argentine team.`,
+    keyMoments: [
+      "90': Rensenbrink hits the post with the score at 1-1 — had it gone in, Netherlands would likely have won the World Cup",
+      "Kempes scores twice: his tournament haul of 6 goals makes him the top scorer; no Argentine had dominated a World Cup so completely",
+      "The ticker-tape welcome: Argentina's home crowd covered the Monumental in paper — one of football's most atmospheric images",
+      "Netherlands play without Cruyff, who refused to travel to Argentina under the dictatorship",
+      "Argentina's first World Cup title — political controversy overshadows the achievement for decades",
+    ],
+    historicalSignificance: `Argentina's 1978 triumph remains one of football's most politically contested victories. The military government's manipulation of the tournament — including allegations of match-fixing in the crucial Peru game — cast a shadow that persists. Yet Kempes' brilliance was real, Menotti's attacking philosophy was genuine, and the football produced was of high quality. The match launched Argentina's golden era and set the stage for Maradona's 1986 triumph.`,
+    topPerformers: [
+      { name: "Mario Kempes", side: "home", position: "CF · 🇦🇷", rating: 9.4, note: "Two goals in the Final — tournament top scorer with 6; the defining Argentine performance of the 1970s" },
+      { name: "Ubaldo Fillol", side: "home", position: "GK · 🇦🇷", rating: 9.0, note: "Outstanding saves throughout the match; considered the best goalkeeper of the tournament" },
+      { name: "Rensenbrink", side: "away", position: "LW · 🇳🇱", rating: 8.1, note: "Hit the post in the 90th minute — one of history's cruelest near-misses" },
+      { name: "Daniel Passarella", side: "home", position: "CB · 🇦🇷", rating: 8.5, note: "Commanding captain; his leadership held Argentina together when Netherlands equalised" },
+    ],
+  },
+
+  // ─────────────────────────────────────────────
+  // 13. Argentina 3-2 West Germany — 1986 Final
+  // ─────────────────────────────────────────────
+  {
+    id: "argentina-vs-west-germany-1986-final",
+    tournament: "FIFA World Cup 1986",
+    year: 1986,
+    stage: "Final",
+    date: "June 29, 1986",
+    venue: "Estadio Azteca",
+    city: "Mexico City, Mexico",
+    home: {
+      name: "Argentina",
+      flag: "🇦🇷",
+      formation: "4-3-3",
+      color: "#2DFF7C",
+      colorDim: "rgba(45,255,124,0.18)",
+      players: ["Pumpido","Cuciuffo","Brown","Ruggeri","Olarticoechea","Batista","Giusti","Burruchaga","Enrique","Maradona","Valdano"],
+      score: 3,
+    },
+    away: {
+      name: "West Germany",
+      flag: "🇩🇪",
+      formation: "4-3-3",
+      color: "#F5C518",
+      colorDim: "rgba(245,197,24,0.18)",
+      players: ["Schumacher","Jakobs","Förster","Berthold","Briegel","Matthäus","Magath","Eder","Allofs","Völler","Rummenigge"],
+      score: 2,
+    },
+    status: "FT",
+    xG: { home: 2.4, away: 2.1 },
+    possession: { home: 52, away: 48 },
+    timeline: [
+      { minute: "23'", side: "home", player: "Brown", type: "goal", description: "José Luis Brown heads in from a Burruchaga free-kick — playing through injury" },
+      { minute: "55'", side: "home", player: "Valdano", type: "goal", description: "Valdano fires in after Maradona's incisive pass — Argentina 2-0 up" },
+      { minute: "74'", side: "away", player: "Rummenigge", type: "goal", description: "Rummenigge pokes in after a scramble — Germany's comeback begins" },
+      { minute: "80'", side: "away", player: "Völler", type: "goal", description: "Völler equalises — 2-2 with 10 minutes to go" },
+      { minute: "84'", side: "home", player: "Burruchaga", type: "goal", description: "Maradona's precise through-ball finds Burruchaga — the winning goal" },
+    ],
+    stats: [
+      { label: "Possession", home: 52, away: 48, homeWidth: 52, awayWidth: 48 },
+      { label: "Shots", home: 15, away: 16, homeWidth: 48, awayWidth: 52 },
+      { label: "Shots on Target", home: 7, away: 8, homeWidth: 47, awayWidth: 53 },
+      { label: "Pass Accuracy", home: "80%", away: "78%", homeWidth: 51, awayWidth: 49 },
+      { label: "Corners", home: 5, away: 7, homeWidth: 42, awayWidth: 58 },
+      { label: "Fouls", home: 18, away: 21, homeWidth: 46, awayWidth: 54 },
+      { label: "xG", home: "2.41", away: "2.09", homeWidth: 54, awayWidth: 46 },
+    ],
+    tacticalAnalysis: `The 1986 World Cup Final was Maradona's coronation. Having produced the Hand of God and Goal of the Century in the quarter-final against England, Maradona now led Argentina to the world title in a match of genuine drama — a 2-0 lead surrendered, then reclaimed in the final minutes.
+
+Carlos Bilardo's 4-3-3 was built entirely around Maradona as its creative hub. The system gave Maradona freedom to drift, hold the ball under pressure, and pick passes into the final third. His understanding with Valdano and Burruchaga was the tournament's most dangerous attacking partnership.
+
+West Germany, managed by Franz Beckenbauer, played a direct 4-3-3 with Rummenigge and Völler in attack. Their comeback from 2-0 down — two goals in six minutes — was a testament to German resilience but ultimately insufficient. Maradona's 84th-minute through-ball to Burruchaga was a moment of telepathic accuracy, the final decisive contribution from the tournament's greatest player.
+
+The tactical lesson: Bilardo's pragmatic Argentina — ridiculed by purists — produced a system that was flawlessly constructed around one individual. In Maradona, they had a player capable of justifying that sacrifice entirely.`,
+    keyMoments: [
+      "23': Brown scores while playing with a dislocated shoulder — among the most heroic Final goals ever",
+      "74'–80': Germany score twice in six minutes from 2-0 down — the comeback rocks Argentina",
+      "84': Maradona's through-ball to Burruchaga — the pass that won the World Cup, measured and perfect under maximum pressure",
+      "Maradona's tournament: 5 goals, 5 assists — statistically and visually the greatest World Cup performance ever",
+      "The match draws 114,000 fans to the Azteca — the last 100,000+ World Cup Final attendance",
+    ],
+    historicalSignificance: `The 1986 World Cup belongs entirely to Maradona. His performance across the tournament — and specifically in this Final — represents the closest football has come to a single individual winning the sport's greatest prize by themselves. The match confirmed Argentina as the dominant force of 1980s football and gave Maradona the platform from which his legend grew. Beckenbauer, losing as a manager here, would get his revenge four years later.`,
+    topPerformers: [
+      { name: "Diego Maradona", side: "home", position: "AM · 🇦🇷", rating: 9.6, note: "1 assist (the winning pass) — tournament's greatest individual performance" },
+      { name: "Jorge Burruchaga", side: "home", position: "CM · 🇦🇷", rating: 8.8, note: "Scored the winner — received Maradona's perfect pass and kept his composure" },
+      { name: "Rudi Völler", side: "away", position: "CF · 🇩🇪", rating: 8.4, note: "The equaliser that briefly seemed to snatch it for Germany" },
+      { name: "Karl-Heinz Rummenigge", side: "away", position: "CF · 🇩🇪", rating: 8.2, note: "Energised Germany's comeback from the bench with his goal" },
+    ],
+  },
+
+  // ─────────────────────────────────────────────
+  // 14. West Germany 1-0 Argentina — 1990 Final
+  // ─────────────────────────────────────────────
+  {
+    id: "west-germany-vs-argentina-1990-final",
+    tournament: "FIFA World Cup 1990",
+    year: 1990,
+    stage: "Final",
+    date: "July 8, 1990",
+    venue: "Stadio Olimpico",
+    city: "Rome, Italy",
+    home: {
+      name: "West Germany",
+      flag: "🇩🇪",
+      formation: "4-3-3",
+      color: "#2DFF7C",
+      colorDim: "rgba(45,255,124,0.18)",
+      players: ["Illgner","Brehme","Kohler","Augenthaler","Berthold","Häßler","Matthäus","Littbarski","Völler","Klinsmann","Riedle"],
+      score: 1,
+    },
+    away: {
+      name: "Argentina",
+      flag: "🇦🇷",
+      formation: "4-4-2",
+      color: "#F5C518",
+      colorDim: "rgba(245,197,24,0.18)",
+      players: ["Goycochea","Serrizuela","Ruggeri","Monzón","Sensini","Calderón","Basualdo","Giusti","Caniggia","Maradona","Dezotti"],
+      score: 0,
+    },
+    status: "FT",
+    xG: { home: 1.8, away: 0.4 },
+    possession: { home: 58, away: 42 },
+    timeline: [
+      { minute: "65'", side: "away", player: "Monzón", type: "red", description: "First red card in a World Cup Final — Monzón's foul on Klinsmann" },
+      { minute: "85'", side: "home", player: "Brehme", type: "pen_goal", description: "Brehme converts after Sensini's foul — Germany win the World Cup" },
+      { minute: "87'", side: "away", player: "Dezotti", type: "red", description: "Second red card — Argentina finish with 9 men" },
+    ],
+    stats: [
+      { label: "Possession", home: 58, away: 42, homeWidth: 58, awayWidth: 42 },
+      { label: "Shots", home: 16, away: 5, homeWidth: 76, awayWidth: 24 },
+      { label: "Shots on Target", home: 7, away: 1, homeWidth: 88, awayWidth: 12 },
+      { label: "Pass Accuracy", home: "83%", away: "72%", homeWidth: 54, awayWidth: 46 },
+      { label: "Yellow Cards", home: "2", away: "5", homeWidth: 29, awayWidth: 71 },
+      { label: "Fouls", home: 19, away: 28, homeWidth: 40, awayWidth: 60 },
+      { label: "xG", home: "1.78", away: "0.41", homeWidth: 81, awayWidth: 19 },
+    ],
+    tacticalAnalysis: `The 1990 World Cup Final is widely considered the worst in the tournament's history — a cynical, foul-ridden match decided by a late penalty in which Argentina, defending champions, were reduced to nine men. Yet it was also a tactical story of exceptional discipline from Beckenbauer's Germany.
+
+Argentina arrived at the Final without the suspended Caniggia and with Maradona clearly carrying an ankle injury. Bilardo's 4-4-2 was purely defensive — Argentina had no intention of attacking. They had reached the Final through goalkeeping heroics from Goycochea in two consecutive penalty shootouts.
+
+Germany's 4-3-3 dominated possession but struggled to create clear chances against Argentina's massed defence. Matthäus was the outstanding player in midfield, covering every blade of grass. The match turned on two red cards — both for Argentina — and a controversial late penalty won by Völler going down under Sensini's challenge.
+
+Brehme's penalty, struck with his weaker right foot after Matthäus handed it to him (the German captain had missed a penalty earlier in the tournament), settled the contest. The Final produced one goal, five yellow cards, and two red cards — a monument to cynicism over football.`,
+    keyMoments: [
+      "65': Monzón becomes the first player sent off in a World Cup Final — Argentina's game plan collapses",
+      "85': Brehme's penalty — he uses his weaker right foot; Goycochea dives the right way but can't reach it",
+      "87': Dezotti's red card — Argentina finish with nine men; the most cards in a World Cup Final",
+      "Maradona weeps at the final whistle — visibly emotional, knowing his defending champions had fallen",
+      "Beckenbauer lifts the trophy — the only man to captain and manage a World Cup-winning team",
+    ],
+    historicalSignificance: `Beckenbauer became the first man in history to both captain (1974) and manage (1990) a World Cup winning team. The Final itself damaged football's image — FIFA subsequently changed the rules to protect attackers from cynical fouls and discourage negative tactics. Argentina's decline from 1986 champions to 1990 losers reflected the exhaustion of Bilardo's system after four years. Maradona's tears at the final whistle marked the effective end of his international prime.`,
+    topPerformers: [
+      { name: "Lothar Matthäus", side: "home", position: "CM · 🇩🇪", rating: 9.2, note: "Tournament's best player (Ballon d'Or winner that year) — supreme in midfield for 90 minutes" },
+      { name: "Andreas Brehme", side: "home", position: "LB · 🇩🇪", rating: 8.6, note: "Scored the winning penalty with his weaker foot — the moment that won the World Cup" },
+      { name: "Sergio Goycochea", side: "away", position: "GK · 🇦🇷", rating: 8.0, note: "Heroic throughout the tournament in PSO wins; dived right for Brehme's penalty but couldn't save it" },
+      { name: "Diego Maradona", side: "away", position: "AM · 🇦🇷", rating: 6.8, note: "Visibly injured and managed; his most difficult World Cup performance" },
+    ],
+  },
+
+  // ─────────────────────────────────────────────
+  // 15. Brazil 2-0 Germany — 2002 Final
+  // ─────────────────────────────────────────────
+  {
+    id: "brazil-vs-germany-2002-final",
+    tournament: "FIFA World Cup 2002",
+    year: 2002,
+    stage: "Final",
+    date: "June 30, 2002",
+    venue: "International Stadium Yokohama",
+    city: "Yokohama, Japan",
+    home: {
+      name: "Brazil",
+      flag: "🇧🇷",
+      formation: "4-2-3-1",
+      color: "#2DFF7C",
+      colorDim: "rgba(45,255,124,0.18)",
+      players: ["Marcos","Lúcio","Roque Júnior","Edmílson","Roberto Carlos","Gilberto Silva","Kléberson","Ronaldinho","Rivaldo","Ronaldo","Cafu"],
+      score: 2,
+    },
+    away: {
+      name: "Germany",
+      flag: "🇩🇪",
+      formation: "4-4-2",
+      color: "#F5C518",
+      colorDim: "rgba(245,197,24,0.18)",
+      players: ["Kahn","Linke","Ramelow","Metzelder","Frings","Schneider","Hamann","Jeremies","Bode","Klose","Neuville"],
+      score: 0,
+    },
+    status: "FT",
+    xG: { home: 2.3, away: 0.8 },
+    possession: { home: 56, away: 44 },
+    timeline: [
+      { minute: "67'", side: "home", player: "Ronaldo", type: "goal", description: "Ronaldo pounces on Kahn's fumble — redemption after 1998's mystery illness" },
+      { minute: "79'", side: "home", player: "Ronaldo", type: "goal", description: "Rivaldo's pass, Ronaldo's clinical right-foot finish — 2-0, Brazil win their fifth World Cup" },
+    ],
+    stats: [
+      { label: "Possession", home: 56, away: 44, homeWidth: 56, awayWidth: 44 },
+      { label: "Shots", home: 18, away: 10, homeWidth: 64, awayWidth: 36 },
+      { label: "Shots on Target", home: 9, away: 4, homeWidth: 69, awayWidth: 31 },
+      { label: "Pass Accuracy", home: "83%", away: "79%", homeWidth: 51, awayWidth: 49 },
+      { label: "Corners", home: 9, away: 5, homeWidth: 64, awayWidth: 36 },
+      { label: "Fouls", home: 14, away: 19, homeWidth: 42, awayWidth: 58 },
+      { label: "xG", home: "2.31", away: "0.83", homeWidth: 74, awayWidth: 26 },
+    ],
+    tacticalAnalysis: `The 2002 World Cup Final delivered one of football's greatest individual redemption stories. Ronaldo, whose mysterious illness had cost Brazil the 1998 Final, scored both goals in Yokohama to claim his second world title and cement his claim to greatness.
+
+Brazil's 4-2-3-1 under Luiz Felipe Scolari was built around a fluid attacking partnership: Ronaldo as the focal point, Rivaldo and Ronaldinho as creative forces behind him. Gilberto Silva and Kléberson anchored the midfield with defensive discipline, giving the attacking players freedom to express themselves.
+
+Germany, reaching the Final against all expectations — they had scraped through the group stage before finding form — were organised but limited under Rudi Völler. Oliver Kahn had been extraordinary throughout the tournament, but his 67th-minute fumble was the decisive moment: he spilled a Rivaldo shot, and Ronaldo reacted fastest to score.
+
+The second goal was a statement of quality: Rivaldo's weighted pass found Ronaldo clean through, and his right-foot finish was emphatic. Germany had no answer for Brazil's attacking depth. Ronaldo's two goals gave him 8 career World Cup goals at that point — surpassing the record he had set in 1998.`,
+    keyMoments: [
+      "Kahn's fumble: the tournament's best goalkeeper makes the decisive error — Ronaldo's instinct is immediate",
+      "Ronaldo's double: four years after the mystery of Pasadena, he returns to claim the World Cup on his own terms",
+      "Ronaldo's distinctive haircut: the bizarre chevron cut, initially made to distract his daughter, becomes iconic",
+      "Germany's surprise run: they had beaten South Korea, USA, and Senegal to reach the Final",
+      "Brazil's record fifth title — the most World Cup wins in history",
+    ],
+    historicalSignificance: `Brazil's fifth World Cup victory was built on Ronaldo's redemption arc — one of sport's most powerful narratives. The tournament also featured South Korea's astonishing run to the semi-finals (the furthest any Asian team has ever gone), Senegal's elimination of France in the group stage, and co-hosting between Japan and South Korea — the first World Cup in Asia. Germany's 2002 generation would mature to win Euro 2004 runners-up and build toward their 2014 triumph.`,
+    topPerformers: [
+      { name: "Ronaldo", side: "home", position: "CF · 🇧🇷", rating: 9.8, note: "Two goals — his 8 World Cup goals set a new record; the greatest redemption story in football" },
+      { name: "Rivaldo", side: "home", position: "AM · 🇧🇷", rating: 9.0, note: "Assist for Ronaldo's second — his tournament was the last great World Cup of a phenomenal career" },
+      { name: "Oliver Kahn", side: "away", position: "GK · 🇩🇪", rating: 7.2, note: "Tournament's best goalkeeper wins Golden Glove but the decisive error condemns Germany" },
+      { name: "Ronaldinho", side: "home", position: "AM · 🇧🇷", rating: 8.6, note: "Dazzling throughout the tournament — his free-kick against England was the moment of the competition" },
+    ],
+  },
+
+  // ─────────────────────────────────────────────
+  // 16. Italy 1-1 France — 2006 Final (ITA 5-3 pens)
+  // ─────────────────────────────────────────────
+  {
+    id: "italy-vs-france-2006-final",
+    tournament: "FIFA World Cup 2006",
+    year: 2006,
+    stage: "Final",
+    date: "July 9, 2006",
+    venue: "Olympiastadion",
+    city: "Berlin, Germany",
+    home: {
+      name: "Italy",
+      flag: "🇮🇹",
+      formation: "4-4-2",
+      color: "#2DFF7C",
+      colorDim: "rgba(45,255,124,0.18)",
+      players: ["Buffon","Zambrotta","Cannavaro","Materazzi","Grosso","Camoranesi","Gattuso","Pirlo","Perrotta","Totti","Toni"],
+      score: 1,
+    },
+    away: {
+      name: "France",
+      flag: "🇫🇷",
+      formation: "4-2-3-1",
+      color: "#F5C518",
+      colorDim: "rgba(245,197,24,0.18)",
+      players: ["Barthez","Sagnol","Thuram","Gallas","Abidal","Makelele","Vieira","Ribéry","Zidane","Malouda","Henry"],
+      score: 1,
+    },
+    status: "PSO",
+    penaltyScore: "5-3",
+    xG: { home: 1.4, away: 1.6 },
+    possession: { home: 46, away: 54 },
+    timeline: [
+      { minute: "7'", side: "away", player: "Zidane", type: "pen_goal", description: "Zidane's cheeky Panenka chip down the middle — audacious in a World Cup Final" },
+      { minute: "19'", side: "home", player: "Materazzi", type: "goal", description: "Materazzi heads in from a corner — the man who provoked Zidane levels" },
+      { minute: "110'", side: "away", player: "Zidane", type: "red", description: "Zidane headbutts Materazzi in the chest — sent off in his final career match" },
+      { minute: "PSO", side: "away", player: "Trezeguet", type: "pen_miss", description: "Trezeguet's penalty hits the crossbar — Italy win the World Cup" },
+    ],
+    stats: [
+      { label: "Possession", home: 46, away: 54, homeWidth: 46, awayWidth: 54 },
+      { label: "Shots", home: 14, away: 16, homeWidth: 47, awayWidth: 53 },
+      { label: "Shots on Target", home: 5, away: 6, homeWidth: 45, awayWidth: 55 },
+      { label: "Pass Accuracy", home: "84%", away: "87%", homeWidth: 49, awayWidth: 51 },
+      { label: "Corners", home: 8, away: 5, homeWidth: 62, awayWidth: 38 },
+      { label: "Fouls", home: 24, away: 22, homeWidth: 52, awayWidth: 48 },
+      { label: "xG", home: "1.38", away: "1.61", homeWidth: 46, awayWidth: 54 },
+    ],
+    tacticalAnalysis: `The 2006 World Cup Final will forever be defined by one moment — Zinedine Zidane's headbutt on Marco Materazzi in the 110th minute. But the match itself was a high-quality tactical contest between Italy's defensive excellence and France's creative attacking play.
+
+Marcello Lippi's Italy deployed a 4-4-2 built on Pirlo's deep playmaking and the defensive solidity of Cannavaro and Materazzi. Gattuso's pressing was relentless. The system was designed to absorb pressure and strike on the counter — the same philosophy that had won them the European Championship with Inter and AC Milan in club football.
+
+France, under Raymond Domenech, had built their tournament run around Zidane's resurgence. The retired Zidane, recalled to the squad after poor form from the French team, produced a Panenka chip in the seventh minute that was one of the most brazen penalty kicks ever seen in a World Cup Final. France were the better side for most of the match.
+
+What happened in extra time remains one of football's great controversies. Materazzi clearly said something to provoke Zidane — he later admitted referencing Zidane's sister. Zidane's headbutt was witnessed by the referee only after a linesman intervened. He was sent off in the last professional match of his career. Italy won the shootout after Trezeguet hit the crossbar.`,
+    keyMoments: [
+      "7': Zidane's Panenka chip — the most audacious penalty in World Cup Final history; it wobbled in off the underside of the bar",
+      "19': Materazzi header — the man who would later provoke the defining incident equalises from a corner",
+      "110': Zidane headbutt — the most shocking moment in World Cup Final history; his last act as a professional footballer",
+      "Trezeguet's crossbar: France's best penalty taker hits the bar — Italy win on the rebound that bounces on the line and out",
+      "Cannavaro lifts the trophy: Italy's fourth World Cup title; Cannavaro wins Ballon d'Or as the world's best player",
+    ],
+    historicalSignificance: `The 2006 Final produced two of football's most enduring images: Zidane's Panenka and his headbutt. Zidane's international career ended in ignominy, yet his tournament performance — recalled from retirement at 33 — was arguably his finest. Cannavaro won the Ballon d'Or, the last defender to win the award. Italy's fourth World Cup title confirmed them as the tournament's most successful European nation at that point.`,
+    topPerformers: [
+      { name: "Zinedine Zidane", side: "away", position: "AM · 🇫🇷", rating: 8.8, note: "Panenka penalty + tournament's best player award — then the headbutt that ended his career" },
+      { name: "Fabio Cannavaro", side: "home", position: "CB · 🇮🇹", rating: 9.3, note: "Immense throughout 120 minutes — won Ballon d'Or as world's best player" },
+      { name: "Andrea Pirlo", side: "home", position: "DM · 🇮🇹", rating: 9.0, note: "Controlled Italy's rhythm with deep playmaking — converted his penalty in the shootout" },
+      { name: "Gianluigi Buffon", side: "home", position: "GK · 🇮🇹", rating: 8.7, note: "Kept France to just 1 goal (penalty) — tournament's outstanding goalkeeper" },
+    ],
+  },
+
+  // ─────────────────────────────────────────────
+  // 17. France 4-2 Croatia — 2018 Final
+  // ─────────────────────────────────────────────
+  {
+    id: "france-vs-croatia-2018-final",
+    tournament: "FIFA World Cup 2018",
+    year: 2018,
+    stage: "Final",
+    date: "July 15, 2018",
+    venue: "Luzhniki Stadium",
+    city: "Moscow, Russia",
+    home: {
+      name: "France",
+      flag: "🇫🇷",
+      formation: "4-2-3-1",
+      color: "#2DFF7C",
+      colorDim: "rgba(45,255,124,0.18)",
+      players: ["Lloris","Pavard","Varane","Umtiti","Lucas Hernández","Kanté","Pogba","Mbappé","Griezmann","Matuidi","Giroud"],
+      score: 4,
+    },
+    away: {
+      name: "Croatia",
+      flag: "🇭🇷",
+      formation: "4-3-3",
+      color: "#F5C518",
+      colorDim: "rgba(245,197,24,0.18)",
+      players: ["Subašić","Vrsaljko","Lovren","Vida","Strinić","Rakitić","Brozović","Modrić","Rebić","Mandžukić","Perišić"],
+      score: 2,
+    },
+    status: "FT",
+    xG: { home: 2.0, away: 2.3 },
+    possession: { home: 34, away: 66 },
+    timeline: [
+      { minute: "18'", side: "away", player: "Mandžukić", type: "own_goal", description: "Own goal from Griezmann's free-kick — the first OG in a World Cup Final" },
+      { minute: "28'", side: "away", player: "Perišić", type: "goal", description: "Perišić's powerful left-foot equaliser — Croatia right back in it" },
+      { minute: "38'", side: "home", player: "Griezmann", type: "pen_goal", description: "Penalty after VAR review — Perišić handball in the box" },
+      { minute: "59'", side: "home", player: "Pogba", type: "goal", description: "Pogba drives in from the edge of the box — France pulling clear" },
+      { minute: "65'", side: "home", player: "Mbappé", type: "goal", description: "Mbappé's right-foot drive — the youngest scorer in a World Cup Final since Pelé" },
+      { minute: "69'", side: "away", player: "Mandžukić", type: "goal", description: "Lloris's calamitous error gifts Mandžukić a goal" },
+    ],
+    stats: [
+      { label: "Possession", home: 34, away: 66, homeWidth: 34, awayWidth: 66 },
+      { label: "Shots", home: 14, away: 17, homeWidth: 45, awayWidth: 55 },
+      { label: "Shots on Target", home: 6, away: 7, homeWidth: 46, awayWidth: 54 },
+      { label: "Pass Accuracy", home: "83%", away: "87%", homeWidth: 49, awayWidth: 51 },
+      { label: "Corners", home: 5, away: 7, homeWidth: 42, awayWidth: 58 },
+      { label: "Fouls", home: 14, away: 10, homeWidth: 58, awayWidth: 42 },
+      { label: "xG", home: "1.97", away: "2.31", homeWidth: 46, awayWidth: 54 },
+    ],
+    tacticalAnalysis: `The 2018 World Cup Final was a masterclass in counter-attacking football from France — a team that won with only 34% possession. Didier Deschamps constructed a tactically ruthless side around Kanté's defensive industry and the pace of Mbappé and Griezmann on the break.
+
+Croatia, who had played three consecutive extra-time matches in the knockout rounds, were physically and emotionally exhausted. Zlatko Dalić's 4-3-3 was technically superior and dominated the ball, but France's defensive shape — Kanté and Matuidi in a double pivot — was almost impenetrable.
+
+The match was decided by fine margins and crucial moments: Mandžukić's own goal from a free-kick France had rehearsed specifically; a VAR handball decision; Pogba and Mbappé goals from counter-attacks; and then Lloris's inexplicable error gifting Croatia their second goal. But France, unlike Croatia, had the depth and tactical discipline to manage their lead.
+
+Mbappé, 19, became the youngest scorer in a World Cup Final since Pelé in 1958. His goal — a right-foot drive from outside the box — announced him formally as the game's next superstar. France's second World Cup triumph was built on defensive solidity, tactical intelligence, and individual quality in key moments.`,
+    keyMoments: [
+      "18': First own goal in a World Cup Final — Mandžukić deflects Griezmann's free-kick into his own net",
+      "38': VAR penalty decision — the first use of video review to award a penalty in a World Cup Final",
+      "65': Mbappé's goal — the second teenager to score in a World Cup Final, after Pelé in 1958",
+      "69': Lloris's error — the French captain's moment of aberration gifts Croatia a goal in a match France were controlling",
+      "Croatia's exhaustion: their third consecutive extra-time match told in their second-half drop in intensity",
+    ],
+    historicalSignificance: `France's second World Cup (20 years after 1998) was built on an entirely different philosophy to Zidane's team — less beautiful, more functional, and tactically superior. The tournament introduced VAR at the World Cup level and sparked fierce debate about handball rules. Croatia's run to the Final — overcoming Russia, Denmark and England from behind in knockouts — was one of the great tournament stories. Modrić won the Golden Ball as tournament's best player despite losing the Final.`,
+    topPerformers: [
+      { name: "Kylian Mbappé", side: "home", position: "RW · 🇫🇷", rating: 9.3, note: "Tournament's breakthrough star — scored in the Final at 19, youngest since Pelé" },
+      { name: "Antoine Griezmann", side: "home", position: "AM · 🇫🇷", rating: 9.0, note: "Golden Boot runner-up — 1 goal, 2 assists; the tactical brain of France's attack" },
+      { name: "Luka Modrić", side: "away", position: "CM · 🇭🇷", rating: 9.1, note: "Golden Ball winner — the finest midfielder in the world, magnificent despite the defeat" },
+      { name: "N'Golo Kanté", side: "home", position: "CM · 🇫🇷", rating: 9.2, note: "Made France's counter-attacking system function — covered more ground than any player in the tournament" },
+    ],
+  },
+
+  // ─────────────────────────────────────────────
+  // 18. Germany 1-0 Argentina — 2014 Final (AET)
+  // ─────────────────────────────────────────────
+  {
+    id: "germany-vs-argentina-2014-final",
+    tournament: "FIFA World Cup 2014",
+    year: 2014,
+    stage: "Final",
+    date: "July 13, 2014",
+    venue: "Estádio do Maracanã",
+    city: "Rio de Janeiro, Brazil",
+    home: {
+      name: "Germany",
+      flag: "🇩🇪",
+      formation: "4-2-3-1",
+      color: "#2DFF7C",
+      colorDim: "rgba(45,255,124,0.18)",
+      players: ["Neuer","Lahm","Boateng","Hummels","Höwedes","Schweinsteiger","Kroos","Müller","Özil","Schürrle","Klose"],
+      score: 1,
+    },
+    away: {
+      name: "Argentina",
+      flag: "🇦🇷",
+      formation: "4-3-3",
+      color: "#F5C518",
+      colorDim: "rgba(245,197,24,0.18)",
+      players: ["Romero","Zabaleta","Demichelis","Garay","Rojo","Biglia","Mascherano","Di María","Lavezzi","Messi","Higuaín"],
+      score: 0,
+    },
+    status: "AET",
+    xG: { home: 1.6, away: 1.2 },
+    possession: { home: 55, away: 45 },
+    timeline: [
+      { minute: "113'", side: "home", player: "Götze", type: "goal", description: "Substitute Götze controls Schürrle's cross on his chest and volleys past Romero — the World Cup winner" },
+    ],
+    stats: [
+      { label: "Possession", home: 55, away: 45, homeWidth: 55, awayWidth: 45 },
+      { label: "Shots", home: 17, away: 11, homeWidth: 61, awayWidth: 39 },
+      { label: "Shots on Target", home: 6, away: 4, homeWidth: 60, awayWidth: 40 },
+      { label: "Pass Accuracy", home: "87%", away: "84%", homeWidth: 51, awayWidth: 49 },
+      { label: "Corners", home: 6, away: 4, homeWidth: 60, awayWidth: 40 },
+      { label: "Fouls", home: 12, away: 17, homeWidth: 41, awayWidth: 59 },
+      { label: "xG", home: "1.62", away: "1.19", homeWidth: 58, awayWidth: 42 },
+    ],
+    tacticalAnalysis: `The 2014 World Cup Final was decided by one moment of individual brilliance in extra time — Mario Götze's 113th-minute volley that gave Germany their fourth World Cup. A match of tactical complexity and few clear chances was settled by Löw's inspired substitution.
+
+Germany's 4-2-3-1 was the tournament's most complete team system: aggressive pressing, positional superiority, and the technical quality to circulate the ball at pace. Löw's side had just destroyed Brazil 7-1 — a result that made them overwhelming favourites for the Final.
+
+Argentina, under Alejandro Sabella, defended in a compact 4-4-2 with Messi and Higuaín isolated up front and tasked with exploiting space on the counter. Mascherano was heroic in midfield — covering enormous ground to protect the defensive line. Higuaín missed a clear early chance that might have changed history.
+
+Löw's decisive move: introducing Götze for Klose in the second half of extra time, telling him "Show the world you're better than Messi." Götze's chest control and volley — executed under extreme pressure on a Maracanã pitch already heavy with emotion — was a moment of perfection. Germany's fourth World Cup was their most technically complete triumph.`,
+    keyMoments: [
+      "Higuaín's first-half miss: clean through on goal, he shot straight at Neuer — the moment Argentina lost the World Cup",
+      "Mascherano's sliding tackle on Robben in extra time — one of the greatest defensive interventions in Final history",
+      "113': Götze's volley — Löw's message to 'be better than Messi' delivered in the most spectacular fashion",
+      "Germany become the first European team to win a World Cup in South America",
+      "Messi wins the Golden Ball as tournament's best player despite losing the Final — the decision remains controversial",
+    ],
+    historicalSignificance: `Germany's fourth World Cup title was their first as a unified nation — the previous three (1954, 1974, 1990) were won as West Germany. The triumph completed a decade-long rebuild of German football following their poor performance at Euro 2000. The youth development overhaul that began in 2001 had produced its dividend. Götze's goal, at 22, promised a brilliant future — though injury and form issues meant it remained his career's defining moment.`,
+    topPerformers: [
+      { name: "Mario Götze", side: "home", position: "SS · 🇩🇪", rating: 9.4, note: "Match-winning extra-time goal — the most important substitute appearance in World Cup history" },
+      { name: "Manuel Neuer", side: "home", position: "GK · 🇩🇪", rating: 9.2, note: "Sweeper-keeper masterclass — won the Golden Glove; defined a new style of goalkeeping" },
+      { name: "Javier Mascherano", side: "away", position: "CM · 🇦🇷", rating: 9.1, note: "Heroic defensive display — his tackle on Robben in extra time was the match's defensive moment" },
+      { name: "Lionel Messi", side: "away", position: "RW · 🇦🇷", rating: 7.8, note: "Golden Ball winner despite quiet Final — his inability to win the World Cup became the era's defining narrative" },
+    ],
+  },
+
+  // ─────────────────────────────────────────────
+  // 19. West Germany 1-1 England — 1990 SF (WG 4-3 pens)
+  // ─────────────────────────────────────────────
+  {
+    id: "west-germany-vs-england-1990-sf",
+    tournament: "FIFA World Cup 1990",
+    year: 1990,
+    stage: "Semi-Final",
+    date: "July 4, 1990",
+    venue: "Stadio delle Alpi",
+    city: "Turin, Italy",
+    home: {
+      name: "West Germany",
+      flag: "🇩🇪",
+      formation: "4-3-3",
+      color: "#2DFF7C",
+      colorDim: "rgba(45,255,124,0.18)",
+      players: ["Illgner","Reuter","Kohler","Augenthaler","Brehme","Häßler","Matthäus","Buchwald","Littbarski","Völler","Klinsmann"],
+      score: 1,
+    },
+    away: {
+      name: "England",
+      flag: "🏴󠁧󠁢󠁥󠁮󠁧󠁿",
+      formation: "4-4-2",
+      color: "#F5C518",
+      colorDim: "rgba(245,197,24,0.18)",
+      players: ["Shilton","Parker","Wright","Walker","Pearce","Platt","Waddle","Gascoigne","Beardsley","Lineker","Barnes"],
+      score: 1,
+    },
+    status: "PSO",
+    penaltyScore: "4-3",
+    xG: { home: 1.7, away: 1.5 },
+    possession: { home: 49, away: 51 },
+    timeline: [
+      { minute: "59'", side: "home", player: "Brehme", type: "goal", description: "Brehme's shot deflects off Pearce — Germany take the lead" },
+      { minute: "80'", side: "away", player: "Lineker", type: "goal", description: "Lineker equalises — England level with 10 minutes remaining" },
+      { minute: "PSO", side: "away", player: "Pearce", type: "pen_miss", description: "Pearce's powerful penalty is saved by Illgner — England's nightmare begins" },
+      { minute: "PSO", side: "away", player: "Waddle", type: "pen_miss", description: "Waddle blazes over — Germany go to the Final" },
+    ],
+    stats: [
+      { label: "Possession", home: 49, away: 51, homeWidth: 49, awayWidth: 51 },
+      { label: "Shots", home: 16, away: 14, homeWidth: 53, awayWidth: 47 },
+      { label: "Shots on Target", home: 7, away: 6, homeWidth: 54, awayWidth: 46 },
+      { label: "Pass Accuracy", home: "80%", away: "78%", homeWidth: 51, awayWidth: 49 },
+      { label: "Corners", home: 7, away: 9, homeWidth: 44, awayWidth: 56 },
+      { label: "Fouls", home: 22, away: 19, homeWidth: 54, awayWidth: 46 },
+      { label: "xG", home: "1.69", away: "1.54", homeWidth: 52, awayWidth: 48 },
+    ],
+    tacticalAnalysis: `The 1990 semi-final between West Germany and England is one of the most emotionally charged matches in World Cup history — the birthplace of Gazza's tears, Pearce's anguish, and an entire generation of English heartbreak.
+
+Both teams played functional but competitive football. Germany's 4-3-3 with Matthäus as a box-to-box force was tactically superior, but England were competitive throughout. Bobby Robson's 4-4-2 with Gascoigne as the creative engine and Lineker as the focal point matched Germany for much of the match.
+
+Brehme's deflected goal broke the deadlock. Lineker's equaliser — his ninth World Cup goal — brought England level and set up an extra-time period that neither team dominated. The penalty shootout that followed became one of England's most painful recurring nightmares.
+
+Gascoigne received a yellow card that would have ruled him out of the Final — and his tears at that moment, captured in close-up by ITV's cameras, became one of the images of the sporting decade. Pearce's saved penalty and Waddle's blast over the bar sealed England's fate. It would be 30 years before England reached another major tournament semi-final.`,
+    keyMoments: [
+      "Gazza's tears: Gascoigne's yellow card and subsequent emotional breakdown captured the nation's heart and changed the public perception of footballers",
+      "Lineker's equaliser: he glances at Gascoigne and mouths to the bench 'have a word with him' — a famous moment of sporting leadership",
+      "Pearce's saved penalty: struck with power but at Illgner's body — England's most experienced penalty taker fails",
+      "Waddle's skied miss: the image of the ball sailing into the Turin night became the defining symbol of English football's 90s trauma",
+      "England reach their first World Cup semi-final since 1966 — and their last until 2018",
+    ],
+    historicalSignificance: `This semi-final launched a 30-year national trauma around penalty shootouts that shaped English football's identity. The tears, the misses, and the Nessun Dorma soundtrack produced by ITV made the 1990 World Cup the moment when football became Britain's mainstream cultural event. Gascoigne's performance and emotion made him a superstar. Pearce and Waddle carried the weight of their misses for decades. The match also catalysed England's football revolution — the 1992 Premier League was born partly from the commercial energy generated by Italia 90.`,
+    topPerformers: [
+      { name: "Lothar Matthäus", side: "home", position: "CM · 🇩🇪", rating: 9.3, note: "Dominant throughout 120 minutes — converted his penalty; the complete midfielder" },
+      { name: "Paul Gascoigne", side: "away", position: "CM · 🏴󠁧󠁢󠁥󠁮󠁧󠁿", rating: 9.1, note: "Brilliant for 80 minutes before the yellow card; his tears defined a generation" },
+      { name: "Gary Lineker", side: "away", position: "CF · 🏴󠁧󠁢󠁥󠁮󠁧󠁿", rating: 8.7, note: "Equaliser and leadership — guided Gascoigne emotionally; tournament's Golden Boot" },
+      { name: "Jürgen Klinsmann", side: "home", position: "CF · 🇩🇪", rating: 8.4, note: "Constant movement caused England's defence problems throughout" },
+    ],
+  },
+
+  // ─────────────────────────────────────────────
+  // 20. Germany 0-2 Italy — 2006 Semi-Final (AET)
+  // ─────────────────────────────────────────────
+  {
+    id: "germany-vs-italy-2006-sf",
+    tournament: "FIFA World Cup 2006",
+    year: 2006,
+    stage: "Semi-Final",
+    date: "July 4, 2006",
+    venue: "Signal Iduna Park",
+    city: "Dortmund, Germany",
+    home: {
+      name: "Germany",
+      flag: "🇩🇪",
+      formation: "4-3-2-1",
+      color: "#2DFF7C",
+      colorDim: "rgba(45,255,124,0.18)",
+      players: ["Lehmann","Friedrich","Mertesacker","Metzelder","Lahm","Schneider","Frings","Borowski","Podolski","Klose","Schweinsteiger"],
+      score: 0,
+    },
+    away: {
+      name: "Italy",
+      flag: "🇮🇹",
+      formation: "4-4-2",
+      color: "#F5C518",
+      colorDim: "rgba(245,197,24,0.18)",
+      players: ["Buffon","Zambrotta","Cannavaro","Materazzi","Grosso","Camoranesi","Pirlo","Gattuso","Perrotta","Totti","Toni"],
+      score: 2,
+    },
+    status: "AET",
+    xG: { home: 1.4, away: 1.6 },
+    possession: { home: 52, away: 48 },
+    timeline: [
+      { minute: "119'", side: "away", player: "Grosso", type: "goal", description: "Pirlo's pass, Grosso drives past Lehmann — Italy lead with one minute of extra time left" },
+      { minute: "121'", side: "away", player: "Del Piero", type: "goal", description: "Del Piero seals it with a clipped finish — Italy are going to the Final" },
+    ],
+    stats: [
+      { label: "Possession", home: 52, away: 48, homeWidth: 52, awayWidth: 48 },
+      { label: "Shots", home: 18, away: 14, homeWidth: 56, awayWidth: 44 },
+      { label: "Shots on Target", home: 7, away: 5, homeWidth: 58, awayWidth: 42 },
+      { label: "Pass Accuracy", home: "83%", away: "85%", homeWidth: 49, awayWidth: 51 },
+      { label: "Corners", home: 9, away: 6, homeWidth: 60, awayWidth: 40 },
+      { label: "Fouls", home: 19, away: 26, homeWidth: 42, awayWidth: 58 },
+      { label: "xG", home: "1.38", away: "1.61", homeWidth: 46, awayWidth: 54 },
+    ],
+    tacticalAnalysis: `The 2006 semi-final in Dortmund produced one of the most dramatic finales in World Cup history — two goals in the final two minutes of extra time, both by Italy, against a German team that had dominated the match for 119 minutes.
+
+Germany, hosting the tournament, were the crowd's overwhelming favourites. Jürgen Klinsmann's 4-3-2-1 pressed aggressively and created numerous chances — 18 shots to Italy's 14 — but Buffon was impenetrable and Germany's finishing was profligate. Klose, Podolski, and Schweinsteiger all had opportunities.
+
+Italy's Marcello Lippi was patient. His 4-4-2 absorbed German pressure with Gattuso's combative pressing and Pirlo's deep passing intelligence. Cannavaro marshalled the defence brilliantly. Italy were waiting for the moment of exhaustion.
+
+With one minute of extra time remaining, Pirlo's pass released Grosso down the left. His drive past Lehmann was Italy's first genuine clear chance of the match. Then Del Piero, on as a substitute, clipped a second in the 121st minute. The Dortmund crowd fell silent. Germany — playing their best football in years on home soil — were out.`,
+    keyMoments: [
+      "119': Grosso's goal — Italy's first real clear chance of the match; scored with 60 seconds of extra time remaining",
+      "121': Del Piero's finish — a substitute's clipped goal that confirmed Italy's place in the Final and shattered German dreams",
+      "Buffon's clean sheet: Germany dominated possession and shots but could not breach the greatest goalkeeper of his generation",
+      "Pirlo's contribution: his late pass for Grosso was the defining moment — proof that Italy's patience outlasted German energy",
+      "The Dortmund crowd: 65,000 German fans in silence at full-time — one of the World Cup's most powerful atmospheric moments",
+    ],
+    historicalSignificance: `The 2006 semi-final confirmed Italy's tactical superiority in the art of winning matches without dominating them. Lippi's patient system — so different from Germany's energy and press — produced two goals at the moment of maximum German exhaustion. The match is a coaching masterclass in absorbing pressure and striking when opponents are spent. Germany, under Klinsmann, had rediscovered their football identity after poor years — this defeat inspired the squad that would ultimately win the 2014 World Cup.`,
+    topPerformers: [
+      { name: "Gianluigi Buffon", side: "away", position: "GK · 🇮🇹", rating: 9.6, note: "Extraordinary — kept a clean sheet despite 18 German shots; the match-defining performance" },
+      { name: "Andrea Pirlo", side: "away", position: "DM · 🇮🇹", rating: 9.2, note: "Controlled the match from deep — his pass for Grosso's winner was the decisive contribution" },
+      { name: "Fabio Grosso", side: "away", position: "LB · 🇮🇹", rating: 9.0, note: "Scored in the 119th minute — his goal and celebration became the tournament's iconic image" },
+      { name: "Lukas Podolski", side: "home", position: "LW · 🇩🇪", rating: 7.8, note: "Germany's most dangerous attacker — wasted the best German chance with a tame shot" },
+    ],
+  },
+
+  // ─────────────────────────────────────────────
+  // 21. Uruguay 2-1 Brazil — 1950 (Maracanazo)
+  // ─────────────────────────────────────────────
+  {
+    id: "uruguay-vs-brazil-1950-final",
+    tournament: "FIFA World Cup 1950",
+    year: 1950,
+    stage: "Final Round",
+    date: "July 16, 1950",
+    venue: "Estádio do Maracanã",
+    city: "Rio de Janeiro, Brazil",
+    home: {
+      name: "Uruguay",
+      flag: "🇺🇾",
+      formation: "4-2-4",
+      color: "#2DFF7C",
+      colorDim: "rgba(45,255,124,0.18)",
+      players: ["Máspoli","Tejera","Varela","Gambetta","González","Andrade","Ghiggia","Pérez","Míguez","Schiaffino","Morán"],
+      score: 2,
+    },
+    away: {
+      name: "Brazil",
+      flag: "🇧🇷",
+      formation: "4-2-4",
+      color: "#F5C518",
+      colorDim: "rgba(245,197,24,0.18)",
+      players: ["Barbosa","Augusto","Juvenal","Roque","Bauer","Danilo","Friaça","Zizinho","Ademir","Jair","Chico"],
+      score: 1,
+    },
+    status: "FT",
+    xG: { home: 1.4, away: 2.2 },
+    possession: { home: 42, away: 58 },
+    timeline: [
+      { minute: "47'", side: "away", player: "Friaça", type: "goal", description: "Friaça gives Brazil the lead — Maracanã erupts; Uruguay must score twice" },
+      { minute: "66'", side: "home", player: "Schiaffino", type: "goal", description: "Schiaffino equalises — silence descends on 200,000 spectators" },
+      { minute: "79'", side: "home", player: "Ghiggia", type: "goal", description: "Ghiggia drives to the near post and shoots — Barbosa unsighted; Uruguay win the World Cup" },
+    ],
+    stats: [
+      { label: "Possession", home: 42, away: 58, homeWidth: 42, awayWidth: 58 },
+      { label: "Shots", home: 11, away: 18, homeWidth: 38, awayWidth: 62 },
+      { label: "Shots on Target", home: 5, away: 9, homeWidth: 36, awayWidth: 64 },
+      { label: "Pass Accuracy", home: "74%", away: "80%", homeWidth: 48, awayWidth: 52 },
+      { label: "xG", home: "1.41", away: "2.19", homeWidth: 39, awayWidth: 61 },
+    ],
+    tacticalAnalysis: `The Maracanazo — the name given to Uruguay's 2-1 victory over Brazil in the 1950 World Cup Final Round — is the most shocking result in football history. Brazil needed only a draw to become world champions. 200,000 people packed the Maracanã. The entire country had stopped to celebrate. Then Ghiggia scored.
+
+The 1950 World Cup used a final round-robin format rather than a single Final. Brazil entered the decisive match needing only a draw against Uruguay, having beaten Sweden 7-1 and Spain 6-1. The Maracanã was so confident of victory that victory speeches had been prepared, medals had been made, and a song ("Brasil os vencedores") had already been recorded.
+
+Uruguay's Juan Alberto Schiaffino was the tactical key. Operating as a deep-lying forward in Uruguay's 4-2-4, he linked midfield and attack with intelligent movement. Alcides Ghiggia provided the pace and directness on the right that Brazil's left side could not handle.
+
+Friaça's goal after 47 minutes appeared to seal Brazil's World Cup. But Schiaffino's composed equaliser changed the mood. Then, in the 79th minute, Ghiggia exploited space on the right to shoot from an angle — a near-post finish that goalkeeper Barbosa failed to anticipate. The Maracanã fell into silence. Uruguay were world champions.`,
+    keyMoments: [
+      "Pre-match atmosphere: 200,000 spectators (the largest crowd in football history), victory celebrations already prepared",
+      "66': Schiaffino's equaliser — the moment the Maracanã fell silent for the first time",
+      "79': Ghiggia's winner — a near-post finish that Barbosa failed to reach; he later said 'only three people have silenced the Maracanã: Frank Sinatra, Pope John Paul II, and me'",
+      "Obdúlio Varela (Uruguay captain) picks up Brazilian newspapers proclaiming Brazil champions before the match to motivate his team",
+      "Barbosa is blamed: the goalkeeper is ostracised in Brazil for decades, barred from visiting the Brazilian national team",
+    ],
+    historicalSignificance: `The Maracanazo is the original World Cup shock — the template against which all subsequent upsets are measured. It broke an entire nation: players reportedly wept on the pitch, Jules Rimet (FIFA president) had to console Uruguay rather than Brazil. Goalkeeper Barbosa lived under the shadow of the defeat until his death in 2000, never forgiven by Brazilian football culture. The result led Brazil to change their kit from white to yellow — the white shirts were considered unlucky. No shock in football history has had comparable cultural consequence.`,
+    topPerformers: [
+      { name: "Alcides Ghiggia", side: "home", position: "RW · 🇺🇾", rating: 9.7, note: "Scored the winning goal that silenced 200,000 people — the most consequential goal in football history" },
+      { name: "Juan Schiaffino", side: "home", position: "CF · 🇺🇾", rating: 9.4, note: "Equaliser and creative engine — the finest Uruguayan player of his generation" },
+      { name: "Obdúlio Varela", side: "home", position: "CM · 🇺🇾", rating: 9.0, note: "Captained Uruguay's upset with extraordinary mental fortitude; his pre-match psychological tactics were masterful" },
+      { name: "Zizinho", side: "away", position: "AM · 🇧🇷", rating: 8.2, note: "Brazil's best player but could not influence the second half after the equaliser changed the atmosphere" },
+    ],
+  },
+
+  // ─────────────────────────────────────────────
+  // 22. Netherlands 2-2 Argentina — 2022 QF (ARG 4-3 pens)
+  // ─────────────────────────────────────────────
+  {
+    id: "netherlands-vs-argentina-2022-qf",
+    tournament: "FIFA World Cup 2022",
+    year: 2022,
+    stage: "Quarter-Final",
+    date: "December 9, 2022",
+    venue: "Lusail Iconic Stadium",
+    city: "Lusail, Qatar",
+    home: {
+      name: "Netherlands",
+      flag: "🇳🇱",
+      formation: "3-4-1-2",
+      color: "#2DFF7C",
+      colorDim: "rgba(45,255,124,0.18)",
+      players: ["Noppert","Timber","Van Dijk","Ake","Dumfries","De Jong","Berghuis","Blind","Gakpo","Bergwijn","Memphis"],
+      score: 2,
+    },
+    away: {
+      name: "Argentina",
+      flag: "🇦🇷",
+      formation: "4-3-3",
+      color: "#F5C518",
+      colorDim: "rgba(245,197,24,0.18)",
+      players: ["E. Martínez","Molina","Romero","Otamendi","Acuña","De Paul","Enzo Fernández","Mac Allister","Di María","Messi","Álvarez"],
+      score: 2,
+    },
+    status: "PSO",
+    penaltyScore: "4-3",
+    xG: { home: 1.8, away: 2.2 },
+    possession: { home: 44, away: 56 },
+    timeline: [
+      { minute: "35'", side: "away", player: "Molina", type: "goal", description: "Messi's perfectly weighted through-ball; Molina taps in" },
+      { minute: "73'", side: "away", player: "Messi", type: "pen_goal", description: "Messi converts after De Paul is fouled — Argentina 2-0 up" },
+      { minute: "83'", side: "home", player: "Weghorst", type: "goal", description: "Bergwijn's cross, Weghorst bundled finish — Netherlands back in it" },
+      { minute: "90+11'", side: "home", player: "Weghorst", type: "goal", description: "Weghorst's header from a clever free-kick routine — 2-2 in stoppage time" },
+      { minute: "PSO", side: "home", player: "Berghuis", type: "pen_miss", description: "Saved by E. Martínez — Argentina advance" },
+      { minute: "PSO", side: "home", player: "Berghuis", type: "pen_miss", description: "Saved by E. Martínez — Argentina advance" },
+    ],
+    stats: [
+      { label: "Possession", home: 44, away: 56, homeWidth: 44, awayWidth: 56 },
+      { label: "Shots", home: 16, away: 14, homeWidth: 53, awayWidth: 47 },
+      { label: "Shots on Target", home: 7, away: 5, homeWidth: 58, awayWidth: 42 },
+      { label: "Pass Accuracy", home: "83%", away: "85%", homeWidth: 49, awayWidth: 51 },
+      { label: "Fouls", home: 20, away: 25, homeWidth: 44, awayWidth: 56 },
+      { label: "Yellow Cards", home: "5", away: "9", homeWidth: 36, awayWidth: 64 },
+      { label: "xG", home: "1.84", away: "2.22", homeWidth: 45, awayWidth: 55 },
+    ],
+    tacticalAnalysis: `The 2022 quarter-final between Netherlands and Argentina was one of the tournament's most dramatic and ill-tempered matches — a contest of three goals in 11 minutes of stoppage time, a brawl at full-time, and a penalty shootout decided by Emiliano Martínez's psychological mastery.
+
+Argentina, apparently cruising at 2-0 with seven minutes remaining, were pegged back by substitute Wout Weghorst — on the pitch for just 11 minutes. Louis van Gaal's tactical gamble of the late substitution proved inspired: Weghorst's physical presence changed the match's dynamic. His second goal, from a quickly-taken free-kick designed by Van Gaal specifically for this situation, sent the match into extra time.
+
+Scaloni's Argentina were technically superior with Messi pulling the strings, but the second half saw a physical and aggressive Dutch approach that resulted in nine yellow cards for Argentina. The brawl at full-time between players, coaches, and staff reflected the intensity of the contest.
+
+In the shootout, Martínez's theatrics proved decisive. He saved from Berghuis and Bram consecutively, while Argentina converted four. Messi — previously excluded from penalty duties — stepped up and converted after a stutter, eyes locked on the goalkeeper.`,
+    keyMoments: [
+      "35': Messi's assist for Molina — the pass was weighted with millimetre precision through four defenders",
+      "83'–90+11': Weghorst scores twice in 11 minutes from 0-2 down — one of the great World Cup comebacks",
+      "90+11': The clever free-kick routine: Weghorst screens the ball, another player runs decoy, the cross finds Weghorst free — Van Gaal's pre-designed play",
+      "Post-match brawl: players and coaching staff clash on the pitch — 15+ people involved in confrontations",
+      "Martínez's PSO: he saved two penalties and used psychological pressure on Dutch takers throughout",
+    ],
+    historicalSignificance: `The match was the most watched sporting event in Qatar 2022 until the Final. It confirmed Martínez as the world's best penalty-shootout goalkeeper and Messi as the indispensable architect of Argentina's tournament run. Van Gaal's Netherlands — his third stint as manager — played impressive football but the late collapse and shootout defeat ended his World Cup career. Argentina went on to win the tournament.`,
+    topPerformers: [
+      { name: "Lionel Messi", side: "away", position: "RW · 🇦🇷", rating: 9.5, note: "1 goal, 1 assist — his through-ball for Molina was a masterclass of spatial intelligence" },
+      { name: "Emiliano Martínez", side: "away", position: "GK · 🇦🇷", rating: 9.4, note: "Two PSO saves — his psychological domination of Dutch takers was deliberate and devastating" },
+      { name: "Wout Weghorst", side: "home", position: "CF · 🇳🇱", rating: 9.2, note: "Two goals in 11 minutes as a substitute — one of the great cameo performances in World Cup history" },
+      { name: "Denzel Dumfries", side: "home", position: "RWB · 🇳🇱", rating: 8.4, note: "Constant threat down the right flank — the assist for Weghorst's first goal" },
+    ],
+  },
+
+  // ─────────────────────────────────────────────
+  // 23. France 4-3 Argentina — 2018 Round of 16
+  // ─────────────────────────────────────────────
+  {
+    id: "france-vs-argentina-2018-r16",
+    tournament: "FIFA World Cup 2018",
+    year: 2018,
+    stage: "Round of 16",
+    date: "June 30, 2018",
+    venue: "Kazan Arena",
+    city: "Kazan, Russia",
+    home: {
+      name: "France",
+      flag: "🇫🇷",
+      formation: "4-2-3-1",
+      color: "#2DFF7C",
+      colorDim: "rgba(45,255,124,0.18)",
+      players: ["Lloris","Pavard","Varane","Umtiti","Lucas Hernández","Kanté","Pogba","Mbappé","Griezmann","Lemar","Giroud"],
+      score: 4,
+    },
+    away: {
+      name: "Argentina",
+      flag: "🇦🇷",
+      formation: "4-4-2",
+      color: "#F5C518",
+      colorDim: "rgba(245,197,24,0.18)",
+      players: ["Caballero","Mercado","Otamendi","Rojo","Tagliafico","Banega","Mascherano","Di María","Pavón","Messi","Agüero"],
+      score: 3,
+    },
+    status: "FT",
+    xG: { home: 2.9, away: 2.1 },
+    possession: { home: 45, away: 55 },
+    timeline: [
+      { minute: "13'", side: "home", player: "Griezmann", type: "pen_goal", description: "Penalty after Di María is fouled — France take an early lead" },
+      { minute: "41'", side: "away", player: "Di María", type: "goal", description: "Di María's thunderous 30-yard strike — one of the goals of the tournament" },
+      { minute: "48'", side: "away", player: "Mercado", type: "goal", description: "Mercado deflects Messi's shot — Argentina lead 2-1" },
+      { minute: "57'", side: "home", player: "Pavard", type: "goal", description: "Pavard's volley from outside the box — voted Goal of the Tournament" },
+      { minute: "64'", side: "home", player: "Mbappé", type: "goal", description: "Mbappé's first — driving run and clinical finish from Giroud's pass" },
+      { minute: "68'", side: "home", player: "Mbappé", type: "goal", description: "Mbappé's second in four minutes — France 4-2 ahead" },
+      { minute: "90+3'", side: "away", player: "Agüero", type: "goal", description: "Agüero's late consolation — too little, too late" },
+    ],
+    stats: [
+      { label: "Possession", home: 45, away: 55, homeWidth: 45, awayWidth: 55 },
+      { label: "Shots", home: 18, away: 16, homeWidth: 53, awayWidth: 47 },
+      { label: "Shots on Target", home: 9, away: 7, homeWidth: 56, awayWidth: 44 },
+      { label: "Pass Accuracy", home: "82%", away: "85%", homeWidth: 49, awayWidth: 51 },
+      { label: "Fouls", home: 16, away: 19, homeWidth: 46, awayWidth: 54 },
+      { label: "xG", home: "2.88", away: "2.09", homeWidth: 58, awayWidth: 42 },
+    ],
+    tacticalAnalysis: `This round of 16 match was the game that introduced Kylian Mbappé to the world as football's next superstar. At 19 years old, the PSG forward produced a performance of explosive acceleration and clinical finishing that eliminated Messi's Argentina and confirmed France as World Cup favourites.
+
+France's tactical setup under Deschamps was designed to absorb and counter. Kanté's defensive work protected against Messi, while Mbappé's pace on the break was the primary weapon. Against an Argentina team struggling with cohesion — Lionel Scaloni would replace Jorge Sampaoli two months later — France's transitions were devastating.
+
+The match had extraordinary momentum swings. France led, Argentina fought back to 2-1, then Pavard's stunning volley levelled before Mbappé's brace put the game beyond doubt. Di María's 30-yard thunderbolt and Pavard's volley were two of the tournament's most spectacular goals. But the day belonged to Mbappé.
+
+Argentina's 4-4-2 under Sampaoli was tactically confused — Messi was isolated, the midfield was overrun by France's transition speed, and the team had no consistent system. It was the end of an era for Argentina's generation. Mbappé became the second teenager (after Pelé in 1958) to score twice in a World Cup knockout match.`,
+    keyMoments: [
+      "41': Di María's 30-yard thunderbolt — the goal that briefly gave Argentina hope and announced Di María's tournament",
+      "57': Pavard's volley — voted Goal of the Tournament; a first-time strike of technique rarely seen at World Cup level",
+      "64'–68': Mbappé scores twice in four minutes — his pace is impossible for Rojo and Otamendi to contain",
+      "Mbappé becomes only the second teenager (after Pelé) to score twice in a World Cup knockout game",
+      "Messi's last World Cup elimination in the round of 16 — four years later he wins the entire tournament",
+    ],
+    historicalSignificance: `The match is the official passing of the torch between football generations. Messi's Argentina exits while Mbappé's France advances to win the tournament. Mbappé's performance at 19 set the standard against which the next decade of his career would be measured. Argentina's defeat triggered a generational rebuild — Scaloni replaced Sampaoli, and the new generation (Enzo Fernández, Mac Allister, Molina) grew up to win the 2021 Copa América and 2022 World Cup.`,
+    topPerformers: [
+      { name: "Kylian Mbappé", side: "home", position: "RW · 🇫🇷", rating: 9.8, note: "Two goals — earned a penalty, won a sprint at 37km/h, and changed football's generational narrative" },
+      { name: "Benjamin Pavard", side: "home", position: "RB · 🇫🇷", rating: 9.0, note: "Goal of the Tournament — a volley of extraordinary technique from a right-back in a World Cup knockout" },
+      { name: "Ángel Di María", side: "away", position: "RW · 🇦🇷", rating: 8.6, note: "Spectacular long-range goal — the one moment of real Argentine quality in the match" },
+      { name: "Lionel Messi", side: "away", position: "CF · 🇦🇷", rating: 7.2, note: "Largely neutralised by Kanté and France's double pivot — his tournament ends in the last 16" },
+    ],
+  },
+
+  // ─────────────────────────────────────────────
+  // 24. Ghana 1-1 Uruguay — 2010 QF (URU 4-2 pens)
+  // ─────────────────────────────────────────────
+  {
+    id: "ghana-vs-uruguay-2010-qf",
+    tournament: "FIFA World Cup 2010",
+    year: 2010,
+    stage: "Quarter-Final",
+    date: "July 2, 2010",
+    venue: "Soccer City (FNB Stadium)",
+    city: "Johannesburg, South Africa",
+    home: {
+      name: "Ghana",
+      flag: "🇬🇭",
+      formation: "4-4-2",
+      color: "#2DFF7C",
+      colorDim: "rgba(45,255,124,0.18)",
+      players: ["Kingson","Sarpei","John Mensah","Jonathan Mensah","Inkoom","Muntari","Annan","Boateng","Asamoah","Gyan","Ayew"],
+      score: 1,
+    },
+    away: {
+      name: "Uruguay",
+      flag: "🇺🇾",
+      formation: "4-4-2",
+      color: "#F5C518",
+      colorDim: "rgba(245,197,24,0.18)",
+      players: ["Muslera","Maxi Pereira","Lugano","Godin","Victorino","Álvaro González","Arevalo","Eguren","Forlan","Suárez","Cavani"],
+      score: 1,
+    },
+    status: "PSO",
+    penaltyScore: "4-2",
+    xG: { home: 1.8, away: 1.3 },
+    possession: { home: 47, away: 53 },
+    timeline: [
+      { minute: "45+2'", side: "home", player: "Muntari", type: "goal", description: "Muntari's long-range strike — Ghana lead at half-time" },
+      { minute: "55'", side: "away", player: "Forlan", type: "goal", description: "Forlan's free-kick equalises — Uruguay level" },
+      { minute: "120'", side: "away", player: "Suárez", type: "red", description: "Suárez handles on the line — red card, penalty awarded to Ghana in final seconds of extra time" },
+      { minute: "120'", side: "home", player: "Gyan", type: "pen_miss", description: "Gyan's penalty hits the crossbar — Ghana's World Cup dream ends" },
+      { minute: "PSO", side: "home", player: "Mensah", type: "pen_miss", description: "Saved by Muslera — Uruguay advance" },
+      { minute: "PSO", side: "home", player: "Adiyiah", type: "pen_miss", description: "Saved by Muslera — Uruguay win 4-2" },
+    ],
+    stats: [
+      { label: "Possession", home: 47, away: 53, homeWidth: 47, awayWidth: 53 },
+      { label: "Shots", home: 14, away: 12, homeWidth: 54, awayWidth: 46 },
+      { label: "Shots on Target", home: 6, away: 5, homeWidth: 55, awayWidth: 45 },
+      { label: "Pass Accuracy", home: "79%", away: "81%", homeWidth: 49, awayWidth: 51 },
+      { label: "Fouls", home: 19, away: 22, homeWidth: 46, awayWidth: 54 },
+      { label: "xG", home: "1.82", away: "1.29", homeWidth: 58, awayWidth: 42 },
+    ],
+    tacticalAnalysis: `No World Cup match has generated more moral outrage and tactical controversy than the 2010 quarter-final between Ghana and Uruguay. In the final second of extra time, Luis Suárez deliberately handled the ball on the goal line to prevent what would have been the winning goal — an act of calculated cheating that denied Africa its first ever World Cup semi-finalist.
+
+Ghana were the better team. Kevin-Prince Boateng and Sulley Muntari controlled the midfield tempo. Asamoah Gyan was a constant threat. Muntari's first-half long-range strike gave Ghana a deserved lead. Forlan's free-kick equalised for Uruguay.
+
+As the match entered the final seconds of extra time, Dominic Adiyiah's header was heading into the net. Suárez, standing on the goal line, punched it away with both hands. He was sent off. A penalty was awarded. The entire continent of Africa held its breath as Gyan stepped up — and struck the crossbar.
+
+In the subsequent shootout, Ghana missed two penalties and Uruguay advanced. Suárez celebrated his red card on the touchline. The incident exposed a fundamental gap in football's rules: a player can deliberately deny a goal (and receive only a red card) if the benefit of the act — keeping the team in the World Cup — outweighs the penalty of the red card.`,
+    keyMoments: [
+      "120': Suárez's handball on the line — deliberate, calculated, and denied Ghana what would have been the most celebrated goal in African football history",
+      "Gyan hits the crossbar: the defining image of African football heartbreak — a crossbar that changed World Cup history",
+      "Suárez's celebration: his joy at being sent off — knowing he had 'saved' Uruguay — provoked outrage globally",
+      "Ghana become the last African team to reach the World Cup quarter-final in the competition's history to that point",
+      "Forlan's tournament: the Uruguayan forward goes on to win the Golden Ball — outstanding throughout",
+    ],
+    historicalSignificance: `The match triggered a global debate about football's handball laws that persists today. Should a deliberate handball that denies a certain goal be punished more severely than a red card and penalty? FIFA amended rules in subsequent years to award a goal in certain circumstances. Ghana's elimination prevented Africa from having a semi-finalist on home soil — a moment that would have been one of the most celebrated in the sport's history. Suárez remains football's most divisive figure because of this single act.`,
+    topPerformers: [
+      { name: "Asamoah Gyan", side: "home", position: "CF · 🇬🇭", rating: 8.5, note: "Powerful throughout — his penalty miss off the crossbar remains the most painful moment in African football" },
+      { name: "Diego Forlan", side: "away", position: "CF · 🇺🇾", rating: 9.2, note: "Equaliser and creative menace — won the Golden Ball for his overall tournament performance" },
+      { name: "Luis Suárez", side: "away", position: "CF · 🇺🇾", rating: 7.0, note: "Handball red card — deliberate cheating that 'saved' Uruguay; the most morally controversial act in World Cup history" },
+      { name: "Kevin-Prince Boateng", side: "home", position: "CM · 🇬🇭", rating: 8.3, note: "Dominated midfield with energy and physicality throughout the match" },
+    ],
+  },
+
+  // ─────────────────────────────────────────────
+  // 25. France 2-1 Croatia — 1998 Semi-Final
+  // ─────────────────────────────────────────────
+  {
+    id: "france-vs-croatia-1998-sf",
+    tournament: "FIFA World Cup 1998",
+    year: 1998,
+    stage: "Semi-Final",
+    date: "July 8, 1998",
+    venue: "Stade de France",
+    city: "Saint-Denis, France",
+    home: {
+      name: "France",
+      flag: "🇫🇷",
+      formation: "4-2-3-1",
+      color: "#2DFF7C",
+      colorDim: "rgba(45,255,124,0.18)",
+      players: ["Barthez","Thuram","Leboeuf","Desailly","Lizarazu","Deschamps","Petit","Zidane","Djorkaeff","Dugarry","Guivarc'h"],
+      score: 2,
+    },
+    away: {
+      name: "Croatia",
+      flag: "🇭🇷",
+      formation: "4-4-2",
+      color: "#F5C518",
+      colorDim: "rgba(245,197,24,0.18)",
+      players: ["Ladić","Šimić","Bilić","Soldo","Jarni","Asanović","Prosinečki","Boban","Stanić","Šuker","Bokšić"],
+      score: 1,
+    },
+    status: "FT",
+    xG: { home: 1.6, away: 1.8 },
+    possession: { home: 54, away: 46 },
+    timeline: [
+      { minute: "46'", side: "away", player: "Šuker", type: "goal", description: "Croatia take a shock lead at the start of the second half — tournament's Golden Boot winner" },
+      { minute: "47'", side: "home", player: "Thuram", type: "goal", description: "Thuram — the right-back — equalises immediately with his first ever France goal" },
+      { minute: "69'", side: "home", player: "Thuram", type: "goal", description: "Thuram's second goal in 23 minutes — a right-back winning a World Cup semi-final" },
+    ],
+    stats: [
+      { label: "Possession", home: 54, away: 46, homeWidth: 54, awayWidth: 46 },
+      { label: "Shots", home: 16, away: 17, homeWidth: 48, awayWidth: 52 },
+      { label: "Shots on Target", home: 7, away: 8, homeWidth: 47, awayWidth: 53 },
+      { label: "Pass Accuracy", home: "84%", away: "80%", homeWidth: 51, awayWidth: 49 },
+      { label: "Corners", home: 7, away: 8, homeWidth: 47, awayWidth: 53 },
+      { label: "Fouls", home: 16, away: 22, homeWidth: 42, awayWidth: 58 },
+      { label: "xG", home: "1.58", away: "1.79", homeWidth: 47, awayWidth: 53 },
+    ],
+    tacticalAnalysis: `The 1998 World Cup semi-final between France and Croatia is remembered for one remarkable fact: the two decisive goals were scored by a right-back. Lilian Thuram — one of the greatest defenders of his generation — had never scored for France before this match. He scored twice in 23 second-half minutes to send the host nation to the Final.
+
+Croatia arrived at the semi-final as the tournament's surprise package. Miroslav Blažević's 4-4-2 featured Davor Šuker — the tournament's Golden Boot winner — and creative midfielders in Boban and Prosinečki. Croatia had eliminated Germany in the quarter-final with a stunning 3-0 victory.
+
+France, under Aimé Jacquet, deployed a pragmatic 4-2-3-1 with Zidane operating as the chief creator. The first half was tight. Then Šuker — of course — opened the scoring immediately after half-time with his characteristic coolness. France appeared in crisis.
+
+Thuram's response was immediate. His equaliser — a right-foot drive into the bottom corner — was his first international goal in 37 appearances. Then, 22 minutes later, Jarni's poor clearance fell to Thuram, who drove in his second. No right-back in football history has had a more impactful single match performance in a major tournament.`,
+    keyMoments: [
+      "Thuram's two goals: a right-back scoring twice in a World Cup semi-final — the only time in tournament history",
+      "Šuker's opener: 46 seconds into the second half, catching France's defence completely unprepared",
+      "47': Thuram's immediate equaliser — the fastest response to a goal by a defender in World Cup history at that point",
+      "Croatia had beaten Germany 3-0 in the quarter-final — their best-ever performance before the 2022 generation",
+      "France's defensive organisation: Desailly and Leboeuf eventually stifle Šuker and Bokšić after Croatia's fast start",
+    ],
+    historicalSignificance: `Croatia's 1998 run — reaching the semi-final in only their second World Cup — was the achievement that established them as a genuine football nation. Šuker's Golden Boot, Boban's creativity, and Blažević's tactical intelligence created a template that the 2022 generation (Modrić, Perišić, Brozović) refined to reach two consecutive finals. Thuram's performance inspired a generation of French defenders and remains the most celebrated individual performance by a full-back in World Cup semi-final history.`,
+    topPerformers: [
+      { name: "Lilian Thuram", side: "home", position: "RB · 🇫🇷", rating: 9.9, note: "Two goals in a World Cup semi-final as a right-back — the greatest individual defensive performance in World Cup history" },
+      { name: "Davor Šuker", side: "away", position: "CF · 🇭🇷", rating: 9.0, note: "Tournament's Golden Boot (6 goals) — his opener briefly gave Croatia the match" },
+      { name: "Zinedine Zidane", side: "home", position: "AM · 🇫🇷", rating: 8.6, note: "Controlled France's possession after Croatia's early pressure; set up Thuram's second" },
+      { name: "Zvonimir Boban", side: "away", position: "CM · 🇭🇷", rating: 8.2, note: "Creative and combative — Croatia's tactical brain who almost dragged them into the Final" },
+    ],
+  },
+
+  // ─────────────────────────────────────────────
+  // 26. Senegal 1-0 France — 2002 Group Stage
+  // ─────────────────────────────────────────────
+  {
+    id: "senegal-vs-france-2002-group",
+    tournament: "FIFA World Cup 2002",
+    year: 2002,
+    stage: "Group Stage",
+    date: "May 31, 2002",
+    venue: "Seoul World Cup Stadium",
+    city: "Seoul, South Korea",
+    home: {
+      name: "Senegal",
+      flag: "🇸🇳",
+      formation: "4-4-2",
+      color: "#2DFF7C",
+      colorDim: "rgba(45,255,124,0.18)",
+      players: ["Tony Sylva","Pape Sarr","Aliou Cissé","Lamine Diatta","Ferdinand Coly","Salif Diao","Khalilou Fadiga","Moussa N'Diaye","El Hadj Diouf","Papa Bouba Diop","Habib Beye"],
+      score: 1,
+    },
+    away: {
+      name: "France",
+      flag: "🇫🇷",
+      formation: "4-2-3-1",
+      color: "#F5C518",
+      colorDim: "rgba(245,197,24,0.18)",
+      players: ["Barthez","Lizarazu","Thuram","Leboeuf","Candela","Petit","Vieira","Zidane","Djorkaeff","Henry","Trezeguet"],
+      score: 0,
+    },
+    status: "FT",
+    xG: { home: 0.9, away: 1.6 },
+    possession: { home: 38, away: 62 },
+    timeline: [
+      { minute: "30'", side: "home", player: "Papa Bouba Diop", type: "goal", description: "Papa Bouba Diop follows up a Tony Sylva save — the goal that shocked the world" },
+    ],
+    stats: [
+      { label: "Possession", home: 38, away: 62, homeWidth: 38, awayWidth: 62 },
+      { label: "Shots", home: 9, away: 17, homeWidth: 35, awayWidth: 65 },
+      { label: "Shots on Target", home: 4, away: 7, homeWidth: 36, awayWidth: 64 },
+      { label: "Pass Accuracy", home: "72%", away: "85%", homeWidth: 46, awayWidth: 54 },
+      { label: "Corners", home: 3, away: 9, homeWidth: 25, awayWidth: 75 },
+      { label: "Fouls", home: 18, away: 21, homeWidth: 46, awayWidth: 54 },
+      { label: "xG", home: "0.91", away: "1.58", homeWidth: 37, awayWidth: 63 },
+    ],
+    tacticalAnalysis: `Senegal's 1-0 victory over defending World Cup champions France in the opening match of the 2002 tournament is the greatest upset in World Cup group stage history. France arrived in South Korea as the world's best team — reigning World Cup champions (1998) and European champions (2000). They were eliminated in the group stage without scoring a single goal.
+
+Bruno Metsu's Senegal deployed a disciplined 4-4-2 that was physically aggressive, tactically well-organised, and collectively invested. Most of Senegal's squad played in France's Ligue 1 — they knew the French players intimately. Aliou Cissé (now Senegal's manager) marshalled the defensive midfield with intelligence.
+
+France's problems were multiple: Zidane was injured and unavailable; Djorkaeff and Henry couldn't link effectively; Vieira was isolated. The team that had won two consecutive major trophies with a blend of organisation and individual quality was now disorganised and reliant on fading veterans.
+
+Papa Bouba Diop's 30th-minute goal — following up a Tony Sylva save — proved decisive. Senegal defended with remarkable composure for the remaining hour. Their players' celebration — removing their shirts and dancing around a pile of their jerseys — became one of the World Cup's iconic images.`,
+    keyMoments: [
+      "30': Papa Bouba Diop's goal — the shot that ended France's reign as world champions had barely reached the tournament",
+      "The celebration: Senegal's players strip off their shirts and dance together — pure joy from a debutant nation",
+      "France's no-goals tournament: they are eliminated without scoring — the defending champions' most humiliating exit",
+      "Zidane absent: France's best player misses the opening two matches through injury — the team has no creative solution",
+      "Senegal reach the quarter-final: they go on to beat Sweden and draw with Denmark, eventually losing to Turkey",
+    ],
+    historicalSignificance: `Senegal's victory confirmed that African football had arrived on the world stage. Their subsequent run to the quarter-final — where they lost to Turkey — was the best African performance since Cameroon's 1990 quarter-final. France's elimination without a goal was the most shocking defence-of-title collapse since the same happened to Brazil in 1966. The match is the founding moment of modern Senegalese football — their national team won the Africa Cup of Nations in 2022, 20 years later.`,
+    topPerformers: [
+      { name: "Papa Bouba Diop", side: "home", position: "CF · 🇸🇳", rating: 8.8, note: "Scored the goal that toppled the world champions — the moment that launched Senegalese football globally" },
+      { name: "Aliou Cissé", side: "home", position: "CM · 🇸🇳", rating: 8.6, note: "Tactical discipline personified — now manages Senegal's national team" },
+      { name: "El-Hadj Diouf", side: "home", position: "FW · 🇸🇳", rating: 8.4, note: "Constant nuisance — awarded FIFA's Most Promising Player at the tournament" },
+      { name: "Patrick Vieira", side: "away", position: "CM · 🇫🇷", rating: 6.5, note: "Physically imposing but tactically isolated — France's midfield had no creativity without Zidane" },
+    ],
+  },
+
+  // ─────────────────────────────────────────────
+  // 27. Germany 0-1 Spain — 2010 Semi-Final
+  // ─────────────────────────────────────────────
+  {
+    id: "germany-vs-spain-2010-sf",
+    tournament: "FIFA World Cup 2010",
+    year: 2010,
+    stage: "Semi-Final",
+    date: "July 7, 2010",
+    venue: "Moses Mabhida Stadium",
+    city: "Durban, South Africa",
+    home: {
+      name: "Germany",
+      flag: "🇩🇪",
+      formation: "4-2-3-1",
+      color: "#2DFF7C",
+      colorDim: "rgba(45,255,124,0.18)",
+      players: ["Neuer","Lahm","Mertesacker","Friedrich","Boateng","Schweinsteiger","Khedira","Müller","Özil","Klose","Podolski"],
+      score: 0,
+    },
+    away: {
+      name: "Spain",
+      flag: "🇪🇸",
+      formation: "4-2-3-1",
+      color: "#F5C518",
+      colorDim: "rgba(245,197,24,0.18)",
+      players: ["Casillas","Sergio Ramos","Piqué","Capdevila","Marchena","Xabi Alonso","Busquets","David Villa","Xavi","Iniesta","Torres"],
+      score: 1,
+    },
+    status: "FT",
+    xG: { home: 0.8, away: 1.4 },
+    possession: { home: 37, away: 63 },
+    timeline: [
+      { minute: "73'", side: "away", player: "Puyol", type: "goal", description: "Carles Puyol's thundering header from a Xavi corner — the central defender wins the semi-final" },
+    ],
+    stats: [
+      { label: "Possession", home: 37, away: 63, homeWidth: 37, awayWidth: 63 },
+      { label: "Shots", home: 13, away: 12, homeWidth: 52, awayWidth: 48 },
+      { label: "Shots on Target", home: 5, away: 5, homeWidth: 50, awayWidth: 50 },
+      { label: "Pass Accuracy", home: "77%", away: "91%", homeWidth: 46, awayWidth: 54 },
+      { label: "Corners", home: 6, away: 9, homeWidth: 40, awayWidth: 60 },
+      { label: "Fouls", home: 17, away: 20, homeWidth: 46, awayWidth: 54 },
+      { label: "xG", home: "0.83", away: "1.39", homeWidth: 37, awayWidth: 63 },
+    ],
+    tacticalAnalysis: `The 2010 semi-final between Germany and Spain was the meeting of tournament's best team in the knockout rounds (Germany, with 13 goals scored) against the tournament's best system (Spain's tiki-taka). Spain won with a header from a central defender — the least likely method of defeating Germany's high-press.
+
+Germany's 4-2-3-1 under Joachim Löw had been devastating in the group stage and knockout rounds: 4-1 vs Australia, 4-0 vs England, 4-0 vs Argentina. Their pressing system and the pace of Müller and Özil was the tournament's most dangerous attacking combination.
+
+Spain's Del Bosque set up his 4-2-3-1 with Busquets as the single pivot — the key that protected against Germany's transition pace. Xavi's 800 passes per game controlled the tempo entirely. With 63% possession, Spain kept Germany away from the ball and denied them the counter-attacking opportunities their pace required.
+
+The decisive moment was tactical irony: Spain's goal came not from their flowing passing but from a set-piece. Xavi's corner, Puyol's run, and a thundering header that Germany's defence couldn't deal with. Germany — who had scored 13 goals with only six shots on target — were eliminated by a central defender's header.`,
+    keyMoments: [
+      "Spain's 63% possession: Germany — who had destroyed England and Argentina — barely touched the ball",
+      "73': Puyol's header — a central defender's goal from a corner settles a tactical masterclass in possession football",
+      "Müller neutralised: Germany's Golden Boot winner (5 goals) was anonymous against Spain's pressing coverage",
+      "Spain's pass accuracy of 91% — the highest recorded in a World Cup semi-final at that point",
+      "Germany's first semi-final exit in 20 years — the loss that refocused Löw's system for 2014",
+    ],
+    historicalSignificance: `The match confirmed Spain's tiki-taka as the dominant tactical system of the era. Their 63% possession against Germany — previously the tournament's most irresistible force — was proof that the system could suppress even the best counter-attacking teams. Germany's defeat inspired Löw to incorporate more possession-based principles into his system — the evolution that produced the 2014 champions.`,
+    topPerformers: [
+      { name: "Xavi Hernández", side: "away", position: "CM · 🇪🇸", rating: 9.4, note: "817 total passes in the tournament — against Germany, his control of tempo was absolute" },
+      { name: "Carles Puyol", side: "away", position: "CB · 🇪🇸", rating: 9.2, note: "Scored the match-winner with a header — a central defender deciding a World Cup semi-final" },
+      { name: "Sergio Busquets", side: "away", position: "DM · 🇪🇸", rating: 9.0, note: "The tactical key: his positioning denied Germany the transition spaces their system required" },
+      { name: "Thomas Müller", side: "home", position: "AM · 🇩🇪", rating: 6.8, note: "Anonymous — Spain's midfield coverage neutralised his movement completely" },
+    ],
+  },
+
+  // ─────────────────────────────────────────────
+  // 28. Sweden 2-5 Brazil — 1958 Final
+  // ─────────────────────────────────────────────
+  {
+    id: "sweden-vs-brazil-1958-final",
+    tournament: "FIFA World Cup 1958",
+    year: 1958,
+    stage: "Final",
+    date: "June 29, 1958",
+    venue: "Råsunda Stadium",
+    city: "Solna, Sweden",
+    home: {
+      name: "Sweden",
+      flag: "🇸🇪",
+      formation: "4-2-4",
+      color: "#2DFF7C",
+      colorDim: "rgba(45,255,124,0.18)",
+      players: ["Svensson","Bergmark","Gustavsson","Axbom","Borjesson","Parling","Hamrin","Gren","Simonsson","Liedholm","Skoglund"],
+      score: 2,
+    },
+    away: {
+      name: "Brazil",
+      flag: "🇧🇷",
+      formation: "4-2-4",
+      color: "#F5C518",
+      colorDim: "rgba(245,197,24,0.18)",
+      players: ["Gilmar","Djalma Santos","Bellini","Orlando","Nilton Santos","Zito","Didi","Garrincha","Pelé","Vavá","Zagallo"],
+      score: 5,
+    },
+    status: "FT",
+    xG: { home: 1.8, away: 4.2 },
+    possession: { home: 42, away: 58 },
+    timeline: [
+      { minute: "4'", side: "home", player: "Liedholm", type: "goal", description: "Sweden take a shock lead — Brazil behind in a World Cup Final for the first time" },
+      { minute: "9'", side: "away", player: "Vavá", type: "goal", description: "Garrincha's run and cross — Vavá equalises" },
+      { minute: "32'", side: "away", player: "Vavá", type: "goal", description: "Second Vavá goal — Brazil lead 2-1 at half-time" },
+      { minute: "55'", side: "away", player: "Pelé", type: "goal", description: "Pelé's chest control and volley — voted the greatest World Cup Final goal at the time" },
+      { minute: "68'", side: "away", player: "Zagallo", type: "goal", description: "Zagallo adds a fourth — only man to win the World Cup as both player and manager" },
+      { minute: "80'", side: "home", player: "Simonsson", type: "goal", description: "Sweden's consolation" },
+      { minute: "90'", side: "away", player: "Pelé", type: "goal", description: "Pelé's header completes the rout — he weeps at the final whistle, aged 17" },
+    ],
+    stats: [
+      { label: "Possession", home: 42, away: 58, homeWidth: 42, awayWidth: 58 },
+      { label: "Shots", home: 14, away: 22, homeWidth: 39, awayWidth: 61 },
+      { label: "Shots on Target", home: 7, away: 14, homeWidth: 33, awayWidth: 67 },
+      { label: "Pass Accuracy", home: "76%", away: "82%", homeWidth: 48, awayWidth: 52 },
+      { label: "xG", home: "1.79", away: "4.19", homeWidth: 30, awayWidth: 70 },
+    ],
+    tacticalAnalysis: `The 1958 World Cup Final introduced 17-year-old Pelé to the world and announced Brazil as the definitive force in world football. On Sweden's home soil, in a match the hosts had prepared for months, Brazil's combination of tactical innovation and individual brilliance was overwhelming.
+
+Brazil's 4-2-4 system was revolutionary for 1958. Manager Vicente Feola's formation placed four attackers — Garrincha, Pelé, Vavá, and Zagallo — in a line that stretched opposing defences horizontally and vertically. Garrincha on the right was perhaps the most technically brilliant winger the game had seen, destroying full-backs with step-overs and directness.
+
+Sweden took a shock early lead through Liedholm — for the only time in the tournament, Brazil trailed. The response was emphatic: Vavá twice in the first half, then Pelé in the 55th minute with a goal of extraordinary technical quality for any player, let alone a 17-year-old.
+
+Pelé's first goal — chest control, a flick over the defender's head, and a volley — was the moment the world understood they were witnessing something historically rare. His second, a header in the final minute, completed a 5-2 victory. Pelé wept at the final whistle — the youngest player to score in a World Cup Final, still a world record.`,
+    keyMoments: [
+      "17-year-old Pelé: scores twice in the World Cup Final — the youngest scorer in Final history, a record that still stands",
+      "Garrincha's performance: his dribbling on the right wing was simply unstoppable; he created two of Brazil's five goals",
+      "Sweden score first: the only time Brazil fall behind in the 1958 tournament — their response is immediate and devastating",
+      "Pelé's first goal: chest control, flick over defender, volley — described by contemporaries as the most beautiful goal ever seen",
+      "Pelé's tears: the final whistle brings floods of tears from the 17-year-old — the most watched sporting image of 1958",
+    ],
+    historicalSignificance: `The 1958 World Cup Final is Pelé's origin story — the moment the world discovered the most naturally gifted footballer who ever lived. Brazil's victory in Sweden also confirmed the 4-2-4 as the dominant tactical innovation of the decade. Zagallo, who scored in this Final, would go on to manage Brazil's 1970 World Cup winners — the only man to win the World Cup as both player (1958, 1962) and manager (1970) at that point.`,
+    topPerformers: [
+      { name: "Pelé", side: "away", position: "CF · 🇧🇷", rating: 9.9, note: "Two goals at 17 — the birth of football's greatest legend on the world stage" },
+      { name: "Garrincha", side: "away", position: "RW · 🇧🇷", rating: 9.6, note: "Unstoppable on the right — his dribbling made Sweden's left side non-existent" },
+      { name: "Didi", side: "away", position: "CM · 🇧🇷", rating: 9.0, note: "The tactical orchestrator — controlled the tempo and created space for Pelé and Garrincha" },
+      { name: "Nils Liedholm", side: "home", position: "AM · 🇸🇪", rating: 8.2, note: "Scored the opener and maintained quality — Sweden's best player, later a legendary AC Milan manager" },
+    ],
+  },
+
+  // ─────────────────────────────────────────────
+  // 29. France 1-0 Belgium — 2018 Semi-Final
+  // ─────────────────────────────────────────────
+  {
+    id: "france-vs-belgium-2018-sf",
+    tournament: "FIFA World Cup 2018",
+    year: 2018,
+    stage: "Semi-Final",
+    date: "July 10, 2018",
+    venue: "Saint Petersburg Stadium",
+    city: "Saint Petersburg, Russia",
+    home: {
+      name: "France",
+      flag: "🇫🇷",
+      formation: "4-2-3-1",
+      color: "#2DFF7C",
+      colorDim: "rgba(45,255,124,0.18)",
+      players: ["Lloris","Pavard","Varane","Umtiti","Lucas Hernández","Kanté","Pogba","Mbappé","Griezmann","Matuidi","Giroud"],
+      score: 1,
+    },
+    away: {
+      name: "Belgium",
+      flag: "🇧🇪",
+      formation: "3-4-3",
+      color: "#F5C518",
+      colorDim: "rgba(245,197,24,0.18)",
+      players: ["Courtois","Alderweireld","Kompany","Vertonghen","Meunier","Witsel","Fellaini","De Bruyne","Mertens","Lukaku","Hazard"],
+      score: 0,
+    },
+    status: "FT",
+    xG: { home: 0.9, away: 1.8 },
+    possession: { home: 40, away: 60 },
+    timeline: [
+      { minute: "51'", side: "home", player: "Umtiti", type: "goal", description: "Umtiti heads in from Griezmann's corner — the only goal, and the match winner" },
+    ],
+    stats: [
+      { label: "Possession", home: 40, away: 60, homeWidth: 40, awayWidth: 60 },
+      { label: "Shots", home: 11, away: 19, homeWidth: 37, awayWidth: 63 },
+      { label: "Shots on Target", home: 4, away: 9, homeWidth: 31, awayWidth: 69 },
+      { label: "Pass Accuracy", home: "82%", away: "88%", homeWidth: 48, awayWidth: 52 },
+      { label: "Corners", home: 6, away: 4, homeWidth: 60, awayWidth: 40 },
+      { label: "Fouls", home: 14, away: 18, homeWidth: 44, awayWidth: 56 },
+      { label: "xG", home: "0.89", away: "1.81", homeWidth: 33, awayWidth: 67 },
+    ],
+    tacticalAnalysis: `The 2018 semi-final between France and Belgium was billed as the "real Final" — the two most talented squads in the tournament meeting before the trophy match. Belgium, with De Bruyne, Hazard, and Lukaku, were the Golden Generation that had never won a major tournament. France won 1-0 from a set-piece despite being the second-best team on the night.
+
+Roberto Martínez's Belgium played an aggressive 3-4-3 with De Bruyne as the creative hub. With 60% possession and 19 shots to France's 11, Belgium were statistically dominant throughout. Hazard's movement and De Bruyne's passing created chance after chance that Lloris and France's disciplined block denied.
+
+Deschamps' France were counter-attacking masters. With only 40% possession — their lowest of the tournament — France defended in a 4-5-1 deep block and looked to exploit space with Mbappé's pace. The tactical gambit of defending and striking on the break frustrated Belgium enormously.
+
+The decisive moment came from a set-piece — Belgium's weakness. Griezmann's corner, Umtiti's run, and a header that Courtois — despite being the world's best goalkeeper — couldn't reach. Belgium created the better chances; France scored from their only corner and defended for their lives. The 1-0 remains the tournament's most contentious result.`,
+    keyMoments: [
+      "51': Umtiti's header — Belgium's set-piece vulnerability, exposed; France's only corner of the second half proved decisive",
+      "Belgium's dominance: 19 shots, 60% possession, 1.81 xG — yet Belgium score zero goals",
+      "Kanté vs De Bruyne: the tournament's most compelling midfield duel — Kanté neutralised Belgium's creative engine",
+      "Lloris's saves: multiple critical stops that kept Belgium scoreless; his performance was the match's tactical keystone",
+      "Belgium's 'Golden Generation' tournament ends: Hazard, De Bruyne, and Lukaku never win a major tournament together",
+    ],
+    historicalSignificance: `The match ended Belgium's 'Golden Generation' era. De Bruyne, Hazard, Lukaku, and Vertonghen — who had been top-5 players in the world simultaneously — never got closer to a major trophy. Martínez resigned after the 2022 World Cup group stage. France's victory confirmed Deschamps' tactical philosophy: sacrifice possession and beauty for defensive solidity and clinical conversion of minimal chances.`,
+    topPerformers: [
+      { name: "N'Golo Kanté", side: "home", position: "CM · 🇫🇷", rating: 9.4, note: "Neutralised De Bruyne with extraordinary defensive awareness — the tactical hero of France's win" },
+      { name: "Kevin De Bruyne", side: "away", position: "AM · 🇧🇪", rating: 9.0, note: "19 Belgian shots; De Bruyne created 4 clear chances but France's block denied them all" },
+      { name: "Hugo Lloris", side: "home", position: "GK · 🇫🇷", rating: 9.1, note: "Multiple crucial saves — the last line of a defensive system that was perfect under pressure" },
+      { name: "Samuel Umtiti", side: "home", position: "CB · 🇫🇷", rating: 9.0, note: "Scored the only goal — a centre-back winning a World Cup semi-final from a set-piece" },
+    ],
+  },
+
+  // ─────────────────────────────────────────────
+  // 30. Argentina 3-0 Croatia — 2022 Semi-Final
+  // ─────────────────────────────────────────────
+  {
+    id: "argentina-vs-croatia-2022-sf",
+    tournament: "FIFA World Cup 2022",
+    year: 2022,
+    stage: "Semi-Final",
+    date: "December 13, 2022",
+    venue: "Lusail Iconic Stadium",
+    city: "Lusail, Qatar",
+    home: {
+      name: "Argentina",
+      flag: "🇦🇷",
+      formation: "4-3-3",
+      color: "#2DFF7C",
+      colorDim: "rgba(45,255,124,0.18)",
+      players: ["E. Martínez","Molina","Romero","Otamendi","Acuña","De Paul","Enzo Fernández","Mac Allister","Di María","Messi","Álvarez"],
+      score: 3,
+    },
+    away: {
+      name: "Croatia",
+      flag: "🇭🇷",
+      formation: "4-3-3",
+      color: "#F5C518",
+      colorDim: "rgba(245,197,24,0.18)",
+      players: ["Livaković","Juranović","Šimunić","Gvardiol","Sosa","Modrić","Brozović","Kovačić","Perišić","Kramarić","Petković"],
+      score: 0,
+    },
+    status: "FT",
+    xG: { home: 2.8, away: 0.6 },
+    possession: { home: 52, away: 48 },
+    timeline: [
+      { minute: "34'", side: "home", player: "Messi", type: "pen_goal", description: "Messi's penalty after a foul on Álvarez — composed and low to Livaković's right" },
+      { minute: "39'", side: "home", player: "Álvarez", type: "goal", description: "Julián Álvarez wins the ball, dribbles half the pitch, and finishes — a goal of breathtaking solo quality" },
+      { minute: "69'", side: "home", player: "Álvarez", type: "goal", description: "Messi's dribble beats Gvardiol (the world's best young defender) and squares for Álvarez — 3-0" },
+    ],
+    stats: [
+      { label: "Possession", home: 52, away: 48, homeWidth: 52, awayWidth: 48 },
+      { label: "Shots", home: 15, away: 8, homeWidth: 65, awayWidth: 35 },
+      { label: "Shots on Target", home: 7, away: 2, homeWidth: 78, awayWidth: 22 },
+      { label: "Pass Accuracy", home: "85%", away: "86%", homeWidth: 50, awayWidth: 50 },
+      { label: "Corners", home: 6, away: 3, homeWidth: 67, awayWidth: 33 },
+      { label: "Fouls", home: 14, away: 12, homeWidth: 54, awayWidth: 46 },
+      { label: "xG", home: "2.82", away: "0.58", homeWidth: 83, awayWidth: 17 },
+    ],
+    tacticalAnalysis: `Argentina's 3-0 semi-final victory over Croatia was the match that settled all debate about Messi's greatness. His performance — 1 goal, 1 assist that included humiliating the world's best young defender — was the finest individual semi-final display since Maradona's 1986 tournament.
+
+Croatia, who had beaten Brazil in the quarter-final, deployed a 4-3-3 with Modrić as the creative fulcrum. But Scaloni's Argentina, with Mac Allister and Enzo Fernández in midfield, pressed with extraordinary intensity that denied Modrić and Kovačić the time and space they needed.
+
+The second goal was Álvarez's: a ball-winning tackle in his own half, a solo run of 40 metres, and a composed finish. The third was Messi's: he received the ball near the right touchline, beat Joško Gvardiol — Bayern Munich's brilliant 20-year-old — twice in succession, and squared for Álvarez to tap in. Gvardiol, who had been considered unbeatable, was turned inside out twice in seconds.
+
+Croatia never recovered from going two goals down before half-time. Their possession-based system required composure that a two-goal deficit against an in-form Argentina obliterated. Modrić played his final World Cup match — at 37 — having made the semi-final for the second consecutive tournament.`,
+    keyMoments: [
+      "39': Álvarez's solo goal — a tackle, a 40-metre run, and a finish that announced him to the world",
+      "69': Messi beats Gvardiol: the 35-year-old turns the world's most highly-rated young defender twice in two seconds — the dribble of the tournament",
+      "Modrić's farewell: the 37-year-old plays his last World Cup game — two consecutive semi-finals for Croatia at this age is without precedent",
+      "Argentina's pressing: Scaloni's system harassed Croatia's build-up and denied Brozović and Modrić their usual influence",
+      "Álvarez's double: the 22-year-old announces himself as a world-class striker alongside Messi in this match",
+    ],
+    historicalSignificance: `The match confirmed Messi's place as football's greatest player. At 35, in what was his final World Cup, he produced the tournament's defining individual performance — beating Gvardiol (20 years old and rated the world's best young defender) as if playing in a training session. Álvarez's emergence as Messi's partner gave Argentina a generational succession plan. Croatia's run to two consecutive semi-finals (2018 and 2022) confirmed them as the sport's most overachieving national team relative to population.`,
+    topPerformers: [
+      { name: "Lionel Messi", side: "home", position: "RW · 🇦🇷", rating: 9.9, note: "1 goal, 1 assist — the Gvardiol dribble is the moment that ended all debate about his greatness" },
+      { name: "Julián Álvarez", side: "home", position: "CF · 🇦🇷", rating: 9.5, note: "Two goals — the solo second goal and composed third finish; his World Cup breakout match" },
+      { name: "Luka Modrić", side: "away", position: "CM · 🇭🇷", rating: 7.8, note: "His tournament ends in defeat — but his second consecutive semi-final at 37 is historically unprecedented" },
+      { name: "Rodrigo De Paul", side: "home", position: "CM · 🇦🇷", rating: 8.8, note: "Controlled the midfield battle against Brozović — Argentina's most underrated player of the tournament" },
+    ],
+  },
+
 ];
 
 // Helper to get a match by ID
