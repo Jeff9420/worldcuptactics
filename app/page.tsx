@@ -283,6 +283,30 @@ export default function Home() {
         </div>
       </div>
 
+      {/* ABOUT STRIP */}
+      <div className="section" style={{ background: "var(--bg-surface)", borderTop: "1px solid var(--border)" }}>
+        <div style={{ maxWidth: "800px", margin: "0 auto", textAlign: "center", padding: "1rem 0" }}>
+          <div style={{ fontFamily: "'JetBrains Mono',monospace", fontSize: "0.7rem", letterSpacing: "0.14em", textTransform: "uppercase", color: "var(--accent-green)", marginBottom: "0.75rem" }}>
+            About WorldCupTactics
+          </div>
+          <h2 style={{ fontFamily: "'Barlow Condensed',sans-serif", fontSize: "1.6rem", fontWeight: 800, textTransform: "uppercase", color: "var(--text-primary)", marginBottom: "1rem", lineHeight: 1.2 }}>
+            Every Great Match Has a<br />
+            <span style={{ color: "var(--accent-green)" }}>Tactical Story</span>
+          </h2>
+          <p style={{ color: "var(--text-secondary)", fontSize: "0.9rem", lineHeight: 1.8, marginBottom: "1.5rem" }}>
+            WorldCupTactics uses AI to produce deep tactical breakdowns of the greatest World Cup matches ever played. From Pelé&apos;s 1958 debut to Mbappé&apos;s 2022 hat-trick — every match gets formations analysis, xG modelling, timeline reconstruction, and a full AI tactical report.
+          </p>
+          <div style={{ display: "flex", gap: "1rem", justifyContent: "center", flexWrap: "wrap" }}>
+            <Link href="/matches" className="btn-primary" style={{ padding: "0.6rem 1.5rem" }}>
+              Browse All 30 Matches
+            </Link>
+            <Link href="/about" style={{ padding: "0.6rem 1.5rem", fontFamily: "'Barlow Condensed',sans-serif", fontSize: "0.85rem", fontWeight: 700, textTransform: "uppercase", letterSpacing: "0.06em", color: "var(--text-secondary)", border: "1px solid var(--border-mid)", borderRadius: "6px", textDecoration: "none" }}>
+              How It Works
+            </Link>
+          </div>
+        </div>
+      </div>
+
       {/* FOOTER */}
       <footer style={{ padding: "2rem 3rem", borderTop: "1px solid var(--border)", display: "flex", alignItems: "center", gap: "2rem", flexWrap: "wrap" }}>
         <div className="nav-logo">World<span style={{ color: "var(--accent-green)" }}>Cup</span>Tactics</div>
