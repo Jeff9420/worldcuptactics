@@ -26,6 +26,41 @@ const EVENT_ICONS: Record<string, string> = {
   sub: "↕",
 };
 
+function ShareBar({ match }: { match: Match }) {
+  const [copied, setCopied] = useState(false);
+  const url = `https://worldcuptactics.com/matches/${match.id}`;
+  const text = `${match.home.flag} ${match.home.name} ${match.home.score}–${match.away.score} ${match.away.name} ${match.away.flag} — ${match.stage}, ${match.year} | AI Tactical Analysis`;
+
+  function copyLink() {
+    navigator.clipboard.writeText(url).then(() => {
+      setCopied(true);
+      setTimeout(() => setCopied(false), 2000);
+    });
+  }
+
+  return (
+    <div style={{ borderTop: "1px solid var(--border)", padding: "1.5rem 3rem", display: "flex", alignItems: "center", gap: "0.75rem", flexWrap: "wrap" }}>
+      <span style={{ fontFamily: "'JetBrains Mono',monospace", fontSize: "0.7rem", letterSpacing: "0.1em", textTransform: "uppercase", color: "var(--text-muted)" }}>
+        Share this analysis:
+      </span>
+      <a
+        href={`https://twitter.com/intent/tweet?text=${encodeURIComponent(text)}&url=${encodeURIComponent(url)}`}
+        target="_blank"
+        rel="noopener noreferrer"
+        style={{ display: "inline-flex", alignItems: "center", gap: "0.4rem", padding: "0.4rem 0.9rem", background: "rgba(255,255,255,0.05)", border: "1px solid var(--border-mid)", borderRadius: "6px", fontFamily: "'Barlow Condensed',sans-serif", fontSize: "0.82rem", fontWeight: 700, textTransform: "uppercase", letterSpacing: "0.05em", color: "var(--text-secondary)", textDecoration: "none", transition: "border-color 0.15s" }}
+      >
+        𝕏 Post
+      </a>
+      <button
+        onClick={copyLink}
+        style={{ display: "inline-flex", alignItems: "center", gap: "0.4rem", padding: "0.4rem 0.9rem", background: copied ? "rgba(45,255,124,0.08)" : "rgba(255,255,255,0.05)", border: `1px solid ${copied ? "rgba(45,255,124,0.3)" : "var(--border-mid)"}`, borderRadius: "6px", fontFamily: "'Barlow Condensed',sans-serif", fontSize: "0.82rem", fontWeight: 700, textTransform: "uppercase", letterSpacing: "0.05em", color: copied ? "var(--accent-green)" : "var(--text-secondary)", cursor: "pointer", transition: "all 0.15s" }}
+      >
+        {copied ? "✓ Copied!" : "⎘ Copy Link"}
+      </button>
+    </div>
+  );
+}
+
 export default function MatchDetail({
   match,
   relatedMatches = [],
@@ -807,6 +842,9 @@ export default function MatchDetail({
           </div>
         </div>
       </div>
+
+      {/* SHARE */}
+      <ShareBar match={match} />
 
       {/* RELATED MATCHES */}
       {relatedMatches.length > 0 && (
