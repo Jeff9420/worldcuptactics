@@ -27,7 +27,7 @@ export async function generateMetadata({
 
   return {
     title: `${match.home.name} ${score}${statusSuffix} ${match.away.name} — ${match.tournament} | WorldCupTactics`,
-    description: `Tactical analysis of ${match.home.name} vs ${match.away.name} in the ${match.stage} of the ${match.tournament}. ${match.tacticalAnalysis.substring(0, 160)}`,
+    description: match.metaDescription,
     openGraph: {
       title: `${match.home.flag} ${match.home.name} ${score} ${match.away.name} ${match.away.flag} — Tactical Analysis`,
       description: `AI tactical breakdown of the ${match.year} World Cup ${match.stage}.`,

@@ -54,6 +54,7 @@ export interface Match {
   possession: { home: number; away: number };
   timeline: TimelineEvent[];
   stats: MatchStat[];
+  metaDescription: string;
   tacticalAnalysis: string;
   keyMoments: string[];
   historicalSignificance: string;
@@ -113,6 +114,7 @@ export const MATCHES: Match[] = [
       { label: "Fouls", home: 10, away: 14, homeWidth: 42, awayWidth: 58 },
       { label: "xG", home: "5.81", away: "0.92", homeWidth: 86, awayWidth: 14 },
     ],
+    metaDescription: "AI tactical analysis of Germany's 7-1 demolition of Brazil in the 2014 World Cup semi-final — the Mineirazo. Formations, xG, and the tactical breakdown of football's most shocking result.",
     tacticalAnalysis: `Germany's annihilation of host nation Brazil at the Mineirão — dubbed the 'Mineirazo' — remains the most shocking result in World Cup history. Joachim Löw's side exploited a tactically naive and emotionally fragile Brazil with surgical precision.
 
 Brazil entered without their captain Thiago Silva (suspended) and talisman Neymar (injured), and the structural consequences proved catastrophic. Luiz Felipe Scolari set up a 4-2-3-1 that relied heavily on individual brilliance — but without Neymar, no individual was present to carry the load.
@@ -190,6 +192,7 @@ In the second half, Germany managed the game professionally rather than cruelly 
       { label: "Fouls", home: 16, away: 14, homeWidth: 53, awayWidth: 47 },
       { label: "xG", home: "3.08", away: "2.83", homeWidth: 52, awayWidth: 48 },
     ],
+    metaDescription: "AI tactical analysis of Argentina vs France in the 2022 World Cup Final — Messi vs Mbappé, 3-3 AET, Argentina win on penalties. The greatest World Cup Final ever played, fully dissected.",
     tacticalAnalysis: `The 2022 World Cup Final delivered one of sport's most extraordinary narratives: a match that appeared decided with 10 minutes remaining, only for Kylian Mbappé to produce the greatest individual salvage operation in the history of the sport.
 
 Argentina's manager Lionel Scaloni deployed a tactically intelligent 4-3-3 that neutralised France's creative engine. The key was isolating Mbappé. By keeping Mac Allister and De Paul in a compact double pivot, Scaloni denied France space in the half-spaces that Griezmann typically exploits. Di María was given freedom to push high and wide on the right, and his movement stretched France's left side — eventually leading to the 36th-minute goal of the highest quality.
@@ -258,6 +261,7 @@ Extra time was played at an extraordinary intensity. Messi restored Argentina's 
       { label: "Fouls", home: 22, away: 28, homeWidth: 44, awayWidth: 56 },
       { label: "xG", home: "1.89", away: "1.41", homeWidth: 57, awayWidth: 43 },
     ],
+    metaDescription: "AI tactical analysis of Spain vs Netherlands in the 2010 World Cup Final — Iniesta's extra-time winner, tiki-taka at its peak. Full tactical breakdown of Spain's first World Cup.",
     tacticalAnalysis: `Spain's tiki-taka philosophy, refined over four years by Vicente del Bosque, reached its zenith in Johannesburg. The 2010 World Cup Final was not a beautiful game — it was a tactical battle of the highest intensity, punctuated by Dutch cynicism and Spanish persistence.
 
 Netherlands manager Bert van Marwijk deployed a deliberate plan: deny Spain space in central areas with a deep, compact 4-2-3-1 and use aggressive pressing to disrupt Spain's rhythm. The Dutch tactical discipline worked for long periods, but the constant fouls required to maintain it — 28 in total, including Nigel de Jong's infamous karate kick on Xabi Alonso — cost nine yellow cards.
@@ -329,6 +333,7 @@ The decisive moment came in the 116th minute of extra time. Fàbregas — on as 
       { label: "Fouls", home: 14, away: 18, homeWidth: 44, awayWidth: 56 },
       { label: "xG", home: "2.41", away: "0.58", homeWidth: 81, awayWidth: 19 },
     ],
+    metaDescription: "AI tactical analysis of France vs Brazil in the 1998 World Cup Final — Zidane's two headers, Ronaldo's mystery illness, and France's first World Cup triumph on home soil.",
     tacticalAnalysis: `The 1998 World Cup Final produced a result that surprised almost everyone — and one that was profoundly shaped by events off the pitch. Zinedine Zidane delivered one of the great individual final performances, but the match's defining sub-plot was Brazil's preparation for kick-off.
 
 Ronaldo — the world's best player and Brazil's talismanic striker — suffered a convulsive episode in the team hotel hours before the match. He was initially left out of the starting lineup, then restored to it. The effects were visible: Ronaldo was a shadow of himself, unable to influence the game in any meaningful way. The confusion in the Brazil camp disrupted their entire preparation.
@@ -398,6 +403,7 @@ Even reduced to 10 men after Desailly's red card in the 68th minute, France were
       { label: "Fouls Suffered (Maradona)", home: "9", away: "—", homeWidth: 100, awayWidth: 0 },
       { label: "xG", home: "1.82", away: "1.19", homeWidth: 60, awayWidth: 40 },
     ],
+    metaDescription: "AI tactical analysis of Argentina vs England 1986 quarter-final — Maradona's Hand of God and Goal of the Century, both in one match. The most iconic 4 minutes in football history.",
     tacticalAnalysis: `No match in World Cup history has produced two goals of such contrasting moral significance. In the space of four minutes, Maradona scored the most controversial goal ever seen and the greatest goal ever scored — a duality that has defined his legend for nearly four decades.
 
 Argentina's manager Carlos Bilardo set up a direct, counter-attacking 4-3-3 that channelled the ball to Maradona as quickly and frequently as possible. Maradona operated as a free agent — nominally on the left, but drifting centrally to pick up the ball and drive at England's defence. Bilardo's genius was creating a team of intelligent runners — Valdano and Burruchaga — who could exploit the spaces Maradona opened with his dribbles and passes.
@@ -469,6 +475,7 @@ The 51st-minute goal saw Maradona punch the ball into the net with his left hand
       { label: "Dribbles Completed", home: 14, away: 5, homeWidth: 74, awayWidth: 26 },
       { label: "xG", home: "3.61", away: "1.08", homeWidth: 77, awayWidth: 23 },
     ],
+    metaDescription: "AI tactical analysis of Brazil vs Italy in the 1970 World Cup Final — Pelé, Jairzinho, and Carlos Alberto's perfect team goal. Tactical breakdown of the greatest World Cup team ever assembled.",
     tacticalAnalysis: `The 1970 World Cup Final pitted football's two dominant philosophies against each other: Brazilian flair versus Italian tactical rigour. Brazil's attacking 4-3-3 against Italy's defensive catenaccio-influenced system. The result was an emphatic victory for jogo bonito — the beautiful game.
 
 Brazil's 1970 squad is widely considered the greatest international team ever assembled. Manager Mário Zagallo had the tactical intelligence to place extraordinary individual talent into a coherent system. Pelé operated as a false nine, dropping deep to receive and create overloads. Gérson controlled the tempo from midfield. Jairzinho provided relentless energy and goals on the right. Rivelino was a creative force on the left. Tostão was the mobile centre-forward who dragged defenders out of position.
@@ -540,6 +547,7 @@ The final goal — Carlos Alberto's 86th-minute thunderbolt — epitomised the B
       { label: "Fouls", home: 21, away: 16, homeWidth: 57, awayWidth: 43 },
       { label: "xG", home: "2.38", away: "2.91", homeWidth: 45, awayWidth: 55 },
     ],
+    metaDescription: "AI tactical analysis of Italy vs Brazil in the 1982 World Cup — Paolo Rossi's hat-trick eliminates the most beloved team never to win the tournament. The greatest match ever played?",
     tacticalAnalysis: `The 1982 match between Italy and Brazil at Sarrià is considered by many football historians to be the greatest World Cup match ever played — predating even the 2022 Final. It contained tactical brilliance, stunning individual goals, a hat-trick from a man who had barely played in the previous three years, and the elimination of what many believed to be the most technically gifted team of the era.
 
 Brazil's 1982 squad — containing Zico, Sócrates, Falcão, Eder, and Júnior — played a brand of football that generated overwhelming possession and beauty. Manager Telê Santana's system asked attacking midfielders to play without fear, creating and shooting from distance. The problem was structural: Brazil's defensive organisation was fragile.
@@ -612,6 +620,7 @@ Brazil needed only a draw to advance. After Falcão's spectacular equaliser made
       { label: "Fouls", home: 15, away: 18, homeWidth: 45, awayWidth: 55 },
       { label: "xG", home: "3.21", away: "1.84", homeWidth: 64, awayWidth: 36 },
     ],
+    metaDescription: "AI tactical analysis of England vs West Germany in the 1966 World Cup Final — Hurst's hat-trick, the disputed crossbar goal, and England's only World Cup triumph at Wembley.",
     tacticalAnalysis: `The 1966 World Cup Final — played at a Wembley packed with 96,924 spectators and watched by 400 million on television — remains England's greatest sporting achievement. Alf Ramsey's 4-4-2 "wingless wonders" system was tactically revolutionary for its era and proved perfectly suited to the strengths of his squad.
 
 Ramsey's decision to abandon traditional wingers was considered radical in 1966. By using attacking midfielders — particularly Ball and Peters — in wide positions, England created a more compact and disciplined shape that opponents struggled to break down. The 4-4-2 flat midfield was new to international football at the time and provided a defensive solidity that allowed England to maintain consistent pressure on West Germany.
@@ -683,6 +692,7 @@ The match turned on moments of controversy and individual brilliance. Weber's la
       { label: "Pass Accuracy", home: "74%", away: "82%", homeWidth: 47, awayWidth: 53 },
       { label: "xG", home: "2.08", away: "3.41", homeWidth: 38, awayWidth: 62 },
     ],
+    metaDescription: "AI tactical analysis of West Germany vs Hungary in the 1954 World Cup Final — the Miracle of Bern. Rahn's winner against the unbeaten Golden Team; football's original great upset.",
     tacticalAnalysis: `The 1954 World Cup Final — known as the Miracle of Bern — produced one of football's most improbable results. Hungary's Golden Team, who had gone four years and 31 matches without defeat, and who had beaten West Germany 8-3 in the group stage just days earlier, were somehow beaten by a team of extraordinary resilience and tactical adaptability.
 
 Hungary's revolutionary 4-2-4 system — pioneered by coach Gusztáv Sebes — was the most modern tactical structure in football at the time. The false nine (Hidegkuti dropping deep) and the two genuine strikers (Kocsis and Puskás) in a 4-2-4 created a system that contemporary defences had no answer for. Their 4-year unbeaten run was built on this tactical innovation.
@@ -754,6 +764,7 @@ The match was played in driving rain on a waterlogged Bern pitch. West Germany's
       { label: "Fouls", home: 22, away: 26, homeWidth: 46, awayWidth: 54 },
       { label: "xG", home: "1.08", away: "1.31", homeWidth: 45, awayWidth: 55 },
     ],
+    metaDescription: "AI tactical analysis of Brazil vs Italy in the 1994 World Cup Final — the first goalless Final, Roberto Baggio's miss over the bar, and Brazil's fourth world title decided on penalties.",
     tacticalAnalysis: `The 1994 World Cup Final is the only one in the tournament's history to end goalless after extra time and be decided by a penalty shootout. It was also, by common consent, the least entertaining World Cup Final ever played — and yet it produced one of the sport's most harrowing and iconic images.
 
 Brazil, under Carlos Alberto Parreira, had built a pragmatic and disciplined team around the striker partnership of Romário and Bebeto — arguably the finest striking duo at a single World Cup. In 120 minutes against Italy, neither scored. The Italian defensive organisation, orchestrated by the 36-year-old Franco Baresi — playing with a repaired knee injury — was the most effective rearguard action in Final history.
@@ -822,6 +833,7 @@ The penalty shootout — played in intense Californian heat — was decided by t
       { label: "Fouls", home: 20, away: 22, homeWidth: 48, awayWidth: 52 },
       { label: "xG", home: "2.18", away: "1.97", homeWidth: 53, awayWidth: 47 },
     ],
+    metaDescription: "AI tactical analysis of West Germany vs Netherlands in the 1974 World Cup Final — Cruyff's Total Football vs German efficiency. Müller's winner beats football's most revolutionary system.",
     tacticalAnalysis: `The 1974 World Cup Final pitted two of football's most distinctive tactical philosophies against each other: the Dutch Total Football revolution against the pragmatic German efficiency. Netherlands, led by Johan Cruyff, played a fluid 4-3-3 where players interchanged positions constantly — a system so advanced it took European football a decade to fully understand it.
 
 Germany's manager Helmut Schön deployed a more direct 4-2-4 with Beckenbauer operating as a libero. The key tactical instruction was simple: stop Cruyff. Berti Vogts was assigned to man-mark him throughout, and succeeded in limiting Cruyff's influence after the opening exchanges.
@@ -893,6 +905,7 @@ Breitner's penalty equalised before Müller — the tournament's top scorer — 
       { label: "Fouls", home: 18, away: 21, homeWidth: 46, awayWidth: 54 },
       { label: "xG", home: "2.58", away: "1.84", homeWidth: 58, awayWidth: 42 },
     ],
+    metaDescription: "AI tactical analysis of Argentina vs Netherlands in the 1978 World Cup Final — Kempes's two goals, Rensenbrink's post in the 90th minute, Argentina's first World Cup title.",
     tacticalAnalysis: `The 1978 World Cup Final was played against the backdrop of Argentina's military dictatorship — the junta of General Jorge Videla used the tournament as a propaganda exercise. On the pitch, the match was a dramatic contest that came within inches of going to a penalty shootout.
 
 Argentina, under César Luis Menotti, played an attacking 4-3-3 built around the physical and creative genius of Mario Kempes. Menotti's philosophy was attack-minded — he wanted Argentine football to express itself without pragmatic compromise. Kempes, the tournament's top scorer, was given freedom to drift wide and drive at defenders.
@@ -964,6 +977,7 @@ Extra time was Argentina's. Kempes' bundled second goal gave Argentina the lead 
       { label: "Fouls", home: 18, away: 21, homeWidth: 46, awayWidth: 54 },
       { label: "xG", home: "2.41", away: "2.09", homeWidth: 54, awayWidth: 46 },
     ],
+    metaDescription: "AI tactical analysis of Argentina vs West Germany in the 1986 World Cup Final — Maradona's tournament climax, Burruchaga's winner after Germany fight back from 2-0 down.",
     tacticalAnalysis: `The 1986 World Cup Final was Maradona's coronation. Having produced the Hand of God and Goal of the Century in the quarter-final against England, Maradona now led Argentina to the world title in a match of genuine drama — a 2-0 lead surrendered, then reclaimed in the final minutes.
 
 Carlos Bilardo's 4-3-3 was built entirely around Maradona as its creative hub. The system gave Maradona freedom to drift, hold the ball under pressure, and pick passes into the final third. His understanding with Valdano and Burruchaga was the tournament's most dangerous attacking partnership.
@@ -1033,6 +1047,7 @@ The tactical lesson: Bilardo's pragmatic Argentina — ridiculed by purists — 
       { label: "Fouls", home: 19, away: 28, homeWidth: 40, awayWidth: 60 },
       { label: "xG", home: "1.78", away: "0.41", homeWidth: 81, awayWidth: 19 },
     ],
+    metaDescription: "AI tactical analysis of West Germany vs Argentina in the 1990 World Cup Final — Brehme's penalty, two red cards for Argentina, and Beckenbauer's pragmatic triumph in Rome.",
     tacticalAnalysis: `The 1990 World Cup Final is widely considered the worst in the tournament's history — a cynical, foul-ridden match decided by a late penalty in which Argentina, defending champions, were reduced to nine men. Yet it was also a tactical story of exceptional discipline from Beckenbauer's Germany.
 
 Argentina arrived at the Final without the suspended Caniggia and with Maradona clearly carrying an ankle injury. Bilardo's 4-4-2 was purely defensive — Argentina had no intention of attacking. They had reached the Final through goalkeeping heroics from Goycochea in two consecutive penalty shootouts.
@@ -1101,6 +1116,7 @@ Brehme's penalty, struck with his weaker right foot after Matthäus handed it to
       { label: "Fouls", home: 14, away: 19, homeWidth: 42, awayWidth: 58 },
       { label: "xG", home: "2.31", away: "0.83", homeWidth: 74, awayWidth: 26 },
     ],
+    metaDescription: "AI tactical analysis of Brazil vs Germany in the 2002 World Cup Final — Ronaldo's redemption story, two goals in Yokohama, and Brazil's record fifth World Cup title.",
     tacticalAnalysis: `The 2002 World Cup Final delivered one of football's greatest individual redemption stories. Ronaldo, whose mysterious illness had cost Brazil the 1998 Final, scored both goals in Yokohama to claim his second world title and cement his claim to greatness.
 
 Brazil's 4-2-3-1 under Luiz Felipe Scolari was built around a fluid attacking partnership: Ronaldo as the focal point, Rivaldo and Ronaldinho as creative forces behind him. Gilberto Silva and Kléberson anchored the midfield with defensive discipline, giving the attacking players freedom to express themselves.
@@ -1172,6 +1188,7 @@ The second goal was a statement of quality: Rivaldo's weighted pass found Ronald
       { label: "Fouls", home: 24, away: 22, homeWidth: 52, awayWidth: 48 },
       { label: "xG", home: "1.38", away: "1.61", homeWidth: 46, awayWidth: 54 },
     ],
+    metaDescription: "AI tactical analysis of Italy vs France in the 2006 World Cup Final — Zidane's Panenka, his headbutt on Materazzi, and Italy's shootout victory. The most dramatic Final since 1966.",
     tacticalAnalysis: `The 2006 World Cup Final will forever be defined by one moment — Zinedine Zidane's headbutt on Marco Materazzi in the 110th minute. But the match itself was a high-quality tactical contest between Italy's defensive excellence and France's creative attacking play.
 
 Marcello Lippi's Italy deployed a 4-4-2 built on Pirlo's deep playmaking and the defensive solidity of Cannavaro and Materazzi. Gattuso's pressing was relentless. The system was designed to absorb pressure and strike on the counter — the same philosophy that had won them the European Championship with Inter and AC Milan in club football.
@@ -1244,6 +1261,7 @@ What happened in extra time remains one of football's great controversies. Mater
       { label: "Fouls", home: 14, away: 10, homeWidth: 58, awayWidth: 42 },
       { label: "xG", home: "1.97", away: "2.31", homeWidth: 46, awayWidth: 54 },
     ],
+    metaDescription: "AI tactical analysis of France vs Croatia in the 2018 World Cup Final — Mbappé scores at 19, Pogba's strike, VAR penalty, and France's counter-attacking masterclass in Moscow.",
     tacticalAnalysis: `The 2018 World Cup Final was a masterclass in counter-attacking football from France — a team that won with only 34% possession. Didier Deschamps constructed a tactically ruthless side around Kanté's defensive industry and the pace of Mbappé and Griezmann on the break.
 
 Croatia, who had played three consecutive extra-time matches in the knockout rounds, were physically and emotionally exhausted. Zlatko Dalić's 4-3-3 was technically superior and dominated the ball, but France's defensive shape — Kanté and Matuidi in a double pivot — was almost impenetrable.
@@ -1311,6 +1329,7 @@ Mbappé, 19, became the youngest scorer in a World Cup Final since Pelé in 1958
       { label: "Fouls", home: 12, away: 17, homeWidth: 41, awayWidth: 59 },
       { label: "xG", home: "1.62", away: "1.19", homeWidth: 58, awayWidth: 42 },
     ],
+    metaDescription: "AI tactical analysis of Germany vs Argentina in the 2014 World Cup Final — Götze's extra-time volley at the Maracanã wins Germany's fourth World Cup. Full tactical breakdown.",
     tacticalAnalysis: `The 2014 World Cup Final was decided by one moment of individual brilliance in extra time — Mario Götze's 113th-minute volley that gave Germany their fourth World Cup. A match of tactical complexity and few clear chances was settled by Löw's inspired substitution.
 
 Germany's 4-2-3-1 was the tournament's most complete team system: aggressive pressing, positional superiority, and the technical quality to circulate the ball at pace. Löw's side had just destroyed Brazil 7-1 — a result that made them overwhelming favourites for the Final.
@@ -1382,6 +1401,7 @@ Löw's decisive move: introducing Götze for Klose in the second half of extra t
       { label: "Fouls", home: 22, away: 19, homeWidth: 54, awayWidth: 46 },
       { label: "xG", home: "1.69", away: "1.54", homeWidth: 52, awayWidth: 48 },
     ],
+    metaDescription: "AI tactical analysis of West Germany vs England in the 1990 World Cup semi-final — Gazza's tears, Pearce and Waddle's missed penalties, the match that defined English football heartbreak.",
     tacticalAnalysis: `The 1990 semi-final between West Germany and England is one of the most emotionally charged matches in World Cup history — the birthplace of Gazza's tears, Pearce's anguish, and an entire generation of English heartbreak.
 
 Both teams played functional but competitive football. Germany's 4-3-3 with Matthäus as a box-to-box force was tactically superior, but England were competitive throughout. Bobby Robson's 4-4-2 with Gascoigne as the creative engine and Lineker as the focal point matched Germany for much of the match.
@@ -1450,6 +1470,7 @@ Gascoigne received a yellow card that would have ruled him out of the Final — 
       { label: "Fouls", home: 19, away: 26, homeWidth: 42, awayWidth: 58 },
       { label: "xG", home: "1.38", away: "1.61", homeWidth: 46, awayWidth: 54 },
     ],
+    metaDescription: "AI tactical analysis of Germany vs Italy in the 2006 World Cup semi-final — Grosso and Del Piero score in extra time's final two minutes to eliminate the host nation in Dortmund.",
     tacticalAnalysis: `The 2006 semi-final in Dortmund produced one of the most dramatic finales in World Cup history — two goals in the final two minutes of extra time, both by Italy, against a German team that had dominated the match for 119 minutes.
 
 Germany, hosting the tournament, were the crowd's overwhelming favourites. Jürgen Klinsmann's 4-3-2-1 pressed aggressively and created numerous chances — 18 shots to Italy's 14 — but Buffon was impenetrable and Germany's finishing was profligate. Klose, Podolski, and Schweinsteiger all had opportunities.
@@ -1517,6 +1538,7 @@ With one minute of extra time remaining, Pirlo's pass released Grosso down the l
       { label: "Pass Accuracy", home: "74%", away: "80%", homeWidth: 48, awayWidth: 52 },
       { label: "xG", home: "1.41", away: "2.19", homeWidth: 39, awayWidth: 61 },
     ],
+    metaDescription: "AI tactical analysis of the Maracanazo — Uruguay's 2-1 shock over Brazil in the 1950 World Cup before 200,000 at the Maracanã. Ghiggia's winner silenced the world's largest crowd.",
     tacticalAnalysis: `The Maracanazo — the name given to Uruguay's 2-1 victory over Brazil in the 1950 World Cup Final Round — is the most shocking result in football history. Brazil needed only a draw to become world champions. 200,000 people packed the Maracanã. The entire country had stopped to celebrate. Then Ghiggia scored.
 
 The 1950 World Cup used a final round-robin format rather than a single Final. Brazil entered the decisive match needing only a draw against Uruguay, having beaten Sweden 7-1 and Spain 6-1. The Maracanã was so confident of victory that victory speeches had been prepared, medals had been made, and a song ("Brasil os vencedores") had already been recorded.
@@ -1590,6 +1612,7 @@ Friaça's goal after 47 minutes appeared to seal Brazil's World Cup. But Schiaff
       { label: "Yellow Cards", home: "5", away: "9", homeWidth: 36, awayWidth: 64 },
       { label: "xG", home: "1.84", away: "2.22", homeWidth: 45, awayWidth: 55 },
     ],
+    metaDescription: "AI tactical analysis of Netherlands vs Argentina 2022 quarter-final — Weghorst's two late goals, Messi's brilliance, Martínez's PSO heroics. One of the most dramatic World Cup matches ever.",
     tacticalAnalysis: `The 2022 quarter-final between Netherlands and Argentina was one of the tournament's most dramatic and ill-tempered matches — a contest of three goals in 11 minutes of stoppage time, a brawl at full-time, and a penalty shootout decided by Emiliano Martínez's psychological mastery.
 
 Argentina, apparently cruising at 2-0 with seven minutes remaining, were pegged back by substitute Wout Weghorst — on the pitch for just 11 minutes. Louis van Gaal's tactical gamble of the late substitution proved inspired: Weghorst's physical presence changed the match's dynamic. His second goal, from a quickly-taken free-kick designed by Van Gaal specifically for this situation, sent the match into extra time.
@@ -1662,6 +1685,7 @@ In the shootout, Martínez's theatrics proved decisive. He saved from Berghuis a
       { label: "Fouls", home: 16, away: 19, homeWidth: 46, awayWidth: 54 },
       { label: "xG", home: "2.88", away: "2.09", homeWidth: 58, awayWidth: 42 },
     ],
+    metaDescription: "AI tactical analysis of France vs Argentina 2018 round of 16 — Mbappé's breakout match at 19, Pavard's Goal of the Tournament, France 4-3 in one of the World Cup's greatest knockout games.",
     tacticalAnalysis: `This round of 16 match was the game that introduced Kylian Mbappé to the world as football's next superstar. At 19 years old, the PSG forward produced a performance of explosive acceleration and clinical finishing that eliminated Messi's Argentina and confirmed France as World Cup favourites.
 
 France's tactical setup under Deschamps was designed to absorb and counter. Kanté's defensive work protected against Messi, while Mbappé's pace on the break was the primary weapon. Against an Argentina team struggling with cohesion — Lionel Scaloni would replace Jorge Sampaoli two months later — France's transitions were devastating.
@@ -1734,6 +1758,7 @@ Argentina's 4-4-2 under Sampaoli was tactically confused — Messi was isolated,
       { label: "Fouls", home: 19, away: 22, homeWidth: 46, awayWidth: 54 },
       { label: "xG", home: "1.82", away: "1.29", homeWidth: 58, awayWidth: 42 },
     ],
+    metaDescription: "AI tactical analysis of Ghana vs Uruguay 2010 quarter-final — Suárez's deliberate handball, Gyan's crossbar penalty, and one of football's most controversial moments in Johannesburg.",
     tacticalAnalysis: `No World Cup match has generated more moral outrage and tactical controversy than the 2010 quarter-final between Ghana and Uruguay. In the final second of extra time, Luis Suárez deliberately handled the ball on the goal line to prevent what would have been the winning goal — an act of calculated cheating that denied Africa its first ever World Cup semi-finalist.
 
 Ghana were the better team. Kevin-Prince Boateng and Sulley Muntari controlled the midfield tempo. Asamoah Gyan was a constant threat. Muntari's first-half long-range strike gave Ghana a deserved lead. Forlan's free-kick equalised for Uruguay.
@@ -1803,6 +1828,7 @@ In the subsequent shootout, Ghana missed two penalties and Uruguay advanced. Su�
       { label: "Fouls", home: 16, away: 22, homeWidth: 42, awayWidth: 58 },
       { label: "xG", home: "1.58", away: "1.79", homeWidth: 47, awayWidth: 53 },
     ],
+    metaDescription: "AI tactical analysis of France vs Croatia 1998 World Cup semi-final — right-back Lilian Thuram scores twice in 23 minutes to send the host nation to the Final. A unique tactical story.",
     tacticalAnalysis: `The 1998 World Cup semi-final between France and Croatia is remembered for one remarkable fact: the two decisive goals were scored by a right-back. Lilian Thuram — one of the greatest defenders of his generation — had never scored for France before this match. He scored twice in 23 second-half minutes to send the host nation to the Final.
 
 Croatia arrived at the semi-final as the tournament's surprise package. Miroslav Blažević's 4-4-2 featured Davor Šuker — the tournament's Golden Boot winner — and creative midfielders in Boban and Prosinečki. Croatia had eliminated Germany in the quarter-final with a stunning 3-0 victory.
@@ -1870,6 +1896,7 @@ Thuram's response was immediate. His equaliser — a right-foot drive into the b
       { label: "Fouls", home: 18, away: 21, homeWidth: 46, awayWidth: 54 },
       { label: "xG", home: "0.91", away: "1.58", homeWidth: 37, awayWidth: 63 },
     ],
+    metaDescription: "AI tactical analysis of Senegal vs France 2002 group stage — the greatest World Cup upset ever. Defending champions France eliminated without scoring a goal. Papa Bouba Diop's goal.",
     tacticalAnalysis: `Senegal's 1-0 victory over defending World Cup champions France in the opening match of the 2002 tournament is the greatest upset in World Cup group stage history. France arrived in South Korea as the world's best team — reigning World Cup champions (1998) and European champions (2000). They were eliminated in the group stage without scoring a single goal.
 
 Bruno Metsu's Senegal deployed a disciplined 4-4-2 that was physically aggressive, tactically well-organised, and collectively invested. Most of Senegal's squad played in France's Ligue 1 — they knew the French players intimately. Aliou Cissé (now Senegal's manager) marshalled the defensive midfield with intelligence.
@@ -1937,6 +1964,7 @@ Papa Bouba Diop's 30th-minute goal — following up a Tony Sylva save — proved
       { label: "Fouls", home: 17, away: 20, homeWidth: 46, awayWidth: 54 },
       { label: "xG", home: "0.83", away: "1.39", homeWidth: 37, awayWidth: 63 },
     ],
+    metaDescription: "AI tactical analysis of Germany vs Spain 2010 World Cup semi-final — Puyol's header beats Germany's 13-goal juggernaut. Spain's tiki-taka at its tactical peak in Durban.",
     tacticalAnalysis: `The 2010 semi-final between Germany and Spain was the meeting of tournament's best team in the knockout rounds (Germany, with 13 goals scored) against the tournament's best system (Spain's tiki-taka). Spain won with a header from a central defender — the least likely method of defeating Germany's high-press.
 
 Germany's 4-2-3-1 under Joachim Löw had been devastating in the group stage and knockout rounds: 4-1 vs Australia, 4-0 vs England, 4-0 vs Argentina. Their pressing system and the pace of Müller and Özil was the tournament's most dangerous attacking combination.
@@ -2008,6 +2036,7 @@ The decisive moment was tactical irony: Spain's goal came not from their flowing
       { label: "Pass Accuracy", home: "76%", away: "82%", homeWidth: 48, awayWidth: 52 },
       { label: "xG", home: "1.79", away: "4.19", homeWidth: 30, awayWidth: 70 },
     ],
+    metaDescription: "AI tactical analysis of Sweden vs Brazil in the 1958 World Cup Final — 17-year-old Pelé scores twice on the world stage for the first time. Garrincha unstoppable; Brazil win their first World Cup.",
     tacticalAnalysis: `The 1958 World Cup Final introduced 17-year-old Pelé to the world and announced Brazil as the definitive force in world football. On Sweden's home soil, in a match the hosts had prepared for months, Brazil's combination of tactical innovation and individual brilliance was overwhelming.
 
 Brazil's 4-2-4 system was revolutionary for 1958. Manager Vicente Feola's formation placed four attackers — Garrincha, Pelé, Vavá, and Zagallo — in a line that stretched opposing defences horizontally and vertically. Garrincha on the right was perhaps the most technically brilliant winger the game had seen, destroying full-backs with step-overs and directness.
@@ -2075,6 +2104,7 @@ Pelé's first goal — chest control, a flick over the defender's head, and a vo
       { label: "Fouls", home: 14, away: 18, homeWidth: 44, awayWidth: 56 },
       { label: "xG", home: "0.89", away: "1.81", homeWidth: 33, awayWidth: 67 },
     ],
+    metaDescription: "AI tactical analysis of France vs Belgium 2018 World Cup semi-final — Umtiti's header defeats Belgium's Golden Generation. France win 1-0 despite being outplayed for most of the match.",
     tacticalAnalysis: `The 2018 semi-final between France and Belgium was billed as the "real Final" — the two most talented squads in the tournament meeting before the trophy match. Belgium, with De Bruyne, Hazard, and Lukaku, were the Golden Generation that had never won a major tournament. France won 1-0 from a set-piece despite being the second-best team on the night.
 
 Roberto Martínez's Belgium played an aggressive 3-4-3 with De Bruyne as the creative hub. With 60% possession and 19 shots to France's 11, Belgium were statistically dominant throughout. Hazard's movement and De Bruyne's passing created chance after chance that Lloris and France's disciplined block denied.
@@ -2144,6 +2174,7 @@ The decisive moment came from a set-piece — Belgium's weakness. Griezmann's co
       { label: "Fouls", home: 14, away: 12, homeWidth: 54, awayWidth: 46 },
       { label: "xG", home: "2.82", away: "0.58", homeWidth: 83, awayWidth: 17 },
     ],
+    metaDescription: "AI tactical analysis of Argentina vs Croatia 2022 World Cup semi-final — Messi's dribble past Gvardiol, Álvarez's solo goal. The performance that settled all debate about Messi's greatness.",
     tacticalAnalysis: `Argentina's 3-0 semi-final victory over Croatia was the match that settled all debate about Messi's greatness. His performance — 1 goal, 1 assist that included humiliating the world's best young defender — was the finest individual semi-final display since Maradona's 1986 tournament.
 
 Croatia, who had beaten Brazil in the quarter-final, deployed a 4-3-3 with Modrić as the creative fulcrum. But Scaloni's Argentina, with Mac Allister and Enzo Fernández in midfield, pressed with extraordinary intensity that denied Modrić and Kovačić the time and space they needed.
