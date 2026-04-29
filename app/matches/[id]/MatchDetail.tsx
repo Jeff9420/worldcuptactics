@@ -3,8 +3,10 @@
 import { useState } from "react";
 import Link from "next/link";
 import { Match, getPlayerPositions } from "../../lib/matches";
+import { getPlayerProfile, STAT_LABELS } from "../../lib/players";
+import RadarChart from "../../components/RadarChart";
 
-type Tab = "tactics" | "stats" | "timeline" | "ai";
+type Tab = "tactics" | "stats" | "timeline" | "ai" | "players";
 
 function abbrev(name: string): string {
   const parts = name.trim().split(/\s+/);
@@ -156,6 +158,7 @@ export default function MatchDetail({
                 { label: "Stats", tab: "stats" as Tab },
                 { label: "Timeline", tab: "timeline" as Tab },
                 { label: "AI Report", tab: "ai" as Tab },
+                { label: "Players", tab: "players" as Tab },
               ] as { label: string; tab: Tab }[]
             ).map(({ label, tab }) => (
               <button
@@ -678,6 +681,176 @@ export default function MatchDetail({
               <div className="ai-insight">
                 <div className="insight-label">🏛️ Historical Significance</div>
                 <div className="insight-text">{match.historicalSignificance}</div>
+              </div>
+            </div>
+          )}
+          {/* ─── PLAYERS TAB ─── */}
+          {activeTab === "players" && (
+            <div>
+              <div style={{ fontFamily: "'JetBrains Mono',monospace", fontSize: "0.62rem", color: "var(--text-muted)", letterSpacing: "0.1em", textTransform: "uppercase", marginBottom: "1.25rem" }}>
+                // Career stat profiles — not just World Cup performance
+              </div>
+              <div style={{ display: "flex", flexDirection: "column", gap: "1.25rem" }}>
+                {match.topPerformers.map((p, i) => {
+                  const profile = getPlayerProfile(p.name, p.position, p.rating);
+                  const isHome = match.home.players.includes(p.name);
+                  const isAway = match.away.players.includes(p.name);
+                  const teamColor = isHome ? match.home.color : isAway ? match.away.color : "#2DFF7C";
+                  const ratingColor =
+                    p.rating >= 9.5 ? "var(--accent-green)" :
+                    p.rating >= 8.5 ? "#8BFF4A" :
+                    p.rating >= 7.5 ? "var(--accent-gold)" :
+                    "var(--text-secondary)";
+
+                  return (
+                    <div
+                      key={i}
+                      style={{
+                        background: "var(--bg-elevated)",
+                        border: "1px solid var(--border)",
+                        borderRadius: "8px",
+                        padding: "1.25rem",
+                        display: "flex",
+                        gap: "1.25rem",
+                        alignItems: "flex-start",
+                        flexWrap: "wrap",
+                      }}
+                    >
+                      {/* Radar chart */}
+                      <div style={{ flexShrink: 0, display: "flex", flexDirection: "column", alignItems: "center", gap: "0.5rem" }}>
+                        <RadarChart stats={profile.stats} color={teamColor} size={170} />
+                        <div style={{
+                          display: "inline-flex",
+                          alignItems: "center",
+                          gap: "0.35rem",
+                          padding: "0.3rem 0.75rem",
+                          background: profile.labelColor + "18",
+                          border: `1px solid ${profile.labelColor}44`,
+                          borderRadius: "20px",
+                        }}>
+                          <span style={{ fontSize: "0.95rem" }}>{profile.labelIcon}</span>
+                          <span style={{
+                            fontFamily: "'Barlow Condensed',sans-serif",
+                            fontSize: "0.9rem",
+                            fontWeight: 700,
+                            color: profile.labelColor,
+                            letterSpacing: "0.04em",
+                          }}>
+                            {profile.label}
+                          </span>
+                        </div>
+                      </div>
+
+                      {/* Player info */}
+                      <div style={{ flex: 1, minWidth: 200 }}>
+                        {/* Name + rating */}
+                        <div style={{ display: "flex", alignItems: "flex-start", justifyContent: "space-between", marginBottom: "0.5rem" }}>
+                          <div>
+                            <div style={{
+                              fontFamily: "'Barlow Condensed',sans-serif",
+                              fontSize: "1.35rem",
+                              fontWeight: 800,
+                              textTransform: "uppercase",
+                              color: "#fff",
+                              lineHeight: 1.1,
+                            }}>
+                              {p.name}
+                            </div>
+                            <div style={{
+                              fontFamily: "'JetBrains Mono',monospace",
+                              fontSize: "0.62rem",
+                              color: "var(--text-muted)",
+                              letterSpacing: "0.06em",
+                              marginTop: "3px",
+                            }}>
+                              {p.position} · {isHome ? match.home.name : isAway ? match.away.name : ""}
+                            </div>
+                          </div>
+                          <div style={{ textAlign: "right" }}>
+                            <div style={{
+                              fontFamily: "'Barlow Condensed',sans-serif",
+                              fontSize: "2.2rem",
+                              fontWeight: 900,
+                              color: ratingColor,
+                              lineHeight: 1,
+                            }}>
+                              {p.rating.toFixed(1)}
+                            </div>
+                            <div style={{
+                              fontFamily: "'JetBrains Mono',monospace",
+                              fontSize: "0.55rem",
+                              color: "var(--text-muted)",
+                              letterSpacing: "0.08em",
+                              textTransform: "uppercase",
+                            }}>
+                              Match Rating
+                            </div>
+                          </div>
+                        </div>
+
+                        {/* Flavor text */}
+                        <div style={{
+                          fontSize: "0.82rem",
+                          color: "var(--text-secondary)",
+                          lineHeight: 1.55,
+                          marginBottom: "1rem",
+                          fontStyle: "italic",
+                          borderLeft: `2px solid ${profile.labelColor}44`,
+                          paddingLeft: "0.75rem",
+                        }}>
+                          {profile.flavor}
+                        </div>
+
+                        {/* 6 stat mini-bars */}
+                        <div style={{ display: "grid", gridTemplateColumns: "repeat(3, 1fr)", gap: "0.45rem" }}>
+                          {(["pace", "shooting", "dribbling", "defending", "clutch", "passing"] as const).map((key) => {
+                            const val = profile.stats[key];
+                            const isHigh = val >= 90;
+                            const barColor = isHigh ? teamColor : "rgba(255,255,255,0.18)";
+                            return (
+                              <div
+                                key={key}
+                                style={{
+                                  background: "var(--bg-deep)",
+                                  borderRadius: "4px",
+                                  padding: "0.45rem 0.55rem",
+                                }}
+                              >
+                                <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center", marginBottom: "0.25rem" }}>
+                                  <span style={{
+                                    fontFamily: "'JetBrains Mono',monospace",
+                                    fontSize: "0.58rem",
+                                    color: "var(--text-muted)",
+                                    textTransform: "uppercase",
+                                    letterSpacing: "0.05em",
+                                  }}>
+                                    {STAT_LABELS[key]}
+                                  </span>
+                                  <span style={{
+                                    fontFamily: "'JetBrains Mono',monospace",
+                                    fontSize: "0.75rem",
+                                    fontWeight: 700,
+                                    color: isHigh ? teamColor : val >= 75 ? "var(--text-secondary)" : "var(--text-muted)",
+                                  }}>
+                                    {val}
+                                  </span>
+                                </div>
+                                <div style={{ height: "3px", background: "rgba(255,255,255,0.06)", borderRadius: "2px" }}>
+                                  <div style={{
+                                    height: "100%",
+                                    width: `${(val / 99) * 100}%`,
+                                    background: barColor,
+                                    borderRadius: "2px",
+                                  }} />
+                                </div>
+                              </div>
+                            );
+                          })}
+                        </div>
+                      </div>
+                    </div>
+                  );
+                })}
               </div>
             </div>
           )}
