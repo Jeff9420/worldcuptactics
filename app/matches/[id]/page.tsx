@@ -63,8 +63,20 @@ export default async function MatchPage({
     organizer: { "@type": "Organization", name: "FIFA" },
   };
 
-  // Pick 3 other matches as "related" — prioritise different eras
-  const related = MATCHES.filter((m) => m.id !== id).slice(0, 3);
+  // Related matches: score by relevance (same teams > same era > same stage)
+  const era = (year: number) => Math.floor(year / 10) * 10;
+  const related = MATCHES.filter((m) => m.id !== id)
+    .map((m) => {
+      let score = 0;
+      const teams = [match.home.name, match.away.name];
+      if (teams.includes(m.home.name) || teams.includes(m.away.name)) score += 4;
+      if (era(m.year) === era(match.year)) score += 2;
+      if (m.stage === match.stage) score += 1;
+      return { m, score };
+    })
+    .sort((a, b) => b.score - a.score || Math.random() - 0.5)
+    .slice(0, 3)
+    .map(({ m }) => m);
 
   return (
     <>
