@@ -295,12 +295,16 @@ export default function Home() {
               All Articles →
             </Link>
           </div>
-          <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(240px, 1fr))", gap: "1rem" }}>
+          <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fill, minmax(220px, 1fr))", gap: "1rem" }}>
             {[
               { slug: "2026-world-cup-complete-guide", title: "Complete Guide to the 2026 World Cup", label: "48 Teams · 104 Matches" },
-              { slug: "2026-world-cup-favorites-contenders", title: "Who Will Win? Analyzing Every Contender", label: "France · Brazil · England · Argentina" },
-              { slug: "2026-world-cup-10-players-to-watch", title: "10 Players Who Will Define the Tournament", label: "Mbappé · Vinícius · Bellingham · Yamal" },
-              { slug: "2026-world-cup-tactical-trends", title: "4 Tactical Trends to Watch in 2026", label: "Pressing · Three-at-the-Back · False 9" },
+              { slug: "2026-world-cup-favorites-contenders", title: "Who Will Win? Every Contender Analyzed", label: "Contenders Breakdown" },
+              { slug: "france-2026-world-cup-squad-analysis", title: "France 2026: Mbappé at His Peak", label: "🇫🇷 The Favorites" },
+              { slug: "brazil-2026-world-cup-squad-analysis", title: "Brazil 2026: End the 24-Year Wait?", label: "🇧🇷 Vinícius & Co." },
+              { slug: "england-2026-world-cup-squad-analysis", title: "England 2026: Bellingham's Time?", label: "🏴󠁧󠁢󠁥󠁮󠁧󠁿 The 60-Year Question" },
+              { slug: "argentina-2026-world-cup-squad-analysis", title: "Argentina 2026: Defending Without Messi?", label: "🇦🇷 Defending Champions" },
+              { slug: "spain-2026-world-cup-squad-analysis", title: "Spain 2026: Yamal's Generation", label: "🇪🇸 Euro 2024 Winners" },
+              { slug: "2026-world-cup-10-players-to-watch", title: "10 Players Who Will Define the Tournament", label: "Mbappé · Vinícius · Bellingham" },
             ].map(({ slug, title, label }) => (
               <Link key={slug} href={`/blog/${slug}`} style={{ textDecoration: "none", color: "inherit" }}>
                 <div style={{ background: "rgba(255,68,68,0.04)", border: "1px solid rgba(255,68,68,0.15)", borderRadius: "8px", padding: "1.25rem" }}>

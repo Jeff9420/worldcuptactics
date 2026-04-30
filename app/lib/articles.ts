@@ -811,6 +811,355 @@ export const ARTICLES: Article[] = [
       },
     ],
   },
+
+  // ─── 2026 Team previews ─────────────────────────────────────────────────────
+  {
+    slug: "france-2026-world-cup-squad-analysis",
+    title: "France 2026 World Cup: Tactical Analysis and Squad Preview",
+    excerpt:
+      "Mbappé at his peak. A settled defensive structure. A manager who knows how to win ugly. France arrive in North America as the team to beat.",
+    category: "2026 WC",
+    categoryColor: "#FF4444",
+    date: "2026-04-30",
+    readTime: 8,
+    metaDescription:
+      "France 2026 World Cup squad analysis — Mbappé, Griezmann, Kanté, Giroud's successor, and Deschamps' tactical system. Can France win back-to-back World Cups?",
+    relatedMatchIds: ["argentina-vs-france-2022-final", "france-vs-argentina-2018-r16"],
+    content: [
+      {
+        type: "paragraph",
+        text: "France enter the 2026 World Cup carrying the weight of expectations that no other nation quite matches. They are the most talented squad in the world, arguably. They have the most dangerous individual player in the world, certainly. And they have a manager — Didier Deschamps — who has now won one World Cup and reached a second final, making him the most successful French coach in history. The question is not whether France are good enough. The question is whether the accumulated pressure of being favorites breaks them before the final.",
+      },
+      {
+        type: "heading",
+        text: "The System: Deschamps' Pragmatic 4-2-3-1",
+      },
+      {
+        type: "paragraph",
+        text: "Deschamps has never been a manager who wins on aesthetics. His France system is built on defensive solidity first: two holding midfielders who screen the back four, compact shape in the defensive and middle thirds, and then the freedom to exploit space on transitions through Mbappé's pace. The 4-2-3-1 gives France a natural defensive structure that is difficult to break down, while the quality of their attacking players means they do not need to manufacture many chances to score.",
+      },
+      {
+        type: "paragraph",
+        text: "The fullback positions are critical to how France attack. When the team is in possession, the fullbacks push high and wide to pin back opposition wingers, which gives Mbappé — starting from the left — space to cut inside and find combinations or run in behind. The tactical intelligence Deschamps demands from his fullbacks is significant: they must know when to advance and when to hold position, because France's entire defensive structure depends on their positioning.",
+      },
+      {
+        type: "heading",
+        text: "Mbappé: The Tournament's Defining Player",
+      },
+      {
+        type: "paragraph",
+        text: "Kylian Mbappé will be 27 years old during the 2026 World Cup — precisely the age at which elite forwards tend to reach the peak of their powers. His combination of raw speed (he has been recorded at over 36 km/h), finishing quality, and increasingly sophisticated football intelligence makes him the most complete attacking player at the tournament. After two previous World Cups — winner at 19, hat-trick in the 2022 final — he arrives with the full range of major tournament experience.",
+      },
+      {
+        type: "paragraph",
+        text: "The tactical challenge for opposing managers is that Mbappé can hurt a defense in multiple ways simultaneously. He can run in behind a high defensive line and score one-on-ones. He can drop to the left channel, receive, and cut inside to shoot with his right foot. He can combine in tight spaces and release runners. Stopping one mechanism leaves the others open. Most defenses settle for containing rather than stopping him — and even containment requires committing two or three defenders in his area.",
+      },
+      {
+        type: "heading",
+        text: "Key Players Beyond Mbappé",
+      },
+      {
+        type: "paragraph",
+        text: "Antoine Griezmann's role in the French system is often underappreciated by those who focus exclusively on Mbappé. Operating in the space between midfield and attack, Griezmann receives, combines, makes runs that create space for others, and has an exceptional record of scoring in knockout matches. His partnership with Mbappé — one dropping deep, one running in behind — is the engine of France's attack.",
+      },
+      {
+        type: "paragraph",
+        text: "In midfield, the fitness of N'Golo Kanté remains the most significant variable in France's tournament preparation. When Kanté is available and fit, France have a defensive midfielder who covers more ground than any other player at this level — his presence transforms the entire shape of the team. Behind him, Aurélien Tchouaméni provides the physical and technical platform from which France build. The center back pairing of Dayot Upamecano and Ibrahima Konaté gives France genuine aerial dominance.",
+      },
+      {
+        type: "heading",
+        text: "Vulnerabilities: Where France Can Be Hurt",
+      },
+      {
+        type: "paragraph",
+        text: "France's weakness is the same as it has always been under Deschamps: they can be passive in possession, allowing opponents to organize their defensive shape, and then struggle to break down a compact low block. In the 2022 final, Argentina sat deep and frustrated France for long periods — it was only individual moments of brilliance that brought France back. Against a team willing to concede possession and frustrate, France's lack of a genuine creative playmaker who can unlock packed defenses can become a problem.",
+      },
+      {
+        type: "paragraph",
+        text: "The other vulnerability is squad depth in attack. If Mbappé is injured or suspended — which, given his tendency to play through discomfort, is a genuine risk over seven matches in 39 days — France's attack loses its primary weapon. The players behind him are talented, but none carry the same match-winning certainty. Managing Mbappé's fitness over the course of a long tournament in the North American summer heat will be one of Deschamps' most important jobs.",
+      },
+      {
+        type: "heading",
+        text: "Verdict: The Favorite for a Reason",
+      },
+      {
+        type: "paragraph",
+        text: "France are the pre-tournament favorites because the gap between their best eleven and the rest of the world is as large as it has been since the Zidane era. Mbappé at 27, Griezmann at 35 but still elite, Kanté if fit, a defense that does not make mistakes — the ingredients for a World Cup win are all present. The historical precedent suggests defending champions rarely win back-to-back, but France in 2026 are significantly better than the teams who failed to retain the title before them. The pressure is warranted. So is the favoritism.",
+      },
+    ],
+  },
+  {
+    slug: "brazil-2026-world-cup-squad-analysis",
+    title: "Brazil 2026 World Cup: Can Vinícius Finally End the 24-Year Wait?",
+    excerpt:
+      "Brazil's most gifted attacking generation since 2002 arrives in North America. But can they build the defensive structure to go with the talent?",
+    category: "2026 WC",
+    categoryColor: "#FF4444",
+    date: "2026-04-29",
+    readTime: 8,
+    metaDescription:
+      "Brazil 2026 World Cup squad analysis — Vinícius Jr, Rodrygo, Endrick, and whether the Seleção have the defensive organization to match their attacking brilliance.",
+    relatedMatchIds: ["germany-vs-brazil-2014-sf", "brazil-vs-italy-1970-final"],
+    content: [
+      {
+        type: "paragraph",
+        text: "The last time Brazil lifted the World Cup trophy was July 30, 2002, when Ronaldo scored twice in the final against Germany in Yokohama. In the 24 years since, the Seleção have reached one final (2006, losing to France), suffered the most humiliating defeat in their history (7-1 to Germany in 2014 on home soil), and experienced three quarterfinal exits. The 2026 squad is the most technically gifted Brazil have assembled in a generation. The question that history demands they answer is whether talent alone is enough.",
+      },
+      {
+        type: "heading",
+        text: "The Attack: The Most Dangerous Front Line in the World?",
+      },
+      {
+        type: "paragraph",
+        text: "Brazil's attacking options for 2026 represent a genuine embarrassment of riches. Vinícius Júnior leads the hierarchy: the Real Madrid winger who has won two Champions Leagues, scored in two Champions League finals, and established himself as arguably the most exciting attacking player in world football. His ability to beat defenders one-on-one, his directness, and his composure in front of goal have transformed him from a raw prospect into a match-winner of the highest order.",
+      },
+      {
+        type: "paragraph",
+        text: "Rodrygo, Vinícius's Real Madrid teammate, provides a different attacking profile: more technically complete, with a greater tendency to drop deep and create rather than run in behind. Endrick — still only 19 at the time of the tournament — is one of the most explosive young strikers in world football, a player whose movement and finishing in tight spaces have drawn comparisons to Ronaldo (the original, Brazilian version). The depth does not stop there: Raphinha, the Barcelona winger, brings pace and creativity from the right. Brazil have four attackers who would start for most other nations at this tournament.",
+      },
+      {
+        type: "heading",
+        text: "The System: Brazil's Tactical Evolution",
+      },
+      {
+        type: "paragraph",
+        text: "Brazil's coaching setup for 2026 — under the manager appointed to rebuild after the 2022 quarterfinal exit — faces the same challenge that has confronted every Brazil coach since 2002: how do you accommodate this much attacking talent without sacrificing defensive structure? The most successful template in recent Brazil history has been a 4-2-3-1 or 4-3-3 with two disciplined defensive midfielders anchoring everything, which gives the front four the freedom to express themselves without exposing the defense.",
+      },
+      {
+        type: "paragraph",
+        text: "The defensive organization is where Brazil have historically been most vulnerable at recent World Cups. The 2014 collapse against Germany was a tactical failure as much as a psychological one — the team had no mechanism to recover once the defensive structure broke down. The 2022 quarterfinal against Croatia saw Brazil dominate possession and chances before losing on penalties in a match they should have won in normal time. In 2026, the quality of Brazil's defending — particularly in transition, when the team loses the ball high — will be the primary determinant of how far they go.",
+      },
+      {
+        type: "heading",
+        text: "Vinícius: The Man With Everything to Win",
+      },
+      {
+        type: "paragraph",
+        text: "For Vinícius Júnior, the 2026 World Cup is the final piece of the puzzle. He has won the Champions League. He has been the best player in club football. He has experienced the racism that has tested his resilience in ways no football player should have to endure. What he has not done is win a major international trophy. At 25 during the tournament, he is at his physical peak and carrying the hunger of a player who knows that World Cups come around rarely.",
+      },
+      {
+        type: "quote",
+        text: "Vinícius at a World Cup with proper defensive support around him might be the most dangerous player in the tournament — even ahead of Mbappé.",
+      },
+      {
+        type: "heading",
+        text: "The Pressure: 215 Million Expectations",
+      },
+      {
+        type: "paragraph",
+        text: "Brazil's relationship with the World Cup is unlike any other nation's. The trophy is not just a sporting goal — it is a national necessity, a source of identity, a validation of the belief that Brazil plays the most beautiful football on earth. That pressure has broken squads before. The 2014 team, playing on home soil with Neymar injured in the quarterfinal, visibly collapsed under it. In 2026, without the additional burden of being hosts, Brazil may be better positioned to manage the weight.",
+      },
+      {
+        type: "paragraph",
+        text: "The psychological test will come in the knockout stage. Brazil's record in penalty shootouts at World Cups is mixed — they went out on penalties in 1986, 1994 (though they won that edition), and 2022. Their ability to hold their nerve when one mistake ends everything will be tested in the second week of the tournament. If they get through those moments, the quality in their squad is sufficient to beat anyone. The 24-year wait may be about to end. It may also extend to 28.",
+      },
+    ],
+  },
+  {
+    slug: "england-2026-world-cup-squad-analysis",
+    title: "England 2026 World Cup: The Squad, the System, and the 60-Year Question",
+    excerpt:
+      "Bellingham, Kane, Saka, Foden. England have the players. The question — as it has been since 1966 — is whether they have the mentality.",
+    category: "2026 WC",
+    categoryColor: "#FF4444",
+    date: "2026-04-28",
+    readTime: 7,
+    metaDescription:
+      "England 2026 World Cup analysis — Jude Bellingham, Harry Kane, Bukayo Saka, Phil Foden, and whether England can finally end 60 years of hurt at a World Cup.",
+    relatedMatchIds: ["argentina-vs-england-1986-qf"],
+    content: [
+      {
+        type: "paragraph",
+        text: "England's World Cup record since 1966 is a study in heartbreak at scale. Four semifinal exits since lifting the trophy. A generation of genuinely excellent players who have consistently underperformed when the stakes are highest. Two penalty shootout eliminations in major tournaments in the last decade alone. And yet — the 2026 squad is the best England have assembled since the golden generation of the early 2000s, and they are playing in a tournament format where there is more room for error than ever before. This is, once again, England's time. The question, as always, is whether they can actually take it.",
+      },
+      {
+        type: "heading",
+        text: "The System: What England's Manager Will Deploy",
+      },
+      {
+        type: "paragraph",
+        text: "England's tactical setup has evolved significantly since Gareth Southgate's era of deep defensive blocks and counter-attacking football. The current approach — built on a more possession-oriented 4-3-3 or 4-2-3-1 depending on the opponent — attempts to use the technical quality of Bellingham, Foden, and Saka in a more expansive system. The defensive shape remains organized and compact, but there is greater willingness to press high and impose England's game rather than react to the opposition.",
+      },
+      {
+        type: "paragraph",
+        text: "The key tactical decision for England is how to use Jude Bellingham. His most effective role is as an advanced midfielder — a box-to-box player who arrives late into attacking positions — but using him that way requires disciplined cover from the players behind him. When England get the balance right, Bellingham is among the most complete midfielders in world football. When the structure breaks down behind him, his natural instinct to press forward creates gaps.",
+      },
+      {
+        type: "heading",
+        text: "Bellingham: England's Once-in-a-Generation Player",
+      },
+      {
+        type: "paragraph",
+        text: "Jude Bellingham is the player that England's footballing system, which has historically been better at producing defensive players than creative ones, has been waiting for. At 22, he combines the physical attributes of a Premier League defensive midfielder with the technical quality and football intelligence of the best players in Europe. He has won the Champions League. He has scored in major tournament knockout matches. He has done everything at club level that a World Cup winner needs to have done.",
+      },
+      {
+        type: "paragraph",
+        text: "The test for Bellingham at 2026 is whether he can produce his best in an England shirt, which has not always been the environment that brings out the finest qualities in technically gifted players. The squad around him is strong enough to support him without burdening him — which was not always the case with previous England playmakers.",
+      },
+      {
+        type: "heading",
+        text: "Kane: The Goalscorer Who Needs a Trophy",
+      },
+      {
+        type: "paragraph",
+        text: "Harry Kane has scored goals at a rate that puts him among the best strikers in the history of the game — England's all-time record scorer, a consistent 30-plus goal season performer at Bayern Munich after leaving Tottenham. What he does not have is a major trophy. The 2026 World Cup, at 32 years old, may be his last realistic opportunity to lift one. His movement, his aerial ability, his hold-up play, and his finishing make him the perfect reference point for England's attack — if the service arrives, he will score.",
+      },
+      {
+        type: "heading",
+        text: "The Depth: England's Strongest Squad in 20 Years",
+      },
+      {
+        type: "paragraph",
+        text: "Beyond the headline names, England's squad depth is genuinely impressive. Bukayo Saka provides consistent excellence on the right wing — technically polished, direct, and capable of both scoring and creating. Phil Foden, when in form, is among the world's best attacking midfielders. Trent Alexander-Arnold brings a unique set of skills from right back: the passing range of a creative midfielder combined with defensive positioning that has improved season on season.",
+      },
+      {
+        type: "paragraph",
+        text: "The defensive foundation — built around a Premier League-tested back four and a reliable goalkeeper — provides the stability that England's attack needs. The squad is not lacking in quality at any position. It is lacking only in the evidence that these players can collectively produce their best football under the extreme pressure of a World Cup knockout match. That evidence will either arrive in North America or continue to be absent.",
+      },
+      {
+        type: "heading",
+        text: "Verdict: Finally, or Not Yet?",
+      },
+      {
+        type: "paragraph",
+        text: "The rational assessment of England's 2026 prospects is positive. They have the squad, they have the tournament format that suits a team with genuine depth, and they are playing in a confederation — UEFA — that is producing the strongest teams at this World Cup. The irrational assessment — built on 60 years of tournament football — suggests caution. England at a major tournament is one of sport's great recurring stories, and it has not yet reached its resolution. Whether 2026 is the chapter where it does is the question that will keep English football fans awake between now and July.",
+      },
+    ],
+  },
+  {
+    slug: "argentina-2026-world-cup-squad-analysis",
+    title: "Argentina 2026 World Cup: Defending Champions Without Their GOAT",
+    excerpt:
+      "Messi at 38. Álvarez and Fernández leading the next generation. Can Scaloni's Argentina do what only Brazil has ever done — defend the World Cup?",
+    category: "2026 WC",
+    categoryColor: "#FF4444",
+    date: "2026-04-27",
+    readTime: 7,
+    metaDescription:
+      "Argentina 2026 World Cup squad preview — defending the title with Messi at 38, Julián Álvarez, Enzo Fernández, and Lionel Scaloni's tactical system.",
+    relatedMatchIds: ["argentina-vs-france-2022-final", "argentina-vs-netherlands-2022-qf"],
+    content: [
+      {
+        type: "paragraph",
+        text: "Argentina arrive at the 2026 World Cup as defending champions, carrying a burden that history suggests is almost impossible to handle. No team has won back-to-back World Cups since Brazil in 1958 and 1962 — and the structural reasons for that are significant. Key players age. Tactical blueprints are studied and countered. The hunger that drives a team through a seven-match tournament is harder to manufacture when you are already at the top. And yet, Argentina under Lionel Scaloni have built something that goes beyond any individual player's presence — a collective identity that may prove more durable than the cycle of decline that claims most defending champions.",
+      },
+      {
+        type: "heading",
+        text: "Messi at 38: What to Expect",
+      },
+      {
+        type: "paragraph",
+        text: "Lionel Messi will turn 39 during the 2026 World Cup. The question of his involvement — whether he plays, how many minutes he receives, what his role is when he does play — will dominate the pre-tournament narrative. Physically, Messi at 38 is not the same player who carried Argentina to glory in Qatar. His acceleration has diminished. His ability to cover ground defensively has reduced. But his football intelligence, his passing, his dead-ball delivery, and his capacity to produce decisive moments under pressure remain extraordinary.",
+      },
+      {
+        type: "paragraph",
+        text: "Scaloni's challenge is to use Messi in a way that maximizes what he can still offer while not building the team's tactical structure around him in a way that becomes a weakness. The most likely approach is Messi as an impact player — starting some matches, coming off the bench in others — with the burden of carrying the team distributed across the squad in a way that 2022 never required because Messi was available and performing at a different level.",
+      },
+      {
+        type: "heading",
+        text: "The Next Generation: Álvarez, Fernández, and the 2026 Core",
+      },
+      {
+        type: "paragraph",
+        text: "The most important development in Argentine football since Qatar 2022 has been the emergence of the post-Messi generation as a genuine force. Julián Álvarez, whose performances in the 2022 World Cup — particularly his two goals against Croatia in the semifinal — announced him as a player of world-class quality, has continued his development at Atlético Madrid. At 26, he is the striker around whom Argentina's 2026 attack will be built.",
+      },
+      {
+        type: "paragraph",
+        text: "Enzo Fernández won the 2022 Young Player of the Tournament award and has gone on to establish himself as one of the top midfielders in the Premier League at Chelsea. His combination of defensive work rate, passing quality, and ability to drive forward gives Argentina a central midfielder who can function effectively even without Messi's creativity behind him. The spine of the 2026 team — Martínez in goal, a settled back four, Fernández in midfield, Álvarez leading the attack — does not depend on Messi to function.",
+      },
+      {
+        type: "heading",
+        text: "Scaloni's System: The 4-4-2 Diamond That Won the World Cup",
+      },
+      {
+        type: "paragraph",
+        text: "Argentina's 2022 World Cup triumph was built on tactical flexibility: Scaloni moved between a 4-3-3, a 4-4-2 diamond, and a 5-3-2 depending on the opponent, always maintaining the defensive organization that made Argentina so difficult to break down. The team's defensive record at Qatar 2022 — three goals conceded in regular time across seven matches — was the foundation of everything.",
+      },
+      {
+        type: "paragraph",
+        text: "In 2026, the system will likely evolve to accommodate the changed squad dynamic. With Messi's role reduced, the team needs players in midfield who can create as well as control. Mac Allister at Liverpool provides the technical quality and positional intelligence that Argentina's system demands. De Paul's energy and pressing intensity give the midfield its competitive edge. The tactical structure is robust enough to adapt.",
+      },
+      {
+        type: "heading",
+        text: "The Historical Challenge: Defending the Title",
+      },
+      {
+        type: "paragraph",
+        text: "The statistics on defending World Cup titles are stark. Italy won in 1934 and 1938, but that tournament was very different in format and political context. Brazil won in 1958 and 1962. Since the modern era began, no defending champion has gone beyond the quarterfinals in the following tournament — France were eliminated in the 2002 group stage, Italy went in the round of 16 in 2010, Spain lost to the Netherlands 5-1 in 2014.",
+      },
+      {
+        type: "paragraph",
+        text: "Argentina's best defence against this pattern is that their 2022 success was genuinely collective, not built on a peak that was always going to decline. Their defensive structure, their pressing organization, and their tactical adaptability are skills that do not age in the way that individual brilliance does. If any defending champion is positioned to break the pattern, it is this Argentina side under Scaloni.",
+      },
+    ],
+  },
+  {
+    slug: "spain-2026-world-cup-squad-analysis",
+    title: "Spain 2026 World Cup: Yamal's Generation and the New Tiki-Taka",
+    excerpt:
+      "Euro 2024 winners. The most technically gifted squad in Europe. Spain in 2026 are building something that could rival the golden era of 2008-2012.",
+    category: "2026 WC",
+    categoryColor: "#FF4444",
+    date: "2026-04-26",
+    readTime: 7,
+    metaDescription:
+      "Spain 2026 World Cup squad analysis — Lamine Yamal, Pedri, Rodri, Morata, and whether Spain's new generation can win the World Cup for the first time since 2010.",
+    relatedMatchIds: ["spain-vs-netherlands-2010-final"],
+    content: [
+      {
+        type: "paragraph",
+        text: "Spain won the 2024 European Championship in Germany playing the most complete football of any international team since their own golden era of 2008-2012. The difference is the personnel: instead of Xavi, Iniesta, and Villa, there is Pedri, Yamal, and a generation that is, if anything, more naturally gifted than the one that won three consecutive major trophies. The 2026 World Cup arrives at the moment when this Spain squad should be at or approaching its collective peak. The last time Spain were in this position, they won in South Africa.",
+      },
+      {
+        type: "heading",
+        text: "Yamal: The Teenager Who Changed Everything",
+      },
+      {
+        type: "paragraph",
+        text: "Lamine Yamal will be 18 years old during the 2026 World Cup — still a teenager, already one of the two or three best attacking players in world football. His performances at Euro 2024 were staggering in their composure and quality: the semifinal equalizer against France, the dribbles through packed defenses, the combinations with Nico Williams on the left. He does things with a football that players twice his age cannot replicate, and he does them in pressure situations that would overwhelm most.",
+      },
+      {
+        type: "paragraph",
+        text: "Tactically, Yamal operates as a right winger who cuts inside — the inverted winger model that has become standard in elite football, but executed with a technical quality and a football brain that few players at any level possess. His tendency to receive deep, drive past defenders, and then either shoot with his left foot or find a teammate in a better position makes him simultaneously Spain's most dangerous attacker and one of the hardest players in the world to defend.",
+      },
+      {
+        type: "heading",
+        text: "The Midfield: Still the Best in the World",
+      },
+      {
+        type: "paragraph",
+        text: "Spain's 2026 midfield may be the strongest in the tournament. Rodri — 2024 Ballon d'Or winner — provides the positional intelligence and passing range from deep that allows everyone else in the system to operate with freedom. Pedri provides the creative link between midfield and attack, receiving in tight spaces and finding solutions under pressure that no other Spanish midfielder has managed since Iniesta. Fabian Ruiz brings physical power and a left foot that provides variety in Spain's build-up play.",
+      },
+      {
+        type: "paragraph",
+        text: "The collective quality of Spain's midfield means that opponents cannot press Spain's center backs without leaving space for the midfielders to receive and turn. And when Spain's midfield receives and turns, their passing combinations — built on the same positional principles Guardiola installed at Barcelona 20 years ago — make recovery almost impossible. No team in the world circulates the ball through the middle third as efficiently as Spain.",
+      },
+      {
+        type: "heading",
+        text: "The Tactical System: Possession With Pace",
+      },
+      {
+        type: "paragraph",
+        text: "The key evolution in Spain's 2024-2026 system compared to the tiki-taka era of 2008-2012 is directness. The golden generation could appear passive in possession, patient to the point of frustrating their own fans. The current Spain team, built around the pace of Yamal and Williams, is more willing to play forward quickly — to exploit the spaces that possession play creates with runs in behind rather than waiting for the defense to open up through patience alone.",
+      },
+      {
+        type: "paragraph",
+        text: "This directness makes Spain harder to defend than their predecessors. Teams can sit in a compact defensive block against a purely patient possession team and contain the risk. Against a team that keeps the ball well and then suddenly attacks the space in behind with pacey wide players, the defensive problem is two-dimensional: you cannot simply sit deep because they will find the space between the lines, and you cannot press high because they will exploit the space behind you.",
+      },
+      {
+        type: "heading",
+        text: "Vulnerabilities: What Can Stop Spain",
+      },
+      {
+        type: "paragraph",
+        text: "Spain's principal vulnerability is at center forward. Since Villa's generation, finding a reliable striker has been Spain's persistent problem — one they managed to sidestep with the false 9 at times, but which becomes more significant at a World Cup where clean chances need to be converted. Álvaro Morata provides quality and experience, but the goals-per-game rate at major tournaments has not always been convincing.",
+      },
+      {
+        type: "paragraph",
+        text: "The other vulnerability is squad depth. Spain's first eleven is arguably the best in the tournament. Their ability to rotate without losing significant quality — across 104 matches in 39 days, rotation will be essential — is less certain. If injuries hit the starting midfield in particular, Spain's entire system becomes less cohesive. But these are relative concerns about a team that, when healthy and functioning, is capable of winning the World Cup. Spain in 2026 are genuine contenders, and their football is the most attractive of any team in the tournament.",
+      },
+    ],
+  },
 ];
 
 export function getArticle(slug: string): Article | undefined {
