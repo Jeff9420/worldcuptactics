@@ -9,7 +9,7 @@ export const metadata: Metadata = {
     "Deep tactical analysis articles on the World Cup — formations, legendary teams, iconic matches, and the ideas that shaped modern football.",
 };
 
-const CATEGORIES = ["All", "Tactics", "Match Analysis", "Legends", "Player Analysis"];
+const CATEGORIES = ["All", "2026 WC", "Tactics", "Match Analysis", "Legends", "Player Analysis"];
 
 export default function BlogPage() {
   return (
@@ -52,8 +52,8 @@ export default function BlogPage() {
             The Tactical Library
           </h1>
           <p style={{ color: "var(--text-secondary)", fontSize: "1rem", maxWidth: "560px", lineHeight: 1.7 }}>
-            Deep dives into the formations, ideas, and moments that shaped World Cup history.
-            {" "}{ARTICLES.length} articles and growing.
+            Deep dives into the formations, ideas, and moments that shaped World Cup history —
+            plus full 2026 tournament coverage. {ARTICLES.length} articles and growing.
           </p>
         </div>
       </div>

@@ -454,6 +454,363 @@ export const ARTICLES: Article[] = [
       },
     ],
   },
+  // ─── 2026 World Cup articles ────────────────────────────────────────────────
+  {
+    slug: "2026-world-cup-complete-guide",
+    title: "2026 World Cup: Complete Guide to the Biggest Tournament in History",
+    excerpt:
+      "48 teams, 104 matches, three host nations. Everything you need to know about the most ambitious World Cup ever staged.",
+    category: "2026 WC",
+    categoryColor: "#FF4444",
+    date: "2026-04-30",
+    readTime: 8,
+    metaDescription:
+      "Complete guide to the 2026 FIFA World Cup — format, venues, key dates, 48-team structure, host cities across USA, Canada, and Mexico.",
+    relatedMatchIds: [],
+    content: [
+      {
+        type: "paragraph",
+        text: "The 2026 FIFA World Cup is unlike any that has come before it. For the first time in the tournament's 96-year history, 48 nations will compete for the right to call themselves world champions — up from the 32-team format that has been in place since 1998. Spread across three countries, 16 venues, and 104 matches, it is the most logistically ambitious sporting event ever attempted. Here is everything you need to know.",
+      },
+      {
+        type: "heading",
+        text: "The Format: 12 Groups, 104 Matches",
+      },
+      {
+        type: "paragraph",
+        text: "The 48-team field is organized into 12 groups of four teams. The top two from each group advance automatically to the round of 32. The eight best third-placed finishers from across the 12 groups also qualify, completing a 32-team knockout bracket. This means every group game carries genuine stakes — a single loss does not eliminate a team, but poor group-stage performance can end a campaign through the third-place filter.",
+      },
+      {
+        type: "paragraph",
+        text: "The knockout stage then follows the familiar single-elimination format: round of 32, round of 16, quarterfinals, semifinals, the third-place play-off, and the final. With 104 total matches — compared to 64 at Qatar 2022 — the tournament runs for 39 days, from June 11 to July 19, 2026. No previous World Cup has demanded this level of endurance from squads, managers, and fans.",
+      },
+      {
+        type: "heading",
+        text: "The Host Nations: USA, Canada, and Mexico",
+      },
+      {
+        type: "paragraph",
+        text: "The co-hosting arrangement between the United States, Canada, and Mexico marks the first time three nations have shared a World Cup. The United States hosts the majority of matches — 11 of the 16 venues are American. The final will be played at MetLife Stadium in East Rutherford, New Jersey, with a capacity of over 82,500. The semifinal venues include AT&T Stadium in Dallas and the Rose Bowl in Los Angeles.",
+      },
+      {
+        type: "paragraph",
+        text: "Canada hosts matches in Toronto (BMO Field) and Vancouver (BC Place). Mexico, which co-hosted in 1970 and 1986, stages games at three iconic venues: the Estadio Azteca in Mexico City — upgraded for its third World Cup — the Estadio BBVA in Monterrey, and the Estadio Akron in Guadalajara. The opening match takes place in Mexico City on June 11, 2026.",
+      },
+      {
+        type: "heading",
+        text: "Why 48 Teams Changes Everything",
+      },
+      {
+        type: "paragraph",
+        text: "The expansion to 48 teams was not a purely sporting decision. It was driven by FIFA's desire to extend the tournament's reach into new football markets — particularly in North America, Africa, and Asia. With the expanded format, the African Football Confederation (CAF) receives nine places, up from five. CONCACAF gets six places. Asia gets eight. For football federations that previously sent minimal representation, 2026 represents a step change in global inclusion.",
+      },
+      {
+        type: "paragraph",
+        text: "The sporting consequences are real, however. Critics argue that the additional teams dilute the quality of the group stage and introduce more one-sided matches. Defenders of the expansion point out that the 1998 expansion from 24 to 32 teams produced no noticeable decline in quality — and that it gave the world Croatia, Senegal, South Korea, and other nations who went on to reach knockout stages and semifinals. The tournament's ability to generate genuine surprise is part of its appeal.",
+      },
+      {
+        type: "heading",
+        text: "Key Dates",
+      },
+      {
+        type: "paragraph",
+        text: "The 2026 World Cup opens on June 11 in Mexico City and concludes with the final on July 19 at MetLife Stadium in New Jersey. The round of 32 begins on June 28. The quarterfinals take place July 9-11. The semifinals are scheduled for July 14 and 15. Players competing in a deep run will play a minimum of seven matches across 39 days — with the potential for extra time and penalties adding physical demands that no previous generation of World Cup players has faced over such a concentrated schedule.",
+      },
+      {
+        type: "heading",
+        text: "What to Watch For",
+      },
+      {
+        type: "paragraph",
+        text: "The 2026 World Cup arrives at a moment of genuine uncertainty at the top of the world game. Argentina are defending champions, but Lionel Messi — who will turn 39 during the tournament — faces questions about how much of his 2022 brilliance he can replicate. France, with Kylian Mbappé at 27 and in his absolute physical prime, arrive as the consensus pre-tournament favorite. England carry the weight of 60 years of near-misses. Brazil, who have not won the trophy since 2002, come with the most talented attacking generation in a decade.",
+      },
+      {
+        type: "paragraph",
+        text: "For the first time, every match will be subject to a semi-automated offside system that makes VAR decisions in seconds rather than minutes. Goal-line technology, player tracking data, and real-time tactical analysis feeds will be available to all 48 coaching staffs during matches. The 2026 World Cup will be the most data-rich and technologically equipped edition of the tournament in history — and, with 104 matches to enjoy, the most generous to fans who love football at its highest level.",
+      },
+    ],
+  },
+  {
+    slug: "2026-world-cup-favorites-contenders",
+    title: "Who Will Win the 2026 World Cup? Analyzing Every Contender",
+    excerpt:
+      "France are the favorites. Brazil have the talent. England have the squad. Argentina have the experience. A tactical assessment of every realistic contender.",
+    category: "2026 WC",
+    categoryColor: "#FF4444",
+    date: "2026-04-29",
+    readTime: 10,
+    metaDescription:
+      "Detailed tactical analysis of every 2026 World Cup contender — France, Brazil, England, Argentina, Spain, Germany and more. Who has the best chance to win?",
+    relatedMatchIds: [
+      "argentina-vs-france-2022-final",
+      "germany-vs-brazil-2014-sf",
+      "spain-vs-netherlands-2010-final",
+    ],
+    content: [
+      {
+        type: "paragraph",
+        text: "Every four years, the question simplifies itself magnificently: who is going to win? At the 2026 World Cup — the biggest, longest, and most complex edition ever staged — the answer is harder to call than at any tournament in recent memory. There is no dominant team in the mould of Spain 2010 or France 2018. Instead, there is a cluster of genuine contenders, each with a credible path to the trophy and a specific vulnerability that could end their campaign.",
+      },
+      {
+        type: "heading",
+        text: "France — The Favorites",
+      },
+      {
+        type: "paragraph",
+        text: "France arrive at 2026 as the clear pre-tournament favorites, and the case rests primarily on one player: Kylian Mbappé. At 27, he is at the peak of his physical powers — quicker than he was in 2018, more technically complete than he was in 2022, and carrying the hunger of a player who has been a runner-up once and seen a World Cup final slip away in the most dramatic circumstances imaginable.",
+      },
+      {
+        type: "paragraph",
+        text: "But France's strength goes beyond Mbappé. Didier Deschamps has built a squad with extraordinary defensive organization. N'Golo Kanté, if fit, provides the midfield engine that covers every blade of grass. The fullback positions offer width and delivery. And France's ability to win without playing well — demonstrated throughout their 2018 campaign — makes them dangerous even in matches where their quality does not translate into dominance.",
+      },
+      {
+        type: "quote",
+        text: "Mbappé at 27 is the most complete version of himself — and that version might be the best individual player at a World Cup since Ronaldo in 2002.",
+      },
+      {
+        type: "heading",
+        text: "Brazil — The Romantics' Choice",
+      },
+      {
+        type: "paragraph",
+        text: "Brazil have not won the World Cup since 2002. For a country that defines its national identity through football, 24 years of near-misses — the 7-1 in 2014, the quarterfinal exits, the penalty shootout losses — have created a weight of expectation that crushes squads before a ball is kicked. The 2026 edition arrives with a generation of talent that may be the most gifted since the early 2000s.",
+      },
+      {
+        type: "paragraph",
+        text: "Vinícius Júnior leads the attack: electric, direct, and carrying the same kind of capacity to single-handedly change a match that Mbappé possesses. Rodrygo and Endrick offer depth and youth behind him. The midfield is more organized than it has been in years. The question, as always for Brazil, is whether they can build a coherent defensive structure around their attacking talent — and whether their coaching staff can manage the psychological pressure of representing 215 million expectant fans.",
+      },
+      {
+        type: "heading",
+        text: "England — The Nearly Men or Finally?",
+      },
+      {
+        type: "paragraph",
+        text: "England have been closer to winning a major trophy in the last eight years than at any point since 1966. World Cup semifinalists in 2018. Euro finalists in 2021. World Cup quarterfinals in 2022. The squad has the quality — Harry Kane as a world-class striker despite his advancing years, Jude Bellingham as a genuine match-winner from midfield, Bukayo Saka providing consistent excellence on the right.",
+      },
+      {
+        type: "paragraph",
+        text: "The issue for England has been tactical and psychological: a tendency to play conservatively when attacking freedom is required, and a habit of freezing in knockout matches against elite opposition. The 2026 squad will be determined by whoever manages the national team, but the fundamental question remains the same as it has been for a decade — can England produce their best football when it matters most?",
+      },
+      {
+        type: "heading",
+        text: "Argentina — The Defending Champions",
+      },
+      {
+        type: "paragraph",
+        text: "Argentina arrive as defending champions, but the team that won in Qatar will be significantly different by 2026. Lionel Messi will be 38 years old during the tournament — his physical limitations will restrict his role, even if his tactical intelligence and leadership remain peerless. The genuine question is whether Lionel Scaloni has successfully transitioned Argentina's identity from Messi-dependent to collectively organized.",
+      },
+      {
+        type: "paragraph",
+        text: "Julián Álvarez, Enzo Fernández, and a defensive spine that has been among the most organized in South American football give Argentina the tools to compete without relying on individual magic. Defending a World Cup title is historically extremely difficult — only Brazil in 1958 and 1962 have won back-to-back — but Argentina have the experience, the structure, and enough residual quality to reach the knockout stages.",
+      },
+      {
+        type: "heading",
+        text: "Spain — The Possession Purists",
+      },
+      {
+        type: "paragraph",
+        text: "Spain in 2026 are a team in transition from one generation to the next, and the transition is going well. Lamine Yamal — who won the 2024 European Championship as a teenager — leads an attack with genuine pace and creativity. The midfield remains technically excellent, built on the positional principles that have defined Spanish football since 2008.",
+      },
+      {
+        type: "paragraph",
+        text: "Spain's vulnerability is their depth. They are extraordinary when their first eleven is fit and functioning. When injuries disrupt the system, they can look fragile. At a 48-team tournament with 104 matches in 39 days, squad depth will matter more than at any previous World Cup. Spain's ability to rotate without losing tactical coherence may determine how far they go.",
+      },
+      {
+        type: "heading",
+        text: "Germany — The Reconstructed Machine",
+      },
+      {
+        type: "paragraph",
+        text: "Germany went home in the group stage at both the 2018 and 2022 World Cups — results that would have been unthinkable a decade ago. The reconstruction process has been painful and public. But German football has always been defined by its ability to rebuild: the 2014 World Cup winners were themselves the product of a structural reform program launched after Germany were eliminated in the group stage at Euro 2000.",
+      },
+      {
+        type: "paragraph",
+        text: "The 2026 Germany squad, playing on home continent for the first time since 2006, will be built around a pressing-intensive style with technical quality at its core. Whether they have found the right blend of individual quality and collective organization to compete with France, Brazil, and England remains the central question. But underestimating Germany at a World Cup has a long history of ending badly.",
+      },
+      {
+        type: "heading",
+        text: "The Dark Horses",
+      },
+      {
+        type: "paragraph",
+        text: "Every World Cup produces a team that no one predicted reaching the latter stages. In 2002 it was Senegal and South Korea. In 2022 it was Morocco, who became the first African nation to reach the semifinals. At 2026, with nine African slots and eight Asian places, the opportunities for an outsider to make a historic run are greater than ever. Morocco, building on their 2022 template of defensive organization and powerful transitions, are the most credible dark horse. Japan, with their high-pressing European-club-trained squad, are another.",
+      },
+    ],
+  },
+  {
+    slug: "2026-world-cup-10-players-to-watch",
+    title: "10 Players Who Will Define the 2026 World Cup",
+    excerpt:
+      "From Mbappé at his peak to the teenage prodigies ready to announce themselves — the players whose performances will shape the tournament.",
+    category: "2026 WC",
+    categoryColor: "#FF4444",
+    date: "2026-04-28",
+    readTime: 9,
+    metaDescription:
+      "The 10 players who will define the 2026 World Cup — Kylian Mbappé, Vinícius Jr, Jude Bellingham, Lamine Yamal, and more. Tactical profiles and what to watch.",
+    relatedMatchIds: ["argentina-vs-france-2022-final"],
+    content: [
+      {
+        type: "paragraph",
+        text: "World Cups are remembered through individual moments — Maradona's hand and goal of the century in 1986, Zidane's headbutt in 2006, Mbappé's hat-trick in the 2022 final. But those moments belong to players who had spent years becoming ready for them. These are the ten players who arrive at the 2026 World Cup most equipped to define it.",
+      },
+      {
+        type: "heading",
+        text: "1. Kylian Mbappé (France)",
+      },
+      {
+        type: "paragraph",
+        text: "Mbappé at 27 is the conversation. World Cup winner at 19. Runner-up at 23, having scored a hat-trick in the final. Now arriving at what is statistically a striker's peak age with the full technical repertoire of a player who has spent a decade at the highest level. His combination of elite acceleration, clinical finishing, and increasingly sophisticated movement off the ball makes him the most dangerous player in the tournament. The question is not whether Mbappé will be involved in the decisive moments — it is whether anyone can stop him.",
+      },
+      {
+        type: "heading",
+        text: "2. Vinícius Júnior (Brazil)",
+      },
+      {
+        type: "paragraph",
+        text: "Vinícius arrives at the 2026 World Cup as arguably the best player in club football. His Champions League performances for Real Madrid — particularly his ability to beat defenders one-on-one at speed and create goals from nothing — have established him as the natural heir to Ronaldo's 2002-era dominance. For Brazil, he is the focal point of everything: the player defenders must account for at all times, which creates space for everyone around him. His mental resilience, tested repeatedly by racist abuse throughout his career, adds another dimension to his standing.",
+      },
+      {
+        type: "heading",
+        text: "3. Jude Bellingham (England)",
+      },
+      {
+        type: "paragraph",
+        text: "Bellingham's rise from a teenage Birmingham City player to one of the best midfielders in the world has been extraordinary in its speed and completeness. At 22, he combines the pressing intensity of a defensive midfielder, the creative vision of a playmaker, and the goal-scoring instincts of a forward. For England, he is simultaneously the player who controls the tempo and the one most likely to produce a match-winning individual moment. His Champions League final goal for Real Madrid in the 2024-25 season showed he has already conquered the biggest stages. The World Cup is the last frontier.",
+      },
+      {
+        type: "heading",
+        text: "4. Lamine Yamal (Spain)",
+      },
+      {
+        type: "paragraph",
+        text: "Yamal won the 2024 European Championship as a 16-year-old, scoring the equalizer in the semifinal against France. He arrives at the 2026 World Cup at 18 — still a teenager, but already one of the most technically gifted wide forwards in world football. His dribbling in tight spaces, his ability to cut inside onto his left foot, and his composure in high-pressure moments are all exceptional. Spain's attacking threat runs through him. If he performs in North America the way he performed at Euro 2024, he will be the tournament's breakout star.",
+      },
+      {
+        type: "heading",
+        text: "5. Pedri (Spain)",
+      },
+      {
+        type: "paragraph",
+        text: "Pedri is the midfielder that every possession-based team in world football wishes they had. His ability to receive the ball under pressure, turn in tight spaces, and find the right pass in a fraction of a second makes him the engine of Spain's build-up play. At 23, he has managed his injury problems and arrives at the 2026 World Cup with the full complement of fitness that previous tournaments have denied him. When Pedri is playing at his best, Spain's entire system functions differently.",
+      },
+      {
+        type: "heading",
+        text: "6. Rodri (Spain)",
+      },
+      {
+        type: "paragraph",
+        text: "The 2024 Ballon d'Or winner brings a different quality to Spain's midfield: defensive intelligence, positional discipline, and the ability to dictate tempo from deep. Rodri's value is most visible in the matches he misses — Spain's entire structure becomes more vulnerable without him. At 30, he arrives at what should be the peak of a career that has already included a Champions League, multiple Premier League titles, and a European Championship. His partnership with Pedri in central midfield may be the most technically complete pair in the tournament.",
+      },
+      {
+        type: "heading",
+        text: "7. Erling Haaland (Norway)",
+      },
+      {
+        type: "paragraph",
+        text: "Haaland at a World Cup is a prospect that was not available at Qatar 2022, when Norway failed to qualify. In 2026, should Norway make it through their qualifying campaign, the world's most clinical striker arrives on the biggest stage. His goal record at Manchester City — one goal every 62 minutes across six seasons — represents efficiency that has no historical comparison at club level. Whether he can replicate it against World Cup-level defenses is the fascinating unknown.",
+      },
+      {
+        type: "heading",
+        text: "8. Phil Foden (England)",
+      },
+      {
+        type: "paragraph",
+        text: "Foden's emergence as one of the world's best attacking players has been a slow burn — a player who spent years learning from Guardiola before exploding into consistent brilliance. His combination play in tight spaces, his movement into pockets between the lines, and his ability to score important goals make him England's most technically gifted player. In a tournament where moments of individual quality often determine knockout ties, Foden may be England's decisive weapon.",
+      },
+      {
+        type: "heading",
+        text: "9. Julián Álvarez (Argentina)",
+      },
+      {
+        type: "paragraph",
+        text: "Álvarez was one of the hidden factors in Argentina's 2022 triumph — a striker with the relentless work rate of a pressing midfielder and the finishing quality of a natural goalscorer. His World Cup final performance, combining a penalty won and converted with a goal from open play, established him as a player of genuine world-class quality. At 26 in 2026, and carrying the experience of a World Cup winner, he may prove the most complete striker in the tournament.",
+      },
+      {
+        type: "heading",
+        text: "10. Gavi (Spain)",
+      },
+      {
+        type: "paragraph",
+        text: "Gavi represents a type of midfielder that is increasingly rare: a player whose value is almost entirely in his pressing, his ball recovery, and his ability to immediately redistribute. He does not score often, does not create spectacular goals, and does not make headline-grabbing runs. What he does is make Spain's entire system function — pressing with extraordinary intensity, winning the ball back in dangerous positions, and ensuring the team never loses its collective shape. His energy and aggression give Spain's technical quality its competitive edge.",
+      },
+    ],
+  },
+  {
+    slug: "2026-world-cup-tactical-trends",
+    title: "4 Tactical Trends That Will Define the 2026 World Cup",
+    excerpt:
+      "High pressing, three-at-the-back, the evolution of the holding midfielder, and the death of the traditional winger. What the 2026 tournament will look like tactically.",
+    category: "2026 WC",
+    categoryColor: "#FF4444",
+    date: "2026-04-27",
+    readTime: 7,
+    metaDescription:
+      "Four tactical trends shaping the 2026 World Cup — high pressing evolution, three-at-the-back systems, the new holding midfielder, and how top teams will set up.",
+    relatedMatchIds: [
+      "spain-vs-netherlands-2010-final",
+      "germany-vs-brazil-2014-sf",
+      "argentina-vs-france-2022-final",
+    ],
+    content: [
+      {
+        type: "paragraph",
+        text: "Tactical trends at the World Cup move in waves. The 1970s gave us Total Football. The 1990s gave us high defensive lines and pressing. The 2010s gave us tiki-taka and its aftermath. The 2026 tournament arrives at a moment when the tactical consensus at the top of club football has shifted significantly — and those shifts will filter through to how the 48 national teams approach their 104 matches.",
+      },
+      {
+        type: "heading",
+        text: "1. The High Press Has Been Perfected — and Counter-Pressed",
+      },
+      {
+        type: "paragraph",
+        text: "Jürgen Klopp popularized the gegenpressing — the high press, the immediate and aggressive ball recovery after losing possession — at club level. By 2018, most top international teams were pressing high. By 2022, the tactical war had shifted: teams were developing the tools to bypass the press through quick goalkeeper distribution, long balls to mobile forwards, and inverted fullbacks who could create numerical superiority in the press-breaking zones.",
+      },
+      {
+        type: "paragraph",
+        text: "At 2026, the pressing game has evolved further. Teams that press effectively will be doing so with defined triggers — pressing only in specific zones, only when the ball is in certain positions, only when numerical superiority allows it. The era of pressing everywhere all the time is over. The new frontier is intelligent pressing: knowing when to press, when to drop into a mid-block, and how to transition rapidly between the two.",
+      },
+      {
+        type: "heading",
+        text: "2. Three-at-the-Back Is Back",
+      },
+      {
+        type: "paragraph",
+        text: "The three-center-back system — playing with three defenders and wing-backs rather than a traditional back four — has become the most common tactical structure in top European club football. Inter Milan won the Champions League with it. Chelsea under Pochettino deployed it. Antonio Conte has built his entire career around it. The advantages are clear: a natural numerical advantage in central defense, the flexibility to shift into a back five in defense while creating width with advancing wing-backs.",
+      },
+      {
+        type: "paragraph",
+        text: "At international level, the adoption has been slower — national managers tend toward the familiar. But the 2026 tournament will feature more three-back systems than any previous World Cup. Teams that have built defensive solidity on the back of three center backs at club level will arrive with players who are used to the demands of the system. The tactical battle between a three-back system's defensive solidity and a traditional back four's flexibility in attack will be one of the tournament's recurring sub-plots.",
+      },
+      {
+        type: "quote",
+        text: "The three-back system does not win you games. It prevents you from losing them — and at a World Cup, that is often more valuable.",
+      },
+      {
+        type: "heading",
+        text: "3. The Death of the Traditional Winger",
+      },
+      {
+        type: "paragraph",
+        text: "The wide forward who stays wide, receives the ball on the touchline, and delivers crosses — the traditional winger — is almost extinct at the elite level. In their place: the inverted winger, who starts wide but cuts inside to shoot or combine; the false winger, who drops deep to create and then makes late runs; and the pressing forward, who uses their wide starting position to lead the defensive press before transitioning into a creative role in possession.",
+      },
+      {
+        type: "paragraph",
+        text: "The practical consequence at the 2026 World Cup is that fullbacks will see less threat from orthodox wide play and more threat from centrally-arriving attackers. Defending a player like Mbappé, Vinícius Júnior, or Yamal requires a different set of decisions than defending a traditional winger. The center back who steps to cover the inverted run, or the defensive midfielder who tracks the dropping false winger, creates the spaces that these players exploit. Managing these transitions will be the central defensive challenge for every team in the knockout stages.",
+      },
+      {
+        type: "heading",
+        text: "4. The Evolution of the Holding Midfielder",
+      },
+      {
+        type: "paragraph",
+        text: "The 'destroyer' holding midfielder — the player whose primary function is to break up play, win the ball, and give it simply to a more technical teammate — is becoming obsolete. Rodri, who won the 2024 Ballon d'Or from a holding midfield position, represents the new template: a player with genuine defensive intelligence who can also build from deep, find penetrating passes into the final third, and orchestrate team shape.",
+      },
+      {
+        type: "paragraph",
+        text: "At the 2026 World Cup, the quality of a team's holding midfielder will be one of the strongest predictors of how far they go. The teams that reach the latter stages will have a player in that role who can do both: screen the defense effectively and initiate attack with the ball. The teams that rely on a pure destroyer — effective against lesser opposition but exploitable by teams with technical quality in midfield — will find the knockout stages unforgiving.",
+      },
+    ],
+  },
 ];
 
 export function getArticle(slug: string): Article | undefined {

@@ -283,6 +283,43 @@ export default function Home() {
         </div>
       </div>
 
+      {/* 2026 WORLD CUP STRIP */}
+      <div className="section" style={{ background: "#0a0a0a", borderTop: "1px solid var(--border)" }}>
+        <div style={{ maxWidth: "1100px", margin: "0 auto" }}>
+          <div style={{ display: "flex", alignItems: "center", gap: "0.75rem", marginBottom: "1.5rem" }}>
+            <div style={{ fontFamily: "'JetBrains Mono',monospace", fontSize: "0.68rem", letterSpacing: "0.14em", textTransform: "uppercase", color: "#FF4444" }}>
+              // 2026 World Cup
+            </div>
+            <div style={{ flex: 1, height: "1px", background: "rgba(255,68,68,0.2)" }} />
+            <Link href="/blog" style={{ fontFamily: "'Barlow Condensed',sans-serif", fontSize: "0.78rem", fontWeight: 600, letterSpacing: "0.06em", textTransform: "uppercase", color: "#FF4444", textDecoration: "none" }}>
+              All Articles →
+            </Link>
+          </div>
+          <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(240px, 1fr))", gap: "1rem" }}>
+            {[
+              { slug: "2026-world-cup-complete-guide", title: "Complete Guide to the 2026 World Cup", label: "48 Teams · 104 Matches" },
+              { slug: "2026-world-cup-favorites-contenders", title: "Who Will Win? Analyzing Every Contender", label: "France · Brazil · England · Argentina" },
+              { slug: "2026-world-cup-10-players-to-watch", title: "10 Players Who Will Define the Tournament", label: "Mbappé · Vinícius · Bellingham · Yamal" },
+              { slug: "2026-world-cup-tactical-trends", title: "4 Tactical Trends to Watch in 2026", label: "Pressing · Three-at-the-Back · False 9" },
+            ].map(({ slug, title, label }) => (
+              <Link key={slug} href={`/blog/${slug}`} style={{ textDecoration: "none", color: "inherit" }}>
+                <div style={{ background: "rgba(255,68,68,0.04)", border: "1px solid rgba(255,68,68,0.15)", borderRadius: "8px", padding: "1.25rem" }}>
+                  <div style={{ fontFamily: "'JetBrains Mono',monospace", fontSize: "0.58rem", color: "rgba(255,68,68,0.7)", letterSpacing: "0.08em", textTransform: "uppercase", marginBottom: "0.5rem" }}>
+                    {label}
+                  </div>
+                  <div style={{ fontFamily: "'Barlow Condensed',sans-serif", fontSize: "1rem", fontWeight: 700, textTransform: "uppercase", letterSpacing: "0.02em", color: "var(--text-primary)", lineHeight: 1.2, marginBottom: "0.75rem" }}>
+                    {title}
+                  </div>
+                  <div style={{ fontFamily: "'Barlow Condensed',sans-serif", fontSize: "0.75rem", fontWeight: 600, textTransform: "uppercase", letterSpacing: "0.06em", color: "#FF4444" }}>
+                    Read →
+                  </div>
+                </div>
+              </Link>
+            ))}
+          </div>
+        </div>
+      </div>
+
       {/* ABOUT STRIP */}
       <div className="section" style={{ background: "var(--bg-surface)", borderTop: "1px solid var(--border)" }}>
         <div style={{ maxWidth: "800px", margin: "0 auto", textAlign: "center", padding: "1rem 0" }}>
@@ -312,6 +349,8 @@ export default function Home() {
         <div className="nav-logo">World<span style={{ color: "var(--accent-green)" }}>Cup</span>Tactics</div>
         <div style={{ fontSize: "0.78rem", color: "var(--text-muted)" }}>© 2026 WorldCupTactics.com — AI Tactical Analysis Platform</div>
         <div style={{ marginLeft: "auto", display: "flex", gap: "1.5rem" }}>
+          <Link href="/blog" style={{ fontFamily: "'Barlow Condensed',sans-serif", fontSize: "0.78rem", letterSpacing: "0.06em", textTransform: "uppercase", color: "var(--text-muted)", textDecoration: "none" }}>Blog</Link>
+          <Link href="/contact" style={{ fontFamily: "'Barlow Condensed',sans-serif", fontSize: "0.78rem", letterSpacing: "0.06em", textTransform: "uppercase", color: "var(--text-muted)", textDecoration: "none" }}>Contact</Link>
           <Link href="/privacy" style={{ fontFamily: "'Barlow Condensed',sans-serif", fontSize: "0.78rem", letterSpacing: "0.06em", textTransform: "uppercase", color: "var(--text-muted)", textDecoration: "none" }}>Privacy</Link>
           <Link href="/about" style={{ fontFamily: "'Barlow Condensed',sans-serif", fontSize: "0.78rem", letterSpacing: "0.06em", textTransform: "uppercase", color: "var(--text-muted)", textDecoration: "none" }}>About</Link>
         </div>
