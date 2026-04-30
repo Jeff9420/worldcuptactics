@@ -184,23 +184,23 @@ function assignLabel(s: PlayerStats, position: string): LabelDef {
   const isGK = s.shooting < 30 && s.defending > 82;
 
   if (isGK) {
-    if (s.clutch >= 92) return { label: "扑点神话", labelColor: "#2DFF7C", labelIcon: "🧤", flavor: "关键时刻接管比赛，点球大战的终结者" };
-    if (s.defending >= 95) return { label: "门神", labelColor: "#2DFF7C", labelIcon: "🧤", flavor: "球门就是他的领土，无懈可击的最后防线" };
-    return { label: "稳定型门将", labelColor: "#888", labelIcon: "🧤", flavor: "沉稳可靠，为球队提供坚实的最后一道保障" };
+    if (s.clutch >= 92) return { label: "Penalty Stopper", labelColor: "#2DFF7C", labelIcon: "🧤", flavor: "Takes over in critical moments — the ultimate penalty shootout specialist" };
+    if (s.defending >= 95) return { label: "Goalkeeper God", labelColor: "#2DFF7C", labelIcon: "🧤", flavor: "The goal line is his territory — an impenetrable last line of defense" };
+    return { label: "Reliable Keeper", labelColor: "#888", labelIcon: "🧤", flavor: "Cool and composed — a steady presence that keeps the team secure" };
   }
-  if (avg >= 89) return { label: "球王级别", labelColor: "#F5C518", labelIcon: "👑", flavor: "超越时代的存在，足球史书上永恒的名字" };
-  if (avg >= 84 && spread < 22) return { label: "六边形战士", labelColor: "#2DFF7C", labelIcon: "⬡", flavor: "全能无死角，教练梦寐以求的完美球员" };
-  if (s.pace >= 95) return { label: "速度妖人", labelColor: "#FF4444", labelIcon: "⚡", flavor: "闪电般的加速度，后卫的噩梦制造者" };
-  if (s.dribbling >= 93 && avg >= 78) return { label: "盘带魔术师", labelColor: "#FF8C00", labelIcon: "🪄", flavor: "脚下如有魔法，一对一从未失手" };
-  if (s.passing >= 93 && s.dribbling >= 80) return { label: "传控大师", labelColor: "#00BFFF", labelIcon: "🎯", flavor: "掌控节奏如同指挥乐团，传球是最高级的艺术" };
-  if (s.clutch >= 93 && avg >= 78) return { label: "大心脏", labelColor: "#FF69B4", labelIcon: "💗", flavor: "越是关键时刻越发闪光，比赛的终结者" };
-  if (s.shooting >= 92 && s.dribbling >= 80 && s.defending < 58) return { label: "进攻机器", labelColor: "#FF4444", labelIcon: "🔥", flavor: "纯粹的进球机器，对方球门的专属破坏者" };
-  if (s.defending >= 92 && s.shooting < 58) return { label: "铜墙铁壁", labelColor: "#8888FF", labelIcon: "🛡️", flavor: "攻不破的防线，对方前锋的终结之地" };
-  if (s.passing >= 90 && s.defending >= 78) return { label: "全能中场", labelColor: "#00BFFF", labelIcon: "⚙️", flavor: "攻守两端全面开花，中场的发动机与保障" };
-  if (spread >= 42 && max >= 88) return { label: "偏科天才", labelColor: "#F5C518", labelIcon: "💡", flavor: "某项能力封顶，但这已经足够决定比赛" };
-  if (avg >= 80) return { label: "全能战士", labelColor: "#2DFF7C", labelIcon: "⚔️", flavor: "均衡全面，任何位置都能胜任的可靠老将" };
-  if (s.pace >= 86 && s.dribbling >= 80) return { label: "边路利刃", labelColor: "#FF8C00", labelIcon: "🗡️", flavor: "边路的一把快刀，速度与技术的完美结合" };
-  return { label: "均衡型选手", labelColor: "#888", labelIcon: "⚽", flavor: "脚踏实地的职业球员，球队不可缺少的拼图" };
+  if (avg >= 89) return { label: "Legend Class", labelColor: "#F5C518", labelIcon: "👑", flavor: "A transcendent force — a name written forever in football history" };
+  if (avg >= 84 && spread < 22) return { label: "Complete Player", labelColor: "#2DFF7C", labelIcon: "⬡", flavor: "No weaknesses anywhere — every manager's dream player" };
+  if (s.pace >= 95) return { label: "Speed Demon", labelColor: "#FF4444", labelIcon: "⚡", flavor: "Lightning acceleration — a nightmare for every defender on the pitch" };
+  if (s.dribbling >= 93 && avg >= 78) return { label: "Dribble Wizard", labelColor: "#FF8C00", labelIcon: "🪄", flavor: "Pure magic in his boots — never loses a one-on-one duel" };
+  if (s.passing >= 93 && s.dribbling >= 80) return { label: "Passing Master", labelColor: "#00BFFF", labelIcon: "🎯", flavor: "Controls the tempo like a conductor — passing is the highest form of art" };
+  if (s.clutch >= 93 && avg >= 78) return { label: "Clutch King", labelColor: "#FF69B4", labelIcon: "💗", flavor: "Shines brightest when it matters most — the ultimate big-game closer" };
+  if (s.shooting >= 92 && s.dribbling >= 80 && s.defending < 58) return { label: "Attack Machine", labelColor: "#FF4444", labelIcon: "🔥", flavor: "A pure goal machine — the dedicated destroyer of opposition nets" };
+  if (s.defending >= 92 && s.shooting < 58) return { label: "Iron Wall", labelColor: "#8888FF", labelIcon: "🛡️", flavor: "An impenetrable wall — where opposing forwards come to die" };
+  if (s.passing >= 90 && s.defending >= 78) return { label: "Box-to-Box", labelColor: "#00BFFF", labelIcon: "⚙️", flavor: "Complete in both directions — the engine and shield of the midfield" };
+  if (spread >= 42 && max >= 88) return { label: "Specialist", labelColor: "#F5C518", labelIcon: "💡", flavor: "One attribute maxed out — and that alone is enough to win games" };
+  if (avg >= 80) return { label: "All-Rounder", labelColor: "#2DFF7C", labelIcon: "⚔️", flavor: "Balanced and versatile — a reliable veteran who fits any system" };
+  if (s.pace >= 86 && s.dribbling >= 80) return { label: "Wing Blade", labelColor: "#FF8C00", labelIcon: "🗡️", flavor: "A razor-sharp winger — perfect blend of speed and technical brilliance" };
+  return { label: "Solid Pro", labelColor: "#888", labelIcon: "⚽", flavor: "A grounded professional — the unsung piece every squad needs" };
 }
 
 // ─── Public API ───────────────────────────────────────────────────────────────
@@ -218,10 +218,10 @@ export function getPlayerProfile(name: string, position: string, rating: number)
 }
 
 export const STAT_LABELS: Record<keyof PlayerStats, string> = {
-  shooting: "射门",
-  passing: "传球",
-  dribbling: "盘带",
-  defending: "防守",
-  pace: "速度",
-  clutch: "大心脏",
+  shooting: "Shot",
+  passing: "Pass",
+  dribbling: "Dribble",
+  defending: "Defense",
+  pace: "Pace",
+  clutch: "Clutch",
 };
