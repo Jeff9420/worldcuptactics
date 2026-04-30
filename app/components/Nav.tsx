@@ -21,6 +21,9 @@ export default function Nav() {
         <Link href="/about" className={`nav-link ${pathname === "/about" ? "active" : ""}`}>
           About
         </Link>
+        <Link href="/contact" className={`nav-link ${pathname === "/contact" ? "active" : ""}`}>
+          Contact
+        </Link>
       </div>
       <div className="nav-right">
         <div className="live-badge">
