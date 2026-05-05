@@ -42,9 +42,10 @@ export default async function ArticlePage({
     (a) => a.slug !== slug && a.category === article.category
   ).slice(0, 3);
 
-  const relatedMatches = article.relatedMatchIds
-    .map((id) => getMatch(id))
-    .filter(Boolean);
+  const relatedMatchesRaw = await Promise.all(
+    article.relatedMatchIds.map((id) => getMatch(id))
+  );
+  const relatedMatches = relatedMatchesRaw.filter(Boolean);
 
   const jsonLd = {
     "@context": "https://schema.org",

@@ -6,7 +6,7 @@ export const contentType = "image/png";
 
 export default async function OgImage({ params }: { params: Promise<{ id: string }> }) {
   const { id } = await params;
-  const match = getMatch(id);
+  const match = await getMatch(id);
 
   if (!match) {
     return new ImageResponse(

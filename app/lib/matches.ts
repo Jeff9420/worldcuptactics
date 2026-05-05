@@ -2200,13 +2200,72 @@ Croatia never recovered from going two goals down before half-time. Their posses
 
 ];
 
-// Helper to get a match by ID
-export function getMatch(id: string): Match | undefined {
+import { supabase } from "./supabase";
+
+// Helper to get a match by ID (Async with Supabase + Static Fallback)
+export async function getMatch(id: string): Promise<Match | undefined> {
+  if (supabase) {
+    try {
+      const { data, error } = await supabase.from("matches").select("*").eq("id", id).single();
+      if (!error && data) {
+        return {
+          id: data.id,
+          tournament: data.tournament,
+          year: data.year,
+          stage: data.stage,
+          date: data.date,
+          venue: data.venue,
+          city: data.city,
+          status: data.status,
+          penaltyScore: data.penalty_score,
+          metaDescription: data.meta_description,
+          tacticalAnalysis: data.tactical_analysis,
+          historicalSignificance: data.historical_significance,
+          home: {
+            name: data.home_name,
+            flag: data.home_flag,
+            formation: data.home_formation,
+            color: data.home_color,
+            colorDim: data.home_color_dim,
+            score: data.home_score,
+            players: data.home_players || [],
+          },
+          away: {
+            name: data.away_name,
+            flag: data.away_flag,
+            formation: data.away_formation,
+            color: data.away_color,
+            colorDim: data.away_color_dim,
+            score: data.away_score,
+            players: data.away_players || [],
+          },
+          xG: { home: Number(data.home_xg), away: Number(data.away_xg) },
+          possession: { home: data.home_possession, away: data.away_possession },
+          timeline: data.timeline || [],
+          stats: data.stats || [],
+          keyMoments: data.key_moments || [],
+          topPerformers: data.top_performers || [],
+        };
+      }
+    } catch (e) {
+      console.warn("Supabase fetch failed, falling back to static data", e);
+    }
+  }
   return MATCHES.find((m) => m.id === id);
 }
 
 // Helper to get all match IDs (for generateStaticParams)
-export function getAllMatchIds(): string[] {
+export async function getAllMatchIds(): Promise<string[]> {
+  if (supabase) {
+    try {
+      const { data, error } = await supabase.from("matches").select("id");
+      if (!error && data && data.length > 0) {
+        return data.map((m) => m.id);
+      }
+    } catch (e) {
+      console.warn("Supabase fetch failed, falling back to static data", e);
+    }
+  }
   return MATCHES.map((m) => m.id);
 }
 

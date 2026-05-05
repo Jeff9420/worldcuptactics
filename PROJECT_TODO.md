@@ -16,11 +16,11 @@
 ## 🔴 In Progress / Next Sprint
 
 ### Phase 1 — AdSense Approval Content (Priority: NOW)
-- [ ] 10 historical match pages with real tactical analysis (5-10 needed for AdSense review)
-- [ ] Privacy Policy page (required for AdSense)
-- [ ] About page (improves AdSense approval rate)
-- [ ] Dynamic routing: generateStaticParams for all 10 match IDs
-- [ ] Formation parser: auto-position players from formation string + lineup array
+- [x] 10 historical match pages with real tactical analysis (5-10 needed for AdSense review)
+- [x] Privacy Policy page (required for AdSense)
+- [x] About page (improves AdSense approval rate)
+- [x] Dynamic routing: generateStaticParams for all 10 match IDs
+- [x] Formation parser: auto-position players from formation string + lineup array
 
 ### Phase 2 — Data & API (Priority: HIGH)
 - [ ] Integrate football-data.org or API-Football for real match data

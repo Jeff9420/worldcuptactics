@@ -4,8 +4,9 @@ import { getAllArticleSlugs } from "./lib/articles";
 
 const BASE = "https://worldcuptactics.com";
 
-export default function sitemap(): MetadataRoute.Sitemap {
-  const matchUrls: MetadataRoute.Sitemap = getAllMatchIds().map((id) => ({
+export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
+  const ids = await getAllMatchIds();
+  const matchUrls: MetadataRoute.Sitemap = ids.map((id) => ({
     url: `${BASE}/matches/${id}`,
     lastModified: new Date("2026-04-30"),
     changeFrequency: "monthly",

@@ -5,7 +5,8 @@ import MatchDetail from "./MatchDetail";
 import { getMatch, getAllMatchIds, MATCHES } from "../../lib/matches";
 
 export async function generateStaticParams() {
-  return getAllMatchIds().map((id) => ({ id }));
+  const ids = await getAllMatchIds();
+  return ids.map((id) => ({ id }));
 }
 
 export async function generateMetadata({
@@ -14,7 +15,7 @@ export async function generateMetadata({
   params: Promise<{ id: string }>;
 }): Promise<Metadata> {
   const { id } = await params;
-  const match = getMatch(id);
+  const match = await getMatch(id);
   if (!match) return { title: "Match Not Found | WorldCupTactics" };
 
   const score = `${match.home.score}–${match.away.score}`;
@@ -42,7 +43,7 @@ export default async function MatchPage({
   params: Promise<{ id: string }>;
 }) {
   const { id } = await params;
-  const match = getMatch(id);
+  const match = await getMatch(id);
   if (!match) notFound();
 
   const jsonLd = {

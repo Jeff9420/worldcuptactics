@@ -5,6 +5,8 @@ import Link from "next/link";
 import { Match, getPlayerPositions } from "../../lib/matches";
 import { getPlayerProfile, STAT_LABELS } from "../../lib/players";
 import RadarChart from "../../components/RadarChart";
+import { createClient } from "../../lib/supabase-browser";
+import { useEffect } from "react";
 
 type Tab = "tactics" | "stats" | "timeline" | "ai" | "players";
 
@@ -55,7 +57,7 @@ function ShareBar({ match }: { match: Match }) {
       </a>
       <button
         onClick={copyLink}
-        style={{ display: "inline-flex", alignItems: "center", gap: "0.4rem", padding: "0.4rem 0.9rem", background: copied ? "rgba(45,255,124,0.08)" : "rgba(255,255,255,0.05)", border: `1px solid ${copied ? "rgba(45,255,124,0.3)" : "var(--border-mid)"}`, borderRadius: "6px", fontFamily: "'Barlow Condensed',sans-serif", fontSize: "0.82rem", fontWeight: 700, textTransform: "uppercase", letterSpacing: "0.05em", color: copied ? "var(--accent-green)" : "var(--text-secondary)", cursor: "pointer", transition: "all 0.15s" }}
+        style={{ display: "inline-flex", alignItems: "center", gap: "0.4rem", padding: "0.4rem 0.9rem", background: copied ? "rgba(45,255,124,0.08)", border: `1px solid ${copied ? "rgba(45,255,124,0.3)" : "var(--border-mid)"}`, borderRadius: "6px", fontFamily: "'Barlow Condensed',sans-serif", fontSize: "0.82rem", fontWeight: 700, textTransform: "uppercase", letterSpacing: "0.05em", color: copied ? "var(--accent-green)" : "var(--text-secondary)", cursor: "pointer", transition: "all 0.15s" }}
       >
         {copied ? "✓ Copied!" : "⎘ Copy Link"}
       </button>
@@ -72,6 +74,22 @@ export default function MatchDetail({
 }) {
   const [activeTab, setActiveTab] = useState<Tab>("tactics");
   const [activeCtrl, setActiveCtrl] = useState("Formation");
+  const [isPro, setIsPro] = useState<boolean | null>(null);
+
+  const supabase = createClient();
+
+  useEffect(() => {
+    const checkPro = async () => {
+      const { data: { session } } = await supabase.auth.getSession();
+      if (!session) {
+        setIsPro(false);
+        return;
+      }
+      const { data } = await supabase.from('profiles').select('is_pro').eq('id', session.user.id).single();
+      setIsPro(data?.is_pro === true);
+    };
+    checkPro();
+  }, [supabase]);
 
   const homePos = getPlayerPositions(match.home.formation, match.home.players, "home");
   const awayPos = getPlayerPositions(match.away.formation, match.away.players, "away");
@@ -654,33 +672,63 @@ export default function MatchDetail({
 
           {/* ─── AI REPORT TAB ─── */}
           {activeTab === "ai" && (
-            <div>
-              <div className="ai-insight" style={{ marginBottom: "1rem" }}>
-                <div className="insight-label">🤖 AI Tactical Analysis</div>
-                <div className="insight-text" style={{ whiteSpace: "pre-line" }}>
-                  {match.tacticalAnalysis}
+            <div style={{ position: "relative" }}>
+              {isPro === false && (
+                <div style={{
+                  position: "absolute",
+                  top: 0, left: 0, right: 0, bottom: 0,
+                  backdropFilter: "blur(8px)",
+                  background: "rgba(4, 12, 6, 0.6)",
+                  zIndex: 10,
+                  display: "flex",
+                  flexDirection: "column",
+                  alignItems: "center",
+                  justifyContent: "center",
+                  padding: "2rem",
+                  borderRadius: "8px"
+                }}>
+                  <h3 style={{ fontFamily: "'Barlow Condensed', sans-serif", fontSize: "2rem", textTransform: "uppercase", marginBottom: "1rem" }}>
+                    Pro Membership Required
+                  </h3>
+                  <p style={{ textAlign: "center", color: "var(--text-secondary)", marginBottom: "2rem", maxWidth: "400px" }}>
+                    Unlock full AI tactical analysis, historical archive access, and ad-free experience.
+                  </p>
+                  <Link href="/pro">
+                    <button className="btn-primary" style={{ fontSize: "1.2rem", padding: "0.8rem 2rem" }}>
+                      Upgrade to PRO
+                    </button>
+                  </Link>
                 </div>
-              </div>
-              <div className="ai-insight" style={{ marginBottom: "1rem" }}>
-                <div className="insight-label">📍 Key Tactical Moments</div>
-                <ul style={{ margin: 0, paddingLeft: "1.2rem" }}>
-                  {match.keyMoments.map((m, i) => (
-                    <li
-                      key={i}
-                      style={{
-                        marginBottom: "0.6rem",
-                        lineHeight: 1.6,
-                        color: "var(--text-secondary)",
-                      }}
-                    >
-                      {m}
-                    </li>
-                  ))}
-                </ul>
-              </div>
-              <div className="ai-insight">
-                <div className="insight-label">🏛️ Historical Significance</div>
-                <div className="insight-text">{match.historicalSignificance}</div>
+              )}
+              
+              <div style={{ filter: isPro === false ? "blur(4px)" : "none", pointerEvents: isPro === false ? "none" : "auto", userSelect: isPro === false ? "none" : "auto" }}>
+                <div className="ai-insight" style={{ marginBottom: "1rem" }}>
+                  <div className="insight-label">🤖 AI Tactical Analysis</div>
+                  <div className="insight-text" style={{ whiteSpace: "pre-line" }}>
+                    {match.tacticalAnalysis}
+                  </div>
+                </div>
+                <div className="ai-insight" style={{ marginBottom: "1rem" }}>
+                  <div className="insight-label">📍 Key Tactical Moments</div>
+                  <ul style={{ margin: 0, paddingLeft: "1.2rem" }}>
+                    {match.keyMoments.map((m, i) => (
+                      <li
+                        key={i}
+                        style={{
+                          marginBottom: "0.6rem",
+                          lineHeight: 1.6,
+                          color: "var(--text-secondary)",
+                        }}
+                      >
+                        {m}
+                      </li>
+                    ))}
+                  </ul>
+                </div>
+                <div className="ai-insight">
+                  <div className="insight-label">🏛️ Historical Significance</div>
+                  <div className="insight-text">{match.historicalSignificance}</div>
+                </div>
               </div>
             </div>
           )}
