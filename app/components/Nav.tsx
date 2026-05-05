@@ -48,6 +48,7 @@ export default function Nav() {
 
   const handleLogout = async () => {
     await supabase.auth.signOut();
+    window.location.href = "/"; // Force a hard reload to clear all server/client states
   };
 
   return (
