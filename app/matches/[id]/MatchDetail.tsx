@@ -57,7 +57,7 @@ function ShareBar({ match }: { match: Match }) {
       </a>
       <button
         onClick={copyLink}
-        style={{ display: "inline-flex", alignItems: "center", gap: "0.4rem", padding: "0.4rem 0.9rem", background: copied ? "rgba(45,255,124,0.08)", border: `1px solid ${copied ? "rgba(45,255,124,0.3)" : "var(--border-mid)"}`, borderRadius: "6px", fontFamily: "'Barlow Condensed',sans-serif", fontSize: "0.82rem", fontWeight: 700, textTransform: "uppercase", letterSpacing: "0.05em", color: copied ? "var(--accent-green)" : "var(--text-secondary)", cursor: "pointer", transition: "all 0.15s" }}
+        style={{ display: "inline-flex", alignItems: "center", gap: "0.4rem", padding: "0.4rem 0.9rem", background: copied ? "rgba(45,255,124,0.08)" : "transparent", border: `1px solid ${copied ? "rgba(45,255,124,0.3)" : "var(--border-mid)"}`, borderRadius: "6px", fontFamily: "'Barlow Condensed',sans-serif", fontSize: "0.82rem", fontWeight: 700, textTransform: "uppercase", letterSpacing: "0.05em", color: copied ? "var(--accent-green)" : "var(--text-secondary)", cursor: "pointer", transition: "all 0.15s" }}
       >
         {copied ? "✓ Copied!" : "⎘ Copy Link"}
       </button>
