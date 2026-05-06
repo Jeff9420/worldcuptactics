@@ -1975,6 +1975,309 @@ export const ARTICLES: Article[] = [
           }
     ],
   },
+  {
+    slug: "2026-vs-2022-world-cup-differences",
+    title: "2026 vs 2022: Everything That's Different About This World Cup",
+    excerpt: "More teams. Three host nations. New rules. A completely different format. The 2026 World Cup breaks from every tradition — here's exactly what's changed and why it matters.",
+    category: "2026 WC",
+    categoryColor: "#FF4444",
+    date: "2026-05-06",
+    readTime: 8,
+    metaDescription: "Everything different about the 2026 World Cup compared to 2022 — format, rules, number of teams, host nations, schedule, and what it means for the football.",
+    relatedMatchIds: ["argentina-vs-france-2022-final","saudi-arabia-vs-argentina-2022-group","france-vs-morocco-2022-sf"],
+    content: [
+          {
+                "type": "paragraph",
+                "text": "As the anticipation builds for the 2026 FIFA World Cup, it’s impossible to overlook just how radically different this edition of the tournament will be compared to its predecessor in 2022. With a diverse host of nations, an expanded number of teams, and a brand-new format, the 2026 World Cup is set to break from tradition in ways that could redefine the future of football’s grandest event."
+          },
+          {
+                "type": "heading",
+                "text": "A Leap in Numbers: Teams, Matches, and Venues"
+          },
+          {
+                "type": "paragraph",
+                "text": "The most immediate difference fans will notice in 2026 is the expansion of teams competing. For the first time in World Cup history, 48 nations will vie for football's ultimate prize, a significant leap from the 32 teams that battled in Qatar just four years earlier. This enlargement means a total of 104 matches are expected to unfold over the course of the tournament, compared to the 64 matches that took place in 2022. The added teams and matches will undoubtedly increase the excitement, but they also present a logistical challenge."
+          },
+          {
+                "type": "paragraph",
+                "text": "The tournament will be hosted across three countries: the United States, Canada, and Mexico. This collaboration marks a significant departure from the singular host nation approach seen in Qatar. There will be 16 venues across these countries, making the event more geographically diverse but also requiring careful considerations for travel and logistics. Fans should prepare for a tournament that stretches across vast distances—the distances between venues in North America are markedly greater than those experienced in the compact layout of Qatar."
+          },
+          {
+                "type": "quote",
+                "text": "The 2026 World Cup will be the first to feature 48 teams, a change that will usher in a new era for international football."
+          },
+          {
+                "type": "heading",
+                "text": "The Tournament Format: A New Dimension"
+          },
+          {
+                "type": "paragraph",
+                "text": "The introduction of 48 teams requires a unique structure for the tournament format. In 2026, the tournament will consist of 12 groups of four teams, with the top two from each group, along with the eight best third-placed teams, advancing to the knockout stage. This contrasts sharply with the 2022 tournament’s eight groups of four where only the top two advanced. The implications of this change are profound; it allows for more potential matchups and increases the likelihood of exciting clashes."
+          },
+          {
+                "type": "paragraph",
+                "text": "This shift also aims to ensure that more nations have the opportunity to compete on the world stage, giving smaller footballing nations a better chance to advance. Imagine a scenario where teams like Qatar 2022's semi-finalists, Croatia, and the emerging talents from a nation like Ghana or Iceland face off in the group stage. This dynamic could engender more competition and unpredictability, factors that have traditionally been prized in World Cup narratives."
+          },
+          {
+                "type": "heading",
+                "text": "Tournament Length and Climate Considerations"
+          },
+          {
+                "type": "paragraph",
+                "text": "One cannot overlook the difference in tournament length; 2026 is set to span 39 days compared to Qatar's 29-day schedule. This extension creates more breathing room for players and teams, allowing them to recuperate and prepare between matches. Such an increase can be crucial for teams who progress deep into the tournament, as fatigue and injury management become paramount factors in determining success."
+          },
+          {
+                "type": "paragraph",
+                "text": "Moreover, the climate across the three host nations will be varied. While Qatar's intense desert heat was a concern, particularly for conditioning players and ensuring fair play during matches, the 2026 World Cup will take place under a range of weather conditions—from the heat of Dallas to the cooler temperatures in Canada. This variation will require teams to adapt their strategies according to the climate and geographical conditions, potentially influencing how matches are played."
+          },
+          {
+                "type": "quote",
+                "text": "The 2026 World Cup will bring a diverse climate landscape that could shape tactical approaches like never before."
+          },
+          {
+                "type": "heading",
+                "text": "Financial Impact and Global Reach"
+          },
+          {
+                "type": "paragraph",
+                "text": "Culturally and financially, the hosting of the World Cup in North America marks a significant milestone. The prize money pool has increased substantially from 2022, with FIFA pledging significantly higher amounts as they seek to elevate the tournament's prestige and encourage greater investment in grassroots football worldwide. This represents an acknowledgment of the growing commercial appeal of football within the United States, as well as its broader market impact across Canada and Mexico."
+          },
+          {
+                "type": "paragraph",
+                "text": "The financial implications extend beyond profitability; the World Cup is a catalyst for economic growth and local investment in infrastructure. With a deeper media and broadcast reach, fans globally can expect enhanced coverage and accessibility to matches, further entrenching football's status as a leading cultural force."
+          },
+          {
+                "type": "quote",
+                "text": "The financial stakes for the 2026 World Cup reflect the growing influence of football in the United States and the global market."
+          },
+          {
+                "type": "heading",
+                "text": "What Remains the Same: Familiar Rules and VAR"
+          },
+          {
+                "type": "paragraph",
+                "text": "While there are vast differences in the format and structure of the tournament, several elements will remain unchanged. The Video Assistant Referee (VAR) technology, which sparked contentious debates during Qatar 2022, will continue to play a role in ensuring fair outcomes on the pitch. Furthermore, the laws of the game, including the offside rules modified by the Semi-Automated Offside Technology (SAOT), will persist."
+          },
+          {
+                "type": "paragraph",
+                "text": "Knockouts will still operate from the round of 32 onward, ensuring a continuity that allows teams familiar with the tournament format to compete under established rules. This balance between tradition and innovation could ultimately influence how teams prepare and strategize for their World Cup campaigns."
+          },
+          {
+                "type": "heading",
+                "text": "Cultural Significance and The Future of Football"
+          },
+          {
+                "type": "paragraph",
+                "text": "The cultural significance of hosting in the United States cannot be understated. Football has been growing in prominence, and the 2026 World Cup serves as a critical moment for the sport's acceptance and expansion in one of the largest markets. Compared to the Gulf state setting of Qatar, where cultural acceptance of football varies, the North American context presents an opportunity for diverse audiences to engage with the beautiful game."
+          },
+          {
+                "type": "paragraph",
+                "text": "Beyond the sporting implications, the 2026 World Cup will influence youth engagement, inspire future generations of players, and promote greater dialogue on soccer's reach and relevance in contemporary society."
+          },
+          {
+                "type": "paragraph",
+                "text": "As World Cup 2026 approaches, the landscape of international football is poised for a transformative leap. With an unprecedented structure and a new host dynamics, it promises to be a tournament that not only showcases breathtaking performances but also resonates deeply within the cultural, economic, and social fabric of the nations involved."
+          }
+    ],
+  },
+  {
+    slug: "2026-world-cup-new-rules-format-explained",
+    title: "2026 World Cup Rules and Format: The Complete Guide",
+    excerpt: "How does the new 48-team format actually work? What happens to third-place teams? When does extra time apply? Everything you need to understand the 2026 World Cup structure before a ball is kicked.",
+    category: "2026 WC",
+    categoryColor: "#FF4444",
+    date: "2026-05-06",
+    readTime: 7,
+    metaDescription: "Complete guide to 2026 World Cup rules and format — how the 48-team group stage works, which third-place teams qualify, VAR rules, and the full tournament structure.",
+    relatedMatchIds: ["germany-vs-japan-2022-group","cameroon-vs-brazil-2022-group","morocco-vs-spain-2022-r16"],
+    content: [
+          {
+                "type": "paragraph",
+                "text": "As the world gears up for the 2026 FIFA World Cup, anticipation is palpable. This tournament will not only mark the first time the event is hosted across three nations— the United States, Canada, and Mexico—but it will also see a historic expansion of the tournament format. With an increase from 32 to 48 teams, the World Cup will feature a dramatically reshaped structure that promises to deliver more excitement and opportunities for nations around the globe. But how exactly will this new format operate? In this comprehensive guide, we will delve into the intricacies of the 2026 World Cup's rules and formats."
+          },
+          {
+                "type": "heading",
+                "text": "Understanding the Format: Group Stage and Beyond"
+          },
+          {
+                "type": "paragraph",
+                "text": "The 2026 World Cup introduces a major revision to the traditional format, launching a group stage consisting of 12 groups of four teams each. In this stage, every team will compete in three group matches. The stakes are high, as only the top two teams from each group, alongside the eight best third-placed teams, will progress to the knockout round, culminating in a daunting Round of 32. This fresh addition not only increases the number of matches played but also heightens the tactical nuances as teams vie for a spot in the next stage—an essential battleground for nations eager to showcase their footballing talents."
+          },
+          {
+                "type": "paragraph",
+                "text": "The knockout rounds then begin, featuring a Round of 16, quarter-finals, semi-finals, a third-place playoff, and of course, the final. Each of these rounds will proceed as direct elimination matches, adding an air of nail-biting tension that fans relish. Imagine teams like Brazil and Argentina potentially clashing after navigating the group stage only to face the heart-stopping pressure of a knockout game with an unscripted ending. The new format also means that more teams will experience the euphoria of World Cup action, which the tournament's governing body hopes will enhance global interest in the game."
+          },
+          {
+                "type": "quote",
+                "text": "In 2026, more nations will get a taste of World Cup glory; with 48 teams, every match demands a tactical edge."
+          },
+          {
+                "type": "heading",
+                "text": "VAR and Semi-Automated Offside Technology"
+          },
+          {
+                "type": "paragraph",
+                "text": "Video Assistant Referee (VAR) technology returns for the 2026 World Cup, having sparked polarizing debates during its earlier implementations. The use of VAR aims to ensure fairness in tightly contested decisions, chiefly around penalties, goals, and player dismissals. New to the 2026 edition will be the incorporation of semi-automated offside technology (SAOT), which FIFA promises will revolutionize decision-making speed. With systems already piloted in leagues worldwide, the goal is to drastically reduce the time taken to adjudicate potential offsides, enhancing the flow of the game."
+          },
+          {
+                "type": "paragraph",
+                "text": "The 2022 Qatar World Cup used an average effective playing time of only 52 minutes, leading to a crackdown on time-wasting tactics. The 2026 tournament will employ stricter guidelines to ensure that games maintain an efficient pace, further underscoring how crucial each minute on the pitch becomes, particularly during knockout matches. As teams like Germany and Spain look to exploit every possible opportunity, fans can expect a more dynamic viewing experience, with emphasis on uninterrupted play and fewer delays."
+          },
+          {
+                "type": "quote",
+                "text": "The introduction of SAOT will ensure decisions are quick, reducing the agony of waiting for crucial calls."
+          },
+          {
+                "type": "heading",
+                "text": "Squad Rules and Substitutions: What to Expect"
+          },
+          {
+                "type": "paragraph",
+                "text": "In terms of squad composition, each team is allowed to register a maximum of 26 players, with 23 of those being included in the matchday squad. This allows coaches to maintain deep benches, crucial for the demands of an expanded tournament requiring tactical flexibility. The ability to substitute five players during regulation time—plus one more during extra time—will offer teams strategic leeway, giving managers opportunities to exploit matchups as conditions change on the pitch."
+          },
+          {
+                "type": "paragraph",
+                "text": "We may see managers utilize their substitutions aggressively, especially in knockout stages where fatigue can affect performance dramatically. Coaches like Roberto Mancini of Italy or Didier Deschamps of France might lean on their bench to introduce fresh legs, hoping to turn the tide of hard-fought matches. The tactical choices will likely shape the featured narratives as fans look back on thrilling comebacks that result from clever line-up adjustments."
+          },
+          {
+                "type": "heading",
+                "text": "Point System and Tiebreakers: A New Strategy"
+          },
+          {
+                "type": "paragraph",
+                "text": "The points system remains familiar, with three points awarded for a victory, one for a draw, and none for a loss. However, the expanded field introduces more complexities when assessing qualification for the knockout stages. If teams find themselves level on points, FIFA has defined a tiered tiebreaker system of head-to-head results, goal difference, and then goals scored to identify who advances. This places immense pressure on teams that enter the final group matches in tight contention—think England’s last-minute heroics against Tunisia in 2018."
+          },
+          {
+                "type": "paragraph",
+                "text": "Particular attention must be paid to the quality of the groups, as certain configurations might lead to unexpectedly high levels of competition for the coveted third-place spot. In some scenarios, teams might only need a draw from their last match to secure advancement, while in others, especially in groups packed with giants like France, Brazil, and Portugal, three points may prove necessary to progress."
+          },
+          {
+                "type": "quote",
+                "text": "Playing for a third-place finish can have profound implications; it’s a lifeline for many teams hoping to keep their World Cup dreams alive."
+          },
+          {
+                "type": "heading",
+                "text": "The Importance of Doping and Integrity Regulations"
+          },
+          {
+                "type": "paragraph",
+                "text": "With global attention fixed on fairness, FIFA is implementing stringent anti-doping measures to ensure competitive integrity during the tournament. These measures are tailored to not only safeguard athletes' health but also to preserve the spirit of fair play that the World Cup embodies. Random testing will be enacted, along with strict penalties for any breaches."
+          },
+          {
+                "type": "paragraph",
+                "text": "Recent historical scandals have emphasized the need for these regulations; teams will be aware that any transgression could erase the legacy they work tirelessly to build. The focus on integrity is particularly vital in a format where more teams might see success—and consequently more opportunities for lapses in judgment. The belief is that with rigorous oversight, nations will compete on an equal footing, thereby enhancing the tournament’s quality and credibility."
+          },
+          {
+                "type": "paragraph",
+                "text": "The 2026 World Cup represents a momentous shift in how football is played at the highest level, setting the stage for unprecedented competition and tactical challenges. As we digest the implications of a 48-team format, the return of VAR alongside the tighter regulations, every aspect of the game will be scrutinized, from squad selections to tactical substitutions. With everything on the line, fans are in for a thrilling spectacle across North America as the world’s best teams battle for football supremacy."
+          }
+    ],
+  },
+  {
+    slug: "2026-world-cup-host-cities-venues-guide",
+    title: "2026 World Cup Host Cities: A Complete Guide to All 16 Venues",
+    excerpt: "From MetLife Stadium in New Jersey to Estadio Azteca in Mexico City — the 2026 World Cup spans three countries and 16 venues. Here's everything you need to know about where football's biggest tournament will be played.",
+    category: "2026 WC",
+    categoryColor: "#FF4444",
+    date: "2026-05-06",
+    readTime: 8,
+    metaDescription: "Complete guide to all 16 2026 World Cup host cities and venues — USA, Canada, Mexico stadiums, capacities, which matches are played where, and the Final at MetLife.",
+    relatedMatchIds: ["west-germany-vs-argentina-1990-final","brazil-vs-germany-2002-final","argentina-vs-france-2022-final"],
+    content: [
+          {
+                "type": "paragraph",
+                "text": "As the world eagerly awaits the 2026 World Cup, anticipation is building not just for the matches, but for the unique venues that will host football's most prestigious tournament. Spanning across three countries—USA, Canada, and Mexico—this World Cup marks a historic moment as it will be the first to feature 48 teams, a significant increase from the 32 that participated in previous editions. In this comprehensive guide, we'll explore the 16 venues chosen for this monumental event, shedding light on their capacities, historical significance, and the experiences fans can expect."
+          },
+          {
+                "type": "heading",
+                "text": "USA Venues: A Diverse Array of Stadiums"
+          },
+          {
+                "type": "paragraph",
+                "text": "The United States is set to host the lion's share of the matches, with 11 illustrious venues selected. MetLife Stadium in New Jersey stands out as the largest capacity stadium in the tournament, boasting a remarkable 82,500 seats. This iconic venue will host the World Cup Final, positioning it in the spotlight for one of the most anticipated moments in football history."
+          },
+          {
+                "type": "paragraph",
+                "text": "Other notable stadiums include the AT&T Stadium in Dallas and SoFi Stadium in Los Angeles, both of which are not just modern marvels, but also capable of hosting large crowds. AT&T Stadium, with its cutting-edge facilities, has a capacity of approximately 80,000, while the sleek SoFi Stadium houses around 70,000 fans. These venues have previously hosted high-stakes games across various sports, including the NFL playoffs and Super Bowl, and will now be transformed into gladiatorial arenas for football's finest."
+          },
+          {
+                "type": "quote",
+                "text": "MetLife Stadium isn't just another venue; it's where history will unfold on the world's biggest stage."
+          },
+          {
+                "type": "heading",
+                "text": "Historic Grounds: Estadio Azteca"
+          },
+          {
+                "type": "paragraph",
+                "text": "In Mexico, Estadio Azteca stands as a titan of football history. This legendary stadium, with a capacity of 87,523, is not only the venue for the 1970 and 1986 World Cup Finals, which featured iconic moments like Diego Maradona's 'Hand of God' and his 'Goal of the Century', but it is also the first stadium to host two World Cup Finals. Its rich history and passionate crowd make it an unmissable venue for fans and players alike."
+          },
+          {
+                "type": "paragraph",
+                "text": "Mexico City’s altitude and climate create unique playing conditions, where the thin air can significantly impact stamina and tactics. Teams accustomed to lower altitudes may find themselves challenged, experiencing faster fatigue over the course of the match. The strategy will be key, as teams may need to adjust their formations to compensate for the environmental factors at play."
+          },
+          {
+                "type": "quote",
+                "text": "Estadio Azteca isn't just where games are played; it's where football legends have been etched into history."
+          },
+          {
+                "type": "heading",
+                "text": "Canadian Venues: Making History in the North"
+          },
+          {
+                "type": "paragraph",
+                "text": "Canada will welcome the world with two venues: BC Place in Vancouver and BMO Field in Toronto. BC Place, featuring a capacity of 54,000, is known for its stunning retractable roof and has previously hosted the 2010 Winter Olympics' opening ceremonies, along with multiple MLS Cup finals. BMO Field, although smaller with a capacity of about 30,000, presents an intimate atmosphere that delivers a unique fan experience within the bustling city of Toronto."
+          },
+          {
+                "type": "paragraph",
+                "text": "The weather in Canada can vary dramatically, especially during the June-July window of the World Cup. Canadian summer temperatures can soar, but the chill of evening matches will have fans and players alike needing to adapt their strategies accordingly. Teams with more experience adapting to changing conditions may have an edge."
+          },
+          {
+                "type": "quote",
+                "text": "In Canada, football is growing, and these venues will showcase its rise on the global stage."
+          },
+          {
+                "type": "heading",
+                "text": "Travel Logistics for Fans: Crossing Borders"
+          },
+          {
+                "type": "paragraph",
+                "text": "As fans from across the globe descend upon North America, navigating travel between countries and stadiums will be a crucial aspect of the tournament experience. With matches spread over three countries, fans attending multiple games must plan their logistics carefully. Major cities like New York, Dallas, and Mexico City have well-connected international airports, providing vital accessibility."
+          },
+          {
+                "type": "paragraph",
+                "text": "Moreover, the diversity of climates and cultures across the venues—from the sunny beaches of Miami to the cool breezes of Seattle—can enhance the travelling fan's experience. However, supporters need to keep in mind the local customs, travel regulations, and ticketing logistics to make the most of their World Cup journey."
+          },
+          {
+                "type": "heading",
+                "text": "A Tournament Like No Other: Climate and Playing Styles"
+          },
+          {
+                "type": "paragraph",
+                "text": "The variety of climates across the 16 World Cup venues will significantly influence playing styles. For instance, stadiums in hotter regions like Hard Rock Stadium in Miami or NRG Stadium in Houston can lead to a more cautious approach to avoid fatigue among players. Teams may adopt a more conservative style, focusing on maintaining possession to manage stamina throughout the match."
+          },
+          {
+                "type": "paragraph",
+                "text": "In contrast, cooler northern venues like BC Place in Vancouver may allow for faster-paced play, encouraging teams to push their attacks, utilize speed, and employ high-pressing strategies. Teams that quickly adapt their formations and tactics according to the psychological and physical demands of each venue will likely emerge as stronger contenders in the tournament."
+          },
+          {
+                "type": "quote",
+                "text": "Football is as much about adapting as it is about skills; the 2026 World Cup will test that more than ever."
+          },
+          {
+                "type": "heading",
+                "text": "The Future of Football: A Look Ahead"
+          },
+          {
+                "type": "paragraph",
+                "text": "As we look forward to the 2026 World Cup, the excitement extends beyond the immediate tournament; it symbolizes a shift in football's landscape, with North America taking center stage. The inclusion of 48 teams ensures that more nations can share in the worldwide camaraderie that football fosters, setting a precedent for future tournaments."
+          },
+          {
+                "type": "paragraph",
+                "text": "The combination of formidable venues, diverse climates, and global participation promises an unparalleled spectacle—one that encapsulates football's universal appeal, cutting across cultural and geographical boundaries. For lovers of the sport, the 2026 World Cup is poised to be a celebration of the game at its highest level, and a vibrant showcase of football’s ability to unite the world."
+          }
+    ],
+  },
 ];
 
 export function getArticle(slug: string): Article | undefined {

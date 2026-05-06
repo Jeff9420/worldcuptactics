@@ -101,6 +101,39 @@ const ARTICLES_TO_GENERATE = [
     relatedMatchIds: ["france-vs-morocco-2022-sf", "argentina-vs-france-2022-final", "germany-vs-brazil-2014-sf"],
     keyPoints: "Focus on 5 specific tactical battles: 1) Stopping Mbappé — which right back / defensive system is best equipped (Morocco's low block worked in 2022 SF, how France will be set up against it), 2) The pressing wars — teams that press high (Germany, Spain, Japan) vs teams with the technical quality to play through it (Brazil, Argentina), 3) Set-piece supremacy — with matches decided by margins, which teams have invested most in dead-ball situations (England's corners, France's free kicks), 4) The false 9 or target man debate — tournament football tends to favor a recognizable striker (Benzema/Giroud/Kane) over a system-player, 5) Fullback vs fullback — Achraf Hakimi vs whichever left winger he faces will be one of the defining individual contests."
   },
+  {
+    slug: "2026-vs-2022-world-cup-differences",
+    title: "2026 vs 2022: Everything That's Different About This World Cup",
+    excerpt: "More teams. Three host nations. New rules. A completely different format. The 2026 World Cup breaks from every tradition — here's exactly what's changed and why it matters.",
+    category: "2026 WC",
+    categoryColor: "#FF4444",
+    readTime: 8,
+    metaDescription: "Everything different about the 2026 World Cup compared to 2022 — format, rules, number of teams, host nations, schedule, and what it means for the football.",
+    relatedMatchIds: ["argentina-vs-france-2022-final", "saudi-arabia-vs-argentina-2022-group", "france-vs-morocco-2022-sf"],
+    keyPoints: "Compare 2026 vs 2022 across: number of teams (48 vs 32), number of matches (104 vs 64), number of host nations (3 vs 1), format (12 groups of 4 with best 3rd place advancing vs 8 groups of 4), tournament length (39 days vs 29 days), squad size (26 vs 26 same), venues (16 vs 8), prize money (increased), travel distances (North America vs Qatar compact), climate (varied across USA/Canada/Mexico vs desert heat), media/broadcast reach, cultural significance of hosting in largest football market (USA) vs Gulf state. Also what DIDN'T change — VAR still used, same offside rules with SAOT, knockout format from R32 onwards similar."
+  },
+  {
+    slug: "2026-world-cup-new-rules-format-explained",
+    title: "2026 World Cup Rules and Format: The Complete Guide",
+    excerpt: "How does the new 48-team format actually work? What happens to third-place teams? When does extra time apply? Everything you need to understand the 2026 World Cup structure before a ball is kicked.",
+    category: "2026 WC",
+    categoryColor: "#FF4444",
+    readTime: 7,
+    metaDescription: "Complete guide to 2026 World Cup rules and format — how the 48-team group stage works, which third-place teams qualify, VAR rules, and the full tournament structure.",
+    relatedMatchIds: ["germany-vs-japan-2022-group", "cameroon-vs-brazil-2022-group", "morocco-vs-spain-2022-r16"],
+    keyPoints: "Explain the complete format: Group stage (12 groups of 4, play 3 games each, top 2 + best 8 third-place teams = 32 teams advance), Round of 32 (new addition), Round of 16, QF, SF, 3rd place playoff, Final. VAR rules: still in use, semi-automated offside technology (SAOT) making faster decisions. Time-wasting rules: FIFA crackdown with effective playing time targets (saw in Qatar average 52 mins effective). Squad: 26 players registered, 23 in matchday squad. Substitutions: 5 allowed in regulation plus 1 in extra time. Points system: 3 for win, 1 draw, 0 loss — tiebreakers explained. Why the 3rd place qualification matters: which groups are most dangerous to finish 3rd, how many points typically needed. Anti-doping and integrity rules updates."
+  },
+  {
+    slug: "2026-world-cup-host-cities-venues-guide",
+    title: "2026 World Cup Host Cities: A Complete Guide to All 16 Venues",
+    excerpt: "From MetLife Stadium in New Jersey to Estadio Azteca in Mexico City — the 2026 World Cup spans three countries and 16 venues. Here's everything you need to know about where football's biggest tournament will be played.",
+    category: "2026 WC",
+    categoryColor: "#FF4444",
+    readTime: 8,
+    metaDescription: "Complete guide to all 16 2026 World Cup host cities and venues — USA, Canada, Mexico stadiums, capacities, which matches are played where, and the Final at MetLife.",
+    relatedMatchIds: ["west-germany-vs-argentina-1990-final", "brazil-vs-germany-2002-final", "argentina-vs-france-2022-final"],
+    keyPoints: "Cover all 16 venues: USA venues (MetLife Stadium NJ - Final, AT&T Stadium Dallas, SoFi Stadium LA, Levi's Stadium SF Bay Area, Rose Bowl Pasadena, Hard Rock Stadium Miami, Lincoln Financial Field Philadelphia, Gillette Stadium Boston, Arrowhead Stadium Kansas City, Lumen Field Seattle, NRG Stadium Houston), Canada venues (BC Place Vancouver, BMO Field Toronto), Mexico venues (Estadio Azteca Mexico City - historic venue, Estadio BBVA Monterrey, Estadio Akron Guadalajara). For each major venue: capacity, significance, which matches hosted. Historical significance: Azteca hosted 1970 and 1986 finals — Maradona's Hand of God and Goal of the Century were there. MetLife will host the Final — largest capacity stadium in the tournament. Climate differences between venues and how it affects playing style. Travel logistics for fans attending multiple games."
+  },
 ];
 
 async function generateArticle(client, meta, model) {
@@ -163,10 +196,10 @@ function buildArticleEntry(meta, generated) {
 
 function appendToArticlesFile(articleCode) {
   let content = fs.readFileSync(ARTICLES_FILE, "utf8");
-  const marker = "\nexport function getArticle";
+  const marker = "\n];\n\nexport function getArticle";
   const insertAt = content.indexOf(marker);
   if (insertAt === -1) throw new Error("Could not find insertion point in articles.ts");
-  content = content.slice(0, insertAt) + "\n" + articleCode + "\n" + content.slice(insertAt);
+  content = content.slice(0, insertAt) + "\n" + articleCode + content.slice(insertAt);
   fs.writeFileSync(ARTICLES_FILE, content, "utf8");
 }
 
