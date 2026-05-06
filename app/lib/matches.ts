@@ -2198,295 +2198,6 @@ Croatia never recovered from going two goals down before half-time. Their posses
     ],
   },
 
-];
-
-import { supabase } from "./supabase";
-
-// Helper to get a match by ID (Async with Supabase + Static Fallback)
-export async function getMatch(id: string): Promise<Match | undefined> {
-  if (supabase) {
-    try {
-      const { data, error } = await supabase.from("matches").select("*").eq("id", id).single();
-      if (!error && data) {
-        return {
-          id: data.id,
-          tournament: data.tournament,
-          year: data.year,
-          stage: data.stage,
-          date: data.date,
-          venue: data.venue,
-          city: data.city,
-          status: data.status,
-          penaltyScore: data.penalty_score,
-          metaDescription: data.meta_description,
-          tacticalAnalysis: data.tactical_analysis,
-          historicalSignificance: data.historical_significance,
-          home: {
-            name: data.home_name,
-            flag: data.home_flag,
-            formation: data.home_formation,
-            color: data.home_color,
-            colorDim: data.home_color_dim,
-            score: data.home_score,
-            players: data.home_players || [],
-          },
-          away: {
-            name: data.away_name,
-            flag: data.away_flag,
-            formation: data.away_formation,
-            color: data.away_color,
-            colorDim: data.away_color_dim,
-            score: data.away_score,
-            players: data.away_players || [],
-          },
-          xG: { home: Number(data.home_xg), away: Number(data.away_xg) },
-          possession: { home: data.home_possession, away: data.away_possession },
-          timeline: data.timeline || [],
-          stats: data.stats || [],
-          keyMoments: data.key_moments || [],
-          topPerformers: data.top_performers || [],
-        };
-      }
-    } catch (e) {
-      console.warn("Supabase fetch failed, falling back to static data", e);
-    }
-  }
-  return MATCHES.find((m) => m.id === id);
-}
-
-// Helper to get all match IDs (for generateStaticParams)
-export async function getAllMatchIds(): Promise<string[]> {
-  if (supabase) {
-    try {
-      const { data, error } = await supabase.from("matches").select("id");
-      if (!error && data && data.length > 0) {
-        return data.map((m) => m.id);
-      }
-    } catch (e) {
-      console.warn("Supabase fetch failed, falling back to static data", e);
-    }
-  }
-  return MATCHES.map((m) => m.id);
-}
-
-// Helper to compute SVG player positions from formation
-export function getXPositions(n: number): number[] {
-  if (n === 1) return [340];
-  const start = 110, end = 570;
-  const step = (end - start) / (n - 1);
-  return Array.from({ length: n }, (_, i) => Math.round(start + i * step));
-}
-
-export function getPlayerPositions(
-  formation: string,
-  players: string[],
-  side: "home" | "away"
-): { x: number; y: number; name: string }[] {
-  const rows = formation.split("-").map(Number);
-  const allRows = [1, ...rows]; // GK + outfield rows
-
-  // Y positions: home team at bottom (plays up), away team at top (plays down)
-  const homeY = [825, 690, 580, 500, 445];
-  const awayY  = [75,  200, 310, 395, 435];
-  const yBase  = side === "home" ? homeY : awayY;
-
-  let idx = 0;
-  const positions: { x: number; y: number; name: string }[] = [];
-
-  allRows.forEach((count, rowIdx) => {
-    const xs = getXPositions(count);
-    const y  = yBase[rowIdx] ?? yBase[yBase.length - 1
-  // ─────────────────────────────────────────────
-  // Saudi Arabia vs Argentina — 2022 Group Stage (Group C)
-  // ─────────────────────────────────────────────
-  {
-    "id": "saudi-arabia-vs-argentina-2022-group",
-    "tournament": "FIFA World Cup 2022",
-    "year": 2022,
-    "stage": "Group Stage (Group C)",
-    "date": "November 22, 2022",
-    "venue": "Lusail Stadium",
-    "city": "Lusail, Qatar",
-    "home": {
-      "name": "Saudi Arabia",
-      "flag": "🇸🇦",
-      "formation": "4-3-3",
-      "color": "#006C35",
-      "colorDim": "rgba(0,108,53,0.18)",
-      "players": [
-        "Mohammed Al-Owais",
-        "Mohammed Al-Breik",
-        "Ali Al-Obaid",
-        "Hassan Tambakti",
-        "Yasir Al-Shahrani",
-        "Abdulmalik Al-Bulaihi",
-        "Salman Al-Faraj",
-        "Mohammed Kanno",
-        "Fahad Al-Ghamdi",
-        "Saleh Al-Shehri",
-        "Salah Al-Dawsari"
-      ],
-      "score": 2
-    },
-    "away": {
-      "name": "Argentina",
-      "flag": "🇦🇷",
-      "formation": "4-3-3",
-      "color": "#74BBFB",
-      "colorDim": "rgba(116,187,251,0.18)",
-      "players": [
-        "Emiliano Martinez",
-        "Nahuel Molina",
-        "Cristian Romero",
-        "Lisandro Martinez",
-        "Marcos Acuña",
-        "Rodrigo De Paul",
-        "Leandro Paredes",
-        "Giovani Lo Celso",
-        "Lionel Messi",
-        "Lautaro Martinez",
-        "Angel Di Maria"
-      ],
-      "score": 1
-    },
-    "status": "FT",
-    "xG": {
-      "home": 1.68,
-      "away": 2.07
-    },
-    "possession": {
-      "home": 30,
-      "away": 70
-    },
-    "timeline": [
-      {
-        "minute": "10'",
-        "side": "away",
-        "player": "Lionel Messi",
-        "type": "pen_goal",
-        "description": "Messi scores from the penalty spot after being fouled."
-      },
-      {
-        "minute": "48'",
-        "side": "home",
-        "player": "Saleh Al-Shehri",
-        "type": "goal",
-        "description": "Al-Shehri equalizes with a low shot from inside the box."
-      },
-      {
-        "minute": "53'",
-        "side": "home",
-        "player": "Salah Al-Dawsari",
-        "type": "goal",
-        "description": "Al-Dawsari scores with a stunning strike from outside the box."
-      },
-      {
-        "minute": "65'",
-        "side": "away",
-        "player": "Lautaro Martinez",
-        "type": "sub",
-        "description": "Lautaro Martinez is substituted on."
-      },
-      {
-        "minute": "70'",
-        "side": "away",
-        "player": "Giovani Lo Celso",
-        "type": "sub",
-        "description": "Giovani Lo Celso is substituted on."
-      }
-    ],
-    "stats": [
-      {
-        "label": "Shots",
-        "home": 8,
-        "away": 15,
-        "homeWidth": 35,
-        "awayWidth": 65
-      },
-      {
-        "label": "Shots on Target",
-        "home": 4,
-        "away": 5,
-        "homeWidth": 44,
-        "awayWidth": 56
-      },
-      {
-        "label": "Possession",
-        "home": 30,
-        "away": 70,
-        "homeWidth": 30,
-        "awayWidth": 70
-      },
-      {
-        "label": "Passes",
-        "home": 275,
-        "away": 360,
-        "homeWidth": 43,
-        "awayWidth": 57
-      },
-      {
-        "label": "Pass Accuracy",
-        "home": "72%",
-        "away": "82%",
-        "homeWidth": 46,
-        "awayWidth": 54
-      },
-      {
-        "label": "Corners",
-        "home": 4,
-        "away": 7,
-        "homeWidth": 36,
-        "awayWidth": 64
-      },
-      {
-        "label": "Fouls",
-        "home": 15,
-        "away": 10,
-        "homeWidth": 60,
-        "awayWidth": 40
-      },
-      {
-        "label": "xG",
-        "home": "1.68",
-        "away": "2.07",
-        "homeWidth": 45,
-        "awayWidth": 55
-      }
-    ],
-    "metaDescription": "Saudi Arabia shocks Argentina in a historic World Cup upset with a stunning second-half comeback in the Group Stage match.",
-    "tacticalAnalysis": "Saudi Arabia lined up in a 4-3-3 formation, with a focus on pressing high and exploiting Argentina's slow build-up. Their high defensive line caught Argentina's frontline offside thrice, showcasing their tactical discipline. After going a goal down due to Messi's penalty, Saudi Arabia adapted superbly. They changed their attacking strategy, finding space behind Argentina's full-backs. Saleh Al-Shehri's equalizer came from an incisive counter-attack through the left flank. Just five minutes later, Salah Al-Dawsari scored a stunning winner from outside the box, catching Argentina's defense off guard. Argentina, utilizing a 4-3-3, struggled to cope with Saudi Arabia's pressing. Messi often dropped deep to collect the ball, leaving his side without an adequate presence in the box, ultimately leading to their defeat despite dominating possession.",
-    "keyMoments": [
-      "10' - Messi opens the scoring with a penalty.",
-      "48' - Al-Shehri equalizes for Saudi Arabia.",
-      "53' - Al-Dawsari scores the winner with a long-range strike.",
-      "65' - Lautaro Martinez brought on to change the game.",
-      "70' - Lo Celso replaces Paredes in a desperate attempt to regain control."
-    ],
-    "historicalSignificance": "This match is celebrated as one of the greatest upsets in World Cup history. Argentina, a pre-tournament favorite and unbeaten in 36 matches, fell victim to Saudi Arabia's tactical brilliance. This historic victory not only boosted Saudi Arabia's morale but also exemplified the unpredictable and thrilling nature of the tournament.",
-    "topPerformers": [
-      {
-        "name": "Mohammed Al-Owais",
-        "side": "home",
-        "position": "GK",
-        "rating": 9,
-        "note": "Outstanding performance with crucial saves that kept Saudi Arabia in the game."
-      },
-      {
-        "name": "Saleh Al-Shehri",
-        "side": "home",
-        "position": "ST",
-        "rating": 8.2,
-        "note": "Key player in the attack, scoring the first goal to energize his team."
-      },
-      {
-        "name": "Lionel Messi",
-        "side": "away",
-        "position": "FW",
-        "rating": 7.5,
-        "note": "Despite the loss, he was instrumental in creating chances and scored the opening goal."
-      }
-    ]
-  },
 
   // ─────────────────────────────────────────────
   // Saudi Arabia vs Argentina — 2022 Group Stage (Group C)
@@ -19440,6 +19151,103 @@ export function getPlayerPositions(
     ]
   },
 ];
+
+import { supabase } from "./supabase";
+
+// Helper to get a match by ID (Async with Supabase + Static Fallback)
+export async function getMatch(id: string): Promise<Match | undefined> {
+  if (supabase) {
+    try {
+      const { data, error } = await supabase.from("matches").select("*").eq("id", id).single();
+      if (!error && data) {
+        return {
+          id: data.id,
+          tournament: data.tournament,
+          year: data.year,
+          stage: data.stage,
+          date: data.date,
+          venue: data.venue,
+          city: data.city,
+          status: data.status,
+          penaltyScore: data.penalty_score,
+          metaDescription: data.meta_description,
+          tacticalAnalysis: data.tactical_analysis,
+          historicalSignificance: data.historical_significance,
+          home: {
+            name: data.home_name,
+            flag: data.home_flag,
+            formation: data.home_formation,
+            color: data.home_color,
+            colorDim: data.home_color_dim,
+            score: data.home_score,
+            players: data.home_players || [],
+          },
+          away: {
+            name: data.away_name,
+            flag: data.away_flag,
+            formation: data.away_formation,
+            color: data.away_color,
+            colorDim: data.away_color_dim,
+            score: data.away_score,
+            players: data.away_players || [],
+          },
+          xG: { home: Number(data.home_xg), away: Number(data.away_xg) },
+          possession: { home: data.home_possession, away: data.away_possession },
+          timeline: data.timeline || [],
+          stats: data.stats || [],
+          keyMoments: data.key_moments || [],
+          topPerformers: data.top_performers || [],
+        };
+      }
+    } catch (e) {
+      console.warn("Supabase fetch failed, falling back to static data", e);
+    }
+  }
+  return MATCHES.find((m) => m.id === id);
+}
+
+// Helper to get all match IDs (for generateStaticParams)
+export async function getAllMatchIds(): Promise<string[]> {
+  if (supabase) {
+    try {
+      const { data, error } = await supabase.from("matches").select("id");
+      if (!error && data && data.length > 0) {
+        return data.map((m) => m.id);
+      }
+    } catch (e) {
+      console.warn("Supabase fetch failed, falling back to static data", e);
+    }
+  }
+  return MATCHES.map((m) => m.id);
+}
+
+// Helper to compute SVG player positions from formation
+export function getXPositions(n: number): number[] {
+  if (n === 1) return [340];
+  const start = 110, end = 570;
+  const step = (end - start) / (n - 1);
+  return Array.from({ length: n }, (_, i) => Math.round(start + i * step));
+}
+
+export function getPlayerPositions(
+  formation: string,
+  players: string[],
+  side: "home" | "away"
+): { x: number; y: number; name: string }[] {
+  const rows = formation.split("-").map(Number);
+  const allRows = [1, ...rows]; // GK + outfield rows
+
+  // Y positions: home team at bottom (plays up), away team at top (plays down)
+  const homeY = [825, 690, 580, 500, 445];
+  const awayY  = [75,  200, 310, 395, 435];
+  const yBase  = side === "home" ? homeY : awayY;
+
+  let idx = 0;
+  const positions: { x: number; y: number; name: string }[] = [];
+
+  allRows.forEach((count, rowIdx) => {
+    const xs = getXPositions(count);
+    const y  = yBase[rowIdx] ?? yBase[yBase.length - 1];
     for (let i = 0; i < count && idx < players.length; i++) {
       positions.push({ x: xs[i], y, name: players[idx++] });
     }
