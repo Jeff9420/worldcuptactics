@@ -134,6 +134,138 @@ const ARTICLES_TO_GENERATE = [
     relatedMatchIds: ["west-germany-vs-argentina-1990-final", "brazil-vs-germany-2002-final", "argentina-vs-france-2022-final"],
     keyPoints: "Cover all 16 venues: USA venues (MetLife Stadium NJ - Final, AT&T Stadium Dallas, SoFi Stadium LA, Levi's Stadium SF Bay Area, Rose Bowl Pasadena, Hard Rock Stadium Miami, Lincoln Financial Field Philadelphia, Gillette Stadium Boston, Arrowhead Stadium Kansas City, Lumen Field Seattle, NRG Stadium Houston), Canada venues (BC Place Vancouver, BMO Field Toronto), Mexico venues (Estadio Azteca Mexico City - historic venue, Estadio BBVA Monterrey, Estadio Akron Guadalajara). For each major venue: capacity, significance, which matches hosted. Historical significance: Azteca hosted 1970 and 1986 finals — Maradona's Hand of God and Goal of the Century were there. MetLife will host the Final — largest capacity stadium in the tournament. Climate differences between venues and how it affects playing style. Travel logistics for fans attending multiple games."
   },
+  {
+    slug: "2026-world-cup-group-a-preview",
+    title: "Group A Preview: Mexico, South Africa, South Korea, Czechia",
+    excerpt: "Mexico open on home soil at the Azteca. South Korea bring Champions League firepower. Can the host nation deliver in front of their fans?",
+    category: "2026 WC",
+    categoryColor: "#FF4444",
+    readTime: 7,
+    metaDescription: "2026 World Cup Group A preview — Mexico, South Africa, South Korea, Czechia. Tactical analysis, predictions, key players, and who qualifies.",
+    relatedMatchIds: ["mexico-vs-germany-2018-r1", "south-korea-vs-germany-2018-r1"],
+    keyPoints: "Group A teams: Mexico (hosts, opens at Estadio Azteca on June 11 vs South Africa — tournament opener), South Africa, South Korea (Son Heung-min leading attack, strong Premier League contingent), Czechia. Mexico tactical setup under new manager, pressure of hosting, Azteca atmosphere. South Korea 4-2-3-1 with Son as focal point, strong counter-attacking. South Africa as surprise package. Czechia's organized defensive block. Prediction: Mexico and South Korea qualify, South Africa surprise package. Key match: Mexico vs South Korea decides group winner."
+  },
+  {
+    slug: "2026-world-cup-group-b-preview",
+    title: "Group B Preview: Canada, Bosnia & Herzegovina, Qatar, Switzerland",
+    excerpt: "Canada's golden generation gets a home World Cup. Switzerland's rock-solid defensive system against Bosnia's attacking flair.",
+    category: "2026 WC",
+    categoryColor: "#FF4444",
+    readTime: 7,
+    metaDescription: "2026 World Cup Group B preview — Canada, Bosnia, Qatar, Switzerland. Tactical analysis, predictions, and qualification picks.",
+    relatedMatchIds: ["argentina-vs-france-2022-final"],
+    keyPoints: "Group B teams: Canada (home tournament, Davies/David/Larin as attacking trident, 4-3-3 under Jesse Marsch), Bosnia & Herzegovina (Dzeko-era ended, new generation), Qatar (defending host, poor 2022 showing), Switzerland (Granit Xhaka leadership, compact 4-2-3-1). Canada home advantage playing in Toronto/Vancouver. Davies at left-back provides width and thrust. Switzerland's experienced defensive organization. Qatar's tactical limitations exposed in 2022. Prediction: Canada and Switzerland qualify comfortably. Key match: Canada vs Switzerland for group top spot."
+  },
+  {
+    slug: "2026-world-cup-group-c-preview",
+    title: "Group C Preview: Brazil, Morocco, Haiti, Scotland",
+    excerpt: "Brazil's most dangerous group opponents are Morocco — the team that shocked Europe in 2022. Haiti and Scotland make up a fascinating Group C.",
+    category: "2026 WC",
+    categoryColor: "#FF4444",
+    readTime: 8,
+    metaDescription: "2026 World Cup Group C preview — Brazil, Morocco, Haiti, Scotland. Can Morocco replicate their 2022 heroics against the Seleção?",
+    relatedMatchIds: ["brazil-vs-croatia-2022-qf", "morocco-vs-portugal-2022-sf"],
+    keyPoints: "Group C teams: Brazil (Vinicius Jr, Rodrygo, Endrick as new generation, 4-3-3 under Dorival), Morocco (2022 semifinalists, Hakimi/En-Nesyri, compact 4-3-3 Regragui system), Haiti (CONCACAF qualifier, limited resources), Scotland (Robertson leadership, physical pressing 4-3-3). The key match is Brazil vs Morocco — a genuine tactical battle. Morocco's mid-block tested Brazil's creative play in friendlies. Brazil's forward line is the most talented they've had since 2002 but midfield remains question mark. Scotland's press could trouble any team for 60 minutes but fitness is an issue. Prediction: Brazil and Morocco qualify, Scotland may sneak 3rd place points."
+  },
+  {
+    slug: "2026-world-cup-group-d-preview",
+    title: "Group D Preview: USA, Paraguay, Australia, Turkey",
+    excerpt: "The USMNT's home World Cup moment arrives. Pulisic, Reyna, and Musah lead a young American side with genuine knockout ambitions.",
+    category: "2026 WC",
+    categoryColor: "#FF4444",
+    readTime: 7,
+    metaDescription: "2026 World Cup Group D preview — USA, Paraguay, Australia, Turkey. USMNT home World Cup analysis, tactics, and qualification predictions.",
+    relatedMatchIds: ["usa-vs-ghana-2010-r1"],
+    keyPoints: "Group D teams: USA (home tournament, Pulisic as captain and talisman, Gio Reyna and Weston McKennie supporting, 4-3-3 under Mauricio Pochettino), Paraguay (South American qualifying survivor, physical and direct), Australia (Socceroos with Hrustic and Leckie, 2022 surprised), Turkey (Calhanoglu in midfield, experienced squad). USA home crowd factor enormous — expected to sell out every game. Pulisic's Champions League pedigree gives USA legitimacy. Paraguay's physicality could trouble USA set pieces. Australia's 4-4-2 defensive shape. Turkey's experience in big tournaments. Prediction: USA and Australia qualify. Key question: Can USA handle the pressure of home expectations?"
+  },
+  {
+    slug: "2026-world-cup-group-e-preview",
+    title: "Group E Preview: Germany, Curaçao, Ivory Coast, Ecuador",
+    excerpt: "Germany have the easiest path to the knockouts on paper. But Ivory Coast's African Cup winners and Ecuador's physicality could cause problems.",
+    category: "2026 WC",
+    categoryColor: "#FF4444",
+    readTime: 7,
+    metaDescription: "2026 World Cup Group E preview — Germany, Curaçao, Ivory Coast, Ecuador. Nagelsmann's rebuilt Germany analyzed alongside Group E rivals.",
+    relatedMatchIds: ["germany-vs-brazil-2014-sf"],
+    keyPoints: "Group E teams: Germany (Nagelsmann's rebuild, Wirtz and Musiala as creative core, 4-2-3-1, desperate to erase 2018 and 2022 group stage exits), Curaçao (weakest team in the group, defensive setup), Ivory Coast (AFCON 2023 champions, Zaha/Pepe generation giving way to new stars, physical and direct), Ecuador (South America's surprise package, disciplined 4-4-2, set piece threat). Germany's biggest test is themselves — the mental burden of high expectations after two consecutive early exits. Wirtz as the false 9 or 10? Kimmich controlling tempo. Ivory Coast's pressing game could trouble Germany's build-up. Ecuador's disciplined defensive shape. Prediction: Germany and Ivory Coast qualify. Germany should top group but could be nervy."
+  },
+  {
+    slug: "2026-world-cup-group-f-preview",
+    title: "Group F Preview: Netherlands, Japan, Sweden, Tunisia",
+    excerpt: "The most tactically fascinating group of 2026. Netherlands' total football revival meets Japan's elite defensive block — and Sweden and Tunisia aren't pushovers.",
+    category: "2026 WC",
+    categoryColor: "#FF4444",
+    readTime: 9,
+    metaDescription: "2026 World Cup Group F preview — Netherlands, Japan, Sweden, Tunisia. A tactical masterclass waiting to happen — full breakdown of all four teams.",
+    relatedMatchIds: ["netherlands-vs-argentina-2022-qf", "japan-vs-germany-2022-r1", "japan-vs-spain-2022-r1"],
+    keyPoints: "Group F teams: Netherlands (Van Dijk leadership, Gakpo and Depay attacking, 3-4-3 or 4-3-3 under Koeman, 2022 QF team), Japan (4-1-4-1 elite defensive block, beat Germany and Spain in 2022, Mitoma/Doan/Kubo attacking options), Sweden (Isak as focal point, physical direct 4-4-2, dangerous from set pieces), Tunisia (organized North African side). THE key match: Netherlands vs Japan — possession vs structured defensive block. Japan's press triggers well-known to Koeman? Netherlands' width via wing-backs against Japan's narrow 4-1-4-1. Sweden's Isak could cause Van Dijk problems with his movement. Tunisia's counter-attacking could steal points. Prediction: Netherlands and Japan qualify — both deserving of it. This group determines a potential QF opponent for Group E winner."
+  },
+  {
+    slug: "2026-world-cup-group-g-preview",
+    title: "Group G Preview: Belgium, Egypt, Iran, New Zealand",
+    excerpt: "Belgium's Golden Generation is fading but De Bruyne, Lukaku and Tielemans remain. Egypt's Salah leads an experienced African side. Can Belgium finally deliver?",
+    category: "2026 WC",
+    categoryColor: "#FF4444",
+    readTime: 7,
+    metaDescription: "2026 World Cup Group G preview — Belgium, Egypt, Iran, New Zealand. Belgium's last chance with their golden generation analyzed.",
+    relatedMatchIds: ["belgium-vs-france-2018-sf"],
+    keyPoints: "Group G teams: Belgium (De Bruyne still world-class at 35, Lukaku's fitness question mark, Tielemans in midfield, 4-3-3 or 4-2-3-1, last chance for golden generation), Egypt (Salah in final World Cup years, organized team built around Liverpool star, 4-2-3-1), Iran (Carlos Queiroz's defensive system, physical and disciplined, 2022 political controversy), New Zealand (All Whites qualifying for second consecutive World Cup, limited expectations). Belgium's recurring tournament underperformance despite talent — is this their last shot? De Bruyne's fitness and form key. Salah leading Egypt single-handedly — what happens when he's marked? Iran's ultra-defensive 4-5-1 could steal a draw. Prediction: Belgium and Egypt qualify, but Belgium's squad depth should see them through."
+  },
+  {
+    slug: "2026-world-cup-group-h-preview",
+    title: "Group H Preview: Spain, Cape Verde, Saudi Arabia, Uruguay",
+    excerpt: "Spain's tiki-taka revival under De La Fuente faces Uruguay's experienced defensive unit. Cape Verde are Africa's surprise package.",
+    category: "2026 WC",
+    categoryColor: "#FF4444",
+    readTime: 8,
+    metaDescription: "2026 World Cup Group H preview — Spain, Cape Verde, Saudi Arabia, Uruguay. Pedri, Yamal and Spain's next generation analyzed.",
+    relatedMatchIds: ["spain-vs-germany-2010-sf", "uruguay-vs-ghana-2010-qf"],
+    keyPoints: "Group H teams: Spain (Pedri and Yamal as the new Iniesta-Messi generation, Morata leading line, possession-based 4-3-3 under De La Fuente, Euro 2024 winners), Cape Verde (AFCON dark horse, pressing 4-3-3, Pedro and Ryan Mendes), Saudi Arabia (Al-Hilal and Al-Nassr contingent, physical and direct, 2022 shocked Argentina), Uruguay (Valverde and Bentancur in midfield, Nunez as striker, defensive solidity of classic Uruguayan tradition). Spain's rondo possession system should dominate this group. Yamal at 18 as Spain's chief creator — unmarkable 1v1. Uruguay's low block with Nunez as outlet — could this work against Spain? Saudi Arabia's press worked once against Argentina, can lightning strike twice? Prediction: Spain and Uruguay qualify, Spain likely to top the group."
+  },
+  {
+    slug: "2026-world-cup-group-i-preview",
+    title: "Group I Preview: France, Senegal, Iraq, Norway",
+    excerpt: "France are favourites to win the whole tournament. But Senegal's 2022 Round of 16 side and Haaland's Norway make this group dangerous.",
+    category: "2026 WC",
+    categoryColor: "#FF4444",
+    readTime: 8,
+    metaDescription: "2026 World Cup Group I preview — France, Senegal, Iraq, Norway. Mbappé, Griezmann and France's title defence analyzed.",
+    relatedMatchIds: ["france-vs-argentina-2022-final", "france-vs-morocco-2022-sf"],
+    keyPoints: "Group I teams: France (Mbappé leading, Griezmann as the 10, Tchouaméni/Camavinga in midfield, 4-2-3-1 under Deschamps, title favourites), Senegal (Mané's fitness key, Gueye in midfield, well-organized 4-3-3, 2022 R16 team), Iraq (Asian qualifier, limited ceiling, compact defensive), Norway (Haaland as the most dangerous striker not at a top-8 team, Odegaard as creator, 4-3-3). The key question: Is France's 4-2-3-1 beatable? Deschamps' system is conservative but effective. Mbappé's 1v1 is undefendable in space. Senegal could press France and exploit transition — their best chance. Haaland's movement could cause Upamecano problems — Norway vs France is a genuinely interesting game. Prediction: France and Senegal qualify comfortably. France top the group."
+  },
+  {
+    slug: "2026-world-cup-group-j-preview",
+    title: "Group J Preview: Argentina, Algeria, Austria, Jordan",
+    excerpt: "Defending champions Argentina have the most favourable group in the tournament. But pressure on Messi's last World Cup could be a factor.",
+    category: "2026 WC",
+    categoryColor: "#FF4444",
+    readTime: 8,
+    metaDescription: "2026 World Cup Group J preview — Argentina, Algeria, Austria, Jordan. Messi's final World Cup? Full tactical breakdown.",
+    relatedMatchIds: ["argentina-vs-france-2022-final", "argentina-vs-netherlands-2022-sf"],
+    keyPoints: "Group J teams: Argentina (Messi at 38 — likely final World Cup, Di Maria retired, Alvarez and Mac Allister as key players, 4-3-3 under Scaloni, defending champions), Algeria (AFCON contenders, Mahrez generation, organized 4-3-3), Austria (Rangnick's pressing system, Sabitzer and Arnautovic, physical and intense), Jordan (Asian qualifier, defensive setup). Argentina's tactical evolution under Scaloni — from 4-4-2 to fluid 4-3-3 around Messi. Mac Allister as the engine. Messi's role: does he press? At 38, managed minutes become important. Algeria's experience of big tournaments with Mahrez. Austria's high press — Rangnick's signature. Could Austria's press disrupt Argentina's build-up? Prediction: Argentina top the group, Algeria qualify as second. Messi's last dance."
+  },
+  {
+    slug: "2026-world-cup-group-k-preview",
+    title: "Group K Preview: Portugal, DR Congo, Uzbekistan, Colombia",
+    excerpt: "Portugal's post-Ronaldo generation steps up. Bruno Fernandes leads a team with genuine title ambitions — and Colombia are a dangerous second team.",
+    category: "2026 WC",
+    categoryColor: "#FF4444",
+    readTime: 7,
+    metaDescription: "2026 World Cup Group K preview — Portugal, DR Congo, Uzbekistan, Colombia. The post-Ronaldo Portugal era analyzed.",
+    relatedMatchIds: ["portugal-vs-france-2022-qf", "morocco-vs-portugal-2022-sf"],
+    keyPoints: "Group K teams: Portugal (Bruno Fernandes as captain and creator, Leão and Neto on wings, Gonçalo Ramos as 9, 4-2-3-1 under Roberto Martínez, legitimate dark horse), DR Congo (AFCON contenders, physical and direct, Cedric Bakambu leading line), Uzbekistan (Asian qualifier, disciplined organization), Colombia (Luís Díaz as the star, James Rodríguez era over, transitional team). Portugal without Ronaldo is genuinely different — more fluid, less predictable. Bruno's deep-lying creator role. Leão's pace on the left is their most dangerous weapon. Colombia's Díaz can single-handedly beat teams — Luís Díaz vs Portugal's right back is a key battle. DR Congo's physicality could surprise in the heat. Prediction: Portugal and Colombia qualify. Portugal should top Group K comfortably."
+  },
+  {
+    slug: "2026-world-cup-group-l-preview",
+    title: "Group L Preview: England, Croatia, Ghana, Panama",
+    excerpt: "England vs Croatia — a 2018 semifinal rematch. Can England finally convert a golden generation into a trophy? Bellingham leads the charge.",
+    category: "2026 WC",
+    categoryColor: "#FF4444",
+    readTime: 8,
+    metaDescription: "2026 World Cup Group L preview — England, Croatia, Ghana, Panama. Bellingham, Saka and England's title ambitions analyzed.",
+    relatedMatchIds: ["england-vs-croatia-2018-sf", "england-vs-france-2022-qf"],
+    keyPoints: "Group L teams: England (Bellingham as the talisman, Saka and Foden as creative outlets, Kane leading the line, 4-3-3 or 4-2-3-1 under Southgate or successor, Euro 2024 finalists), Croatia (Modric at 40 — will he play? Kovacic and Brozovic carrying midfield, aging but experienced squad), Ghana (Black Stars with Kudus as the star, energetic 4-3-3), Panama (CONCACAF qualifier, physical and organized). England vs Croatia 2026 — in 2018 Croatia beat England in the semifinal. Does this group stage rematch matter psychologically? Bellingham's box-to-box role vs Modric's tempo control — the key midfield battle. Kane vs Croatia's centre-backs — aerial duels. Ghana's pressing could trouble England. Panama's set-piece threat. Prediction: England and Croatia qualify. England top the group, but Croatia's experience keeps them through."
+  },
 ];
 
 async function generateArticle(client, meta, model) {
