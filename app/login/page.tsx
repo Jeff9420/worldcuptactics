@@ -32,10 +32,8 @@ export default function LoginPage() {
   };
 
   const handleGoogleLogin = async () => {
-    alert("1. Button clicked! Starting Google Login...");
     setLoading(true);
     try {
-      alert("2. Connecting to Supabase: " + process.env.NEXT_PUBLIC_SUPABASE_URL);
       const { error } = await supabase.auth.signInWithOAuth({
         provider: 'google',
         options: {
@@ -43,12 +41,11 @@ export default function LoginPage() {
         },
       });
       if (error) {
-        alert("3. Supabase Error: " + error.message);
         setMessage(`Error: ${error.message}`);
         setLoading(false);
       }
     } catch (err: any) {
-      alert("3. System Crash: " + err.message);
+      setMessage(`Error: ${err.message}`);
       setLoading(false);
     }
   };
