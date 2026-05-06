@@ -8,14 +8,14 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
   const ids = await getAllMatchIds();
   const matchUrls: MetadataRoute.Sitemap = ids.map((id) => ({
     url: `${BASE}/matches/${id}`,
-    lastModified: new Date("2026-04-30"),
+    lastModified: new Date("2026-05-06"),
     changeFrequency: "monthly",
     priority: 0.9,
   }));
 
   const articleUrls: MetadataRoute.Sitemap = getAllArticleSlugs().map((slug) => ({
     url: `${BASE}/blog/${slug}`,
-    lastModified: new Date("2026-04-30"),
+    lastModified: new Date("2026-05-06"),
     changeFrequency: "monthly",
     priority: 0.85,
   }));
