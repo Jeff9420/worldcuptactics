@@ -22,7 +22,7 @@ export const metadata: Metadata = {
     locale: "en_US",
   },
   twitter: {
-    card: "summary",
+    card: "summary_large_image",
     title: "WorldCupTactics — AI Football Tactical Analysis",
     description:
       "Deep tactical breakdowns for the greatest World Cup matches — formations, xG, and AI insights from 1954 to 2026.",

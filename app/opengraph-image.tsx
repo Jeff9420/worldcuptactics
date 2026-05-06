@@ -48,15 +48,15 @@ export default function OgImage() {
 
       {/* Tagline */}
       <div style={{ marginTop: 36, fontSize: 22, color: "#555", letterSpacing: "0.1em", textTransform: "uppercase", display: "flex" }}>
-        AI Tactical Analysis · 30 Classic Matches · 2026 Coverage
+        AI Tactical Analysis · 120+ Classic Matches · 2026 Coverage
       </div>
 
       {/* Stats row */}
       <div style={{ display: "flex", gap: 56, marginTop: 40 }}>
         {[
-          { val: "30", label: "Matches" },
-          { val: "15", label: "Articles" },
-          { val: "1954", label: "to 2022" },
+          { val: "120+", label: "Matches" },
+          { val: "26", label: "Articles" },
+          { val: "1954", label: "to 2026" },
         ].map(({ val, label }) => (
           <div key={label} style={{ display: "flex", flexDirection: "column", alignItems: "center", gap: 4 }}>
             <div style={{ fontFamily: "sans-serif", fontSize: 36, fontWeight: 900, color: "#2DFF7C", display: "flex" }}>{val}</div>
