@@ -5,6 +5,7 @@ import Link from "next/link";
 import { Match, getPlayerPositions } from "../../lib/matches";
 import { getPlayerProfile, STAT_LABELS } from "../../lib/players";
 import RadarChart from "../../components/RadarChart";
+import AdUnit from "../../components/AdUnit";
 import { createClient } from "../../lib/supabase-browser";
 import { useEffect } from "react";
 
@@ -188,6 +189,15 @@ export default function MatchDetail({
               </button>
             ))}
           </div>
+
+          {/* ─── AD BANNER (non-pro only) ─── */}
+          {isPro === false && (
+            <AdUnit
+              slot={process.env.NEXT_PUBLIC_ADSENSE_SLOT_BANNER ?? ""}
+              format="horizontal"
+              style={{ margin: "1rem 0" }}
+            />
+          )}
 
           {/* ─── FORMATION TAB ─── */}
           {activeTab === "tactics" && (
@@ -579,6 +589,15 @@ export default function MatchDetail({
             </div>
           )}
 
+          {/* ─── AD RECTANGLE IN STATS (non-pro only) ─── */}
+          {activeTab === "stats" && isPro === false && (
+            <AdUnit
+              slot={process.env.NEXT_PUBLIC_ADSENSE_SLOT_RECTANGLE ?? ""}
+              format="rectangle"
+              style={{ margin: "2rem auto", maxWidth: "400px" }}
+            />
+          )}
+
           {/* ─── TIMELINE TAB ─── */}
           {activeTab === "timeline" && (
             <div className="timeline">
@@ -668,6 +687,15 @@ export default function MatchDetail({
                 </span>
               </div>
             </div>
+          )}
+
+          {/* ─── AD RECTANGLE IN TIMELINE (non-pro only) ─── */}
+          {activeTab === "timeline" && isPro === false && (
+            <AdUnit
+              slot={process.env.NEXT_PUBLIC_ADSENSE_SLOT_RECTANGLE ?? ""}
+              format="rectangle"
+              style={{ margin: "2rem auto", maxWidth: "400px" }}
+            />
           )}
 
           {/* ─── AI REPORT TAB ─── */}
