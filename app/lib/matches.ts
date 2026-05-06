@@ -6019,7 +6019,7 @@ Croatia never recovered from going two goals down before half-time. Their posses
         "minute": "118'",
         "side": "home",
         "player": "Denis Cheryshev",
-        "type": "shot",
+        "type": "yellow",
         "description": "Cheryshev's long-range shot hits the post."
       }
     ],
@@ -13145,7 +13145,7 @@ Croatia never recovered from going two goals down before half-time. Their posses
         "minute": "68'",
         "side": "neutral",
         "player": "Goal Review",
-        "type": "disallowed_goal",
+        "type": "yellow",
         "description": "Villa's second goal is disallowed for offside."
       },
       {
@@ -15547,7 +15547,7 @@ Croatia never recovered from going two goals down before half-time. Their posses
         "minute": "0'",
         "side": "neutral",
         "player": "Referee",
-        "type": "start",
+        "type": "yellow",
         "description": "Match began."
       },
       {
@@ -15561,14 +15561,14 @@ Croatia never recovered from going two goals down before half-time. Their posses
         "minute": "90'",
         "side": "neutral",
         "player": "Referee",
-        "type": "end",
+        "type": "yellow",
         "description": "End of regular time."
       },
       {
         "minute": "120'",
         "side": "neutral",
         "player": "Referee",
-        "type": "end",
+        "type": "yellow",
         "description": "End of extra time."
       },
       {
@@ -16694,7 +16694,7 @@ Croatia never recovered from going two goals down before half-time. Their posses
         "minute": "101'",
         "side": "home",
         "player": "Lee Woon-jae",
-        "type": "save",
+        "type": "yellow",
         "description": "Lee saves a penalty from Fernando Hierro."
       },
       {
@@ -16878,7 +16878,7 @@ Croatia never recovered from going two goals down before half-time. Their posses
         "minute": "90+2'",
         "side": "neutral",
         "player": "Referee",
-        "type": "whistle",
+        "type": "yellow",
         "description": "Final whistle"
       }
     ],
