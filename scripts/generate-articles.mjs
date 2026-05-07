@@ -266,6 +266,94 @@ const ARTICLES_TO_GENERATE = [
     relatedMatchIds: ["england-vs-croatia-2018-sf", "england-vs-france-2022-qf"],
     keyPoints: "Group L teams: England (Bellingham as the talisman, Saka and Foden as creative outlets, Kane leading the line, 4-3-3 or 4-2-3-1 under Southgate or successor, Euro 2024 finalists), Croatia (Modric at 40 — will he play? Kovacic and Brozovic carrying midfield, aging but experienced squad), Ghana (Black Stars with Kudus as the star, energetic 4-3-3), Panama (CONCACAF qualifier, physical and organized). England vs Croatia 2026 — in 2018 Croatia beat England in the semifinal. Does this group stage rematch matter psychologically? Bellingham's box-to-box role vs Modric's tempo control — the key midfield battle. Kane vs Croatia's centre-backs — aerial duels. Ghana's pressing could trouble England. Panama's set-piece threat. Prediction: England and Croatia qualify. England top the group, but Croatia's experience keeps them through."
   },
+  {
+    slug: "france-2026-world-cup-tactical-analysis",
+    title: "France 2026: Can Mbappé Finally Win the World Cup?",
+    excerpt: "France are the tournament favourites. Mbappé is the best player in the world. Deschamps has the deepest squad. So why does it still feel uncertain?",
+    category: "2026 WC",
+    categoryColor: "#FF4444",
+    readTime: 9,
+    metaDescription: "France 2026 World Cup tactical analysis — Mbappé, Griezmann, Tchouaméni. How Deschamps' 4-2-3-1 works and France's path to the final.",
+    relatedMatchIds: ["france-vs-argentina-2022-final", "france-vs-morocco-2022-sf", "france-vs-croatia-2018-final"],
+    keyPoints: "France tactical system: Deschamps' 4-2-3-1 — compact, defensively structured, transitions quickly. Mbappé as left forward with freedom to cut inside, Griezmann as the 10 dropping deep to link play, Tchouaméni and Camavinga as double pivot (elite ball-winners). Key question: does Mbappé press? His defensive contribution has been a debate. The system relies on quick transition — win the ball, find Mbappé in space. France's squad depth: Theo Hernandez at left back is a genuine attacking weapon. Upamecano/Konaté centre-back pairing — both world-class but occasionally caught high. France's weakness: when forced to play slow build-up against a deep block, they can lack creativity without Griezmann in form. 2022 final analysis: they came from 2-0 down to 3-3 vs Argentina — showed mental resilience. Can they go one better in 2026? Mbappé's motivation after losing the 2022 final in heartbreaking fashion."
+  },
+  {
+    slug: "argentina-2026-world-cup-tactical-analysis",
+    title: "Argentina 2026: Defending Champions Without the Same Squad",
+    excerpt: "Argentina won 2022 with Di María, Kun Agüero's spirit, and the greatest individual performance in World Cup history. In 2026, Messi is 38 and the squad has changed.",
+    category: "2026 WC",
+    categoryColor: "#FF4444",
+    readTime: 9,
+    metaDescription: "Argentina 2026 World Cup tactical analysis — Messi at 38, Álvarez, Mac Allister. Scaloni's system and Argentina's path to defending the title.",
+    relatedMatchIds: ["argentina-vs-france-2022-final", "argentina-vs-netherlands-2022-sf", "argentina-vs-croatia-2022-sf"],
+    keyPoints: "Argentina's evolution under Scaloni: from 4-4-2 diamond in 2021 Copa América to fluid 4-3-3 in 2022. Mac Allister as the engine — his Liverpool form makes him arguably Argentina's most important outfield player after Messi. Julián Álvarez as the 9 — tireless pressing, movement in behind. Messi at 38: will Scaloni manage his minutes? Messi's role is different now — less dribbling, more positioning, set piece delivery. Argentina's defensive organization: Otamendi's leadership, Molina at right back providing width. Di María retired — who fills the left wing role? Lisandro Martínez vs Cristian Romero as the defensive partnership. Argentina's vulnerability: high defensive line can be exposed by quick transitions. France exploited this twice in the 2022 final. Key question: can Argentina handle the pressure of being defending champions? The psychological burden of defending a title is historically significant."
+  },
+  {
+    slug: "england-2026-world-cup-tactical-analysis",
+    title: "England 2026: Is This Finally the Year?",
+    excerpt: "Euro 2024 finalists. A generation with Bellingham, Saka, Foden, and Kane at their peak. England have never been better positioned — but history says be careful.",
+    category: "2026 WC",
+    categoryColor: "#FF4444",
+    readTime: 9,
+    metaDescription: "England 2026 World Cup tactical analysis — Bellingham, Saka, Kane, Foden. Tactical breakdown of England's system and genuine title chances.",
+    relatedMatchIds: ["england-vs-croatia-2018-sf", "england-vs-france-2022-qf"],
+    keyPoints: "England's tactical system under current manager: 4-3-3 with Bellingham as the box-to-box 8, Saka and Foden as wide forwards, Kane as the 9. The key tactical question: where does Bellingham play best? His Real Madrid role is different from his England role — for England he often plays higher, more like a 10. Kane's hold-up play creates space for Bellingham's late runs — this combination is England's most dangerous attacking pattern. Saka's reliability: he has been England's most consistent performer since 2021. Defensive shape: England's 4-3-3 becomes 4-5-1 defensively — the wide forwards track back. The weakness: England's build-up from the back is uncomfortable when pressed high. France exposed this in 2022 QF. Historical context: England's tournament psychology — the weight of 60 years of hurt. Does it affect performance? Bellingham's leadership could change this narrative. Realistic path: Group L (England, Croatia, Ghana, Panama) → R32 → potential QF vs Group G winner (Belgium). Semi-final is achievable."
+  },
+  {
+    slug: "spain-2026-world-cup-tactical-analysis",
+    title: "Spain 2026: The Beautiful Game's Last True Believers",
+    excerpt: "Spain won Euro 2024 playing the most fluid, attacking football of any international team in years. At 2026, Lamine Yamal is 18 and Pedri is 24. This is their moment.",
+    category: "2026 WC",
+    categoryColor: "#FF4444",
+    readTime: 9,
+    metaDescription: "Spain 2026 World Cup tactical analysis — Pedri, Yamal, Morata. De La Fuente's possession system and Spain's genuine title credentials.",
+    relatedMatchIds: ["spain-vs-germany-2010-sf", "spain-vs-netherlands-2010-final"],
+    keyPoints: "Spain's system under De La Fuente: 4-3-3 built on positional play (juego de posición). Pedri as the 8 — 50-60 touches per game, 92% pass accuracy, orchestrates rhythm. Lamine Yamal as right winger — 1v1 unstoppable, creates overloads, draws fouls in dangerous positions. Morata as the 9 — movement and link-up, not a traditional finisher. The full-backs (Carvajal and Grimaldo) push high, effectively making it a 2-3-5 in possession. Spain's press: when they lose the ball they press immediately — gegenpressing to win it back in the final third. The weakness: transition — when Spain's full-backs are high, they're exposed to quick counters. In 2022 vs Morocco, they struggled against a disciplined defensive block. Yamal at 18: can he handle the physical and psychological demands of 7 World Cup matches? Euro 2024 showed he can. De La Fuente's squad rotation: Spain have genuine quality in every position — perhaps the deepest squad tactically. Can Spain become the first team since Brazil 1958/62 to win consecutive major tournaments?"
+  },
+  {
+    slug: "brazil-2026-world-cup-tactical-analysis",
+    title: "Brazil 2026: The Most Talented Squad Since 2002",
+    excerpt: "Vinicius Jr, Rodrygo, Endrick, Raphinha. Brazil's attacking depth is extraordinary. But can their midfield and defence hold up when it matters?",
+    category: "2026 WC",
+    categoryColor: "#FF4444",
+    readTime: 9,
+    metaDescription: "Brazil 2026 World Cup tactical analysis — Vinicius Jr, Rodrygo, Endrick. Dorival's 4-3-3 and Brazil's quest to end their 24-year wait.",
+    relatedMatchIds: ["brazil-vs-croatia-2022-qf", "brazil-vs-germany-2014-sf"],
+    keyPoints: "Brazil's attacking options: Vinicius Jr (Real Madrid, best left winger in the world), Rodrygo (versatile, Champions League winner), Endrick (17-year-old phenomenon, already at Real Madrid), Raphinha (Barcelona). The tactical challenge for Dorival: how to fit all four into one system. The 4-3-3 means one of these players sits out or plays out of position. Brazil's midfield question: Casemiro aging, Gerson vs André for the defensive pivot role. Who provides the defensive cover that allows Vinicius to play freely? The 2022 legacy: Brazil went out to Croatia on penalties in QF despite dominating. The Neymar dependency is over — this team has multiple match-winners. Brazil's defensive shape: 4-3-3 that presses high — relies on winning the ball quickly. When teams sit deep and play on the counter (Croatia 2022), Brazil struggled. The Mineirazo shadow: German 7-1 in 2014 still haunts Brazilian football. Every tournament carry the weight of that result. Prediction: Brazil are genuine contenders but their weakness in transition defense could cost them in a knockout game vs France or England."
+  },
+  {
+    slug: "germany-2026-world-cup-tactical-analysis",
+    title: "Germany 2026: Nagelsmann's Rebuild and the Pressure of History",
+    excerpt: "Out in the group stage in 2018 and 2022. Germany cannot afford a third consecutive disaster. Wirtz and Musiala give them a genuine chance — but the pressure is immense.",
+    category: "2026 WC",
+    categoryColor: "#FF4444",
+    readTime: 9,
+    metaDescription: "Germany 2026 World Cup tactical analysis — Wirtz, Musiala, Kimmich. Nagelsmann's system and Germany's redemption mission.",
+    relatedMatchIds: ["germany-vs-brazil-2014-sf", "germany-vs-argentina-2014-final"],
+    keyPoints: "Nagelsmann's 4-2-3-1 system: Kimmich as the right-sided central midfielder (his best position), Florian Wirtz as the 10, Musiala playing left of center with freedom to drift. The Wirtz-Musiala combination is potentially the best two players in the same team in world football. Havertz as the 9 — tireless runner, not prolific but creates space. Germany's press: Nagelsmann's system triggers a press at specific moments — not constant high press, but coordinated press traps. The defensive question: Germany's full-backs push high. Kimmich and Goretzka as a double pivot must provide cover. Jonathan Tah as center-back leader. Germany's mental burden: two consecutive group stage exits created a national crisis. The pressure to perform at home territory (many matches in the Americas but Germany's global following is massive). Why 2026 is different: 2018 Germany had an aging squad and defensive issues. 2022 was transitional. 2026 Wirtz-Musiala at their peak (both 22-23) represents a genuine golden generation. Realistic ceiling: Final. If Germany's defensive organization holds, they have the attacking quality to beat anyone."
+  },
+  {
+    slug: "portugal-2026-world-cup-tactical-analysis",
+    title: "Portugal 2026: Bruno's Team, Not Ronaldo's",
+    excerpt: "For the first time in 20 years, Portugal go to a World Cup without being Ronaldo's supporting cast. Bruno Fernandes leads a genuinely collective team with real title potential.",
+    category: "2026 WC",
+    categoryColor: "#FF4444",
+    readTime: 8,
+    metaDescription: "Portugal 2026 World Cup tactical analysis — Bruno Fernandes, Leão, Gonçalo Ramos. The post-Ronaldo era and Portugal's dark horse credentials.",
+    relatedMatchIds: ["portugal-vs-france-2022-qf", "morocco-vs-portugal-2022-sf"],
+    keyPoints: "Portugal's system under Roberto Martínez: 4-2-3-1 with Bruno Fernandes as the 10, Rafael Leão on the left wing as the primary weapon, Pedro Neto on the right, Gonçalo Ramos as the 9. Bruno's role: drops deep to collect from center-backs, plays the final pass, covers enormous ground. This is different from his Manchester United role — for Portugal he has more defensive responsibility. Leão's pace and 1v1 ability is Portugal's biggest threat — arguably the most dangerous left winger in the tournament after Vinicius. Ramos as the 9: his hat-trick against Switzerland in 2022 was a coming-of-age moment. Clinical finisher, good in the air. The tactical evolution: Portugal without Ronaldo play faster — less waiting for Ronaldo to receive, more combinations. The weakness: when Bruno is isolated or marked, Portugal's creativity drops significantly. Morocco proved this in 2022 SF — they nullified Portugal's build-up. Ruben Dias as defensive anchor. William Carvalho or Vitinha as the double pivot. Portugal's ceiling: if Bruno stays fit and Leão is in form, Portugal can beat any team. They are the most dangerous dark horse in the tournament."
+  },
+  {
+    slug: "netherlands-2026-world-cup-tactical-analysis",
+    title: "Netherlands 2026: Total Football's Modern Descendants",
+    excerpt: "Koeman's Netherlands reached the 2022 QF. Van Dijk, Gakpo, and a new generation of Dutch talent give them their best chance in decades. Can they finally win it?",
+    category: "2026 WC",
+    categoryColor: "#FF4444",
+    readTime: 8,
+    metaDescription: "Netherlands 2026 World Cup tactical analysis — Van Dijk, Gakpo, Depay. Koeman's system and the Dutch quest for a first World Cup title since 1978.",
+    relatedMatchIds: ["netherlands-vs-argentina-2022-qf", "netherlands-vs-argentina-2010-final"],
+    keyPoints: "Netherlands' tactical system under Koeman: flexible between 3-4-3 and 4-3-3 depending on opponent. Van Dijk as the sweeper-centre-back — reads the game brilliantly, starts attacks from deep. Gakpo as the left forward — versatile, can play as false 9 or wide. Depay's role: when fit, gives Netherlands a direct goal threat. The wing-backs (Dumfries and Blind/Ake) are crucial — they provide width and create overloads wide. Netherlands' pressing system: they press in coordinated waves, not constant pressure. The goal is to force wide and then win second balls. Key battle in every game: can Netherlands' midfield control the tempo? The double pivot of Schouten and De Jong is solid but not dominant. Xavi Simons as the 10 gives them creativity. Netherlands' 2022 QF exit: Penalty shootout vs Argentina. They controlled large parts of that game. What changed: this team is more experienced, more tactically mature. The weakness: Netherlands can look pedestrian against teams that sit deep and absorb pressure. Their wide play relies on the wing-backs — if opponents nullify those outlets, creativity dries up. Netherlands' ceiling: if their pressing works at tournament level, they have the squad to reach the final."
+  },
 ];
 
 async function generateArticle(client, meta, model) {
