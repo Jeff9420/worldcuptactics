@@ -420,6 +420,72 @@ const ARTICLES_TO_GENERATE = [
     relatedMatchIds: ["france-vs-argentina-2022-final", "france-vs-croatia-2018-final", "germany-vs-argentina-2014-final"],
     keyPoints: "Explain the 2026 bracket structure first: 12 groups feed into a Round of 32 (top 2 from each group + 8 best third-place teams). Then R32 → R16 → QF → SF → Final. The bracket is pre-set — group winners and runners-up from specific groups face each other in R32. Analyze the 5 most likely finals: 1. France vs England — the Anglo-French rivalry in a World Cup final, tactical contrast of 4-2-3-1 vs 4-3-3. 2. France vs Argentina — rematch of 2022 epic, Mbappé's revenge narrative. 3. Spain vs England — possession vs press, Yamal vs Saka on opposite wings. 4. Brazil vs France — classic final, Vinicius vs Mbappé is the individual battle. 5. Germany vs Spain — European powers, the 2010 SF rematch. The bracket path for each favorite: France's path (Group I → likely R32 vs Group J runner-up → potential QF vs Group H winner Spain if both top their groups). England's path (Group L → potential SF vs France). The key variable: which third-place teams qualify and how they affect the bracket seeding. This makes the 2026 bracket genuinely unpredictable beyond the QF stage."
   },
+  {
+    slug: "mexico-vs-south-africa-2026-preview",
+    title: "Mexico vs South Africa: 2026 World Cup Opening Match Preview",
+    excerpt: "The 2026 World Cup begins at the Estadio Azteca on June 11. Mexico, the hosts, face South Africa in front of 87,000 passionate fans. Here's the tactical breakdown.",
+    category: "2026 WC",
+    categoryColor: "#FF4444",
+    readTime: 7,
+    metaDescription: "Mexico vs South Africa 2026 World Cup opening match tactical preview — formations, key players, predictions, and why the Azteca atmosphere matters.",
+    relatedMatchIds: ["west-germany-vs-argentina-1986-final", "argentina-vs-england-1986-qf"],
+    keyPoints: "Opening match context: June 11 at Estadio Azteca, Mexico City — the stadium where Maradona scored the Hand of God and Goal of the Century in 1986. 87,000 capacity, altitude 2,240m above sea level which significantly affects stamina and high press sustainability. Mexico's tactical setup: 4-3-3 with El Tri playing on home turf, expected to dominate possession. Key players: Hirving Lozano if fit, Raul Jimenez as the 9, Edson Alvarez as the defensive anchor. Manager pressure — Mexico have been eliminated in the Round of 16 for seven consecutive World Cups (1994-2022), the 'Quinto Partido' curse. This tournament as hosts, they need to go further. South Africa tactical setup: disciplined 4-4-2 defensive block, physical and direct, will look to absorb and counter. Key player: Percy Tau as the attacking threat. How altitude affects the game: both teams will fatigue faster, Mexico's high press will be harder to sustain for 90 minutes, South Africa's direct style may actually benefit from tired legs. Prediction: Mexico win 2-0 but it's tighter than expected until a second-half goal settles nerves."
+  },
+  {
+    slug: "argentina-2026-opening-match-preview",
+    title: "Argentina's 2026 World Cup Campaign Begins: Can Messi Defend the Title?",
+    excerpt: "Defending champions Argentina open their 2026 campaign. Messi is 38. The squad has evolved. The pressure of defending a title is unlike anything else in football.",
+    category: "2026 WC",
+    categoryColor: "#FF4444",
+    readTime: 8,
+    metaDescription: "Argentina 2026 World Cup opening preview — Messi at 38, defending champions, Group J analysis, and tactical breakdown of Scaloni's squad.",
+    relatedMatchIds: ["argentina-vs-france-2022-final", "argentina-vs-saudi-arabia-2022-r1"],
+    keyPoints: "The defending champions' burden: every team that won the World Cup since 2002 (Brazil, Italy, Spain, Germany, France) lost in the group stage or Round of 16 four years later. Argentina are trying to break that curse. Messi at 38: his role has evolved — less explosive dribbling, more positioning, set piece delivery, and creating space for others. He plays fewer minutes per game at club level to manage load. Scaloni's tactical adjustment: the 4-3-3 that beat France has been refined. Mac Allister is now the heartbeat — his Liverpool performances show he can control a World Cup midfield. Julian Alvarez as the tireless 9 pressing and running channels. Group J opponents: Algeria (AFCON contenders), Austria (Rangnick's intense press), Jordan (Asian qualifier). Argentina's biggest risk is the opening match — 2022 they lost to Saudi Arabia in the biggest World Cup upset in decades. That cannot happen again. The pressure narrative: every Argentine player carries 2022 glory AND the weight of not wanting to be the team that squandered it. Tactical focus for opening game: control possession, manage Messi's minutes, don't concede the first goal."
+  },
+  {
+    slug: "france-2026-opening-match-preview",
+    title: "France Begin Their 2026 Title Bid: Mbappé on the Biggest Stage",
+    excerpt: "France are many people's favourites for 2026. Mbappé has unfinished business after the 2022 final heartbreak. How Deschamps sets up the opening group game will tell us everything.",
+    category: "2026 WC",
+    categoryColor: "#FF4444",
+    readTime: 7,
+    metaDescription: "France 2026 World Cup opening match preview — Mbappé, Griezmann, tactical setup for Group I and France's path to the final.",
+    relatedMatchIds: ["france-vs-argentina-2022-final", "france-vs-croatia-2018-final"],
+    keyPoints: "France in Group I: Senegal, Iraq, Norway. On paper the most straightforward group for a contender — but Senegal are dangerous and Norway have Haaland. Deschamps' opening setup: expect a conservative 4-2-3-1, don't overextend, let Mbappé decide moments rather than sustaining pressure. Mbappé's motivation: the 2022 final. He scored a hat-trick and still lost on penalties. That failure drives everything. His Real Madrid performances since have been at an even higher level. Griezmann's role: the unsung hero of France's system — his pressing triggers, his link play, his work rate off the ball. Without Griezmann's intelligence France's system doesn't function. The Tchouaméni-Camavinga double pivot: both are Real Madrid-level players. This midfield screens better than any double pivot in the tournament. France's risk: complacency in group stage. History shows favourites can stumble early (Spain 2022, Germany 2022, France 2002). Deschamps knows this — expect France to be professional and controlled, never flashy. The Senegal match is the real test in Group I."
+  },
+  {
+    slug: "england-vs-croatia-2026-preview",
+    title: "England vs Croatia 2026: Redemption or Repeat?",
+    excerpt: "In 2018, Croatia beat England in the World Cup semifinal. Now they meet in the group stage of 2026. Bellingham vs Modric. Eight years of hurt for England.",
+    category: "2026 WC",
+    categoryColor: "#FF4444",
+    readTime: 8,
+    metaDescription: "England vs Croatia 2026 World Cup group stage preview — the 2018 semifinal rematch, Bellingham vs Modric, tactical analysis and prediction.",
+    relatedMatchIds: ["england-vs-croatia-2018-sf", "england-vs-france-2022-qf"],
+    keyPoints: "The 2018 context: Croatia beat England 2-1 AET in the semifinal at the Luzhniki. Trippier's free kick gave England the lead. Perisic equalized. Mandzukic won it in extra time. Modric completely controlled the second half. England fans still replay that game. 2026: the rematch. Modric will be 40 years old. Can he still control a World Cup midfield at that age? He's defied age at Real Madrid but this is different. Bellingham in 2026: 22 years old, Champions League winner, England captain. This is his tournament to dominate. The tactical battle: Croatia will set up in a mid-block — their 4-3-3 defensive shape relies on Modric dictating tempo from deep. Bellingham must get forward past Modric to access goal. England's key weapon: Saka's 1v1 ability vs Croatia's left back. Croatia's left side has been their weakness. England's key risk: set pieces. Croatia are dangerous from corners and free kicks — Vida and Gvardiol as aerial threats. Prediction: England win 2-1. Bellingham scores. But it won't be comfortable. The psychological weight of 2018 either motivates or paralyzes."
+  },
+  {
+    slug: "usa-2026-home-world-cup-preview",
+    title: "USMNT 2026: America's Home World Cup Dream",
+    excerpt: "The United States haven't gone past the Round of 16 since 2002. In 2026, they play at home in front of sold-out crowds. Pulisic, Reyna, and a generation ready to make history.",
+    category: "2026 WC",
+    categoryColor: "#FF4444",
+    readTime: 8,
+    metaDescription: "USMNT 2026 World Cup preview — home tournament tactical analysis, Pulisic and Reyna, Group D breakdown, and USA's realistic path to the quarterfinal.",
+    relatedMatchIds: ["usa-vs-ghana-2010-r1"],
+    keyPoints: "The home advantage factor: USA playing in front of massive crowds at venues like MetLife (NY), AT&T Stadium (Dallas), SoFi (LA). American crowds are learning football in real time — the 2026 tournament could be the moment US soccer truly arrives as a mainstream sport. Pochettino's system: 4-3-3 built on pressing and quick transitions. Pulisic as the left forward — his Champions League winner's instinct. Gio Reyna as the 10 if fit — his technical quality is the highest in the squad. Weston McKennie as the physical presence in midfield. The fitness question: USA's squad is heavily Premier League and Champions League-based. These players come in after a full European season — managing fatigue is critical. Group D opponents: Paraguay (South American physicality), Australia (2022 Round of 16), Turkey (experienced squad). USA's tactical weakness: in transition defense when Pulisic is high and the midfield is stretched. Any team that can win the ball quickly and play vertical can expose USA's backline. The crowd as the 12th player: the 2026 home support will be unlike anything US soccer has experienced. This generation of American players — Pulisic, Reyna, Musah, Adams — are the best in US history. The question is can they handle the pressure."
+  },
+  {
+    slug: "brazil-2026-opening-match-preview",
+    title: "Brazil 2026: Vinicius, Rodrygo, Endrick — The New Seleção Begins",
+    excerpt: "Brazil haven't won the World Cup since 2002. In 2026 they have their most talented attacking line-up in 24 years. But talent without a system has failed Brazil before.",
+    category: "2026 WC",
+    categoryColor: "#FF4444",
+    readTime: 8,
+    metaDescription: "Brazil 2026 World Cup opening preview — Vinicius Jr, Rodrygo, Endrick in Group C, tactical analysis and Brazil's path to ending their 24-year wait.",
+    relatedMatchIds: ["brazil-vs-croatia-2022-qf", "brazil-vs-germany-2014-sf"],
+    keyPoints: "Brazil's attacking embarrassment of riches: Vinicius Jr (Real Madrid), Rodrygo (Real Madrid), Endrick (Real Madrid at 17), Raphinha (Barcelona). Four players who start at two of the world's biggest clubs. The tactical problem for Dorival: how do you play all four? The 4-3-3 means one sits out. Starting lineup debate: Vinicius as left winger is non-negotiable, Endrick or Rodrygo as 9, Raphinha on right. Group C opponents: Morocco (2022 semifinalists — genuinely dangerous), Haiti (limited), Scotland (pressing 4-3-3). The Morocco match is the group decider. Morocco's 4-3-3 defensive block neutralized Portugal in 2022. Can they do the same to Brazil? Brazil's midfield question: who protects the defence when Vinicius and Raphinha are both high? Casemiro aging — his replacement is unproven at this level. The Mineirazo shadow: Germany 7-1 in 2014 destroyed a generation. Every Brazilian player since has been asked about it. This 2026 squad is young enough that most weren't there — but the nation remembers. Endrick factor: at 17, could be the youngest World Cup star since Pele in 1958. If Dorival has the courage to start him."
+  },
 ];
 
 async function generateArticle(client, meta, model) {
