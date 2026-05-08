@@ -354,6 +354,72 @@ const ARTICLES_TO_GENERATE = [
     relatedMatchIds: ["netherlands-vs-argentina-2022-qf", "netherlands-vs-argentina-2010-final"],
     keyPoints: "Netherlands' tactical system under Koeman: flexible between 3-4-3 and 4-3-3 depending on opponent. Van Dijk as the sweeper-centre-back — reads the game brilliantly, starts attacks from deep. Gakpo as the left forward — versatile, can play as false 9 or wide. Depay's role: when fit, gives Netherlands a direct goal threat. The wing-backs (Dumfries and Blind/Ake) are crucial — they provide width and create overloads wide. Netherlands' pressing system: they press in coordinated waves, not constant pressure. The goal is to force wide and then win second balls. Key battle in every game: can Netherlands' midfield control the tempo? The double pivot of Schouten and De Jong is solid but not dominant. Xavi Simons as the 10 gives them creativity. Netherlands' 2022 QF exit: Penalty shootout vs Argentina. They controlled large parts of that game. What changed: this team is more experienced, more tactically mature. The weakness: Netherlands can look pedestrian against teams that sit deep and absorb pressure. Their wide play relies on the wing-backs — if opponents nullify those outlets, creativity dries up. Netherlands' ceiling: if their pressing works at tournament level, they have the squad to reach the final."
   },
+  {
+    slug: "2026-world-cup-winner-prediction",
+    title: "Who Will Win the 2026 World Cup? Our Tactical Prediction",
+    excerpt: "Eight genuine contenders. Three host nations with crowd advantage. One defending champion. Here's our tactical case for who lifts the trophy in New Jersey on July 19.",
+    category: "2026 WC",
+    categoryColor: "#FF4444",
+    readTime: 10,
+    metaDescription: "2026 World Cup winner prediction — tactical analysis of France, Argentina, Spain, England, Brazil, Germany odds and path to the final.",
+    relatedMatchIds: ["france-vs-argentina-2022-final", "germany-vs-argentina-2014-final", "spain-vs-netherlands-2010-final"],
+    keyPoints: "Rank all 8 contenders with tactical reasoning: 1. France — deepest squad, Mbappé at peak, Deschamps' system battle-tested. Risk: complacency, Griezmann age. 2. Spain — most cohesive system, Yamal and Pedri generation. Risk: physically dominated in late knockout rounds. 3. Argentina — defending champions, Scaloni's system proven. Risk: Messi at 38, transition vulnerability. 4. England — Bellingham generation, strong squad depth. Risk: tournament psychology, pressure of expectation. 5. Brazil — most attacking talent. Risk: midfield question mark, defensive transitions. 6. Germany — Wirtz-Musiala peak years. Risk: two consecutive group stage exits cast psychological shadow. 7. Portugal — fluid post-Ronaldo system, Leão as weapon. Risk: Bruno Fernandes carrying too much. 8. Netherlands — tactically sophisticated, Van Dijk leadership. Risk: lack of genuine world-class striker. Predicted final: France vs England. Predicted winner: France. Key reasoning: Mbappé's ability to win games individually, combined with France's defensive solidity, gives them the edge when knockout margins are minimal. Historical pattern: tournament favourites with elite individual match-winners (Zidane 1998, Ronaldo 2002, Messi 2022) tend to win."
+  },
+  {
+    slug: "2026-world-cup-group-stage-predictions",
+    title: "2026 World Cup: Who Qualifies From Every Group?",
+    excerpt: "12 groups, 48 teams, and the most unpredictable format in World Cup history. Here are our group-by-group qualification predictions with the tactical reasoning behind each call.",
+    category: "2026 WC",
+    categoryColor: "#FF4444",
+    readTime: 11,
+    metaDescription: "2026 World Cup group stage predictions — who qualifies from all 12 groups A to L, with tactical analysis and upset picks.",
+    relatedMatchIds: ["south-korea-vs-germany-2002-sf", "japan-vs-germany-2022-r1"],
+    keyPoints: "Go through all 12 groups with qualification predictions: Group A: Mexico (1st), South Korea (2nd) — Mexico home advantage decisive. Group B: Canada (1st), Switzerland (2nd) — Canada's golden generation at home. Group C: Brazil (1st), Morocco (2nd) — Morocco repeat their 2022 form. Group D: USA (1st), Australia (2nd) — home crowd lifts USMNT. Group E: Germany (1st), Ivory Coast (2nd) — Germany cannot afford another exit. Group F: Netherlands (1st), Japan (2nd) — closest group to call, tactical chess match. Group G: Belgium (1st), Egypt (2nd) — Belgium's last hurrah. Group H: Spain (1st), Uruguay (2nd) — Spain dominant but Uruguay's experience counts. Group I: France (1st), Senegal (2nd) — France cruise, Senegal edge Norway. Group J: Argentina (1st), Algeria (2nd) — Messi's group is manageable. Group K: Portugal (1st), Colombia (2nd) — Leão and Diaz as the two best wingers in the group. Group L: England (1st), Croatia (2nd) — Bellingham vs Modric in the defining match. Biggest upset pick: Japan topping Group F ahead of Netherlands. Dark horse to reach QF: Morocco or Senegal from the African contingent. Most dangerous third-place team: Norway (Haaland could single-handedly carry them through)."
+  },
+  {
+    slug: "2026-world-cup-dark-horses",
+    title: "5 Dark Horses Who Could Shock the World at 2026",
+    excerpt: "Every World Cup produces its shock stories. In 2022 it was Morocco. In 2002 it was South Korea. Here are the five teams most likely to surprise in 2026.",
+    category: "2026 WC",
+    categoryColor: "#FF4444",
+    readTime: 8,
+    metaDescription: "2026 World Cup dark horses — 5 teams who could shock the favourites. Tactical analysis of Japan, Colombia, Senegal, Uruguay, and Norway.",
+    relatedMatchIds: ["south-korea-vs-germany-2002-sf", "morocco-vs-portugal-2022-sf", "japan-vs-germany-2022-r1"],
+    keyPoints: "5 dark horses with tactical case for each: 1. Japan — Elite defensive 4-1-4-1 block, Champions League-level midfield, proved they can beat Germany and Spain in same group. Their ceiling is QF if they get a favorable bracket half. 2. Colombia — Luís Díaz as a match-winner, strong South American pedigree, underrated squad depth. Could emerge from Group K and cause problems. 3. Senegal — 2022 Round of 16, Mané-era ending but new generation emerging. If Mané is fit, they can beat anyone on a good day. Physicality and pace against any opponent. 4. Uruguay — Valverde and Bentancur in midfield is one of the best CM partnerships in the world. Nunez as the striker. Classic Uruguayan defensive discipline + modern midfield quality. 5. Norway — Haaland alone makes them dangerous. If Odegaard is in form, Norway's 4-3-3 is genuinely threatening. A favorable bracket draw (avoiding France in Group I early) would help. Why upsets happen more at 48-team World Cup: only need to win 2 group games, longer tournament means fatigue affects favorites, more rest time between games. Historical pattern: every World Cup since 2002 has had at least one semi-finalist nobody predicted."
+  },
+  {
+    slug: "2026-world-cup-ones-to-watch",
+    title: "10 Players Who Will Define the 2026 World Cup",
+    excerpt: "From established superstars to the next generation breaking through — these are the 10 players whose performances will shape the tournament.",
+    category: "2026 WC",
+    categoryColor: "#FF4444",
+    readTime: 9,
+    metaDescription: "2026 World Cup players to watch — Mbappé, Bellingham, Yamal, Vinicius Jr, Wirtz and 5 more. Tactical analysis of the stars of the tournament.",
+    relatedMatchIds: ["france-vs-argentina-2022-final", "argentina-vs-netherlands-2022-qf"],
+    keyPoints: "10 players profile with tactical role and impact: 1. Kylian Mbappé (France) — the favorite for Golden Boot, Real Madrid form has been exceptional, 1v1 unstoppable, can win games alone. 2. Jude Bellingham (England) — box-to-box midfielder who arrives late into the box, Real Madrid Champions League winner, England's talisman. 3. Lamine Yamal (Spain) — 18 years old, Euro 2024 player of the tournament, 1v1 ability at right wing is elite. 4. Vinicius Jr (Brazil) — Champions League winner, left winger with electric pace and dribbling, Brazil's most dangerous weapon. 5. Florian Wirtz (Germany) — Germany's creative heartbeat, vision and technique to unlock any defense, 22 years old at peak. 6. Rodri (Spain) — best defensive midfielder in the world, controls tempo, allows Spain's full-backs to push high safely. 7. Erling Haaland (Norway) — dark horse nation's entire attacking threat, if Norway progress Haaland will be everywhere. 8. Federico Valverde (Uruguay) — box-to-box engine, can run all game, long-range shooting threat. 9. Bukayo Saka (England) — England's most reliable performer, right wing with goals and assists, consistent under pressure. 10. Lautaro Martínez or Julián Álvarez (Argentina) — whoever leads Argentina's attack with Messi behind them has a massive platform."
+  },
+  {
+    slug: "2026-world-cup-tactical-trends",
+    title: "The 5 Tactical Trends That Will Define 2026",
+    excerpt: "Football evolves tournament to tournament. From the death of the pure 4-4-2 to the rise of the inverted winger, here's what tactical systems will dominate in 2026.",
+    category: "Tactics",
+    categoryColor: "#2DFF7C",
+    readTime: 8,
+    metaDescription: "2026 World Cup tactical trends — high press, inverted wingers, hybrid formations, set piece evolution, and the role of AI analysis in modern football.",
+    relatedMatchIds: ["spain-vs-netherlands-2010-final", "germany-vs-argentina-2014-final", "france-vs-croatia-2018-final"],
+    keyPoints: "5 tactical trends with examples: 1. The death of the traditional 9 — most contenders play with a mobile false 9 or a pressing striker (Morata, Alvarez, Ramos) rather than a pure target man. Only Haaland and Kane remain classic 9s. 2. Wing-backs as the key attacking weapon — 3-4-3 and 3-5-2 formations put wing-backs in positions to be the most dangerous attacking players. Dumfries, Theo Hernandez, Hakimi. 3. The high-block press vs the mid-block — two distinct philosophical approaches. Spain/Germany press high and immediately. Morocco/Japan sit in a mid-block and invite pressure before transitioning. The battle between these systems is the defining tactical clash. 4. Set pieces as a systematic weapon — England, Germany, Sweden have invested heavily in set piece coaching. Expected goals from set pieces has risen dramatically. Corner routines are now sophisticated 8-player choreography. 5. The role of data in squad selection — every major nation uses xG models, pressing intensity metrics, and heat maps. But the best teams balance data with football intelligence. Over-reliance on data can make teams predictable. The 2026 trend: hybrid formations that shift shape depending on possession phase — e.g., Spain's 4-3-3 becoming a 2-3-5 in possession and a 4-5-1 out of possession."
+  },
+  {
+    slug: "2026-world-cup-bracket-simulator",
+    title: "2026 World Cup Bracket: The 5 Most Likely Paths to the Final",
+    excerpt: "With 48 teams and 12 groups, the bracket for 2026 is more complex than any previous World Cup. Here are the five most likely final match-ups based on group draws and tactical analysis.",
+    category: "2026 WC",
+    categoryColor: "#FF4444",
+    readTime: 9,
+    metaDescription: "2026 World Cup bracket predictions — 5 most likely final matchups, semifinal paths for France, England, Spain, Argentina and Brazil.",
+    relatedMatchIds: ["france-vs-argentina-2022-final", "france-vs-croatia-2018-final", "germany-vs-argentina-2014-final"],
+    keyPoints: "Explain the 2026 bracket structure first: 12 groups feed into a Round of 32 (top 2 from each group + 8 best third-place teams). Then R32 → R16 → QF → SF → Final. The bracket is pre-set — group winners and runners-up from specific groups face each other in R32. Analyze the 5 most likely finals: 1. France vs England — the Anglo-French rivalry in a World Cup final, tactical contrast of 4-2-3-1 vs 4-3-3. 2. France vs Argentina — rematch of 2022 epic, Mbappé's revenge narrative. 3. Spain vs England — possession vs press, Yamal vs Saka on opposite wings. 4. Brazil vs France — classic final, Vinicius vs Mbappé is the individual battle. 5. Germany vs Spain — European powers, the 2010 SF rematch. The bracket path for each favorite: France's path (Group I → likely R32 vs Group J runner-up → potential QF vs Group H winner Spain if both top their groups). England's path (Group L → potential SF vs France). The key variable: which third-place teams qualify and how they affect the bracket seeding. This makes the 2026 bracket genuinely unpredictable beyond the QF stage."
+  },
 ];
 
 async function generateArticle(client, meta, model) {
