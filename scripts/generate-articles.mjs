@@ -486,6 +486,61 @@ const ARTICLES_TO_GENERATE = [
     relatedMatchIds: ["brazil-vs-croatia-2022-qf", "brazil-vs-germany-2014-sf"],
     keyPoints: "Brazil's attacking embarrassment of riches: Vinicius Jr (Real Madrid), Rodrygo (Real Madrid), Endrick (Real Madrid at 17), Raphinha (Barcelona). Four players who start at two of the world's biggest clubs. The tactical problem for Dorival: how do you play all four? The 4-3-3 means one sits out. Starting lineup debate: Vinicius as left winger is non-negotiable, Endrick or Rodrygo as 9, Raphinha on right. Group C opponents: Morocco (2022 semifinalists — genuinely dangerous), Haiti (limited), Scotland (pressing 4-3-3). The Morocco match is the group decider. Morocco's 4-3-3 defensive block neutralized Portugal in 2022. Can they do the same to Brazil? Brazil's midfield question: who protects the defence when Vinicius and Raphinha are both high? Casemiro aging — his replacement is unproven at this level. The Mineirazo shadow: Germany 7-1 in 2014 destroyed a generation. Every Brazilian player since has been asked about it. This 2026 squad is young enough that most weren't there — but the nation remembers. Endrick factor: at 17, could be the youngest World Cup star since Pele in 1958. If Dorival has the courage to start him."
   },
+  {
+    slug: "2026-world-cup-ticket-prices-scandal",
+    title: "2026 World Cup Tickets: The $2 Million Final Ticket and FIFA's Pricing Scandal",
+    excerpt: "Final tickets listed at $2 million each. Infantino promises hot dogs. Trump says he wouldn't pay it. Here's the full story behind the most controversial ticket pricing in World Cup history.",
+    category: "News",
+    categoryColor: "#FF8C00",
+    readTime: 7,
+    metaDescription: "2026 World Cup ticket prices explained — $2 million final tickets, FIFA dynamic pricing controversy, Infantino's response, and what fans are actually paying.",
+    relatedMatchIds: ["argentina-vs-france-2022-final"],
+    keyPoints: "The scandal: tickets for the 2026 World Cup final at MetLife Stadium have been listed on FIFA's official resale marketplace at $2,299,998.85 each — some listings reaching $11.5 million. Context: in 2022, the most expensive final ticket was $1,600 face value. In 2026, official face value for the best seats is $32,970 — already 20x higher. FIFA's dynamic pricing model: prices adjust with demand, no cap in the US market. FIFA takes 15% buyer fee AND 15% seller fee on every resale — so they profit directly from speculation. Infantino's response: laughed off criticism, promised to personally deliver a hot dog to anyone who paid $2 million. Political reaction: Trump publicly said 'I wouldn't pay it.' The comparison: NFL Super Bowl tickets resell for $8,000-$15,000. The World Cup final is 150x the Super Bowl price at its extreme. Who actually pays this: corporate hospitality packages, wealthy fans from Latin America buying guaranteed group seats regardless of their team's progress. Impact on ordinary fans: families from countries that qualify — like Argentina, Mexico, Brazil — effectively priced out of the final. The bigger picture: this is the first World Cup in the US where American market pricing applies to a global football audience. The clash of two commercial cultures."
+  },
+  {
+    slug: "2026-world-cup-var-rules-changes",
+    title: "VAR at the 2026 World Cup: Every Rule Change Explained",
+    excerpt: "2026 brings the biggest overhaul to VAR since it was introduced. Second yellow cards reviewable. Time-wasting countdowns. Penalty rebound rules. Here's everything changing.",
+    category: "News",
+    categoryColor: "#FF8C00",
+    readTime: 7,
+    metaDescription: "2026 World Cup VAR rule changes explained — second yellow cards, time-wasting countdown, penalty rebounds, corner kick review. Complete guide.",
+    relatedMatchIds: ["france-vs-croatia-2018-final", "argentina-vs-france-2022-final"],
+    keyPoints: "Rule change 1 — Second yellow cards now VAR-reviewable: historically VAR could only review straight reds. In 2026, if a referee gives a second yellow and the VAR sees it was incorrect, it can be overturned. Impact: fewer teams playing with 10 men from questionable decisions. Could change how aggressive teams are in the midfield. Rule change 2 — Time-wasting countdown: referees can start a 5-second visible countdown if players delay throw-ins or goal kicks. If the countdown expires, a yellow card. Substitutions must be completed in 10 seconds — if not, the substitute stays off for a minute. Impact: games will have more actual playing time. Teams that relied on time-wasting to protect leads (Italy, Uruguay historically) lose a weapon. Rule change 3 — Penalty rebound proposal (controversial): the most contested change — if a penalty is saved or hits the post, play stops immediately with a goal kick. No rebounds. This removes the advantage of a powerful low shot at the keeper's feet. Impact: penalty technique changes — more finesse top-corner shots, less low-driven blasts. Rule change 4 — Corner kick VAR review: if a corner is incorrectly awarded or denied, VAR can review it immediately. Rule change 5 — Semi-automated offside: continuation of 2022 technology, faster and more accurate. The tactical impact: time-wasting elimination benefits pressing teams (Spain, Germany, England). VAR on second yellows could keep more attacking players on the field longer. Overall: these changes favor attacking, open football over defensive game management."
+  },
+  {
+    slug: "2026-world-cup-prize-money",
+    title: "2026 World Cup Prize Money: $900 Million — Who Gets What?",
+    excerpt: "FIFA has announced a record $900 million prize pool for 2026. The winners take $50 million. But how does the money actually reach players — and who gets rich?",
+    category: "News",
+    categoryColor: "#FF8C00",
+    readTime: 6,
+    metaDescription: "2026 World Cup prize money breakdown — $900M total pool, winners get $50M, group stage payout, how money is distributed to clubs and players.",
+    relatedMatchIds: ["argentina-vs-france-2022-final"],
+    keyPoints: "The numbers: $900 million total prize pool — nearly double the $440 million in 2022. Winners receive $50 million. Runners-up: $35 million. Third place: $30 million. Fourth place: $27 million. QF exits: $21 million each. Round of 16 exits: $13 million. Round of 32 exits: $9.5 million. Group stage exit: $5 million just for participating. How it reaches players: FIFA pays the national federations — not clubs, not players directly. Each federation decides how to distribute to players. Some federations (France, England) pay players significant bonuses. Others keep more centrally. Club compensation: FIFA pays clubs whose players participate. In 2022 it was $209 million to clubs. In 2026 with 48 teams and more players, this rises significantly. The inequality: a team like Haiti qualifying and getting $5 million is transformational for their federation. Argentina winning and getting $50 million is significant even for a wealthy federation. The player perspective: Mbappé, Vinicius Jr, and Bellingham earn more per week at their clubs than they receive from World Cup prize money. For players from smaller nations, World Cup bonuses can be life-changing. The record: the $900 million pool is the largest in any sporting event. The Super Bowl has no prize money — players earn from their contracts. The Olympics pay nothing officially. The World Cup is the richest prize in sport."
+  },
+  {
+    slug: "2026-world-cup-host-cities-atmosphere",
+    title: "Which 2026 World Cup City Has the Best Atmosphere? A Fan's Guide",
+    excerpt: "From the altitude and passion of Mexico City to the global melting pot of New York — which host city will create the best World Cup atmosphere in 2026?",
+    category: "2026 WC",
+    categoryColor: "#FF4444",
+    readTime: 8,
+    metaDescription: "2026 World Cup host cities atmosphere guide — Mexico City Azteca, New York MetLife, Los Angeles, Miami, Dallas, Toronto, Vancouver fan experience ranked.",
+    relatedMatchIds: ["argentina-vs-england-1986-qf", "west-germany-vs-argentina-1986-final"],
+    keyPoints: "Rank the 16 host cities by atmosphere potential with reasoning: 1. Mexico City (Estadio Azteca) — 87,000 capacity at altitude, most passionate football culture in the tournament, history of Maradona, Pele, iconic moments. Mexican fans will create the loudest atmosphere of any venue. Opening match June 11. 2. New York/New Jersey (MetLife Stadium) — hosts the Final. The world's media, biggest occasion in football. Cosmopolitan crowd from every nation. 3. Miami (Hard Rock Stadium) — large Latin American diaspora, passionate crowd for any South American or Caribbean team. 4. Los Angeles (SoFi Stadium and Rose Bowl) — massive Hispanic population, Hollywood profile, potential for star-studded crowd. 5. Dallas (AT&T Stadium) — large Mexican-American community, indoor roof advantage in Texas heat. 6. Toronto (BMO Field) — Canada's most multicultural city, will feel like a global city. 7. Vancouver (BC Place) — Canada's most beautiful city, passionate Canadian soccer fans. The altitude factor: Mexico City at 2,240m vs sea-level venues — teams playing at Azteca face physiological disadvantage. Teams from high-altitude nations (Colombia, Ecuador, Bolivia) have natural advantage there. The heat factor: Miami, Houston, Dallas in June can reach 95°F — tactical impact on pressing teams. Climate-controlled venues (Dallas AT&T Stadium has a roof) change the equation. Fan travel guide: for fans attending multiple games, the Mexico City to USA travel corridor is the most logical. Miami to Dallas to New York for the QF-SF-Final bracket is achievable."
+  },
+  {
+    slug: "messi-last-world-cup-legacy",
+    title: "Messi's Last World Cup: What Happens to Argentina After He Retires?",
+    excerpt: "Lionel Messi will be 38 at the 2026 World Cup. This is almost certainly his last. What does Argentina look like after the greatest player ever stops playing?",
+    category: "2026 WC",
+    categoryColor: "#FF4444",
+    readTime: 9,
+    metaDescription: "Messi 2026 World Cup — his legacy, Argentina after Messi, the players who inherit his role, and why this tournament is his final chapter.",
+    relatedMatchIds: ["argentina-vs-france-2022-final", "argentina-vs-netherlands-2022-sf", "argentina-vs-croatia-2022-sf"],
+    keyPoints: "Messi's World Cup journey: 2006 (debut, squad player under Pekerman), 2010 (carried Argentina to QF), 2014 (final, lost to Germany), 2018 (R16, worst tournament), 2022 (winner, greatest individual World Cup performance ever). The 2022 final: 7 goals, 3 assists, won the penalty shootout, gave Argentina their first World Cup in 36 years. At 38 in 2026: his role has changed. Less explosive runs, more positioning, set piece mastery, creating space for others. Messi in 2025-26 season at Inter Miami: still scoring, still creating — his technical quality doesn't age like pace does. The Mac Allister succession: Alexis Mac Allister is the player Argentina has built around as Messi's influence fades. His Liverpool midfield role has made him one of the best in the world. After Messi: Argentina's tactical identity changes fundamentally. No longer 'get Messi the ball and let him decide.' Scaloni's system post-Messi will be more collective, more press-based, less individual brilliance. The candidates to carry Argentina: Julian Alvarez (tireless, Champions League winner), Enzo Fernandez (midfielder), Lisandro Martinez (defensive leader). None of them are Messi. Nobody is. The emotional narrative: every touch Messi takes in 2026 could be his last at a World Cup. For a generation of fans who grew up watching him, this is the final chapter of the greatest career in football history."
+  },
 ];
 
 async function generateArticle(client, meta, model) {
