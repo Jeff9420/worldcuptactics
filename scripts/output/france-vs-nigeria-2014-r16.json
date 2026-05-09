@@ -1,0 +1,166 @@
+{
+  "id": "france-vs-nigeria-2014-r16",
+  "tournament": "FIFA World Cup 2014",
+  "year": 2014,
+  "stage": "Round of 16",
+  "date": "June 30, 2014",
+  "venue": "Estádio Nacional",
+  "city": "Brasília, Brazil",
+  "home": {
+    "name": "France",
+    "flag": "🇫🇷",
+    "formation": "4-3-3",
+    "color": "#1E5AA8",
+    "colorDim": "rgba(30,90,168,0.18)",
+    "players": [
+      "Hugo Lloris",
+      "Bacary Sagna",
+      "Raphaël Varane",
+      "Laurent Koscielny",
+      "Patrice Evra",
+      "Paul Pogba",
+      "Blaise Matuidi",
+      "Yohan Cabaye",
+      "Karim Benzema",
+      "Mathieu Valbuena",
+      "Antoine Griezmann"
+    ],
+    "score": 2
+  },
+  "away": {
+    "name": "Nigeria",
+    "flag": "🇳🇬",
+    "formation": "4-3-3",
+    "color": "#008751",
+    "colorDim": "rgba(0,135,81,0.18)",
+    "players": [
+      "Vincent Enyeama",
+      "Elderson Echiejile",
+      "Godfrey Oboabona",
+      "Omeruo Kenneth",
+      "Joseph Yobo",
+      "John Obi Mikel",
+      "Ogenyi Onazi",
+      "Victor Moses",
+      "Ahmed Musa",
+      "Emmanuel Emenike",
+      "Nigeria"
+    ],
+    "score": 0
+  },
+  "status": "FT",
+  "xG": {
+    "home": 1.84,
+    "away": 0.78
+  },
+  "possession": {
+    "home": 56,
+    "away": 44
+  },
+  "timeline": [
+    {
+      "minute": "79'",
+      "side": "home",
+      "player": "Paul Pogba",
+      "type": "goal",
+      "description": "Pogba heads in the opener from a corner."
+    },
+    {
+      "minute": "90+2'",
+      "side": "home",
+      "player": "Joseph Yobo",
+      "type": "own_goal",
+      "description": "Yobo deflects the ball into his own net, sealing France's victory."
+    }
+  ],
+  "stats": [
+    {
+      "label": "Shots",
+      "home": 22,
+      "away": 9,
+      "homeWidth": 70,
+      "awayWidth": 30
+    },
+    {
+      "label": "Shots on Target",
+      "home": 8,
+      "away": 2,
+      "homeWidth": 80,
+      "awayWidth": 20
+    },
+    {
+      "label": "Possession",
+      "home": 56,
+      "away": 44,
+      "homeWidth": 56,
+      "awayWidth": 44
+    },
+    {
+      "label": "Passes",
+      "home": 485,
+      "away": 330,
+      "homeWidth": 60,
+      "awayWidth": 40
+    },
+    {
+      "label": "Pass Accuracy",
+      "home": "85%",
+      "away": "76%",
+      "homeWidth": 53,
+      "awayWidth": 47
+    },
+    {
+      "label": "Corners",
+      "home": 9,
+      "away": 5,
+      "homeWidth": 64,
+      "awayWidth": 36
+    },
+    {
+      "label": "Fouls",
+      "home": 10,
+      "away": 12,
+      "homeWidth": 47,
+      "awayWidth": 53
+    },
+    {
+      "label": "xG",
+      "home": "1.84",
+      "away": "0.78",
+      "homeWidth": 70,
+      "awayWidth": 30
+    }
+  ],
+  "metaDescription": "In the Round of 16 of the FIFA World Cup 2014, France decisively defeated Nigeria 2-0, showcasing their tactical prowess.",
+  "tacticalAnalysis": "France lined up in a dynamic 4-3-3 formation, leveraging a fluid front three of Benzema, Valbuena, and Griezmann. The midfield triangle with Pogba at the heart facilitated transitional play, enabling France to dominate possession while maintaining a strong defensive block. In contrast, Nigeria adopted a similar 4-3-3, featuring a rigid midfield to contain the French attack. Despite Nigeria's effort, they struggled to effectively link up play and create significant chances. France's first goal came from Pogba, who utilized his aerial prowess, while Yobo's unfortunate own goal underscored Nigeria's defensive frailties. The match illustrated France's tactical maturity and their resurgence as a competitive force in international football.",
+  "keyMoments": [
+    "79' - Paul Pogba heads home for the opener, marking a critical moment in the match.",
+    "90+2' - Joseph Yobo's own goal seals the match for France, highlighting Nigeria's defensive struggles.",
+    "First Half - Nigeria's Victor Moses had a crucial chance but was unable to convert.",
+    "54' - France's attacking trio showed significant synergy, generating multiple scoring opportunities."
+  ],
+  "historicalSignificance": "This match marked France's return to World Cup prominence, as they showcased tactical depth and resilience. Their performance signaled the emergence of a new generation of talent, including Pogba and Griezmann, setting the stage for future success.",
+  "topPerformers": [
+    {
+      "name": "Paul Pogba",
+      "side": "home",
+      "position": "CM",
+      "rating": 9.2,
+      "note": "Dominated the midfield and scored the opening goal."
+    },
+    {
+      "name": "Vincent Enyeama",
+      "side": "away",
+      "position": "GK",
+      "rating": 8.5,
+      "note": "Made several crucial saves, keeping Nigeria in the game."
+    },
+    {
+      "name": "Karim Benzema",
+      "side": "home",
+      "position": "ST",
+      "rating": 8.8,
+      "note": "Constantly threatened Nigeria's defense with his movement and creativity."
+    }
+  ]
+}

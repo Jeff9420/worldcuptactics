@@ -1,0 +1,166 @@
+{
+  "id": "france-vs-morocco-2022-sf",
+  "tournament": "FIFA World Cup 2022",
+  "year": 2022,
+  "stage": "Semi-Final",
+  "date": "December 14, 2022",
+  "venue": "Al Bayt Stadium",
+  "city": "Al Khor, Qatar",
+  "home": {
+    "name": "France",
+    "flag": "🇫🇷",
+    "formation": "4-2-3-1",
+    "color": "#1E5AA8",
+    "colorDim": "rgba(30,90,168,0.18)",
+    "players": [
+      "Hugo Lloris",
+      "Jules Koundé",
+      "Raphaël Varane",
+      "Lucas Hernández",
+      "Theo Hernandez",
+      "Adrien Rabiot",
+      "N'Golo Kanté",
+      "Antoine Griezmann",
+      "Kylian Mbappé",
+      "Ousmane Dembélé",
+      "Randal Kolo Muani"
+    ],
+    "score": 2
+  },
+  "away": {
+    "name": "Morocco",
+    "flag": "🇲🇦",
+    "formation": "4-3-3",
+    "color": "#C1272D",
+    "colorDim": "rgba(193,39,45,0.18)",
+    "players": [
+      "Yassine Bounou",
+      "Achraf Hakimi",
+      "Romain Saïss",
+      "Nayef Aguerd",
+      "Noussair Mazraoui",
+      "Sofyan Amrabat",
+      "Azzedine Ounahi",
+      "Selim Amallah",
+      "Hakim Ziyech",
+      "Youssef En-Nesyri",
+      "Sofiane Boufal"
+    ],
+    "score": 0
+  },
+  "status": "FT",
+  "xG": {
+    "home": 2.12,
+    "away": 0.72
+  },
+  "possession": {
+    "home": 59,
+    "away": 41
+  },
+  "timeline": [
+    {
+      "minute": "5'",
+      "side": "home",
+      "player": "Theo Hernandez",
+      "type": "goal",
+      "description": "Hernández headed France into the lead after a cross from Griezmann."
+    },
+    {
+      "minute": "79'",
+      "side": "home",
+      "player": "Randal Kolo Muani",
+      "type": "goal",
+      "description": "Kolo Muani scored with a clinical finish after a swift counter-attack."
+    }
+  ],
+  "stats": [
+    {
+      "label": "Shots",
+      "home": 15,
+      "away": 8,
+      "homeWidth": 65,
+      "awayWidth": 35
+    },
+    {
+      "label": "Shots on Target",
+      "home": 8,
+      "away": 2,
+      "homeWidth": 80,
+      "awayWidth": 20
+    },
+    {
+      "label": "Possession",
+      "home": 59,
+      "away": 41,
+      "homeWidth": 59,
+      "awayWidth": 41
+    },
+    {
+      "label": "Passes",
+      "home": 600,
+      "away": 430,
+      "homeWidth": 58,
+      "awayWidth": 42
+    },
+    {
+      "label": "Pass Accuracy",
+      "home": "89%",
+      "away": "79%",
+      "homeWidth": 89,
+      "awayWidth": 79
+    },
+    {
+      "label": "Corners",
+      "home": 6,
+      "away": 3,
+      "homeWidth": 67,
+      "awayWidth": 33
+    },
+    {
+      "label": "Fouls",
+      "home": 12,
+      "away": 16,
+      "homeWidth": 43,
+      "awayWidth": 57
+    },
+    {
+      "label": "xG",
+      "home": "2.12",
+      "away": "0.72",
+      "homeWidth": 71,
+      "awayWidth": 29
+    }
+  ],
+  "metaDescription": "France defeated Morocco 2-0 in the semi-finals of the FIFA World Cup 2022, with key contributions from Theo Hernandez and Randal Kolo Muani.",
+  "tacticalAnalysis": "In this semi-final match, France employed a 4-2-3-1 formation which allowed them to dominate the midfield, with N'Golo Kanté providing defensive cover while Adrien Rabiot supported the attack. Morocco, on the other hand, set up in a 4-3-3, with their wingers, Hakim Ziyech and Sofiane Boufal, tasked with stretching the French defense. France's first goal came early when Theo Hernandez found an opening at the back post, a result of a well-placed cross by Griezmann that exploited Morocco's defensive shape. The second goal was a result of a well-timed counter-attack, showcasing France's clinical finishing, as Kolo Muani took advantage of Morocco's high line. The tactical battle showcased France's ability to transition quickly and their experience in handling high-pressure situations, while Morocco demonstrated resilience but lacked the finishing touch required to capitalize on counter-opportunities.",
+  "keyMoments": [
+    "5' - Theo Hernandez puts France ahead with a header from a cross.",
+    "79' - Randal Kolo Muani seals the win with a second goal.",
+    "65' - Morocco introduces Abdelhamid Sabiri for Azzedine Ounahi to increase attacking threat.",
+    "90+2' - Yassine Bounou makes a critical save to deny Mbappé a third goal."
+  ],
+  "historicalSignificance": "This match marked a historic moment for Morocco, becoming the first African nation to reach a World Cup semi-final. Despite the loss, their journey captured the hearts of many and showcased the rising competitiveness of African teams in global football.",
+  "topPerformers": [
+    {
+      "name": "Theo Hernandez",
+      "side": "home",
+      "position": "LB",
+      "rating": 9.2,
+      "note": "Outstanding performance with a crucial opening goal and solid defensive work."
+    },
+    {
+      "name": "Randal Kolo Muani",
+      "side": "home",
+      "position": "ST",
+      "rating": 8.8,
+      "note": "Made a significant impact as a substitute, scoring the second goal that secured France's place in the final."
+    },
+    {
+      "name": "Yassine Bounou",
+      "side": "away",
+      "position": "GK",
+      "rating": 8.5,
+      "note": "Made several key saves that kept Morocco in the game despite the defeat."
+    }
+  ]
+}

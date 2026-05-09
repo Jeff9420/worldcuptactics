@@ -1,0 +1,189 @@
+{
+  "id": "croatia-vs-denmark-2018-r16",
+  "tournament": "FIFA World Cup 2018",
+  "year": 2018,
+  "stage": "Round of 16",
+  "date": "July 1, 2018",
+  "venue": "Nizhny Novgorod Stadium",
+  "city": "Nizhny Novgorod, Russia",
+  "home": {
+    "name": "Croatia",
+    "flag": "🇭🇷",
+    "formation": "4-3-3",
+    "color": "#CC1122",
+    "colorDim": "rgba(204,17,34,0.18)",
+    "players": [
+      "Danijel Subašić",
+      "Šime Vrsaljko",
+      "Dejan Lovren",
+      "Domagoj Vida",
+      "Ivan Strinić",
+      "Luka Modrić",
+      "Ivan Rakitić",
+      "Ante Rebić",
+      "Marcelo Brozović",
+      "Mario Mandžukić",
+      "Ivan Perišić"
+    ],
+    "score": 1
+  },
+  "away": {
+    "name": "Denmark",
+    "flag": "🇩🇰",
+    "formation": "4-2-3-1",
+    "color": "#C60C30",
+    "colorDim": "rgba(198,12,48,0.18)",
+    "players": [
+      "Kasper Schmeichel",
+      "Mathias Jørgensen",
+      "Simon Kjær",
+      "Andreas Christensen",
+      "Jannik Vestergaard",
+      "Thomas Delaney",
+      "Christian Eriksen",
+      "Lasse Schöne",
+      "Yussuf Poulsen",
+      "Martin Braithwaite",
+      "Kasper Dolberg"
+    ],
+    "score": 1
+  },
+  "status": "PSO",
+  "penaltyScore": "3-2",
+  "xG": {
+    "home": 1.67,
+    "away": 1.23
+  },
+  "possession": {
+    "home": 61,
+    "away": 39
+  },
+  "timeline": [
+    {
+      "minute": "1'",
+      "side": "home",
+      "player": "Mario Mandžukić",
+      "type": "own_goal",
+      "description": "Own goal conceded from an early cross."
+    },
+    {
+      "minute": "28'",
+      "side": "home",
+      "player": "Luka Modrić",
+      "type": "goal",
+      "description": "Equalizer from a distance with a well-placed shot."
+    },
+    {
+      "minute": "113'",
+      "side": "neutral",
+      "player": "Danijel Subašić",
+      "type": "pen_goal",
+      "description": "Save on a penalty from Christian Eriksen."
+    },
+    {
+      "minute": "115'",
+      "side": "neutral",
+      "player": "Danijel Subašić",
+      "type": "pen_goal",
+      "description": "Save on a penalty from Lasse Schöne."
+    },
+    {
+      "minute": "116'",
+      "side": "neutral",
+      "player": "Danijel Subašić",
+      "type": "pen_goal",
+      "description": "Save on a penalty from Kasper Dolberg."
+    }
+  ],
+  "stats": [
+    {
+      "label": "Shots",
+      "home": 20,
+      "away": 12,
+      "homeWidth": 63,
+      "awayWidth": 37
+    },
+    {
+      "label": "Shots on Target",
+      "home": 8,
+      "away": 4,
+      "homeWidth": 67,
+      "awayWidth": 33
+    },
+    {
+      "label": "Possession",
+      "home": 61,
+      "away": 39,
+      "homeWidth": 61,
+      "awayWidth": 39
+    },
+    {
+      "label": "Passes",
+      "home": 530,
+      "away": 350,
+      "homeWidth": 60,
+      "awayWidth": 40
+    },
+    {
+      "label": "Pass Accuracy",
+      "home": "85%",
+      "away": "79%",
+      "homeWidth": 60,
+      "awayWidth": 40
+    },
+    {
+      "label": "Corners",
+      "home": 11,
+      "away": 5,
+      "homeWidth": 69,
+      "awayWidth": 31
+    },
+    {
+      "label": "Fouls",
+      "home": 14,
+      "away": 18,
+      "homeWidth": 43,
+      "awayWidth": 57
+    },
+    {
+      "label": "xG",
+      "home": "1.67",
+      "away": "1.23",
+      "homeWidth": 60,
+      "awayWidth": 40
+    }
+  ],
+  "metaDescription": "Croatia faced Denmark in the Round of 16, marked by a dramatic penalty shootout after a 1-1 draw.",
+  "tacticalAnalysis": "Croatia lined up in a 4-3-3 formation, utilizing the width provided by their wingers Perišić and Rebić to stretch Denmark's defense. Modrić played a pivotal role in midfield, orchestrating the play and transitioning the ball from defense to attack, while Rakitić focused on recycling possession and providing defensive cover. Denmark, on the other hand, set up in a 4-2-3-1 formation, with Delaney and Schöne tasked with nullifying Modrić’s influence. Their pressing was effective in the first half, leading to an early own goal. However, Croatia's resilience and ability to adapt after Modrić’s equalizer underlined their tactical versatility. In extra time, Denmark controlled possession but could not capitalize, and Croatia’s defensive solidity was particularly notable, especially Subašić's heroics in the shootout, showcasing his instincts as a top goalkeeper.",
+  "keyMoments": [
+    "1' - Mandžukić own goal puts Croatia on the back foot early.",
+    "28' - Modrić equalizes, restoring hope for Croatia.",
+    "113' - Subašić's first crucial penalty save against Eriksen.",
+    "115' - Second penalty save by Subašić against Schöne.",
+    "116' - Third save against Dolberg seals Croatia's path to victory."
+  ],
+  "historicalSignificance": "This match highlighted Croatia's growth as a footballing nation, showcasing their mental toughness and skill in high-pressure situations. It marked a significant moment in their World Cup journey, ultimately leading them to the final.",
+  "topPerformers": [
+    {
+      "name": "Danijel Subašić",
+      "side": "home",
+      "position": "GK",
+      "rating": 9.5,
+      "note": "Outstanding performance with three crucial penalty saves."
+    },
+    {
+      "name": "Luka Modrić",
+      "side": "home",
+      "position": "CM",
+      "rating": 8.8,
+      "note": "Key in midfield with an equalizing goal and leadership."
+    },
+    {
+      "name": "Kasper Schmeichel",
+      "side": "away",
+      "position": "GK",
+      "rating": 8,
+      "note": "Strong performance with multiple crucial saves during the match."
+    }
+  ]
+}

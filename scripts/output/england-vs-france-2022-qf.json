@@ -1,0 +1,181 @@
+{
+  "id": "england-vs-france-2022-qf",
+  "tournament": "FIFA World Cup 2022",
+  "year": 2022,
+  "stage": "Quarter-Final",
+  "date": "December 10, 2022",
+  "venue": "Al Bayt Stadium",
+  "city": "Al Khor, Qatar",
+  "home": {
+    "name": "England",
+    "flag": "🇬🇧",
+    "formation": "4-3-3",
+    "color": "#CF142B",
+    "colorDim": "rgba(207,20,43,0.18)",
+    "players": [
+      "Jordan Pickford",
+      "Kyle Walker",
+      "John Stones",
+      "Harry Maguire",
+      "Luke Shaw",
+      "Declan Rice",
+      "Jude Bellingham",
+      "Bukayo Saka",
+      "Mason Mount",
+      "Harry Kane",
+      "Raheem Sterling"
+    ],
+    "score": 1
+  },
+  "away": {
+    "name": "France",
+    "flag": "🇫🇷",
+    "formation": "4-2-3-1",
+    "color": "#1E5AA8",
+    "colorDim": "rgba(30,90,168,0.18)",
+    "players": [
+      "Hugo Lloris",
+      "Benjamin Pavard",
+      "Raphaël Varane",
+      "Jules Koundé",
+      "Lucas Hernández",
+      "Aurélien Tchouaméni",
+      "Adrian Rabiot",
+      "Antoine Griezmann",
+      "Kylian Mbappé",
+      "Olivier Giroud",
+      "Kingsley Coman"
+    ],
+    "score": 2
+  },
+  "status": "FT",
+  "xG": {
+    "home": 1.75,
+    "away": 2.1
+  },
+  "possession": {
+    "home": 58,
+    "away": 42
+  },
+  "timeline": [
+    {
+      "minute": "2'",
+      "side": "home",
+      "player": "Bukayo Saka",
+      "type": "pen_goal",
+      "description": "Scored from the penalty spot after a foul on Sterling."
+    },
+    {
+      "minute": "17'",
+      "side": "away",
+      "player": "Aurélien Tchouaméni",
+      "type": "goal",
+      "description": "Equalized with a stunning 25-yard shot into the top corner."
+    },
+    {
+      "minute": "78'",
+      "side": "away",
+      "player": "Olivier Giroud",
+      "type": "goal",
+      "description": "Headed France into the lead from a corner."
+    },
+    {
+      "minute": "84'",
+      "side": "home",
+      "player": "Harry Kane",
+      "type": "pen_miss",
+      "description": "Missed crucial penalty that could have levelled the match."
+    }
+  ],
+  "stats": [
+    {
+      "label": "Shots",
+      "home": 14,
+      "away": 10,
+      "homeWidth": 58,
+      "awayWidth": 42
+    },
+    {
+      "label": "Shots on Target",
+      "home": 5,
+      "away": 4,
+      "homeWidth": 56,
+      "awayWidth": 44
+    },
+    {
+      "label": "Possession",
+      "home": 58,
+      "away": 42,
+      "homeWidth": 58,
+      "awayWidth": 42
+    },
+    {
+      "label": "Passes",
+      "home": 532,
+      "away": 397,
+      "homeWidth": 57,
+      "awayWidth": 43
+    },
+    {
+      "label": "Pass Accuracy",
+      "home": "86%",
+      "away": "82%",
+      "homeWidth": 51,
+      "awayWidth": 49
+    },
+    {
+      "label": "Corners",
+      "home": 7,
+      "away": 3,
+      "homeWidth": 70,
+      "awayWidth": 30
+    },
+    {
+      "label": "Fouls",
+      "home": 10,
+      "away": 12,
+      "homeWidth": 45,
+      "awayWidth": 55
+    },
+    {
+      "label": "xG",
+      "home": "1.75",
+      "away": "2.10",
+      "homeWidth": 45,
+      "awayWidth": 55
+    }
+  ],
+  "metaDescription": "England faced France in the 2022 FIFA World Cup Quarter-Final, a match marked by Bukayo Saka's penalty and Harry Kane's missed chance.",
+  "tacticalAnalysis": "In this tense quarter-final, England deployed a 4-3-3 formation, utilizing wing play primarily through Sterling and Saka. The early penalty scored by Saka showcased England's intent, with Sterling's direct run drawing the foul. France, adopting a 4-2-3-1 formation, relied on Tchouaméni and Rabiot for ball progression into the attacking third. Tchouaméni's equalizer reflected France's resilience and tactical adaptability, launching a long range effort that England’s defense underestimated. As the match progressed, Giroud's aerial strength proved decisive, capitalizing on a set-piece situation to put France ahead. England's failure to convert their chances, particularly Kane's late penalty miss, ultimately sealed their fate and highlighted France's defensive organization and counter-attacking capabilities.",
+  "keyMoments": [
+    "2' - Saka scores penalty, giving England early lead.",
+    "17' - Tchouaméni equalizes, stunning shot from distance.",
+    "78' - Giroud heads France ahead from a corner.",
+    "84' - Kane misses critical penalty, chance to equalize.",
+    "Final whistle - England eliminated, heartbreak for fans."
+  ],
+  "historicalSignificance": "This match is remembered for its dramatic twists, particularly Harry Kane's missed penalty that could have changed the outcome. France went on to win the tournament, further solidifying their status as a footballing powerhouse.",
+  "topPerformers": [
+    {
+      "name": "Olivier Giroud",
+      "side": "away",
+      "position": "ST",
+      "rating": 9,
+      "note": "Scored the decisive goal, showcasing aerial prowess."
+    },
+    {
+      "name": "Bukayo Saka",
+      "side": "home",
+      "position": "RW",
+      "rating": 8.5,
+      "note": "Scored early penalty and was a constant threat on the right."
+    },
+    {
+      "name": "Aurélien Tchouaméni",
+      "side": "away",
+      "position": "CM",
+      "rating": 8.8,
+      "note": "Equalized with a spectacular goal, pivotal in midfield."
+    }
+  ]
+}

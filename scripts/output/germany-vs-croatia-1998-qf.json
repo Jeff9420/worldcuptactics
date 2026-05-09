@@ -1,0 +1,187 @@
+{
+  "id": "germany-vs-croatia-1998-qf",
+  "tournament": "FIFA World Cup 1998",
+  "year": 1998,
+  "stage": "Quarter-Final",
+  "date": "July 4, 1998",
+  "venue": "Parc des Princes",
+  "city": "Paris, France",
+  "home": {
+    "name": "Germany",
+    "flag": "🇩🇪",
+    "formation": "3-4-1-2",
+    "color": "#E8E8E8",
+    "colorDim": "rgba(232,232,232,0.18)",
+    "players": [
+      "Oliver Kahn",
+      "Matthias Sammer",
+      "Markus Babbel",
+      "Jürgen Kohler",
+      "Thomas Häßler",
+      "Jens Jeremies",
+      "Dietmar Hamann",
+      "Christian Wörns",
+      "Andreas Möller",
+      "Rudi Völler",
+      "Oliver Bierhoff"
+    ],
+    "score": 0
+  },
+  "away": {
+    "name": "Croatia",
+    "flag": "🇭🇷",
+    "formation": "4-4-2",
+    "color": "#CC1122",
+    "colorDim": "rgba(204,17,34,0.18)",
+    "players": [
+      "Dražen Ladić",
+      "Slaven Bilić",
+      "Dario Šimić",
+      "Igor Štimac",
+      "Robert Jarni",
+      "Zvonimir Boban",
+      "Alen Bokšić",
+      "Danijel Šuker",
+      "Vlaović",
+      "Mario Stanić",
+      "Goran Vlaović"
+    ],
+    "score": 3
+  },
+  "status": "FT",
+  "xG": {
+    "home": 0.85,
+    "away": 2.35
+  },
+  "possession": {
+    "home": 54,
+    "away": 46
+  },
+  "timeline": [
+    {
+      "minute": "3'",
+      "side": "away",
+      "player": "Danijel Šuker",
+      "type": "goal",
+      "description": "Šuker scores with a brilliant individual effort."
+    },
+    {
+      "minute": "22'",
+      "side": "away",
+      "player": "Robert Jarni",
+      "type": "goal",
+      "description": "Jarni doubles the lead with a powerful shot from outside the box."
+    },
+    {
+      "minute": "46'",
+      "side": "home",
+      "player": "Rudi Völler",
+      "type": "sub",
+      "description": "Völler comes off for a tactical change."
+    },
+    {
+      "minute": "61'",
+      "side": "away",
+      "player": "Goran Vlaović",
+      "type": "goal",
+      "description": "Vlaović scores the third goal with a close-range finish."
+    },
+    {
+      "minute": "68'",
+      "side": "home",
+      "player": "Slaven Bilić",
+      "type": "red",
+      "description": "Bilić is sent off after a clash with Völler."
+    }
+  ],
+  "stats": [
+    {
+      "label": "Shots",
+      "home": 12,
+      "away": 14,
+      "homeWidth": 46,
+      "awayWidth": 54
+    },
+    {
+      "label": "Shots on Target",
+      "home": 3,
+      "away": 7,
+      "homeWidth": 30,
+      "awayWidth": 70
+    },
+    {
+      "label": "Possession",
+      "home": 54,
+      "away": 46,
+      "homeWidth": 54,
+      "awayWidth": 46
+    },
+    {
+      "label": "Passes",
+      "home": 320,
+      "away": 270,
+      "homeWidth": 54,
+      "awayWidth": 46
+    },
+    {
+      "label": "Pass Accuracy",
+      "home": "80%",
+      "away": "72%",
+      "homeWidth": 80,
+      "awayWidth": 72
+    },
+    {
+      "label": "Corners",
+      "home": 6,
+      "away": 3,
+      "homeWidth": 66,
+      "awayWidth": 34
+    },
+    {
+      "label": "Fouls",
+      "home": 15,
+      "away": 12,
+      "homeWidth": 56,
+      "awayWidth": 44
+    },
+    {
+      "label": "xG",
+      "home": "0.85",
+      "away": "2.35",
+      "homeWidth": 26,
+      "awayWidth": 74
+    }
+  ],
+  "metaDescription": "Historic match where Croatia eliminated Germany in the 1998 World Cup quarter-finals with a stunning 3-0 victory.",
+  "tacticalAnalysis": "Germany lined up in a 3-4-1-2 formation, relying on their experienced back three and two wing-backs, Häßler and Wörns, to provide width. They aimed to control the midfield through Hamann and Jeremies, but struggled against Croatia's press. Croatia, utilizing a 4-4-2 formation, effectively used Boban's creativity and Šuker's pace on the break. The goals came from individual brilliance; Šuker showcased his skills after a quick transition, Jarni’s long-range effort stunned Kahn, and Vlaović's close-range finish capitalized on Germany's defensive lapses. Manager Bilić's decision to press high paid off, leading to crucial turnovers that increased Croatia's offensive threats.",
+  "keyMoments": [
+    "3' - Šuker opens the scoring, setting the tone for Croatia.",
+    "22' - Jarni scores, extending the lead to 2-0.",
+    "61' - Vlaović scores third goal, sealing the match.",
+    "68' - Bilić receives a red card, affecting team dynamics."
+  ],
+  "historicalSignificance": "This match marked a pivotal moment in Croatian football history, as it was their first time reaching a World Cup semi-final. By defeating the defending champions, Germany, Croatia established itself on the world stage and showcased the talent of its golden generation.",
+  "topPerformers": [
+    {
+      "name": "Danijel Šuker",
+      "side": "away",
+      "position": "ST",
+      "rating": 9.5,
+      "note": "His brilliant goal and overall offensive play were key in Croatia's success."
+    },
+    {
+      "name": "Oliver Kahn",
+      "side": "home",
+      "position": "GK",
+      "rating": 7,
+      "note": "Despite the scoreline, Kahn made several crucial saves to keep the game close."
+    },
+    {
+      "name": "Robert Jarni",
+      "side": "away",
+      "position": "LB",
+      "rating": 8.2,
+      "note": "Jarni's goal and defensive prowess contributed significantly to Croatia's victory."
+    }
+  ]
+}

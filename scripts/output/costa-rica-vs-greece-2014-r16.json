@@ -1,0 +1,238 @@
+{
+  "id": "costa-rica-vs-greece-2014-r16",
+  "tournament": "FIFA World Cup 2014",
+  "year": 2014,
+  "stage": "Round of 16",
+  "date": "June 29, 2014",
+  "venue": "Arena Pernambuco",
+  "city": "Recife, Brazil",
+  "home": {
+    "name": "Costa Rica",
+    "flag": "🇨🇷",
+    "formation": "5-4-1",
+    "color": "#002B7F",
+    "colorDim": "rgba(0,43,127,0.18)",
+    "players": [
+      "Keylor Navas",
+      "Giancarlo Gonzalez",
+      "Oscar Duarte",
+      "Michael Umana",
+      "Cristian Gamboa",
+      "Brian Oviedo",
+      "Yeltsin Tejeda",
+      "Celso Borges",
+      "David Guzman",
+      "Joel Campbell",
+      "Marco Ureña"
+    ],
+    "score": 1
+  },
+  "away": {
+    "name": "Greece",
+    "flag": "🇬🇷",
+    "formation": "4-3-3",
+    "color": "#FF6600",
+    "colorDim": "rgba(255,102,0,0.18)",
+    "players": [
+      "Orestis Karnezis",
+      "Vasilis Torosidis",
+      "Sokratis Papastathopoulos",
+      "Dimitris Siovas",
+      "Jose Holebas",
+      "Giannis Maniatis",
+      "Kostas Katsouranis",
+      "Panagiotis Kone",
+      "Giorgos Samaras",
+      "Kostas Mitroglou",
+      "Dimitris Salpingidis"
+    ],
+    "score": 1
+  },
+  "status": "PSO",
+  "penaltyScore": "5-3",
+  "xG": {
+    "home": 1.12,
+    "away": 1.25
+  },
+  "possession": {
+    "home": 46,
+    "away": 54
+  },
+  "timeline": [
+    {
+      "minute": "0'",
+      "side": "neutral",
+      "player": "Referee",
+      "type": "sub",
+      "description": "Match starts"
+    },
+    {
+      "minute": "91'",
+      "side": "away",
+      "player": "Sokratis Papastathopoulos",
+      "type": "goal",
+      "description": "Header from corner to level"
+    },
+    {
+      "minute": "120'",
+      "side": "neutral",
+      "player": "Referee",
+      "type": "sub",
+      "description": "End of extra time, proceed to penalties"
+    },
+    {
+      "minute": "121'",
+      "side": "home",
+      "player": "Michael Umana",
+      "type": "pen_goal",
+      "description": "Scored the first penalty"
+    },
+    {
+      "minute": "122'",
+      "side": "away",
+      "player": "Dimitris Salpingidis",
+      "type": "pen_miss",
+      "description": "Missed the penalty saved by Navas"
+    },
+    {
+      "minute": "123'",
+      "side": "home",
+      "player": "Marco Ureña",
+      "type": "pen_goal",
+      "description": "Second penalty scored"
+    },
+    {
+      "minute": "124'",
+      "side": "away",
+      "player": "Kostas Mitroglou",
+      "type": "pen_goal",
+      "description": "Scored the penalty"
+    },
+    {
+      "minute": "125'",
+      "side": "home",
+      "player": "Joel Campbell",
+      "type": "pen_goal",
+      "description": "Scored the third penalty"
+    },
+    {
+      "minute": "126'",
+      "side": "away",
+      "player": "Giannis Maniatis",
+      "type": "pen_miss",
+      "description": "Missed penalty saved by Navas"
+    },
+    {
+      "minute": "127'",
+      "side": "home",
+      "player": "Yeltsin Tejeda",
+      "type": "pen_goal",
+      "description": "Fourth penalty scored"
+    },
+    {
+      "minute": "128'",
+      "side": "away",
+      "player": "Kostas Katsouranis",
+      "type": "pen_goal",
+      "description": "Scored penalty"
+    },
+    {
+      "minute": "129'",
+      "side": "home",
+      "player": "Oscar Duarte",
+      "type": "pen_goal",
+      "description": "Final penalty scored to win"
+    }
+  ],
+  "stats": [
+    {
+      "label": "Shots",
+      "home": 9,
+      "away": 11,
+      "homeWidth": 45,
+      "awayWidth": 55
+    },
+    {
+      "label": "Shots on Target",
+      "home": 3,
+      "away": 4,
+      "homeWidth": 43,
+      "awayWidth": 57
+    },
+    {
+      "label": "Possession",
+      "home": 46,
+      "away": 54,
+      "homeWidth": 46,
+      "awayWidth": 54
+    },
+    {
+      "label": "Passes",
+      "home": 250,
+      "away": 300,
+      "homeWidth": 45,
+      "awayWidth": 55
+    },
+    {
+      "label": "Pass Accuracy",
+      "home": "77%",
+      "away": "83%",
+      "homeWidth": 40,
+      "awayWidth": 60
+    },
+    {
+      "label": "Corners",
+      "home": 4,
+      "away": 5,
+      "homeWidth": 44,
+      "awayWidth": 56
+    },
+    {
+      "label": "Fouls",
+      "home": 16,
+      "away": 12,
+      "homeWidth": 57,
+      "awayWidth": 43
+    },
+    {
+      "label": "xG",
+      "home": "1.12",
+      "away": "1.25",
+      "homeWidth": 47,
+      "awayWidth": 53
+    }
+  ],
+  "metaDescription": "Costa Rica and Greece fought intensely in the Round of 16, culminating in a dramatic penalty shootout.",
+  "tacticalAnalysis": "Costa Rica employed a compact 5-4-1 formation to absorb pressure from Greece, maximizing counter-attacking opportunities. The defensive line was anchored by Gonzalez and Duarte, which allowed Navas to focus on shot-stopping while controlling the area. Conversely, Greece's 4-3-3 sought to dominate midfield through Katsouranis and Maniatis, looking to create overloads on the wings using Holebas and Torosidis. The introduction of Papastathopoulos proved crucial for the late equalizer with a header from a set piece, changing the game's dynamic. In extra time, both teams appeared fatigued, with Costa Rica showcasing resilience, ultimately succeeding in the penalty shootout thanks to Navas’ heroics.",
+  "keyMoments": [
+    "91' - Papastathopoulos equalizes for Greece with a powerful header.",
+    "End of extra time - teams prepare for penalties, tension builds.",
+    "Navas' crucial saves in penalty shootout set the tone for a Costa Rican victory.",
+    "Dramatic final penalty by Oscar Duarte seals historic advancement.",
+    "Incredible display of Costa Rica's defensive organization and heart."
+  ],
+  "historicalSignificance": "This match represented a historic milestone for Costa Rica, marking their first trip to the World Cup quarter-finals since 1990 and establishing them as a formidable force in international football. The victory underscored the unpredictability of the tournament and highlighted the potential of smaller footballing nations.",
+  "topPerformers": [
+    {
+      "name": "Keylor Navas",
+      "side": "home",
+      "position": "GK",
+      "rating": 9.2,
+      "note": "Outstanding performance with crucial saves in the penalty shootout."
+    },
+    {
+      "name": "Sokratis Papastathopoulos",
+      "side": "away",
+      "position": "CB",
+      "rating": 8.5,
+      "note": "Scored the equalizing goal, demonstrating leadership."
+    },
+    {
+      "name": "Joel Campbell",
+      "side": "home",
+      "position": "ST",
+      "rating": 8.8,
+      "note": "Played a vital role in counter-attacks and scored during penalties."
+    }
+  ]
+}

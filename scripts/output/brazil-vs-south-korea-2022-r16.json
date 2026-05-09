@@ -1,0 +1,188 @@
+{
+  "id": "brazil-vs-south-korea-2022-r16",
+  "tournament": "FIFA World Cup 2022",
+  "year": 2022,
+  "stage": "Round of 16",
+  "date": "December 5, 2022",
+  "venue": "Stadium 974",
+  "city": "Doha, Qatar",
+  "home": {
+    "name": "Brazil",
+    "flag": "🇧🇷",
+    "formation": "4-2-3-1",
+    "color": "#F7B731",
+    "colorDim": "rgba(247,183,49,0.18)",
+    "players": [
+      "Alisson Becker",
+      "Danilo",
+      "Marquinhos",
+      "Thiago Silva",
+      "Alex Sandro",
+      "Casemiro",
+      "Lucas Paquetá",
+      "Neymar",
+      "Vinícius Jr.",
+      "Richarlison",
+      "Raphinha"
+    ],
+    "score": 4
+  },
+  "away": {
+    "name": "South Korea",
+    "flag": "🇰🇷",
+    "formation": "4-3-3",
+    "color": "#CD2E3A",
+    "colorDim": "rgba(205,46,58,0.18)",
+    "players": [
+      "Kim Seung-gyu",
+      "Lee Yong",
+      "Kim Min-jae",
+      "Jang Hyun-soo",
+      "Kim Jin-su",
+      "Hwang In-beom",
+      "Jung Woo-young",
+      "Lee Jae-sung",
+      "Son Heung-min",
+      "Hwang Hee-chan",
+      "Cho Gue-sung"
+    ],
+    "score": 1
+  },
+  "status": "FT",
+  "xG": {
+    "home": 3.67,
+    "away": 0.55
+  },
+  "possession": {
+    "home": 62,
+    "away": 38
+  },
+  "timeline": [
+    {
+      "minute": "7'",
+      "side": "home",
+      "player": "Vinícius Jr.",
+      "type": "goal",
+      "description": "Opened the scoring with a left-footed strike from a cross."
+    },
+    {
+      "minute": "13'",
+      "side": "home",
+      "player": "Neymar",
+      "type": "pen_goal",
+      "description": "Converted a penalty after Richarlison was fouled."
+    },
+    {
+      "minute": "29'",
+      "side": "home",
+      "player": "Richarlison",
+      "type": "goal",
+      "description": "Scored with a close-range header from a corner."
+    },
+    {
+      "minute": "36'",
+      "side": "home",
+      "player": "Lucas Paquetá",
+      "type": "goal",
+      "description": "Finished off a well-worked move with a volley."
+    },
+    {
+      "minute": "76'",
+      "side": "away",
+      "player": "Paik Seung-ho",
+      "type": "goal",
+      "description": "Scored a stunning long-range goal to give hope to South Korea."
+    }
+  ],
+  "stats": [
+    {
+      "label": "Shots",
+      "home": 22,
+      "away": 6,
+      "homeWidth": 78,
+      "awayWidth": 22
+    },
+    {
+      "label": "Shots on Target",
+      "home": 10,
+      "away": 3,
+      "homeWidth": 77,
+      "awayWidth": 23
+    },
+    {
+      "label": "Possession",
+      "home": 62,
+      "away": 38,
+      "homeWidth": 62,
+      "awayWidth": 38
+    },
+    {
+      "label": "Passes",
+      "home": 505,
+      "away": 318,
+      "homeWidth": 61,
+      "awayWidth": 39
+    },
+    {
+      "label": "Pass Accuracy",
+      "home": "86%",
+      "away": "81%",
+      "homeWidth": 51,
+      "awayWidth": 49
+    },
+    {
+      "label": "Corners",
+      "home": 10,
+      "away": 2,
+      "homeWidth": 83,
+      "awayWidth": 17
+    },
+    {
+      "label": "Fouls",
+      "home": 12,
+      "away": 14,
+      "homeWidth": 46,
+      "awayWidth": 54
+    },
+    {
+      "label": "xG",
+      "home": "3.67",
+      "away": "0.55",
+      "homeWidth": 87,
+      "awayWidth": 13
+    }
+  ],
+  "metaDescription": "Brazil showcased their samba football with a dominant 4-1 win over South Korea in the 2022 World Cup round of 16, advancing to the quarterfinals.",
+  "tacticalAnalysis": "Brazil employed a 4-2-3-1 formation that allowed their forwards to interchange positions fluidly. Neymar played a pivotal role as a CAM, dictating the tempo and creating chances. The front three (Vinícius Jr., Richarlison, and Raphinha) exploited South Korea's defense with quick movements and precise passing. South Korea, on the other hand, set up in a 4-3-3 but struggled to maintain composure under Brazil's pressing game and often left spaces that were exploited. The first half was an exhibition of Brazil's attacking prowess, with South Korea unable to respond effectively. Paik Seung-ho's remarkable long-range effort was a rare moment of class from the South Koreans in an otherwise lopsided encounter. Manager Tite's decisions to push forward and maintain high intensity paid off handsomely, ensuring Brazil's dominance throughout.",
+  "keyMoments": [
+    "7' - Vinícius Jr. scores to open the floodgates.",
+    "13' - Neymar rolls in a penalty, doubling Brazil's lead.",
+    "29' - Richarlison heads in a third goal, showcasing Brazil's aerial strength.",
+    "36' - Lucas Paquetá adds to the tally with a volley.",
+    "76' - Paik Seung-ho scores a stunning long-range goal for South Korea."
+  ],
+  "historicalSignificance": "This match highlighted Brazil's return to form under pressure in the knockout stages of the World Cup. With a blend of youth and experience, they displayed a potent attacking strategy, reinforcing their position as a favorite for the tournament. South Korea's sole goal was a testament to their resilience, but the contest underscored the gap between traditional football powerhouses and emerging teams.",
+  "topPerformers": [
+    {
+      "name": "Richarlison",
+      "side": "home",
+      "position": "ST",
+      "rating": 8.8,
+      "note": "Critical in attack, contributing with a goal and an assist."
+    },
+    {
+      "name": "Neymar",
+      "side": "home",
+      "position": "CAM",
+      "rating": 9,
+      "note": "Dominated the midfield and effectively converted a penalty."
+    },
+    {
+      "name": "Paik Seung-ho",
+      "side": "away",
+      "position": "CM",
+      "rating": 8.5,
+      "note": "Scored a brilliant long-range goal, showcasing technical skill."
+    }
+  ]
+}

@@ -1,0 +1,159 @@
+{
+  "id": "cameroon-vs-brazil-2022-group",
+  "tournament": "FIFA World Cup 2022",
+  "year": 2022,
+  "stage": "Group Stage (Group G)",
+  "date": "December 2, 2022",
+  "venue": "Lusail Stadium",
+  "city": "Lusail, Qatar",
+  "home": {
+    "name": "Cameroon",
+    "flag": "🇨🇲",
+    "formation": "4-3-3",
+    "color": "#007A5E",
+    "colorDim": "rgba(0,122,94,0.18)",
+    "players": [
+      "Andre Onana",
+      "Nicolas Nkoulou",
+      "Jean-Charles Castelletto",
+      "Collins Fai",
+      "Nuytin Biga",
+      "André-Frank Zambo Anguissa",
+      "Martin Hongla",
+      "Gaëtan Nkana",
+      "Vincent Aboubakar",
+      "Eric Maxim Choupo-Moting",
+      "Karl Toko Ekambi"
+    ],
+    "score": 1
+  },
+  "away": {
+    "name": "Brazil",
+    "flag": "🇧🇷",
+    "formation": "4-2-3-1",
+    "color": "#F7B731",
+    "colorDim": "rgba(247,183,49,0.18)",
+    "players": [
+      "Ederson",
+      "Danilo",
+      "Eder Militão",
+      "Thiago Silva",
+      "Alex Sandro",
+      "Casemiro",
+      "Fred",
+      "Bruno Guimarães",
+      "Raphinha",
+      "Gabriel Jesus",
+      "Rodrygo"
+    ],
+    "score": 0
+  },
+  "status": "FT",
+  "xG": {
+    "home": 1.2,
+    "away": 0.6
+  },
+  "possession": {
+    "home": 38,
+    "away": 62
+  },
+  "timeline": [
+    {
+      "minute": "92'",
+      "side": "home",
+      "player": "Vincent Aboubakar",
+      "type": "goal",
+      "description": "Header from a corner kick, sealing Cameroon's victory."
+    }
+  ],
+  "stats": [
+    {
+      "label": "Shots",
+      "home": 10,
+      "away": 15,
+      "homeWidth": 40,
+      "awayWidth": 60
+    },
+    {
+      "label": "Shots on Target",
+      "home": 4,
+      "away": 5,
+      "homeWidth": 44,
+      "awayWidth": 56
+    },
+    {
+      "label": "Possession",
+      "home": 38,
+      "away": 62,
+      "homeWidth": 38,
+      "awayWidth": 62
+    },
+    {
+      "label": "Passes",
+      "home": 325,
+      "away": 495,
+      "homeWidth": 40,
+      "awayWidth": 60
+    },
+    {
+      "label": "Pass Accuracy",
+      "home": "78%",
+      "away": "83%",
+      "homeWidth": 40,
+      "awayWidth": 60
+    },
+    {
+      "label": "Corners",
+      "home": 5,
+      "away": 6,
+      "homeWidth": 45,
+      "awayWidth": 55
+    },
+    {
+      "label": "Fouls",
+      "home": 15,
+      "away": 10,
+      "homeWidth": 60,
+      "awayWidth": 40
+    },
+    {
+      "label": "xG",
+      "home": "1.20",
+      "away": "0.60",
+      "homeWidth": 67,
+      "awayWidth": 33
+    }
+  ],
+  "metaDescription": "Cameroon claimed a remarkable 1-0 victory over Brazil in the 2022 World Cup group stage, highlighting their fighting spirit.",
+  "tacticalAnalysis": "The match showcased Cameroon deploying a solid 4-3-3 formation, emphasizing physical play and counter-attacks. André Onana was pivotal in goal, providing stability. The midfield trio of Zambo Anguissa, Martin Hongla, and Franck Zambo Anguissa controlled the central areas, with Hongla often intercepting Brazilian advances. Meanwhile, Cameroon exploited Brazil's weakened lineup, pressing aggressively and looking for quick transitions. Brazil, in their 4-2-3-1 setup, aimed to dominate possession but struggled to penetrate the organized Cameroonian defense. Their key players, resting due to secured qualification, led to a lack of creativity upfront. The match turned dramatically with Aboubakar's late header, an example of how grit can triumph over technical mastery in football.",
+  "keyMoments": [
+    "92' - Aboubakar scores a header from a corner, securing Cameroon's first victory in a World Cup group stage since 2002.",
+    "78' - A close shot from Raphinha hits the crossbar, highlighting Brazil's struggle.",
+    "67' - Substitution: Emmanuel Mvogo replaced Andre Onana, sealing the defense's resolve.",
+    "45' - Brazil switches tactics in the second half, bringing on Rodrygo to increase attacking options."
+  ],
+  "historicalSignificance": "This match is remarkable as Cameroon achieved their first group stage win since 2002, a moment of pride for African football. Additionally, it demonstrated the unpredictability of football, with Brazil's second-string side falling to an underdog in a crucial fixture.",
+  "topPerformers": [
+    {
+      "name": "Andre Onana",
+      "side": "home",
+      "position": "GK",
+      "rating": 9,
+      "note": "Made crucial saves to deny Brazil throughout the match."
+    },
+    {
+      "name": "Vincent Aboubakar",
+      "side": "home",
+      "position": "ST",
+      "rating": 8.8,
+      "note": "Scored the winning goal with a powerful header in the dying moments."
+    },
+    {
+      "name": "Thiago Silva",
+      "side": "away",
+      "position": "CB",
+      "rating": 7.5,
+      "note": "Provided defensive leadership despite Brazil's loss."
+    }
+  ]
+}

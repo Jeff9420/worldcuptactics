@@ -1,0 +1,172 @@
+{
+  "id": "france-vs-brazil-2006-qf",
+  "tournament": "FIFA World Cup 2006",
+  "year": 2006,
+  "stage": "Quarter-Final",
+  "date": "July 1, 2006",
+  "venue": "Frankfurt Arena",
+  "city": "Frankfurt, Germany",
+  "home": {
+    "name": "France",
+    "flag": "🇫🇷",
+    "formation": "4-2-3-1",
+    "color": "#1E5AA8",
+    "colorDim": "rgba(30,90,168,0.18)",
+    "players": [
+      "Fabien Barthez",
+      "Lilian Thuram",
+      "Eric Abidal",
+      "William Gallas",
+      "Gael Clichy",
+      "Patrick Vieira",
+      "Claude Makélélé",
+      "Franck Ribéry",
+      "Zinedine Zidane",
+      "Thierry Henry",
+      "David Sagnol"
+    ],
+    "score": 1
+  },
+  "away": {
+    "name": "Brazil",
+    "flag": "🇧🇷",
+    "formation": "4-3-3",
+    "color": "#F7B731",
+    "colorDim": "rgba(247,183,49,0.18)",
+    "players": [
+      "Dida",
+      "Cafu",
+      "Lucio",
+      "Juan",
+      "Roberto Carlos",
+      "Emerson",
+      "Juninho Pernambucano",
+      "Kaká",
+      "Ronaldo",
+      "Ronaldinho",
+      "Adriano"
+    ],
+    "score": 0
+  },
+  "status": "FT",
+  "xG": {
+    "home": 1.67,
+    "away": 0.45
+  },
+  "possession": {
+    "home": 58,
+    "away": 42
+  },
+  "timeline": [
+    {
+      "minute": "57'",
+      "side": "home",
+      "player": "Thierry Henry",
+      "type": "goal",
+      "description": "Henry scores with a deft touch after a brilliant pass from Zidane."
+    },
+    {
+      "minute": "70'",
+      "side": "home",
+      "player": "Zinedine Zidane",
+      "type": "yellow",
+      "description": "Zidane receives a yellow card for a late challenge."
+    },
+    {
+      "minute": "83'",
+      "side": "away",
+      "player": "Kaká",
+      "type": "yellow",
+      "description": "Kaká booked for a foul on Makélélé."
+    }
+  ],
+  "stats": [
+    {
+      "label": "Shots",
+      "home": 19,
+      "away": 10,
+      "homeWidth": 65,
+      "awayWidth": 35
+    },
+    {
+      "label": "Shots on Target",
+      "home": 8,
+      "away": 1,
+      "homeWidth": 88,
+      "awayWidth": 12
+    },
+    {
+      "label": "Possession",
+      "home": 58,
+      "away": 42,
+      "homeWidth": 58,
+      "awayWidth": 42
+    },
+    {
+      "label": "Passes",
+      "home": 399,
+      "away": 273,
+      "homeWidth": 59,
+      "awayWidth": 41
+    },
+    {
+      "label": "Pass Accuracy",
+      "home": "85%",
+      "away": "78%",
+      "homeWidth": 85,
+      "awayWidth": 78
+    },
+    {
+      "label": "Corners",
+      "home": 7,
+      "away": 2,
+      "homeWidth": 78,
+      "awayWidth": 22
+    },
+    {
+      "label": "Fouls",
+      "home": 15,
+      "away": 20,
+      "homeWidth": 43,
+      "awayWidth": 57
+    },
+    {
+      "label": "xG",
+      "home": "1.67",
+      "away": "0.45",
+      "homeWidth": 78,
+      "awayWidth": 22
+    }
+  ],
+  "metaDescription": "In a historic quarter-final match of the 2006 FIFA World Cup, France defeated Brazil 1-0 in a stunning upset, showcasing Zidane's brilliance.",
+  "tacticalAnalysis": "France set up in a 4-2-3-1 formation, utilizing Zinedine Zidane in a central role where he orchestrated play, controlling the tempo and creating spaces for attackers like Thierry Henry and Franck Ribéry. The combination of Zidane’s vision and Henry's pace proved lethal. Brazil, in their traditional 4-3-3, struggled to find rhythm, often relying on individual flair rather than cohesive team play. Ronaldo was largely ineffective, while Ronaldinho was shackled by the French defense. The tactical battle came to a head in the second half when Zidane's pass unlocked the Brazilian defense allowing Henry to strike. Brazil’s failure to adapt and France’s resolute defensive structure sealed Brazil's fate in what many consider one of the greatest upsets in World Cup history.",
+  "keyMoments": [
+    "57' - Thierry Henry scores the only goal, assisted by Zidane.",
+    "70' - Zidane receives a yellow card after a foul.",
+    "83' - Kaká booked for a foul on Makélélé."
+  ],
+  "historicalSignificance": "This match is remembered as a major upset, with France eliminating the reigning champions Brazil. It showcased Zinedine Zidane's leadership and marked a turning point in the tournament, leading to France's eventual appearance in the final.",
+  "topPerformers": [
+    {
+      "name": "Zinedine Zidane",
+      "side": "home",
+      "position": "CAM",
+      "rating": 9.5,
+      "note": "Zidane's vision and creativity were instrumental in France's midfield dominance."
+    },
+    {
+      "name": "Thierry Henry",
+      "side": "home",
+      "position": "ST",
+      "rating": 9.2,
+      "note": "Henry's movement and finishing made the difference for France."
+    },
+    {
+      "name": "Dida",
+      "side": "away",
+      "position": "GK",
+      "rating": 8,
+      "note": "Dida made several critical saves to keep Brazil in the match."
+    }
+  ]
+}

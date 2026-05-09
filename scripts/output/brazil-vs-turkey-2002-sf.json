@@ -1,0 +1,187 @@
+{
+  "id": "brazil-vs-turkey-2002-sf",
+  "tournament": "FIFA World Cup 2002",
+  "year": 2002,
+  "stage": "Semi-Final",
+  "date": "June 26, 2002",
+  "venue": "Saitama Stadium 2002",
+  "city": "Saitama, Japan",
+  "home": {
+    "name": "Brazil",
+    "flag": "🇧🇷",
+    "formation": "4-2-3-1",
+    "color": "#F7B731",
+    "colorDim": "rgba(247,183,49,0.18)",
+    "players": [
+      "Marcos",
+      "Cafu",
+      "Lucio",
+      "Edmilson",
+      "Roberto Carlos",
+      "Dunga",
+      "Gilberto Silva",
+      "Rivaldo",
+      "Ronaldinho",
+      "Ronaldo",
+      "Kaká"
+    ],
+    "score": 1
+  },
+  "away": {
+    "name": "Turkey",
+    "flag": "🇹🇷",
+    "formation": "4-3-2-1",
+    "color": "#E30A17",
+    "colorDim": "rgba(227,10,23,0.18)",
+    "players": [
+      "Volkan Demirel",
+      "Gökhan Zan",
+      "Hakan Ünsal",
+      "Servet Çetin",
+      "Fatih Akyel",
+      "Okan Buruk",
+      "Emre Belözoğlu",
+      "Tugay Kerimoğlu",
+      "Hakan Şükür",
+      "Hasan Şaş",
+      "Ilhan Mansız"
+    ],
+    "score": 0
+  },
+  "status": "FT",
+  "xG": {
+    "home": 2.45,
+    "away": 0.68
+  },
+  "possession": {
+    "home": 67,
+    "away": 33
+  },
+  "timeline": [
+    {
+      "minute": "33'",
+      "side": "home",
+      "player": "Ronaldo",
+      "type": "goal",
+      "description": "Ronaldo scores the only goal of the match."
+    },
+    {
+      "minute": "60'",
+      "side": "away",
+      "player": "Okan Buruk",
+      "type": "yellow",
+      "description": "Okan Buruk receives a yellow card for a foul."
+    },
+    {
+      "minute": "69'",
+      "side": "away",
+      "player": "Hakan Ünsal",
+      "type": "yellow",
+      "description": "Hakan Ünsal booked for a late challenge."
+    },
+    {
+      "minute": "82'",
+      "side": "away",
+      "player": "Tugay Kerimoğlu",
+      "type": "sub",
+      "description": "Substituted for Serdar Özkan."
+    },
+    {
+      "minute": "90'",
+      "side": "home",
+      "player": "Ronaldinho",
+      "type": "sub",
+      "description": "Substituted for Edmilson."
+    }
+  ],
+  "stats": [
+    {
+      "label": "Shots",
+      "home": 12,
+      "away": 4,
+      "homeWidth": 75,
+      "awayWidth": 25
+    },
+    {
+      "label": "Shots on Target",
+      "home": 5,
+      "away": 1,
+      "homeWidth": 83,
+      "awayWidth": 17
+    },
+    {
+      "label": "Possession",
+      "home": 67,
+      "away": 33,
+      "homeWidth": 67,
+      "awayWidth": 33
+    },
+    {
+      "label": "Passes",
+      "home": 500,
+      "away": 200,
+      "homeWidth": 71,
+      "awayWidth": 29
+    },
+    {
+      "label": "Pass Accuracy",
+      "home": "85%",
+      "away": "70%",
+      "homeWidth": 85,
+      "awayWidth": 70
+    },
+    {
+      "label": "Corners",
+      "home": 7,
+      "away": 1,
+      "homeWidth": 88,
+      "awayWidth": 12
+    },
+    {
+      "label": "Fouls",
+      "home": 10,
+      "away": 15,
+      "homeWidth": 40,
+      "awayWidth": 60
+    },
+    {
+      "label": "xG",
+      "home": "2.45",
+      "away": "0.68",
+      "homeWidth": 78,
+      "awayWidth": 22
+    }
+  ],
+  "metaDescription": "Brazil defeats Turkey 1-0 in the 2002 FIFA World Cup semi-final, securing their place in the final.",
+  "tacticalAnalysis": "In the semi-final match, Brazil deployed a 4-2-3-1 formation, looking to utilize the pace and skill of their attacking trio — Ronaldo, Rivaldo, and Ronaldinho. The midfield duo of Dunga and Gilberto Silva provided stability and allowed the front players to express themselves. Brazil's constant pressing and high defensive line forced Turkey into errors in buildup play. Turkey, lined up in a 4-3-2-1 formation, struggled to maintain possession against Brazil's intense pressing, with Okan Buruk and Emre Belözoğlu tasked with linking play, but they were often outnumbered in midfield. Ronaldo's solitary goal came in the first half through a swift counterattack, as Rivaldo's clever flick set him free. As the match progressed, Turkey struggled to create meaningful chances, and Brazil controlled the tempo, restricting Turkey's forward movement, ultimately sealing a spot in the final.",
+  "keyMoments": [
+    "33' - Ronaldo's goal gives Brazil the lead.",
+    "60' - Okan Buruk booked for a tactical foul.",
+    "69' - Hakan Ünsal receives yellow for a late tackle.",
+    "90' - Brazil substitutes Ronaldinho to waste time."
+  ],
+  "historicalSignificance": "This match was pivotal in establishing Brazil as a dominant force in world football, with Ronaldo's performance further enhancing his legacy. Turkey's journey as a semi-finalist highlighted their emergence as a competitive team on the world stage.",
+  "topPerformers": [
+    {
+      "name": "Ronaldo",
+      "side": "home",
+      "position": "ST",
+      "rating": 9.5,
+      "note": "Scoring the decisive goal and constantly threatening the Turkish defense."
+    },
+    {
+      "name": "Marcos",
+      "side": "home",
+      "position": "GK",
+      "rating": 8.7,
+      "note": "Made crucial saves to preserve the lead and maintain a clean sheet."
+    },
+    {
+      "name": "Hakan Şükür",
+      "side": "away",
+      "position": "ST",
+      "rating": 7.2,
+      "note": "Despite limited chances, he worked hard to press the Brazilian defense."
+    }
+  ]
+}

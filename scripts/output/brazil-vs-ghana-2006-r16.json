@@ -1,0 +1,194 @@
+{
+  "id": "brazil-vs-ghana-2006-r16",
+  "tournament": "FIFA World Cup 2006",
+  "year": 2006,
+  "stage": "Round of 16",
+  "date": "June 27, 2006",
+  "venue": "Stadium Dortmund",
+  "city": "Dortmund, Germany",
+  "home": {
+    "name": "Brazil",
+    "flag": "🇧🇷",
+    "formation": "4-2-3-1",
+    "color": "#F7B731",
+    "colorDim": "rgba(247,183,49,0.18)",
+    "players": [
+      "Dida",
+      "Cafu",
+      "Lúcio",
+      "Juan",
+      "Roberto Carlos",
+      "Edmilson",
+      "Gilberto Silva",
+      "Kaká",
+      "Ronaldinho",
+      "Adriano",
+      "Ronaldo"
+    ],
+    "score": 3
+  },
+  "away": {
+    "name": "Ghana",
+    "flag": "🇬🇭",
+    "formation": "4-2-3-1",
+    "color": "#FFD700",
+    "colorDim": "rgba(255,215,0,0.18)",
+    "players": [
+      "Richard Kingson",
+      "John Paintsil",
+      "Isaac Vorsah",
+      "Eric Addo",
+      "John Mensah",
+      "Anthony Annan",
+      "Michael Essien",
+      "Sulley Muntari",
+      "Asamoah Gyan",
+      "Stephen Appiah",
+      "Laryea Kingston"
+    ],
+    "score": 0
+  },
+  "status": "FT",
+  "xG": {
+    "home": 2.89,
+    "away": 0.45
+  },
+  "possession": {
+    "home": 58,
+    "away": 42
+  },
+  "timeline": [
+    {
+      "minute": "5'",
+      "side": "home",
+      "player": "Ronaldo",
+      "type": "goal",
+      "description": "Ronaldo opened the score with a close-range shot"
+    },
+    {
+      "minute": "36'",
+      "side": "home",
+      "player": "Adriano",
+      "type": "goal",
+      "description": "Adriano doubled the lead with a powerful strike from outside the box"
+    },
+    {
+      "minute": "49'",
+      "side": "home",
+      "player": "Ze Roberto",
+      "type": "goal",
+      "description": "Ze Roberto scored with a simple finish following a swift counter-attack"
+    },
+    {
+      "minute": "65'",
+      "side": "away",
+      "player": "Laryea Kingston",
+      "type": "yellow",
+      "description": "Kingston received a yellow card for a foul on Kaká"
+    },
+    {
+      "minute": "88'",
+      "side": "away",
+      "player": "John Paintsil",
+      "type": "yellow",
+      "description": "Paintsil booked for a late challenge on Ronaldo"
+    }
+  ],
+  "stats": [
+    {
+      "label": "Shots",
+      "home": 20,
+      "away": 5,
+      "homeWidth": 80,
+      "awayWidth": 20
+    },
+    {
+      "label": "Shots on Target",
+      "home": 10,
+      "away": 2,
+      "homeWidth": 83,
+      "awayWidth": 17
+    },
+    {
+      "label": "Possession",
+      "home": 58,
+      "away": 42,
+      "homeWidth": 58,
+      "awayWidth": 42
+    },
+    {
+      "label": "Passes",
+      "home": 520,
+      "away": 300,
+      "homeWidth": 64,
+      "awayWidth": 36
+    },
+    {
+      "label": "Pass Accuracy",
+      "home": "86%",
+      "away": "78%",
+      "homeWidth": 65,
+      "awayWidth": 35
+    },
+    {
+      "label": "Corners",
+      "home": 6,
+      "away": 2,
+      "homeWidth": 75,
+      "awayWidth": 25
+    },
+    {
+      "label": "Fouls",
+      "home": 14,
+      "away": 12,
+      "homeWidth": 54,
+      "awayWidth": 46
+    },
+    {
+      "label": "xG",
+      "home": "2.89",
+      "away": "0.45",
+      "homeWidth": 86,
+      "awayWidth": 14
+    }
+  ],
+  "metaDescription": "Brazil showcases their quality against Ghana in a historic match at the 2006 World Cup, claiming a decisive victory.",
+  "tacticalAnalysis": "Brazil lined up in a 4-2-3-1 with Dida in goal, a defense marshaled by Lúcio and Juan, and wing-backs Cafu and Roberto Carlos providing width. Gilberto Silva and Edmilson held the midfield, allowing Kaká, Ronaldinho, and Adriano to exploit space in the attacking third. This formation allowed for quick transitions against Ghana, who positioned themselves in a similar 4-2-3-1 but struggled to maintain possession. The Brazilian front four was fluid, with Ronaldo's movement drawing defenders and creating gaps for the likes of Adriano. The first goal came early after a swift counter, showcasing Brazil's ability to capitalize on Ghana's defensive lapses. Ghana fought valiantly, with Essien and Muntari attempting to disrupt Brazil's rhythm, but they rarely threatened Dida's goal. The second and third goals highlighted Brazil's clinical finishing and tactical superiority, as they successfully transitioned from defense to attack in moments.",
+  "keyMoments": [
+    "5' - Ronaldo scores and equals Gerd Müller's World Cup goal record.",
+    "36' - Adriano's powerful shot puts Brazil 2-0 up, showcasing their attacking prowess.",
+    "49' - Ze Roberto's tap-in seals the match, illustrating Brazil's dominance in the second half.",
+    "88' - Paintsil's late yellow illustrates Ghana's frustration as they try to contain the Brazilian attack."
+  ],
+  "historicalSignificance": "This match marked Brazil's continuing legacy in the World Cup, demonstrating their attacking flair even when not at their peak. Ronaldo's goal solidified his place in football history, equaling a record that had stood since 1974.",
+  "topPerformers": [
+    {
+      "name": "Ronaldo",
+      "side": "home",
+      "position": "ST",
+      "rating": 9,
+      "note": "Scored the opening goal, showcasing his clinical finishing."
+    },
+    {
+      "name": "Adriano",
+      "side": "home",
+      "position": "ST",
+      "rating": 8.5,
+      "note": "His presence and goal troubled the Ghanaian defense."
+    },
+    {
+      "name": "Michael Essien",
+      "side": "away",
+      "position": "CM",
+      "rating": 7.5,
+      "note": "Tried to control the midfield and was involved in defensive duties."
+    },
+    {
+      "name": "Dida",
+      "side": "home",
+      "position": "GK",
+      "rating": 8,
+      "note": "Made key saves to maintain a clean sheet for Brazil."
+    }
+  ]
+}

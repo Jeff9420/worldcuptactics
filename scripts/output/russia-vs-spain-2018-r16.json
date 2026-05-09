@@ -1,0 +1,181 @@
+{
+  "id": "russia-vs-spain-2018-r16",
+  "tournament": "FIFA World Cup 2018",
+  "year": 2018,
+  "stage": "Round of 16",
+  "date": "July 1, 2018",
+  "venue": "Luzhniki Stadium",
+  "city": "Moscow, Russia",
+  "home": {
+    "name": "Russia",
+    "flag": "🇷🇺",
+    "formation": "4-3-3",
+    "color": "#CC0000",
+    "colorDim": "rgba(204,0,0,0.18)",
+    "players": [
+      "Igor Akinfeev",
+      "Mario Fernandes",
+      "Sergey Ignashevich",
+      "Ilya Kutepov",
+      "Fydor Kudryashov",
+      "Daler Kuzyaev",
+      "Dmitri Kranevitter",
+      "Aleksandr Golovin",
+      "Denis Cheryshev",
+      "Artem Dzyuba",
+      "Alexander Erokhin"
+    ],
+    "score": 1
+  },
+  "away": {
+    "name": "Spain",
+    "flag": "🇪🇸",
+    "formation": "4-3-3",
+    "color": "#CC0000",
+    "colorDim": "rgba(204,0,0,0.18)",
+    "players": [
+      "David de Gea",
+      "Sergio Ramos",
+      "Gerard Piqué",
+      "Jordi Alba",
+      "César Azpilicueta",
+      "Sergio Busquets",
+      "Andrés Iniesta",
+      "David Silva",
+      "Isco",
+      "Diego Costa",
+      "Marco Asensio"
+    ],
+    "score": 1
+  },
+  "status": "PSO",
+  "penaltyScore": "4-3",
+  "xG": {
+    "home": 1.23,
+    "away": 2.02
+  },
+  "possession": {
+    "home": 25,
+    "away": 75
+  },
+  "timeline": [
+    {
+      "minute": "12'",
+      "side": "away",
+      "player": "Diego Costa",
+      "type": "goal",
+      "description": "Costa scores with a close-range finish after a defensive error."
+    },
+    {
+      "minute": "70'",
+      "side": "home",
+      "player": "Artem Dzyuba",
+      "type": "goal",
+      "description": "Dzyuba heads in a corner from Golovin."
+    },
+    {
+      "minute": "90'",
+      "side": "neutral",
+      "player": "Igor Akinfeev",
+      "type": "sub",
+      "description": "Akinfeev saves a key penalty in shootout."
+    },
+    {
+      "minute": "118'",
+      "side": "home",
+      "player": "Denis Cheryshev",
+      "type": "shot",
+      "description": "Cheryshev's long-range shot hits the post."
+    }
+  ],
+  "stats": [
+    {
+      "label": "Shots",
+      "home": 11,
+      "away": 16,
+      "homeWidth": 40,
+      "awayWidth": 60
+    },
+    {
+      "label": "Shots on Target",
+      "home": 5,
+      "away": 7,
+      "homeWidth": 41,
+      "awayWidth": 59
+    },
+    {
+      "label": "Possession",
+      "home": 25,
+      "away": 75,
+      "homeWidth": 25,
+      "awayWidth": 75
+    },
+    {
+      "label": "Passes",
+      "home": 350,
+      "away": 900,
+      "homeWidth": 28,
+      "awayWidth": 72
+    },
+    {
+      "label": "Pass Accuracy",
+      "home": "75%",
+      "away": "85%",
+      "homeWidth": 48,
+      "awayWidth": 52
+    },
+    {
+      "label": "Corners",
+      "home": 5,
+      "away": 7,
+      "homeWidth": 42,
+      "awayWidth": 58
+    },
+    {
+      "label": "Fouls",
+      "home": 14,
+      "away": 12,
+      "homeWidth": 54,
+      "awayWidth": 46
+    },
+    {
+      "label": "xG",
+      "home": "1.23",
+      "away": "2.02",
+      "homeWidth": 37,
+      "awayWidth": 63
+    }
+  ],
+  "metaDescription": "Russia faces Spain in a dramatic penalty shootout in the 2018 FIFA World Cup Round of 16.",
+  "tacticalAnalysis": "In this knockout clash, Russia deployed a compact 4-3-3 formation, designed to absorb Spain's passing game. The full-backs, Kudryashov and Fernandes, were crucial in blocking the width provided by Spain's wingers, while Dzyuba served as a focal point in attack. Spain, on the other hand, started in a similar 4-3-3, maintaining their usual possession-based approach. Their dominance was marked by a staggering 75% possession, yet they struggled to penetrate Russia's organized defense. Akinfeev's heroics in goal, particularly in the shootout, highlighted Russia's resilience. The key battle was in midfield, where Spain's busquets, Iniesta, and Silva fought to maintain ball control against the energetic Russian midfielders. Cheryshev's long-range strike in extra time showcased Russia's potential to counterattack effectively, exposing Spain's lack of direct penetration.",
+  "keyMoments": [
+    "12' - Costa scores, putting Spain ahead early.",
+    "70' - Dzyuba equalizes with a powerful header.",
+    "118' - Cheryshev hits the post, nearly winning the match for Russia.",
+    "Penalties - Akinfeev saves two shootout penalties, securing Russia's advancement."
+  ],
+  "historicalSignificance": "This match exemplified the unpredictability of knockout football, as Russia overturned expectations in front of their home fans. The victory in the shootout marked a historic achievement for the Russian team, further enhancing the narrative of underdog triumphs in World Cup history.",
+  "topPerformers": [
+    {
+      "name": "Igor Akinfeev",
+      "side": "home",
+      "position": "GK",
+      "rating": 9.4,
+      "note": "Outstanding saves in penalty shootout secured Russia's place in the quarter-finals."
+    },
+    {
+      "name": "Diego Costa",
+      "side": "away",
+      "position": "ST",
+      "rating": 8,
+      "note": "Opened the scoring and was a persistent threat."
+    },
+    {
+      "name": "Artem Dzyuba",
+      "side": "home",
+      "position": "ST",
+      "rating": 8.5,
+      "note": "Equalized with a crucial goal and was physically dominant."
+    }
+  ]
+}

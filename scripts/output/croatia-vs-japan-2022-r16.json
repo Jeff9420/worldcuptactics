@@ -1,0 +1,195 @@
+{
+  "id": "croatia-vs-japan-2022-r16",
+  "tournament": "FIFA World Cup 2022",
+  "year": 2022,
+  "stage": "Round of 16",
+  "date": "December 5, 2022",
+  "venue": "Al Janoub Stadium",
+  "city": "Al Wakrah, Qatar",
+  "home": {
+    "name": "Croatia",
+    "flag": "🇭🇷",
+    "formation": "4-3-3",
+    "color": "#CC1122",
+    "colorDim": "rgba(204,17,34,0.18)",
+    "players": [
+      "Dominik Livaković",
+      "Dejan Lovren",
+      "Gvardiol",
+      "Borna Barišić",
+      "Josip Juranović",
+      "Marcelo Brozović",
+      "Luka Modrić",
+      "Mateo Kovačić",
+      "Ivan Perišić",
+      "Ante Rebić",
+      "Andrej Kramarić"
+    ],
+    "score": 1
+  },
+  "away": {
+    "name": "Japan",
+    "flag": "🇯🇵",
+    "formation": "4-3-3",
+    "color": "#BC002D",
+    "colorDim": "rgba(188,0,45,0.18)",
+    "players": [
+      "Shuichi Gonda",
+      "Maya Yoshida",
+      "Takehiro Tomiyasu",
+      "Yuuya Gustavo",
+      "Yuto Nagatomo",
+      "Wataru Endo",
+      "Hidemasa Morita",
+      "Daichi Kamada",
+      "Kaoru Mitoma",
+      "Takumi Minamino",
+      "Daizen Maeda"
+    ],
+    "score": 1
+  },
+  "status": "PSO",
+  "penaltyScore": "3-1",
+  "xG": {
+    "home": 1.82,
+    "away": 0.98
+  },
+  "possession": {
+    "home": 56,
+    "away": 44
+  },
+  "timeline": [
+    {
+      "minute": "43'",
+      "side": "away",
+      "player": "Daizen Maeda",
+      "type": "goal",
+      "description": "Maeda opens the scoring with a close-range finish from a corner."
+    },
+    {
+      "minute": "55'",
+      "side": "home",
+      "player": "Ivan Perišić",
+      "type": "goal",
+      "description": "Perišić brilliantly equalizes with a header from a cross."
+    },
+    {
+      "minute": "67'",
+      "side": "home",
+      "player": "Luka Modrić",
+      "type": "sub",
+      "description": "Modrić substituted for fresh legs."
+    },
+    {
+      "minute": "89'",
+      "side": "neutral",
+      "player": "Takehiro Tomiyasu",
+      "type": "yellow",
+      "description": "Tomiyasu receives a yellow card for a foul."
+    },
+    {
+      "minute": "90+5'",
+      "side": "neutral",
+      "player": "Shuichi Gonda",
+      "type": "yellow",
+      "description": "Gonda gets booked for time-wasting."
+    }
+  ],
+  "stats": [
+    {
+      "label": "Shots",
+      "home": 15,
+      "away": 9,
+      "homeWidth": 62,
+      "awayWidth": 38
+    },
+    {
+      "label": "Shots on Target",
+      "home": 5,
+      "away": 3,
+      "homeWidth": 62,
+      "awayWidth": 38
+    },
+    {
+      "label": "Possession",
+      "home": 56,
+      "away": 44,
+      "homeWidth": 56,
+      "awayWidth": 44
+    },
+    {
+      "label": "Passes",
+      "home": 480,
+      "away": 320,
+      "homeWidth": 60,
+      "awayWidth": 40
+    },
+    {
+      "label": "Pass Accuracy",
+      "home": "85%",
+      "away": "76%",
+      "homeWidth": 52,
+      "awayWidth": 48
+    },
+    {
+      "label": "Corners",
+      "home": 7,
+      "away": 4,
+      "homeWidth": 64,
+      "awayWidth": 36
+    },
+    {
+      "label": "Fouls",
+      "home": 11,
+      "away": 12,
+      "homeWidth": 48,
+      "awayWidth": 52
+    },
+    {
+      "label": "xG",
+      "home": "1.82",
+      "away": "0.98",
+      "homeWidth": 65,
+      "awayWidth": 35
+    }
+  ],
+  "metaDescription": "Croatia's nail-biting clash against Japan in the FIFA World Cup 2022 Round of 16 ended in penalties after a 1-1 draw.",
+  "tacticalAnalysis": "Croatia utilized a 4-3-3 formation focusing on possession and buildup play, with Modrić orchestrating from midfield and Perišić attacking from the left flank. Japan, in a similar 4-3-3, relied on counters and wing play, exploiting the spaces left by Croatia's fullbacks. The opening goal came from Maeda, effectively taking advantage of a defensive lapse during a corner. Croatia responded with intensity, adjusting to push more players forward, with Kramarić and Rebić applying pressure and creating opportunities for Perišić to equalize. The match highlighted Croatia's experience in high-stakes scenarios, culminating in a composed penalty shootout performance led by Livaković's decisive saves.",
+  "keyMoments": [
+    "43' - Maeda's goal gives Japan an unexpected lead.",
+    "55' - Perišić's equalizer restores Croatia's hope.",
+    "66' - Modrić's substitution boosts Croatia's late-game energy.",
+    "90+5' - Gonda's yellow card signifies Japan's struggle to maintain composure."
+  ],
+  "historicalSignificance": "This match marked a pivotal moment for Japan, showcasing their growth in international football, despite heartbreaking defeat in penalties. Croatia's advancement highlighted their status as a perennial underdog, demonstrating resilience and tactical prowess.",
+  "topPerformers": [
+    {
+      "name": "Dominik Livaković",
+      "side": "home",
+      "position": "GK",
+      "rating": 9.2,
+      "note": "Saved three penalties, proving vital in Croatia's success."
+    },
+    {
+      "name": "Ivan Perišić",
+      "side": "home",
+      "position": "LW",
+      "rating": 8.5,
+      "note": "Crucial equalizer and constant threat on the left."
+    },
+    {
+      "name": "Daizen Maeda",
+      "side": "away",
+      "position": "ST",
+      "rating": 8.2,
+      "note": "Took his chance well with the opening goal."
+    },
+    {
+      "name": "Takehiro Tomiyasu",
+      "side": "away",
+      "position": "CB",
+      "rating": 8,
+      "note": "Strong defensive performance, organizing Japan’s backline."
+    }
+  ]
+}

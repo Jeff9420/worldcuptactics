@@ -1,0 +1,187 @@
+{
+  "id": "uruguay-vs-netherlands-2010-sf",
+  "tournament": "FIFA World Cup 2010",
+  "year": 2010,
+  "stage": "Semi-Final",
+  "date": "July 6, 2010",
+  "venue": "Cape Town Stadium",
+  "city": "Cape Town, South Africa",
+  "home": {
+    "name": "Uruguay",
+    "flag": "🇺🇾",
+    "formation": "4-4-2",
+    "color": "#4EABDF",
+    "colorDim": "rgba(78,171,223,0.18)",
+    "players": [
+      "Fernando Muslera",
+      "Maxi Pereira",
+      "Diego Godín",
+      "Sebastián Coates",
+      "Martín Cáceres",
+      "Edinson Cavani",
+      "Diego Pérez",
+      "Alvaro Pereira",
+      "Luis Suárez",
+      "Diego Forlán",
+      "Gustavo Varela"
+    ],
+    "score": 2
+  },
+  "away": {
+    "name": "Netherlands",
+    "flag": "🇳🇱",
+    "formation": "4-3-3",
+    "color": "#FF6200",
+    "colorDim": "rgba(255,98,0,0.18)",
+    "players": [
+      "Maarten Stekelenburg",
+      "Khalid Boulahrouz",
+      "Joris Mathijsen",
+      "Ron Vlaar",
+      "Giovanni van Bronckhorst",
+      "Mark van Bommel",
+      "Wesley Sneijder",
+      "Arjen Robben",
+      "Robin van Persie",
+      "Eljero Elia",
+      "Ruud van Nistelrooy"
+    ],
+    "score": 3
+  },
+  "status": "FT",
+  "xG": {
+    "home": 1.35,
+    "away": 2.45
+  },
+  "possession": {
+    "home": 48,
+    "away": 52
+  },
+  "timeline": [
+    {
+      "minute": "18'",
+      "side": "away",
+      "player": "Wesley Sneijder",
+      "type": "goal",
+      "description": "Sneijder opened the scoring with a powerful shot from the edge of the box."
+    },
+    {
+      "minute": "70'",
+      "side": "home",
+      "player": "Diego Forlán",
+      "type": "goal",
+      "description": "Forlán equalized with a stunning long-range effort."
+    },
+    {
+      "minute": "88'",
+      "side": "away",
+      "player": "Wesley Sneijder",
+      "type": "goal",
+      "description": "Sneijder scored again with a close-range finish."
+    },
+    {
+      "minute": "90'",
+      "side": "away",
+      "player": "Robin van Persie",
+      "type": "goal",
+      "description": "Van Persie sealed the win with a clever finish."
+    },
+    {
+      "minute": "43'",
+      "side": "home",
+      "player": "Máximo Pereira",
+      "type": "red",
+      "description": "Pereira received a red card for a last-man tackle, diminishing Uruguay's chances."
+    }
+  ],
+  "stats": [
+    {
+      "label": "Shots",
+      "home": 11,
+      "away": 15,
+      "homeWidth": 42,
+      "awayWidth": 58
+    },
+    {
+      "label": "Shots on Target",
+      "home": 5,
+      "away": 8,
+      "homeWidth": 38,
+      "awayWidth": 62
+    },
+    {
+      "label": "Possession",
+      "home": 48,
+      "away": 52,
+      "homeWidth": 48,
+      "awayWidth": 52
+    },
+    {
+      "label": "Passes",
+      "home": 329,
+      "away": 357,
+      "homeWidth": 48,
+      "awayWidth": 52
+    },
+    {
+      "label": "Pass Accuracy",
+      "home": "83%",
+      "away": "85%",
+      "homeWidth": 48,
+      "awayWidth": 52
+    },
+    {
+      "label": "Corners",
+      "home": 4,
+      "away": 5,
+      "homeWidth": 44,
+      "awayWidth": 56
+    },
+    {
+      "label": "Fouls",
+      "home": 12,
+      "away": 18,
+      "homeWidth": 40,
+      "awayWidth": 60
+    },
+    {
+      "label": "xG",
+      "home": "1.35",
+      "away": "2.45",
+      "homeWidth": 42,
+      "awayWidth": 58
+    }
+  ],
+  "metaDescription": "Uruguay faced Netherlands in the gripping semi-final of the FIFA World Cup 2010, a match filled with pivotal moments and standout performances.",
+  "tacticalAnalysis": "In this semi-final, Uruguay adopted a 4-4-2 formation, relying on the midfield pairing of Pérez and Pereira to control the center, while Forlán and Suárez provided attacking threat. The Netherlands set up in a 4-3-3 formation, with Sneijder as the central playmaker flanked by Robben and Elia. The battle ensued primarily in midfield, where Van Bommel's physicality was crucial in disrupting Uruguay's rhythm. The early goal from Sneijder allowed the Netherlands to dictate play, forcing Uruguay to chase and eventually leaving gaps that resulted in more goals. Forlán's stunning strike showcased his quality, but the red card for Pereira was a turning point that shifted momentum significantly in favor of the Dutch.",
+  "keyMoments": [
+    "18' - Sneijder scores, changing the pace of the match.",
+    "70' - Forlán scores a brilliant goal to level the match.",
+    "88' - Sneijder nets his second, putting Netherlands back in control.",
+    "90' - Van Persie's goal seals the game for the Netherlands."
+  ],
+  "historicalSignificance": "This match was crucial as it showcased the tactical evolution of European teams in World Cups. The Netherlands' victory led them to their third World Cup final, solidifying their reputation as a footballing powerhouse. Forlán's Golden Ball win underlined Uruguay's resurgence in world football.",
+  "topPerformers": [
+    {
+      "name": "Wesley Sneijder",
+      "side": "away",
+      "position": "CM",
+      "rating": 9.2,
+      "note": "Scored twice and was instrumental in attack."
+    },
+    {
+      "name": "Diego Forlán",
+      "side": "home",
+      "position": "ST",
+      "rating": 8.5,
+      "note": "Provided an equalizer with an exceptional strike and assisted the second goal."
+    },
+    {
+      "name": "Maarten Stekelenburg",
+      "side": "away",
+      "position": "GK",
+      "rating": 8,
+      "note": "Made crucial saves that kept the Dutch in the lead."
+    }
+  ]
+}

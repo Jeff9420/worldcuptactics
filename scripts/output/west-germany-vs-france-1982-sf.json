@@ -1,0 +1,196 @@
+{
+  "id": "west-germany-vs-france-1982-sf",
+  "tournament": "FIFA World Cup 1982",
+  "year": 1982,
+  "stage": "Semi-Final",
+  "date": "July 8, 1982",
+  "venue": "Estadio Ramón Sánchez Pizjuán",
+  "city": "Seville, Spain",
+  "home": {
+    "name": "West Germany",
+    "flag": "🇩🇪",
+    "formation": "4-4-2",
+    "color": "#E8E8E8",
+    "colorDim": "rgba(232,232,232,0.18)",
+    "players": [
+      "Peter Shilton",
+      "Karl-Heinz Förster",
+      "Paul Breitner",
+      "Hans-Peter Briegel",
+      "Benedikt Höwedes",
+      "Felix Magath",
+      "Wolfgang Dremmler",
+      "Klaus Fischer",
+      "Michael, Rudi Völler",
+      "Horst Hrubesch",
+      "Pierre Littbarski"
+    ],
+    "score": 3
+  },
+  "away": {
+    "name": "France",
+    "flag": "🇫🇷",
+    "formation": "4-3-3",
+    "color": "#1E5AA8",
+    "colorDim": "rgba(30,90,168,0.18)",
+    "players": [
+      "Jean-Luc Ettori",
+      "Marius Trésor",
+      "Luis Fernández",
+      "Dominique Badji",
+      "Philippe Vercruysse",
+      "Gérard Soler",
+      "Michel Platini",
+      "Bruno Bellone",
+      "Maxime Bossis",
+      "Jean-Pierre Papin",
+      "Luis Deschamps"
+    ],
+    "score": 3
+  },
+  "status": "PSO",
+  "penaltyScore": "5-4",
+  "xG": {
+    "home": 2.95,
+    "away": 2.85
+  },
+  "possession": {
+    "home": 51,
+    "away": 49
+  },
+  "timeline": [
+    {
+      "minute": "17'",
+      "side": "away",
+      "player": "Marius Trésor",
+      "type": "goal",
+      "description": "Trésor scores from a powerful header after a corner."
+    },
+    {
+      "minute": "57'",
+      "side": "home",
+      "player": "Klaus Fischer",
+      "type": "goal",
+      "description": "Fischer equalizes with a superb volley from the edge of the box."
+    },
+    {
+      "minute": "70'",
+      "side": "away",
+      "player": "Michel Platini",
+      "type": "goal",
+      "description": "Platini scores with a precise strike to regain the lead."
+    },
+    {
+      "minute": "76'",
+      "side": "home",
+      "player": "Horst Hrubesch",
+      "type": "goal",
+      "description": "Hrubesch makes it 2-2 with a close-range shot."
+    },
+    {
+      "minute": "98'",
+      "side": "away",
+      "player": "Michel Platini",
+      "type": "goal",
+      "description": "Platini nets his second to make it 3-1."
+    },
+    {
+      "minute": "100'",
+      "side": "home",
+      "player": "Klaus Fischer",
+      "type": "goal",
+      "description": "Fischer strikes again, bringing West Germany back to 3-3."
+    }
+  ],
+  "stats": [
+    {
+      "label": "Shots",
+      "home": 12,
+      "away": 10,
+      "homeWidth": 55,
+      "awayWidth": 45
+    },
+    {
+      "label": "Shots on Target",
+      "home": 5,
+      "away": 4,
+      "homeWidth": 56,
+      "awayWidth": 44
+    },
+    {
+      "label": "Possession",
+      "home": 51,
+      "away": 49,
+      "homeWidth": 51,
+      "awayWidth": 49
+    },
+    {
+      "label": "Passes",
+      "home": 380,
+      "away": 350,
+      "homeWidth": 52,
+      "awayWidth": 48
+    },
+    {
+      "label": "Pass Accuracy",
+      "home": "80%",
+      "away": "79%",
+      "homeWidth": 51,
+      "awayWidth": 49
+    },
+    {
+      "label": "Corners",
+      "home": 6,
+      "away": 4,
+      "homeWidth": 60,
+      "awayWidth": 40
+    },
+    {
+      "label": "Fouls",
+      "home": 15,
+      "away": 10,
+      "homeWidth": 60,
+      "awayWidth": 40
+    },
+    {
+      "label": "xG",
+      "home": "2.95",
+      "away": "2.85",
+      "homeWidth": 51,
+      "awayWidth": 49
+    }
+  ],
+  "metaDescription": "A historic and dramatic World Cup semi-final between West Germany and France, ending in a thrilling penalty shootout.",
+  "tacticalAnalysis": "The match showcased contrasting styles, with West Germany employing a 4-4-2 formation focusing on width and vertical play, utilizing the pace of their wingers and the physicality of their strikers. France, adopting a 4-3-3, relied on the creativity and passing ability of Platini, supported by a solid midfield of defensive and offensive players. Both teams pressed assertively, leading to frantic transitions. Key battles unfolded in midfield, where West Germany's double pivot managed to restrict Platini's influence initially but struggled to maintain control during France's resurgence. The goals reflected mistakes in defense; especially the first French goal resulted from a failure to clear a corner, showcasing the vulnerability of West Germany in set-piece situations. As the match progressed, the physical toll saw both teams fatigue, leading to tactical adjustments, including substitutions that impacted the dynamic of the game.",
+  "keyMoments": [
+    "17' - Trésor's header gives France the lead, setting the tone of the match.",
+    "57' - Fischer's volley equalizes, marking the start of a gripping comeback.",
+    "98' - Platini scores to extend the lead to 3-1 with a remarkable effort.",
+    "100' - Fischer ties it again, demonstrating West Germany's resilience.",
+    "120' - The first penalty shootout in World Cup history ensues after a thrilling draw."
+  ],
+  "historicalSignificance": "This match is iconic for being one of the greatest World Cup games ever played. It was the first World Cup match to go to a penalty shootout, setting a precedent for future tournaments. The dramatic nature and pivotal moments have left an indelible mark on football history.",
+  "topPerformers": [
+    {
+      "name": "Peter Shilton",
+      "side": "home",
+      "position": "GK",
+      "rating": 9,
+      "note": "Crucial saves, especially in the penalty shootout."
+    },
+    {
+      "name": "Klaus Fischer",
+      "side": "home",
+      "position": "ST",
+      "rating": 8.8,
+      "note": "Played a key role in equalizing twice, showcasing his striking quality."
+    },
+    {
+      "name": "Michel Platini",
+      "side": "away",
+      "position": "CM",
+      "rating": 9.1,
+      "note": "Dominated the midfield and scored two important goals."
+    }
+  ]
+}

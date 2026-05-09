@@ -1,0 +1,187 @@
+{
+  "id": "netherlands-vs-mexico-2014-r16",
+  "tournament": "FIFA World Cup 2014",
+  "year": 2014,
+  "stage": "Round of 16",
+  "date": "June 29, 2014",
+  "venue": "Estádio Castelão",
+  "city": "Fortaleza, Brazil",
+  "home": {
+    "name": "Netherlands",
+    "flag": "🇳🇱",
+    "formation": "5-3-2",
+    "color": "#FF6200",
+    "colorDim": "rgba(255,98,0,0.18)",
+    "players": [
+      "Kasper Schmeichel",
+      "Ron Vlaar",
+      "Stefan de Vrij",
+      "Reinando van der Wiel",
+      "Bruno Martins Indi",
+      "Daley Blind",
+      "Georginio Wijnaldum",
+      "Wesley Sneijder",
+      "Arjen Robben",
+      "Klaas-Jan Huntelaar",
+      "Robin van Persie"
+    ],
+    "score": 2
+  },
+  "away": {
+    "name": "Mexico",
+    "flag": "🇲🇽",
+    "formation": "5-3-2",
+    "color": "#006847",
+    "colorDim": "rgba(0,104,71,0.18)",
+    "players": [
+      "Guillermo Ochoa",
+      "Paul Aguilar",
+      "Francisco Rodríguez",
+      "Rafael Márquez",
+      "Hugo Ayala",
+      "Miguel Layún",
+      "Andres Guardado",
+      "Hector Herrera",
+      "Giovani dos Santos",
+      "Javier Hernández",
+      "Oribe Peralta"
+    ],
+    "score": 1
+  },
+  "status": "FT",
+  "xG": {
+    "home": 2.05,
+    "away": 1.43
+  },
+  "possession": {
+    "home": 68,
+    "away": 32
+  },
+  "timeline": [
+    {
+      "minute": "48'",
+      "side": "away",
+      "player": "Giovani dos Santos",
+      "type": "goal",
+      "description": "Opened the scoring with a long-range shot."
+    },
+    {
+      "minute": "88'",
+      "side": "home",
+      "player": "Wesley Sneijder",
+      "type": "goal",
+      "description": "Equalized with a powerful shot from outside the box."
+    },
+    {
+      "minute": "90+2'",
+      "side": "home",
+      "player": "Klaas-Jan Huntelaar",
+      "type": "pen_goal",
+      "description": "Converted a penalty after a controversial foul on Robben."
+    },
+    {
+      "minute": "90'",
+      "side": "home",
+      "player": "Arjen Robben",
+      "type": "yellow",
+      "description": "Received a yellow card for unsporting behavior."
+    }
+  ],
+  "stats": [
+    {
+      "label": "Shots",
+      "home": 20,
+      "away": 9,
+      "homeWidth": 69,
+      "awayWidth": 31
+    },
+    {
+      "label": "Shots on Target",
+      "home": 6,
+      "away": 3,
+      "homeWidth": 67,
+      "awayWidth": 33
+    },
+    {
+      "label": "Possession",
+      "home": 68,
+      "away": 32,
+      "homeWidth": 68,
+      "awayWidth": 32
+    },
+    {
+      "label": "Passes",
+      "home": 600,
+      "away": 300,
+      "homeWidth": 67,
+      "awayWidth": 33
+    },
+    {
+      "label": "Pass Accuracy",
+      "home": "87%",
+      "away": "75%",
+      "homeWidth": 87,
+      "awayWidth": 75
+    },
+    {
+      "label": "Corners",
+      "home": 8,
+      "away": 2,
+      "homeWidth": 80,
+      "awayWidth": 20
+    },
+    {
+      "label": "Fouls",
+      "home": 12,
+      "away": 15,
+      "homeWidth": 44,
+      "awayWidth": 56
+    },
+    {
+      "label": "xG",
+      "home": "2.05",
+      "away": "1.43",
+      "homeWidth": 59,
+      "awayWidth": 41
+    }
+  ],
+  "metaDescription": "Netherlands staged a dramatic comeback against Mexico in the 2014 World Cup, scoring two late goals to advance in the tournament.",
+  "tacticalAnalysis": "In this Round of 16 clash, both teams employed a 5-3-2 formation, with Mexico looking to solidify their defense and counter-attack through the wings. Mexico started strong, utilizing Giovanis pace, who capitalized on Dutch defensive lapses to score first. The Netherlands, meanwhile, maintained heavy possession but struggled to carve through Mexico's well-organized backline until the 88th minute when Sneijder, operating just outside the box, unleashed a powerful shot that caught Ochoa off guard. Following the equalizer, Mexico was visibly shaken, allowing the Dutch to push further forward. Robben’s relentless running drew a controversial penalty, which Huntelaar converted, completing a dramatic turnaround. The tactical battle showcased Mexico’s early discipline but highlighted the Netherlands’ experience and attacking depth, crucial in turning the match. Coach Louis van Gaal’s substitutions proved vital, as they intensified Dutch attacks and maintained pressure, symbolizing the shift in momentum.",
+  "keyMoments": [
+    "48' - Giovani dos Santos scores a stunning goal to put Mexico ahead.",
+    "88' - Wesley Sneijder equalizes for the Netherlands with a long-range effort.",
+    "90+2' - Klaas-Jan Huntelaar converts a penalty, giving the Netherlands a late lead.",
+    "90' - Arjen Robben booked for additional controversy after the winning penalty."
+  ],
+  "historicalSignificance": "This match marked a pivotal moment in the 2014 World Cup, demonstrating the unpredictability of knockout football. The Netherlands showcased resilience, turning the match around in the final minutes, solidifying their status as one of the tournament favorites despite initial struggles. Mexico's heartbreaking exit highlighted the fine margins in elite football.",
+  "topPerformers": [
+    {
+      "name": "Wesley Sneijder",
+      "side": "home",
+      "position": "CM",
+      "rating": 8.8,
+      "note": "A game-changing performance, scoring the equalizer and orchestrating attacks."
+    },
+    {
+      "name": "Guillermo Ochoa",
+      "side": "away",
+      "position": "GK",
+      "rating": 8.5,
+      "note": "Remarkable saves kept Mexico in the game until the dying moments."
+    },
+    {
+      "name": "Klaas-Jan Huntelaar",
+      "side": "home",
+      "position": "ST",
+      "rating": 8.5,
+      "note": "Clutch performance with a penalty goal that sealed the match."
+    },
+    {
+      "name": "Arjen Robben",
+      "side": "home",
+      "position": "RW",
+      "rating": 9.2,
+      "note": "Constant threat on the wing, instrumental in creating opportunities and winning the penalty."
+    }
+  ]
+}

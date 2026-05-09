@@ -1,0 +1,165 @@
+{
+  "id": "morocco-vs-portugal-2022-qf",
+  "tournament": "FIFA World Cup 2022",
+  "year": 2022,
+  "stage": "Quarter-Final",
+  "date": "December 10, 2022",
+  "venue": "Al Thumama Stadium",
+  "city": "Doha, Qatar",
+  "home": {
+    "name": "Morocco",
+    "flag": "🇲🇦",
+    "formation": "4-1-4-1",
+    "color": "#C1272D",
+    "colorDim": "rgba(193,39,45,0.18)",
+    "players": [
+      "Yassine Bounou",
+      "Achraf Hakimi",
+      "Romain Saïss",
+      "Nayef Aguerd",
+      "Noussair Mazraoui",
+      "Sofyan Amrabat",
+      "Azzedine Ounahi",
+      "Hakim Ziyech",
+      "Sofiane Boufal",
+      "Youssef En-Nesyri",
+      "Azeddine Ounahi"
+    ],
+    "score": 1
+  },
+  "away": {
+    "name": "Portugal",
+    "flag": "🇵🇹",
+    "formation": "4-3-3",
+    "color": "#006600",
+    "colorDim": "rgba(0,102,0,0.18)",
+    "players": [
+      "Diogo Costa",
+      "João Cancelo",
+      "Rúben Dias",
+      "Pepe",
+      "Nuno Mendes",
+      "William Carvalho",
+      "Bruno Fernandes",
+      "Bernardo Silva",
+      "Otávio",
+      "Cristiano Ronaldo",
+      "Gonçalo Ramos"
+    ],
+    "score": 0
+  },
+  "status": "FT",
+  "xG": {
+    "home": 1.4,
+    "away": 0.6
+  },
+  "possession": {
+    "home": 36,
+    "away": 64
+  },
+  "timeline": [
+    {
+      "minute": "42'",
+      "side": "home",
+      "player": "Youssef En-Nesyri",
+      "type": "goal",
+      "description": "En-Nesyri scored with a towering header from a cross by Dari."
+    },
+    {
+      "minute": "70'",
+      "side": "away",
+      "player": "Cristiano Ronaldo",
+      "type": "sub",
+      "description": "Ronaldo came on as a substitute for Gonçalo Ramos."
+    }
+  ],
+  "stats": [
+    {
+      "label": "Shots",
+      "home": 9,
+      "away": 15,
+      "homeWidth": 37,
+      "awayWidth": 63
+    },
+    {
+      "label": "Shots on Target",
+      "home": 3,
+      "away": 6,
+      "homeWidth": 33,
+      "awayWidth": 67
+    },
+    {
+      "label": "Possession",
+      "home": 36,
+      "away": 64,
+      "homeWidth": 36,
+      "awayWidth": 64
+    },
+    {
+      "label": "Passes",
+      "home": 235,
+      "away": 412,
+      "homeWidth": 36,
+      "awayWidth": 64
+    },
+    {
+      "label": "Pass Accuracy",
+      "home": "76%",
+      "away": "84%",
+      "homeWidth": 36,
+      "awayWidth": 64
+    },
+    {
+      "label": "Corners",
+      "home": 2,
+      "away": 5,
+      "homeWidth": 29,
+      "awayWidth": 71
+    },
+    {
+      "label": "Fouls",
+      "home": 12,
+      "away": 10,
+      "homeWidth": 55,
+      "awayWidth": 45
+    },
+    {
+      "label": "xG",
+      "home": "1.40",
+      "away": "0.60",
+      "homeWidth": 70,
+      "awayWidth": 30
+    }
+  ],
+  "metaDescription": "Morocco stunned Portugal 1-0, becoming the first African nation to reach a World Cup semi-final, with En-Nesyri's pivotal goal.",
+  "tacticalAnalysis": "Morocco employed a 4-1-4-1 formation, emphasizing defensive solidity, with Amrabat serving as the crucial pivot to shield the backline. The Atlas Lions focused on compactness, effectively closing down spaces and counter-attacking swiftly. En-Nesyri’s goal stemmed from a well-executed set piece, capitalizing on Portuguese weaknesses at defending set pieces. Portugal’s 4-3-3 with Cristiano Ronaldo introduced as a late substitute aimed at injecting urgency but struggled to break down Morocco’s organized defense, leading to frustration in their attacking dynamics. The effectiveness of Morocco's defensive organization was evident as they limited Portugal to few clear-cut chances and executed incisive counters through Ziyech and Boufal, making them a persistent threat.",
+  "keyMoments": [
+    "42' - En-Nesyri scores the only goal of the match, leading Morocco to a historic victory.",
+    "70' - Ronaldo substitutes in, marking his final World Cup appearance as Morocco holds strong.",
+    "Full Time - Morocco secures a 1-0 win, triumphing as the first African nation in the World Cup semi-finals."
+  ],
+  "historicalSignificance": "This match is a landmark victory for Morocco, positioning them as the first African team to reach the semi-finals of a World Cup. It highlights a significant breakthrough for African football on the global stage, inspiring future generations.",
+  "topPerformers": [
+    {
+      "name": "Yassine Bounou",
+      "side": "home",
+      "position": "GK",
+      "rating": 9.2,
+      "note": "Outstanding saves and commanded the area effectively."
+    },
+    {
+      "name": "Youssef En-Nesyri",
+      "side": "home",
+      "position": "ST",
+      "rating": 8.8,
+      "note": "Scored the decisive goal with a powerful header, showcasing aerial prowess."
+    },
+    {
+      "name": "Bruno Fernandes",
+      "side": "away",
+      "position": "CM",
+      "rating": 8.5,
+      "note": "Was Portugal's creative hub, constantly looking to unlock Morocco's defense."
+    }
+  ]
+}

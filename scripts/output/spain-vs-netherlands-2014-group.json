@@ -1,0 +1,196 @@
+{
+  "id": "spain-vs-netherlands-2014-group",
+  "tournament": "FIFA World Cup 2014",
+  "year": 2014,
+  "stage": "Group Stage (Group B)",
+  "date": "June 13, 2014",
+  "venue": "Arena Fonte Nova",
+  "city": "Salvador, Brazil",
+  "home": {
+    "name": "Spain",
+    "flag": "🇪🇸",
+    "formation": "4-3-3",
+    "color": "#CC0000",
+    "colorDim": "rgba(204,0,0,0.18)",
+    "players": [
+      "Iker Casillas",
+      "Raúl Albiol",
+      "Gerard Piqué",
+      "Sergio Ramos",
+      "Jordi Alba",
+      "Andrés Iniesta",
+      "Xavi",
+      "Cesc Fàbregas",
+      "David Silva",
+      "Fernando Torres",
+      "Juan Mata"
+    ],
+    "score": 1
+  },
+  "away": {
+    "name": "Netherlands",
+    "flag": "🇳🇱",
+    "formation": "4-3-3",
+    "color": "#FF6200",
+    "colorDim": "rgba(255,98,0,0.18)",
+    "players": [
+      "Jasper Cillessen",
+      "Daryl Janmaat",
+      "Ron Vlaar",
+      "Martin de Roon",
+      "Bruno Martins Indi",
+      "Jordy Clasie",
+      "Arjen Robben",
+      " Wesley Sneijder",
+      "Robin van Persie",
+      "Klaas-Jan Huntelaar",
+      "Daley Blind"
+    ],
+    "score": 5
+  },
+  "status": "FT",
+  "xG": {
+    "home": 1.22,
+    "away": 3.82
+  },
+  "possession": {
+    "home": 45,
+    "away": 55
+  },
+  "timeline": [
+    {
+      "minute": "11'",
+      "side": "away",
+      "player": "Robin van Persie",
+      "type": "goal",
+      "description": "Van Persie heads in from a cross, equalizing the score."
+    },
+    {
+      "minute": "20'",
+      "side": "away",
+      "player": "Arjen Robben",
+      "type": "goal",
+      "description": "Robben scores with a powerful shot into the corner."
+    },
+    {
+      "minute": "44'",
+      "side": "away",
+      "player": "Arjen Robben",
+      "type": "goal",
+      "description": "Robben scores another after a swift counter-attack."
+    },
+    {
+      "minute": "55'",
+      "side": "away",
+      "player": "Robin van Persie",
+      "type": "goal",
+      "description": "Van Persie scores his second and Netherlands' fourth."
+    },
+    {
+      "minute": "69'",
+      "side": "away",
+      "player": "Klaas-Jan Huntelaar",
+      "type": "goal",
+      "description": "Huntelaar converts a penalty."
+    },
+    {
+      "minute": "73'",
+      "side": "home",
+      "player": "Juan Mata",
+      "type": "goal",
+      "description": "Mata pulls one back for Spain."
+    }
+  ],
+  "stats": [
+    {
+      "label": "Shots",
+      "home": 11,
+      "away": 17,
+      "homeWidth": 39,
+      "awayWidth": 61
+    },
+    {
+      "label": "Shots on Target",
+      "home": 3,
+      "away": 10,
+      "homeWidth": 23,
+      "awayWidth": 77
+    },
+    {
+      "label": "Possession",
+      "home": 45,
+      "away": 55,
+      "homeWidth": 45,
+      "awayWidth": 55
+    },
+    {
+      "label": "Passes",
+      "home": 400,
+      "away": 290,
+      "homeWidth": 58,
+      "awayWidth": 42
+    },
+    {
+      "label": "Pass Accuracy",
+      "home": "85%",
+      "away": "76%",
+      "homeWidth": 52,
+      "awayWidth": 48
+    },
+    {
+      "label": "Corners",
+      "home": 4,
+      "away": 3,
+      "homeWidth": 57,
+      "awayWidth": 43
+    },
+    {
+      "label": "Fouls",
+      "home": 12,
+      "away": 9,
+      "homeWidth": 57,
+      "awayWidth": 43
+    },
+    {
+      "label": "xG",
+      "home": "1.22",
+      "away": "3.82",
+      "homeWidth": 24,
+      "awayWidth": 76
+    }
+  ],
+  "metaDescription": "Spain faces a humiliating defeat to Netherlands in the 2014 FIFA World Cup group stage, a rematch of the 2010 final.",
+  "tacticalAnalysis": "Spain entered the match with their typical tiki-taka approach, aiming for dominance through short passes and possession. They lined up in a 4-3-3 formation with a midfield trio of Iniesta, Xavi, and Fàbregas, intending to control the game's tempo. However, the Netherlands implemented a high-pressing system that disrupted Spain's rhythm. Their direct style of play, facilitated by speedy wingers Robben and Van Persie, posed constant threats on the break. The first goal came from Van Persie's iconic header, capitalizing on Spain's defensive disarray from an incoming cross. Robben's pace and skill managed to exploit Spain's high defensive line, leading to two more goals before halftime. Spain's attempts to regain control failed as their midfielders were bypassed with ease, marking the loss of their dominance from previous years. The introduction of Mata towards the latter stages provided some fresh energy for Spain, but by then, the game was already lost, confirming Spain's football struggles and the tactical evolution of the Netherlands.",
+  "keyMoments": [
+    "11': Van Persie scores with a diving header, equalizing.",
+    "20': Robben takes the lead for Netherlands with a powerful low shot.",
+    "44': Robben scores again after a swift counter-attack.",
+    "55': Van Persie scores his second, turning the match decisively.",
+    "69': Huntelaar converts a penalty for Netherlands.",
+    "73': Mata scores a consolation goal for Spain."
+  ],
+  "historicalSignificance": "This match marked a significant turning point for Spanish football, heralding the end of their dominance as world champions. It highlighted the tactical evolution of teams to counter Spain's tiki-taka style, with Netherlands showcasing a more direct and aggressive approach.",
+  "topPerformers": [
+    {
+      "name": "Robin van Persie",
+      "side": "away",
+      "position": "ST",
+      "rating": 9.2,
+      "note": "Outstanding performance with two goals and a key assist."
+    },
+    {
+      "name": "Arjen Robben",
+      "side": "away",
+      "position": "RW",
+      "rating": 8.5,
+      "note": "Instrumental in attacking moves and scored two goals."
+    },
+    {
+      "name": "Iker Casillas",
+      "side": "home",
+      "position": "GK",
+      "rating": 6.5,
+      "note": "Made crucial saves but was overworked and conceded five goals."
+    }
+  ]
+}

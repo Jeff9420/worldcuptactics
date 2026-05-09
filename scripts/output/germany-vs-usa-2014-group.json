@@ -1,0 +1,172 @@
+{
+  "id": "germany-vs-usa-2014-group",
+  "tournament": "FIFA World Cup 2014",
+  "year": 2014,
+  "stage": "Group Stage (Group G)",
+  "date": "June 26, 2014",
+  "venue": "Arena Pernambuco",
+  "city": "Recife, Brazil",
+  "home": {
+    "name": "Germany",
+    "flag": "🇩🇪",
+    "formation": "4-3-3",
+    "color": "#E8E8E8",
+    "colorDim": "rgba(232,232,232,0.18)",
+    "players": [
+      "Manuel Neuer",
+      "Philipp Lahm",
+      "Per Mertesacker",
+      "Mats Hummels",
+      "Jerome Boateng",
+      "Bastian Schweinsteiger",
+      "Toni Kroos",
+      "Thomas Müller",
+      "Mario Götze",
+      "Mesut Özil",
+      "Miroslav Klose"
+    ],
+    "score": 1
+  },
+  "away": {
+    "name": "USA",
+    "flag": "🇺🇸",
+    "formation": "4-4-2",
+    "color": "#3C3B6E",
+    "colorDim": "rgba(60,59,110,0.18)",
+    "players": [
+      "Tim Howard",
+      "Graham Zusi",
+      "Geoff Cameron",
+      "Matt Besler",
+      "Fabian Johnson",
+      "Michael Bradley",
+      "Jermaine Jones",
+      "Clint Dempsey",
+      "Jozy Altidore",
+      "Alejandro Bedoya",
+      "Kyle Beckerman"
+    ],
+    "score": 0
+  },
+  "status": "FT",
+  "xG": {
+    "home": 2.3,
+    "away": 0.6
+  },
+  "possession": {
+    "home": 55,
+    "away": 45
+  },
+  "timeline": [
+    {
+      "minute": "55'",
+      "side": "home",
+      "player": "Thomas Müller",
+      "type": "goal",
+      "description": "Müller scored with a low shot from inside the box"
+    },
+    {
+      "minute": "89'",
+      "side": "away",
+      "player": "Geoff Cameron",
+      "type": "yellow",
+      "description": "Cameron booked for a foul"
+    },
+    {
+      "minute": "90+3'",
+      "side": "away",
+      "player": "Clint Dempsey",
+      "type": "yellow",
+      "description": "Dempsey received a yellow card for time wasting"
+    }
+  ],
+  "stats": [
+    {
+      "label": "Shots",
+      "home": 15,
+      "away": 7,
+      "homeWidth": 68,
+      "awayWidth": 32
+    },
+    {
+      "label": "Shots on Target",
+      "home": 6,
+      "away": 3,
+      "homeWidth": 67,
+      "awayWidth": 33
+    },
+    {
+      "label": "Possession",
+      "home": 55,
+      "away": 45,
+      "homeWidth": 55,
+      "awayWidth": 45
+    },
+    {
+      "label": "Passes",
+      "home": 561,
+      "away": 384,
+      "homeWidth": 59,
+      "awayWidth": 41
+    },
+    {
+      "label": "Pass Accuracy",
+      "home": "87%",
+      "away": "80%",
+      "homeWidth": 87,
+      "awayWidth": 80
+    },
+    {
+      "label": "Corners",
+      "home": 7,
+      "away": 2,
+      "homeWidth": 78,
+      "awayWidth": 22
+    },
+    {
+      "label": "Fouls",
+      "home": 14,
+      "away": 15,
+      "homeWidth": 48,
+      "awayWidth": 52
+    },
+    {
+      "label": "xG",
+      "home": "2.30",
+      "away": "0.60",
+      "homeWidth": 100,
+      "awayWidth": 26
+    }
+  ],
+  "metaDescription": "Germany edges USA 1-0 in a tense World Cup clash, with crucial performances and standout moments.",
+  "tacticalAnalysis": "Germany employed a 4-3-3 formation, utilizing width through the flanks with Müller and Götze pushing forward, creating overloads. Lahm's role as an attacking full-back was pivotal, while Kroos controlled the tempo from midfield. The USA, in a 4-4-2, adopted a compact shape, relying on the pace of Dempsey and Altidore on the counter. Jones provided crucial support in both defense and attack, while Howard's goalkeeping kept them in the match, culminating in a disciplined performance. Germany's goal came from a quick transition, exploiting space left by the USA who had committed players forward searching for a draw, demonstrating the effectiveness of their counter-attacking strategy.",
+  "keyMoments": [
+    "55' - Müller scores, decisive goal in a tightly contested match.",
+    "89' - Cameron yellow card, highlights USA's mounting frustrations.",
+    "90+3' - Dempsey booked for time-wasting, signifies USA's desperation."
+  ],
+  "historicalSignificance": "Germany's victory secured their position at the top of Group G, showcasing their resilience and tactical ingenuity. The match remains significant for the USA as they narrowly missed advancement but highlighted their growth and competitiveness on the world stage.",
+  "topPerformers": [
+    {
+      "name": "Manuel Neuer",
+      "side": "home",
+      "position": "GK",
+      "rating": 9.2,
+      "note": "Key saves that maintained the narrow lead."
+    },
+    {
+      "name": "Jermaine Jones",
+      "side": "away",
+      "position": "CM",
+      "rating": 8.5,
+      "note": "Outstanding performance in midfield and defense."
+    },
+    {
+      "name": "Thomas Müller",
+      "side": "home",
+      "position": "RW",
+      "rating": 8.8,
+      "note": "Scored the only goal, constantly threatened the USA defense."
+    }
+  ]
+}

@@ -1,0 +1,189 @@
+{
+  "id": "croatia-vs-russia-2018-qf",
+  "tournament": "FIFA World Cup 2018",
+  "year": 2018,
+  "stage": "Quarter-Final",
+  "date": "July 7, 2018",
+  "venue": "Fisht Olympic Stadium",
+  "city": "Sochi, Russia",
+  "home": {
+    "name": "Croatia",
+    "flag": "🇭🇷",
+    "formation": "4-3-3",
+    "color": "#CC1122",
+    "colorDim": "rgba(204,17,34,0.18)",
+    "players": [
+      "Danijel Subašić",
+      "Šime Vrsaljko",
+      "Dejan Lovren",
+      "Domagoj Vida",
+      "Ivan Strinić",
+      "Luka Modrić",
+      "Ivan Rakitić",
+      "Ante Rebić",
+      "Mario Mandžukić",
+      "Ivan Perišić",
+      "Andrej Kramarić"
+    ],
+    "score": 2
+  },
+  "away": {
+    "name": "Russia",
+    "flag": "🇷🇺",
+    "formation": "4-2-3-1",
+    "color": "#CC0000",
+    "colorDim": "rgba(204,0,0,0.18)",
+    "players": [
+      "Igor Akinfeev",
+      "Mario Fernandes",
+      "Ilya Kutepov",
+      "Sergei Ignashevich",
+      "Fedor Kudryashov",
+      "Dmitri Barinov",
+      "Roman Zobnin",
+      "Alan Dzagoev",
+      "Artem Dzyuba",
+      "Denis Cheryshev",
+      "Aleksandr Golovin"
+    ],
+    "score": 2
+  },
+  "status": "PSO",
+  "penaltyScore": "4-3",
+  "xG": {
+    "home": 2.67,
+    "away": 2.18
+  },
+  "possession": {
+    "home": 61,
+    "away": 39
+  },
+  "timeline": [
+    {
+      "minute": "21'",
+      "side": "away",
+      "player": "Artem Dzyuba",
+      "type": "goal",
+      "description": "Dzyuba scores with a powerful header from a corner."
+    },
+    {
+      "minute": "28'",
+      "side": "home",
+      "player": "Andrej Kramarić",
+      "type": "goal",
+      "description": "Kramarić equalizes with a well-placed shot from the edge of the box."
+    },
+    {
+      "minute": "100'",
+      "side": "home",
+      "player": "Domagoj Vida",
+      "type": "goal",
+      "description": "Vida scores with a header during extra time."
+    },
+    {
+      "minute": "115'",
+      "side": "away",
+      "player": "Mario Fernandes",
+      "type": "goal",
+      "description": "Fernandes equalizes with a volley from a cross."
+    },
+    {
+      "minute": "120+2'",
+      "side": "home",
+      "player": "Ivan Strinić",
+      "type": "sub",
+      "description": "Strinić comes on for Kramarić."
+    }
+  ],
+  "stats": [
+    {
+      "label": "Shots",
+      "home": 20,
+      "away": 10,
+      "homeWidth": 67,
+      "awayWidth": 33
+    },
+    {
+      "label": "Shots on Target",
+      "home": 9,
+      "away": 5,
+      "homeWidth": 64,
+      "awayWidth": 36
+    },
+    {
+      "label": "Possession",
+      "home": 61,
+      "away": 39,
+      "homeWidth": 61,
+      "awayWidth": 39
+    },
+    {
+      "label": "Passes",
+      "home": 600,
+      "away": 385,
+      "homeWidth": 61,
+      "awayWidth": 39
+    },
+    {
+      "label": "Pass Accuracy",
+      "home": "85%",
+      "away": "76%",
+      "homeWidth": 85,
+      "awayWidth": 76
+    },
+    {
+      "label": "Corners",
+      "home": 9,
+      "away": 3,
+      "homeWidth": 75,
+      "awayWidth": 25
+    },
+    {
+      "label": "Fouls",
+      "home": 12,
+      "away": 11,
+      "homeWidth": 52,
+      "awayWidth": 48
+    },
+    {
+      "label": "xG",
+      "home": "2.67",
+      "away": "2.18",
+      "homeWidth": 67,
+      "awayWidth": 33
+    }
+  ],
+  "metaDescription": "A thrilling quarter-final match at the FIFA World Cup 2018 where Croatia defeated Russia through penalties after a 2-2 draw.",
+  "tacticalAnalysis": "Croatia utilized a 4-3-3 formation, emphasizing ball control and a fluid attacking transition. Luka Modrić orchestrated the midfield, supported by Ivan Rakitić's pressing and quick passes, while the front three of Kramarić, Mandžukić, and Perišić sought to create overloads on the wings. Russia, adopting a 4-2-3-1, focused on counter-attacking, leveraging the physicality of Dzyuba upfront and the creativity of Golovin and Dzagoev in the attacking midfield pivots. The game showcased tactical flexibility, with Croatia dominating possession yet frequently exposed on counters, notably leading to their first goal conceded. In extra time, Croatia's substitutions and shift to a more direct approach allowed them to briefly take the lead before Russia's resolute spirit pulled them back in through Fernandes. Manager Zlatko Dalić's decisions to substitute players later in the match were crucial as they added fresh legs and tactical adaptability to maintain pressure on a tiring Russian side.",
+  "keyMoments": [
+    "21': Dzyuba scores the opener from a corner, setting the tone for early tension.",
+    "28': Kramarić equalizes, showcasing Croatia's determination and striking ability.",
+    "100': Vida's header gives Croatia hope in extra time, capitalizing on set pieces.",
+    "115': Fernandes strikes back for Russia, demonstrating their resilience and fighting spirit.",
+    "Penalty Shootout: Subašić becomes the hero, saving two penalties to ensure Croatia advances."
+  ],
+  "historicalSignificance": "This match is pivotal in World Cup history as it marks Croatia's continued rise in international football, illustrating their mental resilience in high-pressure situations. The victory through penalties not only illustrated their strong mentality but also highlighted the emotional toll on the host nation, Russia, ending their remarkable home tournament run.",
+  "topPerformers": [
+    {
+      "name": "Danijel Subašić",
+      "side": "home",
+      "position": "GK",
+      "rating": 9.2,
+      "note": "Crucial saves in the penalty shootout, showcasing his composure under pressure."
+    },
+    {
+      "name": "Andrej Kramarić",
+      "side": "home",
+      "position": "ST",
+      "rating": 8.5,
+      "note": "Instrumental in attack, scored the equalizing goal and maintained pressure on the defense."
+    },
+    {
+      "name": "Artem Dzyuba",
+      "side": "away",
+      "position": "ST",
+      "rating": 8.8,
+      "note": "Scored the opening goal and was a constant threat in the air, leading the attack bravely."
+    }
+  ]
+}

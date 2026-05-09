@@ -1,0 +1,180 @@
+{
+  "id": "argentina-vs-australia-2022-r16",
+  "tournament": "FIFA World Cup 2022",
+  "year": 2022,
+  "stage": "Round of 16",
+  "date": "December 3, 2022",
+  "venue": "Ahmad Bin Ali Stadium",
+  "city": "Ar-Rayyan, Qatar",
+  "home": {
+    "name": "Argentina",
+    "flag": "🇦🇷",
+    "formation": "4-3-3",
+    "color": "#74BBFB",
+    "colorDim": "rgba(116,187,251,0.18)",
+    "players": [
+      "Emiliano Martinez",
+      "Nahuel Molina",
+      "Cristian Romero",
+      "Lisandro Martinez",
+      "Marcos Acuña",
+      "Rodrigo De Paul",
+      "Leandro Paredes",
+      "Lionel Messi",
+      "Ángel Di María",
+      "Julián Álvarez",
+      "Lautaro Martínez"
+    ],
+    "score": 2
+  },
+  "away": {
+    "name": "Australia",
+    "flag": "🇦🇺",
+    "formation": "4-4-2",
+    "color": "#FFD700",
+    "colorDim": "rgba(255,215,0,0.18)",
+    "players": [
+      "Mat Ryan",
+      "Miloš Degenek",
+      "Kye Rowles",
+      "Harry Souttar",
+      "Aziz Behich",
+      "Jackson Irvine",
+      "Aaron Mooy",
+      "Tom Rogic",
+      "Mathew Leckie",
+      "Mitchell Duke",
+      "Craig Goodwin"
+    ],
+    "score": 1
+  },
+  "status": "FT",
+  "xG": {
+    "home": 2.1,
+    "away": 0.9
+  },
+  "possession": {
+    "home": 54,
+    "away": 46
+  },
+  "timeline": [
+    {
+      "minute": "35'",
+      "side": "home",
+      "player": "Lionel Messi",
+      "type": "goal",
+      "description": "Messi scored a low shot from outside the box."
+    },
+    {
+      "minute": "57'",
+      "side": "home",
+      "player": "Julián Álvarez",
+      "type": "goal",
+      "description": "Álvarez doubled the lead after intercepting a pass."
+    },
+    {
+      "minute": "77'",
+      "side": "away",
+      "player": "Craig Goodwin",
+      "type": "goal",
+      "description": "Goodwin scored with a deflected effort from outside the area."
+    },
+    {
+      "minute": "90'",
+      "side": "neutral",
+      "player": "Mat Ryan",
+      "type": "yellow",
+      "description": "Ryan received a yellow card for time-wasting."
+    }
+  ],
+  "stats": [
+    {
+      "label": "Shots",
+      "home": 14,
+      "away": 8,
+      "homeWidth": 64,
+      "awayWidth": 36
+    },
+    {
+      "label": "Shots on Target",
+      "home": 6,
+      "away": 3,
+      "homeWidth": 67,
+      "awayWidth": 33
+    },
+    {
+      "label": "Possession",
+      "home": 54,
+      "away": 46,
+      "homeWidth": 54,
+      "awayWidth": 46
+    },
+    {
+      "label": "Passes",
+      "home": 480,
+      "away": 420,
+      "homeWidth": 53,
+      "awayWidth": 47
+    },
+    {
+      "label": "Pass Accuracy",
+      "home": "87%",
+      "away": "80%",
+      "homeWidth": 52,
+      "awayWidth": 48
+    },
+    {
+      "label": "Corners",
+      "home": 5,
+      "away": 2,
+      "homeWidth": 71,
+      "awayWidth": 29
+    },
+    {
+      "label": "Fouls",
+      "home": 12,
+      "away": 15,
+      "homeWidth": 44,
+      "awayWidth": 56
+    },
+    {
+      "label": "xG",
+      "home": "2.10",
+      "away": "0.90",
+      "homeWidth": 70,
+      "awayWidth": 30
+    }
+  ],
+  "metaDescription": "Argentina edges past Australia in a thrilling knockout match, marked by Messi's historic goal and a stirring comeback from the Socceroos.",
+  "tacticalAnalysis": "Argentina approached this match with a 4-3-3 formation that allowed their creative players to dominate the midfield while providing width in attack. Messi frequently dropped deeper to orchestrate play, allowing Álvarez and Di María to stretch the Australian defense. Conversely, Australia set up in a compact 4-4-2 formation, aiming to break on the counter-attack with Leckie and Duke up front. The Socceroos were resilient, with a strong defensive organization, but struggled to contain Argentina's fluid attacking movement, particularly in the first half. Messi’s goal came from a well-worked move, showing Argentina's dominance and creativity. Following Argentina's second goal, Australia managed to respond with Goodwin's deflected strike, briefly igniting hopes of a comeback. However, Argentina’s tactical discipline and experience saw them through the closing stages.",
+  "keyMoments": [
+    "35' - Messi scores Argentina's opener, showcasing his iconic left foot.",
+    "57' - Álvarez capitalizes on a defensive blunder to score Argentina's second.",
+    "77' - Goodwin pulls one back for Australia with a deflected shot.",
+    "90' - Ryan receives a yellow card for time-wasting."
+  ],
+  "historicalSignificance": "This match marks Argentina's significant step towards reclaiming World Cup glory, while showcasing Messi's vital role in crucial knockout rounds. It was memorable not only for Messi's first knockout goal but also for Australia's relentless effort, reinforcing the competitive spirit in international football.",
+  "topPerformers": [
+    {
+      "name": "Lionel Messi",
+      "side": "home",
+      "position": "CAM",
+      "rating": 9,
+      "note": "Dominated the midfield and delivered the opener."
+    },
+    {
+      "name": "Julián Álvarez",
+      "side": "home",
+      "position": "ST",
+      "rating": 8.5,
+      "note": "Crucial in attack, scored the second goal."
+    },
+    {
+      "name": "Craig Goodwin",
+      "side": "away",
+      "position": "LW",
+      "rating": 8,
+      "note": "Scored Australia’s only goal with a great effort."
+    }
+  ]
+}

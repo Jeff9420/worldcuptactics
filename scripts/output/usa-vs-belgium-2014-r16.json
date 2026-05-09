@@ -1,0 +1,172 @@
+{
+  "id": "usa-vs-belgium-2014-r16",
+  "tournament": "FIFA World Cup 2014",
+  "year": 2014,
+  "stage": "Round of 16",
+  "date": "July 1, 2014",
+  "venue": "Arena Fonte Nova",
+  "city": "Salvador, Brazil",
+  "home": {
+    "name": "USA",
+    "flag": "🇺🇸",
+    "formation": "4-4-2",
+    "color": "#3C3B6E",
+    "colorDim": "rgba(60,59,110,0.18)",
+    "players": [
+      "Tim Howard",
+      "DeAndre Yedlin",
+      "Matt Besler",
+      "Geoff Cameron",
+      "Fabian Johnson",
+      "Michael Bradley",
+      "Jermaine Jones",
+      "Kyle Beckerman",
+      "Clint Dempsey",
+      "Jozy Altidore",
+      "Julian Green"
+    ],
+    "score": 1
+  },
+  "away": {
+    "name": "Belgium",
+    "flag": "🇧🇪",
+    "formation": "4-2-3-1",
+    "color": "#EDCB27",
+    "colorDim": "rgba(237,203,39,0.18)",
+    "players": [
+      "Thibaut Courtois",
+      "Toby Alderweireld",
+      "Vincent Kompany",
+      "Jan Vertonghen",
+      "Laurent Ciman",
+      "Marouane Fellaini",
+      "Axel Witsel",
+      "Kevin De Bruyne",
+      "Eden Hazard",
+      "Romelu Lukaku",
+      "Divock Origi"
+    ],
+    "score": 2
+  },
+  "status": "AET",
+  "xG": {
+    "home": 1.35,
+    "away": 2.23
+  },
+  "possession": {
+    "home": 45,
+    "away": 55
+  },
+  "timeline": [
+    {
+      "minute": "92'",
+      "side": "away",
+      "player": "Kevin De Bruyne",
+      "type": "goal",
+      "description": "De Bruyne scores a stunning goal with a powerful strike."
+    },
+    {
+      "minute": "95'",
+      "side": "away",
+      "player": "Romelu Lukaku",
+      "type": "goal",
+      "description": "Lukaku doubles the lead with a close-range finish."
+    },
+    {
+      "minute": "107'",
+      "side": "home",
+      "player": "Julian Green",
+      "type": "goal",
+      "description": "Green scores a spectacular goal to give USA hope."
+    }
+  ],
+  "stats": [
+    {
+      "label": "Shots",
+      "home": 14,
+      "away": 27,
+      "homeWidth": 34,
+      "awayWidth": 66
+    },
+    {
+      "label": "Shots on Target",
+      "home": 6,
+      "away": 10,
+      "homeWidth": 37,
+      "awayWidth": 63
+    },
+    {
+      "label": "Possession",
+      "home": 45,
+      "away": 55,
+      "homeWidth": 45,
+      "awayWidth": 55
+    },
+    {
+      "label": "Passes",
+      "home": 301,
+      "away": 421,
+      "homeWidth": 42,
+      "awayWidth": 58
+    },
+    {
+      "label": "Pass Accuracy",
+      "home": "76%",
+      "away": "84%",
+      "homeWidth": 42,
+      "awayWidth": 58
+    },
+    {
+      "label": "Corners",
+      "home": 6,
+      "away": 8,
+      "homeWidth": 43,
+      "awayWidth": 57
+    },
+    {
+      "label": "Fouls",
+      "home": 14,
+      "away": 11,
+      "homeWidth": 56,
+      "awayWidth": 44
+    },
+    {
+      "label": "xG",
+      "home": "1.35",
+      "away": "2.23",
+      "homeWidth": 36,
+      "awayWidth": 64
+    }
+  ],
+  "metaDescription": "USA fights hard but falls to Belgium in a thrilling match decided in extra time at the 2014 FIFA World Cup.",
+  "tacticalAnalysis": "In this intense Round of 16 clash, the USA deployed a 4-4-2 formation, emphasizing solidity in defense led by Tim Howard's remarkable goalkeeping performance. The midfield was anchored by Michael Bradley and Jermaine Jones, providing both defensiveness and the ability to launch counter-attacks. However, the US struggled to maintain possession against Belgium's 4-2-3-1, which featured a dynamic midfield with Axel Witsel and Marouane Fellaini controlling the tempo. Belgium's attacking players, particularly Kevin De Bruyne, exploited the flanks, with Lukaku's movement causing issues for the US center-backs. Both goals in extra time reflected the effectiveness of Belgium's attack as they swiftly countered, forcing the USA to push forward in search of an equalizer, ultimately leading to Julian Green's late goal, showcasing his exceptional talent and hope for the US camp.",
+  "keyMoments": [
+    "92' - Kevin De Bruyne opens the scoring with a stunning strike.",
+    "95' - Romelu Lukaku doubles Belgium's lead with a close finish.",
+    "107' - Julian Green scores with a spectacular goal, igniting USA's hopes."
+  ],
+  "historicalSignificance": "This match is significant for showcasing Tim Howard's extraordinary goalkeeping skills, setting a World Cup record with 16 saves. It also marked the rise of Belgium's golden generation, emphasizing their potential as title contenders in future tournaments.",
+  "topPerformers": [
+    {
+      "name": "Tim Howard",
+      "side": "home",
+      "position": "GK",
+      "rating": 9.2,
+      "note": "Howard's incredible 16 saves kept the USA in the game."
+    },
+    {
+      "name": "Kevin De Bruyne",
+      "side": "away",
+      "position": "CM",
+      "rating": 8.5,
+      "note": "De Bruyne's goal and overall play was crucial for Belgium's victory."
+    },
+    {
+      "name": "Romelu Lukaku",
+      "side": "away",
+      "position": "ST",
+      "rating": 8.8,
+      "note": "Lukaku's presence and goal in extra time were instrumental in Belgium's win."
+    }
+  ]
+}

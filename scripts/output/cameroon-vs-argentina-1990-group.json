@@ -1,0 +1,180 @@
+{
+  "id": "cameroon-vs-argentina-1990-group",
+  "tournament": "FIFA World Cup 1990",
+  "year": 1990,
+  "stage": "Group Stage (Group B)",
+  "date": "June 8, 1990",
+  "venue": "Stadio Giuseppe Meazza",
+  "city": "Milan, Italy",
+  "home": {
+    "name": "Cameroon",
+    "flag": "🇨🇲",
+    "formation": "3-5-2",
+    "color": "#007A5E",
+    "colorDim": "rgba(0,122,94,0.18)",
+    "players": [
+      "Ndtoungou Mpinda",
+      "Mouko",
+      "Massing",
+      "Tchato",
+      "Kana-Biyick",
+      "Ebénézer",
+      "Biyick",
+      "Milla",
+      "Mouakeu",
+      "Sorelle",
+      "Mvondo"
+    ],
+    "score": 1
+  },
+  "away": {
+    "name": "Argentina",
+    "flag": "🇦🇷",
+    "formation": "3-5-2",
+    "color": "#74BBFB",
+    "colorDim": "rgba(116,187,251,0.18)",
+    "players": [
+      "Goycochea",
+      "Cuchufo",
+      "Ruggeri",
+      "Burgos",
+      "Giusti",
+      "Maradona",
+      "Simione",
+      "Redondo",
+      "Caniggia",
+      "Burruchaga",
+      "Klinsmann"
+    ],
+    "score": 0
+  },
+  "status": "FT",
+  "xG": {
+    "home": 1.05,
+    "away": 0.68
+  },
+  "possession": {
+    "home": 38,
+    "away": 62
+  },
+  "timeline": [
+    {
+      "minute": "67'",
+      "side": "home",
+      "player": "Milla",
+      "type": "goal",
+      "description": "Roger Milla heads the ball into the net after a corner."
+    },
+    {
+      "minute": "58'",
+      "side": "home",
+      "player": "Massing",
+      "type": "red",
+      "description": "Massing sent off for a second yellow card."
+    },
+    {
+      "minute": "89'",
+      "side": "home",
+      "player": "Kana-Biyick",
+      "type": "red",
+      "description": "Kana-Biyick sent off for a foul."
+    },
+    {
+      "minute": "45'",
+      "side": "away",
+      "player": "Ruggeri",
+      "type": "yellow",
+      "description": "Ruggeri receives a yellow card for a late challenge."
+    }
+  ],
+  "stats": [
+    {
+      "label": "Shots",
+      "home": 6,
+      "away": 10,
+      "homeWidth": 38,
+      "awayWidth": 62
+    },
+    {
+      "label": "Shots on Target",
+      "home": 2,
+      "away": 3,
+      "homeWidth": 40,
+      "awayWidth": 60
+    },
+    {
+      "label": "Possession",
+      "home": 38,
+      "away": 62,
+      "homeWidth": 38,
+      "awayWidth": 62
+    },
+    {
+      "label": "Passes",
+      "home": 250,
+      "away": 400,
+      "homeWidth": 38,
+      "awayWidth": 62
+    },
+    {
+      "label": "Pass Accuracy",
+      "home": "66%",
+      "away": "75%",
+      "homeWidth": 38,
+      "awayWidth": 62
+    },
+    {
+      "label": "Corners",
+      "home": 3,
+      "away": 5,
+      "homeWidth": 38,
+      "awayWidth": 62
+    },
+    {
+      "label": "Fouls",
+      "home": 19,
+      "away": 12,
+      "homeWidth": 61,
+      "awayWidth": 39
+    },
+    {
+      "label": "xG",
+      "home": "1.05",
+      "away": "0.68",
+      "homeWidth": 38,
+      "awayWidth": 62
+    }
+  ],
+  "metaDescription": "In a shocking upset, Cameroon defeated Argentina 1-0 in their 1990 World Cup opener, creating a historic moment in football.",
+  "tacticalAnalysis": "Cameroon deployed a 3-5-2 formation that emphasized defensive solidity, allowing the wingbacks to push forward for width. The center-backs utilized tight marking against Argentina's key attackers, stifling space for Maradona and Caniggia. Argentina, also in a 3-5-2, struggled with cohesion, especially after losing Ruggeri to a yellow card in the first half. Argentina's reliance on Maradona for creativity left them vulnerable to Cameroon’s organized pressing style, enabling them to win midfield battles through increased numbers. The game was punctuated by key moments such as Biyick's 67th-minute header that stunned the world, showcasing Cameroon's resilience despite their two red cards, while Argentina's frustration mounted as they failed to convert chances.",
+  "keyMoments": [
+    "67' - Milla's header puts Cameroon ahead, marking a historic upset.",
+    "58' - Massing red card decreases Cameroon's numbers but they hold strong.",
+    "89' - Kana-Biyick sent off, increasing pressure on Cameroon.",
+    "45' - Ruggeri cautioned, setting the stage for Argentina's defensive struggles."
+  ],
+  "historicalSignificance": "This match is remembered as one of the greatest upsets in World Cup history, where Cameroon triumphed against the defending champions Argentina. It not only marked the rise of African football on the global stage but also signaled the beginning of Roger Milla's legendary World Cup journey.",
+  "topPerformers": [
+    {
+      "name": "Ndtoungou Mpinda",
+      "side": "home",
+      "position": "GK",
+      "rating": 8.7,
+      "note": "Made crucial saves to keep Argentina at bay throughout the match."
+    },
+    {
+      "name": "Roger Milla",
+      "side": "home",
+      "position": "ST",
+      "rating": 9,
+      "note": "Scored the winning goal and was a constant threat in attack."
+    },
+    {
+      "name": "Diego Maradona",
+      "side": "away",
+      "position": "CM",
+      "rating": 7.5,
+      "note": "Despite the loss, he attempted to create opportunities but was tightly marked."
+    }
+  ]
+}

@@ -1,0 +1,166 @@
+{
+  "id": "brazil-vs-mexico-2018-r16",
+  "tournament": "FIFA World Cup 2018",
+  "year": 2018,
+  "stage": "Round of 16",
+  "date": "July 2, 2018",
+  "venue": "Samara Arena",
+  "city": "Samara, Russia",
+  "home": {
+    "name": "Brazil",
+    "flag": "🇧🇷",
+    "formation": "4-2-3-1",
+    "color": "#F7B731",
+    "colorDim": "rgba(247,183,49,0.18)",
+    "players": [
+      "Alisson Becker",
+      "Thiago Silva",
+      "Miranda",
+      "Marcelo",
+      "Fagner",
+      "Casemiro",
+      "Fernandinho",
+      "Neymar",
+      "Philippe Coutinho",
+      "Willian",
+      "Roberto Firmino"
+    ],
+    "score": 2
+  },
+  "away": {
+    "name": "Mexico",
+    "flag": "🇲🇽",
+    "formation": "4-3-3",
+    "color": "#006847",
+    "colorDim": "rgba(0,104,71,0.18)",
+    "players": [
+      "Guillermo Ochoa",
+      "Miguel Layún",
+      "Héctor Moreno",
+      "Carlos Salcedo",
+      "Edson Álvarez",
+      "Andrés Guardado",
+      "Jonathan dos Santos",
+      "Hirving Lozano",
+      "Raúl Jiménez",
+      "Marco Fabián",
+      "Jesus Corona"
+    ],
+    "score": 0
+  },
+  "status": "FT",
+  "xG": {
+    "home": 2.15,
+    "away": 0.75
+  },
+  "possession": {
+    "home": 58,
+    "away": 42
+  },
+  "timeline": [
+    {
+      "minute": "51'",
+      "side": "home",
+      "player": "Neymar",
+      "type": "goal",
+      "description": "Neymar scored from close range after a swift counter-attack."
+    },
+    {
+      "minute": "88'",
+      "side": "home",
+      "player": "Roberto Firmino",
+      "type": "goal",
+      "description": "Firmino scored with a header from a corner."
+    }
+  ],
+  "stats": [
+    {
+      "label": "Shots",
+      "home": 19,
+      "away": 11,
+      "homeWidth": 63,
+      "awayWidth": 37
+    },
+    {
+      "label": "Shots on Target",
+      "home": 9,
+      "away": 2,
+      "homeWidth": 81,
+      "awayWidth": 19
+    },
+    {
+      "label": "Possession",
+      "home": 58,
+      "away": 42,
+      "homeWidth": 58,
+      "awayWidth": 42
+    },
+    {
+      "label": "Passes",
+      "home": 509,
+      "away": 374,
+      "homeWidth": 58,
+      "awayWidth": 42
+    },
+    {
+      "label": "Pass Accuracy",
+      "home": "82%",
+      "away": "75%",
+      "homeWidth": 82,
+      "awayWidth": 75
+    },
+    {
+      "label": "Corners",
+      "home": 6,
+      "away": 3,
+      "homeWidth": 67,
+      "awayWidth": 33
+    },
+    {
+      "label": "Fouls",
+      "home": 10,
+      "away": 14,
+      "homeWidth": 42,
+      "awayWidth": 58
+    },
+    {
+      "label": "xG",
+      "home": "2.15",
+      "away": "0.75",
+      "homeWidth": 100,
+      "awayWidth": 100
+    }
+  ],
+  "metaDescription": "Brazil triumphed over Mexico in the Round of 16 at the FIFA World Cup 2018, thanks to goals from Neymar and Firmino.",
+  "tacticalAnalysis": "Brazil employed a 4-2-3-1 formation that utilized Neymar as a dynamic playmaker, who frequently cut inside from the left flank. Firmino and Coutinho played crucial roles in linking up the play, while Casemiro and Fernandinho provided a sturdy double pivot, shielding the back four effectively. The fluidity of Brazil's attacking quartet often created overloads on the flanks, allowing for significant penetration into Mexico's defensive lines.\n\nMexico, organized in a 4-3-3 formation, attempted to press high in the initial stages. Guardado and dos Santos tried to support the front three in pressing Brazil's buildup, but they struggled against Brazil's deep passing options. Mexico had promising moments, especially through Lozano's pace on the wing, yet their chances were limited by Brazil's resolute defense. As the game progressed, Brazil's backline absorbed Mexico's pressure, demonstrating their tactical discipline, which ultimately led to Brazil's first goal through an incisive counter-attack.",
+  "keyMoments": [
+    "51' - Neymar scores to give Brazil the lead with a close-range finish.",
+    "88' - Firmino seals the win with a header from a corner.",
+    "14' - Mexico's best chance as Jiménez's shot is saved brilliantly by Alisson.",
+    "34' - Neymar's foot injury raises concern as he receives treatment but continues."
+  ],
+  "historicalSignificance": "This match marked another step in Brazil's journey in the World Cup, extending their record of reaching the quarter-finals. Mexico's elimination in the Round of 16 continued a painful streak of never progressing past this stage since 1994, a statistic that weighs heavily on their football legacy.",
+  "topPerformers": [
+    {
+      "name": "Neymar",
+      "side": "home",
+      "position": "LW",
+      "rating": 9,
+      "note": "Instrumental in attack, scored a crucial goal and provided creativity."
+    },
+    {
+      "name": "Alisson Becker",
+      "side": "home",
+      "position": "GK",
+      "rating": 8.5,
+      "note": "Made key saves to keep Mexico at bay."
+    },
+    {
+      "name": "Hirving Lozano",
+      "side": "away",
+      "position": "LW",
+      "rating": 7.5,
+      "note": "Was a threat on the counter, showcasing his speed and dribbling."
+    }
+  ]
+}

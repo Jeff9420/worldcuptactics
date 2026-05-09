@@ -1,0 +1,201 @@
+{
+  "id": "netherlands-vs-costa-rica-2014-qf",
+  "tournament": "FIFA World Cup 2014",
+  "year": 2014,
+  "stage": "Quarter-Final",
+  "date": "July 5, 2014",
+  "venue": "Arena Fonte Nova",
+  "city": "Salvador, Brazil",
+  "home": {
+    "name": "Netherlands",
+    "flag": "🇳🇱",
+    "formation": "4-3-3",
+    "color": "#FF6200",
+    "colorDim": "rgba(255,98,0,0.18)",
+    "players": [
+      "Tim Krul",
+      "Ron Vlaar",
+      "Steven de Vrij",
+      "Bruno Martins Indi",
+      "Daley Blind",
+      "Jordy Clasie",
+      "Nigel de Jong",
+      "Wesley Sneijder",
+      "Arjen Robben",
+      "Robin van Persie",
+      " Klaas-Jan Huntelaar"
+    ],
+    "score": 0
+  },
+  "away": {
+    "name": "Costa Rica",
+    "flag": "🇨🇷",
+    "formation": "5-4-1",
+    "color": "#002B7F",
+    "colorDim": "rgba(0,43,127,0.18)",
+    "players": [
+      "Keylor Navas",
+      "Cristian Gamboa",
+      "Gonzalo Segares",
+      "Oscar Duarte",
+      "Michael Umaña",
+      "Sentonas Acosta",
+      "Celso Borges",
+      "Yeltsin Tejeda",
+      "Bryan Ruiz",
+      "Joel Campbell",
+      "Marco Ureña"
+    ],
+    "score": 0
+  },
+  "status": "PSO",
+  "penaltyScore": "4-3",
+  "xG": {
+    "home": 1.45,
+    "away": 0.85
+  },
+  "possession": {
+    "home": 62,
+    "away": 38
+  },
+  "timeline": [
+    {
+      "minute": "90'",
+      "side": "neutral",
+      "player": "N/A",
+      "type": "sub",
+      "description": "Krul substitutes for Cillessen"
+    },
+    {
+      "minute": "120'",
+      "side": "home",
+      "player": "Robin van Persie",
+      "type": "pen_goal",
+      "description": "Van Persie converts the first penalty"
+    },
+    {
+      "minute": "120'",
+      "side": "away",
+      "player": "Bryan Ruiz",
+      "type": "pen_miss",
+      "description": "Ruiz misses his penalty"
+    },
+    {
+      "minute": "120'",
+      "side": "home",
+      "player": "Klaas-Jan Huntelaar",
+      "type": "pen_goal",
+      "description": "Huntelaar scores for Netherlands"
+    },
+    {
+      "minute": "120'",
+      "side": "away",
+      "player": "Michael Umaña",
+      "type": "pen_goal",
+      "description": "Umaña converts Costa Rica's penalty"
+    },
+    {
+      "minute": "120'",
+      "side": "home",
+      "player": "Wesley Sneijder",
+      "type": "pen_goal",
+      "description": "Sneijder scores for Netherlands"
+    },
+    {
+      "minute": "120'",
+      "side": "away",
+      "player": "Gonzalo Segares",
+      "type": "pen_miss",
+      "description": "Segares misses his penalty"
+    }
+  ],
+  "stats": [
+    {
+      "label": "Shots",
+      "home": 18,
+      "away": 9,
+      "homeWidth": 67,
+      "awayWidth": 33
+    },
+    {
+      "label": "Shots on Target",
+      "home": 5,
+      "away": 3,
+      "homeWidth": 63,
+      "awayWidth": 37
+    },
+    {
+      "label": "Possession",
+      "home": 62,
+      "away": 38,
+      "homeWidth": 62,
+      "awayWidth": 38
+    },
+    {
+      "label": "Passes",
+      "home": 668,
+      "away": 330,
+      "homeWidth": 67,
+      "awayWidth": 33
+    },
+    {
+      "label": "Pass Accuracy",
+      "home": "86%",
+      "away": "78%",
+      "homeWidth": 67,
+      "awayWidth": 33
+    },
+    {
+      "label": "Corners",
+      "home": 12,
+      "away": 2,
+      "homeWidth": 86,
+      "awayWidth": 14
+    },
+    {
+      "label": "Fouls",
+      "home": 10,
+      "away": 13,
+      "homeWidth": 43,
+      "awayWidth": 57
+    },
+    {
+      "label": "xG",
+      "home": "1.45",
+      "away": "0.85",
+      "homeWidth": 67,
+      "awayWidth": 33
+    }
+  ],
+  "metaDescription": "Netherlands defeated Costa Rica in the 2014 FIFA World Cup Quarter-Final on penalties after a goalless draw.",
+  "tacticalAnalysis": "The match featured a 4-3-3 formation for the Netherlands, which emphasized high pressing and quick transitions. Van Gaal's decision to substitute Tim Krul for Jasper Cillessen before the penalty shootout was crucial; it showcased bold tactical decision-making. Krul, who stood tall against Costa Rica's penalty takers, proved to be an exceptional choice. Costa Rica, employing a 5-4-1 formation, looked to absorb pressure and counter effectively through the wings, with Joel Campbell and Bryan Ruiz's pace being vital in their attacks. As the game progressed into extra time, the Netherlands increasingly sought to exploit the flanks, but the disciplined Costa Rican defense held firm, leading the match to penalties where the tactical nous of the managers shone through.",
+  "keyMoments": [
+    "Krul's crucial substitution (90') changed the dynamic of the penalty shootout.",
+    "Bryan Ruiz's penalty miss (120') ended Costa Rica's dreams.",
+    "Wesley Sneijder's composed penalty established Netherlands' lead."
+  ],
+  "historicalSignificance": "This match marked the end of Costa Rica's remarkable journey through the World Cup, having exceeded all expectations. Netherlands' strategic use of a substitute goalkeeper in penalties is now celebrated and studied for its unconventional yet successful tactics.",
+  "topPerformers": [
+    {
+      "name": "Tim Krul",
+      "side": "home",
+      "position": "GK",
+      "rating": 9.2,
+      "note": "Saved two crucial penalties and was pivotal in the shootout."
+    },
+    {
+      "name": "Keylor Navas",
+      "side": "away",
+      "position": "GK",
+      "rating": 8.9,
+      "note": "Outstanding saves kept Costa Rica in the match."
+    },
+    {
+      "name": "Wesley Sneijder",
+      "side": "home",
+      "position": "CM",
+      "rating": 8.5,
+      "note": "Distribution and control in midfield were essential for Netherlands."
+    }
+  ]
+}

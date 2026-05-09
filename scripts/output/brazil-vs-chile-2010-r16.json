@@ -1,0 +1,172 @@
+{
+  "id": "brazil-vs-chile-2010-r16",
+  "tournament": "FIFA World Cup 2010",
+  "year": 2010,
+  "stage": "Round of 16",
+  "date": "June 28, 2010",
+  "venue": "Ellis Park Stadium",
+  "city": "Johannesburg, South Africa",
+  "home": {
+    "name": "Brazil",
+    "flag": "🇧🇷",
+    "formation": "4-2-3-1",
+    "color": "#F7B731",
+    "colorDim": "rgba(247,183,49,0.18)",
+    "players": [
+      "Julio Cesar",
+      "Maicon",
+      "Lucio",
+      "Juan",
+      "Michel Bastos",
+      "Gilberto Silva",
+      "Felipe Melo",
+      "Kaká",
+      "Robinho",
+      "Luis Fabiano",
+      "Dani Alves"
+    ],
+    "score": 3
+  },
+  "away": {
+    "name": "Chile",
+    "flag": "🇨🇱",
+    "formation": "3-3-1-3",
+    "color": "#D52B1E",
+    "colorDim": "rgba(213,43,30,0.18)",
+    "players": [
+      "Claudio Bravo",
+      "Gary Medel",
+      "Gonzalo Jara",
+      "Elías Figueroa",
+      "Arturo Vidal",
+      "Marcelo Díaz",
+      "Charles Aránguiz",
+      "Alexis Sánchez",
+      "Mauricio Isla",
+      "Esteban Paredes",
+      "Ángelo Henríquez"
+    ],
+    "score": 0
+  },
+  "status": "FT",
+  "xG": {
+    "home": 2.67,
+    "away": 0.85
+  },
+  "possession": {
+    "home": 60,
+    "away": 40
+  },
+  "timeline": [
+    {
+      "minute": "34'",
+      "side": "home",
+      "player": "Juan",
+      "type": "goal",
+      "description": "Header from a corner to give Brazil the lead."
+    },
+    {
+      "minute": "38'",
+      "side": "home",
+      "player": "Luis Fabiano",
+      "type": "goal",
+      "description": "Struck a powerful shot from the edge of the area into the net."
+    },
+    {
+      "minute": "88'",
+      "side": "home",
+      "player": "Robinho",
+      "type": "goal",
+      "description": "Curled shot from inside the box after a quick counter."
+    }
+  ],
+  "stats": [
+    {
+      "label": "Shots",
+      "home": 17,
+      "away": 8,
+      "homeWidth": 68,
+      "awayWidth": 32
+    },
+    {
+      "label": "Shots on Target",
+      "home": 6,
+      "away": 2,
+      "homeWidth": 75,
+      "awayWidth": 25
+    },
+    {
+      "label": "Possession",
+      "home": 60,
+      "away": 40,
+      "homeWidth": 60,
+      "awayWidth": 40
+    },
+    {
+      "label": "Passes",
+      "home": 500,
+      "away": 350,
+      "homeWidth": 59,
+      "awayWidth": 41
+    },
+    {
+      "label": "Pass Accuracy",
+      "home": "87%",
+      "away": "82%",
+      "homeWidth": 52,
+      "awayWidth": 48
+    },
+    {
+      "label": "Corners",
+      "home": 8,
+      "away": 3,
+      "homeWidth": 73,
+      "awayWidth": 27
+    },
+    {
+      "label": "Fouls",
+      "home": 11,
+      "away": 8,
+      "homeWidth": 58,
+      "awayWidth": 42
+    },
+    {
+      "label": "xG",
+      "home": "2.67",
+      "away": "0.85",
+      "homeWidth": 77,
+      "awayWidth": 23
+    }
+  ],
+  "metaDescription": "Brazil dominates Chile in the Round of 16, showcasing their quality and confirming their contender status in the FIFA World Cup 2010.",
+  "tacticalAnalysis": "Brazil utilized a 4-2-3-1 formation, where Gilberto Silva and Felipe Melo controlled the midfield, providing cover for the defense while facilitating attacking play. The full-backs, especially Maicon and Michel Bastos, were effective in joining the attack, leading to overloads on the flanks. Robinho played a critical role behind the striker, linking up well with Luis Fabiano, whose dual-threat capability as a goal scorer and playmaker offered Brazil fluidity in attack. Chile, in contrast, established a 3-3-1-3 structure aimed at pressing high and creating width through their wing-backs. Despite their initial pressing efforts, they were quickly outmaneuvered as Brazil's experienced players dictated the tempo. The first goal occurred from a well-executed corner, demonstrating Brazil's set-piece threat, while the second goal resulted from a defensive lapse as Luis Fabiano capitalized on space outside the box. The final goal was the result of a swift counter-attack, exemplifying Brazil's pace and transition game, particularly through Robinho's clever positioning.",
+  "keyMoments": [
+    "34' Juan opens the scoring with a header from a corner.",
+    "38' Luis Fabiano doubles the lead with a powerful strike from distance.",
+    "88' Robinho seals Brazil's dominance with a third goal in the closing minutes."
+  ],
+  "historicalSignificance": "This match underlined Brazil's reputation as serious contenders for the World Cup title, reflecting their attacking prowess and depth of talent. Defeating Chile established Brazil as a formidable force, eventually reaching the quarter-finals, where they faced the Netherlands.",
+  "topPerformers": [
+    {
+      "name": "Juan",
+      "side": "home",
+      "position": "CB",
+      "rating": 8.2,
+      "note": "Excellent defensively and scored the opening goal."
+    },
+    {
+      "name": "Robinho",
+      "side": "home",
+      "position": "LW",
+      "rating": 8.5,
+      "note": "Consistently troubling the defense and scored a crucial goal."
+    },
+    {
+      "name": "Claudio Bravo",
+      "side": "away",
+      "position": "GK",
+      "rating": 7.5,
+      "note": "Made several important saves to keep the scoreline respectable."
+    }
+  ]
+}

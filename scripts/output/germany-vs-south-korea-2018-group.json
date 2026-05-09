@@ -1,0 +1,180 @@
+{
+  "id": "germany-vs-south-korea-2018-group",
+  "tournament": "FIFA World Cup 2018",
+  "year": 2018,
+  "stage": "Group Stage (Group F)",
+  "date": "June 27, 2018",
+  "venue": "Kazan Arena",
+  "city": "Kazan, Russia",
+  "home": {
+    "name": "Germany",
+    "flag": "🇩🇪",
+    "formation": "4-2-3-1",
+    "color": "#E8E8E8",
+    "colorDim": "rgba(232,232,232,0.18)",
+    "players": [
+      "Manuel Neuer",
+      "Matthias Ginter",
+      "Mats Hummels",
+      "Jonas Hector",
+      "Joshua Kimmich",
+      "Julian Brandt",
+      "Leon Goretzka",
+      "Ilkay Gündogan",
+      "Thomas Müller",
+      "Marco Reus",
+      "Timo Werner"
+    ],
+    "score": 0
+  },
+  "away": {
+    "name": "South Korea",
+    "flag": "🇰🇷",
+    "formation": "4-2-3-1",
+    "color": "#CD2E3A",
+    "colorDim": "rgba(205,46,58,0.18)",
+    "players": [
+      "Kim Seung-gyu",
+      "Lee Yong",
+      "Kwon Kyung-won",
+      "Jung Seung-hyun",
+      "Park Joo-ho",
+      "Jang Hyun-soo",
+      "Ki Sung-yueng",
+      "Lee Jae-sung",
+      "Son Heung-min",
+      "Hwang Hee-chan",
+      "Kim Young-gwon"
+    ],
+    "score": 2
+  },
+  "status": "FT",
+  "xG": {
+    "home": 2.85,
+    "away": 0.43
+  },
+  "possession": {
+    "home": 64,
+    "away": 36
+  },
+  "timeline": [
+    {
+      "minute": "90+1'",
+      "side": "away",
+      "player": "Kim Young-gwon",
+      "type": "goal",
+      "description": "Scored from close range after a scramble in the box."
+    },
+    {
+      "minute": "90+6'",
+      "side": "away",
+      "player": "Son Heung-min",
+      "type": "goal",
+      "description": "Sealed victory with a shot into an empty net after a counterattack."
+    },
+    {
+      "minute": "86'",
+      "side": "home",
+      "player": "Julian Brandt",
+      "type": "sub",
+      "description": "Replaced Marco Reus."
+    },
+    {
+      "minute": "45+1'",
+      "side": "home",
+      "player": "Matthias Ginter",
+      "type": "yellow",
+      "description": "Cautioned for a late tackle."
+    }
+  ],
+  "stats": [
+    {
+      "label": "Shots",
+      "home": 34,
+      "away": 10,
+      "homeWidth": 77,
+      "awayWidth": 23
+    },
+    {
+      "label": "Shots on Target",
+      "home": 9,
+      "away": 3,
+      "homeWidth": 75,
+      "awayWidth": 25
+    },
+    {
+      "label": "Possession",
+      "home": 64,
+      "away": 36,
+      "homeWidth": 64,
+      "awayWidth": 36
+    },
+    {
+      "label": "Passes",
+      "home": 600,
+      "away": 300,
+      "homeWidth": 67,
+      "awayWidth": 33
+    },
+    {
+      "label": "Pass Accuracy",
+      "home": "90%",
+      "away": "75%",
+      "homeWidth": 55,
+      "awayWidth": 45
+    },
+    {
+      "label": "Corners",
+      "home": 10,
+      "away": 2,
+      "homeWidth": 83,
+      "awayWidth": 17
+    },
+    {
+      "label": "Fouls",
+      "home": 12,
+      "away": 16,
+      "homeWidth": 43,
+      "awayWidth": 57
+    },
+    {
+      "label": "xG",
+      "home": "2.85",
+      "away": "0.43",
+      "homeWidth": 87,
+      "awayWidth": 13
+    }
+  ],
+  "metaDescription": "Germany's shocking 0-2 loss to South Korea in the 2018 FIFA World Cup group stage led to their elimination.",
+  "tacticalAnalysis": "Germany deployed a 4-2-3-1 formation with Neuer in goal and a back four featuring Ginter and Hector providing width. Their strategy relied on dominant possession and quick passing but lacked penetration, often leading to shots from distance that were off-target. Löw's players struggled to create space against South Korea's compact defense. The away team, utilizing a 4-2-3-1, executed a disciplined pressing system, making it difficult for Germany to progress into the final third. The crucial goals came from well-coordinated counterattacks exploiting Germany's high defensive line. Kim Young-gwon scored first on a scrappy set-piece, while Son Heung-min sealed victory during stoppage time on a breakaway. Defensively, South Korea effectively limited Germany’s shooting opportunities, capitalizing on their own moments to strike.",
+  "keyMoments": [
+    "90+1' - Kim Young-gwon scores to put South Korea ahead, shocking the German side.",
+    "90+6' - Son Heung-min nets the second goal into an empty net, confirming Germany's exit.",
+    "45+1' - Matthias Ginter booked for a late challenge, adding to Germany's frustrations.",
+    "86' - Julian Brandt substitutions fails to rally the home side as they continue to struggle."
+  ],
+  "historicalSignificance": "This match marked Germany's first group-stage exit in a World Cup since 1938, highlighting a significant turning point in the team's fortunes. It underscored the decline of the defending champions, raising questions about their tactical approaches and player selection moving forward.",
+  "topPerformers": [
+    {
+      "name": "Son Heung-min",
+      "side": "away",
+      "position": "LW",
+      "rating": 9.2,
+      "note": "Outstanding pace and skill, instrumental in both goals, showcasing brilliance on the counter."
+    },
+    {
+      "name": "Kim Young-gwon",
+      "side": "away",
+      "position": "CB",
+      "rating": 8.5,
+      "note": "Solid defensively, scored the opener that turned the match in South Korea's favor."
+    },
+    {
+      "name": "Manuel Neuer",
+      "side": "home",
+      "position": "GK",
+      "rating": 8,
+      "note": "Kept Germany in the game with crucial saves, demonstrating his experience despite the scoreline."
+    }
+  ]
+}

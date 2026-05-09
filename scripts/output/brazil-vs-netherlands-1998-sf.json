@@ -1,0 +1,189 @@
+{
+  "id": "brazil-vs-netherlands-1998-sf",
+  "tournament": "FIFA World Cup 1998",
+  "year": 1998,
+  "stage": "Semi-Final",
+  "date": "July 7, 1998",
+  "venue": "Stade Vélodrome",
+  "city": "Marseille, France",
+  "home": {
+    "name": "Brazil",
+    "flag": "🇧🇷",
+    "formation": "4-4-2",
+    "color": "#F7B731",
+    "colorDim": "rgba(247,183,49,0.18)",
+    "players": [
+      "Taffarel",
+      " Cafu",
+      "Mauro Silva",
+      "Aldair",
+      "Roberto Carlos",
+      "Dunga",
+      "Viola",
+      "Rivaldo",
+      "Ronaldo",
+      "Bebeto",
+      "Tita"
+    ],
+    "score": 1
+  },
+  "away": {
+    "name": "Netherlands",
+    "flag": "🇳🇱",
+    "formation": "4-3-3",
+    "color": "#FF6200",
+    "colorDim": "rgba(255,98,0,0.18)",
+    "players": [
+      "Vander Sar",
+      "Zanetti",
+      "Boma",
+      "Frank de Boer",
+      "Boulahrouz",
+      "Cocu",
+      "Seedorf",
+      "Bergkamp",
+      "Kluivert",
+      "Overmars",
+      "Reiziger"
+    ],
+    "score": 1
+  },
+  "status": "PSO",
+  "penaltyScore": "4-2",
+  "xG": {
+    "home": 1.45,
+    "away": 1.78
+  },
+  "possession": {
+    "home": 48,
+    "away": 52
+  },
+  "timeline": [
+    {
+      "minute": "46'",
+      "side": "home",
+      "player": "Ronaldo",
+      "type": "goal",
+      "description": "Ronaldo scored the opening goal for Brazil."
+    },
+    {
+      "minute": "87'",
+      "side": "away",
+      "player": "Kluivert",
+      "type": "goal",
+      "description": "Kluivert's late equaliser sent the match into extra time."
+    },
+    {
+      "minute": "120'",
+      "side": "neutral",
+      "player": "N/A",
+      "type": "sub",
+      "description": "Penalty shootout begins between Brazil and Netherlands."
+    },
+    {
+      "minute": "N/A",
+      "side": "neutral",
+      "player": "N/A",
+      "type": "pen_goal",
+      "description": "Brazil scored 4 penalties, while Netherlands scored 2."
+    },
+    {
+      "minute": "120'",
+      "side": "home",
+      "player": "Taffarel",
+      "type": "sub",
+      "description": "Taffarel was the hero of the match, saving crucial penalties."
+    }
+  ],
+  "stats": [
+    {
+      "label": "Shots",
+      "home": 14,
+      "away": 16,
+      "homeWidth": 46,
+      "awayWidth": 54
+    },
+    {
+      "label": "Shots on Target",
+      "home": 5,
+      "away": 6,
+      "homeWidth": 45,
+      "awayWidth": 55
+    },
+    {
+      "label": "Possession",
+      "home": 48,
+      "away": 52,
+      "homeWidth": 48,
+      "awayWidth": 52
+    },
+    {
+      "label": "Passes",
+      "home": 412,
+      "away": 450,
+      "homeWidth": 48,
+      "awayWidth": 52
+    },
+    {
+      "label": "Pass Accuracy",
+      "home": "85%",
+      "away": "84%",
+      "homeWidth": 48,
+      "awayWidth": 52
+    },
+    {
+      "label": "Corners",
+      "home": 3,
+      "away": 5,
+      "homeWidth": 38,
+      "awayWidth": 62
+    },
+    {
+      "label": "Fouls",
+      "home": 12,
+      "away": 15,
+      "homeWidth": 44,
+      "awayWidth": 56
+    },
+    {
+      "label": "xG",
+      "home": "1.45",
+      "away": "1.78",
+      "homeWidth": 45,
+      "awayWidth": 55
+    }
+  ],
+  "metaDescription": "Brazil faced the Netherlands in the thrilling 1998 World Cup Semi-Final, with Ronaldo shining before a dramatic penalty shootout.",
+  "tacticalAnalysis": "In this Semi-Final clash, Brazil's 4-4-2 formation tried to utilize space down the wings, while Ronaldinho and Rivaldo created opportunities for Ronaldo up front. The Brazilian midfield saw Dunga playing a pivotal role defensively, shielding the backline and supporting the attack when possible. Conversely, the Netherlands deployed a 4-3-3, emphasizing Wing play through Overmars and controlling the center with Cocu and Seedorf, who tried to dominate possession. The key tactical battle was between Brazil’s defense, led by Aldair and Roberto Carlos, and the attacking trio of Bergkamp, Kluivert, and Overmars. While Brazil took the lead, the Dutch equalised late in regular time, showcasing their resilience and ability to create chances. The match ended in penalties, where Brazil, bolstered by Taffarel's saves, ultimately triumphed.",
+  "keyMoments": [
+    "46' - Ronaldo opens the scoring for Brazil.",
+    "87' - Kluivert scores a late equaliser.",
+    "120' - Penalty shootout begins.",
+    "N/A - Brazil wins the shootout 4-2.",
+    "N/A - Taffarel saves key penalties for Brazil."
+  ],
+  "historicalSignificance": "This match is remembered for its intensity and drama, as Brazil navigated a tough challenge to defend their title. It highlighted Ronaldo's pivotal role and the resilience of the Netherlands, ultimately leading Brazil to the final.",
+  "topPerformers": [
+    {
+      "name": "Taffarel",
+      "side": "home",
+      "position": "GK",
+      "rating": 9.2,
+      "note": "Crucial saves in the penalty shootout, establishing himself as a hero."
+    },
+    {
+      "name": "Ronaldo",
+      "side": "home",
+      "position": "ST",
+      "rating": 8.8,
+      "note": "Scored the crucial first goal and was a constant threat."
+    },
+    {
+      "name": "Kluivert",
+      "side": "away",
+      "position": "ST",
+      "rating": 8.5,
+      "note": "Equalised late and alongside Bergkamp, was a key part of the attack."
+    }
+  ]
+}

@@ -1,0 +1,181 @@
+{
+  "id": "croatia-vs-brazil-2022-qf",
+  "tournament": "FIFA World Cup 2022",
+  "year": 2022,
+  "stage": "Quarter-Final",
+  "date": "December 9, 2022",
+  "venue": "Education City Stadium",
+  "city": "Ar-Rayyan, Qatar",
+  "home": {
+    "name": "Croatia",
+    "flag": "🇭🇷",
+    "formation": "4-3-3",
+    "color": "#CC1122",
+    "colorDim": "rgba(204,17,34,0.18)",
+    "players": [
+      "Dominik Livaković",
+      "Šime Vrsaljko",
+      "Dejan Lovren",
+      "Domagoj Vida",
+      "Ivan Strinić",
+      "Marcelo Brozović",
+      "Luka Modrić",
+      "Mateo Kovačić",
+      "Ivan Perišić",
+      "Andrej Kramarić",
+      "Bruno Petković"
+    ],
+    "score": 1
+  },
+  "away": {
+    "name": "Brazil",
+    "flag": "🇧🇷",
+    "formation": "4-2-3-1",
+    "color": "#F7B731",
+    "colorDim": "rgba(247,183,49,0.18)",
+    "players": [
+      "Alisson Becker",
+      "Danilo",
+      "Marquinhos",
+      "Thiago Silva",
+      "Alex Sandro",
+      "Casemiro",
+      "Fred",
+      "Neymar",
+      "Raphinha",
+      "Vinícius Júnior",
+      "Richarlison"
+    ],
+    "score": 1
+  },
+  "status": "PSO",
+  "penaltyScore": "4-2",
+  "xG": {
+    "home": 1.67,
+    "away": 2.85
+  },
+  "possession": {
+    "home": 45,
+    "away": 55
+  },
+  "timeline": [
+    {
+      "minute": "105'",
+      "side": "away",
+      "player": "Neymar",
+      "type": "goal",
+      "description": "Neymar scored a brilliant extra-time goal."
+    },
+    {
+      "minute": "115'",
+      "side": "home",
+      "player": "Ivan Perišić",
+      "type": "goal",
+      "description": "Perišić equalised within minutes."
+    },
+    {
+      "minute": "117'",
+      "side": "home",
+      "player": "Dominik Livaković",
+      "type": "pen_miss",
+      "description": "Saved Rodrygo's penalty during the shootout."
+    },
+    {
+      "minute": "118'",
+      "side": "away",
+      "player": "Marquinhos",
+      "type": "pen_miss",
+      "description": "Hit the post during the penalty shootout."
+    }
+  ],
+  "stats": [
+    {
+      "label": "Shots",
+      "home": 12,
+      "away": 20,
+      "homeWidth": 37,
+      "awayWidth": 63
+    },
+    {
+      "label": "Shots on Target",
+      "home": 6,
+      "away": 9,
+      "homeWidth": 40,
+      "awayWidth": 60
+    },
+    {
+      "label": "Possession",
+      "home": 45,
+      "away": 55,
+      "homeWidth": 45,
+      "awayWidth": 55
+    },
+    {
+      "label": "Passes",
+      "home": 420,
+      "away": 480,
+      "homeWidth": 46,
+      "awayWidth": 54
+    },
+    {
+      "label": "Pass Accuracy",
+      "home": "85%",
+      "away": "88%",
+      "homeWidth": 46,
+      "awayWidth": 54
+    },
+    {
+      "label": "Corners",
+      "home": 5,
+      "away": 7,
+      "homeWidth": 42,
+      "awayWidth": 58
+    },
+    {
+      "label": "Fouls",
+      "home": 15,
+      "away": 10,
+      "homeWidth": 60,
+      "awayWidth": 40
+    },
+    {
+      "label": "xG",
+      "home": "1.67",
+      "away": "2.85",
+      "homeWidth": 37,
+      "awayWidth": 63
+    }
+  ],
+  "metaDescription": "Croatia shock Brazil in the 2022 World Cup quarter-final, advancing via penalties after a thrilling match.",
+  "tacticalAnalysis": "In this quarter-final clash, Croatia employed a 4-3-3 formation while Brazil lined up in a 4-2-3-1. Croatia's use of width through the wings, especially with Perišić and Kramarić, created significant challenges for Brazil's full-backs. Livaković was crucial, making several vital saves, especially from Richarlison's attempts. Brazil controlled possession with Casemiro and Fred providing a solid base; however, their inability to maintain composure under pressure ultimately led to their demise in the shootout. The key moment came when Neymar scored in extra time but Croatia responded swiftly, demonstrating remarkable resilience, culminating in a dramatic penalty shootout where Brazil faltered.",
+  "keyMoments": [
+    "105' - Neymar scores a stunning extra-time goal, giving Brazil the lead.",
+    "115' - Croatia's Perišić equalizes almost immediately, keeping Croatia's hopes alive.",
+    "117' - Livaković saves Rodrygo's penalty during the shootout.",
+    "118' - Marquinhos disappointingly hits the post, sealing Brazil's fate."
+  ],
+  "historicalSignificance": "This match is significant not only because Croatia eliminated Brazil, a five-time World Cup champion, but also because it showcased Croatia's resilience and tactical prowess. It marks Croatia's second consecutive semi-final appearance in the World Cup, solidifying their status as a formidable footballing nation.",
+  "topPerformers": [
+    {
+      "name": "Dominik Livaković",
+      "side": "home",
+      "position": "GK",
+      "rating": 9.2,
+      "note": "Key saves throughout the match, especially in the penalty shootout."
+    },
+    {
+      "name": "Ivan Perišić",
+      "side": "home",
+      "position": "LW",
+      "rating": 8.5,
+      "note": "Scored the equalizing goal and was a constant threat on the wing."
+    },
+    {
+      "name": "Neymar",
+      "side": "away",
+      "position": "CAM",
+      "rating": 8.8,
+      "note": "Instrumental in Brazil's attacking play, scoring a vital goal."
+    }
+  ]
+}

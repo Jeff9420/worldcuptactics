@@ -1,0 +1,204 @@
+{
+  "id": "england-vs-argentina-1998-r16",
+  "tournament": "FIFA World Cup 1998",
+  "year": 1998,
+  "stage": "Round of 16",
+  "date": "June 30, 1998",
+  "venue": "Stade Geoffroy-Guichard",
+  "city": "Saint-Étienne, France",
+  "home": {
+    "name": "England",
+    "flag": "🏴‍☠️",
+    "formation": "4-4-1",
+    "color": "#CF142B",
+    "colorDim": "rgba(207,20,43,0.18)",
+    "players": [
+      "David Seaman",
+      "Gary Neville",
+      "Tony Adams",
+      "Sol Campbell",
+      "Philipp Neville",
+      "David Beckham",
+      "Paul Ince",
+      "David Scholes",
+      "Michael Owen",
+      "Alan Shearer",
+      "Teddy Sheringham"
+    ],
+    "score": 2
+  },
+  "away": {
+    "name": "Argentina",
+    "flag": "🇦🇷",
+    "formation": "3-5-2",
+    "color": "#74BBFB",
+    "colorDim": "rgba(116,187,251,0.18)",
+    "players": [
+      "Nery Pumpido",
+      "Roberto Ayala",
+      "Elizardo Ledesma",
+      "Javier Zanetti",
+      "Diego Simeone",
+      "Fernando Redondo",
+      "Juan Sebastián Verón",
+      "Pablo Aimar",
+      "Gabriel Batistuta",
+      "Mauricio Pineda",
+      "Hernán Crespo"
+    ],
+    "score": 2
+  },
+  "status": "PSO",
+  "penaltyScore": "3-4",
+  "xG": {
+    "home": 2.35,
+    "away": 2.41
+  },
+  "possession": {
+    "home": 45,
+    "away": 55
+  },
+  "timeline": [
+    {
+      "minute": "6'",
+      "side": "away",
+      "player": "Gabriel Batistuta",
+      "type": "goal",
+      "description": "Batistuta scores from the penalty spot"
+    },
+    {
+      "minute": "16'",
+      "side": "home",
+      "player": "Michael Owen",
+      "type": "goal",
+      "description": "Owen equalizes with a brilliant solo effort"
+    },
+    {
+      "minute": "27'",
+      "side": "home",
+      "player": "Paul Scholes",
+      "type": "pen_goal",
+      "description": "Scholes scores from the penalty spot"
+    },
+    {
+      "minute": "45'",
+      "side": "away",
+      "player": "Javier Zanetti",
+      "type": "goal",
+      "description": "Zanetti equalizes just before halftime"
+    },
+    {
+      "minute": "61'",
+      "side": "home",
+      "player": "David Beckham",
+      "type": "red",
+      "description": "Beckham sent off for a kick at Simeone"
+    },
+    {
+      "minute": "90'",
+      "side": "neutral",
+      "player": "Sol Campbell",
+      "type": "goal",
+      "description": "Campbell's goal is ruled out for offside"
+    }
+  ],
+  "stats": [
+    {
+      "label": "Shots",
+      "home": 12,
+      "away": 13,
+      "homeWidth": 48,
+      "awayWidth": 52
+    },
+    {
+      "label": "Shots on Target",
+      "home": 6,
+      "away": 7,
+      "homeWidth": 46,
+      "awayWidth": 54
+    },
+    {
+      "label": "Possession",
+      "home": 45,
+      "away": 55,
+      "homeWidth": 45,
+      "awayWidth": 55
+    },
+    {
+      "label": "Passes",
+      "home": 320,
+      "away": 400,
+      "homeWidth": 44,
+      "awayWidth": 56
+    },
+    {
+      "label": "Pass Accuracy",
+      "home": "72%",
+      "away": "78%",
+      "homeWidth": 42,
+      "awayWidth": 58
+    },
+    {
+      "label": "Corners",
+      "home": 4,
+      "away": 3,
+      "homeWidth": 57,
+      "awayWidth": 43
+    },
+    {
+      "label": "Fouls",
+      "home": 15,
+      "away": 14,
+      "homeWidth": 51,
+      "awayWidth": 49
+    },
+    {
+      "label": "xG",
+      "home": "2.35",
+      "away": "2.41",
+      "homeWidth": 49,
+      "awayWidth": 51
+    }
+  ],
+  "metaDescription": "An electrifying match in the 1998 World Cup where England and Argentina battled to a dramatic penalty shootout.",
+  "tacticalAnalysis": "The match showcased a classic 4-4-1 formation for England, led by coach Glenn Hoddle. Michael Owen's pace proved vital in Olympic sprinting past defenders and creating opportunities. David Beckham's role in the midfield was crucial until his dismissal. Argentina lined up in a 3-5-2, emphasizing their attacking width and playmaking ability through Aimar and Verón. The key tactical battle was between Ince's defensiveness versus Verón’s creativity in midfield. The goals flowed from moments of individual brilliance and mismanagement, notably Beckham's ill-discipline and Campbell's disallowed goal reflecting an intense and tight affair perfectly embodying World Cup drama.",
+  "keyMoments": [
+    "6' - Batistuta converts a penalty to take the lead for Argentina.",
+    "16' - Owen scores a stunning goal to equalize for England.",
+    "27' - Scholes puts England ahead from the penalty spot.",
+    "45' - Zanetti scores to equalize just before the break.",
+    "61' - Beckham receives a red card for kicking Simeone.",
+    "90' - Campbell's goal is ruled out for offside."
+  ],
+  "historicalSignificance": "This match is remembered as one of the greatest in World Cup history, showcasing dramatic shifts in momentum and high-tension penalties. It highlighted the psychological pressure of knockout football and established iconic moments defining both teams' legacies.",
+  "topPerformers": [
+    {
+      "name": "Michael Owen",
+      "side": "home",
+      "position": "ST",
+      "rating": 9.2,
+      "note": "Owen's goal was a standout moment that demonstrated his finishing and speed."
+    },
+    {
+      "name": "David Beckham",
+      "side": "home",
+      "position": "RM",
+      "rating": 8.5,
+      "note": "Played a critical role until sent off, his set-pieces were dangerous."
+    },
+    {
+      "name": "Gabriel Batistuta",
+      "side": "away",
+      "position": "ST",
+      "rating": 8.8,
+      "note": "Batistuta's penalty was calm under pressure, and he was pivotal in attack."
+    },
+    {
+      "name": "Javier Zanetti",
+      "side": "away",
+      "position": "RB",
+      "rating": 8.7,
+      "note": "Zanetti’s equalizing goal was crucial, and he was solid defensively."
+    }
+  ]
+}

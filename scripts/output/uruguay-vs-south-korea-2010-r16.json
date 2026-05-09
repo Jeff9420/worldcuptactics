@@ -1,0 +1,188 @@
+{
+  "id": "uruguay-vs-south-korea-2010-r16",
+  "tournament": "FIFA World Cup 2010",
+  "year": 2010,
+  "stage": "Round of 16",
+  "date": "June 26, 2010",
+  "venue": "Nelson Mandela Bay Stadium",
+  "city": "Port Elizabeth, South Africa",
+  "home": {
+    "name": "Uruguay",
+    "flag": "🇺🇾",
+    "formation": "4-4-2",
+    "color": "#4EABDF",
+    "colorDim": "rgba(78,171,223,0.18)",
+    "players": [
+      "Fernando Muslera",
+      "Maxi Pereira",
+      "Diego Godín",
+      "Mauricio Isla",
+      "Diego Lugano",
+      "Alvaro Pereira",
+      "Egídio",
+      "Edinson Cavani",
+      "Diego Forlán",
+      "Luis Suárez",
+      "Cristian Rodríguez"
+    ],
+    "score": 2
+  },
+  "away": {
+    "name": "South Korea",
+    "flag": "🇰🇷",
+    "formation": "4-2-3-1",
+    "color": "#CD2E3A",
+    "colorDim": "rgba(205,46,58,0.18)",
+    "players": [
+      "Ryu Hyun-jin",
+      "Lee Yong",
+      "Jung Seung-hyun",
+      "Kim Young-gwon",
+      "Park Joo-ho",
+      "Ki Sung-yueng",
+      "Lee Jae-sung",
+      "Son Heung-min",
+      "Lee Chung-yong",
+      "Kwon Chang-hoon",
+      "Park Chu-young"
+    ],
+    "score": 1
+  },
+  "status": "FT",
+  "xG": {
+    "home": 1.87,
+    "away": 0.79
+  },
+  "possession": {
+    "home": 56,
+    "away": 44
+  },
+  "timeline": [
+    {
+      "minute": "8'",
+      "side": "home",
+      "player": "Luis Suárez",
+      "type": "goal",
+      "description": "Suárez opens the scoring with a close-range shot."
+    },
+    {
+      "minute": "38'",
+      "side": "home",
+      "player": "Diego Forlán",
+      "type": "goal",
+      "description": "Forlán doubles the lead with a stunning long-range strike."
+    },
+    {
+      "minute": "49'",
+      "side": "away",
+      "player": "Lee Chung-yong",
+      "type": "goal",
+      "description": "Lee pulls one back for South Korea early in the second half."
+    },
+    {
+      "minute": "84'",
+      "side": "home",
+      "player": "Edinson Cavani",
+      "type": "sub",
+      "description": "Cavani replaces Forlán in the final minutes."
+    },
+    {
+      "minute": "90'",
+      "side": "away",
+      "player": "Park Joo-ho",
+      "type": "yellow",
+      "description": "Park is booked for a late challenge."
+    }
+  ],
+  "stats": [
+    {
+      "label": "Shots",
+      "home": 14,
+      "away": 8,
+      "homeWidth": 64,
+      "awayWidth": 36
+    },
+    {
+      "label": "Shots on Target",
+      "home": 5,
+      "away": 3,
+      "homeWidth": 63,
+      "awayWidth": 37
+    },
+    {
+      "label": "Possession",
+      "home": 56,
+      "away": 44,
+      "homeWidth": 56,
+      "awayWidth": 44
+    },
+    {
+      "label": "Passes",
+      "home": 394,
+      "away": 312,
+      "homeWidth": 56,
+      "awayWidth": 44
+    },
+    {
+      "label": "Pass Accuracy",
+      "home": "87%",
+      "away": "80%",
+      "homeWidth": 52,
+      "awayWidth": 48
+    },
+    {
+      "label": "Corners",
+      "home": 7,
+      "away": 4,
+      "homeWidth": 64,
+      "awayWidth": 36
+    },
+    {
+      "label": "Fouls",
+      "home": 15,
+      "away": 12,
+      "homeWidth": 56,
+      "awayWidth": 44
+    },
+    {
+      "label": "xG",
+      "home": "1.87",
+      "away": "0.79",
+      "homeWidth": 70,
+      "awayWidth": 30
+    }
+  ],
+  "metaDescription": "Uruguay defeats South Korea 2-1 in the Round of 16 at the FIFA World Cup 2010, showcasing tactical prowess and star performances.",
+  "tacticalAnalysis": "Uruguay's 4-4-2 formation utilized a strong central midfield presence, allowing them to control the game with Forlán orchestrating attacks. The pairing of Suárez and Forlán provided flexibility, with Forlán often dropping deeper to create opportunities. South Korea's 4-2-3-1 showcased their attacking intent, relying on pacey wingers like Son Heung-min and Lee Chung-yong to exploit space. The tactical battle was characterized by Uruguay's counter-attacking strategy, effectively utilizing the flanks and engaging in quick transitions after regaining possession. Forlán's movement allowed him to find pockets of space, which culminated in his long-range goal. Lee's goal for South Korea illustrated their resilience; however, they struggled to break down Uruguay's disciplined setup, resulting in limited clear-cut chances in the second half.",
+  "keyMoments": [
+    "8' - Suárez scores from a cross, setting the tone early.",
+    "38' - Forlán scores a beautiful strike, securing a 2-goal lead before half-time.",
+    "49' - Lee Chung-yong scores, reigniting South Korea's hopes.",
+    "84' - Cavani brought on to solidify the win.",
+    "90' - Park Joo-ho gets a yellow card as South Korea pushes for an equalizer."
+  ],
+  "historicalSignificance": "This match was a pivotal moment for Uruguay, allowing them to advance to the quarter-finals for the first time since 1970. It also demonstrated South Korea's growth in international football, showcasing their ability to compete against South American teams.",
+  "topPerformers": [
+    {
+      "name": "Diego Forlán",
+      "side": "home",
+      "position": "CAM",
+      "rating": 9.2,
+      "note": "Outstanding performance with a goal and assist, controlling midfield."
+    },
+    {
+      "name": "Luis Suárez",
+      "side": "home",
+      "position": "ST",
+      "rating": 8.5,
+      "note": "Key goal scorer and threat throughout the match."
+    },
+    {
+      "name": "Lee Chung-yong",
+      "side": "away",
+      "position": "RW",
+      "rating": 8,
+      "note": "Strong showing with a goal and consistent pressure on Uruguay's defense."
+    }
+  ]
+}

@@ -1,0 +1,172 @@
+{
+  "id": "netherlands-vs-slovakia-2010-r16",
+  "tournament": "FIFA World Cup 2010",
+  "year": 2010,
+  "stage": "Round of 16",
+  "date": "June 28, 2010",
+  "venue": "Moses Mabhida Stadium",
+  "city": "Durban, South Africa",
+  "home": {
+    "name": "Netherlands",
+    "flag": "🇳🇱",
+    "formation": "4-2-3-1",
+    "color": "#FF6200",
+    "colorDim": "rgba(255,98,0,0.18)",
+    "players": [
+      "Maarten Stekelenburg",
+      "Gregory van der Wiel",
+      "Johnny Heitinga",
+      "Joris Mathijsen",
+      "Giovanni van Bronckhorst",
+      "Mark van Bommel",
+      "Wesley Sneijder",
+      "Arjen Robben",
+      "Eljero Elia",
+      "Robin van Persie",
+      "Ruud van Nistelrooy"
+    ],
+    "score": 2
+  },
+  "away": {
+    "name": "Slovakia",
+    "flag": "🇸🇰",
+    "formation": "4-2-3-1",
+    "color": "#FF6600",
+    "colorDim": "rgba(255,102,0,0.18)",
+    "players": [
+      "Ján Mucha",
+      "Peter Pekarík",
+      "Martin Škrtel",
+      "Ján Durica",
+      "Richard Križan",
+      "Juraj Kucka",
+      "Marek Hamšík",
+      "Róbert Vittek",
+      "Kamil Kopúnek",
+      "Vladimír Weiss",
+      "Miroslav Stoch"
+    ],
+    "score": 1
+  },
+  "status": "FT",
+  "xG": {
+    "home": 2.53,
+    "away": 0.83
+  },
+  "possession": {
+    "home": 58,
+    "away": 42
+  },
+  "timeline": [
+    {
+      "minute": "18'",
+      "side": "home",
+      "player": "Wesley Sneijder",
+      "type": "goal",
+      "description": "Long-range shot finds the bottom corner."
+    },
+    {
+      "minute": "38'",
+      "side": "home",
+      "player": "Arjen Robben",
+      "type": "goal",
+      "description": "A stunning solo effort from Robben doubles the lead."
+    },
+    {
+      "minute": "86'",
+      "side": "away",
+      "player": "Róbert Vittek",
+      "type": "goal",
+      "description": "Vittek finds the net with a close-range finish."
+    }
+  ],
+  "stats": [
+    {
+      "label": "Shots",
+      "home": 23,
+      "away": 8,
+      "homeWidth": 74,
+      "awayWidth": 26
+    },
+    {
+      "label": "Shots on Target",
+      "home": 9,
+      "away": 4,
+      "homeWidth": 69,
+      "awayWidth": 31
+    },
+    {
+      "label": "Possession",
+      "home": 58,
+      "away": 42,
+      "homeWidth": 58,
+      "awayWidth": 42
+    },
+    {
+      "label": "Passes",
+      "home": 713,
+      "away": 493,
+      "homeWidth": 59,
+      "awayWidth": 41
+    },
+    {
+      "label": "Pass Accuracy",
+      "home": "86%",
+      "away": "80%",
+      "homeWidth": 52,
+      "awayWidth": 48
+    },
+    {
+      "label": "Corners",
+      "home": 8,
+      "away": 3,
+      "homeWidth": 73,
+      "awayWidth": 27
+    },
+    {
+      "label": "Fouls",
+      "home": 9,
+      "away": 16,
+      "homeWidth": 36,
+      "awayWidth": 64
+    },
+    {
+      "label": "xG",
+      "home": "2.53",
+      "away": "0.83",
+      "homeWidth": 76,
+      "awayWidth": 24
+    }
+  ],
+  "metaDescription": "The Netherlands overcame Slovakia 2-1 in the Round of 16 of the FIFA World Cup 2010 with standout performances from Robben and Sneijder.",
+  "tacticalAnalysis": "In this knockout match, the Netherlands employed a 4-2-3-1 formation that maximized width and utilized the pace of Robben and Elia on the flanks. Mark van Bommel and Wesley Sneijder anchored the midfield, dictating tempo and providing support in defense and attack. Slovakia matched their opponents with a similar formation but struggled to transition from defense to offense, often being caught in possession. Arjen Robben showcased his ability by drifting inside onto his stronger left foot, leading to crucial goals. The Dutch maintained intense pressure and utilized effective pressing to win back possession quickly. Slovakia’s key tactical battle lay in defending against Robben's speed, but their high defensive line left them vulnerable. The goals came from well-executed plays, with Sneijder opening the scoring from outside the box and Robben scoring after a quick counter. Slovakia’s late goal from Vittek came too late to change the outcome, highlighting their struggles for creativity.",
+  "keyMoments": [
+    "18' - Sneijder opens the scoring with a fantastic long-range shot.",
+    "38' - Robben doubles the lead with a swift solo run.",
+    "86' - Vittek pulls one back for Slovakia, but it's too late."
+  ],
+  "historicalSignificance": "This match marked the Netherlands' continued progress in the 2010 World Cup, showcasing their attacking prowess and tactical discipline. It was a notable step towards their eventual place in the final, illustrating their strength as serious contenders in international football.",
+  "topPerformers": [
+    {
+      "name": "Arjen Robben",
+      "side": "home",
+      "position": "RW",
+      "rating": 9.2,
+      "note": "His pace and skill were unmatched, resulting in a crucial goal."
+    },
+    {
+      "name": "Wesley Sneijder",
+      "side": "home",
+      "position": "CM",
+      "rating": 8.5,
+      "note": "Control of the midfield and a stunning opening goal."
+    },
+    {
+      "name": "Róbert Vittek",
+      "side": "away",
+      "position": "ST",
+      "rating": 8,
+      "note": "Scored Slovakia's only goal and was a constant threat."
+    }
+  ]
+}

@@ -1,0 +1,55 @@
+[2026-05-08 15:33] 开始自动生成...
+🚀 生成 37 篇2026预热文章
+
+⏭️  跳过 (已存在): germany-2026-world-cup-squad-analysis
+⏭️  跳过 (已存在): portugal-2026-world-cup-squad-analysis
+⏭️  跳过 (已存在): morocco-2026-world-cup-squad-analysis
+⏭️  跳过 (已存在): netherlands-2026-world-cup-squad-analysis
+⏭️  跳过 (已存在): japan-2026-world-cup-dark-horse-analysis
+⏭️  跳过 (已存在): 2026-world-cup-group-of-death
+⏭️  跳过 (已存在): 2026-world-cup-48-teams-tactical-impact
+⏭️  跳过 (已存在): 2026-world-cup-5-tactical-battles
+⏭️  跳过 (已存在): 2026-vs-2022-world-cup-differences
+⏭️  跳过 (已存在): 2026-world-cup-new-rules-format-explained
+⏭️  跳过 (已存在): 2026-world-cup-host-cities-venues-guide
+⏭️  跳过 (已存在): 2026-world-cup-group-a-preview
+⏭️  跳过 (已存在): 2026-world-cup-group-b-preview
+⏭️  跳过 (已存在): 2026-world-cup-group-c-preview
+⏭️  跳过 (已存在): 2026-world-cup-group-d-preview
+⏭️  跳过 (已存在): 2026-world-cup-group-e-preview
+⏭️  跳过 (已存在): 2026-world-cup-group-f-preview
+⏭️  跳过 (已存在): 2026-world-cup-group-g-preview
+⏭️  跳过 (已存在): 2026-world-cup-group-h-preview
+⏭️  跳过 (已存在): 2026-world-cup-group-i-preview
+⏭️  跳过 (已存在): 2026-world-cup-group-j-preview
+⏭️  跳过 (已存在): 2026-world-cup-group-k-preview
+⏭️  跳过 (已存在): 2026-world-cup-group-l-preview
+⏭️  跳过 (已存在): france-2026-world-cup-tactical-analysis
+⏭️  跳过 (已存在): argentina-2026-world-cup-tactical-analysis
+⏭️  跳过 (已存在): england-2026-world-cup-tactical-analysis
+⏭️  跳过 (已存在): spain-2026-world-cup-tactical-analysis
+⏭️  跳过 (已存在): brazil-2026-world-cup-tactical-analysis
+⏭️  跳过 (已存在): germany-2026-world-cup-tactical-analysis
+⏭️  跳过 (已存在): portugal-2026-world-cup-tactical-analysis
+⏭️  跳过 (已存在): netherlands-2026-world-cup-tactical-analysis
+[32/37] 生成: Who Will Win the 2026 World Cup? Our Tactical Prediction
+  ✅ 完成: 2026-world-cup-winner-prediction
+[33/37] 生成: 2026 World Cup: Who Qualifies From Every Group?
+  ✅ 完成: 2026-world-cup-group-stage-predictions
+[34/37] 生成: 5 Dark Horses Who Could Shock the World at 2026
+  ✅ 完成: 2026-world-cup-dark-horses
+[35/37] 生成: 10 Players Who Will Define the 2026 World Cup
+  ⚠️  重试: Expected ',' or '}' after property value in JSON at position 10725 (line 35 column 3)
+  ✅ 完成: 2026-world-cup-ones-to-watch
+⏭️  跳过 (已存在): 2026-world-cup-tactical-trends
+[37/37] 生成: 2026 World Cup Bracket: The 5 Most Likely Paths to the Final
+  ⚠️  重试: Expected ',' or '}' after property value in JSON at position 9510 (line 33 column 3)
+  ✅ 完成: 2026-world-cup-bracket-simulator
+
+📊 完成: 5 成功, 0 失败
+[main 2cd689c] feat: auto-generate articles [2026-05-08] — 53 total
+ Author: Claude Automation <noreply@anthropic.com>
+ 1 file changed, 725 insertions(+)
+To https://github.com/Jeff9420/worldcuptactics.git
+   8dbe31f..2cd689c  main -> main
+[2026-05-08 15:33] 🚀 新文章已推送上线

@@ -1,0 +1,203 @@
+{
+  "id": "spain-vs-costa-rica-2022-group",
+  "tournament": "FIFA World Cup 2022",
+  "year": 2022,
+  "stage": "Group Stage (Group E)",
+  "date": "November 23, 2022",
+  "venue": "Al Thumama Stadium",
+  "city": "Doha, Qatar",
+  "home": {
+    "name": "Spain",
+    "flag": "🇪🇸",
+    "formation": "4-3-3",
+    "color": "#CC0000",
+    "colorDim": "rgba(204,0,0,0.18)",
+    "players": [
+      "Unai Simón",
+      "Dani Carvajal",
+      "Aymeric Laporte",
+      "Rodrigo Hernández",
+      "Jordi Alba",
+      "Sergio Busquets",
+      "Gavi",
+      "Ferran Torres",
+      "Marco Asensio",
+      "Alvaro Morata",
+      "Carlos Soler"
+    ],
+    "score": 7
+  },
+  "away": {
+    "name": "Costa Rica",
+    "flag": "🇨🇷",
+    "formation": "5-4-1",
+    "color": "#002B7F",
+    "colorDim": "rgba(0,43,127,0.18)",
+    "players": [
+      "Keylor Navas",
+      "Brandon Aguilera",
+      "Francisco Calvo",
+      "Oscar Duarte",
+      "Kendall Waston",
+      "Cristian Gamboa",
+      "Celso Borges",
+      "Yeltsin Tejeda",
+      "Gerson Torres",
+      "Joel Campbell",
+      "Juan Pablo Vargas"
+    ],
+    "score": 0
+  },
+  "status": "FT",
+  "xG": {
+    "home": 3.12,
+    "away": 0.15
+  },
+  "possession": {
+    "home": 82,
+    "away": 18
+  },
+  "timeline": [
+    {
+      "minute": "11'",
+      "side": "home",
+      "player": "Carlos Soler",
+      "type": "goal",
+      "description": "Soler opened the scoring with a close-range finish after a swift counter."
+    },
+    {
+      "minute": "21'",
+      "side": "home",
+      "player": "Marco Asensio",
+      "type": "goal",
+      "description": "Asensio doubled the lead with a precise shot from the edge of the box."
+    },
+    {
+      "minute": "31'",
+      "side": "home",
+      "player": "Ferran Torres",
+      "type": "goal",
+      "description": "Torres scored with a right-footed penalty, awarded after a foul."
+    },
+    {
+      "minute": "54'",
+      "side": "home",
+      "player": "Gavi",
+      "type": "goal",
+      "description": "Gavi added the fourth with a brilliant header from a corner."
+    },
+    {
+      "minute": "74'",
+      "side": "home",
+      "player": "Ferran Torres",
+      "type": "goal",
+      "description": "Torres scored his second with a clever finish after a powerful run."
+    },
+    {
+      "minute": "89'",
+      "side": "home",
+      "player": "Gavi",
+      "type": "goal",
+      "description": "Gavi capped off an impressive performance with his second goal."
+    },
+    {
+      "minute": "90'",
+      "side": "home",
+      "player": "Alvaro Morata",
+      "type": "goal",
+      "description": "Morata entered as a late substitute and rounded off the scoring."
+    }
+  ],
+  "stats": [
+    {
+      "label": "Shots",
+      "home": 17,
+      "away": 5,
+      "homeWidth": 77,
+      "awayWidth": 23
+    },
+    {
+      "label": "Shots on Target",
+      "home": 10,
+      "away": 1,
+      "homeWidth": 91,
+      "awayWidth": 9
+    },
+    {
+      "label": "Possession",
+      "home": 82,
+      "away": 18,
+      "homeWidth": 82,
+      "awayWidth": 18
+    },
+    {
+      "label": "Passes",
+      "home": 1021,
+      "away": 128,
+      "homeWidth": 89,
+      "awayWidth": 11
+    },
+    {
+      "label": "Pass Accuracy",
+      "home": "89%",
+      "away": "60%",
+      "homeWidth": 89,
+      "awayWidth": 11
+    },
+    {
+      "label": "Corners",
+      "home": 8,
+      "away": 1,
+      "homeWidth": 89,
+      "awayWidth": 11
+    },
+    {
+      "label": "Fouls",
+      "home": 6,
+      "away": 12,
+      "homeWidth": 33,
+      "awayWidth": 67
+    },
+    {
+      "label": "xG",
+      "home": "3.12",
+      "away": "0.15",
+      "homeWidth": 95,
+      "awayWidth": 5
+    }
+  ],
+  "metaDescription": "Spain's historic 7-0 win over Costa Rica in the 2022 World Cup showcases their dominance and attacking prowess.",
+  "tacticalAnalysis": "Spain utilized a 4-3-3 formation, focusing on ball control and fluid movement. Their central midfield, anchored by Sergio Busquets, allowed for quick transitions from defense to attack. Gavi and Soler provided dynamic support, constantly moving to exploit spaces. Costa Rica, set up in a 5-4-1 formation, struggled to break Spain's pressing and was often outnumbered in midfield. The combination of Spain's tactical discipline and individual brilliance from players like Ferran Torres and Marco Asensio resulted in overwhelming possession, leading to countless goal-scoring opportunities. Costa Rica's tactics proved insubstantial as they failed to cope with Spain's attacking waves, culminating in a significant margin of victory for the European side.",
+  "keyMoments": [
+    "11' - Soler scores, setting the tone for Spain's dominance.",
+    "21' - Asensio's goal showcases Spain's attacking fluidity.",
+    "31' - Torres converts a penalty, marking Spain's third.",
+    "54' - Gavi's header emphasizes Spain's set-piece threat.",
+    "74' - Torres scores again, continuing Spain's relentless assault.",
+    "90' - Morata adds the final touch to the scoreline."
+  ],
+  "historicalSignificance": "This match is significant as it highlights Spain's resurgence in international football, showcasing their attacking talent and tactical superiority. Winning by such a margin is a record for Spain in World Cup group stages, emphasizing their position as a formidable contender in the tournament.",
+  "topPerformers": [
+    {
+      "name": "Gavi",
+      "side": "home",
+      "position": "CM",
+      "rating": 9.5,
+      "note": "Scored two goals and controlled the midfield."
+    },
+    {
+      "name": "Ferran Torres",
+      "side": "home",
+      "position": "ST",
+      "rating": 9,
+      "note": "Netted two goals and was influential in attack."
+    },
+    {
+      "name": "Keylor Navas",
+      "side": "away",
+      "position": "GK",
+      "rating": 7,
+      "note": "Made several key saves to prevent a larger defeat."
+    }
+  ]
+}

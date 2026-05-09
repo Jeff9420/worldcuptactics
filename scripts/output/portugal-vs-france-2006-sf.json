@@ -1,0 +1,159 @@
+{
+  "id": "portugal-vs-france-2006-sf",
+  "tournament": "FIFA World Cup 2006",
+  "year": 2006,
+  "stage": "Semi-Final",
+  "date": "July 5, 2006",
+  "venue": "Allianz Arena",
+  "city": "Munich, Germany",
+  "home": {
+    "name": "Portugal",
+    "flag": "🇵🇹",
+    "formation": "4-4-2",
+    "color": "#006600",
+    "colorDim": "rgba(0,102,0,0.18)",
+    "players": [
+      "Ricardo",
+      "Miguel",
+      "Carvalho",
+      "Meira",
+      "Rui Jorge",
+      "Costinha",
+      "Maniche",
+      "Deco",
+      "Figo",
+      "Ronaldo",
+      "Nuno Gomes"
+    ],
+    "score": 0
+  },
+  "away": {
+    "name": "France",
+    "flag": "🇫🇷",
+    "formation": "4-2-3-1",
+    "color": "#1E5AA8",
+    "colorDim": "rgba(30,90,168,0.18)",
+    "players": [
+      "Barthez",
+      "Sagnol",
+      "Gallas",
+      "Thuram",
+      "Abidal",
+      "Makelele",
+      "Viera",
+      "Ribery",
+      "Zidane",
+      "Henri",
+      "Sagnol"
+    ],
+    "score": 1
+  },
+  "status": "FT",
+  "xG": {
+    "home": 1.24,
+    "away": 1.78
+  },
+  "possession": {
+    "home": 57,
+    "away": 43
+  },
+  "timeline": [
+    {
+      "minute": "33'",
+      "side": "away",
+      "player": "Zidane",
+      "type": "pen_goal",
+      "description": "Zidane converted a penalty after being fouled by Meireles."
+    }
+  ],
+  "stats": [
+    {
+      "label": "Shots",
+      "home": 14,
+      "away": 9,
+      "homeWidth": 61,
+      "awayWidth": 39
+    },
+    {
+      "label": "Shots on Target",
+      "home": 5,
+      "away": 3,
+      "homeWidth": 63,
+      "awayWidth": 37
+    },
+    {
+      "label": "Possession",
+      "home": 57,
+      "away": 43,
+      "homeWidth": 57,
+      "awayWidth": 43
+    },
+    {
+      "label": "Passes",
+      "home": 420,
+      "away": 320,
+      "homeWidth": 57,
+      "awayWidth": 43
+    },
+    {
+      "label": "Pass Accuracy",
+      "home": "87%",
+      "away": "80%",
+      "homeWidth": 66,
+      "awayWidth": 34
+    },
+    {
+      "label": "Corners",
+      "home": 7,
+      "away": 3,
+      "homeWidth": 70,
+      "awayWidth": 30
+    },
+    {
+      "label": "Fouls",
+      "home": 15,
+      "away": 12,
+      "homeWidth": 56,
+      "awayWidth": 44
+    },
+    {
+      "label": "xG",
+      "home": "1.24",
+      "away": "1.78",
+      "homeWidth": 41,
+      "awayWidth": 59
+    }
+  ],
+  "metaDescription": "Portugal faced France in a dramatic World Cup 2006 semi-final at Allianz Arena, where Zidane's penalty secured France's spot in the final.",
+  "tacticalAnalysis": "Portugal lined up in a 4-4-2 formation, with Figo and Ronaldo on the wings providing pace and creativity. The pairing of Costinha and Maniche held the midfield, looking to disrupt France’s flow. France, employing a 4-2-3-1, relied on Zidane orchestrating plays, supported by Viera and Makelele in midfield. This allowed Ribery to exploit the flanks with dynamic runs. The pivotal moment came when Meireles fouled Zidane in the box, leading to the decisive penalty. France's defense, anchored by Gallas and Thuram, effectively countered Portugal’s attacking threats.",
+  "keyMoments": [
+    "33' - Zidane scores from the penalty spot, giving France the lead.",
+    "60' - Portugal's Ronaldo attempts a free kick, narrowly missing the target.",
+    "75' - Meira's header hits the crossbar, almost equalizing for Portugal.",
+    "85' - A late push by Portugal, but France's defense holds firm."
+  ],
+  "historicalSignificance": "This match marked a critical point in football history as it showcased the tactical battle between two strong teams. Zidane's performance was pivotal, leading France to the final, which they went on to win, marking one of France's finest moments in World Cup history.",
+  "topPerformers": [
+    {
+      "name": "Zinedine Zidane",
+      "side": "away",
+      "position": "CAM",
+      "rating": 9.5,
+      "note": "Controlled the midfield and scored the pivotal penalty."
+    },
+    {
+      "name": "Fabien Barthez",
+      "side": "away",
+      "position": "GK",
+      "rating": 8.8,
+      "note": "Made crucial saves to deny Portugal."
+    },
+    {
+      "name": "Cristiano Ronaldo",
+      "side": "home",
+      "position": "LW",
+      "rating": 7.5,
+      "note": "Provided attacking threat but was kept quiet by the French defense."
+    }
+  ]
+}

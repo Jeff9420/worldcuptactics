@@ -1,0 +1,164 @@
+{
+  "id": "sweden-vs-switzerland-2018-r16",
+  "tournament": "FIFA World Cup 2018",
+  "year": 2018,
+  "stage": "Round of 16",
+  "date": "July 3, 2018",
+  "venue": "Saint Petersburg Stadium",
+  "city": "St Petersburg, Russia",
+  "home": {
+    "name": "Sweden",
+    "flag": "🇸🇪",
+    "formation": "4-4-2",
+    "color": "#006AA7",
+    "colorDim": "rgba(0,106,167,0.18)",
+    "players": [
+      "Robin Olsen",
+      "Mikael Lustig",
+      "Victor Lindelöf",
+      "Andreas Granqvist",
+      "Emil forsberg",
+      "Albin Ekdal",
+      "Gustav Svensson",
+      "Sebastian Larsson",
+      "Marcus Berg",
+      "Ola Toivonen",
+      "John Guidetti"
+    ],
+    "score": 1
+  },
+  "away": {
+    "name": "Switzerland",
+    "flag": "🇨🇭",
+    "formation": "4-2-3-1",
+    "color": "#D52B1E",
+    "colorDim": "rgba(213,43,30,0.18)",
+    "players": [
+      "Yann Sommer",
+      "Fabian Schär",
+      "Manuel Akanji",
+      "Nico Elvedi",
+      "Ricardo Rodríguez",
+      "Granit Xhaka",
+      "Valon Behrami",
+      "Steven Zuber",
+      "Xherdan Shaqiri",
+      "Breel Embolo",
+      "Haris Seferović"
+    ],
+    "score": 0
+  },
+  "status": "FT",
+  "xG": {
+    "home": 1.15,
+    "away": 0.85
+  },
+  "possession": {
+    "home": 53,
+    "away": 47
+  },
+  "timeline": [
+    {
+      "minute": "66'",
+      "side": "home",
+      "player": "Emil Forsberg",
+      "type": "goal",
+      "description": "Forsberg's deflected strike gives Sweden the lead."
+    },
+    {
+      "minute": "90+2'",
+      "side": "away",
+      "player": "Granit Xhaka",
+      "type": "yellow",
+      "description": "Xhaka receives a yellow card for a late challenge."
+    }
+  ],
+  "stats": [
+    {
+      "label": "Shots",
+      "home": 16,
+      "away": 9,
+      "homeWidth": 64,
+      "awayWidth": 36
+    },
+    {
+      "label": "Shots on Target",
+      "home": 5,
+      "away": 4,
+      "homeWidth": 55,
+      "awayWidth": 45
+    },
+    {
+      "label": "Possession",
+      "home": 53,
+      "away": 47,
+      "homeWidth": 53,
+      "awayWidth": 47
+    },
+    {
+      "label": "Passes",
+      "home": 491,
+      "away": 392,
+      "homeWidth": 56,
+      "awayWidth": 44
+    },
+    {
+      "label": "Pass Accuracy",
+      "home": "86%",
+      "away": "81%",
+      "homeWidth": 51,
+      "awayWidth": 49
+    },
+    {
+      "label": "Corners",
+      "home": 5,
+      "away": 3,
+      "homeWidth": 63,
+      "awayWidth": 37
+    },
+    {
+      "label": "Fouls",
+      "home": 11,
+      "away": 9,
+      "homeWidth": 55,
+      "awayWidth": 45
+    },
+    {
+      "label": "xG",
+      "home": "1.15",
+      "away": "0.85",
+      "homeWidth": 58,
+      "awayWidth": 42
+    }
+  ],
+  "metaDescription": "Sweden defeated Switzerland 1-0 in the Round of 16 at the 2018 FIFA World Cup, with Forsberg scoring a crucial goal.",
+  "tacticalAnalysis": "Sweden deployed a 4-4-2 formation, focusing on a compact defense and utilizing high pressing to disrupt Switzerland's build-up play. The pair of forwards, Marcus Berg and Ola Toivonen, constantly challenged the Swiss backline, while Emil Forsberg operated effectively as a creative midfielder, often cutting in from the wing. Switzerland, aligning in a 4-2-3-1, struggled to penetrate Sweden's disciplined defense. Xhaka and Behrami acted as double pivots, yet found it hard to connect with the attacking trio consisting of Shaqiri, Zuber, and Embolo. The decisive moment came when Forsberg's shot deflected off a defender, leaving Sommer with no chance while encapsulating Sweden's tactical brilliance throughout the match.",
+  "keyMoments": [
+    "66' - Forsberg scores the only goal of the match.",
+    "90+2' - Granit Xhaka booked for a late foul."
+  ],
+  "historicalSignificance": "This match marked Sweden's progression to the quarter-finals, showcasing their tactical evolution post-Ibrahimović. It highlighted Sweden's team-oriented play, as they advanced while emphasizing collective strategy over individual brilliance.",
+  "topPerformers": [
+    {
+      "name": "Robin Olsen",
+      "side": "home",
+      "position": "GK",
+      "rating": 9.2,
+      "note": "Outstanding saves to keep a clean sheet."
+    },
+    {
+      "name": "Emil Forsberg",
+      "side": "home",
+      "position": "CAM",
+      "rating": 8.5,
+      "note": "Crucial goal and creative play throughout the match."
+    },
+    {
+      "name": "Yann Sommer",
+      "side": "away",
+      "position": "GK",
+      "rating": 8,
+      "note": "Made several important saves to keep the scoreline low."
+    }
+  ]
+}

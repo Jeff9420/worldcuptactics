@@ -1,0 +1,180 @@
+{
+  "id": "france-vs-poland-2022-r16",
+  "tournament": "FIFA World Cup 2022",
+  "year": 2022,
+  "stage": "Round of 16",
+  "date": "December 4, 2022",
+  "venue": "Al Thumama Stadium",
+  "city": "Doha, Qatar",
+  "home": {
+    "name": "France",
+    "flag": "🇫🇷",
+    "formation": "4-2-3-1",
+    "color": "#1E5AA8",
+    "colorDim": "rgba(30,90,168,0.18)",
+    "players": [
+      "Hugo Lloris",
+      "Benjamin Pavard",
+      "Raphaël Varane",
+      "Lucas Hernández",
+      "Presnel Kimpembe",
+      "N'Golo Kanté",
+      "Adrien Rabiot",
+      "Kingsley Coman",
+      "Antoine Griezmann",
+      "Kylian Mbappé",
+      "Olivier Giroud"
+    ],
+    "score": 3
+  },
+  "away": {
+    "name": "Poland",
+    "flag": "🇵🇱",
+    "formation": "4-3-3",
+    "color": "#DC143C",
+    "colorDim": "rgba(220,20,60,0.18)",
+    "players": [
+      "Wojciech Szczęsny",
+      "Matty Cash",
+      "Kamil Glik",
+      "Jakub Kiwior",
+      "Tymoteusz Puchacz",
+      "Grzegorz Krychowiak",
+      "Piotr Zieliński",
+      "Krzysztof Piątek",
+      "Robert Lewandowski",
+      "Karol Świderski",
+      "Zalewski"
+    ],
+    "score": 1
+  },
+  "status": "FT",
+  "xG": {
+    "home": 2.54,
+    "away": 0.87
+  },
+  "possession": {
+    "home": 62,
+    "away": 38
+  },
+  "timeline": [
+    {
+      "minute": "4'",
+      "side": "home",
+      "player": "Olivier Giroud",
+      "type": "goal",
+      "description": "Headed in from a Griezmann cross."
+    },
+    {
+      "minute": "28'",
+      "side": "home",
+      "player": "Kylian Mbappé",
+      "type": "goal",
+      "description": "Unleashed a long-range shot into the top corner."
+    },
+    {
+      "minute": "45'",
+      "side": "home",
+      "player": "Kylian Mbappé",
+      "type": "goal",
+      "description": "Scored with a close-range finish."
+    },
+    {
+      "minute": "76'",
+      "side": "away",
+      "player": "Robert Lewandowski",
+      "type": "pen_goal",
+      "description": "Converted a penalty after a foul in the box."
+    }
+  ],
+  "stats": [
+    {
+      "label": "Shots",
+      "home": 17,
+      "away": 6,
+      "homeWidth": 74,
+      "awayWidth": 26
+    },
+    {
+      "label": "Shots on Target",
+      "home": 10,
+      "away": 3,
+      "homeWidth": 77,
+      "awayWidth": 23
+    },
+    {
+      "label": "Possession",
+      "home": 62,
+      "away": 38,
+      "homeWidth": 62,
+      "awayWidth": 38
+    },
+    {
+      "label": "Passes",
+      "home": 541,
+      "away": 319,
+      "homeWidth": 63,
+      "awayWidth": 37
+    },
+    {
+      "label": "Pass Accuracy",
+      "home": "88%",
+      "away": "81%",
+      "homeWidth": 50,
+      "awayWidth": 50
+    },
+    {
+      "label": "Corners",
+      "home": 6,
+      "away": 4,
+      "homeWidth": 60,
+      "awayWidth": 40
+    },
+    {
+      "label": "Fouls",
+      "home": 9,
+      "away": 12,
+      "homeWidth": 43,
+      "awayWidth": 57
+    },
+    {
+      "label": "xG",
+      "home": "2.54",
+      "away": "0.87",
+      "homeWidth": 100,
+      "awayWidth": 34
+    }
+  ],
+  "metaDescription": "France dominates Poland with a remarkable 3-1 victory in the Round of 16 at the FIFA World Cup 2022, showcasing Mbappé's brilliance.",
+  "tacticalAnalysis": "France deployed a 4-2-3-1 formation, providing a balanced setup with a solid midfield pivot in Kanté and Rabiot. The width was provided by Coman and Mbappé, who caused problems for Poland's defense with their pace and dribbling. Giroud's positioning was critical; he exploited gaps in Poland's backline, leading to his opening goal. Poland's 4-3-3 formation struggled to contain France's fluid attacking play, often leaving Lewandowski isolated. The lack of support in the midfield led to possession dominance for France, who effectively transitioned from defense to attack. Poland's late penalty goal by Lewandowski was a consolation, but France proved their status as favorites with this commanding performance.",
+  "keyMoments": [
+    "4' - Giroud opens the scoring with a header.",
+    "28' - Mbappé scores a stunning long-range goal.",
+    "45' - Mbappé nets his second, extending the lead to three.",
+    "76' - Lewandowski converts a penalty for Poland."
+  ],
+  "historicalSignificance": "This match marked a significant moment in the FIFA World Cup 2022, as France showcased their attacking prowess and tactical superiority. Kylian Mbappé's performance underlined his rising status as one of the world's elite players.",
+  "topPerformers": [
+    {
+      "name": "Kylian Mbappé",
+      "side": "home",
+      "position": "LW",
+      "rating": 9.4,
+      "note": "Scored two goals, displaying phenomenal skill and accuracy."
+    },
+    {
+      "name": "Olivier Giroud",
+      "side": "home",
+      "position": "ST",
+      "rating": 8.7,
+      "note": "Critical in attack, broke the French all-time scoring record."
+    },
+    {
+      "name": "Robert Lewandowski",
+      "side": "away",
+      "position": "ST",
+      "rating": 7.8,
+      "note": "Scored Poland's only goal, showing persistence despite limited service."
+    }
+  ]
+}

@@ -1,0 +1,180 @@
+{
+  "id": "england-vs-brazil-2002-qf",
+  "tournament": "FIFA World Cup 2002",
+  "year": 2002,
+  "stage": "Quarter-Final",
+  "date": "June 21, 2002",
+  "venue": "Shizuoka Stadium Ecopa",
+  "city": "Shizuoka, Japan",
+  "home": {
+    "name": "England",
+    "flag": "🇬🇧",
+    "formation": "4-4-2",
+    "color": "#CF142B",
+    "colorDim": "rgba(207,20,43,0.18)",
+    "players": [
+      "David Seaman",
+      "Gary Neville",
+      "John Terry",
+      "Rio Ferdinand",
+      "Ashley Cole",
+      "David Beckham",
+      "Paul Scholes",
+      "Frank Lampard",
+      "Michael Owen",
+      "Emile Heskey",
+      "Steven Gerrard"
+    ],
+    "score": 1
+  },
+  "away": {
+    "name": "Brazil",
+    "flag": "🇧🇷",
+    "formation": "4-2-3-1",
+    "color": "#F7B731",
+    "colorDim": "rgba(247,183,49,0.18)",
+    "players": [
+      "Marcos",
+      "Cafu",
+      "Lucio",
+      "Edmilson",
+      "Roberto Carlos",
+      "Kléber",
+      "Juninho Paulista",
+      "Ronaldinho",
+      "Rivaldo",
+      "Kaká",
+      "Ronaldo"
+    ],
+    "score": 2
+  },
+  "status": "FT",
+  "xG": {
+    "home": 1.52,
+    "away": 1.78
+  },
+  "possession": {
+    "home": 42,
+    "away": 58
+  },
+  "timeline": [
+    {
+      "minute": "5'",
+      "side": "home",
+      "player": "Michael Owen",
+      "type": "goal",
+      "description": "Owen gave England the lead with a precise shot."
+    },
+    {
+      "minute": "45+'",
+      "side": "away",
+      "player": "Rivaldo",
+      "type": "goal",
+      "description": "Last-minute equaliser from Rivaldo."
+    },
+    {
+      "minute": "50'",
+      "side": "away",
+      "player": "Ronaldinho",
+      "type": "goal",
+      "description": "Ronaldinho scores with an audacious chip over Seaman."
+    },
+    {
+      "minute": "57'",
+      "side": "away",
+      "player": "Ronaldinho",
+      "type": "red",
+      "description": "Ronaldinho sent off for a second yellow card."
+    }
+  ],
+  "stats": [
+    {
+      "label": "Shots",
+      "home": 11,
+      "away": 14,
+      "homeWidth": 43,
+      "awayWidth": 57
+    },
+    {
+      "label": "Shots on Target",
+      "home": 5,
+      "away": 8,
+      "homeWidth": 38,
+      "awayWidth": 62
+    },
+    {
+      "label": "Possession",
+      "home": 42,
+      "away": 58,
+      "homeWidth": 42,
+      "awayWidth": 58
+    },
+    {
+      "label": "Passes",
+      "home": 375,
+      "away": 465,
+      "homeWidth": 45,
+      "awayWidth": 55
+    },
+    {
+      "label": "Pass Accuracy",
+      "home": "78%",
+      "away": "82%",
+      "homeWidth": 43,
+      "awayWidth": 57
+    },
+    {
+      "label": "Corners",
+      "home": 4,
+      "away": 5,
+      "homeWidth": 44,
+      "awayWidth": 56
+    },
+    {
+      "label": "Fouls",
+      "home": 12,
+      "away": 9,
+      "homeWidth": 57,
+      "awayWidth": 43
+    },
+    {
+      "label": "xG",
+      "home": "1.52",
+      "away": "1.78",
+      "homeWidth": 46,
+      "awayWidth": 54
+    }
+  ],
+  "metaDescription": "England faced Brazil in the 2002 World Cup Quarter-Final, with a thrilling match ending 2-1 after a dramatic performance.",
+  "tacticalAnalysis": "In this quarter-final, England deployed a 4-4-2 formation, aiming to exploit the pace of Michael Owen upfront. They played a high defensive line and pressed Brazil aggressively in midfield. The Brazilians, in a 4-2-3-1 formation, relied on the creativity of Ronaldinho and Rivaldo, with Ronaldo as the central striker. Ronaldinho's goal, a stunning chip over David Seaman, highlighted England's vulnerability to players in space. Despite being down to 10 men after Ronaldinho's red card, Brazil managed to maintain their defensive shape and countered effectively, showcasing their resilience. England struggled to break down Brazil's defense, often reliant on set pieces and long balls. However, they failed to capitalize on their possession, ultimately leading to their elimination.",
+  "keyMoments": [
+    "5' - Owen puts England ahead with a tremendous shot.",
+    "45+' - Rivaldo equalizes with a well-placed shot just before halftime.",
+    "50' - Ronaldinho scores a remarkable goal with a chip.",
+    "57' - Ronaldinho receives a second yellow and is sent off."
+  ],
+  "historicalSignificance": "This match marked the end of England's hopes for a World Cup title in 2002, while Brazil would go on to win the tournament. Ronaldinho's memorable chip goal is often recalled as one of the iconic moments in World Cup history.",
+  "topPerformers": [
+    {
+      "name": "Rivaldo",
+      "side": "away",
+      "position": "LW",
+      "rating": 9,
+      "note": "Key in creating and scoring Brazil's goals."
+    },
+    {
+      "name": "Michael Owen",
+      "side": "home",
+      "position": "ST",
+      "rating": 8.4,
+      "note": "Outstanding in finishing and movement."
+    },
+    {
+      "name": "Ronaldinho",
+      "side": "away",
+      "position": "CAM",
+      "rating": 8.8,
+      "note": "Created numerous chances and scored a stunning goal."
+    }
+  ]
+}

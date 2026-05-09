@@ -1,0 +1,173 @@
+{
+  "id": "uruguay-vs-portugal-2018-r16",
+  "tournament": "FIFA World Cup 2018",
+  "year": 2018,
+  "stage": "Round of 16",
+  "date": "June 30, 2018",
+  "venue": "Fisht Olympic Stadium",
+  "city": "Sochi, Russia",
+  "home": {
+    "name": "Uruguay",
+    "flag": "🇺🇾",
+    "formation": "4-4-2",
+    "color": "#4EABDF",
+    "colorDim": "rgba(78,171,223,0.18)",
+    "players": [
+      "Fernando Muslera",
+      "Maxi Pereira",
+      "Diego Godín",
+      "José María Giménez",
+      "Diego Laxalt",
+      "Nahitan Nández",
+      "Lucas Torreira",
+      "Rodrigo Bentancur",
+      "Edinson Cavani",
+      "Luis Suárez",
+      "Giorgian De Arrascaeta"
+    ],
+    "score": 2
+  },
+  "away": {
+    "name": "Portugal",
+    "flag": "🇵🇹",
+    "formation": "4-3-3",
+    "color": "#006600",
+    "colorDim": "rgba(0,102,0,0.18)",
+    "players": [
+      "Rui Patrício",
+      "João Cancelo",
+      "Pepe",
+      "Rúben Dias",
+      "Raphaël Guerreiro",
+      "William Carvalho",
+      "João Mário",
+      "Bernardo Silva",
+      "Cristiano Ronaldo",
+      "Gonçalo Guedes",
+      "André Silva"
+    ],
+    "score": 1
+  },
+  "status": "FT",
+  "xG": {
+    "home": 1.87,
+    "away": 0.99
+  },
+  "possession": {
+    "home": 52,
+    "away": 48
+  },
+  "timeline": [
+    {
+      "minute": "11'",
+      "side": "away",
+      "player": "Cristiano Ronaldo",
+      "type": "goal",
+      "description": "Ronaldo scores a free kick to give Portugal an early lead."
+    },
+    {
+      "minute": "62'",
+      "side": "home",
+      "player": "Edinson Cavani",
+      "type": "goal",
+      "description": "Cavani scores a stunning volley from outside the box."
+    },
+    {
+      "minute": "64'",
+      "side": "home",
+      "player": "Edinson Cavani",
+      "type": "goal",
+      "description": "Cavani scores again with a precise shot after a ball from Suárez."
+    },
+    {
+      "minute": "70'",
+      "side": "home",
+      "player": "Edinson Cavani",
+      "type": "sub",
+      "description": "Cavani limps off the pitch due to injury."
+    }
+  ],
+  "stats": [
+    {
+      "label": "Shots",
+      "home": 22,
+      "away": 12,
+      "homeWidth": 65,
+      "awayWidth": 35
+    },
+    {
+      "label": "Shots on Target",
+      "home": 10,
+      "away": 3,
+      "homeWidth": 77,
+      "awayWidth": 23
+    },
+    {
+      "label": "Possession",
+      "home": 52,
+      "away": 48,
+      "homeWidth": 52,
+      "awayWidth": 48
+    },
+    {
+      "label": "Passes",
+      "home": 436,
+      "away": 404,
+      "homeWidth": 52,
+      "awayWidth": 48
+    },
+    {
+      "label": "Pass Accuracy",
+      "home": "83%",
+      "away": "81%",
+      "homeWidth": 60,
+      "awayWidth": 40
+    },
+    {
+      "label": "Corners",
+      "home": 8,
+      "away": 4,
+      "homeWidth": 67,
+      "awayWidth": 33
+    },
+    {
+      "label": "Fouls",
+      "home": 12,
+      "away": 13,
+      "homeWidth": 48,
+      "awayWidth": 52
+    },
+    {
+      "label": "xG",
+      "home": "1.87",
+      "away": "0.99",
+      "homeWidth": 65,
+      "awayWidth": 35
+    }
+  ],
+  "metaDescription": "Uruguay eliminated Portugal in a thrilling Round of 16 match where Edinson Cavani shined.",
+  "tacticalAnalysis": "Uruguay set up in a 4-4-2 formation, focusing on compactness and quick transitions. They utilized Cavani and Suárez to exploit Portugal's defensive gaps. With Bentancur and Torreira providing support in midfield, they aimed to win the second balls and counter effectively. Portugal, using a 4-3-3, relied heavily on Cristiano Ronaldo's creativity but struggled to unlock Uruguay's solid defense. After Ronaldo's early goal, Uruguay's response was tactical; they increased their pressing intensity, which led to Cavani's brace. Key battles ensued in midfield, where Torreira's interceptions disrupted Portugal's rhythm. As the match progressed, Cavani's injury significantly altered Uruguay's tactical approach, forcing them to hold their lead.",
+  "keyMoments": [
+    "11' - Ronaldo's free-kick opens the scoring.",
+    "62' - Cavani's volley brings Uruguay level.",
+    "64' - Cavani scores again to take the lead.",
+    "70' - Cavani's injury raises concerns for Uruguay."
+  ],
+  "historicalSignificance": "This match highlighted Uruguay's tactical discipline and resilience, showcasing Cavani at his peak. It also marked the end of Ronaldo's journey in the 2018 World Cup, a significant moment in his illustrious career.",
+  "topPerformers": [
+    {
+      "name": "Edinson Cavani",
+      "side": "home",
+      "position": "ST",
+      "rating": 9.2,
+      "note": "Cavani's two goals, including a stunning volley, were crucial for Uruguay's victory."
+    },
+    {
+      "name": "Cristiano Ronaldo",
+      "side": "away",
+      "position": "LW",
+      "rating": 8.5,
+      "note": "Ronaldo's early goal showcased his skill, but he had limited impact afterwards."
+    }
+  ]
+}

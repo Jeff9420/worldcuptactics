@@ -1,0 +1,172 @@
+{
+  "id": "argentina-vs-switzerland-2014-r16",
+  "tournament": "FIFA World Cup 2014",
+  "year": 2014,
+  "stage": "Round of 16",
+  "date": "July 1, 2014",
+  "venue": "Arena de São Paulo",
+  "city": "São Paulo, Brazil",
+  "home": {
+    "name": "Argentina",
+    "flag": "🇦🇷",
+    "formation": "4-3-3",
+    "color": "#74BBFB",
+    "colorDim": "rgba(116,187,251,0.18)",
+    "players": [
+      "Sergio Romero",
+      "Pablo Zabaleta",
+      "Ezequiel Garay",
+      "Martin Demichelis",
+      "Javier Mascherano",
+      "Lucas Biglia",
+      "Angel Di Maria",
+      "Lionel Messi",
+      "Javier Pastore",
+      "Gonzalo Higuain",
+      "Ezequiel Lavezzi"
+    ],
+    "score": 1
+  },
+  "away": {
+    "name": "Switzerland",
+    "flag": "🇨🇭",
+    "formation": "4-2-3-1",
+    "color": "#D52B1E",
+    "colorDim": "rgba(213,43,30,0.18)",
+    "players": [
+      "Yann Sommer",
+      "Stephane Lichtsteiner",
+      "Philippe Senderos",
+      "Ricardo Rodriguez",
+      "Nico Elvedi",
+      "Granite Xhaka",
+      "Blerim Džemaili",
+      "Valon Behrami",
+      "Xherdan Shaqiri",
+      "Haris Seferovic",
+      "Josip Drmić"
+    ],
+    "score": 0
+  },
+  "status": "AET",
+  "xG": {
+    "home": 1.67,
+    "away": 0.44
+  },
+  "possession": {
+    "home": 68,
+    "away": 32
+  },
+  "timeline": [
+    {
+      "minute": "118'",
+      "side": "home",
+      "player": "Angel Di Maria",
+      "type": "goal",
+      "description": "Curling right-foot finish from a Messi assist"
+    },
+    {
+      "minute": "90+2'",
+      "side": "away",
+      "player": "Yann Sommer",
+      "type": "yellow",
+      "description": "Time wasting as Switzerland defended"
+    },
+    {
+      "minute": "90+5'",
+      "side": "away",
+      "player": "Granite Xhaka",
+      "type": "yellow",
+      "description": "Foul on Messi"
+    }
+  ],
+  "stats": [
+    {
+      "label": "Shots",
+      "home": 21,
+      "away": 5,
+      "homeWidth": 81,
+      "awayWidth": 19
+    },
+    {
+      "label": "Shots on Target",
+      "home": 8,
+      "away": 2,
+      "homeWidth": 80,
+      "awayWidth": 20
+    },
+    {
+      "label": "Possession",
+      "home": 68,
+      "away": 32,
+      "homeWidth": 68,
+      "awayWidth": 32
+    },
+    {
+      "label": "Passes",
+      "home": 556,
+      "away": 269,
+      "homeWidth": 67,
+      "awayWidth": 33
+    },
+    {
+      "label": "Pass Accuracy",
+      "home": "87%",
+      "away": "75%",
+      "homeWidth": 87,
+      "awayWidth": 75
+    },
+    {
+      "label": "Corners",
+      "home": 9,
+      "away": 2,
+      "homeWidth": 82,
+      "awayWidth": 18
+    },
+    {
+      "label": "Fouls",
+      "home": 17,
+      "away": 13,
+      "homeWidth": 57,
+      "awayWidth": 43
+    },
+    {
+      "label": "xG",
+      "home": "1.67",
+      "away": "0.44",
+      "homeWidth": 79,
+      "awayWidth": 21
+    }
+  ],
+  "metaDescription": "Argentina faced Switzerland in a hard-fought match, with a late goal from Di Maria pushing them to the quarter-finals.",
+  "tacticalAnalysis": "Argentina set up in a 4-3-3 formation, relying on Messi's creativity to break down Switzerland's organized defense. The midfield trio of Mascherano, Biglia, and Di Maria provided balance, with the latter pushing forward to support Messi and Higuain. Switzerland, in a 4-2-3-1, deployed a double pivot with Xhaka and Džemaili that effectively shielded their backline, thwarting early Argentine advances. The game shifted into extra time as both teams had limited clear chances, but Di Maria's late goal showcased Argentina's determination and ability to exploit fatigue in the Swiss defense.",
+  "keyMoments": [
+    "118' - Di Maria scores, sealing Argentina's place in the quarter-finals.",
+    "90+2' - Sommer receives a yellow card for time-wasting.",
+    "90+5' - Xhaka booked for a foul on Messi, highlighting Argentina's frustrations."
+  ],
+  "historicalSignificance": "This match is remembered for Di Maria's dramatic extra-time goal that not only advanced Argentina to the quarter-finals but also illuminated their struggle to break down resilient defenses. It showcased Argentina's attacking prowess led by Messi while emphasizing the importance of tactical discipline in knock-out football.",
+  "topPerformers": [
+    {
+      "name": "Angel Di Maria",
+      "side": "home",
+      "position": "LW",
+      "rating": 9.2,
+      "note": "Scored the crucial goal that secured Argentina's progression."
+    },
+    {
+      "name": "Lionel Messi",
+      "side": "home",
+      "position": "CAM",
+      "rating": 8.8,
+      "note": "Constantly threatened the Swiss defense and provided the assist for the winning goal."
+    },
+    {
+      "name": "Yann Sommer",
+      "side": "away",
+      "position": "GK",
+      "rating": 8.5,
+      "note": "Made several key saves to keep Switzerland in the match."
+    }
+  ]
+}

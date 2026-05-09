@@ -1,0 +1,179 @@
+{
+  "id": "netherlands-vs-argentina-1998-qf",
+  "tournament": "FIFA World Cup 1998",
+  "year": 1998,
+  "stage": "Quarter-Final",
+  "date": "July 4, 1998",
+  "venue": "Stade Vélodrome",
+  "city": "Marseille, France",
+  "home": {
+    "name": "Netherlands",
+    "flag": "🇳🇱",
+    "formation": "4-3-3",
+    "color": "#FF6200",
+    "colorDim": "rgba(255,98,0,0.18)",
+    "players": [
+      "Edwin van der Sar",
+      "Frank de Boer",
+      "Ronald de Boer",
+      "Jaap Stam",
+      "Marc Overmars",
+      "Edgar Davids",
+      "Clarence Seedorf",
+      "Ruud Gullit",
+      "Patrick Kluivert",
+      "Dennis Bergkamp",
+      "Frank Rijkaard"
+    ],
+    "score": 2
+  },
+  "away": {
+    "name": "Argentina",
+    "flag": "🇦🇷",
+    "formation": "4-3-3",
+    "color": "#74BBFB",
+    "colorDim": "rgba(116,187,251,0.18)",
+    "players": [
+      "Nery Pumpido",
+      "Roberto Ayala",
+      "Javier Zanetti",
+      "Nicolás Otamendi",
+      "Omar Bravo",
+      "Diego Simeone",
+      "Juan Sebastián Verón",
+      "Pablo Aimar",
+      "Diego Maradona",
+      "Claudio Caniggia",
+      "Mario Kempes"
+    ],
+    "score": 1
+  },
+  "status": "FT",
+  "xG": {
+    "home": 2.24,
+    "away": 0.81
+  },
+  "possession": {
+    "home": 55,
+    "away": 45
+  },
+  "timeline": [
+    {
+      "minute": "16'",
+      "side": "away",
+      "player": "Leonardo López",
+      "type": "goal",
+      "description": "López opened the scoring with a powerful header from a corner."
+    },
+    {
+      "minute": "73'",
+      "side": "home",
+      "player": "Patrick Kluivert",
+      "type": "goal",
+      "description": "Kluivert equalized with a close-range finish after a scramble in the box."
+    },
+    {
+      "minute": "89'",
+      "side": "home",
+      "player": "Dennis Bergkamp",
+      "type": "goal",
+      "description": "Bergkamp scored a brilliant last-minute winner, controlling a long pass before finishing calmly."
+    }
+  ],
+  "stats": [
+    {
+      "label": "Shots",
+      "home": 12,
+      "away": 7,
+      "homeWidth": 63,
+      "awayWidth": 37
+    },
+    {
+      "label": "Shots on Target",
+      "home": 6,
+      "away": 3,
+      "homeWidth": 67,
+      "awayWidth": 33
+    },
+    {
+      "label": "Possession",
+      "home": 55,
+      "away": 45,
+      "homeWidth": 55,
+      "awayWidth": 45
+    },
+    {
+      "label": "Passes",
+      "home": 320,
+      "away": 230,
+      "homeWidth": 58,
+      "awayWidth": 42
+    },
+    {
+      "label": "Pass Accuracy",
+      "home": "85%",
+      "away": "78%",
+      "homeWidth": 52,
+      "awayWidth": 48
+    },
+    {
+      "label": "Corners",
+      "home": 6,
+      "away": 2,
+      "homeWidth": 75,
+      "awayWidth": 25
+    },
+    {
+      "label": "Fouls",
+      "home": 15,
+      "away": 10,
+      "homeWidth": 60,
+      "awayWidth": 40
+    },
+    {
+      "label": "xG",
+      "home": "2.24",
+      "away": "0.81",
+      "homeWidth": 73,
+      "awayWidth": 27
+    }
+  ],
+  "metaDescription": "Netherlands defeated Argentina 2-1 in the 1998 World Cup Quarter-Final with Bergkamp's iconic last-minute goal.",
+  "tacticalAnalysis": "This quarter-final showcased tactical brilliance from both Netherlands and Argentina. The Dutch employed a 4-3-3 formation, utilizing wing play with Marc Overmars and Clarence Seedorf pressing high up the pitch. Patrick Kluivert and Dennis Bergkamp formed a lethal attacking partnership, with Bergkamp often dropping deep to create play while Kluivert's movement stretched the Argentine defense. Argentina countered with a similar 4-3-3, relying on the creativity of Juan Sebastián Verón and the experience of Diego Simeone in midfield. The Argentine defense, led by Roberto Ayala, was tested frequently, especially after their initial goal from Leonardo López. In the second half, the Dutch switched to a more aggressive approach, eventually leading to Kluivert's equalizer and the historical last-minute winner from Bergkamp, who expertly controlled a long ball from Frank de Boer before finishing off a brilliant counter. Manager Guus Hiddink’s decision to bring on fresh legs midway through the second half paid off as the Dutch surged forward late in the game, claiming a significant victory.",
+  "keyMoments": [
+    "16' - López's header puts Argentina ahead, shocking the Dutch.",
+    "73' - Kluivert equalizes, igniting hope for the Netherlands.",
+    "89' - Bergkamp's stunning winner cements his legacy in World Cup history."
+  ],
+  "historicalSignificance": "This match is remembered for Dennis Bergkamp's iconic last-minute goal, which not only showcased his extraordinary skill but also epitomized the attacking philosophy of Dutch football. It marked a memorable moment in World Cup history, sending the Netherlands to the semi-finals and highlighting the dramatic nature of knockout football.",
+  "topPerformers": [
+    {
+      "name": "Dennis Bergkamp",
+      "side": "home",
+      "position": "ST",
+      "rating": 9.5,
+      "note": "His last-minute goal was a demonstration of extraordinary skill and composure."
+    },
+    {
+      "name": "Patrick Kluivert",
+      "side": "home",
+      "position": "ST",
+      "rating": 8.2,
+      "note": "Kluivert's equalizer was pivotal for shifting momentum back to the Dutch."
+    },
+    {
+      "name": "Roberto Ayala",
+      "side": "away",
+      "position": "CB",
+      "rating": 8,
+      "note": "Ayala's defensive leadership kept Argentina strong until late in the match."
+    },
+    {
+      "name": "Juan Sebastián Verón",
+      "side": "away",
+      "position": "CM",
+      "rating": 8.4,
+      "note": "Verón's playmaking was crucial in Argentina's midfield dominance."
+    }
+  ]
+}

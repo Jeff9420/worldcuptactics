@@ -1,0 +1,173 @@
+{
+  "id": "brazil-vs-belgium-2018-qf",
+  "tournament": "FIFA World Cup 2018",
+  "year": 2018,
+  "stage": "Quarter-Final",
+  "date": "July 6, 2018",
+  "venue": "Kazan Arena",
+  "city": "Kazan, Russia",
+  "home": {
+    "name": "Brazil",
+    "flag": "🇧🇷",
+    "formation": "4-2-3-1",
+    "color": "#F7B731",
+    "colorDim": "rgba(247,183,49,0.18)",
+    "players": [
+      "Alisson",
+      "Danilo",
+      "Thiago Silva",
+      "Miranda",
+      "Marcelo",
+      "Casemiro",
+      "Paulinho",
+      "Coutinho",
+      "Neymar",
+      "Willian",
+      "Gabriel Jesus"
+    ],
+    "score": 1
+  },
+  "away": {
+    "name": "Belgium",
+    "flag": "🇧🇪",
+    "formation": "3-4-2-1",
+    "color": "#EDCB27",
+    "colorDim": "rgba(237,203,39,0.18)",
+    "players": [
+      "Thibaut Courtois",
+      "Vincent Kompany",
+      "Jan Vertonghen",
+      "Toby Alderweireld",
+      "Nacer Chadli",
+      "Axel Witsel",
+      "Kevin De Bruyne",
+      "Eden Hazard",
+      "Dries Mertens",
+      "Romelu Lukaku",
+      "Youri Tielemans"
+    ],
+    "score": 2
+  },
+  "status": "FT",
+  "xG": {
+    "home": 1.83,
+    "away": 2.33
+  },
+  "possession": {
+    "home": 57,
+    "away": 43
+  },
+  "timeline": [
+    {
+      "minute": "10'",
+      "side": "away",
+      "player": "Vincent Kompany",
+      "type": "own_goal",
+      "description": "Fernandinho's own goal put Belgium ahead."
+    },
+    {
+      "minute": "31'",
+      "side": "away",
+      "player": "Kevin De Bruyne",
+      "type": "goal",
+      "description": "De Bruyne scores a stunning long-range goal doubling Belgium's lead."
+    },
+    {
+      "minute": "76'",
+      "side": "home",
+      "player": "Renato Augusto",
+      "type": "goal",
+      "description": "Renato Augusto pulls one back for Brazil."
+    }
+  ],
+  "stats": [
+    {
+      "label": "Shots",
+      "home": 19,
+      "away": 9,
+      "homeWidth": 68,
+      "awayWidth": 32
+    },
+    {
+      "label": "Shots on Target",
+      "home": 6,
+      "away": 5,
+      "homeWidth": 55,
+      "awayWidth": 45
+    },
+    {
+      "label": "Possession",
+      "home": 57,
+      "away": 43,
+      "homeWidth": 57,
+      "awayWidth": 43
+    },
+    {
+      "label": "Passes",
+      "home": 561,
+      "away": 366,
+      "homeWidth": 61,
+      "awayWidth": 39
+    },
+    {
+      "label": "Pass Accuracy",
+      "home": "87%",
+      "away": "75%",
+      "homeWidth": 52,
+      "awayWidth": 48
+    },
+    {
+      "label": "Corners",
+      "home": 12,
+      "away": 2,
+      "homeWidth": 86,
+      "awayWidth": 14
+    },
+    {
+      "label": "Fouls",
+      "home": 14,
+      "away": 5,
+      "homeWidth": 74,
+      "awayWidth": 26
+    },
+    {
+      "label": "xG",
+      "home": "1.83",
+      "away": "2.33",
+      "homeWidth": 57,
+      "awayWidth": 43
+    }
+  ],
+  "metaDescription": "Belgium stunned Brazil to reach the semi-finals after a thrilling quarter-final match in the 2018 FIFA World Cup.",
+  "tacticalAnalysis": "In this quarter-final clash, Brazil deployed a 4-2-3-1 formation, which featured Neymar as a central playmaker, supported by Willian and Coutinho on the wings. The Brazilian midfield duo of Casemiro and Paulinho attempted to dominate the center, but they were tactically outmaneuvered by Belgium's pragmatic 3-4-2-1 setup. Belgium played with a three-man defense, where Vincent Kompany, Jan Vertonghen, and Toby Alderweireld were tasked with containing Brazil's dynamic attack. The wing-backs, Nacer Chadli and Thomas Meunier, provided width and crucial defensive cover. Belgium's goals early in the match showcased their counter-attacking prowess; the own goal by Fernandinho arose from a direct free-kick situation, while De Bruyne's long-range strike came from a well-executed transition after winning back possession. Brazil struggled to break down the organized Belgian defense and despite showing attacking intent, their efforts fell short.",
+  "keyMoments": [
+    "10' - Fernandinho's own goal gives Belgium the early lead.",
+    "31' - De Bruyne doubles Belgium's advantage with a stunning goal.",
+    "76' - Renato Augusto pulls one back for Brazil, giving them a glimmer of hope.",
+    "90+3' - Courtois makes a crucial save to deny Brazil an equalizer."
+  ],
+  "historicalSignificance": "This match is significant as it saw Belgium eliminate the favorites Brazil, marking a major turning point in World Cup history. It highlighted Belgium's emergence as a footballing powerhouse and showcased their talented squad's ability to perform against elite teams.",
+  "topPerformers": [
+    {
+      "name": "Thibaut Courtois",
+      "side": "away",
+      "position": "GK",
+      "rating": 9.2,
+      "note": "His 9 saves included a crucial stop against Neymar late in the match."
+    },
+    {
+      "name": "Kevin De Bruyne",
+      "side": "away",
+      "position": "CM",
+      "rating": 8.7,
+      "note": "His brilliant long-range goal was pivotal in Belgium's victory."
+    },
+    {
+      "name": "Renato Augusto",
+      "side": "home",
+      "position": "CM",
+      "rating": 8,
+      "note": "Provided creativity and scored Brazil's only goal."
+    }
+  ]
+}

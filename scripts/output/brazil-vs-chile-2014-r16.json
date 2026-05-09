@@ -1,0 +1,181 @@
+{
+  "id": "brazil-vs-chile-2014-r16",
+  "tournament": "FIFA World Cup 2014",
+  "year": 2014,
+  "stage": "Round of 16",
+  "date": "June 28, 2014",
+  "venue": "Estádio Mineirão",
+  "city": "Belo Horizonte, Brazil",
+  "home": {
+    "name": "Brazil",
+    "flag": "🇧🇷",
+    "formation": "4-2-3-1",
+    "color": "#F7B731",
+    "colorDim": "rgba(247,183,49,0.18)",
+    "players": [
+      "Júlio César",
+      "Maicon",
+      "Thiago Silva",
+      "David Luiz",
+      "Marcelo",
+      "Fernandinho",
+      "Paulinho",
+      "Oscar",
+      "Neymar",
+      "Hulk",
+      "Fred"
+    ],
+    "score": 1
+  },
+  "away": {
+    "name": "Chile",
+    "flag": "🇨🇱",
+    "formation": "3-3-1-3",
+    "color": "#D52B1E",
+    "colorDim": "rgba(213,43,30,0.18)",
+    "players": [
+      "Claudio Bravo",
+      "Gonzalo Jara",
+      "Eugenio Mena",
+      "Gary Medel",
+      "Charles Aránguiz",
+      "Marcelo Díaz",
+      "Arturo Vidal",
+      "Alexis Sánchez",
+      "Jorge Valdivia",
+      "Alexis Sánchez",
+      "Eduardo Vargas"
+    ],
+    "score": 1
+  },
+  "status": "PSO",
+  "penaltyScore": "3-2",
+  "xG": {
+    "home": 1.45,
+    "away": 1.2
+  },
+  "possession": {
+    "home": 55,
+    "away": 45
+  },
+  "timeline": [
+    {
+      "minute": "38'",
+      "side": "away",
+      "player": "Alexis Sánchez",
+      "type": "goal",
+      "description": "Sanchez scored after a quick counter-attack."
+    },
+    {
+      "minute": "120'",
+      "side": "home",
+      "player": "David Luiz",
+      "type": "pen_goal",
+      "description": "David Luiz scored the first penalty for Brazil."
+    },
+    {
+      "minute": "120'",
+      "side": "away",
+      "player": "Pinilla",
+      "type": "pen_miss",
+      "description": "Pinilla hit the post during penalties."
+    },
+    {
+      "minute": "120'",
+      "side": "home",
+      "player": "Júlio César",
+      "type": "yellow",
+      "description": "César received a yellow card for time wasting."
+    }
+  ],
+  "stats": [
+    {
+      "label": "Shots",
+      "home": 18,
+      "away": 12,
+      "homeWidth": 60,
+      "awayWidth": 40
+    },
+    {
+      "label": "Shots on Target",
+      "home": 5,
+      "away": 4,
+      "homeWidth": 55,
+      "awayWidth": 45
+    },
+    {
+      "label": "Possession",
+      "home": 55,
+      "away": 45,
+      "homeWidth": 55,
+      "awayWidth": 45
+    },
+    {
+      "label": "Passes",
+      "home": 450,
+      "away": 350,
+      "homeWidth": 56,
+      "awayWidth": 44
+    },
+    {
+      "label": "Pass Accuracy",
+      "home": "81%",
+      "away": "78%",
+      "homeWidth": 51,
+      "awayWidth": 49
+    },
+    {
+      "label": "Corners",
+      "home": 5,
+      "away": 3,
+      "homeWidth": 63,
+      "awayWidth": 37
+    },
+    {
+      "label": "Fouls",
+      "home": 15,
+      "away": 13,
+      "homeWidth": 53,
+      "awayWidth": 47
+    },
+    {
+      "label": "xG",
+      "home": "1.45",
+      "away": "1.20",
+      "homeWidth": 55,
+      "awayWidth": 45
+    }
+  ],
+  "metaDescription": "Brazil faced Chile in a thrilling Round of 16 match in the 2014 FIFA World Cup, leading to a penalty shootout.",
+  "tacticalAnalysis": "Brazil utilized a 4-2-3-1 formation, employing Neymar as a free-roaming player behind the striker Fred. The two holding midfielders, Fernandinho and Paulinho, provided structure and facilitated ball progression. Chile opted for a 3-3-1-3, with Alexis Sánchez and Eduardo Vargas pushing high to exploit Brazil’s wide areas. Brazil’s full-backs advanced frequently, creating width and opportunities down the flanks. Chile's pressing strategy applied pressure on Brazil’s defenders, particularly targeting careless touches. The first goal came from Sánchez, who capitalized on a fast break, demonstrating Chile’s tactical efficiency. In the second half, Brazil responded with increased possession and intent, but failed to convert several chances before the match proceeded to penalties.",
+  "keyMoments": [
+    "38' - Alexis Sánchez gives Chile the lead after a swift counter-attack.",
+    "90' - Brazil press for an equalizer but fail to convert a late chance.",
+    "120' - David Luiz scores the first penalty for Brazil in the shootout.",
+    "120' - Pinilla hits the post during the penalties, missing a crucial opportunity for Chile."
+  ],
+  "historicalSignificance": "This match is remembered for Brazil's resilience in front of their home crowd during a tense penalty shootout. It ultimately foreshadowed their painful defeat to Germany later in the tournament, marking a low point for Brazilian football and reigniting discussions on the 'Mineirão curse'.",
+  "topPerformers": [
+    {
+      "name": "Júlio César",
+      "side": "home",
+      "position": "GK",
+      "rating": 9.2,
+      "note": "Outstanding saves, including crucial penalties."
+    },
+    {
+      "name": "Alexis Sánchez",
+      "side": "away",
+      "position": "LW",
+      "rating": 8.5,
+      "note": "Key goal scorer and constant threat throughout the match."
+    },
+    {
+      "name": "David Luiz",
+      "side": "home",
+      "position": "CB",
+      "rating": 8.8,
+      "note": "Strong defensively and scored a penalty in the shootout."
+    }
+  ]
+}

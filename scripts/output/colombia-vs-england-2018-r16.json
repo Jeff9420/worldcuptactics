@@ -1,0 +1,173 @@
+{
+  "id": "colombia-vs-england-2018-r16",
+  "tournament": "FIFA World Cup 2018",
+  "year": 2018,
+  "stage": "Round of 16",
+  "date": "July 3, 2018",
+  "venue": "Spartak Stadium",
+  "city": "Moscow, Russia",
+  "home": {
+    "name": "Colombia",
+    "flag": "🇨🇴",
+    "formation": "4-4-2",
+    "color": "#FCD116",
+    "colorDim": "rgba(252,209,22,0.18)",
+    "players": [
+      "David Ospina",
+      "Cristian Zapata",
+      "Yerry Mina",
+      "Davinson Sánchez",
+      "Juan Cuadrado",
+      "Wilmar Barrios",
+      "Carlos Sánchez",
+      "Juan Guillermo Cuadrado",
+      "James Rodríguez",
+      "Radamel Falcao",
+      "Quintero"
+    ],
+    "score": 1
+  },
+  "away": {
+    "name": "England",
+    "flag": "🇬🇧",
+    "formation": "3-5-2",
+    "color": "#CF142B",
+    "colorDim": "rgba(207,20,43,0.18)",
+    "players": [
+      "Jordan Pickford",
+      "Kyle Walker",
+      "John Stones",
+      "Harry Maguire",
+      "Kieran Trippier",
+      "Dele Alli",
+      "Jordan Henderson",
+      "Jesse Lingard",
+      "Harry Kane",
+      "Raheem Sterling",
+      "Marcus Rashford"
+    ],
+    "score": 1
+  },
+  "status": "PSO",
+  "penaltyScore": "3-4",
+  "xG": {
+    "home": 1.2,
+    "away": 1.8
+  },
+  "possession": {
+    "home": 41,
+    "away": 59
+  },
+  "timeline": [
+    {
+      "minute": "3'",
+      "side": "away",
+      "player": "Harry Kane",
+      "type": "pen_goal",
+      "description": "Harry Kane scores from the penalty spot after a foul on Raheem Sterling."
+    },
+    {
+      "minute": "93'",
+      "side": "home",
+      "player": "Yerry Mina",
+      "type": "goal",
+      "description": "Yerry Mina heads in a corner equalizing the match for Colombia."
+    },
+    {
+      "minute": "120'",
+      "side": "neutral",
+      "player": "Eric Dier",
+      "type": "pen_goal",
+      "description": "Eric Dier scores the decisive penalty in the shootout."
+    }
+  ],
+  "stats": [
+    {
+      "label": "Shots",
+      "home": 14,
+      "away": 19,
+      "homeWidth": 42,
+      "awayWidth": 58
+    },
+    {
+      "label": "Shots on Target",
+      "home": 5,
+      "away": 7,
+      "homeWidth": 42,
+      "awayWidth": 58
+    },
+    {
+      "label": "Possession",
+      "home": 41,
+      "away": 59,
+      "homeWidth": 41,
+      "awayWidth": 59
+    },
+    {
+      "label": "Passes",
+      "home": 335,
+      "away": 473,
+      "homeWidth": 41,
+      "awayWidth": 59
+    },
+    {
+      "label": "Pass Accuracy",
+      "home": "79%",
+      "away": "81%",
+      "homeWidth": 41,
+      "awayWidth": 59
+    },
+    {
+      "label": "Corners",
+      "home": 5,
+      "away": 7,
+      "homeWidth": 42,
+      "awayWidth": 58
+    },
+    {
+      "label": "Fouls",
+      "home": 14,
+      "away": 10,
+      "homeWidth": 58,
+      "awayWidth": 42
+    },
+    {
+      "label": "xG",
+      "home": "1.20",
+      "away": "1.80",
+      "homeWidth": 42,
+      "awayWidth": 58
+    }
+  ],
+  "metaDescription": "Match report of Colombia vs England in the 2018 World Cup Round of 16, featuring a penalty shootout win for England.",
+  "tacticalAnalysis": "Colombia's 4-4-2 formation was primarily focused on strong defensive structures, relying on counter-attacks. They utilized Yerry Mina and Radamel Falcao in attacking transitions, while James Rodríguez attempted to orchestrate play from a deeper position despite his injuries. England deployed a 3-5-2 that saw Kieran Trippier providing width on the right and increasing overlaps with Raheem Sterling. Harry Kane's pivotal role as a forward dictated the English attack, complemented by the dynamic midfield play of Jesse Lingard and Dele Alli. The game saw England controlling possession, while Colombia maintained a stronger aerial presence, particularly through Mina's equalizer, reflecting their set-piece prowess. Erik Dier's key penalty in the shootout showcased England's tactical restraint and preparation for high-pressure situations.",
+  "keyMoments": [
+    "3' - Kane scores early penalty, setting a dominating tone for England.",
+    "93' - Mina's equalizer forces extra time, proving Colombia's resilience.",
+    "120' - Dier's decisive penalty ends the shootout, breaking England's penalty curse."
+  ],
+  "historicalSignificance": "This match marked England's first penalty shootout victory since Euro 1996, demonstrating a critical psychological breakthrough for the team. Yerry Mina's dramatic late equalizer highlighted Colombia's fighting spirit, making this encounter a memorable chapter in World Cup history.",
+  "topPerformers": [
+    {
+      "name": "Yerry Mina",
+      "side": "home",
+      "position": "CB",
+      "rating": 8.5,
+      "note": "Mina's defensive contributions and 93rd-minute goal were crucial."
+    },
+    {
+      "name": "Harry Kane",
+      "side": "away",
+      "position": "ST",
+      "rating": 9,
+      "note": "Kane's early penalty strike set the stage for England's tactical execution."
+    },
+    {
+      "name": "Eric Dier",
+      "side": "away",
+      "position": "CDM",
+      "rating": 8.6,
+      "note": "Dier's composure in the shootout exemplified leadership under pressure."
+    }
+  ]
+}

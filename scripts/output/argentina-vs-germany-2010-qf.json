@@ -1,0 +1,180 @@
+{
+  "id": "argentina-vs-germany-2010-qf",
+  "tournament": "FIFA World Cup 2010",
+  "year": 2010,
+  "stage": "Quarter-Final",
+  "date": "July 3, 2010",
+  "venue": "Cape Town Stadium",
+  "city": "Cape Town, South Africa",
+  "home": {
+    "name": "Argentina",
+    "flag": "🇦🇷",
+    "formation": "4-3-3",
+    "color": "#74BBFB",
+    "colorDim": "rgba(116,187,251,0.18)",
+    "players": [
+      "Sergio Romero",
+      "Gabriel Heinze",
+      "Nicolas Otamendi",
+      "Juan Sabaleta",
+      "Javier Mascherano",
+      "Angel Di Maria",
+      "Lionel Messi",
+      "Javier Pastore",
+      "Gonzalo Higuain",
+      "Carlos Tevez",
+      "Diego Milito"
+    ],
+    "score": 0
+  },
+  "away": {
+    "name": "Germany",
+    "flag": "🇩🇪",
+    "formation": "4-2-3-1",
+    "color": "#E8E8E8",
+    "colorDim": "rgba(232,232,232,0.18)",
+    "players": [
+      "Manuel Neuer",
+      "Philipp Lahm",
+      "Per Mertesacker",
+      "Arne Friedrich",
+      "Jérôme Boateng",
+      "Bastian Schweinsteiger",
+      "Sami Khedira",
+      "Mesut Özil",
+      "Thomas Müller",
+      "Miroslav Klose",
+      "Mario Gomez"
+    ],
+    "score": 4
+  },
+  "status": "FT",
+  "xG": {
+    "home": 0.76,
+    "away": 3.25
+  },
+  "possession": {
+    "home": 40,
+    "away": 60
+  },
+  "timeline": [
+    {
+      "minute": "24'",
+      "side": "away",
+      "player": "Thomas Müller",
+      "type": "goal",
+      "description": "Header from a corner kick."
+    },
+    {
+      "minute": "68'",
+      "side": "away",
+      "player": "Miroslav Klose",
+      "type": "goal",
+      "description": "Finish from close range after a cross."
+    },
+    {
+      "minute": "74'",
+      "side": "away",
+      "player": "Thomas Müller",
+      "type": "goal",
+      "description": "Second goal after a counter-attack."
+    },
+    {
+      "minute": "89'",
+      "side": "away",
+      "player": "Arne Friedrich",
+      "type": "goal",
+      "description": "Final goal from a set piece."
+    }
+  ],
+  "stats": [
+    {
+      "label": "Shots",
+      "home": 10,
+      "away": 20,
+      "homeWidth": 33,
+      "awayWidth": 67
+    },
+    {
+      "label": "Shots on Target",
+      "home": 4,
+      "away": 11,
+      "homeWidth": 27,
+      "awayWidth": 73
+    },
+    {
+      "label": "Possession",
+      "home": 40,
+      "away": 60,
+      "homeWidth": 40,
+      "awayWidth": 60
+    },
+    {
+      "label": "Passes",
+      "home": 300,
+      "away": 450,
+      "homeWidth": 40,
+      "awayWidth": 60
+    },
+    {
+      "label": "Pass Accuracy",
+      "home": "82%",
+      "away": "90%",
+      "homeWidth": 45,
+      "awayWidth": 55
+    },
+    {
+      "label": "Corners",
+      "home": 3,
+      "away": 7,
+      "homeWidth": 30,
+      "awayWidth": 70
+    },
+    {
+      "label": "Fouls",
+      "home": 15,
+      "away": 17,
+      "homeWidth": 47,
+      "awayWidth": 53
+    },
+    {
+      "label": "xG",
+      "home": "0.76",
+      "away": "3.25",
+      "homeWidth": 20,
+      "awayWidth": 80
+    }
+  ],
+  "metaDescription": "Germany stunned Argentina with a 4-0 victory in the FIFA World Cup 2010 Quarter-Final, showcasing tactical superiority and skill.",
+  "tacticalAnalysis": "In this high-stakes quarter-final at the 2010 FIFA World Cup, Germany employed a fluid 4-2-3-1 formation that allowed them to dominate the midfield. Bastian Schweinsteiger and Sami Khedira played pivotal roles as double pivots, providing both defensive cover and initiating attacks. Argentina, on the other hand, lined up in a 4-3-3, with Lionel Messi, Gonzalo Higuain, and Carlos Tevez forming the front three. However, their high defensive line was exposed by Germany's quick transitions. The opening goal came from a set piece, a sign of Argentina’s defensive vulnerabilities, with Thomas Müller capitalizing on a corner. As the match progressed, Mertesacker and Friedrich held strong against Higuain's incursions, while Klose and Müller exploited gaps left by Argentina's pressing, particularly during their quick counter-attacking phases. Maradona's tactical decisions came under scrutiny as they struggled to adapt, ultimately leading to a comprehensive defeat.",
+  "keyMoments": [
+    "24' - Thomas Müller scores from a corner, breaking the deadlock.",
+    "68' - Miroslav Klose doubles the lead, taking advantage of their left flank.",
+    "74' - Müller scores again, showcasing Germany's quick counterplay.",
+    "89' - Friedrich seals the match with a header from a set-piece."
+  ],
+  "historicalSignificance": "This match represents a pivotal moment in World Cup history, highlighting Germany's tactical evolution under Joachim Löw. The 4-0 defeat marked Argentina's first exit in the knockout stage under Diego Maradona's management, asserting Germany's status as one of the tournament favorites.",
+  "topPerformers": [
+    {
+      "name": "Thomas Müller",
+      "side": "away",
+      "position": "RW",
+      "rating": 9.5,
+      "note": "Scored two goals and was a constant threat on the right flank."
+    },
+    {
+      "name": "Miroslav Klose",
+      "side": "away",
+      "position": "ST",
+      "rating": 8.8,
+      "note": "Key in Germany's attacking movement, scoring the second goal."
+    },
+    {
+      "name": "Lionel Messi",
+      "side": "home",
+      "position": "RW",
+      "rating": 7.2,
+      "note": "Despite being well-marked, he created chances for his teammates."
+    }
+  ]
+}

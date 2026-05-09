@@ -1,0 +1,187 @@
+{
+  "id": "germany-vs-portugal-2006-3rd",
+  "tournament": "FIFA World Cup 2006",
+  "year": 2006,
+  "stage": "Third Place",
+  "date": "July 8, 2006",
+  "venue": "Stuttgart Arena",
+  "city": "Stuttgart, Germany",
+  "home": {
+    "name": "Germany",
+    "flag": "🇩🇪",
+    "formation": "4-2-3-1",
+    "color": "#E8E8E8",
+    "colorDim": "rgba(232,232,232,0.18)",
+    "players": [
+      " Jens Lehmann",
+      " Roberto Huth",
+      " Per Mertesacker",
+      " Christoph Metzelder",
+      " Philipp Lahm",
+      " Michael Ballack",
+      " Torsten Frings",
+      " Bastian Schweinsteiger",
+      " Lukas Podolski",
+      " Miroslav Klose",
+      " Oliver Neuville"
+    ],
+    "score": 3
+  },
+  "away": {
+    "name": "Portugal",
+    "flag": "🇵🇹",
+    "formation": "4-3-3",
+    "color": "#006600",
+    "colorDim": "rgba(0,102,0,0.18)",
+    "players": [
+      " Ricardo Carvalho",
+      " Paulo Ferreira",
+      " Pepe",
+      " Fernando Meira",
+      " Cristiano Ronaldo",
+      " Maniche",
+      " Deco",
+      " Tiago",
+      " Nuno Gomes",
+      " Luis Figo",
+      " Helder Postiga"
+    ],
+    "score": 1
+  },
+  "status": "FT",
+  "xG": {
+    "home": 2.8,
+    "away": 0.5
+  },
+  "possession": {
+    "home": 58,
+    "away": 42
+  },
+  "timeline": [
+    {
+      "minute": "56'",
+      "side": "home",
+      "player": "Lukas Podolski",
+      "type": "goal",
+      "description": "Podolski scored with a powerful shot from outside the box."
+    },
+    {
+      "minute": "61'",
+      "side": "home",
+      "player": "Lukas Podolski",
+      "type": "goal",
+      "description": "Podolski doubled the lead after a close-range finish."
+    },
+    {
+      "minute": "79'",
+      "side": "home",
+      "player": "Bastian Schweinsteiger",
+      "type": "goal",
+      "description": "Schweinsteiger added a third with a low drive."
+    },
+    {
+      "minute": "87'",
+      "side": "away",
+      "player": "Nuno Gomes",
+      "type": "goal",
+      "description": "Nuno Gomes scored Portugal's consolation goal."
+    }
+  ],
+  "stats": [
+    {
+      "label": "Shots",
+      "home": 16,
+      "away": 7,
+      "homeWidth": 70,
+      "awayWidth": 30
+    },
+    {
+      "label": "Shots on Target",
+      "home": 9,
+      "away": 3,
+      "homeWidth": 75,
+      "awayWidth": 25
+    },
+    {
+      "label": "Possession",
+      "home": 58,
+      "away": 42,
+      "homeWidth": 58,
+      "awayWidth": 42
+    },
+    {
+      "label": "Passes",
+      "home": 550,
+      "away": 400,
+      "homeWidth": 58,
+      "awayWidth": 42
+    },
+    {
+      "label": "Pass Accuracy",
+      "home": "85%",
+      "away": "78%",
+      "homeWidth": 85,
+      "awayWidth": 78
+    },
+    {
+      "label": "Corners",
+      "home": 7,
+      "away": 3,
+      "homeWidth": 70,
+      "awayWidth": 30
+    },
+    {
+      "label": "Fouls",
+      "home": 15,
+      "away": 12,
+      "homeWidth": 56,
+      "awayWidth": 44
+    },
+    {
+      "label": "xG",
+      "home": "2.80",
+      "away": "0.50",
+      "homeWidth": 80,
+      "awayWidth": 20
+    }
+  ],
+  "metaDescription": "Germany secured third place in the 2006 World Cup with a 3-1 victory over Portugal, showcasing their offensive prowess and home advantage.",
+  "tacticalAnalysis": "Germany utilized a 4-2-3-1 formation, effectively using the width provided by their wing players Podolski and Schweinsteiger. Ballack and Frings anchored the midfield, allowing attacking players to exploit gaps in Portugal's defense. Portugal's 4-3-3, while aggressive, found it challenging to contain Germany's pace and movement off the ball. Germany's pressing forced Portugal into errors, creating chances through swift counter-attacks. The goals illustrated Germany's clinical finishing, with Podolski's two strikes originating from quick transitions, and Schweinsteiger’s third goal stemming from a well-executed team play highlighting their attacking rhythm and chemistry. Manager Jürgen Klinsmann's tactical choices emphasized attacking football, ensuring Germany left the tournament on a high note.",
+  "keyMoments": [
+    "56' - Podolski opens the scoring with a long-range strike.",
+    "61' - Podolski scores again to double the lead.",
+    "79' - Schweinsteiger's low shot makes it 3-0.",
+    "87' - Nuno Gomes pulls one back for Portugal."
+  ],
+  "historicalSignificance": "This match marked Germany's successful World Cup campaign, finishing third on home soil. The match reinforced Germany's reputation for strong performances in international tournaments and showcased the rising talents of players like Podolski and Schweinsteiger, setting the tone for future success in football.",
+  "topPerformers": [
+    {
+      "name": "Lukas Podolski",
+      "side": "home",
+      "position": "LW",
+      "rating": 9.2,
+      "note": "Podolski's double gave Germany a commanding lead and highlighted his finishing skills."
+    },
+    {
+      "name": "Bastian Schweinsteiger",
+      "side": "home",
+      "position": "CM",
+      "rating": 8.5,
+      "note": "Schweinsteiger's contribution in terms of assists and control in midfield was crucial to the team's victory."
+    },
+    {
+      "name": "Nuno Gomes",
+      "side": "away",
+      "position": "ST",
+      "rating": 7.5,
+      "note": "Gomes' goal showed resilience and skill, even in defeat."
+    },
+    {
+      "name": "Jens Lehmann",
+      "side": "home",
+      "position": "GK",
+      "rating": 8,
+      "note": "Lehmann's saves were key in maintaining Germany's lead and securing the win."
+    }
+  ]
+}

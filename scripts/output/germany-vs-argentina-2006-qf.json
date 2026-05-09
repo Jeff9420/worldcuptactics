@@ -1,0 +1,181 @@
+{
+  "id": "germany-vs-argentina-2006-qf",
+  "tournament": "FIFA World Cup 2006",
+  "year": 2006,
+  "stage": "Quarter-Final",
+  "date": "June 30, 2006",
+  "venue": "Olympiastadion",
+  "city": "Berlin, Germany",
+  "home": {
+    "name": "Germany",
+    "flag": "🇩🇪",
+    "formation": "4-4-2",
+    "color": "#E8E8E8",
+    "colorDim": "rgba(232,232,232,0.18)",
+    "players": [
+      "Jens Lehmann",
+      "Philipp Lahm",
+      "Per Mertesacker",
+      "Christoph Metzelder",
+      "Mario Gomez",
+      "Bastian Schweinsteiger",
+      "Michael Ballack",
+      "Toni Kroos",
+      "Luca Toni",
+      "Miroslav Klose",
+      "Torsten Frings"
+    ],
+    "score": 1
+  },
+  "away": {
+    "name": "Argentina",
+    "flag": "🇦🇷",
+    "formation": "4-3-1-2",
+    "color": "#74BBFB",
+    "colorDim": "rgba(116,187,251,0.18)",
+    "players": [
+      "Julián Palacio",
+      "Hugo Campagnaro",
+      "Roberto Ayala",
+      "Juan Pablo Sorín",
+      "Gabriel Heinze",
+      "Javier Mascherano",
+      "Esteban Cambiasso",
+      "Lionel Messi",
+      "Juan Román Riquelme",
+      "Carlos Tévez",
+      "Hernán Crespo"
+    ],
+    "score": 1
+  },
+  "status": "PSO",
+  "penaltyScore": "4-2",
+  "xG": {
+    "home": 2.65,
+    "away": 1.84
+  },
+  "possession": {
+    "home": 53,
+    "away": 47
+  },
+  "timeline": [
+    {
+      "minute": "54'",
+      "side": "home",
+      "player": "Miroslav Klose",
+      "type": "goal",
+      "description": "Klose heads Germany into the lead from a corner."
+    },
+    {
+      "minute": "71'",
+      "side": "away",
+      "player": "Roberto Ayala",
+      "type": "goal",
+      "description": "Ayala equalises with a close-range finish."
+    },
+    {
+      "minute": "90'",
+      "side": "home",
+      "player": "Torsten Frings",
+      "type": "yellow",
+      "description": "Frings receives a yellow card for a late challenge."
+    },
+    {
+      "minute": "120'",
+      "side": "away",
+      "player": "Esteban Cambiasso",
+      "type": "pen_miss",
+      "description": "Cambiasso misses the first penalty in the shootout."
+    }
+  ],
+  "stats": [
+    {
+      "label": "Shots",
+      "home": 14,
+      "away": 11,
+      "homeWidth": 56,
+      "awayWidth": 44
+    },
+    {
+      "label": "Shots on Target",
+      "home": 6,
+      "away": 4,
+      "homeWidth": 60,
+      "awayWidth": 40
+    },
+    {
+      "label": "Possession",
+      "home": 53,
+      "away": 47,
+      "homeWidth": 53,
+      "awayWidth": 47
+    },
+    {
+      "label": "Passes",
+      "home": 450,
+      "away": 400,
+      "homeWidth": 53,
+      "awayWidth": 47
+    },
+    {
+      "label": "Pass Accuracy",
+      "home": "84%",
+      "away": "79%",
+      "homeWidth": 53,
+      "awayWidth": 47
+    },
+    {
+      "label": "Corners",
+      "home": 5,
+      "away": 3,
+      "homeWidth": 63,
+      "awayWidth": 37
+    },
+    {
+      "label": "Fouls",
+      "home": 15,
+      "away": 12,
+      "homeWidth": 56,
+      "awayWidth": 44
+    },
+    {
+      "label": "xG",
+      "home": "2.65",
+      "away": "1.84",
+      "homeWidth": 59,
+      "awayWidth": 41
+    }
+  ],
+  "metaDescription": "Germany vs Argentina quarter-final match at FIFA World Cup 2006 ended in a thrilling shootout, with Germany advancing after penalties.",
+  "tacticalAnalysis": "In this intense Quarter-Final clash, Germany deployed a 4-4-2 formation. Miroslav Klose and Luca Toni formed a potent strike partnership, with Klose's aerial ability proving crucial for Germany's lead in the 54th minute, when he headed home from a well-delivered corner. The midfield saw Bastian Schweinsteiger and Torsten Frings work tirelessly to provide balance, while Michael Ballack was instrumental as the playmaker, orchestrating Germany's attacks. Argentina countered with a 4-3-1-2 formation, featuring Juan Román Riquelme in the hole behind forwards Hernán Crespo and Carlos Tévez. Their equaliser in the 71st minute showcased precise passing, culminating with Ayala finishing from inside the box. The match saw both teams display defensive resilience, as Lehmann’s goalkeeping was critical during the shootout. In penalties, his strategic notes on Argentine players added an intriguing layer to the psychological battle.",
+  "keyMoments": [
+    "54' - Klose heads Germany into the lead.",
+    "71' - Ayala equalises for Argentina.",
+    "120' - Cambiasso misses crucial penalty.",
+    "Penalty shootout - Lehmann's saves guide Germany to victory."
+  ],
+  "historicalSignificance": "This match is renowned for its high tension and dramatic penalty shootout, cementing Germany's reputation as a powerhouse in knockout tournaments. It also highlighted the tactical battles between two legendary football nations.",
+  "topPerformers": [
+    {
+      "name": "Jens Lehmann",
+      "side": "home",
+      "position": "GK",
+      "rating": 9.3,
+      "note": "Outstanding saves during penalties, contributing to Germany's victory."
+    },
+    {
+      "name": "Miroslav Klose",
+      "side": "home",
+      "position": "ST",
+      "rating": 8.7,
+      "note": "Prolific striker, scored the opener with a powerful header."
+    },
+    {
+      "name": "Roberto Ayala",
+      "side": "away",
+      "position": "CB",
+      "rating": 8.2,
+      "note": "Important in defense and scored the equaliser."
+    }
+  ]
+}

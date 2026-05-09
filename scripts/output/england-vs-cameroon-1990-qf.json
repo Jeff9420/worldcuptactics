@@ -1,0 +1,195 @@
+{
+  "id": "england-vs-cameroon-1990-qf",
+  "tournament": "FIFA World Cup 1990",
+  "year": 1990,
+  "stage": "Quarter-Final",
+  "date": "July 1, 1990",
+  "venue": "Stadio San Paolo",
+  "city": "Naples, Italy",
+  "home": {
+    "name": "England",
+    "flag": "🇬🇧",
+    "formation": "3-5-2",
+    "color": "#CF142B",
+    "colorDim": "rgba(207,20,43,0.18)",
+    "players": [
+      "Peter Shilton",
+      "Gary Lineker",
+      "Tony Adams",
+      "Des Walker",
+      "John Barnes",
+      "David Platt",
+      "Paul Gascoigne",
+      "Steve McMahon",
+      "Gary Parker",
+      "Lee Dixon",
+      "Alan Shearer"
+    ],
+    "score": 3
+  },
+  "away": {
+    "name": "Cameroon",
+    "flag": "🇨🇲",
+    "formation": "4-4-2",
+    "color": "#007A5E",
+    "colorDim": "rgba(0,122,94,0.18)",
+    "players": [
+      "Thomas Nkono",
+      "Camille Njoh",
+      "Benjamin Massing",
+      "Jean-Claude Gimel",
+      "Emile Mbouh",
+      "Hugo Biyong",
+      "Guillaume Kanhé",
+      "François Omam-Biyik",
+      "Roger Milla",
+      "Pierre Wome",
+      "Eugène Ekeke"
+    ],
+    "score": 2
+  },
+  "status": "AET",
+  "xG": {
+    "home": 2.67,
+    "away": 1.9
+  },
+  "possession": {
+    "home": 58,
+    "away": 42
+  },
+  "timeline": [
+    {
+      "minute": "25'",
+      "side": "away",
+      "player": "François Omam-Biyik",
+      "type": "goal",
+      "description": "Opened the scoring with a header from a corner."
+    },
+    {
+      "minute": "35'",
+      "side": "home",
+      "player": "Gary Lineker",
+      "type": "pen_goal",
+      "description": "Converted a penalty to equalize after a foul in the box."
+    },
+    {
+      "minute": "65'",
+      "side": "away",
+      "player": "Eugène Ekeke",
+      "type": "goal",
+      "description": "Put Cameroon ahead again with a close-range shot."
+    },
+    {
+      "minute": "82'",
+      "side": "home",
+      "player": "Gary Lineker",
+      "type": "pen_goal",
+      "description": "Scored another penalty to level the match."
+    },
+    {
+      "minute": "100'",
+      "side": "home",
+      "player": "David Platt",
+      "type": "goal",
+      "description": "Scored the decisive goal in extra time."
+    }
+  ],
+  "stats": [
+    {
+      "label": "Shots",
+      "home": 14,
+      "away": 9,
+      "homeWidth": 61,
+      "awayWidth": 39
+    },
+    {
+      "label": "Shots on Target",
+      "home": 6,
+      "away": 4,
+      "homeWidth": 60,
+      "awayWidth": 40
+    },
+    {
+      "label": "Possession",
+      "home": 58,
+      "away": 42,
+      "homeWidth": 58,
+      "awayWidth": 42
+    },
+    {
+      "label": "Passes",
+      "home": 400,
+      "away": 300,
+      "homeWidth": 57,
+      "awayWidth": 43
+    },
+    {
+      "label": "Pass Accuracy",
+      "home": "85%",
+      "away": "78%",
+      "homeWidth": 52,
+      "awayWidth": 48
+    },
+    {
+      "label": "Corners",
+      "home": 5,
+      "away": 3,
+      "homeWidth": 63,
+      "awayWidth": 37
+    },
+    {
+      "label": "Fouls",
+      "home": 15,
+      "away": 10,
+      "homeWidth": 60,
+      "awayWidth": 40
+    },
+    {
+      "label": "xG",
+      "home": "2.67",
+      "away": "1.90",
+      "homeWidth": 58,
+      "awayWidth": 42
+    }
+  ],
+  "metaDescription": "England faced Cameroon in a thrilling 1990 World Cup Quarter-Final, showcasing dramatic goals and the historic rise of African football.",
+  "tacticalAnalysis": "In this quarter-final clash, England deployed a 3-5-2 formation, utilizing a three-man defense anchored by Tony Adams, complemented by wing-backs like Lee Dixon and John Barnes who provided width and defensive support. Gary Lineker's positioning as a second striker allowed him to capitalize on defensive lapses. Cameroon lined up in a 4-4-2, with Emile Mbouh and Hugo Biyong working tirelessly to press England’s midfield. The dichotomy between Africa's first World Cup quarter-finalists and England introduced a fascinating tactical battle, with Cameroon initially taking the lead through set-pieces. England's resilience was evident as they converted two penalties, emphasizing their composure under pressure, leading to David Platt's crucial goal in extra time, demonstrating their adaptation and strategic depth throughout the match.",
+  "keyMoments": [
+    "25' - Omam-Biyik scores, giving Cameroon an early lead.",
+    "35' - Lineker equalizes with a penalty, showing England's fighting spirit.",
+    "65' - Ekeke's goal reminds everyone of Cameroon's tenacity.",
+    "82' - Lineker scores another penalty, shifting momentum to England.",
+    "100' - Platt's golden goal seals the historic victory for England."
+  ],
+  "historicalSignificance": "This match marked a pivotal moment in World Cup history as Cameroon became the first African nation to reach the quarter-finals, sparking hope and enthusiasm across the continent. The match is remembered for its drama, the emergence of Gary Lineker, and the cultural significance of Roger Milla's iconic celebrations.",
+  "topPerformers": [
+    {
+      "name": "Gary Lineker",
+      "side": "home",
+      "position": "ST",
+      "rating": 9,
+      "note": "His two penalty goals were vital in securing the win."
+    },
+    {
+      "name": "David Platt",
+      "side": "home",
+      "position": "CM",
+      "rating": 8.8,
+      "note": "Scored the crucial goal in extra time that advanced England."
+    },
+    {
+      "name": "Eugène Ekeke",
+      "side": "away",
+      "position": "ST",
+      "rating": 8.5,
+      "note": "Showcased skill by scoring and challenging England's defense."
+    },
+    {
+      "name": "Roger Milla",
+      "side": "away",
+      "position": "LW",
+      "rating": 8.3,
+      "note": "His creativity and dancing celebration left an indelible mark."
+    }
+  ]
+}

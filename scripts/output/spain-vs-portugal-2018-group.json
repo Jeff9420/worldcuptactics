@@ -1,0 +1,187 @@
+{
+  "id": "spain-vs-portugal-2018-group",
+  "tournament": "FIFA World Cup 2018",
+  "year": 2018,
+  "stage": "Group Stage (Group B)",
+  "date": "June 15, 2018",
+  "venue": "Fisht Olympic Stadium",
+  "city": "Sochi, Russia",
+  "home": {
+    "name": "Spain",
+    "flag": "🇪🇸",
+    "formation": "3-3-3-1",
+    "color": "#CC0000",
+    "colorDim": "rgba(204,0,0,0.18)",
+    "players": [
+      "David de Gea",
+      "Gerard Piqué",
+      "Sergio Ramos",
+      "Jordi Alba",
+      "César Azpilicueta",
+      "Busquets",
+      "Koke",
+      "David Silva",
+      "Isco",
+      "Diego Costa",
+      "Thiago Alcântara"
+    ],
+    "score": 3
+  },
+  "away": {
+    "name": "Portugal",
+    "flag": "🇵🇹",
+    "formation": "4-3-3",
+    "color": "#006600",
+    "colorDim": "rgba(0,102,0,0.18)",
+    "players": [
+      "Rui Patrício",
+      "Cedric Soares",
+      "Pepe",
+      "Ruben Dias",
+      "Raphaël Guerreiro",
+      "William Carvalho",
+      "João Mário",
+      "Bernardo Silva",
+      "Cristiano Ronaldo",
+      "Gonçalo Guedes",
+      "André Silva"
+    ],
+    "score": 3
+  },
+  "status": "FT",
+  "xG": {
+    "home": 2.9,
+    "away": 2.8
+  },
+  "possession": {
+    "home": 61,
+    "away": 39
+  },
+  "timeline": [
+    {
+      "minute": "3'",
+      "side": "home",
+      "player": "Diego Costa",
+      "type": "goal",
+      "description": "Controversial goal from a corner, ball deflected off his body."
+    },
+    {
+      "minute": "24'",
+      "side": "away",
+      "player": "Cristiano Ronaldo",
+      "type": "goal",
+      "description": "Powerful header from a corner."
+    },
+    {
+      "minute": "33'",
+      "side": "home",
+      "player": "Diego Costa",
+      "type": "goal",
+      "description": "Equalizer from a long ball, quick dribble and shot."
+    },
+    {
+      "minute": "44'",
+      "side": "away",
+      "player": "Cristiano Ronaldo",
+      "type": "goal",
+      "description": "Beautiful long-range curled shot."
+    },
+    {
+      "minute": "88'",
+      "side": "away",
+      "player": "Cristiano Ronaldo",
+      "type": "goal",
+      "description": "Last-minute free-kick to complete his hat-trick."
+    }
+  ],
+  "stats": [
+    {
+      "label": "Shots",
+      "home": 15,
+      "away": 10,
+      "homeWidth": 60,
+      "awayWidth": 40
+    },
+    {
+      "label": "Shots on Target",
+      "home": 8,
+      "away": 5,
+      "homeWidth": 62.5,
+      "awayWidth": 37.5
+    },
+    {
+      "label": "Possession",
+      "home": 61,
+      "away": 39,
+      "homeWidth": 100,
+      "awayWidth": 0
+    },
+    {
+      "label": "Passes",
+      "home": 700,
+      "away": 400,
+      "homeWidth": 63.64,
+      "awayWidth": 36.36
+    },
+    {
+      "label": "Pass Accuracy",
+      "home": "89%",
+      "away": "78%",
+      "homeWidth": 53,
+      "awayWidth": 47
+    },
+    {
+      "label": "Corners",
+      "home": 7,
+      "away": 3,
+      "homeWidth": 70,
+      "awayWidth": 30
+    },
+    {
+      "label": "Fouls",
+      "home": 12,
+      "away": 8,
+      "homeWidth": 60,
+      "awayWidth": 40
+    },
+    {
+      "label": "xG",
+      "home": "2.90",
+      "away": "2.80",
+      "homeWidth": 51,
+      "awayWidth": 49
+    }
+  ],
+  "metaDescription": "Dramatic match with a gripping 3-3 draw between Spain and Portugal in the 2018 World Cup group stage.",
+  "tacticalAnalysis": "Spain deployed a 3-3-3-1 formation, utilizing a three-man defense comprised of Ramos, Piqué, and Alba, with Azpilicueta providing width as a wing-back. The midfield trio of Busquets, Koke, and Thiago worked primarily to dominate possession and conduct ball distribution. Portugal’s 4-3-3 formation, anchored by Carvalho and pushed forward by Ronaldo, was designed for quick counter-attacks. Spain struggled defensively against Portugal's pace, leading to matches of transition where Ronaldo's movement proved crucial. Each goal reflected tactical vulnerabilities, particularly set-piece weaknesses exploited by both sides. Ronaldo's exceptional ability to find space was a critical factor, culminating in his last-minute free-kick that highlighted Portugal's resilience.",
+  "keyMoments": [
+    "3' - Costa's early controversial goal sets the tone.",
+    "24' - Ronaldo’s header equalizes and shifts momentum.",
+    "44' - Ronaldo's long-range shot gives Portugal a lead just before halftime.",
+    "88' - Ronaldo completes his hat-trick with a stunning free-kick."
+  ],
+  "historicalSignificance": "This match is remembered as one of the greatest encounters in World Cup history, showcasing immense individual talent and resilience from both teams. The dramatic nature of the game set the stage for the intense rivalry between Spain and Portugal in future tournaments.",
+  "topPerformers": [
+    {
+      "name": "Cristiano Ronaldo",
+      "side": "away",
+      "position": "FW",
+      "rating": 9.5,
+      "note": "Scored a hat-trick, including a memorable last-minute free-kick."
+    },
+    {
+      "name": "Diego Costa",
+      "side": "home",
+      "position": "FW",
+      "rating": 8.8,
+      "note": "Two goals displayed his strength and determination."
+    },
+    {
+      "name": "David de Gea",
+      "side": "home",
+      "position": "GK",
+      "rating": 5.5,
+      "note": "Had a difficult match, notably missing a catch leading to a goal."
+    }
+  ]
+}

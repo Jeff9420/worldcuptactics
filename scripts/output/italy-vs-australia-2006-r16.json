@@ -1,0 +1,158 @@
+{
+  "id": "italy-vs-australia-2006-r16",
+  "tournament": "FIFA World Cup 2006",
+  "year": 2006,
+  "stage": "Round of 16",
+  "date": "June 26, 2006",
+  "venue": "Fritz Walter Stadion",
+  "city": "Kaiserslautern, Germany",
+  "home": {
+    "name": "Italy",
+    "flag": "🇮🇹",
+    "formation": "4-2-3-1",
+    "color": "#0033A0",
+    "colorDim": "rgba(0,51,160,0.18)",
+    "players": [
+      "Gianluigi Buffon",
+      "Fabio Grosso",
+      "Alessandro Nesta",
+      "Fabio Cannavaro",
+      "Gianluca Zambrotta",
+      "Gennaro Gattuso",
+      "Andrea Pirlo",
+      "Francesco Totti",
+      "Marco Materazzi",
+      "Alberto Gilardino",
+      "Luca Toni"
+    ],
+    "score": 1
+  },
+  "away": {
+    "name": "Australia",
+    "flag": "🇦🇺",
+    "formation": "4-4-2",
+    "color": "#FFD700",
+    "colorDim": "rgba(255,215,0,0.18)",
+    "players": [
+      "Mark Schwarzer",
+      "Lucas Neill",
+      "Craig Moore",
+      "Matthew Spiranovic",
+      "Jade North",
+      "Luke Wilkshire",
+      "Scott Chipperfield",
+      "Tim Cahill",
+      "John Aloisi",
+      "Jason Culina",
+      "Mark Bresciano"
+    ],
+    "score": 0
+  },
+  "status": "FT",
+  "xG": {
+    "home": 1.27,
+    "away": 0.44
+  },
+  "possession": {
+    "home": 58,
+    "away": 42
+  },
+  "timeline": [
+    {
+      "minute": "95'",
+      "side": "home",
+      "player": "Francesco Totti",
+      "type": "pen_goal",
+      "description": "Converted a controversial penalty after being foul by Neill."
+    }
+  ],
+  "stats": [
+    {
+      "label": "Shots",
+      "home": 15,
+      "away": 6,
+      "homeWidth": 71,
+      "awayWidth": 29
+    },
+    {
+      "label": "Shots on Target",
+      "home": 5,
+      "away": 2,
+      "homeWidth": 71,
+      "awayWidth": 29
+    },
+    {
+      "label": "Possession",
+      "home": 58,
+      "away": 42,
+      "homeWidth": 58,
+      "awayWidth": 42
+    },
+    {
+      "label": "Passes",
+      "home": 500,
+      "away": 320,
+      "homeWidth": 61,
+      "awayWidth": 39
+    },
+    {
+      "label": "Pass Accuracy",
+      "home": "83%",
+      "away": "75%",
+      "homeWidth": 61,
+      "awayWidth": 39
+    },
+    {
+      "label": "Corners",
+      "home": 8,
+      "away": 3,
+      "homeWidth": 73,
+      "awayWidth": 27
+    },
+    {
+      "label": "Fouls",
+      "home": 11,
+      "away": 15,
+      "homeWidth": 42,
+      "awayWidth": 58
+    },
+    {
+      "label": "xG",
+      "home": "1.27",
+      "away": "0.44",
+      "homeWidth": 71,
+      "awayWidth": 29
+    }
+  ],
+  "metaDescription": "Italy advances to the quarter-finals after a controversial penalty victory over Australia in the 2006 World Cup Round of 16.",
+  "tacticalAnalysis": "Italy utilized a 4-2-3-1 formation, with Gianluigi Buffon as the last line of defense, supported by a solid back four, including Fabio Grosso who provided width and attacking support on the left flank. Gattuso and Pirlo operated as the double pivot, controlling the midfield. Totti, positioned as the attacking midfielder, was crucial for dictating the play and linking up with forwards Gilardino and Toni. Australia, in a 4-4-2 setup, relied on Cahill and Aloisi to press high and exploit any defensive lapses. However, despite their effective pressing and compactness, they were often thwarted by Italy's strategy of quick transitions and patient buildup. The pivotal moment arose in injury time when Grosso was adjudged to have been fouled leading to Totti's decisive penalty, overshadowing Australia's commendable performance throughout the match.",
+  "keyMoments": [
+    "95' - Controversial penalty awarded to Italy after a foul on Grosso.",
+    "Francesco Totti converts the penalty to win the match for Italy.",
+    "Australia's strong defensive performance was highlighted with significant interventions from Neill and Moore."
+  ],
+  "historicalSignificance": "This match is remembered for Italy's controversial advancement through a dubious penalty decision, demonstrating the intense pressure inherent in knockout football. Additionally, it marked Italy's continued pursuit of the World Cup title, which they ultimately achieved later that tournament.",
+  "topPerformers": [
+    {
+      "name": "Francesco Totti",
+      "side": "home",
+      "position": "CAM",
+      "rating": 9,
+      "note": "Crucial penalty taker who decided the match."
+    },
+    {
+      "name": "Gianluigi Buffon",
+      "side": "home",
+      "position": "GK",
+      "rating": 8.5,
+      "note": "Made several key saves throughout the game."
+    },
+    {
+      "name": "Tim Cahill",
+      "side": "away",
+      "position": "CM",
+      "rating": 8,
+      "note": "Outstanding in midfield, creating several chances."
+    }
+  ]
+}

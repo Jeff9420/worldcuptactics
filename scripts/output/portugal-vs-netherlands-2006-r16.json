@@ -1,0 +1,201 @@
+{
+  "id": "portugal-vs-netherlands-2006-r16",
+  "tournament": "FIFA World Cup 2006",
+  "year": 2006,
+  "stage": "Round of 16",
+  "date": "June 25, 2006",
+  "venue": "Commerzbank-Arena",
+  "city": "Frankfurt, Germany",
+  "home": {
+    "name": "Portugal",
+    "flag": "🇵🇹",
+    "formation": "4-3-3",
+    "color": "#006600",
+    "colorDim": "rgba(0,102,0,0.18)",
+    "players": [
+      "Ricardo",
+      "Miguel",
+      "Carvalho",
+      "Meira",
+      "Ferreira",
+      "Maniche",
+      "Deco",
+      "Costinha",
+      "Figo",
+      "Luis Boa Morte",
+      "Pauleta"
+    ],
+    "score": 1
+  },
+  "away": {
+    "name": "Netherlands",
+    "flag": "🇳🇱",
+    "formation": "4-3-3",
+    "color": "#FF6200",
+    "colorDim": "rgba(255,98,0,0.18)",
+    "players": [
+      "Van der Sar",
+      "Kuyt",
+      "Boulahrouz",
+      "Ooijer",
+      "Gio",
+      "Cocu",
+      "Sneijder",
+      "Van Bommel",
+      "Robben",
+      "Van Nistelrooy",
+      "Huntelaar"
+    ],
+    "score": 0
+  },
+  "status": "FT",
+  "xG": {
+    "home": 1.5,
+    "away": 0.25
+  },
+  "possession": {
+    "home": 56,
+    "away": 44
+  },
+  "timeline": [
+    {
+      "minute": "23'",
+      "side": "home",
+      "player": "Maniche",
+      "type": "goal",
+      "description": "Maniche scores with a strike from outside the box."
+    },
+    {
+      "minute": "37'",
+      "side": "neutral",
+      "player": "Ivanov",
+      "type": "red",
+      "description": "First red card shown to Dutch player Boulahrouz."
+    },
+    {
+      "minute": "44'",
+      "side": "neutral",
+      "player": "Ivanov",
+      "type": "yellow",
+      "description": "Yellow card issued to Figo."
+    },
+    {
+      "minute": "64'",
+      "side": "neutral",
+      "player": "Ivanov",
+      "type": "red",
+      "description": "Second red card for Dutch player Van Nistelrooy."
+    },
+    {
+      "minute": "86'",
+      "side": "neutral",
+      "player": "Ivanov",
+      "type": "red",
+      "description": "Third red card for Portuguese player Costinha."
+    },
+    {
+      "minute": "90'",
+      "side": "neutral",
+      "player": "Ivanov",
+      "type": "red",
+      "description": "Fourth red card for Dutch player Robben."
+    }
+  ],
+  "stats": [
+    {
+      "label": "Shots",
+      "home": 13,
+      "away": 6,
+      "homeWidth": 68,
+      "awayWidth": 32
+    },
+    {
+      "label": "Shots on Target",
+      "home": 6,
+      "away": 2,
+      "homeWidth": 75,
+      "awayWidth": 25
+    },
+    {
+      "label": "Possession",
+      "home": 56,
+      "away": 44,
+      "homeWidth": 56,
+      "awayWidth": 44
+    },
+    {
+      "label": "Passes",
+      "home": 400,
+      "away": 320,
+      "homeWidth": 56,
+      "awayWidth": 44
+    },
+    {
+      "label": "Pass Accuracy",
+      "home": "85%",
+      "away": "78%",
+      "homeWidth": 56,
+      "awayWidth": 44
+    },
+    {
+      "label": "Corners",
+      "home": 3,
+      "away": 4,
+      "homeWidth": 43,
+      "awayWidth": 57
+    },
+    {
+      "label": "Fouls",
+      "home": 15,
+      "away": 20,
+      "homeWidth": 43,
+      "awayWidth": 57
+    },
+    {
+      "label": "xG",
+      "home": "1.50",
+      "away": "0.25",
+      "homeWidth": 86,
+      "awayWidth": 14
+    }
+  ],
+  "metaDescription": "Portugal defeats the Netherlands 1-0 in a chaotic Round of 16 match at the 2006 FIFA World Cup.",
+  "tacticalAnalysis": "Portugal lined up in a 4-3-3 formation with a strong midfield presence, allowing them to control possession and dictate the pace of the game. The trio of Maniche, Deco, and Costinha provided both defensive stability and attacking support through clever interplay. The Dutch mirrored them with their own 4-3-3, relying heavily on the width provided by Robben and Kuyt. The first half showcased Portugal's solid defense and fluid ball retention, culminating in Maniche's long-range strike in the 23rd minute, which was a result of quick passing and fluid movement around the Dutch defenders. Both teams struggled to maintain discipline, resulting in a record number of cards, showcasing the tension and competitiveness of the match. The Dutch attempted to respond after going a goal down, but they found it challenging to penetrate Portugal's well-organized defense, often attempting to play through the flanks where they were met with resolute defending. Manager Felipe Scolari’s decision to place Figo in a more advanced role allowed Portugal to exploit gaps in the Dutch backline, ultimately ensuring Portugal's passage to the quarter-finals despite the chaotic nature of the match.",
+  "keyMoments": [
+    "Maniche's opening goal at 23' changed the game's momentum.",
+    "Boulahrouz's red card at 37' opened up space for Portugal.",
+    "The clash of Van Nistelrooy's red card at 64' diminished Dutch hopes.",
+    "Robben's late red card at 90' capped a tumultuous encounter."
+  ],
+  "historicalSignificance": "This match is remembered as one of the most chaotic in World Cup history, featuring four red cards and numerous yellow cards. Portugal's victory and the match's intensity emphasized the high stakes of knockout football.",
+  "topPerformers": [
+    {
+      "name": "Ricardo",
+      "side": "home",
+      "position": "GK",
+      "rating": 9,
+      "note": "Made crucial saves that preserved the lead for Portugal."
+    },
+    {
+      "name": "Maniche",
+      "side": "home",
+      "position": "CM",
+      "rating": 8.5,
+      "note": "Scored the winning goal and controlled the midfield effectively."
+    },
+    {
+      "name": "Van der Sar",
+      "side": "away",
+      "position": "GK",
+      "rating": 8,
+      "note": "Made several important stops to keep the scoreline close."
+    },
+    {
+      "name": "Robben",
+      "side": "away",
+      "position": "LW",
+      "rating": 7.5,
+      "note": "Threatened with pace and skill despite the harsh result."
+    }
+  ]
+}

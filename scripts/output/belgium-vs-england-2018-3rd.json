@@ -1,0 +1,188 @@
+{
+  "id": "belgium-vs-england-2018-3rd",
+  "tournament": "FIFA World Cup 2018",
+  "year": 2018,
+  "stage": "Third Place",
+  "date": "July 14, 2018",
+  "venue": "Saint Petersburg Stadium",
+  "city": "St Petersburg, Russia",
+  "home": {
+    "name": "Belgium",
+    "flag": "🇧🇪",
+    "formation": "3-4-2-1",
+    "color": "#EDCB27",
+    "colorDim": "rgba(237,203,39,0.18)",
+    "players": [
+      "Thibaut Courtois",
+      "Toby Alderweireld",
+      "Vincent Kompany",
+      "Jan Vertonghen",
+      "Thomas Meunier",
+      "Axel Witsel",
+      "Kevin De Bruyne",
+      "Nacer Chadli",
+      "Eden Hazard",
+      "Romelu Lukaku",
+      "Dries Mertens"
+    ],
+    "score": 2
+  },
+  "away": {
+    "name": "England",
+    "flag": "🇬🇧",
+    "formation": "3-5-2",
+    "color": "#CF142B",
+    "colorDim": "rgba(207,20,43,0.18)",
+    "players": [
+      "Jordan Pickford",
+      "John Stones",
+      "Harry Maguire",
+      "Kyle Walker",
+      "Kieran Trippier",
+      "Dele Alli",
+      "Jordan Henderson",
+      "Fabian Delph",
+      "Jesse Lingard",
+      "Harry Kane",
+      "Raheem Sterling"
+    ],
+    "score": 0
+  },
+  "status": "FT",
+  "xG": {
+    "home": 2.25,
+    "away": 0.58
+  },
+  "possession": {
+    "home": 59,
+    "away": 41
+  },
+  "timeline": [
+    {
+      "minute": "4'",
+      "side": "home",
+      "player": "Thomas Meunier",
+      "type": "goal",
+      "description": "Meunier scored with a low shot after a quick counter-attack."
+    },
+    {
+      "minute": "20'",
+      "side": "home",
+      "player": "Romelu Lukaku",
+      "type": "goal",
+      "description": "Lukaku doubled the lead with a clinical finish from close range."
+    },
+    {
+      "minute": "60'",
+      "side": "away",
+      "player": "Kieran Trippier",
+      "type": "yellow",
+      "description": "Trippier booked for a foul on Hazard."
+    },
+    {
+      "minute": "75'",
+      "side": "away",
+      "player": "Jamie Vardy",
+      "type": "sub",
+      "description": "Vardy replaced Sterling to add more attacking threat."
+    },
+    {
+      "minute": "90'",
+      "side": "home",
+      "player": "Dries Mertens",
+      "type": "sub",
+      "description": "Mertens replaced Lukaku for the final minutes."
+    }
+  ],
+  "stats": [
+    {
+      "label": "Shots",
+      "home": 18,
+      "away": 9,
+      "homeWidth": 67,
+      "awayWidth": 33
+    },
+    {
+      "label": "Shots on Target",
+      "home": 9,
+      "away": 3,
+      "homeWidth": 75,
+      "awayWidth": 25
+    },
+    {
+      "label": "Possession",
+      "home": 59,
+      "away": 41,
+      "homeWidth": 59,
+      "awayWidth": 41
+    },
+    {
+      "label": "Passes",
+      "home": 550,
+      "away": 385,
+      "homeWidth": 59,
+      "awayWidth": 41
+    },
+    {
+      "label": "Pass Accuracy",
+      "home": "85%",
+      "away": "78%",
+      "homeWidth": 59,
+      "awayWidth": 41
+    },
+    {
+      "label": "Corners",
+      "home": 7,
+      "away": 5,
+      "homeWidth": 58,
+      "awayWidth": 42
+    },
+    {
+      "label": "Fouls",
+      "home": 12,
+      "away": 11,
+      "homeWidth": 52,
+      "awayWidth": 48
+    },
+    {
+      "label": "xG",
+      "home": "2.25",
+      "away": "0.58",
+      "homeWidth": 79,
+      "awayWidth": 21
+    }
+  ],
+  "metaDescription": "Belgium secured third place at the 2018 World Cup with a stunning win over England, showcasing their Golden Generation.",
+  "tacticalAnalysis": "Belgium adopted a 3-4-2-1 formation, enabling their wing-backs to exploit space on the flanks, with Meunier's early goal epitomizing this strategy. Lukaku operated as a lone striker supported by Hazard and De Bruyne, who frequently interchanged positions to confuse England's defense. England, setup in a 3-5-2 formation, struggled to create clear chances, with Kane isolated and heavily marked. Belgium's midfield dominance, particularly by Witsel and De Bruyne, stifled England's build-up play, making it difficult for them to transition quickly into attack. The effectiveness of Belgium's pressing scheme forced England into errors, leading to goal-scoring opportunities, cementing their historic third-place finish.",
+  "keyMoments": [
+    "4' - Meunier scores the opener with a well-placed shot.",
+    "20' - Lukaku extends the lead with a powerful finish.",
+    "60' - Trippier booked for a foul on Hazard.",
+    "75' - Vardy brought on to enhance attacking options.",
+    "90' - Mertens substituted in for Lukaku to close out the match."
+  ],
+  "historicalSignificance": "This match marked Belgium's best-ever World Cup finish, achieving third place and showcasing their talented squad, known as the 'Golden Generation'. It highlighted a successful tournament campaign and boosted confidence for future competitions.",
+  "topPerformers": [
+    {
+      "name": "Thibaut Courtois",
+      "side": "home",
+      "position": "GK",
+      "rating": 9.2,
+      "note": "Made several crucial saves to maintain a clean sheet."
+    },
+    {
+      "name": "Eden Hazard",
+      "side": "home",
+      "position": "CAM",
+      "rating": 8.5,
+      "note": "Provided key passes and was influential in the attack."
+    },
+    {
+      "name": "Romelu Lukaku",
+      "side": "home",
+      "position": "ST",
+      "rating": 8.8,
+      "note": "Scored a vital goal and led the line effectively."
+    }
+  ]
+}

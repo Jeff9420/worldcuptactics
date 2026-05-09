@@ -1,0 +1,204 @@
+{
+  "id": "netherlands-vs-argentina-2014-sf",
+  "tournament": "FIFA World Cup 2014",
+  "year": 2014,
+  "stage": "Semi-Final",
+  "date": "July 9, 2014",
+  "venue": "Arena de São Paulo",
+  "city": "São Paulo, Brazil",
+  "home": {
+    "name": "Netherlands",
+    "flag": "🇳🇱",
+    "formation": "5-3-2",
+    "color": "#FF6200",
+    "colorDim": "rgba(255,98,0,0.18)",
+    "players": [
+      "Sergio Romero",
+      "Ron Vlaar",
+      "Jasper Cillessen",
+      "Gregory van der Wiel",
+      "Daley Blind",
+      "Martin de Roon",
+      "Wesley Sneijder",
+      "Arjen Robben",
+      "Robin van Persie",
+      "Kevin Strootman",
+      "Ronald Koeman"
+    ],
+    "score": 0
+  },
+  "away": {
+    "name": "Argentina",
+    "flag": "🇦🇷",
+    "formation": "4-3-3",
+    "color": "#74BBFB",
+    "colorDim": "rgba(116,187,251,0.18)",
+    "players": [
+      "Sergio Romero",
+      "Pablo Zabaleta",
+      "Ezequiel Garay",
+      "Martin Demichelis",
+      "Javier Mascherano",
+      "Lucas Biglia",
+      "Angel Di Maria",
+      "Javier Pastore",
+      "Lionel Messi",
+      "Sergio Agüero",
+      "Gonzalo Higuain"
+    ],
+    "score": 0
+  },
+  "status": "PSO",
+  "penaltyScore": "2-4",
+  "xG": {
+    "home": 0.85,
+    "away": 1.1
+  },
+  "possession": {
+    "home": 54,
+    "away": 46
+  },
+  "timeline": [
+    {
+      "minute": "0'",
+      "side": "neutral",
+      "player": "Kick-off",
+      "type": "sub",
+      "description": "Match begins"
+    },
+    {
+      "minute": "120'",
+      "side": "neutral",
+      "player": "Full-Time",
+      "type": "sub",
+      "description": "Extra time concludes with score 0-0"
+    },
+    {
+      "minute": "0'",
+      "side": "neutral",
+      "player": "Penalty Shootout",
+      "type": "sub",
+      "description": "Penalty shootout commences"
+    },
+    {
+      "minute": "2'",
+      "side": "away",
+      "player": "Gonzalo Higuain",
+      "type": "pen_miss",
+      "description": "Missed penalty hit the post"
+    },
+    {
+      "minute": "4'",
+      "side": "home",
+      "player": "Wesley Sneijder",
+      "type": "pen_miss",
+      "description": "Saved by Romero"
+    },
+    {
+      "minute": "1'",
+      "side": "away",
+      "player": "Lionel Messi",
+      "type": "pen_goal",
+      "description": "Scored on the rebound"
+    },
+    {
+      "minute": "3'",
+      "side": "away",
+      "player": "Sergio Agüero",
+      "type": "pen_goal",
+      "description": "Converted calmly"
+    }
+  ],
+  "stats": [
+    {
+      "label": "Shots",
+      "home": 14,
+      "away": 11,
+      "homeWidth": 55,
+      "awayWidth": 45
+    },
+    {
+      "label": "Shots on Target",
+      "home": 6,
+      "away": 5,
+      "homeWidth": 55,
+      "awayWidth": 45
+    },
+    {
+      "label": "Possession",
+      "home": 54,
+      "away": 46,
+      "homeWidth": 54,
+      "awayWidth": 46
+    },
+    {
+      "label": "Passes",
+      "home": 500,
+      "away": 450,
+      "homeWidth": 53,
+      "awayWidth": 47
+    },
+    {
+      "label": "Pass Accuracy",
+      "home": "85%",
+      "away": "81%",
+      "homeWidth": 53,
+      "awayWidth": 47
+    },
+    {
+      "label": "Corners",
+      "home": 6,
+      "away": 4,
+      "homeWidth": 60,
+      "awayWidth": 40
+    },
+    {
+      "label": "Fouls",
+      "home": 10,
+      "away": 12,
+      "homeWidth": 45,
+      "awayWidth": 55
+    },
+    {
+      "label": "xG",
+      "home": "0.85",
+      "away": "1.10",
+      "homeWidth": 45,
+      "awayWidth": 55
+    }
+  ],
+  "metaDescription": "A thrilling semi-final match at the 2014 FIFA World Cup between Netherlands and Argentina that ended in penalties.",
+  "tacticalAnalysis": "Both teams adopted cautious approaches, with Netherlands utilizing a 5-3-2 formation to absorb the pressure from Argentina's attacking trio of Messi, Agüero, and Higuain. Van Gaal instructed his players to maintain a deep defensive line, which effectively limited Messi's influence throughout the match. Argentina, in a 4-3-3 formation, focused on tight midfield control, with Javier Mascherano playing a crucial role in breaking up Dutch attacks. Meanwhile, Romero's exceptional goalkeeping performance in the penalty shootout was pivotal for Argentina; he saved two penalties while his teammates maintained composure under pressure, securing their spot in the final for the first time since 1990.",
+  "keyMoments": [
+    "120' - Full-time, teams prepped for penalties; a tense atmosphere surrounds the pitch.",
+    "2' - Higuain's missed chance from the penalty spot puts Argentina on edge.",
+    "4' - Sneijder's penalty saved by Romero becomes a turning point.",
+    "A tactical battle throughout failed to yield goals, leading to shootout.",
+    "Romero becomes hero with two crucial saves in the shootout.",
+    "Netherlands' elimination marks Van Gaal's controversial tactics debated."
+  ],
+  "historicalSignificance": "This match is significant as it highlighted the tactical evolution of football, showcasing defensive strength and mental fortitude under pressure. Argentina's progression to the final reinforced their status as a historic footballing nation, while the Netherlands faced scrutiny regarding their pragmatic style of play.",
+  "topPerformers": [
+    {
+      "name": "Sergio Romero",
+      "side": "away",
+      "position": "GK",
+      "rating": 9.2,
+      "note": "Saved two critical penalties in the shootout."
+    },
+    {
+      "name": "Wesley Sneijder",
+      "side": "home",
+      "position": "CM",
+      "rating": 8.5,
+      "note": "Controlled midfield, yet failed to convert chances."
+    },
+    {
+      "name": "Arjen Robben",
+      "side": "home",
+      "position": "RW",
+      "rating": 8.8,
+      "note": "Led attacking plays with skill and pace."
+    }
+  ]
+}

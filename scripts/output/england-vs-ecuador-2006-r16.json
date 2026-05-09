@@ -1,0 +1,159 @@
+{
+  "id": "england-vs-ecuador-2006-r16",
+  "tournament": "FIFA World Cup 2006",
+  "year": 2006,
+  "stage": "Round of 16",
+  "date": "June 25, 2006",
+  "venue": "Gottlieb-Daimler-Stadion",
+  "city": "Stuttgart, Germany",
+  "home": {
+    "name": "England",
+    "flag": "🏴",
+    "formation": "4-4-2",
+    "color": "#CF142B",
+    "colorDim": "rgba(207,20,43,0.18)",
+    "players": [
+      "Paul Robinson",
+      "Gary Neville",
+      "John Terry",
+      "Rio Ferdinand",
+      "Ashley Cole",
+      "David Beckham",
+      "Frank Lampard",
+      "Steven Gerrard",
+      "Joe Cole",
+      "Peter Crouch",
+      "Michael Owen"
+    ],
+    "score": 1
+  },
+  "away": {
+    "name": "Ecuador",
+    "flag": "🏳",
+    "formation": "4-4-2",
+    "color": "#FFD100",
+    "colorDim": "rgba(255,209,0,0.18)",
+    "players": [
+      "Marcos Espinoza",
+      "Iván Hurtado",
+      "Franz diitel",
+      "Néstor Araujo",
+      "Juan Paredes",
+      "Edison Mendez",
+      "Cristian Benitez",
+      "Luis Antonio Valencia",
+      "Elkin Soto",
+      "Marvin González",
+      "Carlos Tenorio"
+    ],
+    "score": 0
+  },
+  "status": "FT",
+  "xG": {
+    "home": 1.45,
+    "away": 0.5
+  },
+  "possession": {
+    "home": 54,
+    "away": 46
+  },
+  "timeline": [
+    {
+      "minute": "60'",
+      "side": "home",
+      "player": "David Beckham",
+      "type": "goal",
+      "description": "Beckham scored with a curling free-kick from just outside the box."
+    }
+  ],
+  "stats": [
+    {
+      "label": "Shots",
+      "home": 14,
+      "away": 4,
+      "homeWidth": 78,
+      "awayWidth": 22
+    },
+    {
+      "label": "Shots on Target",
+      "home": 6,
+      "away": 2,
+      "homeWidth": 75,
+      "awayWidth": 25
+    },
+    {
+      "label": "Possession",
+      "home": 54,
+      "away": 46,
+      "homeWidth": 54,
+      "awayWidth": 46
+    },
+    {
+      "label": "Passes",
+      "home": 400,
+      "away": 240,
+      "homeWidth": 62,
+      "awayWidth": 38
+    },
+    {
+      "label": "Pass Accuracy",
+      "home": "85%",
+      "away": "74%",
+      "homeWidth": 85,
+      "awayWidth": 74
+    },
+    {
+      "label": "Corners",
+      "home": 5,
+      "away": 2,
+      "homeWidth": 71,
+      "awayWidth": 29
+    },
+    {
+      "label": "Fouls",
+      "home": 9,
+      "away": 11,
+      "homeWidth": 45,
+      "awayWidth": 55
+    },
+    {
+      "label": "xG",
+      "home": "1.45",
+      "away": "0.50",
+      "homeWidth": 65,
+      "awayWidth": 35
+    }
+  ],
+  "metaDescription": "England edged past Ecuador with a stunning free-kick goal from David Beckham in the Round of 16 of the 2006 FIFA World Cup.",
+  "tacticalAnalysis": "England deployed a 4-4-2 formation, utilizing width through the flanks with Joe Cole and David Beckham providing creativity and support for the forwards. Beckham's role as captain was crucial, as he took responsibility for set pieces and orchestrated play from the right. Ecuador, matching England's formation, aimed to contain the midfield battle and relied on counter-attacks. Their defensive strategy, led by Hurtado and Araujo, aimed to neutralize the aerial threat posed by Crouch. Beckham's decisive free-kick demonstrated England's ability to create and capitalize on set pieces, an area Ecuador struggled to manage effectively throughout the match.",
+  "keyMoments": [
+    "60' - Goal: David Beckham scores with a curling free-kick, sending England ahead.",
+    "30' - Yellow Card: Cristian Benitez receives a yellow card for a late challenge.",
+    "72' - Substitution: Ecuador substitutes Carlos Tenorio for Agustín Delgado in an attempt to find an equalizer.",
+    "85' - Yellow Card: Frank Lampard receives a yellow card for a foul on Edison Mendez."
+  ],
+  "historicalSignificance": "This match marked a pivotal moment for England, highlighting David Beckham's leadership and skill. The win propelled them into the quarter-finals, reinforcing their status as a competitive force in the World Cup, despite ultimately falling to Portugal in a penalty shootout.",
+  "topPerformers": [
+    {
+      "name": "David Beckham",
+      "side": "home",
+      "position": "RM",
+      "rating": 9.2,
+      "note": "His free-kick was the match’s only goal and he led by example."
+    },
+    {
+      "name": "Gary Neville",
+      "side": "home",
+      "position": "RB",
+      "rating": 8.5,
+      "note": "Strong defensively and contributed well to England's attacks."
+    },
+    {
+      "name": "Néstor Araujo",
+      "side": "away",
+      "position": "CB",
+      "rating": 8,
+      "note": "Key in organizing Ecuador's defense against England's attacks."
+    }
+  ]
+}

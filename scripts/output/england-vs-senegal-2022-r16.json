@@ -1,0 +1,180 @@
+{
+  "id": "england-vs-senegal-2022-r16",
+  "tournament": "FIFA World Cup 2022",
+  "year": 2022,
+  "stage": "Round of 16",
+  "date": "December 4, 2022",
+  "venue": "Al Bayt Stadium",
+  "city": "Al Khor, Qatar",
+  "home": {
+    "name": "England",
+    "flag": "🇬🇧",
+    "formation": "4-3-3",
+    "color": "#CF142B",
+    "colorDim": "rgba(207,20,43,0.18)",
+    "players": [
+      "Jordan Pickford",
+      "Kieran Trippier",
+      "Harry Maguire",
+      "John Stones",
+      "Luke Shaw",
+      "Declan Rice",
+      "Jude Bellingham",
+      "Jordan Henderson",
+      "Bukayo Saka",
+      "Harry Kane",
+      "Raheem Sterling"
+    ],
+    "score": 3
+  },
+  "away": {
+    "name": "Senegal",
+    "flag": "🇸🇳",
+    "formation": "4-3-3",
+    "color": "#00853F",
+    "colorDim": "rgba(0,133,63,0.18)",
+    "players": [
+      "Edouard Mendy",
+      "Youssouf Sabaly",
+      "Kalidou Koulibaly",
+      "Abdou Diallo",
+      "Achraf Hakimi",
+      "Nampalys Mendy",
+      "Idrissa Gueye",
+      "Moussa Sarr",
+      "Sadio Mané",
+      "Boulaye Dia",
+      "Ismaïla Sarr"
+    ],
+    "score": 0
+  },
+  "status": "FT",
+  "xG": {
+    "home": 2.74,
+    "away": 0.34
+  },
+  "possession": {
+    "home": 58,
+    "away": 42
+  },
+  "timeline": [
+    {
+      "minute": "38'",
+      "side": "home",
+      "player": "Jordan Henderson",
+      "type": "goal",
+      "description": "Opened the scoring with a close-range finish."
+    },
+    {
+      "minute": "79'",
+      "side": "home",
+      "player": "Bukayo Saka",
+      "type": "goal",
+      "description": "Doubled the lead with a well-placed shot into the corner."
+    },
+    {
+      "minute": "81'",
+      "side": "home",
+      "player": "Harry Kane",
+      "type": "goal",
+      "description": "Capped a brilliant move with a powerful strike."
+    },
+    {
+      "minute": "90'",
+      "side": "away",
+      "player": "Kalidou Koulibaly",
+      "type": "yellow",
+      "description": "Received a yellow card for a late challenge."
+    }
+  ],
+  "stats": [
+    {
+      "label": "Shots",
+      "home": 12,
+      "away": 5,
+      "homeWidth": 71,
+      "awayWidth": 29
+    },
+    {
+      "label": "Shots on Target",
+      "home": 6,
+      "away": 1,
+      "homeWidth": 86,
+      "awayWidth": 14
+    },
+    {
+      "label": "Possession",
+      "home": 58,
+      "away": 42,
+      "homeWidth": 58,
+      "awayWidth": 42
+    },
+    {
+      "label": "Passes",
+      "home": 500,
+      "away": 370,
+      "homeWidth": 58,
+      "awayWidth": 42
+    },
+    {
+      "label": "Pass Accuracy",
+      "home": "85%",
+      "away": "75%",
+      "homeWidth": 58,
+      "awayWidth": 42
+    },
+    {
+      "label": "Corners",
+      "home": 7,
+      "away": 3,
+      "homeWidth": 70,
+      "awayWidth": 30
+    },
+    {
+      "label": "Fouls",
+      "home": 10,
+      "away": 15,
+      "homeWidth": 40,
+      "awayWidth": 60
+    },
+    {
+      "label": "xG",
+      "home": "2.74",
+      "away": "0.34",
+      "homeWidth": 100,
+      "awayWidth": 0
+    }
+  ],
+  "metaDescription": "England delivered a decisive performance against Senegal, winning 3-0 to progress to the quarter-finals of the FIFA World Cup 2022.",
+  "tacticalAnalysis": "England deployed a 4-3-3 formation, with Harry Kane as the central striker supported by wingers Saka and Sterling. They utilized a high press, forcing Senegal into mistakes while maintaining control through Bellingham and Rice in midfield. Senegal lined up similarly but struggled to create chances. England's first goal came from Henderson, who arrived late in the box to finish a well-worked move. Saka showcased his pace and dribbling ability for the second, while Kane highlighted his clinical finishing for the third, cementing England's dominance in the second half. Senegal, although threatening on the break, lacked the cohesion to threaten England effectively.",
+  "keyMoments": [
+    "38' - Henderson scores the opener, giving England a crucial lead.",
+    "79' - Saka doubles the advantage, showcasing England's attacking prowess.",
+    "81' - Kane seals the match with a powerful shot after a slick move.",
+    "90' - Koulibaly booked, reflecting Senegal's frustrations."
+  ],
+  "historicalSignificance": "This match marked England's authoritative performance in the knockout stage of the World Cup, showcasing their attacking talent and tactical discipline. It also signified Senegal's disappointing exit as reigning African champions, unable to replicate their group stage form.",
+  "topPerformers": [
+    {
+      "name": "Jude Bellingham",
+      "side": "home",
+      "position": "CM",
+      "rating": 9.1,
+      "note": "Dictated the tempo and provided key passes."
+    },
+    {
+      "name": "Harry Kane",
+      "side": "home",
+      "position": "ST",
+      "rating": 9.5,
+      "note": "His movement and goal-scoring ability were pivotal."
+    },
+    {
+      "name": "Edouard Mendy",
+      "side": "away",
+      "position": "GK",
+      "rating": 7.4,
+      "note": "Made several crucial saves despite the scoreline."
+    }
+  ]
+}

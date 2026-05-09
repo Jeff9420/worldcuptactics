@@ -1,0 +1,195 @@
+{
+  "id": "belgium-vs-japan-2018-r16",
+  "tournament": "FIFA World Cup 2018",
+  "year": 2018,
+  "stage": "Round of 16",
+  "date": "July 2, 2018",
+  "venue": "Rostov Arena",
+  "city": "Rostov-on-Don, Russia",
+  "home": {
+    "name": "Belgium",
+    "flag": "🇧🇪",
+    "formation": "3-4-2-1",
+    "color": "#EDCB27",
+    "colorDim": "rgba(237,203,39,0.18)",
+    "players": [
+      "Thibaut Courtois",
+      "Vincent Kompany",
+      "Jan Vertonghen",
+      "Toby Alderweireld",
+      "Nacer Chadli",
+      "Axel Witsel",
+      "Kevin De Bruyne",
+      "Eden Hazard",
+      "Dries Mertens",
+      "Romelu Lukaku",
+      "Michy Batshuayi"
+    ],
+    "score": 3
+  },
+  "away": {
+    "name": "Japan",
+    "flag": "🇯🇵",
+    "formation": "4-2-3-1",
+    "color": "#BC002D",
+    "colorDim": "rgba(188,0,45,0.18)",
+    "players": [
+      "Eiji Kawashima",
+      "Maya Yoshida",
+      "Tomoya Ikémoto",
+      "Genki Haraguchi",
+      "Yoshinori Muto",
+      "Gaku Shibasaki",
+      "Hiroshi Kiyotake",
+      "Makoto Hasebe",
+      "Takehiro Tomiyasu",
+      "Yuya Osako",
+      "Keisuke Honda"
+    ],
+    "score": 2
+  },
+  "status": "FT",
+  "xG": {
+    "home": 2.69,
+    "away": 1.45
+  },
+  "possession": {
+    "home": 54,
+    "away": 46
+  },
+  "timeline": [
+    {
+      "minute": "48'",
+      "side": "away",
+      "player": "Genki Haraguchi",
+      "type": "goal",
+      "description": "Haraguchi scores with a great finish after a fast counter-attack."
+    },
+    {
+      "minute": "52'",
+      "side": "away",
+      "player": "Takashi Inui",
+      "type": "goal",
+      "description": "Inui doubles Japan's lead with a powerful strike from outside the box."
+    },
+    {
+      "minute": "69'",
+      "side": "home",
+      "player": "Jan Vertonghen",
+      "type": "goal",
+      "description": "Vertonghen scores with a header from a corner."
+    },
+    {
+      "minute": "74'",
+      "side": "home",
+      "player": "Marouane Fellaini",
+      "type": "goal",
+      "description": "Fellaini equalizes with a close-range header."
+    },
+    {
+      "minute": "94'",
+      "side": "home",
+      "player": "Nacer Chadli",
+      "type": "goal",
+      "description": "Chadli scores the winner with a devastating counter-attack."
+    }
+  ],
+  "stats": [
+    {
+      "label": "Shots",
+      "home": 25,
+      "away": 11,
+      "homeWidth": 69,
+      "awayWidth": 31
+    },
+    {
+      "label": "Shots on Target",
+      "home": 9,
+      "away": 4,
+      "homeWidth": 69,
+      "awayWidth": 31
+    },
+    {
+      "label": "Possession",
+      "home": 54,
+      "away": 46,
+      "homeWidth": 54,
+      "awayWidth": 46
+    },
+    {
+      "label": "Passes",
+      "home": 503,
+      "away": 250,
+      "homeWidth": 67,
+      "awayWidth": 33
+    },
+    {
+      "label": "Pass Accuracy",
+      "home": "87%",
+      "away": "78%",
+      "homeWidth": 87,
+      "awayWidth": 78
+    },
+    {
+      "label": "Corners",
+      "home": 9,
+      "away": 3,
+      "homeWidth": 75,
+      "awayWidth": 25
+    },
+    {
+      "label": "Fouls",
+      "home": 11,
+      "away": 17,
+      "homeWidth": 39,
+      "awayWidth": 61
+    },
+    {
+      "label": "xG",
+      "home": "2.69",
+      "away": "1.45",
+      "homeWidth": 69,
+      "awayWidth": 31
+    }
+  ],
+  "metaDescription": "Belgium staged a remarkable comeback to defeat Japan 3-2 in the Round of 16 at the 2018 World Cup.",
+  "tacticalAnalysis": "Belgium initially set up in a 3-4-2-1 formation, utilizing Lukaku as the focal point of their attack. Japan, in contrast, played in a 4-2-3-1 with a compact midfield that stifled Belgium's creative players early on. Japan's pressing forced errors from Belgium, leading to a quick transition that brought their first goal early in the second half. However, with Lukaku's introduction, Belgium shifted tactics to better exploit the wings and height advantages, which proved essential in their comeback. The defenders adapted to monitor Japan's counters, but the breakthrough came from set plays and swift ball movement rather than reliance on individual brilliance. Chadli's late goal was emblematic of strategic persistence and tactical dynamism, marking a critical tactical success.",
+  "keyMoments": [
+    "48' - Haraguchi opens the scoring, catching Belgium off guard.",
+    "52' - Inui's stunning long-range goal puts Japan ahead 2-0.",
+    "69' - Vertonghen's header ignites Belgium's comeback hopes.",
+    "74' - Fellaini equals the score with powerful header.",
+    "94' - Chadli's last-gasp goal seals a remarkable comeback for Belgium."
+  ],
+  "historicalSignificance": "This match is remembered as one of the greatest comebacks in World Cup history. Belgium's resilience and tactical adaptability showcased the depth of talent in their squad while sending Japan home after a valiant effort.",
+  "topPerformers": [
+    {
+      "name": "Thibaut Courtois",
+      "side": "home",
+      "position": "GK",
+      "rating": 8.4,
+      "note": "Made crucial saves that kept Belgium in the game."
+    },
+    {
+      "name": "Jan Vertonghen",
+      "side": "home",
+      "position": "CB",
+      "rating": 8.5,
+      "note": "Scored and led the defense effectively during the comeback."
+    },
+    {
+      "name": "Yuya Osako",
+      "side": "away",
+      "position": "ST",
+      "rating": 7.9,
+      "note": "Provided great movement and playmaking from the front."
+    },
+    {
+      "name": "Gaku Shibasaki",
+      "side": "away",
+      "position": "CM",
+      "rating": 8.1,
+      "note": "Key in controlling the midfield in the first half."
+    }
+  ]
+}

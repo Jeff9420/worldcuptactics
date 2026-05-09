@@ -1,0 +1,209 @@
+{
+  "id": "portugal-vs-switzerland-2022-r16",
+  "tournament": "FIFA World Cup 2022",
+  "year": 2022,
+  "stage": "Round of 16",
+  "date": "December 6, 2022",
+  "venue": "Lusail Stadium",
+  "city": "Lusail, Qatar",
+  "home": {
+    "name": "Portugal",
+    "flag": "🇵🇹",
+    "formation": "4-3-3",
+    "color": "#006600",
+    "colorDim": "rgba(0,102,0,0.18)",
+    "players": [
+      "Diogo Costa",
+      "Diogo Dalot",
+      "Ruben Dias",
+      "Pepe",
+      "João Cancelo",
+      "Otávio",
+      "Ruben Neves",
+      "Bernardo Silva",
+      "Gonçalo Ramos",
+      "Bruno Fernandes",
+      "Cristiano Ronaldo"
+    ],
+    "score": 6
+  },
+  "away": {
+    "name": "Switzerland",
+    "flag": "🇨🇭",
+    "formation": "4-2-3-1",
+    "color": "#D52B1E",
+    "colorDim": "rgba(213,43,30,0.18)",
+    "players": [
+      "Yann Sommer",
+      "Kevin Mbabu",
+      "Manuel Akanji",
+      "Nico Elvedi",
+      "Ricardo Rodríguez",
+      "Granite Xhaka",
+      "Denis Zakaria",
+      "Xherdan Shaqiri",
+      "Breel Embolo",
+      "Yannick Ferreira Carrasco",
+      "Silvan Widmer"
+    ],
+    "score": 1
+  },
+  "status": "FT",
+  "xG": {
+    "home": 3.48,
+    "away": 0.67
+  },
+  "possession": {
+    "home": 62,
+    "away": 38
+  },
+  "timeline": [
+    {
+      "minute": "17'",
+      "side": "home",
+      "player": "Gonçalo Ramos",
+      "type": "goal",
+      "description": "Ramos scores his first goal with a powerful shot from outside the box."
+    },
+    {
+      "minute": "30'",
+      "side": "home",
+      "player": "Gonçalo Ramos",
+      "type": "goal",
+      "description": "Ramos nets his second after a quick counter-attack."
+    },
+    {
+      "minute": "39'",
+      "side": "home",
+      "player": "Pepe",
+      "type": "goal",
+      "description": "Pepe heads in from a corner kick, extending the lead."
+    },
+    {
+      "minute": "55'",
+      "side": "home",
+      "player": "Gonçalo Ramos",
+      "type": "goal",
+      "description": "Completes his hat-trick with a close-range finish."
+    },
+    {
+      "minute": "58'",
+      "side": "away",
+      "player": "Breel Embolo",
+      "type": "goal",
+      "description": "Embolo scores a consolation goal from a rebound."
+    },
+    {
+      "minute": "66'",
+      "side": "home",
+      "player": "Bruno Fernandes",
+      "type": "goal",
+      "description": "Fernandes scores the fifth with a long-range free kick."
+    },
+    {
+      "minute": "70'",
+      "side": "home",
+      "player": "Cristiano Ronaldo",
+      "type": "goal",
+      "description": "Ronaldo scores with a header from a cross."
+    }
+  ],
+  "stats": [
+    {
+      "label": "Shots",
+      "home": 23,
+      "away": 9,
+      "homeWidth": 72,
+      "awayWidth": 28
+    },
+    {
+      "label": "Shots on Target",
+      "home": 12,
+      "away": 3,
+      "homeWidth": 80,
+      "awayWidth": 20
+    },
+    {
+      "label": "Possession",
+      "home": 62,
+      "away": 38,
+      "homeWidth": 62,
+      "awayWidth": 38
+    },
+    {
+      "label": "Passes",
+      "home": 539,
+      "away": 347,
+      "homeWidth": 61,
+      "awayWidth": 39
+    },
+    {
+      "label": "Pass Accuracy",
+      "home": "87%",
+      "away": "75%",
+      "homeWidth": 55,
+      "awayWidth": 45
+    },
+    {
+      "label": "Corners",
+      "home": 9,
+      "away": 2,
+      "homeWidth": 82,
+      "awayWidth": 18
+    },
+    {
+      "label": "Fouls",
+      "home": 11,
+      "away": 16,
+      "homeWidth": 40,
+      "awayWidth": 60
+    },
+    {
+      "label": "xG",
+      "home": "3.48",
+      "away": "0.67",
+      "homeWidth": 84,
+      "awayWidth": 16
+    }
+  ],
+  "metaDescription": "Portugal dominates Switzerland in a spectacular Round of 16 match, showcasing their attacking prowess in the FIFA World Cup 2022.",
+  "tacticalAnalysis": "Portugal lined up in a 4-3-3 formation, leveraging the wide positions and quick transitions to exploit Switzerland's defensive setup. Gonçalo Ramos, starting in place of the iconic Cristiano Ronaldo, was pivotal, demonstrating exceptional movement and finishing ability, scoring a remarkable hat-trick. The Portuguese midfield, led by Bruno Fernandes and Otávio, maintained control, facilitating quick combinations that overwhelmed the Swiss defense. Switzerland, in a 4-2-3-1 formation, struggled to match Portugal’s intensity and clinical finishing. Their two-man pivot found it challenging to contain the fluid attacking rotations of Portugal. The central defenders, especially Akanji and Elvedi, were often isolated against Portugal's pace, leading to vulnerability in transitions, which Portugal exploited thoroughly. The goals came from decisive moments; Ramos’ basic understanding of timing and positioning allowed him to thrive in spaces left by the Swiss defense. Moreover, Pepe's aerial threat was evident during set pieces. The tactical shift in the second half saw more direct plays from Portugal with Ronaldo's introduction bringing further chaos to the Swiss backline. This match showcased not only Portugal's attacking capabilities but also their depth, even in the absence of a world star such as Ronaldo.",
+  "keyMoments": [
+    "17' - Gonçalo Ramos opens the scoring with a stunning strike.",
+    "30' - Ramos doubles the lead, showing composure in the box.",
+    "39' - Pepe caps off a corner with a beautiful header.",
+    "55' - Ramos completes his hat-trick, sealing his place in history.",
+    "66' - Bruno Fernandes extends the lead with a brilliant free-kick."
+  ],
+  "historicalSignificance": "This match is remembered as one of Portugal's greatest World Cup performances, highlighting their attacking prowess without the presence of Cristiano Ronaldo. It exemplifies the team's depth and potential, showcasing emerging talents like Gonçalo Ramos on the world stage.",
+  "topPerformers": [
+    {
+      "name": "Gonçalo Ramos",
+      "side": "home",
+      "position": "ST",
+      "rating": 9.2,
+      "note": "Outstanding performance with a hat-trick that demonstrated his poise and skill."
+    },
+    {
+      "name": "Pepe",
+      "side": "home",
+      "position": "CB",
+      "rating": 8.5,
+      "note": "Commanding in defense and scored a crucial goal."
+    },
+    {
+      "name": "Yann Sommer",
+      "side": "away",
+      "position": "GK",
+      "rating": 7.2,
+      "note": "Made several crucial saves despite the scoreline."
+    },
+    {
+      "name": "Bruno Fernandes",
+      "side": "home",
+      "position": "CM",
+      "rating": 8.8,
+      "note": "Controlled the midfield and contributed significantly with a goal."
+    }
+  ]
+}

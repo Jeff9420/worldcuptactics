@@ -1,0 +1,172 @@
+{
+  "id": "germany-vs-algeria-2014-r16",
+  "tournament": "FIFA World Cup 2014",
+  "year": 2014,
+  "stage": "Round of 16",
+  "date": "June 30, 2014",
+  "venue": "Estádio Beira-Rio",
+  "city": "Porto Alegre, Brazil",
+  "home": {
+    "name": "Germany",
+    "flag": "🇩🇪",
+    "formation": "4-2-3-1",
+    "color": "#E8E8E8",
+    "colorDim": "rgba(232,232,232,0.18)",
+    "players": [
+      "Manuel Neuer",
+      "Philipp Lahm",
+      "Mats Hummels",
+      "Jerome Boateng",
+      "Jonas Hector",
+      "Bastian Schweinsteiger",
+      "Toni Kroos",
+      "Mesut Özil",
+      "Mario Götze",
+      "André Schürrle",
+      "Miroslav Klose"
+    ],
+    "score": 2
+  },
+  "away": {
+    "name": "Algeria",
+    "flag": "🇩🇿",
+    "formation": "4-3-3",
+    "color": "#007A3D",
+    "colorDim": "rgba(0,122,61,0.18)",
+    "players": [
+      "Raïs M'Bolhi",
+      "Aïssa Mandi",
+      "Majid Bougherra",
+      "Essaid Belkalem",
+      "Faouzi Ghoulam",
+      "Sofiane Feghouli",
+      "Yacine Brahimi",
+      "Medhi Lacen",
+      "Riyad Mahrez",
+      "Islam Slimani",
+      "Abdelmoumene Djabou"
+    ],
+    "score": 1
+  },
+  "status": "AET",
+  "xG": {
+    "home": 2.67,
+    "away": 0.65
+  },
+  "possession": {
+    "home": 59,
+    "away": 41
+  },
+  "timeline": [
+    {
+      "minute": "92'",
+      "side": "home",
+      "player": "André Schürrle",
+      "type": "goal",
+      "description": "Schürrle scored the first goal of the match in extra time."
+    },
+    {
+      "minute": "120'",
+      "side": "home",
+      "player": "Mesut Özil",
+      "type": "goal",
+      "description": "Özil doubled Germany's lead with a well-placed shot."
+    },
+    {
+      "minute": "120+1'",
+      "side": "away",
+      "player": "Abdelmoumene Djabou",
+      "type": "goal",
+      "description": "Djabou pulled one back for Algeria in stoppage time."
+    }
+  ],
+  "stats": [
+    {
+      "label": "Shots",
+      "home": 29,
+      "away": 12,
+      "homeWidth": 71,
+      "awayWidth": 29
+    },
+    {
+      "label": "Shots on Target",
+      "home": 9,
+      "away": 3,
+      "homeWidth": 75,
+      "awayWidth": 25
+    },
+    {
+      "label": "Possession",
+      "home": 59,
+      "away": 41,
+      "homeWidth": 59,
+      "awayWidth": 41
+    },
+    {
+      "label": "Passes",
+      "home": 811,
+      "away": 424,
+      "homeWidth": 66,
+      "awayWidth": 34
+    },
+    {
+      "label": "Pass Accuracy",
+      "home": "85%",
+      "away": "75%",
+      "homeWidth": 53,
+      "awayWidth": 47
+    },
+    {
+      "label": "Corners",
+      "home": 9,
+      "away": 4,
+      "homeWidth": 69,
+      "awayWidth": 31
+    },
+    {
+      "label": "Fouls",
+      "home": 14,
+      "away": 15,
+      "homeWidth": 48,
+      "awayWidth": 52
+    },
+    {
+      "label": "xG",
+      "home": "2.67",
+      "away": "0.65",
+      "homeWidth": 80,
+      "awayWidth": 20
+    }
+  ],
+  "metaDescription": "Germany faced a tough challenge from Algeria in the Round of 16, overcoming them in extra time with a 2-1 victory.",
+  "tacticalAnalysis": "Germany employed a 4-2-3-1 formation that allowed them to dominate possession while utilizing players like Toni Kroos and Mesut Özil to control the midfield. Algeria's 4-3-3 formation emphasized quick counters and marked pressure on Germany's defenders. For 120 minutes, Algeria's discipline and tactical discipline challenged German forwards. The key battles occurred through the channels, where Germany's fullbacks, Lahm and Hector, found space but often faced frustration from Algeria's quick transitions. Goals from Schürrle and Özil showcased Germany’s ability to adapt in the final third, as they exploited gaps left by a fatigued Algerian defense, particularly after the latter’s extensive efforts to contain them had left them vulnerable in extra time.",
+  "keyMoments": [
+    "92' - Schürrle's goal breaks the deadlock, showcasing Germany's resilience.",
+    "120' - Özil adds another for Germany, seemingly sealing the match.",
+    "120+1' - Djabou scores late for Algeria, adding tension to the final moments."
+  ],
+  "historicalSignificance": "This match is remembered for Algeria's valiant effort against one of the world's football powerhouses, exemplifying the competitive spirit of smaller nations in the World Cup. It highlighted Germany's ability to win under pressure, setting the stage for their eventual triumph in the tournament.",
+  "topPerformers": [
+    {
+      "name": "Manuel Neuer",
+      "side": "home",
+      "position": "GK",
+      "rating": 9.2,
+      "note": "Neuer's sweeping and distribution were crucial in thwarting Algerian attacks."
+    },
+    {
+      "name": "André Schürrle",
+      "side": "home",
+      "position": "LW",
+      "rating": 8.5,
+      "note": "Scored the opening goal and was pivotal in breaking Algeria's defense."
+    },
+    {
+      "name": "Abdelmoumene Djabou",
+      "side": "away",
+      "position": "ST",
+      "rating": 8,
+      "note": "Djabou's late goal showed Algeria's fighting spirit and kept the match tense."
+    }
+  ]
+}

@@ -1,0 +1,187 @@
+{
+  "id": "germany-vs-england-2010-r16",
+  "tournament": "FIFA World Cup 2010",
+  "year": 2010,
+  "stage": "Round of 16",
+  "date": "June 27, 2010",
+  "venue": "Free State Stadium",
+  "city": "Bloemfontein, South Africa",
+  "home": {
+    "name": "Germany",
+    "flag": "🇩🇪",
+    "formation": "4-2-3-1",
+    "color": "#E8E8E8",
+    "colorDim": "rgba(232,232,232,0.18)",
+    "players": [
+      "Manuel Neuer",
+      "Philipp Lahm",
+      "Per Mertesacker",
+      "Arne Friedrich",
+      "Johannes Van Damme",
+      "Sami Khedira",
+      "Bastian Schweinsteiger",
+      "Mesut Özil",
+      "Toni Kroos",
+      "Thomas Müller",
+      "Miroslav Klose"
+    ],
+    "score": 4
+  },
+  "away": {
+    "name": "England",
+    "flag": "🇬🇧",
+    "formation": "4-3-3",
+    "color": "#CF142B",
+    "colorDim": "rgba(207,20,43,0.18)",
+    "players": [
+      "Robert Green",
+      "Glen Johnson",
+      "John Terry",
+      "Rio Ferdinand",
+      "Ashley Cole",
+      "Steven Gerrard",
+      "Frank Lampard",
+      "Gareth Barry",
+      "James Milner",
+      "Wayne Rooney",
+      "Jermain Defoe"
+    ],
+    "score": 1
+  },
+  "status": "FT",
+  "xG": {
+    "home": 2.83,
+    "away": 0.94
+  },
+  "possession": {
+    "home": 58,
+    "away": 42
+  },
+  "timeline": [
+    {
+      "minute": "20'",
+      "side": "home",
+      "player": "Thomas Müller",
+      "type": "goal",
+      "description": "Müller opened the scoring with a close-range finish."
+    },
+    {
+      "minute": "78'",
+      "side": "away",
+      "player": "Matthew Upson",
+      "type": "goal",
+      "description": "Upson equalized with a header from a corner."
+    },
+    {
+      "minute": "24'",
+      "side": "home",
+      "player": "Miroslav Klose",
+      "type": "goal",
+      "description": "Klose restored Germany's lead with a powerful strike."
+    },
+    {
+      "minute": "67'",
+      "side": "home",
+      "player": "Thomas Müller",
+      "type": "goal",
+      "description": "Müller scored his second to make it 3-1."
+    },
+    {
+      "minute": "70'",
+      "side": "home",
+      "player": "Thomas Müller",
+      "type": "goal",
+      "description": "Müller completed his hat-trick with another close finish."
+    }
+  ],
+  "stats": [
+    {
+      "label": "Shots",
+      "home": 22,
+      "away": 9,
+      "homeWidth": 71,
+      "awayWidth": 29
+    },
+    {
+      "label": "Shots on Target",
+      "home": 10,
+      "away": 3,
+      "homeWidth": 77,
+      "awayWidth": 23
+    },
+    {
+      "label": "Possession",
+      "home": 58,
+      "away": 42,
+      "homeWidth": 58,
+      "awayWidth": 42
+    },
+    {
+      "label": "Passes",
+      "home": 565,
+      "away": 390,
+      "homeWidth": 59,
+      "awayWidth": 41
+    },
+    {
+      "label": "Pass Accuracy",
+      "home": "85%",
+      "away": "78%",
+      "homeWidth": 52,
+      "awayWidth": 48
+    },
+    {
+      "label": "Corners",
+      "home": 8,
+      "away": 5,
+      "homeWidth": 62,
+      "awayWidth": 38
+    },
+    {
+      "label": "Fouls",
+      "home": 10,
+      "away": 12,
+      "homeWidth": 45,
+      "awayWidth": 55
+    },
+    {
+      "label": "xG",
+      "home": "2.83",
+      "away": "0.94",
+      "homeWidth": 75,
+      "awayWidth": 25
+    }
+  ],
+  "metaDescription": "Germany defeats England 4-1 in the Round of 16 of the FIFA World Cup 2010, featuring a controversial disallowed goal.",
+  "tacticalAnalysis": "In this clash, Germany employed a 4-2-3-1 formation that allowed them flexibility in attack and stability in defense. Khedira and Schweinsteiger formed a strong double pivot, providing the necessary cover while also transitioning the ball forwards effectively. Thomas Müller played a crucial role as the right winger, utilizing his pace and positioning to exploit England's left flank, which was often left exposed by Ashley Cole's advanced positioning. On the other hand, England set up in a 4-3-3 but struggled with their midfield control, particularly after they fell behind. Frank Lampard, tasked with linking the play, was often overrun and outmaneuvered. The pivotal moment was Lampard's legitimate shot that crossed the line but wasn't awarded, which both demoralized the English side and galvanized the Germans. Post that incident, Germany capitalized on their momentum, rapidly scoring two more goals through the increasingly dangerous Müller, effectively sealing the match. The clash highlighted Germany's skillful counter-attacking style and England's issues with their defensive organization.",
+  "keyMoments": [
+    "20' - Thomas Müller opens the scoring for Germany",
+    "24' - Miroslav Klose doubles Germany's lead",
+    "70' - Thomas Müller completes his hat-trick",
+    "78' - Matthew Upson pulls one back for England"
+  ],
+  "historicalSignificance": "This match is remembered for England's disallowed goal, which reignited debates on the necessity of goal-line technology in football. Germany demonstrated their tactical effectiveness and attacking prowess, setting the stage for their deep run in the tournament.",
+  "topPerformers": [
+    {
+      "name": "Thomas Müller",
+      "side": "home",
+      "position": "RW",
+      "rating": 9.5,
+      "note": "His hat-trick was pivotal in securing the victory."
+    },
+    {
+      "name": "Miroslav Klose",
+      "side": "home",
+      "position": "ST",
+      "rating": 8.8,
+      "note": "His goal provided crucial momentum."
+    },
+    {
+      "name": "Frank Lampard",
+      "side": "away",
+      "position": "CM",
+      "rating": 7.5,
+      "note": "Despite the disallowed goal, he was key in midfield control."
+    }
+  ]
+}

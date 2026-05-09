@@ -1,0 +1,239 @@
+{
+  "id": "france-vs-italy-1998-qf",
+  "tournament": "FIFA World Cup 1998",
+  "year": 1998,
+  "stage": "Quarter-Final",
+  "date": "July 3, 1998",
+  "venue": "Stade de France",
+  "city": "Saint-Denis, France",
+  "home": {
+    "name": "France",
+    "flag": "🇫🇷",
+    "formation": "4-3-1-2",
+    "color": "#1E5AA8",
+    "colorDim": "rgba(30,90,168,0.18)",
+    "players": [
+      "Fabien Barthez",
+      "Lilian Thuram",
+      "Marcel Desailly",
+      "Frank Leboeuf",
+      "Bixente Lizarazu",
+      "Didier Deschamps",
+      "Christian Karembeu",
+      "Zinedine Zidane",
+      "Youri Djorkaeff",
+      "Thierry Henry",
+      "David Trezeguet"
+    ],
+    "score": 0
+  },
+  "away": {
+    "name": "Italy",
+    "flag": "🇮🇹",
+    "formation": "3-5-2",
+    "color": "#0033A0",
+    "colorDim": "rgba(0,51,160,0.18)",
+    "players": [
+      "Gianluigi Buffon",
+      "Paolo Maldini",
+      "Alessandro Nesta",
+      "Fabio Cannavaro",
+      "Gennaro Gattuso",
+      "Franco Baresi",
+      "Angelo Peruzzi",
+      "Roberto Baggio",
+      "Alessandro Del Piero",
+      "Marco Tardelli",
+      "Christian Vieri"
+    ],
+    "score": 0
+  },
+  "status": "PSO",
+  "penaltyScore": "4-3",
+  "xG": {
+    "home": 1.25,
+    "away": 1.1
+  },
+  "possession": {
+    "home": 55,
+    "away": 45
+  },
+  "timeline": [
+    {
+      "minute": "90'",
+      "side": "neutral",
+      "player": "N/A",
+      "type": "sub",
+      "description": "End of regulation time, score tied 0-0."
+    },
+    {
+      "minute": "120'",
+      "side": "neutral",
+      "player": "N/A",
+      "type": "sub",
+      "description": "End of extra time, score still 0-0."
+    },
+    {
+      "minute": "2'",
+      "side": "away",
+      "player": "Di Biagio",
+      "type": "pen_miss",
+      "description": "Penalty shot missed, hit the bar."
+    },
+    {
+      "minute": "4'",
+      "side": "home",
+      "player": "Zidane",
+      "type": "pen_miss",
+      "description": "Zidane missed his penalty in the shootout."
+    },
+    {
+      "minute": "5'",
+      "side": "home",
+      "player": "Y. Djorkaeff",
+      "type": "pen_goal",
+      "description": "Djorkaeff scores in the penalty shootout."
+    },
+    {
+      "minute": "7'",
+      "side": "away",
+      "player": "R. Baggio",
+      "type": "pen_goal",
+      "description": "Baggio scores Italy's penalty in the shootout."
+    },
+    {
+      "minute": "9'",
+      "side": "home",
+      "player": "Trezeguet",
+      "type": "pen_goal",
+      "description": "Trezeguet scores for France in the penalty shootout."
+    },
+    {
+      "minute": "11'",
+      "side": "away",
+      "player": "C. Vieri",
+      "type": "pen_goal",
+      "description": "Vieri nets a penalty for Italy."
+    },
+    {
+      "minute": "13'",
+      "side": "home",
+      "player": "P. Maldini",
+      "type": "pen_miss",
+      "description": "Maldini misses his penalty attempt."
+    },
+    {
+      "minute": "15'",
+      "side": "home",
+      "player": "F. Barthez",
+      "type": "pen_goal",
+      "description": "Barthez saves from Di Biagio."
+    },
+    {
+      "minute": "17'",
+      "side": "home",
+      "player": "Thierry Henry",
+      "type": "pen_goal",
+      "description": "Henry scores the winning penalty."
+    }
+  ],
+  "stats": [
+    {
+      "label": "Shots",
+      "home": 14,
+      "away": 12,
+      "homeWidth": 54,
+      "awayWidth": 46
+    },
+    {
+      "label": "Shots on Target",
+      "home": 6,
+      "away": 4,
+      "homeWidth": 60,
+      "awayWidth": 40
+    },
+    {
+      "label": "Possession",
+      "home": 55,
+      "away": 45,
+      "homeWidth": 55,
+      "awayWidth": 45
+    },
+    {
+      "label": "Passes",
+      "home": 350,
+      "away": 300,
+      "homeWidth": 54,
+      "awayWidth": 46
+    },
+    {
+      "label": "Pass Accuracy",
+      "home": "85%",
+      "away": "78%",
+      "homeWidth": 54,
+      "awayWidth": 46
+    },
+    {
+      "label": "Corners",
+      "home": 5,
+      "away": 3,
+      "homeWidth": 63,
+      "awayWidth": 37
+    },
+    {
+      "label": "Fouls",
+      "home": 11,
+      "away": 10,
+      "homeWidth": 52,
+      "awayWidth": 48
+    },
+    {
+      "label": "xG",
+      "home": "1.25",
+      "away": "1.10",
+      "homeWidth": 54,
+      "awayWidth": 46
+    }
+  ],
+  "metaDescription": "France defeats Italy in a dramatic penalty shootout in the 1998 World Cup Quarter-Final.",
+  "tacticalAnalysis": "The match showcased a tactical battle between France's 4-3-1-2 formation and Italy's 3-5-2. France's midfield, anchored by Didier Deschamps and supported by Zinedine Zidane's creative play, consistently looked to penetrate Italy's defensive lines. France employed a high press, forcing Italy's defenders into hurried clearances and limiting their possession. Italy, on the other hand, used their 3-5-2 to maintain a compact defense while relying on counter-attacks through the wide players. Gattuso’s work rate in the midfield allowed Italy to disrupt the flow of France's play. Both defenses excelled, with France's Barthez and Italy's Buffon making crucial saves. The tactical discipline from both sides resulted in a goalless draw at the end of regular and extra time, leading to the penalty shootout, where France emerged victorious. Zidane's missed penalty didn't prevent the raucous home crowd from pushing their team over the line, following Barthez’s critical save from Di Biagio.",
+  "keyMoments": [
+    "90' - Match ends in regulation, both teams level at 0-0.",
+    "2' - Di Biagio's penalty hits the bar, missing a golden opportunity for Italy.",
+    "4' - Zidane misses his penalty in the shootout but France keeps fighting.",
+    "5' - Djorkaeff scores the first penalty for France, raising hopes.",
+    "13' - Maldini's penalty miss allows France to regain momentum.",
+    "17' - Henry scores the final penalty, clinching the win for France."
+  ],
+  "historicalSignificance": "This match is etched in World Cup history as France's first step towards glory on home soil. It was a testament to defensive football and the mental fortitude required in penalty shootouts, showcasing the pressures teams face in knockout stages.",
+  "topPerformers": [
+    {
+      "name": "Fabien Barthez",
+      "side": "home",
+      "position": "GK",
+      "rating": 9.2,
+      "note": "Vital in the penalty shootout, making a crucial save."
+    },
+    {
+      "name": "Zinedine Zidane",
+      "side": "home",
+      "position": "CM",
+      "rating": 8.5,
+      "note": "Controlling presence in midfield despite missing a penalty."
+    },
+    {
+      "name": "Gianluigi Buffon",
+      "side": "away",
+      "position": "GK",
+      "rating": 8.7,
+      "note": "Made critical saves to keep Italy in the match."
+    },
+    {
+      "name": "Gennaro Gattuso",
+      "side": "away",
+      "position": "CM",
+      "rating": 8.4,
+      "note": "Displayed exceptional work rate and disruptive play."
+    }
+  ]
+}

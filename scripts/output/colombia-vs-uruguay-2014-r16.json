@@ -1,0 +1,180 @@
+{
+  "id": "colombia-vs-uruguay-2014-r16",
+  "tournament": "FIFA World Cup 2014",
+  "year": 2014,
+  "stage": "Round of 16",
+  "date": "June 28, 2014",
+  "venue": "Estádio do Maracanã",
+  "city": "Rio de Janeiro, Brazil",
+  "home": {
+    "name": "Colombia",
+    "flag": "🇨🇴",
+    "formation": "4-2-3-1",
+    "color": "#FCD116",
+    "colorDim": "rgba(252,209,22,0.18)",
+    "players": [
+      "David Ospina",
+      "Juan Zuniga",
+      "Mario Yepes",
+      "Carlos Valdés",
+      "Pablo Armero",
+      "Juan Guillermo Cuadrado",
+      "Fredy Guarín",
+      "James Rodríguez",
+      "Teófilo Gutiérrez",
+      "Radamel Falcao",
+      "Jackson Martínez"
+    ],
+    "score": 2
+  },
+  "away": {
+    "name": "Uruguay",
+    "flag": "🇺🇾",
+    "formation": "4-4-2",
+    "color": "#4EABDF",
+    "colorDim": "rgba(78,171,223,0.18)",
+    "players": [
+      "Fernando Muslera",
+      "Maxi Pereira",
+      "Diego Godín",
+      "José María Giménez",
+      "Martín Cáceres",
+      "Cristian Rodríguez",
+      "Giorgian De Arrascaeta",
+      "Egídio",
+      "Edison Cavani",
+      "Luis Suárez",
+      "Diego Forlán"
+    ],
+    "score": 0
+  },
+  "status": "FT",
+  "xG": {
+    "home": 2.5,
+    "away": 0.4
+  },
+  "possession": {
+    "home": 60,
+    "away": 40
+  },
+  "timeline": [
+    {
+      "minute": "28'",
+      "side": "home",
+      "player": "James Rodríguez",
+      "type": "goal",
+      "description": "James scored with an extraordinary chest-and-volley strike."
+    },
+    {
+      "minute": "50'",
+      "side": "home",
+      "player": "Juan Guillermo Cuadrado",
+      "type": "goal",
+      "description": "Cuadrado scores to double the lead for Colombia."
+    },
+    {
+      "minute": "66'",
+      "side": "away",
+      "player": "Luis Suárez",
+      "type": "yellow",
+      "description": "Suárez received a yellow card for a foul."
+    },
+    {
+      "minute": "90'",
+      "side": "home",
+      "player": "James Rodríguez",
+      "type": "sub",
+      "description": "Rodríguez substituted to celebrate with fans."
+    }
+  ],
+  "stats": [
+    {
+      "label": "Shots",
+      "home": 10,
+      "away": 5,
+      "homeWidth": 67,
+      "awayWidth": 33
+    },
+    {
+      "label": "Shots on Target",
+      "home": 6,
+      "away": 1,
+      "homeWidth": 86,
+      "awayWidth": 14
+    },
+    {
+      "label": "Possession",
+      "home": 60,
+      "away": 40,
+      "homeWidth": 60,
+      "awayWidth": 40
+    },
+    {
+      "label": "Passes",
+      "home": 500,
+      "away": 300,
+      "homeWidth": 63,
+      "awayWidth": 37
+    },
+    {
+      "label": "Pass Accuracy",
+      "home": "85%",
+      "away": "76%",
+      "homeWidth": 53,
+      "awayWidth": 47
+    },
+    {
+      "label": "Corners",
+      "home": 8,
+      "away": 3,
+      "homeWidth": 73,
+      "awayWidth": 27
+    },
+    {
+      "label": "Fouls",
+      "home": 12,
+      "away": 15,
+      "homeWidth": 44,
+      "awayWidth": 56
+    },
+    {
+      "label": "xG",
+      "home": "2.54",
+      "away": "0.42",
+      "homeWidth": 86,
+      "awayWidth": 14
+    }
+  ],
+  "metaDescription": "Colombia defeated Uruguay 2-0 in the Round of 16 at the FIFA World Cup 2014, showcasing James Rodríguez's brilliance.",
+  "tacticalAnalysis": "Colombia deployed a 4-2-3-1 formation, utilizing a double pivot of Guarín and Cuadrado to protect the backline and transition quickly to attack. James Rodríguez played as the central attacking midfielder, exploiting spaces between Uruguay's defense. The wing-play from Cuadrado and Armero created width and stretched the Uruguayan defense. Uruguay started with a traditional 4-4-2, with Suárez and Cavani up front. However, due to Suárez’s suspension for biting, Forlán's role was crucial as he struggled to provide the same threat. Colombia's counter-attacking pace under manager Pekerman proved decisive. Their second goal came through quick buildup and effective use of space behind Uruguay's full-backs.",
+  "keyMoments": [
+    "28' - James Rodríguez opens the scoring, a brilliant chest-and-volley.",
+    "50' - Cuadrado doubles Colombia's lead, sealing Uruguay's fate.",
+    "66' - Luis Suárez receives a yellow card for an aggressive tackle.",
+    "90' - James Rodríguez substituted to a standing ovation from fans."
+  ],
+  "historicalSignificance": "This match marked Colombia's progression to the quarter-finals for the first time in World Cup history. James Rodríguez's performances established him as one of the world's top talents, culminating in winning the Golden Boot.",
+  "topPerformers": [
+    {
+      "name": "James Rodríguez",
+      "side": "home",
+      "position": "CAM",
+      "rating": 9.8,
+      "note": "Outstanding performance with a goal and multiple key passes."
+    },
+    {
+      "name": "Juan Guillermo Cuadrado",
+      "side": "home",
+      "position": "RM",
+      "rating": 8.5,
+      "note": "Crucial in attack and contributed a goal."
+    },
+    {
+      "name": "Diego Godín",
+      "side": "away",
+      "position": "CB",
+      "rating": 7.5,
+      "note": "Solid defensive display, though overwhelmed at times."
+    }
+  ]
+}

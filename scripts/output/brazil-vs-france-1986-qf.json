@@ -1,0 +1,189 @@
+{
+  "id": "brazil-vs-france-1986-qf",
+  "tournament": "FIFA World Cup 1986",
+  "year": 1986,
+  "stage": "Quarter-Final",
+  "date": "June 21, 1986",
+  "venue": "Estadio Jalisco",
+  "city": "Guadalajara, Mexico",
+  "home": {
+    "name": "Brazil",
+    "flag": "🇧🇷",
+    "formation": "4-2-2-2",
+    "color": "#F7B731",
+    "colorDim": "rgba(247,183,49,0.18)",
+    "players": [
+      "Carlos",
+      "Ricardo Gomes",
+      "Mauro Galvão",
+      "Jorginho",
+      "Dunga",
+      "Sócrates",
+      "Falcão",
+      "Zico",
+      "Careca",
+      "Romário",
+      "Bebeto"
+    ],
+    "score": 1
+  },
+  "away": {
+    "name": "France",
+    "flag": "🇫🇷",
+    "formation": "4-3-3",
+    "color": "#1E5AA8",
+    "colorDim": "rgba(30,90,168,0.18)",
+    "players": [
+      "Bats",
+      "Latorre",
+      "Giresse",
+      "Tigana",
+      "Bertini",
+      "Bossis",
+      "Platini",
+      "Lacombe",
+      "Six",
+      "Ferrer",
+      "Genghini"
+    ],
+    "score": 1
+  },
+  "status": "PSO",
+  "penaltyScore": "3-4",
+  "xG": {
+    "home": 2.57,
+    "away": 2.34
+  },
+  "possession": {
+    "home": 56,
+    "away": 44
+  },
+  "timeline": [
+    {
+      "minute": "19'",
+      "side": "home",
+      "player": "Careca",
+      "type": "goal",
+      "description": "Careca scores with a volley from a corner."
+    },
+    {
+      "minute": "38'",
+      "side": "away",
+      "player": "Platini",
+      "type": "goal",
+      "description": "Platini equalizes with a well-placed shot."
+    },
+    {
+      "minute": "72'",
+      "side": "home",
+      "player": "Zico",
+      "type": "pen_miss",
+      "description": "Zico's penalty is saved by Bats."
+    },
+    {
+      "minute": "105'",
+      "side": "neutral",
+      "player": "Sócrates",
+      "type": "pen_miss",
+      "description": "Sócrates hits the post during the shootout."
+    },
+    {
+      "minute": "120'",
+      "side": "neutral",
+      "player": "Platini",
+      "type": "pen_goal",
+      "description": "Platini converts the winning penalty in the shootout."
+    }
+  ],
+  "stats": [
+    {
+      "label": "Shots",
+      "home": 18,
+      "away": 15,
+      "homeWidth": 55,
+      "awayWidth": 45
+    },
+    {
+      "label": "Shots on Target",
+      "home": 7,
+      "away": 6,
+      "homeWidth": 54,
+      "awayWidth": 46
+    },
+    {
+      "label": "Possession",
+      "home": 56,
+      "away": 44,
+      "homeWidth": 56,
+      "awayWidth": 44
+    },
+    {
+      "label": "Passes",
+      "home": 600,
+      "away": 450,
+      "homeWidth": 57,
+      "awayWidth": 43
+    },
+    {
+      "label": "Pass Accuracy",
+      "home": "82%",
+      "away": "78%",
+      "homeWidth": 56,
+      "awayWidth": 44
+    },
+    {
+      "label": "Corners",
+      "home": 9,
+      "away": 2,
+      "homeWidth": 82,
+      "awayWidth": 18
+    },
+    {
+      "label": "Fouls",
+      "home": 14,
+      "away": 18,
+      "homeWidth": 43,
+      "awayWidth": 57
+    },
+    {
+      "label": "xG",
+      "home": "2.57",
+      "away": "2.34",
+      "homeWidth": 53,
+      "awayWidth": 47
+    }
+  ],
+  "metaDescription": "Brazil and France delivered a thrilling encounter in the 1986 World Cup Quarter-Final, ending in a dramatic penalty shootout.",
+  "tacticalAnalysis": "In this iconic match, Brazil set up in a 4-2-2-2 formation, emphasizing their attacking prowess with a double pivot of Dunga and Falcão to support the creative talents of Zico and Sócrates in advanced roles. Careca played as a traditional striker alongside Romário, allowing for intricate link-up play. France utilized a 4-3-3 system, with Platini as the central playmaker, flanked by Giresse and Tigana. Their midfield dominance was crucial in transitioning the ball to the attacking trio of Lacombe, Six, and Ferrer. Key tactical battles unfolded between Brazil's full-backs and France's wingers, while the midfield duels dictated the pace of the game. The match showcased Brazil's flair versus France's tactical discipline, culminating in a memorable shootout after a tightly contested 90 minutes and extra time.",
+  "keyMoments": [
+    "19' - Careca scores to give Brazil the lead, a crucial early goal.",
+    "38' - Platini equalizes, showcasing France's resilience.",
+    "72' - Zico misses a penalty, altering the game's momentum.",
+    "105' - Sócrates hits the post during the penalty shootout, a heartbreaking moment.",
+    "120' - Platini converts the shootout winner, sealing the dramatic victory for France."
+  ],
+  "historicalSignificance": "This match is regarded as one of the greatest in World Cup history, exemplifying the intense rivalry and skill of both teams. The narrative of Brazil's flair versus France's tactical acumen has become legendary, and the way it was decided by penalties added to its drama.",
+  "topPerformers": [
+    {
+      "name": "Zico",
+      "side": "home",
+      "position": "CAM",
+      "rating": 9.2,
+      "note": "Displayed extraordinary creativity and control, despite the missed penalty."
+    },
+    {
+      "name": "Platini",
+      "side": "away",
+      "position": "CM",
+      "rating": 8.8,
+      "note": "Key influence on the pitch; scored and converted decisive penalties."
+    },
+    {
+      "name": "Careca",
+      "side": "home",
+      "position": "ST",
+      "rating": 8.5,
+      "note": "Opened the scoring with a fantastic volley, showcasing his finishing skills."
+    }
+  ]
+}

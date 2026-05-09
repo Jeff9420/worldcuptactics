@@ -1,0 +1,187 @@
+{
+  "id": "argentina-vs-mexico-2010-r16",
+  "tournament": "FIFA World Cup 2010",
+  "year": 2010,
+  "stage": "Round of 16",
+  "date": "June 27, 2010",
+  "venue": "Soccer City",
+  "city": "Johannesburg, South Africa",
+  "home": {
+    "name": "Argentina",
+    "flag": "🇦🇷",
+    "formation": "4-3-3",
+    "color": "#74BBFB",
+    "colorDim": "rgba(116,187,251,0.18)",
+    "players": [
+      "Sergio Romero",
+      "Gabriel Heinze",
+      "Walter Samuel",
+      "Nicolás Otamendi",
+      "Javier Zanetti",
+      "Javier Mascherano",
+      "Esteban Cambiasso",
+      "Lionel Messi",
+      "Carlos Tevez",
+      "Gonzalo Higuaín",
+      "Angel Di María"
+    ],
+    "score": 3
+  },
+  "away": {
+    "name": "Mexico",
+    "flag": "🇲🇽",
+    "formation": "4-3-3",
+    "color": "#006847",
+    "colorDim": "rgba(0,104,71,0.18)",
+    "players": [
+      "Guillermo Ochoa",
+      "Paul Aguilar",
+      "Rafael Márquez",
+      "Carlos Salcido",
+      "Francisco Rodríguez",
+      "Gerardo Torrado",
+      "Andrés Guardado",
+      "Cuauhtémoc Blanco",
+      "Pablo Barrera",
+      "Javier Hernández",
+      "Carlos Vela"
+    ],
+    "score": 1
+  },
+  "status": "FT",
+  "xG": {
+    "home": 2.56,
+    "away": 1.12
+  },
+  "possession": {
+    "home": 59,
+    "away": 41
+  },
+  "timeline": [
+    {
+      "minute": "1'",
+      "side": "home",
+      "player": "Carlos Tevez",
+      "type": "goal",
+      "description": "Tevez scores an offside goal, controversial decision."
+    },
+    {
+      "minute": "38'",
+      "side": "home",
+      "player": "Gonzalo Higuaín",
+      "type": "goal",
+      "description": "Higuaín doubles the lead with a close finish."
+    },
+    {
+      "minute": "47'",
+      "side": "away",
+      "player": "Javier Hernández",
+      "type": "goal",
+      "description": "Hernández scores for Mexico, bringing them back into the game."
+    },
+    {
+      "minute": "60'",
+      "side": "home",
+      "player": "Gonzalo Higuaín",
+      "type": "goal",
+      "description": "Higuaín completes his brace with a well-placed shot."
+    },
+    {
+      "minute": "80'",
+      "side": "away",
+      "player": "Gerardo Torrado",
+      "type": "yellow",
+      "description": "Torrado receives a yellow card for a foul."
+    }
+  ],
+  "stats": [
+    {
+      "label": "Shots",
+      "home": 20,
+      "away": 11,
+      "homeWidth": 65,
+      "awayWidth": 35
+    },
+    {
+      "label": "Shots on Target",
+      "home": 10,
+      "away": 5,
+      "homeWidth": 67,
+      "awayWidth": 33
+    },
+    {
+      "label": "Possession",
+      "home": 59,
+      "away": 41,
+      "homeWidth": 59,
+      "awayWidth": 41
+    },
+    {
+      "label": "Passes",
+      "home": 523,
+      "away": 353,
+      "homeWidth": 60,
+      "awayWidth": 40
+    },
+    {
+      "label": "Pass Accuracy",
+      "home": "84%",
+      "away": "76%",
+      "homeWidth": 52,
+      "awayWidth": 48
+    },
+    {
+      "label": "Corners",
+      "home": 8,
+      "away": 3,
+      "homeWidth": 73,
+      "awayWidth": 27
+    },
+    {
+      "label": "Fouls",
+      "home": 15,
+      "away": 17,
+      "homeWidth": 47,
+      "awayWidth": 53
+    },
+    {
+      "label": "xG",
+      "home": "2.56",
+      "away": "1.12",
+      "homeWidth": 70,
+      "awayWidth": 30
+    }
+  ],
+  "metaDescription": "Argentina defeats Mexico 3-1 in a thrilling Round of 16 match at the FIFA World Cup 2010 in Johannesburg, featuring a controversial goal.",
+  "tacticalAnalysis": "Argentina set up in a 4-3-3 formation, with Messi and Tevez operating as inverted wingers, providing width and attacking options. The midfield trio of Mascherano, Cambiasso, and an effective Di María allowed them to control possession and dictate the game's tempo. Mexico, adopting a similar 4-3-3, struggled to cope with Argentina's pressing. Higuaín's movements off the ball often drew defenders, creating space for Tevez and Messi. The first goal from Tevez, while controversial due to his offside position, showcased Argentina's attacking talent. After the first half, Mexico adjusted but were caught on the counter for Higuaín’s brace, illustrating Argentina's clinical finishing. Their positional play stifled Mexico’s creativity, ultimately leading to Argentina’s advancement.",
+  "keyMoments": [
+    "1' - Tevez scores a controversial offside goal, setting the tone for Argentina's dominance.",
+    "38' - Higuaín's finish gives Argentina a comfortable 2-0 lead going into halftime.",
+    "47' - Hernández's quick goal ignites hopes for Mexico.",
+    "60' - Higuaín's second goal puts the match beyond Mexico's reach."
+  ],
+  "historicalSignificance": "This match is significant as Argentina showcased their attacking prowess during the World Cup while reflecting on the contentious nature of officiating in football. The victory propelled them deeper into the tournament, heightening expectations surrounding their squad's potential.",
+  "topPerformers": [
+    {
+      "name": "Gonzalo Higuaín",
+      "side": "home",
+      "position": "ST",
+      "rating": 9,
+      "note": "His two goals were crucial, showcasing his poaching ability."
+    },
+    {
+      "name": "Lionel Messi",
+      "side": "home",
+      "position": "RW",
+      "rating": 8.7,
+      "note": "Creatively dominated the midfield, assisting and causing chaos."
+    },
+    {
+      "name": "Guillermo Ochoa",
+      "side": "away",
+      "position": "GK",
+      "rating": 7.9,
+      "note": "Made several key saves to keep Mexico in the match."
+    }
+  ]
+}

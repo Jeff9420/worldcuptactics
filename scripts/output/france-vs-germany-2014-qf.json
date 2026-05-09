@@ -1,0 +1,173 @@
+{
+  "id": "france-vs-germany-2014-qf",
+  "tournament": "FIFA World Cup 2014",
+  "year": 2014,
+  "stage": "Quarter-Final",
+  "date": "July 4, 2014",
+  "venue": "Estádio do Maracanã",
+  "city": "Rio de Janeiro, Brazil",
+  "home": {
+    "name": "France",
+    "flag": "🇫🇷",
+    "formation": "4-3-3",
+    "color": "#1E5AA8",
+    "colorDim": "rgba(30,90,168,0.18)",
+    "players": [
+      "Hugo Lloris",
+      "Bacary Sagna",
+      "Raphaël Varane",
+      "Mamadou Sakho",
+      "Patrice Evra",
+      "Yohan Cabaye",
+      "Blaise Matuidi",
+      "Paul Pogba",
+      "Karim Benzema",
+      "Antoine Griezmann",
+      "Olivier Giroud"
+    ],
+    "score": 0
+  },
+  "away": {
+    "name": "Germany",
+    "flag": "🇩🇪",
+    "formation": "4-3-3",
+    "color": "#E8E8E8",
+    "colorDim": "rgba(232,232,232,0.18)",
+    "players": [
+      "Manuel Neuer",
+      "Philipp Lahm",
+      "Mats Hummels",
+      "Jerome Boateng",
+      "Benedikt Höwedes",
+      "Sami Khedira",
+      "Bastian Schweinsteiger",
+      "Toni Kroos",
+      "Thomas Müller",
+      "Mario Götze",
+      "Marco Reus"
+    ],
+    "score": 1
+  },
+  "status": "FT",
+  "xG": {
+    "home": 0.76,
+    "away": 1.21
+  },
+  "possession": {
+    "home": 43,
+    "away": 57
+  },
+  "timeline": [
+    {
+      "minute": "13'",
+      "side": "away",
+      "player": "Thomas Müller",
+      "type": "goal",
+      "description": "Müller's header from a Hummels flick-on gives Germany the lead."
+    },
+    {
+      "minute": "78'",
+      "side": "home",
+      "player": "Olivier Giroud",
+      "type": "sub",
+      "description": "Giroud replaces Griezmann in an attacking switch."
+    },
+    {
+      "minute": "90'",
+      "side": "away",
+      "player": "Benedikt Höwedes",
+      "type": "yellow",
+      "description": "Höwedes booked for a foul on Benzema."
+    }
+  ],
+  "stats": [
+    {
+      "label": "Shots",
+      "home": 14,
+      "away": 10,
+      "homeWidth": 58,
+      "awayWidth": 42
+    },
+    {
+      "label": "Shots on Target",
+      "home": 4,
+      "away": 5,
+      "homeWidth": 44,
+      "awayWidth": 56
+    },
+    {
+      "label": "Possession",
+      "home": 43,
+      "away": 57,
+      "homeWidth": 43,
+      "awayWidth": 57
+    },
+    {
+      "label": "Passes",
+      "home": 400,
+      "away": 470,
+      "homeWidth": 46,
+      "awayWidth": 54
+    },
+    {
+      "label": "Pass Accuracy",
+      "home": "85%",
+      "away": "87%",
+      "homeWidth": 46,
+      "awayWidth": 54
+    },
+    {
+      "label": "Corners",
+      "home": 5,
+      "away": 3,
+      "homeWidth": 63,
+      "awayWidth": 37
+    },
+    {
+      "label": "Fouls",
+      "home": 12,
+      "away": 10,
+      "homeWidth": 55,
+      "awayWidth": 45
+    },
+    {
+      "label": "xG",
+      "home": "0.76",
+      "away": "1.21",
+      "homeWidth": 38,
+      "awayWidth": 62
+    }
+  ],
+  "metaDescription": "Germany edged past France in a tight Quarter-Final match at the 2014 FIFA World Cup with a solitary goal from Thomas Müller.",
+  "tacticalAnalysis": "In this matchup, Germany employed a 4-3-3 formation that allowed them to dominate the midfield with Khedira, Schweinsteiger, and Kroos effectively disrupting France's rhythm. France, meanwhile, set up in a 4-3-3 with Benzema leading the line supported by Griezmann and Giroud. The key battle was in midfield where Germany's pressing and positional awareness outmatched France's attempts to build attacks. Hummels and Boateng's defensive solidity rendered Benzema ineffective, while Müller capitalized on an early set-piece to score the only goal of the match from a flick-on, demonstrating Germany's efficiency. France struggled to create clear chances, with only Benzema and Varane coming close to scoring. Late in the match, France's substitutions seemed to increase urgency but failed to breach Germany's organized defense. Löw's tactical flexibility and commitment to pressing ensured Germany's advancement in a compact formation, where they successfully transitioned to counter-attacks.",
+  "keyMoments": [
+    "13' - Müller scores from a header, putting Germany ahead with a flick-on from Hummels.",
+    "56' - Varane's header goes just over the bar, missed opportunity for France.",
+    "78' - Giroud brought on for Griezmann in a bid to bolster France's attack.",
+    "90' - Höwedes receives a yellow card for a foul on Benzema."
+  ],
+  "historicalSignificance": "This match saw Germany continue their strong form in the tournament, ultimately leading them to the final where they would lift the trophy. France's loss marked an early exit for a team favored by many to progress further.",
+  "topPerformers": [
+    {
+      "name": "Manuel Neuer",
+      "side": "away",
+      "position": "GK",
+      "rating": 9.2,
+      "note": "Key saves that denied France crucial opportunities."
+    },
+    {
+      "name": "Thomas Müller",
+      "side": "away",
+      "position": "RW",
+      "rating": 8.5,
+      "note": "Scored the only goal and was pivotal in the attacking phase."
+    },
+    {
+      "name": "Raphaël Varane",
+      "side": "home",
+      "position": "CB",
+      "rating": 8.7,
+      "note": "Solid defensively and contributed to France's few attacking chances."
+    }
+  ]
+}

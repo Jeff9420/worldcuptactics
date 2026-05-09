@@ -1,0 +1,187 @@
+{
+  "id": "germany-vs-japan-2022-group",
+  "tournament": "FIFA World Cup 2022",
+  "year": 2022,
+  "stage": "Group Stage (Group E)",
+  "date": "November 23, 2022",
+  "venue": "Khalifa International Stadium",
+  "city": "Ar-Rayyan, Qatar",
+  "home": {
+    "name": "Germany",
+    "flag": "🇩🇪",
+    "formation": "4-2-3-1",
+    "color": "#E8E8E8",
+    "colorDim": "rgba(232,232,232,0.18)",
+    "players": [
+      "Manuel Neuer",
+      "Niklas Süle",
+      "Antonio Rüdiger",
+      "Matthias Ginter",
+      "David Raum",
+      "Joshua Kimmich",
+      "Ilkay Gündogan",
+      "Marco Reus",
+      "Thomas Müller",
+      "Leroy Sané",
+      "Kai Havertz"
+    ],
+    "score": 1
+  },
+  "away": {
+    "name": "Japan",
+    "flag": "🇯🇵",
+    "formation": "4-3-3",
+    "color": "#BC002D",
+    "colorDim": "rgba(188,0,45,0.18)",
+    "players": [
+      "Shūichi Gonda",
+      "Daichi Kamada",
+      "Takehiro Tomiyasu",
+      "Maya Yoshida",
+      "Yuto Nagatomo",
+      "Wataru Endo",
+      "Hidemasa Morita",
+      "Takumi Minamino",
+      "Ritsu Doan",
+      "Kaoru Mitoma",
+      "Asano Takuma"
+    ],
+    "score": 2
+  },
+  "status": "FT",
+  "xG": {
+    "home": 2.19,
+    "away": 1.91
+  },
+  "possession": {
+    "home": 73,
+    "away": 27
+  },
+  "timeline": [
+    {
+      "minute": "33'",
+      "side": "home",
+      "player": "Ilkay Gündogan",
+      "type": "goal",
+      "description": "Gündogan converted a penalty to give Germany a 1-0 lead."
+    },
+    {
+      "minute": "75'",
+      "side": "away",
+      "player": "Ritsu Doan",
+      "type": "goal",
+      "description": "Doan equalized after a superb counter-attack."
+    },
+    {
+      "minute": "83'",
+      "side": "away",
+      "player": "Takuma Asano",
+      "type": "goal",
+      "description": "Asano scored the winner with a clinical finish from an angle."
+    },
+    {
+      "minute": "68'",
+      "side": "away",
+      "player": "Ritsu Doan",
+      "type": "sub",
+      "description": "Doan substituted in for Minamino, crucial impact."
+    },
+    {
+      "minute": "70'",
+      "side": "away",
+      "player": "Takuma Asano",
+      "type": "sub",
+      "description": "Asano substituted in for Mitoma, changed the game."
+    }
+  ],
+  "stats": [
+    {
+      "label": "Shots",
+      "home": 17,
+      "away": 12,
+      "homeWidth": 59,
+      "awayWidth": 41
+    },
+    {
+      "label": "Shots on Target",
+      "home": 5,
+      "away": 3,
+      "homeWidth": 63,
+      "awayWidth": 37
+    },
+    {
+      "label": "Possession",
+      "home": 73,
+      "away": 27,
+      "homeWidth": 73,
+      "awayWidth": 27
+    },
+    {
+      "label": "Passes",
+      "home": 670,
+      "away": 250,
+      "homeWidth": 73,
+      "awayWidth": 27
+    },
+    {
+      "label": "Pass Accuracy",
+      "home": "89%",
+      "away": "78%",
+      "homeWidth": 53,
+      "awayWidth": 47
+    },
+    {
+      "label": "Corners",
+      "home": 9,
+      "away": 3,
+      "homeWidth": 75,
+      "awayWidth": 25
+    },
+    {
+      "label": "Fouls",
+      "home": 9,
+      "away": 15,
+      "homeWidth": 38,
+      "awayWidth": 62
+    },
+    {
+      "label": "xG",
+      "home": "2.19",
+      "away": "1.91",
+      "homeWidth": 53,
+      "awayWidth": 47
+    }
+  ],
+  "metaDescription": "Japan's stunning comeback against Germany in World Cup 2022 highlights tactical brilliance and historical significance.",
+  "tacticalAnalysis": "In this electrifying match, Germany started with a 4-2-3-1 formation, utilizing Kimmich and Gündogan as the double pivot, while Reus, Müller, and Sané promoted a fluid attacking dynamic. Japan, in their 4-3-3 setup, focused on swift counter-attacks and resilience in defense. Japan's manager, Hajime Moriyasu, made pivotal halftime substitutions that revolutionized the game: bringing on Doan and Asano for Minamino and Mitoma completely rejuvenated Japan's attack. Despite Germany dominating possession with 73%, Japan's efficient counter-attacking approach paid off, with Doan and Asano converting under pressure. The goals showcased Germany's defensive lapses and Japan's clinical finishing. This match epitomizes the beauty of tactical adaptability and grit in football.",
+  "keyMoments": [
+    "33' - Gündogan scores from the penalty spot, giving Germany an early lead.",
+    "68' - Doan subbed in, changing the momentum of the game.",
+    "75' - Doan equalizes with a powerful strike.",
+    "83' - Asano seals the victory for Japan with a well-placed shot."
+  ],
+  "historicalSignificance": "This match is celebrated as one of the biggest upsets in World Cup history, showcasing Japan's ability to overcome a traditional powerhouse. It marked a turning point in Japan's football narrative and a stark reminder of Germany's vulnerability in tournament football.",
+  "topPerformers": [
+    {
+      "name": "Ritsu Doan",
+      "side": "away",
+      "position": "FW",
+      "rating": 9,
+      "note": "Changed the game with a quick equalizer."
+    },
+    {
+      "name": "Takuma Asano",
+      "side": "away",
+      "position": "FW",
+      "rating": 8.9,
+      "note": "Game-winner and constant threat on counter-attacks."
+    },
+    {
+      "name": "Joshua Kimmich",
+      "side": "home",
+      "position": "CDM",
+      "rating": 8.3,
+      "note": "Controlled midfield despite the loss."
+    }
+  ]
+}

@@ -1,0 +1,174 @@
+{
+  "id": "usa-vs-ghana-2010-r16",
+  "tournament": "FIFA World Cup 2010",
+  "year": 2010,
+  "stage": "Round of 16",
+  "date": "June 26, 2010",
+  "venue": "Royal Bafokeng Stadium",
+  "city": "Rustenburg, South Africa",
+  "home": {
+    "name": "USA",
+    "flag": "🇺🇸",
+    "formation": "4-4-2",
+    "color": "#3C3B6E",
+    "colorDim": "rgba(60,59,110,0.18)",
+    "players": [
+      "Tim Howard",
+      "Steve Cherundolo",
+      "Oguchi Onyewu",
+      "Carlos Bocanegra",
+      "Jonathan Spector",
+      "Ricardo Clark",
+      "Michael Bradley",
+      "Landon Donovan",
+      "Clint Dempsey",
+      "Jozy Altidore",
+      "Brian Ching"
+    ],
+    "score": 1
+  },
+  "away": {
+    "name": "Ghana",
+    "flag": "🇬🇭",
+    "formation": "4-2-3-1",
+    "color": "#FFD700",
+    "colorDim": "rgba(255,215,0,0.18)",
+    "players": [
+      "Richard Kingson",
+      "John Pantsil",
+      "Isaac Vorsah",
+      "Jonathan Mensah",
+      "Hans Sarpei",
+      "Anthony Annan",
+      "Sulley Muntari",
+      "Kwadwo Asamoah",
+      "Andre Ayew",
+      "Asamoah Gyan",
+      "Kevin-Prince Boateng"
+    ],
+    "score": 2
+  },
+  "status": "AET",
+  "xG": {
+    "home": 1.43,
+    "away": 2.37
+  },
+  "possession": {
+    "home": 45,
+    "away": 55
+  },
+  "timeline": [
+    {
+      "minute": "3'",
+      "side": "home",
+      "player": "Landon Donovan",
+      "type": "pen_goal",
+      "description": "Donovan scored a penalty to give USA an early lead."
+    },
+    {
+      "minute": "43'",
+      "side": "away",
+      "player": "Andre Ayew",
+      "type": "goal",
+      "description": "Ayew equalized with a close-range finish."
+    },
+    {
+      "minute": "93'",
+      "side": "away",
+      "player": "Asamoah Gyan",
+      "type": "goal",
+      "description": "Gyan scored the winner in extra time with a powerful strike."
+    }
+  ],
+  "stats": [
+    {
+      "label": "Shots",
+      "home": 16,
+      "away": 22,
+      "homeWidth": 42,
+      "awayWidth": 58
+    },
+    {
+      "label": "Shots on Target",
+      "home": 5,
+      "away": 8,
+      "homeWidth": 38,
+      "awayWidth": 62
+    },
+    {
+      "label": "Possession",
+      "home": 45,
+      "away": 55,
+      "homeWidth": 45,
+      "awayWidth": 55
+    },
+    {
+      "label": "Passes",
+      "home": 360,
+      "away": 410,
+      "homeWidth": 47,
+      "awayWidth": 53
+    },
+    {
+      "label": "Pass Accuracy",
+      "home": "77%",
+      "away": "80%",
+      "homeWidth": 43,
+      "awayWidth": 57
+    },
+    {
+      "label": "Corners",
+      "home": 8,
+      "away": 4,
+      "homeWidth": 67,
+      "awayWidth": 33
+    },
+    {
+      "label": "Fouls",
+      "home": 18,
+      "away": 16,
+      "homeWidth": 53,
+      "awayWidth": 47
+    },
+    {
+      "label": "xG",
+      "home": "1.43",
+      "away": "2.37",
+      "homeWidth": 38,
+      "awayWidth": 62
+    }
+  ],
+  "metaDescription": "USA fought valiantly in their Round of 16 match against Ghana during the 2010 FIFA World Cup, showcasing exciting football.",
+  "tacticalAnalysis": "The match showcased a classic 4-4-2 formation for the USA against Ghana's more fluid 4-2-3-1. The United States aimed to press high, exploiting their speed on the wings through Donovan and Dempsey. This early tactic paid off with Donovan converting a penalty in the third minute. However, Ghana quickly adapted, with Ayew and Muntari controlling the midfield, allowing their fullbacks to push forward. Gyan's pace proved critical as he exploited space left by the US defense, culminating in his late extra-time goal. The substitutions by Ghana added fresh legs and creativity, particularly with Kevin-Prince Boateng's introduction, allowing Ghana to regain control after the US's initial threat. Overall, both teams displayed tactical adaptability and resilience, with Ghana ultimately proving more clinical in front of goal.",
+  "keyMoments": [
+    "3' - Donovan scores a penalty, giving USA an early lead.",
+    "43' - Ayew equalizes for Ghana just before halftime.",
+    "93' - Gyan scores the winner in extra time.",
+    "60' - USA introduces fresh legs with subs to maintain pressure.",
+    "75' - Ghana's defensive lineup solidifies after taking the lead."
+  ],
+  "historicalSignificance": "This match marked Ghana's advancement to the quarter-finals, making them the first African nation to reach this stage in the tournament's history. It was a landmark moment for African football and showcased the continent's growing competitiveness on the world stage.",
+  "topPerformers": [
+    {
+      "name": "Asamoah Gyan",
+      "side": "away",
+      "position": "ST",
+      "rating": 9,
+      "note": "Scored the decisive goal, showcasing speed and technique."
+    },
+    {
+      "name": "Landon Donovan",
+      "side": "home",
+      "position": "LW",
+      "rating": 8.5,
+      "note": "Instrumental in the US's attack, scored a penalty."
+    },
+    {
+      "name": "Andre Ayew",
+      "side": "away",
+      "position": "LW",
+      "rating": 8.7,
+      "note": "Equalized and maintained pressure on the US defense."
+    }
+  ]
+}

@@ -1,0 +1,224 @@
+{
+  "id": "england-vs-portugal-2006-qf",
+  "tournament": "FIFA World Cup 2006",
+  "year": 2006,
+  "stage": "Quarter-Final",
+  "date": "July 1, 2006",
+  "venue": "Arena AufSchalke",
+  "city": "Gelsenkirchen, Germany",
+  "home": {
+    "name": "England",
+    "flag": "🏴‍☠️",
+    "formation": "4-4-2",
+    "color": "#CF142B",
+    "colorDim": "rgba(207,20,43,0.18)",
+    "players": [
+      "Paul Robinson",
+      "Gary Neville",
+      "John Terry",
+      "Rio Ferdinand",
+      "Ashley Cole",
+      "David Beckham",
+      "Frank Lampard",
+      "Steven Gerrard",
+      "Joe Cole",
+      "Michael Owen",
+      "Wayne Rooney"
+    ],
+    "score": 0
+  },
+  "away": {
+    "name": "Portugal",
+    "flag": "🇵🇹",
+    "formation": "4-3-3",
+    "color": "#006600",
+    "colorDim": "rgba(0,102,0,0.18)",
+    "players": [
+      "Ricardo",
+      "Miguel",
+      "Meira",
+      "Carvalho",
+      "César",
+      "Costinha",
+      "Maniche",
+      "Deco",
+      "Cristiano Ronaldo",
+      "Nuno Gomes",
+      "Simao"
+    ],
+    "score": 0
+  },
+  "status": "PSO",
+  "penaltyScore": "1-3",
+  "xG": {
+    "home": 1.53,
+    "away": 1.31
+  },
+  "possession": {
+    "home": 55,
+    "away": 45
+  },
+  "timeline": [
+    {
+      "minute": "0'",
+      "side": "neutral",
+      "player": "Referee",
+      "type": "start",
+      "description": "Match began."
+    },
+    {
+      "minute": "62'",
+      "side": "home",
+      "player": "Wayne Rooney",
+      "type": "red",
+      "description": "Sent off for stamping on Carvalho."
+    },
+    {
+      "minute": "90'",
+      "side": "neutral",
+      "player": "Referee",
+      "type": "end",
+      "description": "End of regular time."
+    },
+    {
+      "minute": "120'",
+      "side": "neutral",
+      "player": "Referee",
+      "type": "end",
+      "description": "End of extra time."
+    },
+    {
+      "minute": "P1'",
+      "side": "home",
+      "player": "Frank Lampard",
+      "type": "pen_miss",
+      "description": "Penalty saved by Ricardo."
+    },
+    {
+      "minute": "P2'",
+      "side": "away",
+      "player": "Simao",
+      "type": "pen_goal",
+      "description": "Penalty scored."
+    },
+    {
+      "minute": "P3'",
+      "side": "home",
+      "player": "Steven Gerrard",
+      "type": "pen_miss",
+      "description": "Penalty saved by Ricardo."
+    },
+    {
+      "minute": "P4'",
+      "side": "away",
+      "player": "Nuno Gomes",
+      "type": "pen_goal",
+      "description": "Penalty scored."
+    },
+    {
+      "minute": "P5'",
+      "side": "home",
+      "player": "Jamie Carragher",
+      "type": "pen_miss",
+      "description": "Penalty saved by Ricardo."
+    },
+    {
+      "minute": "P6'",
+      "side": "away",
+      "player": "Cristiano Ronaldo",
+      "type": "pen_goal",
+      "description": "Penalty scored."
+    }
+  ],
+  "stats": [
+    {
+      "label": "Shots",
+      "home": 9,
+      "away": 7,
+      "homeWidth": 56,
+      "awayWidth": 44
+    },
+    {
+      "label": "Shots on Target",
+      "home": 3,
+      "away": 4,
+      "homeWidth": 43,
+      "awayWidth": 57
+    },
+    {
+      "label": "Possession",
+      "home": 55,
+      "away": 45,
+      "homeWidth": 55,
+      "awayWidth": 45
+    },
+    {
+      "label": "Passes",
+      "home": 392,
+      "away": 324,
+      "homeWidth": 55,
+      "awayWidth": 45
+    },
+    {
+      "label": "Pass Accuracy",
+      "home": "84%",
+      "away": "78%",
+      "homeWidth": 53,
+      "awayWidth": 47
+    },
+    {
+      "label": "Corners",
+      "home": 7,
+      "away": 5,
+      "homeWidth": 58,
+      "awayWidth": 42
+    },
+    {
+      "label": "Fouls",
+      "home": 12,
+      "away": 10,
+      "homeWidth": 55,
+      "awayWidth": 45
+    },
+    {
+      "label": "xG",
+      "home": "1.53",
+      "away": "1.31",
+      "homeWidth": 55,
+      "awayWidth": 45
+    }
+  ],
+  "metaDescription": "England faced Portugal in a dramatic quarter-final match at the 2006 World Cup, ending in penalties after a scoreless draw.",
+  "tacticalAnalysis": "In this quarter-final, England set up in a traditional 4-4-2 formation with a focus on physicality and wing play, relying heavily on David Beckham's crossing ability from the right flank and Joe Cole's creativity on the left. England pressed effectively in the first half, forcing Portugal into several errors but struggled to convert their chances. Portugal countered with a 4-3-3, emphasizing possession and fluid movement, with Cristiano Ronaldo and Simao stretching the play. Despite England's dominance in midfield led by Gerrard and Lampard, they failed to capitalize on their opportunities. Rooney's red card shifted the dynamics, with Portugal gaining more control but also failing to score in regular and extra time. The penalty shootout showcased the psychological pressure on England as key players missed their penalties.",
+  "keyMoments": [
+    "62': Rooney sent off, changing the match dynamics.",
+    "P1: Lampard's penalty miss proved critical in England's defeat.",
+    "P5: Carragher's miss sealed England's fate in the shootout.",
+    "90': Full-time saw no goals, leading to penalties.",
+    "120': Extra time concluded with no scoring."
+  ],
+  "historicalSignificance": "This match exemplified England's ongoing struggles in knockout stages of major tournaments, particularly in penalties. It highlighted the psychological burden of past failures and the impact of individual moments, like Rooney's red card, on team fortunes. Additionally, it marked a watershed moment for Ronaldo, whose performance split opinions but demonstrated his growing influence on the international stage.",
+  "topPerformers": [
+    {
+      "name": "Ricardo",
+      "side": "away",
+      "position": "GK",
+      "rating": 9.5,
+      "note": "Outstanding performance saving three penalties."
+    },
+    {
+      "name": "Wayne Rooney",
+      "side": "home",
+      "position": "ST",
+      "rating": 7,
+      "note": "Influential until sent off."
+    },
+    {
+      "name": "Frank Lampard",
+      "side": "home",
+      "position": "CM",
+      "rating": 6,
+      "note": "Missed critical penalty."
+    }
+  ]
+}

@@ -1,0 +1,165 @@
+{
+  "id": "spain-vs-portugal-2010-r16",
+  "tournament": "FIFA World Cup 2010",
+  "year": 2010,
+  "stage": "Round of 16",
+  "date": "June 29, 2010",
+  "venue": "Green Point Stadium",
+  "city": "Cape Town, South Africa",
+  "home": {
+    "name": "Spain",
+    "flag": "🇪🇸",
+    "formation": "4-2-3-1",
+    "color": "#CC0000",
+    "colorDim": "rgba(204,0,0,0.18)",
+    "players": [
+      "Iker Casillas",
+      "Gerard Piqué",
+      "Carles Puyol",
+      "Carlos Marchena",
+      "Joan Capdevila",
+      "Xabi Alonso",
+      "Cesc Fàbregas",
+      "Andrés Iniesta",
+      "David Silva",
+      "David Villa",
+      "Fernando Torres"
+    ],
+    "score": 1
+  },
+  "away": {
+    "name": "Portugal",
+    "flag": "🇵🇹",
+    "formation": "4-3-3",
+    "color": "#006600",
+    "colorDim": "rgba(0,102,0,0.18)",
+    "players": [
+      "Eduardo",
+      "Garry Mendes Rodrigues",
+      "Ricardo Carvalho",
+      "Bruno Alves",
+      "Fábio Coentrão",
+      "Raúl Meireles",
+      "João Moutinho",
+      "Deco",
+      "Cristiano Ronaldo",
+      "Hugo Almeida",
+      "Nani"
+    ],
+    "score": 0
+  },
+  "status": "FT",
+  "xG": {
+    "home": 1.5,
+    "away": 0.4
+  },
+  "possession": {
+    "home": 61,
+    "away": 39
+  },
+  "timeline": [
+    {
+      "minute": "63'",
+      "side": "home",
+      "player": "David Villa",
+      "type": "goal",
+      "description": "Villa scores with a deflected shot from the edge of the area."
+    },
+    {
+      "minute": "85'",
+      "side": "away",
+      "player": "Raúl Meireles",
+      "type": "yellow",
+      "description": "Meireles booked for a foul on Iniesta."
+    }
+  ],
+  "stats": [
+    {
+      "label": "Shots",
+      "home": 10,
+      "away": 4,
+      "homeWidth": 71,
+      "awayWidth": 29
+    },
+    {
+      "label": "Shots on Target",
+      "home": 5,
+      "away": 2,
+      "homeWidth": 71,
+      "awayWidth": 29
+    },
+    {
+      "label": "Possession",
+      "home": 61,
+      "away": 39,
+      "homeWidth": 61,
+      "awayWidth": 39
+    },
+    {
+      "label": "Passes",
+      "home": 600,
+      "away": 350,
+      "homeWidth": 63,
+      "awayWidth": 37
+    },
+    {
+      "label": "Pass Accuracy",
+      "home": "87%",
+      "away": "75%",
+      "homeWidth": 54,
+      "awayWidth": 46
+    },
+    {
+      "label": "Corners",
+      "home": 5,
+      "away": 2,
+      "homeWidth": 71,
+      "awayWidth": 29
+    },
+    {
+      "label": "Fouls",
+      "home": 12,
+      "away": 11,
+      "homeWidth": 52,
+      "awayWidth": 48
+    },
+    {
+      "label": "xG",
+      "home": "1.50",
+      "away": "0.45",
+      "homeWidth": 77,
+      "awayWidth": 23
+    }
+  ],
+  "metaDescription": "Spain advances past Portugal with a key goal from David Villa in the 2010 FIFA World Cup Round of 16.",
+  "tacticalAnalysis": "Spain employed a 4-2-3-1 formation, utilizing a double pivot of Xabi Alonso and Cesc Fàbregas to control the midfield. This strategy allowed for fluid ball movement, with Iniesta and Silva providing width. Portugal's 4-3-3 aimed to counter-attack but struggled to break down Spain’s possession game. The goal came from Villa after a crucial defensive lapse by Portugal, emphasizing Spain's dominance while highlighting Ronaldo's inability to impact the game, often being marked out of the match. The tactical discipline from Portugal was commendable, yet they lacked offensive creativity and were often reliant on isolated counter-attacks.",
+  "keyMoments": [
+    "63' - David Villa scores, putting Spain ahead in a tightly contested match.",
+    "85' - Raúl Meireles receives a yellow card for a foul.",
+    "Full-time - Spain advances to the quarter-finals, ending Portugal's World Cup journey."
+  ],
+  "historicalSignificance": "This match marked a crucial moment in Spanish football history, as Spain's victory initiated a golden era, culminating in their 2010 World Cup win. It emphasized Spain's tactical acumen and marked the beginning of Portugal’s struggle to replicate their club performances on the international stage.",
+  "topPerformers": [
+    {
+      "name": "David Villa",
+      "side": "home",
+      "position": "ST",
+      "rating": 9,
+      "note": "Key player with a decisive goal and continuous threat on the attack."
+    },
+    {
+      "name": "Iker Casillas",
+      "side": "home",
+      "position": "GK",
+      "rating": 8.5,
+      "note": "Made crucial saves that ensured a clean sheet."
+    },
+    {
+      "name": "Cristiano Ronaldo",
+      "side": "away",
+      "position": "LW",
+      "rating": 6.5,
+      "note": "Struggled to influence the game, isolated from the attack."
+    }
+  ]
+}

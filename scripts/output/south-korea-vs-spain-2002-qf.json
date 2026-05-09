@@ -1,0 +1,188 @@
+{
+  "id": "south-korea-vs-spain-2002-qf",
+  "tournament": "FIFA World Cup 2002",
+  "year": 2002,
+  "stage": "Quarter-Final",
+  "date": "June 22, 2002",
+  "venue": "Gwangju World Cup Stadium",
+  "city": "Gwangju, South Korea",
+  "home": {
+    "name": "South Korea",
+    "flag": "🇰🇷",
+    "formation": "3-4-3",
+    "color": "#CD2E3A",
+    "colorDim": "rgba(205,46,58,0.18)",
+    "players": [
+      "Lee Woon-jae",
+      "Hong Myung-bo",
+      "Choi Ji-soo",
+      "Kim Tae-young",
+      "Kim Nam-il",
+      "Lee Young-pyo",
+      "Moon Sung-min",
+      "Park Ji-sung",
+      "Ahn Jung-hwan",
+      "Lee Dong-gook",
+      "Seol Ki-hyeon"
+    ],
+    "score": 0
+  },
+  "away": {
+    "name": "Spain",
+    "flag": "🇪🇸",
+    "formation": "4-2-3-1",
+    "color": "#CC0000",
+    "colorDim": "rgba(204,0,0,0.18)",
+    "players": [
+      "Iker Casillas",
+      "Michel Salgado",
+      "Ivan Helguera",
+      "Fernando Hierro",
+      "Carles Puyol",
+      "Thomas Gravesen",
+      "Xavi",
+      "Joaquín",
+      "Raúl",
+      "Luis Enrique",
+      "Fernando Morientes"
+    ],
+    "score": 0
+  },
+  "status": "PSO",
+  "penaltyScore": "5-3",
+  "xG": {
+    "home": 1.2,
+    "away": 1.8
+  },
+  "possession": {
+    "home": 49,
+    "away": 51
+  },
+  "timeline": [
+    {
+      "minute": "27'",
+      "side": "away",
+      "player": "Fernando Morientes",
+      "type": "goal",
+      "description": "Morientes scores a header, disallowed for a questionable foul."
+    },
+    {
+      "minute": "45'",
+      "side": "home",
+      "player": "Lee Woon-jae",
+      "type": "yellow",
+      "description": "Lee receives a yellow card for delaying the game."
+    },
+    {
+      "minute": "83'",
+      "side": "away",
+      "player": "Joaquín",
+      "type": "pen_miss",
+      "description": "Joaquín misses a crucial penalty."
+    },
+    {
+      "minute": "101'",
+      "side": "home",
+      "player": "Lee Woon-jae",
+      "type": "save",
+      "description": "Lee saves a penalty from Fernando Hierro."
+    },
+    {
+      "minute": "120'",
+      "side": "neutral",
+      "player": "Referee",
+      "type": "sub",
+      "description": "Extra time ends, match proceeds to penalties."
+    }
+  ],
+  "stats": [
+    {
+      "label": "Shots",
+      "home": 12,
+      "away": 14,
+      "homeWidth": 46,
+      "awayWidth": 54
+    },
+    {
+      "label": "Shots on Target",
+      "home": 4,
+      "away": 6,
+      "homeWidth": 40,
+      "awayWidth": 60
+    },
+    {
+      "label": "Possession",
+      "home": 49,
+      "away": 51,
+      "homeWidth": 49,
+      "awayWidth": 51
+    },
+    {
+      "label": "Passes",
+      "home": 280,
+      "away": 300,
+      "homeWidth": 48,
+      "awayWidth": 52
+    },
+    {
+      "label": "Pass Accuracy",
+      "home": "77%",
+      "away": "82%",
+      "homeWidth": 48,
+      "awayWidth": 52
+    },
+    {
+      "label": "Corners",
+      "home": 5,
+      "away": 8,
+      "homeWidth": 38,
+      "awayWidth": 62
+    },
+    {
+      "label": "Fouls",
+      "home": 13,
+      "away": 16,
+      "homeWidth": 45,
+      "awayWidth": 55
+    },
+    {
+      "label": "xG",
+      "home": "1.20",
+      "away": "1.80",
+      "homeWidth": 40,
+      "awayWidth": 60
+    }
+  ],
+  "metaDescription": "A controversial match where South Korea advanced to the semi-finals against Spain in the 2002 World Cup quarter-finals.",
+  "tacticalAnalysis": "In this quarter-final, South Korea deployed a 3-4-3 formation, utilizing three central defenders to combat Spain's attacking threat. This allowed them to press high and channel play towards Spain's flanks, disrupting their build-up play. Park Ji-sung and Lee Young-pyo operated as wing-backs, providing width while also dropping back to support the defense. Spain, in a 4-2-3-1 setup, relied on Xavi and Joaquín to provide creativity behind the striker, Fernando Morientes. Spain dominated possession with calculated passing, but their inability to convert chances and the disallowed goal for Morientes proved critical. During the match, South Korea's organized defensive shape and intense pressing created problems for Spain, especially in transition phases, which allowed them to maintain the game's tension and eventually lead to a penalty shootout.",
+  "keyMoments": [
+    "27': Morientes disallowed goal changes momentum.",
+    "83': Joaquín misses penalty crucial for Spain's chances.",
+    "101': Lee saves Hierro's penalty, shifting pressure.",
+    "120': Game progresses to penalties amidst high tension."
+  ],
+  "historicalSignificance": "This match is remembered for its controversial outcomes and decisions, notably the disallowed goals for Spain and the missed penalties. It marked South Korea's unprecedented journey to the semi-finals, becoming the first Asian team to reach this stage in World Cup history.",
+  "topPerformers": [
+    {
+      "name": "Lee Woon-jae",
+      "side": "home",
+      "position": "GK",
+      "rating": 9.2,
+      "note": "Outstanding saves, including two key penalties."
+    },
+    {
+      "name": "Fernando Hierro",
+      "side": "away",
+      "position": "CB",
+      "rating": 8.5,
+      "note": "Led defense and was influential in build-up play."
+    },
+    {
+      "name": "Park Ji-sung",
+      "side": "home",
+      "position": "CM",
+      "rating": 8,
+      "note": "Dynamic midfield presence, vital for transitions."
+    }
+  ]
+}

@@ -1,0 +1,172 @@
+{
+  "id": "germany-vs-sweden-2006-r16",
+  "tournament": "FIFA World Cup 2006",
+  "year": 2006,
+  "stage": "Round of 16",
+  "date": "June 24, 2006",
+  "venue": "Allianz Arena",
+  "city": "Munich, Germany",
+  "home": {
+    "name": "Germany",
+    "flag": "🇩🇪",
+    "formation": "4-4-2",
+    "color": "#E8E8E8",
+    "colorDim": "rgba(232,232,232,0.18)",
+    "players": [
+      "Lehmann",
+      "Lahm",
+      "Metzelder",
+      "Mertesacker",
+      "Jansen",
+      "Frings",
+      "Ballack",
+      "Schweinsteiger",
+      "Podolski",
+      "Klose",
+      "Odonkor"
+    ],
+    "score": 2
+  },
+  "away": {
+    "name": "Sweden",
+    "flag": "🇸🇪",
+    "formation": "4-4-2",
+    "color": "#006AA7",
+    "colorDim": "rgba(0,106,167,0.18)",
+    "players": [
+      "Isaksson",
+      "Melberg",
+      "Lucic",
+      "Johansson",
+      "Lustig",
+      "Kallstrom",
+      "Hargreaves",
+      "Andersson",
+      "Larsson",
+      "Ibrahimovic",
+      "Fredriksson"
+    ],
+    "score": 0
+  },
+  "status": "FT",
+  "xG": {
+    "home": 2.5,
+    "away": 0.7
+  },
+  "possession": {
+    "home": 58,
+    "away": 42
+  },
+  "timeline": [
+    {
+      "minute": "4'",
+      "side": "home",
+      "player": "Podolski",
+      "type": "goal",
+      "description": "Podolski scores with a well-placed shot from outside the box."
+    },
+    {
+      "minute": "12'",
+      "side": "home",
+      "player": "Klose",
+      "type": "goal",
+      "description": "Klose heads home from a cross delivered by Schweinsteiger."
+    },
+    {
+      "minute": "70'",
+      "side": "away",
+      "player": "Lustig",
+      "type": "yellow",
+      "description": "Lustig booked for a foul on Podolski."
+    }
+  ],
+  "stats": [
+    {
+      "label": "Shots",
+      "home": 14,
+      "away": 8,
+      "homeWidth": 64,
+      "awayWidth": 36
+    },
+    {
+      "label": "Shots on Target",
+      "home": 7,
+      "away": 2,
+      "homeWidth": 77,
+      "awayWidth": 23
+    },
+    {
+      "label": "Possession",
+      "home": 58,
+      "away": 42,
+      "homeWidth": 58,
+      "awayWidth": 42
+    },
+    {
+      "label": "Passes",
+      "home": 460,
+      "away": 320,
+      "homeWidth": 59,
+      "awayWidth": 41
+    },
+    {
+      "label": "Pass Accuracy",
+      "home": "82%",
+      "away": "75%",
+      "homeWidth": 52,
+      "awayWidth": 48
+    },
+    {
+      "label": "Corners",
+      "home": 6,
+      "away": 3,
+      "homeWidth": 67,
+      "awayWidth": 33
+    },
+    {
+      "label": "Fouls",
+      "home": 10,
+      "away": 12,
+      "homeWidth": 45,
+      "awayWidth": 55
+    },
+    {
+      "label": "xG",
+      "home": "2.52",
+      "away": "0.75",
+      "homeWidth": 77,
+      "awayWidth": 23
+    }
+  ],
+  "metaDescription": "Germany secured a dominant 2-0 victory over Sweden in the Round of 16, showcasing their attacking prowess at the 2006 World Cup.",
+  "tacticalAnalysis": "Germany deployed a 4-4-2 formation that leaned heavily on the attacking prowess of Podolski and Klose. The pressing intensity was key, as they effectively stifled Sweden's build-up play, particularly exploiting the width provided by Lahm and Jansen on the flanks. The midfield pairing of Frings and Ballack ensured stability, while Schweinsteiger’s deliveries into the box were pivotal to their goal-scoring chances. Sweden, playing in a traditional 4-4-2, struggled to match Germany's tempo and cohesion, leading to breakdowns in their defensive structure. The first goal came from a swift counter-attack that saw Podolski find space, and the second was the result of a well-rehearsed set-piece routine, showcasing Germany's tactical preparation and execution.",
+  "keyMoments": [
+    "4' - Podolski opens the scoring with a spectacular long-range effort.",
+    "12' - Klose doubles the lead with a precise header.",
+    "70' - Lustig booked for a rough challenge on Podolski."
+  ],
+  "historicalSignificance": "This match marked Germany's continuation of a strong tournament run that eventually led them to the semifinals. The performance against Sweden exemplified their attacking philosophy under coach Jürgen Klinsmann, setting a tone for future international success.",
+  "topPerformers": [
+    {
+      "name": "Lukas Podolski",
+      "side": "home",
+      "position": "LW",
+      "rating": 9,
+      "note": "Scored both goals and was a constant threat down the left wing."
+    },
+    {
+      "name": "Mikael Isaksson",
+      "side": "away",
+      "position": "GK",
+      "rating": 7,
+      "note": "Made several crucial saves to keep Sweden in the game."
+    },
+    {
+      "name": "Miroslav Klose",
+      "side": "home",
+      "position": "ST",
+      "rating": 8.5,
+      "note": "His intelligent movement created openings and he scored a vital goal."
+    }
+  ]
+}

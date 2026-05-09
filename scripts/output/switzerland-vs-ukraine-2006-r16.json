@@ -1,0 +1,196 @@
+{
+  "id": "switzerland-vs-ukraine-2006-r16",
+  "tournament": "FIFA World Cup 2006",
+  "year": 2006,
+  "stage": "Round of 16",
+  "date": "June 26, 2006",
+  "venue": "Gottlieb-Daimler-Stadion",
+  "city": "Stuttgart, Germany",
+  "home": {
+    "name": "Switzerland",
+    "flag": "🇨🇭",
+    "formation": "4-4-2",
+    "color": "#D52B1E",
+    "colorDim": "rgba(213,43,30,0.18)",
+    "players": [
+      "Jens Lehmann",
+      "Luca Zuffi",
+      "Philippe Senderos",
+      "Gielani Ilic",
+      "Reto Ziegler",
+      "Glen Johnson",
+      "Tranquillo Barnetta",
+      "Goran Pandev",
+      "Blerim Džemaili",
+      "Alex Frei",
+      "Marco Streller"
+    ],
+    "score": 0
+  },
+  "away": {
+    "name": "Ukraine",
+    "flag": "🇺🇦",
+    "formation": "4-3-3",
+    "color": "#005BBB",
+    "colorDim": "rgba(0,91,187,0.18)",
+    "players": [
+      "Oleksandr Shovkovskyi",
+      "Vladimir Yezersky",
+      "Andriy Nesmachny",
+      "Serhiy Fedorov",
+      "Andriy Rusol",
+      "Serhiy Hryshchenko",
+      "Oleg Gusev",
+      "Andriy Vorobey",
+      "Andriy Shevchenko",
+      "Serhiy Rebrov",
+      "Maxim Koval"
+    ],
+    "score": 0
+  },
+  "status": "PSO",
+  "penaltyScore": "0-3",
+  "xG": {
+    "home": 1.13,
+    "away": 1.27
+  },
+  "possession": {
+    "home": 47,
+    "away": 53
+  },
+  "timeline": [
+    {
+      "minute": "90'",
+      "side": "neutral",
+      "player": "Jens Lehmann",
+      "type": "sub",
+      "description": "Lehmann replaced by substitute goalkeeper"
+    },
+    {
+      "minute": "90'",
+      "side": "neutral",
+      "player": "Serhiy Rebrov",
+      "type": "pen_miss",
+      "description": "Rebrov misses the penalty"
+    },
+    {
+      "minute": "90'",
+      "side": "neutral",
+      "player": "Andriy Shevchenko",
+      "type": "pen_goal",
+      "description": "Shevchenko scores the first penalty"
+    },
+    {
+      "minute": "90'",
+      "side": "neutral",
+      "player": "Oleg Gusev",
+      "type": "pen_goal",
+      "description": "Gusev scores the second penalty"
+    },
+    {
+      "minute": "90'",
+      "side": "neutral",
+      "player": "Serhiy Hryshchenko",
+      "type": "pen_goal",
+      "description": "Hryshchenko scores the third penalty"
+    }
+  ],
+  "stats": [
+    {
+      "label": "Shots",
+      "home": 14,
+      "away": 13,
+      "homeWidth": 52,
+      "awayWidth": 48
+    },
+    {
+      "label": "Shots on Target",
+      "home": 4,
+      "away": 6,
+      "homeWidth": 40,
+      "awayWidth": 60
+    },
+    {
+      "label": "Possession",
+      "home": 47,
+      "away": 53,
+      "homeWidth": 47,
+      "awayWidth": 53
+    },
+    {
+      "label": "Passes",
+      "home": 329,
+      "away": 277,
+      "homeWidth": 54,
+      "awayWidth": 46
+    },
+    {
+      "label": "Pass Accuracy",
+      "home": "82%",
+      "away": "78%",
+      "homeWidth": 51,
+      "awayWidth": 49
+    },
+    {
+      "label": "Corners",
+      "home": 5,
+      "away": 3,
+      "homeWidth": 63,
+      "awayWidth": 37
+    },
+    {
+      "label": "Fouls",
+      "home": 14,
+      "away": 16,
+      "homeWidth": 47,
+      "awayWidth": 53
+    },
+    {
+      "label": "xG",
+      "home": "1.13",
+      "away": "1.27",
+      "homeWidth": 47,
+      "awayWidth": 53
+    }
+  ],
+  "metaDescription": "An unforgettable match where Switzerland faced Ukraine in the Round of 16, culminating in a dramatic penalty shootout.",
+  "tacticalAnalysis": "In this Round of 16 clash, Switzerland deployed a 4-4-2 formation, relying on their strong defensive capabilities illustrated by the partnership of Senderos and Ilic at the back. Their midfield was constructed around the dynamic presence of Barnetta and Džemaili, who sought width and supported the attack through overlaps and crosses. Ukraine, on the other hand, utilized a 4-3-3 formation with Shevchenko leading the front line. Their strategy emphasized quick counter-attacks with Gusev and Vorobey providing lateral options. Despite their distinct strategies, both teams struggled to break the deadlock, ultimately leading to a tense penalty shootout where Ukraine triumphed with psychological resilience and effective execution.",
+  "keyMoments": [
+    "90' - Switzerland's defense holds strong but fails to score in regulation.",
+    "120' - Lehmann substituted just before penalties, adding risk and drama.",
+    "120' - Ukraine's Shevchenko seals the first penalty in a tense atmosphere.",
+    "120' - Rebrov misses the vital second penalty for Switzerland, leading to pressure.",
+    "120' - Ukraine's decisive and flawless penalty execution secures their quarter-final spot."
+  ],
+  "historicalSignificance": "This match remains notable as Switzerland's only World Cup game without conceding a goal, yet they were eliminated. It highlighted the unpredictable nature of knockout football and the importance of converting chances during penalty shootouts.",
+  "topPerformers": [
+    {
+      "name": "Oleksandr Shovkovskyi",
+      "side": "away",
+      "position": "GK",
+      "rating": 9.5,
+      "note": "Outstanding saves that kept his team in the game."
+    },
+    {
+      "name": "Philippe Senderos",
+      "side": "home",
+      "position": "CB",
+      "rating": 8.5,
+      "note": "Strong defensive display, critical in maintaining a clean sheet."
+    },
+    {
+      "name": "Andriy Shevchenko",
+      "side": "away",
+      "position": "ST",
+      "rating": 8.8,
+      "note": "Key for his team, scoring a crucial penalty and applying pressure."
+    },
+    {
+      "name": "Goran Pandev",
+      "side": "home",
+      "position": "CM",
+      "rating": 8,
+      "note": "Creative influence in midfield, distributing play effectively."
+    }
+  ]
+}

@@ -1,0 +1,187 @@
+{
+  "id": "west-germany-vs-netherlands-1990-r16",
+  "tournament": "FIFA World Cup 1990",
+  "year": 1990,
+  "stage": "Round of 16",
+  "date": "June 24, 1990",
+  "venue": "Stadio Giuseppe Meazza",
+  "city": "Milan, Italy",
+  "home": {
+    "name": "West Germany",
+    "flag": "🇩🇪",
+    "formation": "3-5-2",
+    "color": "#E8E8E8",
+    "colorDim": "rgba(232,232,232,0.18)",
+    "players": [
+      "Bodo Illgner",
+      "Thomas Berthold",
+      "Karl-Heinz Riedle",
+      "Jürgen Klinsmann",
+      "Lothar Matthäus",
+      "Andreas Brehme",
+      "Wolfgang Rolff",
+      "Stefan Reuter",
+      "Rudi Völler",
+      "Paul Breitner",
+      "Pierre Littbarski"
+    ],
+    "score": 2
+  },
+  "away": {
+    "name": "Netherlands",
+    "flag": "🇳🇱",
+    "formation": "4-3-3",
+    "color": "#FF6200",
+    "colorDim": "rgba(255,98,0,0.18)",
+    "players": [
+      "Ronald Koeman",
+      "Frank Rijkaard",
+      "Marcel desailly",
+      "Michel Prudhomme",
+      "Wim Jonk",
+      "Ruud Gullit",
+      "Marco van Basten",
+      "Dennis Bergkamp",
+      "Edgar Davids",
+      "Ronald de Boer",
+      "Arjen Robben"
+    ],
+    "score": 1
+  },
+  "status": "FT",
+  "xG": {
+    "home": 1.75,
+    "away": 1.5
+  },
+  "possession": {
+    "home": 55,
+    "away": 45
+  },
+  "timeline": [
+    {
+      "minute": "28'",
+      "side": "home",
+      "player": "Jürgen Klinsmann",
+      "type": "goal",
+      "description": "Opened the scoring with a well-placed shot from inside the box."
+    },
+    {
+      "minute": "38'",
+      "side": "home",
+      "player": "Andreas Brehme",
+      "type": "goal",
+      "description": "Doubled the lead with a powerful strike from distance."
+    },
+    {
+      "minute": "66'",
+      "side": "away",
+      "player": "Marco van Basten",
+      "type": "goal",
+      "description": "Pulled one back with a classic volley from a cross."
+    },
+    {
+      "minute": "69'",
+      "side": "home",
+      "player": "Rudi Völler",
+      "type": "red",
+      "description": "Sent off after a spat with Frank Rijkaard."
+    },
+    {
+      "minute": "69'",
+      "side": "away",
+      "player": "Frank Rijkaard",
+      "type": "red",
+      "description": "Sent off along with Völler after an altercation."
+    }
+  ],
+  "stats": [
+    {
+      "label": "Shots",
+      "home": 12,
+      "away": 8,
+      "homeWidth": 60,
+      "awayWidth": 40
+    },
+    {
+      "label": "Shots on Target",
+      "home": 6,
+      "away": 3,
+      "homeWidth": 67,
+      "awayWidth": 33
+    },
+    {
+      "label": "Possession",
+      "home": 55,
+      "away": 45,
+      "homeWidth": 55,
+      "awayWidth": 45
+    },
+    {
+      "label": "Passes",
+      "home": 320,
+      "away": 250,
+      "homeWidth": 56,
+      "awayWidth": 44
+    },
+    {
+      "label": "Pass Accuracy",
+      "home": "82%",
+      "away": "78%",
+      "homeWidth": 59,
+      "awayWidth": 41
+    },
+    {
+      "label": "Corners",
+      "home": 5,
+      "away": 3,
+      "homeWidth": 63,
+      "awayWidth": 37
+    },
+    {
+      "label": "Fouls",
+      "home": 10,
+      "away": 15,
+      "homeWidth": 40,
+      "awayWidth": 60
+    },
+    {
+      "label": "xG",
+      "home": "1.75",
+      "away": "1.50",
+      "homeWidth": 54,
+      "awayWidth": 46
+    }
+  ],
+  "metaDescription": "West Germany defeats Netherlands in a dramatic Round of 16 match at the FIFA World Cup 1990, showcasing intense rivalry and fireworks.",
+  "tacticalAnalysis": "In this Round of 16 clash, West Germany employed a 3-5-2 formation that allowed them to dominate the midfield with three central players while maintaining depth at the back. The wing-backs provided width and often joined the attack, particularly through Brehme's powerful runs. The creativity and finishing of players like Klinsmann and Völler were critical in West Germany's attacking play, quickly transitioning from defense to offense. The Netherlands, using a 4-3-3 setup, tried to exploit the flanks, relying on the width provided by their wingers. However, as the game progressed, their midfield struggled to maintain possession against a well-organized German defense. The match dramatically shifted when both Völler and Rijkaard were shown red cards, which further fueled the rivalry between the two teams but did not change the outcome.",
+  "keyMoments": [
+    "28' - Klinsmann scores to give West Germany the lead.",
+    "38' - Brehme doubles the score with a long-range shot.",
+    "66' - Van Basten scores for Netherlands, igniting hopes for a comeback.",
+    "69' - Völler and Rijkaard sent off after confrontation."
+  ],
+  "historicalSignificance": "This match is remembered for the intense rivalry between West Germany and the Netherlands, reflecting decades of competitive spirit. It marked a significant moment in World Cup history, showcasing the explosive nature of knockout football. The match also served as a precursor to the Netherlands' resurgence in international football.",
+  "topPerformers": [
+    {
+      "name": "Andreas Brehme",
+      "side": "home",
+      "position": "CM",
+      "rating": 8.5,
+      "note": "Scored the second goal and was instrumental in transitioning play."
+    },
+    {
+      "name": "Marco van Basten",
+      "side": "away",
+      "position": "ST",
+      "rating": 8,
+      "note": "Came off the bench to score and showed great attacking presence."
+    },
+    {
+      "name": "Jürgen Klinsmann",
+      "side": "home",
+      "position": "ST",
+      "rating": 8.8,
+      "note": "Created constant threats, scored the opening goal, and was pivotal in the offense."
+    }
+  ]
+}

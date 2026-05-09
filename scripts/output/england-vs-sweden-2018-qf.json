@@ -1,0 +1,203 @@
+{
+  "id": "england-vs-sweden-2018-qf",
+  "tournament": "FIFA World Cup 2018",
+  "year": 2018,
+  "stage": "Quarter-Final",
+  "date": "July 7, 2018",
+  "venue": "Samara Arena",
+  "city": "Samara, Russia",
+  "home": {
+    "name": "England",
+    "flag": "🏴",
+    "formation": "3-5-2",
+    "color": "#CF142B",
+    "colorDim": "rgba(207,20,43,0.18)",
+    "players": [
+      "Jordan Pickford",
+      "Kyle Walker",
+      "John Stones",
+      "Harry Maguire",
+      "Kieran Trippier",
+      "Jordan Henderson",
+      "Dele Alli",
+      "Eric Dier",
+      "Raheem Sterling",
+      "Harry Kane",
+      "Jesse Lingard"
+    ],
+    "score": 2
+  },
+  "away": {
+    "name": "Sweden",
+    "flag": "🇸🇪",
+    "formation": "4-4-2",
+    "color": "#006AA7",
+    "colorDim": "rgba(0,106,167,0.18)",
+    "players": [
+      "Robin Olsen",
+      "Mikael Lustig",
+      "Victor Lindelöf",
+      "Andreas Granqvist",
+      "Emil Krafth",
+      "Albin Ekdal",
+      "Gustav Svensson",
+      "Viktor Claesson",
+      "Ola Toivonen",
+      "Marcus Berg",
+      "John Guidetti"
+    ],
+    "score": 0
+  },
+  "status": "FT",
+  "xG": {
+    "home": 1.89,
+    "away": 0.45
+  },
+  "possession": {
+    "home": 61,
+    "away": 39
+  },
+  "timeline": [
+    {
+      "minute": "30'",
+      "side": "home",
+      "player": "Harry Maguire",
+      "type": "goal",
+      "description": "Maguire's powerful header from a corner opened the scoring."
+    },
+    {
+      "minute": "58'",
+      "side": "home",
+      "player": "Dele Alli",
+      "type": "goal",
+      "description": "Dele Alli's header doubled the lead."
+    },
+    {
+      "minute": "67'",
+      "side": "away",
+      "player": "Albin Ekdal",
+      "type": "yellow",
+      "description": "Ekdal booked for a late challenge."
+    },
+    {
+      "minute": "75'",
+      "side": "home",
+      "player": "Eric Dier",
+      "type": "sub",
+      "description": "Dier replaced Henderson."
+    },
+    {
+      "minute": "82'",
+      "side": "away",
+      "player": "Ola Toivonen",
+      "type": "yellow",
+      "description": "Toivonen booked for a foul."
+    },
+    {
+      "minute": "90'",
+      "side": "home",
+      "player": "Raheem Sterling",
+      "type": "sub",
+      "description": "Sterling substituted for Rashford."
+    }
+  ],
+  "stats": [
+    {
+      "label": "Shots",
+      "home": 19,
+      "away": 8,
+      "homeWidth": 71,
+      "awayWidth": 29
+    },
+    {
+      "label": "Shots on Target",
+      "home": 9,
+      "away": 2,
+      "homeWidth": 82,
+      "awayWidth": 18
+    },
+    {
+      "label": "Possession",
+      "home": 61,
+      "away": 39,
+      "homeWidth": 61,
+      "awayWidth": 39
+    },
+    {
+      "label": "Passes",
+      "home": 580,
+      "away": 360,
+      "homeWidth": 62,
+      "awayWidth": 38
+    },
+    {
+      "label": "Pass Accuracy",
+      "home": "85%",
+      "away": "75%",
+      "homeWidth": 85,
+      "awayWidth": 75
+    },
+    {
+      "label": "Corners",
+      "home": 9,
+      "away": 3,
+      "homeWidth": 75,
+      "awayWidth": 25
+    },
+    {
+      "label": "Fouls",
+      "home": 12,
+      "away": 15,
+      "homeWidth": 44,
+      "awayWidth": 56
+    },
+    {
+      "label": "xG",
+      "home": "1.89",
+      "away": "0.45",
+      "homeWidth": 80,
+      "awayWidth": 20
+    }
+  ],
+  "metaDescription": "England defeated Sweden 2-0 in the quarter-finals of the 2018 World Cup, advancing to their first semi-final since 1990.",
+  "tacticalAnalysis": "In this match, England deployed a 3-5-2 formation, with three central defenders allowing them to control the midfield through the wing-backs, Kieran Trippier and Ashley Young. The two strikers, Harry Kane and Raheem Sterling, provided mobility and pressing intensity. Sweden, on the other hand, utilized a traditional 4-4-2, aiming to soak up pressure and hit on the counter. However, they struggled to cope with England's set-piece strength, particularly evident in Maguire's opening goal. The Swedish midfield worked hard to nullify England's width, yet their lack of creativity up front was apparent as they failed to create significant chances against a well-organized English defense. Dele Alli's second goal showcased England’s effectiveness from crosses, further emphasizing the tactical superiority of England throughout the match. Henderson's central role heavily involved pressing and recycling the ball, while the defensive duo of Stones and Maguire excelled at maintaining shape and launching attacking transitions.",
+  "keyMoments": [
+    "30' - Maguire scores the first goal with a powerful header from a corner, breaking the deadlock.",
+    "58' - Dele Alli heads home to double the lead, showcasing England's aerial threat.",
+    "67' - Ekdal receives a yellow card for a late challenge, indicating Sweden's frustration.",
+    "75' - Dier substituted in for Henderson to reinforce England's midfield with fresh legs.",
+    "82' - Toivonen booked, contributing to Sweden's mounting caution.",
+    "90' - Sterling is replaced by Rashford, ensuring fresh legs for the closing minutes."
+  ],
+  "historicalSignificance": "This match marked England's first World Cup semi-final since 1990, reigniting hopes of football's return home and solidifying Gareth Southgate's leadership. The excitement generated in England had a profound impact on national morale during the tournament.",
+  "topPerformers": [
+    {
+      "name": "Harry Maguire",
+      "side": "home",
+      "position": "CB",
+      "rating": 9.2,
+      "note": "Outstanding in defense and scored the crucial opening goal."
+    },
+    {
+      "name": "Jordan Henderson",
+      "side": "home",
+      "position": "CM",
+      "rating": 8.5,
+      "note": "Controlled the midfield with authority and helped in transitioning play."
+    },
+    {
+      "name": "Dele Alli",
+      "side": "home",
+      "position": "CAM",
+      "rating": 8.8,
+      "note": "Scored a vital goal and created opportunities with his movement and passing."
+    },
+    {
+      "name": "Marcus Berg",
+      "side": "away",
+      "position": "ST",
+      "rating": 7,
+      "note": "Worked hard but was isolated, unable to find meaningful chances."
+    }
+  ]
+}

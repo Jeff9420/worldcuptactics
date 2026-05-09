@@ -1,0 +1,188 @@
+{
+  "id": "uruguay-vs-germany-2010-3rd",
+  "tournament": "FIFA World Cup 2010",
+  "year": 2010,
+  "stage": "Third Place",
+  "date": "July 10, 2010",
+  "venue": "Nelson Mandela Bay Stadium",
+  "city": "Port Elizabeth, South Africa",
+  "home": {
+    "name": "Uruguay",
+    "flag": "🇺🇾",
+    "formation": "4-4-2",
+    "color": "#4EABDF",
+    "colorDim": "rgba(78,171,223,0.18)",
+    "players": [
+      "Fernando Muslera",
+      "Maxi Pereira",
+      "Diego Godín",
+      "Sebastián Coates",
+      "Alvaro Pereira",
+      "Edinson Cavani",
+      "Diego Forlán",
+      "Egídio",
+      "Walter Gargano",
+      "Cristian Rodríguez",
+      "Luis Suárez"
+    ],
+    "score": 2
+  },
+  "away": {
+    "name": "Germany",
+    "flag": "🇩🇪",
+    "formation": "4-3-3",
+    "color": "#E8E8E8",
+    "colorDim": "rgba(232,232,232,0.18)",
+    "players": [
+      "Manuel Neuer",
+      "Philipp Lahm",
+      "Per Mertesacker",
+      "Arne Friedrich",
+      "Gómez",
+      "Bastian Schweinsteiger",
+      "Thomas Müller",
+      "Mesut Özil",
+      "Jérôme Boateng",
+      "Miroslav Klose",
+      "Sami Khedira"
+    ],
+    "score": 3
+  },
+  "status": "FT",
+  "xG": {
+    "home": 1.25,
+    "away": 2.8
+  },
+  "possession": {
+    "home": 48,
+    "away": 52
+  },
+  "timeline": [
+    {
+      "minute": "19'",
+      "side": "away",
+      "player": "Thomas Müller",
+      "type": "goal",
+      "description": "Müller scores the opener from close range."
+    },
+    {
+      "minute": "28'",
+      "side": "home",
+      "player": "Diego Forlán",
+      "type": "goal",
+      "description": "Forlán equalizes with a stunning free-kick."
+    },
+    {
+      "minute": "32'",
+      "side": "away",
+      "player": "Miroslav Klose",
+      "type": "goal",
+      "description": "Klose restores Germany's lead, tapping in after a cross."
+    },
+    {
+      "minute": "56'",
+      "side": "away",
+      "player": "Thomas Müller",
+      "type": "goal",
+      "description": "Müller scores his second to make it 3-1."
+    },
+    {
+      "minute": "88'",
+      "side": "home",
+      "player": "Luis Suárez",
+      "type": "goal",
+      "description": "Suárez pulls one back late in the match."
+    }
+  ],
+  "stats": [
+    {
+      "label": "Shots",
+      "home": 11,
+      "away": 15,
+      "homeWidth": 42,
+      "awayWidth": 58
+    },
+    {
+      "label": "Shots on Target",
+      "home": 6,
+      "away": 7,
+      "homeWidth": 46,
+      "awayWidth": 54
+    },
+    {
+      "label": "Possession",
+      "home": 48,
+      "away": 52,
+      "homeWidth": 48,
+      "awayWidth": 52
+    },
+    {
+      "label": "Passes",
+      "home": 392,
+      "away": 410,
+      "homeWidth": 48,
+      "awayWidth": 52
+    },
+    {
+      "label": "Pass Accuracy",
+      "home": "84%",
+      "away": "86%",
+      "homeWidth": 48,
+      "awayWidth": 52
+    },
+    {
+      "label": "Corners",
+      "home": 3,
+      "away": 5,
+      "homeWidth": 37,
+      "awayWidth": 63
+    },
+    {
+      "label": "Fouls",
+      "home": 12,
+      "away": 10,
+      "homeWidth": 55,
+      "awayWidth": 45
+    },
+    {
+      "label": "xG",
+      "home": "1.25",
+      "away": "2.80",
+      "homeWidth": 42,
+      "awayWidth": 58
+    }
+  ],
+  "metaDescription": "Germany defeated Uruguay 3-2 in a thrilling World Cup 2010 Third Place match, highlighting outstanding performances by Müller and Klose.",
+  "tacticalAnalysis": "In this Third Place match, Uruguay opted for a 4-4-2 formation, needing a solid defensive structure while exploiting counter-attacks, primarily through the wings with Cavani and Rodríguez. Forlán played a critical role in midfield, orchestrating plays and taking on set-pieces. Conversely, Germany's 4-3-3 formation focused on utilizing width with wingers Müller and Özil, providing necessary support for Klose. They pressed high, often recovering possession quickly, enhancing their attacking game. The first half saw multiple goal-scoring opportunities, showcasing Germany's fluid attacking play, while Forlán's goal came against the run of play, demonstrating Uruguay's capability on the break. Both teams displayed tactical discipline; however, Germany's ability to transition quickly from defence to attack ultimately proved decisive.",
+  "keyMoments": [
+    "19' - Müller opens the scoring.",
+    "28' - Forlán equalizes with an impressive free-kick.",
+    "32' - Klose pushes Germany ahead again.",
+    "56' - Müller doubles his tally, making it 3-1.",
+    "88' - Suárez scores a late goal, narrowing the deficit."
+  ],
+  "historicalSignificance": "This match showcased the competitive spirit of both teams, with Germany solidifying their reputation as one of the tournament's best attacking sides. Müller clinched the Golden Boot, marking a significant achievement in his young career. Uruguay, despite their loss, displayed resilience and talent, paving the way for future success.",
+  "topPerformers": [
+    {
+      "name": "Thomas Müller",
+      "side": "away",
+      "position": "RW",
+      "rating": 9.2,
+      "note": "Scored two crucial goals and was vital in attacking transition."
+    },
+    {
+      "name": "Diego Forlán",
+      "side": "home",
+      "position": "CAM",
+      "rating": 8.5,
+      "note": "His leadership and stunning free-kick kept Uruguay competitive."
+    },
+    {
+      "name": "Miroslav Klose",
+      "side": "away",
+      "position": "ST",
+      "rating": 8.8,
+      "note": "Demonstrated clinical finishing and important hold-up play."
+    }
+  ]
+}

@@ -1,0 +1,194 @@
+{
+  "id": "spain-vs-paraguay-2010-qf",
+  "tournament": "FIFA World Cup 2010",
+  "year": 2010,
+  "stage": "Quarter-Final",
+  "date": "July 3, 2010",
+  "venue": "Ellis Park Stadium",
+  "city": "Johannesburg, South Africa",
+  "home": {
+    "name": "Spain",
+    "flag": "🇪🇸",
+    "formation": "4-2-3-1",
+    "color": "#CC0000",
+    "colorDim": "rgba(204,0,0,0.18)",
+    "players": [
+      "Iker Casillas",
+      "Gerard Piqué",
+      "Carlos Marchena",
+      "Carles Puyol",
+      "Joan Capdevila",
+      "Andrés Iniesta",
+      "Cesc Fàbregas",
+      "Xavi Hernández",
+      "David Silva",
+      "David Villa",
+      "Fernando Torres"
+    ],
+    "score": 1
+  },
+  "away": {
+    "name": "Paraguay",
+    "flag": "🇵🇾",
+    "formation": "4-4-2",
+    "color": "#D52B1E",
+    "colorDim": "rgba(213,43,30,0.18)",
+    "players": [
+      "Justo Villar",
+      "Claudio Morel Rodríguez",
+      "Carlos Bonet",
+      "Paulo da Silva",
+      "Antolín Alcaraz",
+      "Edgar Barreto",
+      "Cristian Riveros",
+      "Víctor Cáceres",
+      "Óscar Cardozo",
+      "Roque Santa Cruz",
+      "Lucas Barrios"
+    ],
+    "score": 0
+  },
+  "status": "FT",
+  "xG": {
+    "home": 1.54,
+    "away": 0.76
+  },
+  "possession": {
+    "home": 58,
+    "away": 42
+  },
+  "timeline": [
+    {
+      "minute": "8'",
+      "side": "home",
+      "player": "David Villa",
+      "type": "goal",
+      "description": "Villa scores with a powerful strike after a deflection."
+    },
+    {
+      "minute": "30'",
+      "side": "away",
+      "player": "Óscar Cardozo",
+      "type": "pen_miss",
+      "description": "Cardozo misses a penalty after being fouled in the box."
+    },
+    {
+      "minute": "36'",
+      "side": "away",
+      "player": "Lucas Barrios",
+      "type": "sub",
+      "description": "Barrios comes on for Santa Cruz."
+    },
+    {
+      "minute": "59'",
+      "side": "away",
+      "player": "Cristian Riveros",
+      "type": "yellow",
+      "description": "Riveros receives a yellow card for a late challenge."
+    },
+    {
+      "minute": "68'",
+      "side": "neutral",
+      "player": "Goal Review",
+      "type": "disallowed_goal",
+      "description": "Villa's second goal is disallowed for offside."
+    },
+    {
+      "minute": "82'",
+      "side": "home",
+      "player": "Fernando Torres",
+      "type": "sub",
+      "description": "Torres substituted for Jesús Navas."
+    }
+  ],
+  "stats": [
+    {
+      "label": "Shots",
+      "home": 10,
+      "away": 8,
+      "homeWidth": 56,
+      "awayWidth": 44
+    },
+    {
+      "label": "Shots on Target",
+      "home": 4,
+      "away": 2,
+      "homeWidth": 67,
+      "awayWidth": 33
+    },
+    {
+      "label": "Possession",
+      "home": 58,
+      "away": 42,
+      "homeWidth": 58,
+      "awayWidth": 42
+    },
+    {
+      "label": "Passes",
+      "home": 487,
+      "away": 328,
+      "homeWidth": 60,
+      "awayWidth": 40
+    },
+    {
+      "label": "Pass Accuracy",
+      "home": "82%",
+      "away": "75%",
+      "homeWidth": 52,
+      "awayWidth": 48
+    },
+    {
+      "label": "Corners",
+      "home": 6,
+      "away": 3,
+      "homeWidth": 67,
+      "awayWidth": 33
+    },
+    {
+      "label": "Fouls",
+      "home": 12,
+      "away": 16,
+      "homeWidth": 43,
+      "awayWidth": 57
+    },
+    {
+      "label": "xG",
+      "home": "1.54",
+      "away": "0.76",
+      "homeWidth": 67,
+      "awayWidth": 33
+    }
+  ],
+  "metaDescription": "Spain faced Paraguay in the 2010 World Cup quarter-finals, a match decided by a single goal from David Villa, showcasing Spain's resilience.",
+  "tacticalAnalysis": "In this quarter-final, Spain utilized a 4-2-3-1 formation, focusing on ball retention and quick passing in the midfield. Xavi and Iniesta orchestrated the play, with Villa operating primarily as a left winger who could cut inside to provide scoring threats. Paraguay, employing a 4-4-2, aimed to disrupt Spain's rhythm with a compact midfield. They sought counterattacks through quick transitions, primarily leveraging the physical presence of Óscar Cardozo and Roque Santa Cruz upfront. The match was defined by Villa's clinical finish from a well-constructed attack that came through intricate passing. Despite being under pressure, Spain's back four, led by Piqué and Puyol, held firm throughout, showcasing their defensive organization.",
+  "keyMoments": [
+    "8' - Villa opens the scoring with a deflected shot.",
+    "30' - Cardozo misses a crucial penalty, which could have leveled the match.",
+    "68' - Villa has a goal disallowed for offside after a VAR review.",
+    "82' - Torres is substituted off for Navas, bringing fresh legs into the attack."
+  ],
+  "historicalSignificance": "This match marked a pivotal moment in Spain's 2010 World Cup journey, showcasing their trademark resilience. David Villa's performance solidified his status as the tournament's top scorer. Despite not being at their best, Spain demonstrated the ability to win under pressure, a hallmark of their championship run.",
+  "topPerformers": [
+    {
+      "name": "David Villa",
+      "side": "home",
+      "position": "ST",
+      "rating": 8.8,
+      "note": "Villa was instrumental in securing Spain's victory with a decisive goal."
+    },
+    {
+      "name": "Iker Casillas",
+      "side": "home",
+      "position": "GK",
+      "rating": 8.5,
+      "note": "Casillas made critical saves, including a penalty save, ensuring Spain's clean sheet."
+    },
+    {
+      "name": "Óscar Cardozo",
+      "side": "away",
+      "position": "ST",
+      "rating": 7.5,
+      "note": "Despite missing a penalty, Cardozo was a constant threat in attack."
+    }
+  ]
+}

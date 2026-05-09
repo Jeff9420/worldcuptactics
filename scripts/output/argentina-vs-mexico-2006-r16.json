@@ -1,0 +1,172 @@
+{
+  "id": "argentina-vs-mexico-2006-r16",
+  "tournament": "FIFA World Cup 2006",
+  "year": 2006,
+  "stage": "Round of 16",
+  "date": "June 24, 2006",
+  "venue": "Zentralstadion",
+  "city": "Leipzig, Germany",
+  "home": {
+    "name": "Argentina",
+    "flag": "🇦🇷",
+    "formation": "4-3-3",
+    "color": "#74BBFB",
+    "colorDim": "rgba(116,187,251,0.18)",
+    "players": [
+      "Sergio Romero",
+      "Gabriel Heinze",
+      "Roberto Ayala",
+      "Juan Sebastián Verón",
+      "Javier Mascherano",
+      "Lionel Messi",
+      "José Sosa",
+      "Maxi Rodríguez",
+      "Hernán Crespo",
+      "Juan Pablo Ángel",
+      "Carlos Tévez"
+    ],
+    "score": 2
+  },
+  "away": {
+    "name": "Mexico",
+    "flag": "🇲🇽",
+    "formation": "5-3-2",
+    "color": "#006847",
+    "colorDim": "rgba(0,104,71,0.18)",
+    "players": [
+      "Oswaldo Sánchez",
+      "Mário Mendez",
+      "Rafael Márquez",
+      "Carlos Salcido",
+      "Pavel Pardo",
+      "Gerardo Torrado",
+      "Andrés Guardado",
+      "Francisco Palencia",
+      "Zinha",
+      "Jared Borgetti",
+      "Omar Bravo"
+    ],
+    "score": 1
+  },
+  "status": "AET",
+  "xG": {
+    "home": 2.54,
+    "away": 0.89
+  },
+  "possession": {
+    "home": 58,
+    "away": 42
+  },
+  "timeline": [
+    {
+      "minute": "6'",
+      "side": "home",
+      "player": "Hernán Crespo",
+      "type": "goal",
+      "description": "Crespo opened the scoring with a close-range finish."
+    },
+    {
+      "minute": "10'",
+      "side": "away",
+      "player": "Rafael Márquez",
+      "type": "goal",
+      "description": "Márquez equalised with a long-range shot."
+    },
+    {
+      "minute": "98'",
+      "side": "home",
+      "player": "Maxi Rodríguez",
+      "type": "goal",
+      "description": "Rodríguez scored with a stunning volley from 35 yards."
+    }
+  ],
+  "stats": [
+    {
+      "label": "Shots",
+      "home": 16,
+      "away": 9,
+      "homeWidth": 64,
+      "awayWidth": 36
+    },
+    {
+      "label": "Shots on Target",
+      "home": 7,
+      "away": 4,
+      "homeWidth": 64,
+      "awayWidth": 36
+    },
+    {
+      "label": "Possession",
+      "home": 58,
+      "away": 42,
+      "homeWidth": 58,
+      "awayWidth": 42
+    },
+    {
+      "label": "Passes",
+      "home": 450,
+      "away": 295,
+      "homeWidth": 60,
+      "awayWidth": 40
+    },
+    {
+      "label": "Pass Accuracy",
+      "home": "85%",
+      "away": "79%",
+      "homeWidth": 53,
+      "awayWidth": 47
+    },
+    {
+      "label": "Corners",
+      "home": 9,
+      "away": 3,
+      "homeWidth": 75,
+      "awayWidth": 25
+    },
+    {
+      "label": "Fouls",
+      "home": 15,
+      "away": 12,
+      "homeWidth": 56,
+      "awayWidth": 44
+    },
+    {
+      "label": "xG",
+      "home": "2.54",
+      "away": "0.89",
+      "homeWidth": 74,
+      "awayWidth": 26
+    }
+  ],
+  "metaDescription": "Argentina defeats Mexico 2-1 in an epic Round of 16 match, featuring Rodríguez's stunning extra-time goal.",
+  "tacticalAnalysis": "In this closely contested Round of 16 match, Argentina operated in a 4-3-3 formation, utilizing Messi and Tévez on the wings to stretch the Mexican defense, while Crespo’s positioning served as the focal point up front. Mexico countered with a 5-3-2 structure, focusing on defensive solidity and employing wing-backs Salcido and Mendez to support both defense and counterattacks. The tactical battle saw Argentina dominating possession, creating numerous chances through quick passing and intricate movement, while Mexico relied on swift transitions. The first half opened with Crespo's goal, a result of Argentine pressing. However, Márquez’s equalizer just minutes later highlighted Mexico's resilience. As the match progressed into extra time, Maxi Rodríguez's exceptional volley underscored Argentina's attacking prowess, making it one of the most memorable moments of the tournament.",
+  "keyMoments": [
+    "6' - Crespo opens the scoring for Argentina, igniting early excitement.",
+    "10' - Márquez equalizes, showcasing Mexico's fighting spirit.",
+    "98' - Maxi Rodríguez delivers a breathtaking volley to win the match."
+  ],
+  "historicalSignificance": "This match is remembered for its thrilling pace and the quality of goals, particularly Rodríguez’s strike, which is often cited as one of the best in World Cup history. Argentina's victory propelled them into the quarter-finals, marking a key moment in their World Cup campaign.",
+  "topPerformers": [
+    {
+      "name": "Maxi Rodríguez",
+      "side": "home",
+      "position": "LW",
+      "rating": 9.2,
+      "note": "His match-winning goal was a stunning display of skill and technique."
+    },
+    {
+      "name": "Hernán Crespo",
+      "side": "home",
+      "position": "ST",
+      "rating": 8.5,
+      "note": "Crespo's movement and opening goal set the tone for Argentina."
+    },
+    {
+      "name": "Rafael Márquez",
+      "side": "away",
+      "position": "CB",
+      "rating": 8,
+      "note": "Márquez's equalizer was crucial, demonstrating leadership in defense."
+    }
+  ]
+}

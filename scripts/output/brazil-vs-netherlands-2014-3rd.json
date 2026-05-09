@@ -1,0 +1,172 @@
+{
+  "id": "brazil-vs-netherlands-2014-3rd",
+  "tournament": "FIFA World Cup 2014",
+  "year": 2014,
+  "stage": "Third Place",
+  "date": "July 12, 2014",
+  "venue": "Estádio Nacional",
+  "city": "Brasília, Brazil",
+  "home": {
+    "name": "Brazil",
+    "flag": "🇧🇷",
+    "formation": "4-2-3-1",
+    "color": "#F7B731",
+    "colorDim": "rgba(247,183,49,0.18)",
+    "players": [
+      "Julio Cesar",
+      "Dani Alves",
+      "Thiago Silva",
+      "David Luiz",
+      "Marcelo",
+      "Fernandinho",
+      "Paulinho",
+      "Oscar",
+      "Hulk",
+      "Neymar",
+      "Fred"
+    ],
+    "score": 0
+  },
+  "away": {
+    "name": "Netherlands",
+    "flag": "🇳🇱",
+    "formation": "5-3-2",
+    "color": "#FF6200",
+    "colorDim": "rgba(255,98,0,0.18)",
+    "players": [
+      "Karl-Johan Johnsson",
+      "Ron Vlaar",
+      "Daniel Agger",
+      "Daley Blind",
+      "Bruno Martins Indi",
+      "Kenny Tete",
+      "Wijnaldum",
+      "Sneijder",
+      "Arjen Robben",
+      "Robin van Persie",
+      "Klaas-Jan Huntelaar"
+    ],
+    "score": 3
+  },
+  "status": "FT",
+  "xG": {
+    "home": 0.82,
+    "away": 2.25
+  },
+  "possession": {
+    "home": 41,
+    "away": 59
+  },
+  "timeline": [
+    {
+      "minute": "3'",
+      "side": "away",
+      "player": "Robin van Persie",
+      "type": "goal",
+      "description": "Van Persie opens the scoring with a header from a cross."
+    },
+    {
+      "minute": "17'",
+      "side": "away",
+      "player": "Daley Blind",
+      "type": "goal",
+      "description": "Blind finds the net with a low shot from outside the box."
+    },
+    {
+      "minute": "90+1'",
+      "side": "away",
+      "player": "Georginio Wijnaldum",
+      "type": "goal",
+      "description": "Wijnaldum seals the game with a close-range effort."
+    }
+  ],
+  "stats": [
+    {
+      "label": "Shots",
+      "home": 11,
+      "away": 20,
+      "homeWidth": 35,
+      "awayWidth": 65
+    },
+    {
+      "label": "Shots on Target",
+      "home": 3,
+      "away": 10,
+      "homeWidth": 23,
+      "awayWidth": 77
+    },
+    {
+      "label": "Possession",
+      "home": 41,
+      "away": 59,
+      "homeWidth": 41,
+      "awayWidth": 59
+    },
+    {
+      "label": "Passes",
+      "home": 385,
+      "away": 448,
+      "homeWidth": 46,
+      "awayWidth": 54
+    },
+    {
+      "label": "Pass Accuracy",
+      "home": "83%",
+      "away": "86%",
+      "homeWidth": 46,
+      "awayWidth": 54
+    },
+    {
+      "label": "Corners",
+      "home": 4,
+      "away": 6,
+      "homeWidth": 40,
+      "awayWidth": 60
+    },
+    {
+      "label": "Fouls",
+      "home": 14,
+      "away": 10,
+      "homeWidth": 58,
+      "awayWidth": 42
+    },
+    {
+      "label": "xG",
+      "home": "0.82",
+      "away": "2.25",
+      "homeWidth": 27,
+      "awayWidth": 73
+    }
+  ],
+  "metaDescription": "Brazil's humiliation continued as they lost to Netherlands in the 2014 World Cup Third Place match, ending a disappointing tournament for hosts.",
+  "tacticalAnalysis": "In the Third Place match of the FIFA World Cup 2014, Brazil lined up in a 4-2-3-1 formation aiming for a return to form after their semi-final despair. Julio Cesar was in goal with a back four of Dani Alves, Thiago Silva, David Luiz, and Marcelo. The midfield pivot was composed of Fernandinho and Paulinho, providing the necessary balance between defense and attack. Oscar operated in an advanced role behind striker Fred, supported by wingers Hulk and Neymar. Brazil struggled to create effective chances and failed to maintain possession against the compact Dutch formation.\n\nOn the other hand, the Netherlands utilized a 5-3-2 setup that transitioned effectively into a 3-5-2, pressing Brazil high and exploiting their poor defensive organization. The wing-backs, Daley Blind and Bruno Martins Indi, played crucial roles in providing width and support for the midfield trio, allowing space for Van Persie and Robben to exploit in counter-attacks. The opening goal from Van Persie came from a well-placed cross, highlighting Brazil's defensive frailty. Blind's low drive from distance showed their tactical awareness and ability to capitalize on Brazilian errors. The final goal from Wijnaldum wrapped up an efficient countering display, sealing Brazil's nightmare World Cup on home soil and reflecting the tactical superiority of the Dutch.\n\nHead coach Scolari’s tactical missteps were evident, with a lack of flexibility in adjustments leading to the humiliation that would ultimately cost him his position post-tournament.",
+  "keyMoments": [
+    "3' - Van Persie scores the opener, setting the tone for the match.",
+    "17' - Blind doubles the lead with a stunning shot outside the box.",
+    "90+1' - Wijnaldum scores to seal the match and further demoralize Brazil."
+  ],
+  "historicalSignificance": "This match marked the end of Brazil's World Cup campaign in 2014, a disastrous tournament for the hosts characterized by a humiliating 7-1 defeat to Germany in the semifinals. It reflected significant issues within Brazilian football, prompting a reevaluation of their tactics and player selections, as well as leading to the resignation of coach Luiz Felipe Scolari.",
+  "topPerformers": [
+    {
+      "name": "Robin van Persie",
+      "side": "away",
+      "position": "ST",
+      "rating": 9,
+      "note": "Led the attack, scored the opening goal, and provided a constant threat."
+    },
+    {
+      "name": "Daley Blind",
+      "side": "away",
+      "position": "LB",
+      "rating": 8.5,
+      "note": "Impressive throughout, scored a crucial goal and supported defensively."
+    },
+    {
+      "name": "Thiago Silva",
+      "side": "home",
+      "position": "CB",
+      "rating": 7.5,
+      "note": "Despite the loss, he was a steady presence in a difficult match."
+    }
+  ]
+}

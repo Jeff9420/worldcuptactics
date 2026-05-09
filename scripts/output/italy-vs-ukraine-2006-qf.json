@@ -1,0 +1,195 @@
+{
+  "id": "italy-vs-ukraine-2006-qf",
+  "tournament": "FIFA World Cup 2006",
+  "year": 2006,
+  "stage": "Quarter-Final",
+  "date": "June 30, 2006",
+  "venue": "Hamburg Arena",
+  "city": "Hamburg, Germany",
+  "home": {
+    "name": "Italy",
+    "flag": "🇮🇹",
+    "formation": "4-4-2",
+    "color": "#0033A0",
+    "colorDim": "rgba(0,51,160,0.18)",
+    "players": [
+      "Gianluigi Buffon",
+      "Fabio Cannavaro",
+      "Giorgio Chiellini",
+      "Marco Materazzi",
+      "Gianluca Zambrotta",
+      "Gennaro Gattuso",
+      "Andrea Pirlo",
+      "Daniele De Rossi",
+      "Francesco Totti",
+      "Marco Boriello",
+      "Luca Toni"
+    ],
+    "score": 3
+  },
+  "away": {
+    "name": "Ukraine",
+    "flag": "🇺🇦",
+    "formation": "4-3-3",
+    "color": "#005BBB",
+    "colorDim": "rgba(0,91,187,0.18)",
+    "players": [
+      "Alexander Shovkovskiy",
+      "Viktor Onyshchenko",
+      "Vitali Mandzyuk",
+      "Serhiy Fyodorov",
+      "Oleksandr Kucher",
+      "Yevhen Levchenko",
+      "Andriy Husin",
+      "Serhiy Nazarenko",
+      "Andriy Shevchenko",
+      "Maxim Kalinichenko",
+      "Viktor Leonenko"
+    ],
+    "score": 0
+  },
+  "status": "FT",
+  "xG": {
+    "home": 2.7,
+    "away": 0.5
+  },
+  "possession": {
+    "home": 58,
+    "away": 42
+  },
+  "timeline": [
+    {
+      "minute": "6'",
+      "side": "home",
+      "player": "Zambrotta",
+      "type": "goal",
+      "description": "Zambrotta opens the scoring with a powerful strike from outside the box."
+    },
+    {
+      "minute": "20'",
+      "side": "home",
+      "player": "Toni",
+      "type": "goal",
+      "description": "Toni doubles Italy's lead after a well-placed cross."
+    },
+    {
+      "minute": "28'",
+      "side": "home",
+      "player": "Toni",
+      "type": "goal",
+      "description": "Toni scores his second with a neat finish after a defensive error."
+    },
+    {
+      "minute": "60'",
+      "side": "away",
+      "player": "Shevchenko",
+      "type": "yellow",
+      "description": "Shevchenko receives a yellow card for dissent."
+    },
+    {
+      "minute": "75'",
+      "side": "home",
+      "player": "Zambrotta",
+      "type": "sub",
+      "description": "Zambrotta subbed off for Gianluca Buffon."
+    }
+  ],
+  "stats": [
+    {
+      "label": "Shots",
+      "home": 16,
+      "away": 5,
+      "homeWidth": 76,
+      "awayWidth": 24
+    },
+    {
+      "label": "Shots on Target",
+      "home": 9,
+      "away": 1,
+      "homeWidth": 90,
+      "awayWidth": 10
+    },
+    {
+      "label": "Possession",
+      "home": 58,
+      "away": 42,
+      "homeWidth": 58,
+      "awayWidth": 42
+    },
+    {
+      "label": "Passes",
+      "home": 450,
+      "away": 330,
+      "homeWidth": 58,
+      "awayWidth": 42
+    },
+    {
+      "label": "Pass Accuracy",
+      "home": "85%",
+      "away": "76%",
+      "homeWidth": 85,
+      "awayWidth": 76
+    },
+    {
+      "label": "Corners",
+      "home": 8,
+      "away": 3,
+      "homeWidth": 73,
+      "awayWidth": 27
+    },
+    {
+      "label": "Fouls",
+      "home": 14,
+      "away": 12,
+      "homeWidth": 54,
+      "awayWidth": 46
+    },
+    {
+      "label": "xG",
+      "home": "2.70",
+      "away": "0.50",
+      "homeWidth": 2.7,
+      "awayWidth": 0.5
+    }
+  ],
+  "metaDescription": "Italy dominates Ukraine to reach the semi-finals in the 2006 World Cup, displaying tactical superiority and clinical finishing.",
+  "tacticalAnalysis": "Italy lined up in a 4-4-2 formation, utilizing a strong defensive core led by Cannavaro and Materazzi. Zambrotta's attacking prowess from the left allowed for width, complementing the midfield presence of Pirlo who orchestrated play effectively. Ukraine, in a 4-3-3 formation, struggled to break down Italy's disciplined defense, with Shevchenko isolated and unable to create meaningful chances. The goals came from swift counter-attacks, with Italy taking advantage of Ukraine's defensive lapses. Manager Marcello Lippi's tactical adjustments, including tactical pressing, proved vital as Italy stifled Ukraine's creativity and maintained possession.",
+  "keyMoments": [
+    "6' - Zambrotta's stunning opener sets the tone for the match.",
+    "20' - Toni's header doubles the lead, putting Ukraine under pressure.",
+    "28' - Toni's second goal cements Italy's control over the match.",
+    "60' - Shevchenko's yellow card illustrates Ukraine's frustration.",
+    "75' - Zambrotta's substitution marks a strategic defensive shift for Italy."
+  ],
+  "historicalSignificance": "This match solidified Italy's place as a dominant force in the tournament, showcasing their tactical discipline and defensive prowess. The victory propelled Italy toward their fourth World Cup title, underscoring the effectiveness of their game plan and player execution.",
+  "topPerformers": [
+    {
+      "name": "Gianluigi Buffon",
+      "side": "home",
+      "position": "GK",
+      "rating": 9.2,
+      "note": "Key saves and leadership in goal were integral to Italy's defensive success."
+    },
+    {
+      "name": "Fabio Cannavaro",
+      "side": "home",
+      "position": "CB",
+      "rating": 9,
+      "note": "Outstanding defensive performance, neutralizing Ukraine's attacking threats."
+    },
+    {
+      "name": "Luca Toni",
+      "side": "home",
+      "position": "ST",
+      "rating": 8.8,
+      "note": "Clinical finishing with two crucial goals, leading the attack confidently."
+    },
+    {
+      "name": "Andriy Shevchenko",
+      "side": "away",
+      "position": "ST",
+      "rating": 7,
+      "note": "Despite being contained, he remained a focal point for Ukraine's attacking efforts."
+    }
+  ]
+}

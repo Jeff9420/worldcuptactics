@@ -1,0 +1,251 @@
+{
+  "id": "paraguay-vs-japan-2010-r16",
+  "tournament": "FIFA World Cup 2010",
+  "year": 2010,
+  "stage": "Round of 16",
+  "date": "June 29, 2010",
+  "venue": "Loftus Versfeld Stadium",
+  "city": "Pretoria, South Africa",
+  "home": {
+    "name": "Paraguay",
+    "flag": "🇵🇾",
+    "formation": "4-4-2",
+    "color": "#D52B1E",
+    "colorDim": "rgba(213,43,30,0.18)",
+    "players": [
+      "Justo Villar",
+      "Claudio Morel",
+      "Paulo Da Silva",
+      "Gerardo Alcoba",
+      "Omar Bravo",
+      "Christian Riveros",
+      "Edgar Barreto",
+      "Victor Caceres",
+      "Roque Santa Cruz",
+      "Lucas Barrios",
+      "Nelson Haedo Valdez"
+    ],
+    "score": 0
+  },
+  "away": {
+    "name": "Japan",
+    "flag": "🇯🇵",
+    "formation": "4-2-3-1",
+    "color": "#BC002D",
+    "colorDim": "rgba(188,0,45,0.18)",
+    "players": [
+      "Eiji Kawashima",
+      "Yuichi Komano",
+      "Yasuyuki Konno",
+      "Maya Yoshida",
+      "Atsuto Uchida",
+      "Hiroshi Kiyotake",
+      "Yasuhito Endo",
+      "Junya Tanaka",
+      "Shinji Kagawa",
+      "Keisuke Honda",
+      "Takashi Usami"
+    ],
+    "score": 0
+  },
+  "status": "PSO",
+  "penaltyScore": "5-3",
+  "xG": {
+    "home": 1.2,
+    "away": 1.15
+  },
+  "possession": {
+    "home": 50,
+    "away": 50
+  },
+  "timeline": [
+    {
+      "minute": "90'",
+      "side": "neutral",
+      "player": "N/A",
+      "type": "sub",
+      "description": "End of regular time"
+    },
+    {
+      "minute": "120'",
+      "side": "neutral",
+      "player": "N/A",
+      "type": "sub",
+      "description": "End of extra time"
+    },
+    {
+      "minute": "penalty",
+      "side": "home",
+      "player": "Cardozo",
+      "type": "pen_goal",
+      "description": "Converted penalty"
+    },
+    {
+      "minute": "penalty",
+      "side": "away",
+      "player": "Komano",
+      "type": "pen_miss",
+      "description": "Saved by Villar"
+    },
+    {
+      "minute": "penalty",
+      "side": "home",
+      "player": "Barrios",
+      "type": "pen_goal",
+      "description": "Converted penalty"
+    },
+    {
+      "minute": "penalty",
+      "side": "away",
+      "player": "Kagawa",
+      "type": "pen_goal",
+      "description": "Converted penalty"
+    },
+    {
+      "minute": "penalty",
+      "side": "home",
+      "player": "Valdez",
+      "type": "pen_goal",
+      "description": "Converted penalty"
+    },
+    {
+      "minute": "penalty",
+      "side": "away",
+      "player": "Honda",
+      "type": "pen_goal",
+      "description": "Converted penalty"
+    },
+    {
+      "minute": "penalty",
+      "side": "home",
+      "player": "Riveros",
+      "type": "pen_goal",
+      "description": "Converted penalty"
+    },
+    {
+      "minute": "penalty",
+      "side": "away",
+      "player": "Endo",
+      "type": "pen_miss",
+      "description": "Missed penalty"
+    },
+    {
+      "minute": "penalty",
+      "side": "home",
+      "player": "Caceres",
+      "type": "pen_goal",
+      "description": "Converted penalty"
+    },
+    {
+      "minute": "penalty",
+      "side": "away",
+      "player": "Tanaka",
+      "type": "pen_goal",
+      "description": "Converted penalty"
+    },
+    {
+      "minute": "penalty",
+      "side": "home",
+      "player": "Santa Cruz",
+      "type": "pen_goal",
+      "description": "Converted penalty"
+    },
+    {
+      "minute": "penalty",
+      "side": "away",
+      "player": "Usami",
+      "type": "pen_miss",
+      "description": "Missed penalty"
+    }
+  ],
+  "stats": [
+    {
+      "label": "Shots",
+      "home": 10,
+      "away": 9,
+      "homeWidth": 52,
+      "awayWidth": 48
+    },
+    {
+      "label": "Shots on Target",
+      "home": 3,
+      "away": 2,
+      "homeWidth": 60,
+      "awayWidth": 40
+    },
+    {
+      "label": "Possession",
+      "home": 50,
+      "away": 50,
+      "homeWidth": 50,
+      "awayWidth": 50
+    },
+    {
+      "label": "Passes",
+      "home": 300,
+      "away": 295,
+      "homeWidth": 51,
+      "awayWidth": 49
+    },
+    {
+      "label": "Pass Accuracy",
+      "home": "75%",
+      "away": "73%",
+      "homeWidth": 51,
+      "awayWidth": 49
+    },
+    {
+      "label": "Corners",
+      "home": 5,
+      "away": 4,
+      "homeWidth": 55,
+      "awayWidth": 45
+    },
+    {
+      "label": "Fouls",
+      "home": 12,
+      "away": 14,
+      "homeWidth": 46,
+      "awayWidth": 54
+    },
+    {
+      "label": "xG",
+      "home": "1.20",
+      "away": "1.15",
+      "homeWidth": 50,
+      "awayWidth": 50
+    }
+  ],
+  "metaDescription": "Paraguay and Japan faced off in a goalless battle leading to penalties, highlighting the resilience of both teams in the FIFA World Cup 2010.",
+  "tacticalAnalysis": "In this match, Paraguay deployed a solid 4-4-2 formation aimed at compactness in midfield, trying to absorb Japan's attacking threats led by Honda and Kagawa. Roque Santa Cruz and Lucas Barrios formed a dual striking partnership, providing physical presence upfront while looking to capitalize on counter-attacks. Japan, on the other hand, set up in a 4-2-3-1 shape allowing them to create overloads in wide areas with Uchida and Komano pushing forward. The midfield duo of Kiyotake and Endo aimed to control possession and provide link-up play with the front four. Throughout the match, both defenses held firm, and it took until penalties to decide a winner, showcasing the tactical battle and balance between both teams.",
+  "keyMoments": [
+    "90' End of regular time, both teams still scoreless.",
+    "120' Extra time comes to a close with no goals.",
+    "Penalty shootout begins, excitement and tension in the air.",
+    "Cardozo makes a vital save against Komano's penalty."
+  ],
+  "historicalSignificance": "This match marked Paraguay's first-ever progression to the quarter-finals in a World Cup, showcasing the growth of South American football. Japan, despite the loss, solidified their reputation as a competitive side in international tournaments, being the first Asian team to reach the knockout stages for consecutive World Cups.",
+  "topPerformers": [
+    {
+      "name": "Justo Villar",
+      "side": "home",
+      "position": "GK",
+      "rating": 9.2,
+      "note": "Outstanding saves during the penalty shootout."
+    },
+    {
+      "name": "Keisuke Honda",
+      "side": "away",
+      "position": "CM",
+      "rating": 8.5,
+      "note": "Creative force in Japan's midfield."
+    },
+    {
+      "name": "Roque Santa Cruz",
+      "side": "home",
+      "position": "ST",
+      "rating": 8.8,
+      "note": "Strong presence on the field, crucial in attacking plays."
+    }
+  ]
+}

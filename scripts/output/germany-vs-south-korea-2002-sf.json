@@ -1,0 +1,174 @@
+{
+  "id": "germany-vs-south-korea-2002-sf",
+  "tournament": "FIFA World Cup 2002",
+  "year": 2002,
+  "stage": "Semi-Final",
+  "date": "June 25, 2002",
+  "venue": "Seoul World Cup Stadium",
+  "city": "Seoul, South Korea",
+  "home": {
+    "name": "Germany",
+    "flag": "🇩🇪",
+    "formation": "3-5-2",
+    "color": "#E8E8E8",
+    "colorDim": "rgba(232,232,232,0.18)",
+    "players": [
+      "Oliver Kahn",
+      "Marco Bode",
+      "Christian Wörns",
+      "Thomas Linke",
+      "Bernd Schneider",
+      "Michael Ballack",
+      "Torsten Frings",
+      "Bastian Schweinsteiger",
+      "Oliver Bierhoff",
+      "Miroslav Klose",
+      "Jens Jeremies"
+    ],
+    "score": 1
+  },
+  "away": {
+    "name": "South Korea",
+    "flag": "🇰🇷",
+    "formation": "4-4-2",
+    "color": "#CD2E3A",
+    "colorDim": "rgba(205,46,58,0.18)",
+    "players": [
+      "Lee Woon-jae",
+      "Lee Young-pyo",
+      "Hong Myung-bo",
+      "Cha Du-ri",
+      "Kim Tae-young",
+      "Park Ji-sung",
+      "Lee Chun-soo",
+      "Song Jong-kook",
+      "Ahn Jung-hwan",
+      "Seol Ki-hyeon",
+      "Choi Yong-soo"
+    ],
+    "score": 0
+  },
+  "status": "FT",
+  "xG": {
+    "home": 1.25,
+    "away": 0.67
+  },
+  "possession": {
+    "home": 57,
+    "away": 43
+  },
+  "timeline": [
+    {
+      "minute": "75'",
+      "side": "home",
+      "player": "Michael Ballack",
+      "type": "goal",
+      "description": "Header from a Bernd Schneider cross"
+    },
+    {
+      "minute": "81'",
+      "side": "home",
+      "player": "Michael Ballack",
+      "type": "yellow",
+      "description": "Received a yellow card"
+    },
+    {
+      "minute": "90+2'",
+      "side": "neutral",
+      "player": "Referee",
+      "type": "whistle",
+      "description": "Final whistle"
+    }
+  ],
+  "stats": [
+    {
+      "label": "Shots",
+      "home": 14,
+      "away": 8,
+      "homeWidth": 64,
+      "awayWidth": 36
+    },
+    {
+      "label": "Shots on Target",
+      "home": 6,
+      "away": 3,
+      "homeWidth": 67,
+      "awayWidth": 33
+    },
+    {
+      "label": "Possession",
+      "home": 57,
+      "away": 43,
+      "homeWidth": 57,
+      "awayWidth": 43
+    },
+    {
+      "label": "Passes",
+      "home": 522,
+      "away": 340,
+      "homeWidth": 61,
+      "awayWidth": 39
+    },
+    {
+      "label": "Pass Accuracy",
+      "home": "80%",
+      "away": "72%",
+      "homeWidth": 53,
+      "awayWidth": 47
+    },
+    {
+      "label": "Corners",
+      "home": 6,
+      "away": 4,
+      "homeWidth": 60,
+      "awayWidth": 40
+    },
+    {
+      "label": "Fouls",
+      "home": 12,
+      "away": 15,
+      "homeWidth": 44,
+      "awayWidth": 56
+    },
+    {
+      "label": "xG",
+      "home": "1.25",
+      "away": "0.67",
+      "homeWidth": 65,
+      "awayWidth": 35
+    }
+  ],
+  "metaDescription": "Germany defeated South Korea 1-0 in the 2002 FIFA World Cup semi-final, featuring a memorable header from Michael Ballack.",
+  "tacticalAnalysis": "In this match, Germany adopted a 3-5-2 formation which allowed them to control the midfield with three central players while attacking with wing-backs. The key battle was established in the midfield, where Michael Ballack excelled, creating opportunities and providing defensive cover. South Korea, utilizing a more traditional 4-4-2 formation, struggled to cope with the physicality of the German midfield. Ballack’s goal came from a well-worked set-piece involving Bernd Schneider, which showcased Germany's effectiveness in dead-ball situations. Despite their efforts, South Korea's attackers, Ahn Jung-hwan and Seol Ki-hyeon, found it challenging to penetrate Germany’s backline. As the match wore on, Germany’s experience in high-pressure situations became evident, while South Korea’s emotional journey throughout the tournament culminated in a valiant effort but ultimately fell short of reaching the final.",
+  "keyMoments": [
+    "75' - Ballack scores with a header, putting Germany ahead.",
+    "81' - Ballack receives a yellow card and is ruled out of the final.",
+    "90+2' - Final whistle confirms Germany's victory.",
+    "60' - South Korea substitutes Ahn Jung-hwan.",
+    "30' - Crucial save by Oliver Kahn denying Park Ji-sung."
+  ],
+  "historicalSignificance": "This match is significant as it marked the end of South Korea's historic run in the 2002 World Cup, where they reached the semi-finals against all odds. Additionally, Germany's ability to defeat a spirited South Korean team demonstrated their resilience and tactical prowess, eventually leading them to the final.",
+  "topPerformers": [
+    {
+      "name": "Oliver Kahn",
+      "side": "home",
+      "position": "GK",
+      "rating": 9.2,
+      "note": "Key saves throughout the match to maintain a clean sheet."
+    },
+    {
+      "name": "Michael Ballack",
+      "side": "home",
+      "position": "CM",
+      "rating": 8.5,
+      "note": "Dominated the midfield and scored the crucial goal."
+    },
+    {
+      "name": "Lee Young-pyo",
+      "side": "away",
+      "position": "LB",
+      "rating": 8.3,
+      "note": "Solid defensive performance and contributed to attacks."
+    }
+  ]
+}

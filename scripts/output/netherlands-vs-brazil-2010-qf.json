@@ -1,0 +1,187 @@
+{
+  "id": "netherlands-vs-brazil-2010-qf",
+  "tournament": "FIFA World Cup 2010",
+  "year": 2010,
+  "stage": "Quarter-Final",
+  "date": "July 2, 2010",
+  "venue": "Nelson Mandela Bay Stadium",
+  "city": "Port Elizabeth, South Africa",
+  "home": {
+    "name": "Netherlands",
+    "flag": "🇳🇱",
+    "formation": "4-2-3-1",
+    "color": "#FF6200",
+    "colorDim": "rgba(255,98,0,0.18)",
+    "players": [
+      "Maarten Stekelenburg",
+      "Gregory van der Wiel",
+      "Joris Mathijsen",
+      "Ron Vlaar",
+      "Giovanni van Bronckhorst",
+      "Nigel de Jong",
+      "Wesley Sneijder",
+      "Arjen Robben",
+      "Robin van Persie",
+      "Rafael van der Vaart",
+      "Dirk Kuyt"
+    ],
+    "score": 2
+  },
+  "away": {
+    "name": "Brazil",
+    "flag": "🇧🇷",
+    "formation": "4-3-3",
+    "color": "#F7B731",
+    "colorDim": "rgba(247,183,49,0.18)",
+    "players": [
+      "Julio Cesar",
+      "Maicon",
+      "Lucio",
+      "Juan",
+      "Michel Bastos",
+      "Gilberto Silva",
+      "Felipe Melo",
+      "Kaká",
+      "Robinho",
+      "Luis Fabiano",
+      "Ramires"
+    ],
+    "score": 1
+  },
+  "status": "FT",
+  "xG": {
+    "home": 2.1,
+    "away": 1.3
+  },
+  "possession": {
+    "home": 49,
+    "away": 51
+  },
+  "timeline": [
+    {
+      "minute": "10'",
+      "side": "away",
+      "player": "Robinho",
+      "type": "goal",
+      "description": "Robinho scored with a low shot after a brilliant Brazilian move."
+    },
+    {
+      "minute": "53'",
+      "side": "home",
+      "player": "Wesley Sneijder",
+      "type": "goal",
+      "description": "Sneijder equalized after a messy situation in the box following an own goal by Melo."
+    },
+    {
+      "minute": "70'",
+      "side": "home",
+      "player": "Wesley Sneijder",
+      "type": "goal",
+      "description": "Sneijder scored again with a precise shot after capitalizing on Brazilian defensive chaos."
+    },
+    {
+      "minute": "73'",
+      "side": "away",
+      "player": "Felipe Melo",
+      "type": "red",
+      "description": "Melo received a red card for stamping on Dutch player."
+    }
+  ],
+  "stats": [
+    {
+      "label": "Shots",
+      "home": 13,
+      "away": 9,
+      "homeWidth": 59,
+      "awayWidth": 41
+    },
+    {
+      "label": "Shots on Target",
+      "home": 7,
+      "away": 4,
+      "homeWidth": 64,
+      "awayWidth": 36
+    },
+    {
+      "label": "Possession",
+      "home": 49,
+      "away": 51,
+      "homeWidth": 49,
+      "awayWidth": 51
+    },
+    {
+      "label": "Passes",
+      "home": 472,
+      "away": 487,
+      "homeWidth": 49,
+      "awayWidth": 51
+    },
+    {
+      "label": "Pass Accuracy",
+      "home": "86%",
+      "away": "83%",
+      "homeWidth": 51,
+      "awayWidth": 49
+    },
+    {
+      "label": "Corners",
+      "home": 5,
+      "away": 3,
+      "homeWidth": 62,
+      "awayWidth": 38
+    },
+    {
+      "label": "Fouls",
+      "home": 13,
+      "away": 12,
+      "homeWidth": 52,
+      "awayWidth": 48
+    },
+    {
+      "label": "xG",
+      "home": "2.11",
+      "away": "1.33",
+      "homeWidth": 61,
+      "awayWidth": 39
+    }
+  ],
+  "metaDescription": "The Netherlands stunned Brazil in a thrilling quarter-final, coming back to win 2-1, marking a pivotal moment in World Cup history.",
+  "tacticalAnalysis": "In the quarter-final clash, both teams showcased contrasting tactical setups. The Netherlands deployed a 4-2-3-1 formation, characterized by a double pivot of Nigel de Jong and Wesley Sneijder who provided both defensive cover and attacking support. Arjen Robben and Dirk Kuyt operated on the flanks, stretching the Brazilian defense, while Robbin van Persie played as the sole striker. Brazil, on the other hand, utilized a 4-3-3, with Luis Fabiano as the central striker, supported by Robinho and Ramires on the wings. The key tactical battle lay in the midfield, where Sneijder's versatility allowed him to exploit spaces left by Brazil's attacking approach. After going down early to a Robinho goal, the Netherlands regrouped and controlled possession, leading to Sneijder's dramatic equalizer following Felipe Melo's own goal. The second goal, also from Sneijder, came amidst chaotic defending from Brazil, demonstrating their vulnerability under pressure. Manager Bert van Marwijk's effective adjustments, particularly in the second half, proved decisive in overturning the deficit. Felipe Melo's sending off further compounded Brazil's woes, sealing their fate and allowing the Netherlands to advance.",
+  "keyMoments": [
+    "10' - Robinho scores to give Brazil the lead.",
+    "53' - Sneijder equalizes for the Netherlands.",
+    "70' - Sneijder scores the second goal, putting the Netherlands ahead.",
+    "73' - Felipe Melo sent off for a stamping incident."
+  ],
+  "historicalSignificance": "This match is remembered as one of the World Cup's greatest upsets, with the Netherlands overturning Brazil's early lead to claim victory. It marked Brazil's exit from the tournament at an unexpected stage, while the Netherlands advanced to their first semi-final since 1998, further solidifying their status as a strong footballing nation.",
+  "topPerformers": [
+    {
+      "name": "Wesley Sneijder",
+      "side": "home",
+      "position": "CAM",
+      "rating": 9.2,
+      "note": "Instrumental in midfield, scoring both goals that turned the match."
+    },
+    {
+      "name": "Maarten Stekelenburg",
+      "side": "home",
+      "position": "GK",
+      "rating": 8.5,
+      "note": "Made crucial saves throughout the match, keeping Brazil at bay."
+    },
+    {
+      "name": "Felipe Melo",
+      "side": "away",
+      "position": "CDM",
+      "rating": 6.5,
+      "note": "Opened the scoring but was later sent off, impacting Brazil's performance."
+    },
+    {
+      "name": "Robinho",
+      "side": "away",
+      "position": "LW",
+      "rating": 8,
+      "note": "Scored a brilliant goal to give Brazil an early lead and posed a constant threat."
+    }
+  ]
+}

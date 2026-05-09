@@ -1,0 +1,173 @@
+{
+  "id": "argentina-vs-belgium-2014-qf",
+  "tournament": "FIFA World Cup 2014",
+  "year": 2014,
+  "stage": "Quarter-Final",
+  "date": "July 5, 2014",
+  "venue": "Estádio Nacional",
+  "city": "Brasília, Brazil",
+  "home": {
+    "name": "Argentina",
+    "flag": "🇦🇷",
+    "formation": "4-3-3",
+    "color": "#74BBFB",
+    "colorDim": "rgba(116,187,251,0.18)",
+    "players": [
+      "Sergio Romero",
+      "Pablo Zabaleta",
+      "Ezequiel Garay",
+      "Martín Demichelis",
+      "Marcos Rojo",
+      "Javier Mascherano",
+      "Jorge Sampaoli",
+      "Lionel Messi",
+      "Ángel Di María",
+      "Gonzalo Higuaín",
+      "Ezequiel Lavezzi"
+    ],
+    "score": 1
+  },
+  "away": {
+    "name": "Belgium",
+    "flag": "🇧🇪",
+    "formation": "4-2-3-1",
+    "color": "#EDCB27",
+    "colorDim": "rgba(237,203,39,0.18)",
+    "players": [
+      "Thibaut Courtois",
+      "Toby Alderweireld",
+      "Thomas Vermaelen",
+      "Vincent Kompany",
+      "Jan Vertonghen",
+      "Marouane Fellaini",
+      "Axel Witsel",
+      "Kevin De Bruyne",
+      "Eden Hazard",
+      "Dries Mertens",
+      "Romelu Lukaku"
+    ],
+    "score": 0
+  },
+  "status": "FT",
+  "xG": {
+    "home": 1.2,
+    "away": 0.8
+  },
+  "possession": {
+    "home": 36,
+    "away": 64
+  },
+  "timeline": [
+    {
+      "minute": "8'",
+      "side": "home",
+      "player": "Gonzalo Higuaín",
+      "type": "goal",
+      "description": "Higuaín scored the lone goal from inside the box after a cross from the left."
+    },
+    {
+      "minute": "45+1'",
+      "side": "away",
+      "player": "Kevin De Bruyne",
+      "type": "yellow",
+      "description": "De Bruyne received a yellow card for a late tackle."
+    },
+    {
+      "minute": "82'",
+      "side": "home",
+      "player": "Ángel Di María",
+      "type": "sub",
+      "description": "Di María was substituted off for Sergio Agüero."
+    }
+  ],
+  "stats": [
+    {
+      "label": "Shots",
+      "home": 8,
+      "away": 14,
+      "homeWidth": 36,
+      "awayWidth": 64
+    },
+    {
+      "label": "Shots on Target",
+      "home": 3,
+      "away": 6,
+      "homeWidth": 33,
+      "awayWidth": 67
+    },
+    {
+      "label": "Possession",
+      "home": 36,
+      "away": 64,
+      "homeWidth": 36,
+      "awayWidth": 64
+    },
+    {
+      "label": "Passes",
+      "home": 371,
+      "away": 660,
+      "homeWidth": 36,
+      "awayWidth": 64
+    },
+    {
+      "label": "Pass Accuracy",
+      "home": "76%",
+      "away": "85%",
+      "homeWidth": 36,
+      "awayWidth": 64
+    },
+    {
+      "label": "Corners",
+      "home": 3,
+      "away": 5,
+      "homeWidth": 37,
+      "awayWidth": 63
+    },
+    {
+      "label": "Fouls",
+      "home": 15,
+      "away": 12,
+      "homeWidth": 56,
+      "awayWidth": 44
+    },
+    {
+      "label": "xG",
+      "home": "1.20",
+      "away": "0.80",
+      "homeWidth": 60,
+      "awayWidth": 40
+    }
+  ],
+  "metaDescription": "Argentina edged past Belgium 1-0 in the 2014 World Cup quarter-finals thanks to Higuaín's first-half goal.",
+  "tacticalAnalysis": "Argentina deployed a 4-3-3 formation focusing on a solid midfield anchored by Mascherano, who disrupted Belgium's attacking flow. Messi, often drawing defenders to him, allowed for greater space for players like Higuaín and Di María to exploit. Belgium, organized in a 4-2-3-1, sought to control possession with Witsel and Fellaini shielding their defense. De Bruyne and Hazard frequently attempted to create overloads on the flanks. Despite out-possessing Argentina, Belgium struggled to break through a disciplined defensive line, with Romero making critical saves and the Argentine backline maintaining compactness. The crucial goal came early from Higuaín, allowing Argentina to remain defensively resolute while Belgium pushed for an equalizer.",
+  "keyMoments": [
+    "8' - Higuaín scores to give Argentina the lead.",
+    "45+1' - De Bruyne booked for a late tackle.",
+    "82' - Di María substituted for Agüero.",
+    "90' - Belgium fails to convert a late chance."
+  ],
+  "historicalSignificance": "This match solidified Argentina's tactical discipline and defensive resilience. Higuaín's goal was pivotal for Argentina as they advanced to the semi-finals, showcasing the importance of effective counter-attacking football. It marked the end of Belgium’s impressive run in the tournament, highlighting their need for more attacking efficiency.",
+  "topPerformers": [
+    {
+      "name": "Sergio Romero",
+      "side": "home",
+      "position": "GK",
+      "rating": 9,
+      "note": "Crucial saves to maintain the clean sheet."
+    },
+    {
+      "name": "Gonzalo Higuaín",
+      "side": "home",
+      "position": "ST",
+      "rating": 8.5,
+      "note": "Scorer of the match-winning goal."
+    },
+    {
+      "name": "Vincent Kompany",
+      "side": "away",
+      "position": "CB",
+      "rating": 8,
+      "note": "Commanding presence in defense, limited Argentina's chances."
+    }
+  ]
+}

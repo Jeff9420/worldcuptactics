@@ -1,0 +1,180 @@
+{
+  "id": "south-korea-vs-italy-2002-r16",
+  "tournament": "FIFA World Cup 2002",
+  "year": 2002,
+  "stage": "Round of 16",
+  "date": "June 18, 2002",
+  "venue": "Daejeon World Cup Stadium",
+  "city": "Daejeon, South Korea",
+  "home": {
+    "name": "South Korea",
+    "flag": "🇰🇷",
+    "formation": "3-4-3",
+    "color": "#CD2E3A",
+    "colorDim": "rgba(205,46,58,0.18)",
+    "players": [
+      "Lee Woon-jae",
+      "Lee Young-pyo",
+      "Hong Myung-bo",
+      "Choi Jin-cheul",
+      "Kim Tae-young",
+      "Kim Nam-il",
+      "Park Ji-sung",
+      "Seol Ki-hyeon",
+      "Ahn Jung-hwan",
+      "Lee Chun-soo",
+      "Hwang Sun-hong"
+    ],
+    "score": 2
+  },
+  "away": {
+    "name": "Italy",
+    "flag": "🇮🇹",
+    "formation": "4-3-1-2",
+    "color": "#0033A0",
+    "colorDim": "rgba(0,51,160,0.18)",
+    "players": [
+      "Gianluigi Buffon",
+      "Fabio Cannavaro",
+      "Alessandro Nesta",
+      "Gianluca Zambrotta",
+      "Pavel Nedved",
+      "Gennaro Gattuso",
+      "Andrea Pirlo",
+      "Francesco Totti",
+      "Christian Vieri",
+      "Marco Delvecchio",
+      "Alberto Gilardino"
+    ],
+    "score": 1
+  },
+  "status": "AET",
+  "xG": {
+    "home": 1.76,
+    "away": 1.02
+  },
+  "possession": {
+    "home": 52,
+    "away": 48
+  },
+  "timeline": [
+    {
+      "minute": "18'",
+      "side": "away",
+      "player": "Christian Vieri",
+      "type": "goal",
+      "description": "Vieri opens the scoring with a powerful header from a corner."
+    },
+    {
+      "minute": "88'",
+      "side": "home",
+      "player": "Seol Ki-hyeon",
+      "type": "goal",
+      "description": "Seol equalizes with a strike from the edge of the box."
+    },
+    {
+      "minute": "117'",
+      "side": "home",
+      "player": "Ahn Jung-hwan",
+      "type": "goal",
+      "description": "Ahn scores the golden goal with a header after a free kick."
+    },
+    {
+      "minute": "80'",
+      "side": "away",
+      "player": "Francesco Totti",
+      "type": "red",
+      "description": "Totti receives a second yellow card for a dive."
+    }
+  ],
+  "stats": [
+    {
+      "label": "Shots",
+      "home": 16,
+      "away": 12,
+      "homeWidth": 57,
+      "awayWidth": 43
+    },
+    {
+      "label": "Shots on Target",
+      "home": 8,
+      "away": 5,
+      "homeWidth": 62,
+      "awayWidth": 38
+    },
+    {
+      "label": "Possession",
+      "home": 52,
+      "away": 48,
+      "homeWidth": 52,
+      "awayWidth": 48
+    },
+    {
+      "label": "Passes",
+      "home": 420,
+      "away": 398,
+      "homeWidth": 51,
+      "awayWidth": 49
+    },
+    {
+      "label": "Pass Accuracy",
+      "home": "83%",
+      "away": "76%",
+      "homeWidth": 51,
+      "awayWidth": 49
+    },
+    {
+      "label": "Corners",
+      "home": 9,
+      "away": 5,
+      "homeWidth": 64,
+      "awayWidth": 36
+    },
+    {
+      "label": "Fouls",
+      "home": 18,
+      "away": 23,
+      "homeWidth": 44,
+      "awayWidth": 56
+    },
+    {
+      "label": "xG",
+      "home": "1.76",
+      "away": "1.02",
+      "homeWidth": 64,
+      "awayWidth": 36
+    }
+  ],
+  "metaDescription": "South Korea's dramatic victory against Italy in the 2002 World Cup Round of 16 is marked by controversy and a golden goal.",
+  "tacticalAnalysis": "In this knockout clash, South Korea deployed a 3-4-3 formation, emphasizing speed on the wings with Seol Ki-hyeon and Lee Chun-soo providing width. Their three-man defense was anchored by Hong Myung-bo, who excelled in aerial duels. Italy, using a 4-3-1-2 system, relied on Pirlo's creativity from midfield and Totti's playmaking ability behind the strikers. The game was a battle of contrasting styles; South Korea pressed high and tried to exploit the flanks, while Italy focused on structured defense and counter-attacks. Despite falling behind early, South Korea maintained composure, with their equalizer coming from a well-crafted attack. The golden goal came during extra time after a free kick delivered by Park Ji-sung, showcasing South Korea's tactical discipline and willingness to capitalize on set pieces.",
+  "keyMoments": [
+    "18' - Vieri gives Italy the lead with a header from a corner, setting a tense tone for the match.",
+    "80' - Totti sent off for a second yellow in a controversial decision, leaving Italy down to ten men.",
+    "88' - Seol Ki-hyeon scores an equalizer, igniting hope in the South Korean fans.",
+    "117' - Ahn Jung-hwan's golden goal secures South Korea's place in the quarter-finals."
+  ],
+  "historicalSignificance": "This match is crucial in football history as it symbolizes South Korea's incredible journey in the 2002 World Cup, where they reached the semi-finals against all odds. It also sparked debate over officiating standards in high-stakes matches, particularly with the controversial red card issued to Totti.",
+  "topPerformers": [
+    {
+      "name": "Lee Woon-jae",
+      "side": "home",
+      "position": "GK",
+      "rating": 9,
+      "note": "Made several crucial saves to keep South Korea in the game."
+    },
+    {
+      "name": "Ahn Jung-hwan",
+      "side": "home",
+      "position": "ST",
+      "rating": 8.8,
+      "note": "Scored the golden goal and was a constant threat in attack."
+    },
+    {
+      "name": "Christian Vieri",
+      "side": "away",
+      "position": "ST",
+      "rating": 8,
+      "note": "Opened the scoring and was a key component of Italy's offensive strategy."
+    }
+  ]
+}

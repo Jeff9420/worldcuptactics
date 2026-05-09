@@ -1,0 +1,173 @@
+{
+  "id": "france-vs-uruguay-2018-qf",
+  "tournament": "FIFA World Cup 2018",
+  "year": 2018,
+  "stage": "Quarter-Final",
+  "date": "July 6, 2018",
+  "venue": "Nizhny Novgorod Stadium",
+  "city": "Nizhny Novgorod, Russia",
+  "home": {
+    "name": "France",
+    "flag": "🇫🇷",
+    "formation": "4-2-3-1",
+    "color": "#1E5AA8",
+    "colorDim": "rgba(30,90,168,0.18)",
+    "players": [
+      "Hugo Lloris",
+      "Benjamin Pavard",
+      "Raphaël Varane",
+      "Samuel Umtiti",
+      "Lucas Hernandez",
+      "N'Golo Kanté",
+      "Paul Pogba",
+      "Blaise Matuidi",
+      "Antoine Griezmann",
+      "Kylian Mbappé",
+      "Olivier Giroud"
+    ],
+    "score": 2
+  },
+  "away": {
+    "name": "Uruguay",
+    "flag": "🇺🇾",
+    "formation": "4-4-2",
+    "color": "#4EABDF",
+    "colorDim": "rgba(78,171,223,0.18)",
+    "players": [
+      "Fernando Muslera",
+      "Maxi Pereira",
+      "José María Giménez",
+      "Diego Godín",
+      "Martín Cáceres",
+      "Nahitan Nández",
+      "Matías Vecino",
+      "Rodrigo Bentancur",
+      "Giorgian De Arrascaeta",
+      "Edinson Cavani",
+      "Luis Suárez"
+    ],
+    "score": 0
+  },
+  "status": "FT",
+  "xG": {
+    "home": 1.84,
+    "away": 0.32
+  },
+  "possession": {
+    "home": 60,
+    "away": 40
+  },
+  "timeline": [
+    {
+      "minute": "40'",
+      "side": "home",
+      "player": "Raphaël Varane",
+      "type": "goal",
+      "description": "Headed France into the lead from a Griezmann free-kick."
+    },
+    {
+      "minute": "61'",
+      "side": "home",
+      "player": "Fernando Muslera",
+      "type": "own_goal",
+      "description": "Muslera's poor clearance led to an own goal for the second."
+    }
+  ],
+  "stats": [
+    {
+      "label": "Shots",
+      "home": 17,
+      "away": 6,
+      "homeWidth": 74,
+      "awayWidth": 26
+    },
+    {
+      "label": "Shots on Target",
+      "home": 8,
+      "away": 2,
+      "homeWidth": 80,
+      "awayWidth": 20
+    },
+    {
+      "label": "Possession",
+      "home": 60,
+      "away": 40,
+      "homeWidth": 60,
+      "awayWidth": 40
+    },
+    {
+      "label": "Passes",
+      "home": 600,
+      "away": 400,
+      "homeWidth": 60,
+      "awayWidth": 40
+    },
+    {
+      "label": "Pass Accuracy",
+      "home": "87%",
+      "away": "73%",
+      "homeWidth": 60,
+      "awayWidth": 40
+    },
+    {
+      "label": "Corners",
+      "home": 7,
+      "away": 1,
+      "homeWidth": 88,
+      "awayWidth": 12
+    },
+    {
+      "label": "Fouls",
+      "home": 12,
+      "away": 14,
+      "homeWidth": 46,
+      "awayWidth": 54
+    },
+    {
+      "label": "xG",
+      "home": "1.84",
+      "away": "0.32",
+      "homeWidth": 85,
+      "awayWidth": 15
+    }
+  ],
+  "metaDescription": "France defeated Uruguay 2-0 in the 2018 FIFA World Cup quarter-final, showcasing a dominant performance.",
+  "tacticalAnalysis": "France set up in a 4-2-3-1 formation, utilizing the pace and skill of Kylian Mbappé and Antoine Griezmann in the attacking midfield roles to stretch the Uruguay defense. N'Golo Kanté and Paul Pogba controlled the midfield effectively, breaking up Uruguay's attempts to build play while transitioning quickly to attack. Uruguay, lacking Edinson Cavani, formed a 4-4-2, relying on Luis Suárez’s creativity. However, the absence of Cavani significantly weakened their forward threat. Varane's header from a Griezmann free-kick and Muslera’s unfortunate own goal sealed the match, highlighting France's ability to capitalize on set-pieces and opposition mistakes. The defensive partnership of Umtiti and Varane contained Suárez well, while the full-backs contributed to both defense and attack.",
+  "keyMoments": [
+    "40' - Varane scores with a header to give France the lead.",
+    "61' - Own goal by Muslera doubles France's lead.",
+    "78' - Griezmann threatens again with a long-range effort.",
+    "90+2' - France holds strong defensively to secure their spot in the semi-finals."
+  ],
+  "historicalSignificance": "This match marked France's continued rise under Didier Deschamps, showcasing their potential as title contenders. The absence of Cavani was a crucial factor, underlining the importance of key players in knockout stage matches.",
+  "topPerformers": [
+    {
+      "name": "Raphaël Varane",
+      "side": "home",
+      "position": "CB",
+      "rating": 9.2,
+      "note": "Outstanding defensively and scored the opening goal."
+    },
+    {
+      "name": "Antoine Griezmann",
+      "side": "home",
+      "position": "CAM",
+      "rating": 8.5,
+      "note": "Excellent distribution and assisted the first goal."
+    },
+    {
+      "name": "Fernando Muslera",
+      "side": "away",
+      "position": "GK",
+      "rating": 7,
+      "note": "Despite the own goal, made crucial saves to keep Uruguay in the game."
+    },
+    {
+      "name": "Luis Suárez",
+      "side": "away",
+      "position": "ST",
+      "rating": 7.2,
+      "note": "Tried to create opportunities but lacked support without Cavani."
+    }
+  ]
+}

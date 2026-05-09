@@ -1,0 +1,180 @@
+{
+  "id": "brazil-vs-colombia-2014-qf",
+  "tournament": "FIFA World Cup 2014",
+  "year": 2014,
+  "stage": "Quarter-Final",
+  "date": "July 4, 2014",
+  "venue": "Estádio Castelão",
+  "city": "Fortaleza, Brazil",
+  "home": {
+    "name": "Brazil",
+    "flag": "🇧🇷",
+    "formation": "4-2-3-1",
+    "color": "#F7B731",
+    "colorDim": "rgba(247,183,49,0.18)",
+    "players": [
+      "Julio Cesar",
+      "Dani Alves",
+      "Thiago Silva",
+      "David Luiz",
+      "Marcelo",
+      "Luiz Gustavo",
+      "Fernandinho",
+      "Oscar",
+      "Hulk",
+      "Neymar",
+      "Fred"
+    ],
+    "score": 2
+  },
+  "away": {
+    "name": "Colombia",
+    "flag": "🇨🇴",
+    "formation": "4-4-2",
+    "color": "#FCD116",
+    "colorDim": "rgba(252,209,22,0.18)",
+    "players": [
+      "David Ospina",
+      "Juan Zuniga",
+      "Cristian Zapata",
+      "Mario Yepes",
+      "Pablo Armero",
+      "Carlos Sanchez",
+      "Juan Cuadrado",
+      "James Rodriguez",
+      "Teo Gutierrez",
+      "Jackson Martinez",
+      "Victor Ibarbo"
+    ],
+    "score": 1
+  },
+  "status": "FT",
+  "xG": {
+    "home": 2.34,
+    "away": 0.89
+  },
+  "possession": {
+    "home": 56,
+    "away": 44
+  },
+  "timeline": [
+    {
+      "minute": "7'",
+      "side": "home",
+      "player": "Thiago Silva",
+      "type": "goal",
+      "description": "Header from a corner kick"
+    },
+    {
+      "minute": "69'",
+      "side": "home",
+      "player": "David Luiz",
+      "type": "goal",
+      "description": "Stunning free-kick from outside the box"
+    },
+    {
+      "minute": "80'",
+      "side": "away",
+      "player": "James Rodriguez",
+      "type": "goal",
+      "description": "Consolation goal with a well-placed shot"
+    },
+    {
+      "minute": "88'",
+      "side": "home",
+      "player": "Neymar",
+      "type": "sub",
+      "description": "Substituted after being fouled"
+    }
+  ],
+  "stats": [
+    {
+      "label": "Shots",
+      "home": 19,
+      "away": 9,
+      "homeWidth": 68,
+      "awayWidth": 32
+    },
+    {
+      "label": "Shots on Target",
+      "home": 7,
+      "away": 2,
+      "homeWidth": 78,
+      "awayWidth": 22
+    },
+    {
+      "label": "Possession",
+      "home": 56,
+      "away": 44,
+      "homeWidth": 56,
+      "awayWidth": 44
+    },
+    {
+      "label": "Passes",
+      "home": 495,
+      "away": 245,
+      "homeWidth": 67,
+      "awayWidth": 33
+    },
+    {
+      "label": "Pass Accuracy",
+      "home": "82%",
+      "away": "76%",
+      "homeWidth": 52,
+      "awayWidth": 48
+    },
+    {
+      "label": "Corners",
+      "home": 5,
+      "away": 3,
+      "homeWidth": 63,
+      "awayWidth": 37
+    },
+    {
+      "label": "Fouls",
+      "home": 12,
+      "away": 19,
+      "homeWidth": 39,
+      "awayWidth": 61
+    },
+    {
+      "label": "xG",
+      "home": "2.34",
+      "away": "0.89",
+      "homeWidth": 72,
+      "awayWidth": 28
+    }
+  ],
+  "metaDescription": "Brazil defeated Colombia 2-1 in the Quarter-finals of the FIFA World Cup 2014, featuring stunning goals and dramatic moments.",
+  "tacticalAnalysis": "Brazil played with a 4-2-3-1 formation, relying on the width provided by their full-backs Marcelo and Dani Alves, while Neymar operated as a dynamic left winger. Thiago Silva anchored the defense, with David Luiz providing attacking impetus from the back. Colombia set up in a 4-4-2 shape, with James Rodriguez pulling the strings in midfield and Teo Gutierrez partnering Jackson Martinez up front. Brazil's first goal came from a corner where Silva capitalized on defensive disorganization, while their second was led by Luiz’s extraordinary free-kick that showcased his technical ability. Colombia struggled to break down Brazil's press and managed few clear chances, though they did pull one back with Rodriguez's impressive strike late in the game. The substitutions made by Brazil helped maintain their lead and snuff out Colombian transitions, particularly with Neymar's exit due to injury, changing the tactical approach as Brazil focused on containment.",
+  "keyMoments": [
+    "7' - Thiago Silva scores the opening goal from a corner.",
+    "69' - David Luiz scores a brilliant free-kick to make it 2-0.",
+    "80' - James Rodriguez scores for Colombia, providing a late shock.",
+    "88' - Neymar injured by a foul, his tournament ends."
+  ],
+  "historicalSignificance": "This match marked Brazil's path to the semi-finals of the 2014 World Cup, but the loss of Neymar due to injury was a critical moment that impacted Brazil's performance in the tournament. The match highlighted Brazil's attacking flair and tactical resilience, as well as Colombia's emergence as a competitive force in international football.",
+  "topPerformers": [
+    {
+      "name": "Thiago Silva",
+      "side": "home",
+      "position": "CB",
+      "rating": 9,
+      "note": "Strong defensive display and scored the first goal."
+    },
+    {
+      "name": "David Luiz",
+      "side": "home",
+      "position": "CB",
+      "rating": 8.8,
+      "note": "Scored a crucial free-kick and contributed defensively."
+    },
+    {
+      "name": "James Rodriguez",
+      "side": "away",
+      "position": "CAM",
+      "rating": 8.5,
+      "note": "Pulled one back with a classy finish and continuously threatened Brazil's defense."
+    }
+  ]
+}

@@ -1,0 +1,180 @@
+{
+  "id": "germany-vs-mexico-2018-group",
+  "tournament": "FIFA World Cup 2018",
+  "year": 2018,
+  "stage": "Group Stage (Group F)",
+  "date": "June 17, 2018",
+  "venue": "Luzhniki Stadium",
+  "city": "Moscow, Russia",
+  "home": {
+    "name": "Germany",
+    "flag": "🇩🇪",
+    "formation": "4-2-3-1",
+    "color": "#E8E8E8",
+    "colorDim": "rgba(232,232,232,0.18)",
+    "players": [
+      "Manuel Neuer",
+      "Joshua Kimmich",
+      "Matthias Ginter",
+      "Mats Hummels",
+      "Marcel Schmelzer",
+      "Leon Goretzka",
+      "Julian Brandt",
+      "Mario Götze",
+      "Mesut Özil",
+      "Marco Reus",
+      "Timo Werner"
+    ],
+    "score": 0
+  },
+  "away": {
+    "name": "Mexico",
+    "flag": "🇲🇽",
+    "formation": "4-3-3",
+    "color": "#006847",
+    "colorDim": "rgba(0,104,71,0.18)",
+    "players": [
+      "Guillermo Ochoa",
+      "Carlos Salcedo",
+      "Hugo Ayala",
+      "Diego Reyes",
+      "Edson Álvarez",
+      "Hector Herrera",
+      "Andres Guardado",
+      "Jonathan dos Santos",
+      "Hirving Lozano",
+      "Raúl Jiménez",
+      "Jesus Manuel Corona"
+    ],
+    "score": 1
+  },
+  "status": "FT",
+  "xG": {
+    "home": 2.12,
+    "away": 0.83
+  },
+  "possession": {
+    "home": 70,
+    "away": 30
+  },
+  "timeline": [
+    {
+      "minute": "35'",
+      "side": "away",
+      "player": "Hirving Lozano",
+      "type": "goal",
+      "description": "Lozano scored with a precise shot following a swift counter-attack, stunning the German defense."
+    },
+    {
+      "minute": "85'",
+      "side": "home",
+      "player": "Marco Reus",
+      "type": "sub",
+      "description": "Replaced Timo Werner in a final attempt to equalize."
+    },
+    {
+      "minute": "45+1'",
+      "side": "home",
+      "player": "Mats Hummels",
+      "type": "yellow",
+      "description": "Received a yellow card for a foul on Raúl Jiménez."
+    },
+    {
+      "minute": "70'",
+      "side": "home",
+      "player": "Leon Goretzka",
+      "type": "yellow",
+      "description": "Booked for a challenge on Hector Herrera."
+    }
+  ],
+  "stats": [
+    {
+      "label": "Shots",
+      "home": 19,
+      "away": 9,
+      "homeWidth": 68,
+      "awayWidth": 32
+    },
+    {
+      "label": "Shots on Target",
+      "home": 4,
+      "away": 3,
+      "homeWidth": 57,
+      "awayWidth": 43
+    },
+    {
+      "label": "Possession",
+      "home": 70,
+      "away": 30,
+      "homeWidth": 70,
+      "awayWidth": 30
+    },
+    {
+      "label": "Passes",
+      "home": 450,
+      "away": 150,
+      "homeWidth": 75,
+      "awayWidth": 25
+    },
+    {
+      "label": "Pass Accuracy",
+      "home": "88%",
+      "away": "72%",
+      "homeWidth": 88,
+      "awayWidth": 72
+    },
+    {
+      "label": "Corners",
+      "home": 11,
+      "away": 2,
+      "homeWidth": 85,
+      "awayWidth": 15
+    },
+    {
+      "label": "Fouls",
+      "home": 10,
+      "away": 14,
+      "homeWidth": 42,
+      "awayWidth": 58
+    },
+    {
+      "label": "xG",
+      "home": "2.12",
+      "away": "0.83",
+      "homeWidth": 73,
+      "awayWidth": 27
+    }
+  ],
+  "metaDescription": "Germany faced a surprising defeat against Mexico in the 2018 World Cup Group Stage, highlighted by Lozano's stunning goal.",
+  "tacticalAnalysis": "Germany lined up in a 4-2-3-1 formation, with Götze and Brandt supporting striker Werner, while the two holding midfielders, Goretzka and Kroos, sought to control the game. However, Mexico employed a disciplined 4-3-3, effectively countering Germany's creative play. Lozano's pace on the break proved pivotal, exploiting spaces left by Germany's attacking intent. The Mexican defense, marshaled by Salcedo and Ayala, executed a compact shape, frustrating Germany's attempts to penetrate the box. Despite dominating possession, Germany's inability to convert chances was evident as Mexico effectively transitioned from defense to attack, culminating in Lozano's goal, which not only defined the match but also disrupted Germany's dominance in the tournament.",
+  "keyMoments": [
+    "35' - Hirving Lozano scores to give Mexico the lead, a moment that resonates in World Cup history.",
+    "45+1' - Mats Hummels booked for foul, highlighting Germany's frustration.",
+    "70' - Leon Goretzka receives yellow, showcasing the growing tension in the match.",
+    "85' - Marco Reus subbed in, an attempt to break Mexico's resolute defense."
+  ],
+  "historicalSignificance": "This match marked a stunning upset in World Cup history, as the defending champions Germany fell to Mexico. The game's outcome challenged expectations and set the tone for the tournament. Lozano's goal was a testament to Mexico's tactical prowess, and the match is remembered as a defining moment for both teams.",
+  "topPerformers": [
+    {
+      "name": "Hirving Lozano",
+      "side": "away",
+      "position": "LW",
+      "rating": 9.2,
+      "note": "His goal and tireless running were crucial for Mexico's victory."
+    },
+    {
+      "name": "Guillermo Ochoa",
+      "side": "away",
+      "position": "GK",
+      "rating": 8.5,
+      "note": "Made several key saves to keep Germany at bay."
+    },
+    {
+      "name": "Matthias Ginter",
+      "side": "home",
+      "position": "CB",
+      "rating": 7.5,
+      "note": "One of the few defenders keeping Mexico in check despite pressure."
+    }
+  ]
+}

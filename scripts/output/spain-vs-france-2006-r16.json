@@ -1,0 +1,180 @@
+{
+  "id": "spain-vs-france-2006-r16",
+  "tournament": "FIFA World Cup 2006",
+  "year": 2006,
+  "stage": "Round of 16",
+  "date": "June 27, 2006",
+  "venue": "Hannover Arena",
+  "city": "Hannover, Germany",
+  "home": {
+    "name": "Spain",
+    "flag": "🇪🇸",
+    "formation": "4-2-3-1",
+    "color": "#CC0000",
+    "colorDim": "rgba(204,0,0,0.18)",
+    "players": [
+      "Iker Casillas",
+      "Puyol",
+      "Carlos Marchena",
+      "Raúl Albiol",
+      "José Enrique",
+      "Xabi Alonso",
+      "Andrés Iniesta",
+      "Cesc Fàbregas",
+      "David Silva",
+      "Fernando Torres",
+      "David Villa"
+    ],
+    "score": 1
+  },
+  "away": {
+    "name": "France",
+    "flag": "🇫🇷",
+    "formation": "4-3-3",
+    "color": "#1E5AA8",
+    "colorDim": "rgba(30,90,168,0.18)",
+    "players": [
+      "Fabien Barthez",
+      "Franck Ribéry",
+      "Eric Abidal",
+      "Liliane Thuram",
+      "William Gallas",
+      "Patrick Vieira",
+      "Lassana Diarra",
+      "Zinedine Zidane",
+      "Thierry Henry",
+      "David Sagnol",
+      "Julien Sablé"
+    ],
+    "score": 3
+  },
+  "status": "FT",
+  "xG": {
+    "home": 1.65,
+    "away": 2.45
+  },
+  "possession": {
+    "home": 53,
+    "away": 47
+  },
+  "timeline": [
+    {
+      "minute": "57'",
+      "side": "away",
+      "player": "Franck Ribéry",
+      "type": "goal",
+      "description": "Ribéry scores the opening goal with a stunning strike."
+    },
+    {
+      "minute": "64'",
+      "side": "home",
+      "player": "David Villa",
+      "type": "goal",
+      "description": "Villa equalizes with a precise shot into the bottom corner."
+    },
+    {
+      "minute": "70'",
+      "side": "away",
+      "player": "Zinedine Zidane",
+      "type": "goal",
+      "description": "Zidane curls a free-kick past Casillas to restore the lead."
+    },
+    {
+      "minute": "90'",
+      "side": "away",
+      "player": "Zinedine Zidane",
+      "type": "goal",
+      "description": "Zidane scores another free-kick, sealing the match."
+    }
+  ],
+  "stats": [
+    {
+      "label": "Shots",
+      "home": 14,
+      "away": 11,
+      "homeWidth": 56,
+      "awayWidth": 44
+    },
+    {
+      "label": "Shots on Target",
+      "home": 6,
+      "away": 5,
+      "homeWidth": 55,
+      "awayWidth": 45
+    },
+    {
+      "label": "Possession",
+      "home": 53,
+      "away": 47,
+      "homeWidth": 53,
+      "awayWidth": 47
+    },
+    {
+      "label": "Passes",
+      "home": 497,
+      "away": 392,
+      "homeWidth": 56,
+      "awayWidth": 44
+    },
+    {
+      "label": "Pass Accuracy",
+      "home": "85%",
+      "away": "80%",
+      "homeWidth": 51,
+      "awayWidth": 49
+    },
+    {
+      "label": "Corners",
+      "home": 7,
+      "away": 2,
+      "homeWidth": 78,
+      "awayWidth": 22
+    },
+    {
+      "label": "Fouls",
+      "home": 12,
+      "away": 10,
+      "homeWidth": 55,
+      "awayWidth": 45
+    },
+    {
+      "label": "xG",
+      "home": "1.65",
+      "away": "2.45",
+      "homeWidth": 40,
+      "awayWidth": 60
+    }
+  ],
+  "metaDescription": "France defeats Spain 3-1 in the 2006 World Cup Round of 16, highlighted by Zidane's brilliance.",
+  "tacticalAnalysis": "Spain employed a 4-2-3-1 formation focusing on possession-based play, relying on Xabi Alonso and Andrés Iniesta in midfield to create chances. France countered with a 4-3-3 formation, utilizing width through Franck Ribéry and Thierry Henry. Ribéry's pace troubled the Spanish defense, allowing him to score first. After Villa’s equalizer, Zidane's tactical intelligence shone through with his two free-kick goals, showcasing Spain's struggles against set-pieces. The match highlighted the emergence of France's tactical versatility and Spain's vulnerabilities in defense, particularly on dead-ball situations, setting the stage for Spain's evolution into a future powerhouse.",
+  "keyMoments": [
+    "57' - Ribéry opens the scoring with a great strike.",
+    "64' - Villa equalizes with a well-placed shot.",
+    "70' - Zidane scores a brilliant free-kick to regain the lead.",
+    "90' - Zidane seals the win with another free-kick."
+  ],
+  "historicalSignificance": "This match marked a turning point for France, showcasing Zidane's leadership and talent as he led the team to the final. For Spain, it highlighted their struggles in major tournaments before their eventual success in 2010, proving to be a valuable learning experience for their golden generation.",
+  "topPerformers": [
+    {
+      "name": "Zinedine Zidane",
+      "side": "away",
+      "position": "CM",
+      "rating": 9.5,
+      "note": "Zidane was pivotal, scoring two crucial free-kicks."
+    },
+    {
+      "name": "David Villa",
+      "side": "home",
+      "position": "ST",
+      "rating": 8,
+      "note": "Villa's equalizing goal reflected his composure under pressure."
+    },
+    {
+      "name": "Franck Ribéry",
+      "side": "away",
+      "position": "LW",
+      "rating": 8.3,
+      "note": "Ribéry's goal and assist showed his creativity."
+    }
+  ]
+}

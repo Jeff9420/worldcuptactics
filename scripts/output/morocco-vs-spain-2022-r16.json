@@ -1,0 +1,196 @@
+{
+  "id": "morocco-vs-spain-2022-r16",
+  "tournament": "FIFA World Cup 2022",
+  "year": 2022,
+  "stage": "Round of 16",
+  "date": "December 6, 2022",
+  "venue": "Education City Stadium",
+  "city": "Ar-Rayyan, Qatar",
+  "home": {
+    "name": "Morocco",
+    "flag": "🇲🇦",
+    "formation": "4-1-4-1",
+    "color": "#C1272D",
+    "colorDim": "rgba(193,39,45,0.18)",
+    "players": [
+      "Yassine Bounou",
+      "Achraf Hakimi",
+      "Romain Saïss",
+      "Nayef Aguerd",
+      "Noussair Mazraoui",
+      "Sofyan Amrabat",
+      "Azzedine Ounahi",
+      "Hakim Ziyech",
+      "Youssef En-Nesyri",
+      "Abde Ezzalzouli",
+      "Sofiane Boufal"
+    ],
+    "score": 0
+  },
+  "away": {
+    "name": "Spain",
+    "flag": "🇪🇸",
+    "formation": "4-3-3",
+    "color": "#CC0000",
+    "colorDim": "rgba(204,0,0,0.18)",
+    "players": [
+      "Unai Simón",
+      "César Azpilicueta",
+      "Eric García",
+      "Pau Torres",
+      "Jordi Alba",
+      "Sergio Busquets",
+      "Gavi",
+      "Pedri",
+      "Ferran Torres",
+      "Marco Asensio",
+      "Álvaro Morata"
+    ],
+    "score": 0
+  },
+  "status": "PSO",
+  "penaltyScore": "3-0",
+  "xG": {
+    "home": 0.55,
+    "away": 2.15
+  },
+  "possession": {
+    "home": 23,
+    "away": 77
+  },
+  "timeline": [
+    {
+      "minute": "12'",
+      "side": "away",
+      "player": "Ferran Torres",
+      "type": "yellow",
+      "description": "Foul on Achraf Hakimi"
+    },
+    {
+      "minute": "69'",
+      "side": "neutral",
+      "player": "Álvaro Morata",
+      "type": "sub",
+      "description": "Replaced by Gerard Moreno"
+    },
+    {
+      "minute": "90'",
+      "side": "away",
+      "player": "Marco Asensio",
+      "type": "yellow",
+      "description": "Foul on Azzedine Ounahi"
+    },
+    {
+      "minute": "120'",
+      "side": "neutral",
+      "player": "Bono",
+      "type": "pen_goal",
+      "description": "Saved the penalty from Manuel Lemos"
+    },
+    {
+      "minute": "120'",
+      "side": "neutral",
+      "player": "Bono",
+      "type": "pen_goal",
+      "description": "Saved the penalty from Álvaro Morata"
+    },
+    {
+      "minute": "120'",
+      "side": "neutral",
+      "player": "Bono",
+      "type": "pen_goal",
+      "description": "Saved the penalty from Sergio Busquets"
+    }
+  ],
+  "stats": [
+    {
+      "label": "Shots",
+      "home": 5,
+      "away": 16,
+      "homeWidth": 23,
+      "awayWidth": 77
+    },
+    {
+      "label": "Shots on Target",
+      "home": 1,
+      "away": 5,
+      "homeWidth": 20,
+      "awayWidth": 80
+    },
+    {
+      "label": "Possession",
+      "home": 23,
+      "away": 77,
+      "homeWidth": 23,
+      "awayWidth": 77
+    },
+    {
+      "label": "Passes",
+      "home": 204,
+      "away": 1066,
+      "homeWidth": 16,
+      "awayWidth": 84
+    },
+    {
+      "label": "Pass Accuracy",
+      "home": "75%",
+      "away": "92%",
+      "homeWidth": 75,
+      "awayWidth": 92
+    },
+    {
+      "label": "Corners",
+      "home": 1,
+      "away": 7,
+      "homeWidth": 12,
+      "awayWidth": 88
+    },
+    {
+      "label": "Fouls",
+      "home": 14,
+      "away": 12,
+      "homeWidth": 54,
+      "awayWidth": 46
+    },
+    {
+      "label": "xG",
+      "home": "0.55",
+      "away": "2.15",
+      "homeWidth": 20,
+      "awayWidth": 80
+    }
+  ],
+  "metaDescription": "Morocco shock Spain in a penalty shootout to advance to the quarter-finals of the FIFA World Cup 2022.",
+  "tacticalAnalysis": "Morocco employed a disciplined 4-1-4-1 formation, effectively stifling Spain's build-up play, forcing them to play through long passes which were easily intercepted. The solid defensive line led by Romain Saïss and Nayef Aguerd managed to keep a compact shape, with Sofyan Amrabat playing a pivotal role in breaking up play. Spain, utilizing a 4-3-3 formation, struggled to penetrate Morocco's low block. The Spanish team enjoyed 77% possession, but often found themselves passing sideways, constantly looking for openings, which never came. Despite dominating possession, Spain's lack of clinical finishing led to a dismal return in terms of scoring opportunities. In the penalty shootout, Bono emerged as the hero, saving all three Spanish penalties, thereby clinching the historic victory for Morocco.",
+  "keyMoments": [
+    "12' - Ferran Torres booked for a foul on Achraf Hakimi",
+    "90' - Marco Asensio booked for a foul on Azzedine Ounahi",
+    "120' - Bono saves the first penalty from Lemos",
+    "120' - Bono saves the second penalty from Morata",
+    "120' - Bono saves the last penalty from Busquets"
+  ],
+  "historicalSignificance": "This match marked a remarkable upset in World Cup history, as Morocco eliminated Spain, a traditional footballing powerhouse. It showcased the effectiveness of a disciplined defensive strategy against a possession-dominant team and highlighted Morocco's rise in international football.",
+  "topPerformers": [
+    {
+      "name": "Yassine Bounou",
+      "side": "home",
+      "position": "GK",
+      "rating": 9.5,
+      "note": "Outstanding saves in penalty shootout and throughout match."
+    },
+    {
+      "name": "Sofyan Amrabat",
+      "side": "home",
+      "position": "CDM",
+      "rating": 8.8,
+      "note": "Controlled midfield and broke down Spanish plays."
+    },
+    {
+      "name": "Álvaro Morata",
+      "side": "away",
+      "position": "ST",
+      "rating": 7,
+      "note": "Failed to convert critical chances but was active throughout."
+    }
+  ]
+}

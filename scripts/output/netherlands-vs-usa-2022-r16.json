@@ -1,0 +1,173 @@
+{
+  "id": "netherlands-vs-usa-2022-r16",
+  "tournament": "FIFA World Cup 2022",
+  "year": 2022,
+  "stage": "Round of 16",
+  "date": "December 3, 2022",
+  "venue": "Khalifa International Stadium",
+  "city": "Ar-Rayyan, Qatar",
+  "home": {
+    "name": "Netherlands",
+    "flag": "🇳🇱",
+    "formation": "3-5-2",
+    "color": "#FF6200",
+    "colorDim": "rgba(255,98,0,0.18)",
+    "players": [
+      "Andries Noppert",
+      "Virgil van Dijk",
+      "Matthijs de Ligt",
+      "Nathan Aké",
+      "Denzel Dumfries",
+      "Frenkie de Jong",
+      "Marten de Roon",
+      "Daley Blind",
+      "Memphis Depay",
+      "Vincent Janssen",
+      "Steven Bergwijn"
+    ],
+    "score": 3
+  },
+  "away": {
+    "name": "USA",
+    "flag": "🇺🇸",
+    "formation": "4-3-3",
+    "color": "#3C3B6E",
+    "colorDim": "rgba(60,59,110,0.18)",
+    "players": [
+      "Matt Turner",
+      "Sergiño Dest",
+      "Walker Zimmerman",
+      "Aaron Long",
+      "Antonee Robinson",
+      "Tyler Adams",
+      "Weston McKennie",
+      "Yunus Musah",
+      "Christian Pulisic",
+      "Brenden Aaronson",
+      "Josh Sargent"
+    ],
+    "score": 1
+  },
+  "status": "FT",
+  "xG": {
+    "home": 2.67,
+    "away": 0.93
+  },
+  "possession": {
+    "home": 61,
+    "away": 39
+  },
+  "timeline": [
+    {
+      "minute": "10'",
+      "side": "home",
+      "player": "Memphis Depay",
+      "type": "goal",
+      "description": "Memphis Depay broke the deadlock with a close-range shot."
+    },
+    {
+      "minute": "41'",
+      "side": "away",
+      "player": "Christian Pulisic",
+      "type": "goal",
+      "description": "Christian Pulisic equalized for the USA with a well-placed shot."
+    },
+    {
+      "minute": "81'",
+      "side": "home",
+      "player": "Denzel Dumfries",
+      "type": "goal",
+      "description": "Denzel Dumfries scored the decisive third goal for the Netherlands."
+    }
+  ],
+  "stats": [
+    {
+      "label": "Shots",
+      "home": 15,
+      "away": 8,
+      "homeWidth": 65,
+      "awayWidth": 35
+    },
+    {
+      "label": "Shots on Target",
+      "home": 7,
+      "away": 3,
+      "homeWidth": 70,
+      "awayWidth": 30
+    },
+    {
+      "label": "Possession",
+      "home": 61,
+      "away": 39,
+      "homeWidth": 61,
+      "awayWidth": 39
+    },
+    {
+      "label": "Passes",
+      "home": 523,
+      "away": 345,
+      "homeWidth": 60,
+      "awayWidth": 40
+    },
+    {
+      "label": "Pass Accuracy",
+      "home": "89%",
+      "away": "77%",
+      "homeWidth": 61,
+      "awayWidth": 39
+    },
+    {
+      "label": "Corners",
+      "home": 9,
+      "away": 2,
+      "homeWidth": 82,
+      "awayWidth": 18
+    },
+    {
+      "label": "Fouls",
+      "home": 12,
+      "away": 14,
+      "homeWidth": 46,
+      "awayWidth": 54
+    },
+    {
+      "label": "xG",
+      "home": "2.67",
+      "away": "0.93",
+      "homeWidth": 73,
+      "awayWidth": 27
+    }
+  ],
+  "metaDescription": "Netherlands defeated the USA 3-1 in the Round of 16 of the FIFA World Cup 2022, showcasing tactical maturity and standout performances.",
+  "tacticalAnalysis": "The Netherlands deployed a 3-5-2 formation, with Memphis Depay and Vincent Janssen leading the attack. Depay's mobility and creativity were pivotal, allowing him to exploit spaces in the USA's defensive line. The midfield trio of Frenkie de Jong, Marten de Roon, and Daley Blind provided a solid base with excellent ball retention and transition capability. Denzel Dumfries excelled as a wing-back, contributing to both attack and defense. USA played a 4-3-3, utilizing Pulisic and Aaronson as wide forwards. Despite stretching the field, they struggled to break down the Dutch defensive trio. Van Gaal's tactical decisions, particularly in midfield control, proved effective, leading to a higher possession rate and danger in the final third.",
+  "keyMoments": [
+    "10' - Memphis Depay scores the opening goal, showcasing quick play.",
+    "41' - Christian Pulisic levels the score, responding well to pressure.",
+    "81' - Denzel Dumfries seals the victory with a powerful finish.",
+    "Substitutions in the second half freshened up the US attack but were unable to find another goal."
+  ],
+  "historicalSignificance": "This match marked the Netherlands' strong performance in the knockout stage, reinforcing their reputation as a tactical powerhouse. The USA, despite defeat, showed significant progress in their competitive stature on the world stage.",
+  "topPerformers": [
+    {
+      "name": "Denzel Dumfries",
+      "side": "home",
+      "position": "RB",
+      "rating": 9.2,
+      "note": "Outstanding in both attack and defense, scoring the third goal."
+    },
+    {
+      "name": "Christian Pulisic",
+      "side": "away",
+      "position": "LW",
+      "rating": 8.5,
+      "note": "Only goalscorer for USA, demonstrating skill and tenacity."
+    },
+    {
+      "name": "Memphis Depay",
+      "side": "home",
+      "position": "ST",
+      "rating": 8.8,
+      "note": "Opened the scoring and was a constant threat to the USA defense."
+    }
+  ]
+}

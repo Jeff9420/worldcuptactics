@@ -1,0 +1,172 @@
+{
+  "id": "croatia-vs-england-2018-sf",
+  "tournament": "FIFA World Cup 2018",
+  "year": 2018,
+  "stage": "Semi-Final",
+  "date": "July 11, 2018",
+  "venue": "Luzhniki Stadium",
+  "city": "Moscow, Russia",
+  "home": {
+    "name": "Croatia",
+    "flag": "🇭🇷",
+    "formation": "4-3-3",
+    "color": "#CC1122",
+    "colorDim": "rgba(204,17,34,0.18)",
+    "players": [
+      "Danijel Subašić",
+      "Šime Vrsaljko",
+      "Dejan Lovren",
+      "Domagoj Vida",
+      "Ivan Strinić",
+      "Marcelo Brozović",
+      "Ivan Rakitić",
+      "Luka Modrić",
+      "Ante Rebić",
+      "Mario Mandžukić",
+      "Ivan Perišić"
+    ],
+    "score": 2
+  },
+  "away": {
+    "name": "England",
+    "flag": "🇬🇧",
+    "formation": "3-5-2",
+    "color": "#CF142B",
+    "colorDim": "rgba(207,20,43,0.18)",
+    "players": [
+      "Jordan Pickford",
+      "Kyle Walker",
+      "John Stones",
+      "Harry Maguire",
+      "Kieran Trippier",
+      "Jordan Henderson",
+      "Dele Alli",
+      "Jesse Lingard",
+      "Ashley Young",
+      "Harry Kane",
+      "Raheem Sterling"
+    ],
+    "score": 1
+  },
+  "status": "AET",
+  "xG": {
+    "home": 2.22,
+    "away": 1.08
+  },
+  "possession": {
+    "home": 61,
+    "away": 39
+  },
+  "timeline": [
+    {
+      "minute": "5'",
+      "side": "away",
+      "player": "Kieran Trippier",
+      "type": "goal",
+      "description": "Trippier scored a stunning free-kick to give England an early lead."
+    },
+    {
+      "minute": "68'",
+      "side": "home",
+      "player": "Ivan Perišić",
+      "type": "goal",
+      "description": "Perišić equalized with a brilliant left-foot half-volley."
+    },
+    {
+      "minute": "109'",
+      "side": "home",
+      "player": "Mario Mandžukić",
+      "type": "goal",
+      "description": "Mandžukić bundled in the winner during the first half of extra time."
+    }
+  ],
+  "stats": [
+    {
+      "label": "Shots",
+      "home": 20,
+      "away": 6,
+      "homeWidth": 77,
+      "awayWidth": 23
+    },
+    {
+      "label": "Shots on Target",
+      "home": 8,
+      "away": 2,
+      "homeWidth": 80,
+      "awayWidth": 20
+    },
+    {
+      "label": "Possession",
+      "home": 61,
+      "away": 39,
+      "homeWidth": 61,
+      "awayWidth": 39
+    },
+    {
+      "label": "Passes",
+      "home": 600,
+      "away": 300,
+      "homeWidth": 67,
+      "awayWidth": 33
+    },
+    {
+      "label": "Pass Accuracy",
+      "home": "86%",
+      "away": "78%",
+      "homeWidth": 52,
+      "awayWidth": 48
+    },
+    {
+      "label": "Corners",
+      "home": 9,
+      "away": 2,
+      "homeWidth": 82,
+      "awayWidth": 18
+    },
+    {
+      "label": "Fouls",
+      "home": 12,
+      "away": 10,
+      "homeWidth": 55,
+      "awayWidth": 45
+    },
+    {
+      "label": "xG",
+      "home": "2.22",
+      "away": "1.08",
+      "homeWidth": 67,
+      "awayWidth": 33
+    }
+  ],
+  "metaDescription": "Croatia defeated England 2-1 in the FIFA World Cup 2018 semi-final to reach their first World Cup final.",
+  "tacticalAnalysis": "Croatia utilized a 4-3-3 formation, with Modrić orchestrating the midfield, supported by Brozović's defensive cover. England lined up in a 3-5-2, with Trippier's wing-back role proving crucial early on. After taking the lead with his free-kick, England retreated to defend, allowing Croatia to dominate possession. Perišić's equalizer came from well-coordinated buildup play that exploited England's defensive vulnerabilities. In extra time, Croatia capitalized on their stamina and strategic substitutions, resulting in Mandžukić's decisive goal from close range, highlighting England's fatigue.",
+  "keyMoments": [
+    "5' - Trippier's stunning free-kick puts England ahead.",
+    "68' - Perišić equalizes with a left-footed strike.",
+    "109' - Mandžukić scores the winner in extra time."
+  ],
+  "historicalSignificance": "This match marked Croatia's first entry into a World Cup final, showcasing their resilience and tactical prowess. England's early exit at this stage left fans disappointed, but it set the stage for a renewed focus on the national team.",
+  "topPerformers": [
+    {
+      "name": "Luka Modrić",
+      "side": "home",
+      "position": "CM",
+      "rating": 9,
+      "note": "Masterfully controlled the midfield and directed play."
+    },
+    {
+      "name": "Kieran Trippier",
+      "side": "away",
+      "position": "RB",
+      "rating": 8,
+      "note": "Opened the scoring and contributed defensively."
+    },
+    {
+      "name": "Mario Mandžukić",
+      "side": "home",
+      "position": "ST",
+      "rating": 8.5,
+      "note": "Scored the crucial extra-time goal."
+    }
+  ]
+}
