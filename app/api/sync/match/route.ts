@@ -72,8 +72,9 @@ export async function POST(req: NextRequest) {
     }
 
     return NextResponse.json({ success: true, matchId: matchData.id });
-  } catch (err: any) {
+  } catch (err: unknown) {
     console.error("Sync error:", err);
-    return NextResponse.json({ error: err.message }, { status: 500 });
+    const message = err instanceof Error ? err.message : "Match sync failed";
+    return NextResponse.json({ error: message }, { status: 500 });
   }
 }

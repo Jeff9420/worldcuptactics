@@ -35,7 +35,7 @@ export default function BlogPage() {
               marginBottom: "1rem",
             }}
           >
-            // Tactical Analysis
+            {"// Tactical Analysis"}
           </div>
           <h1
             style={{

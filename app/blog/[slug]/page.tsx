@@ -5,6 +5,15 @@ import Nav from "../../components/Nav";
 import { getArticle, getAllArticleSlugs, ARTICLES } from "../../lib/articles";
 import { getMatch } from "../../lib/matches";
 
+const WORLD_CUP_2026_READING_PATH = [
+  "2026-world-cup-complete-guide",
+  "world-cup-2026-standings-explained",
+  "portugal-2026-world-cup-squad-analysis",
+  "2026-world-cup-group-k-preview",
+  "2026-world-cup-48-teams-tactical-impact",
+  "2026-world-cup-favorites-contenders",
+];
+
 export function generateStaticParams() {
   return getAllArticleSlugs().map((slug) => ({ slug }));
 }
@@ -17,12 +26,18 @@ export async function generateMetadata({
   const { slug } = await params;
   const article = getArticle(slug);
   if (!article) return { title: "Article Not Found | WorldCupTactics" };
+  const url = `https://worldcuptactics.com/blog/${article.slug}`;
+
   return {
     title: `${article.title} | WorldCupTactics`,
     description: article.metaDescription,
+    alternates: {
+      canonical: url,
+    },
     openGraph: {
       title: article.title,
       description: article.metaDescription,
+      url,
       type: "article",
       publishedTime: article.date,
     },
@@ -41,6 +56,13 @@ export default async function ArticlePage({
   const relatedArticles = ARTICLES.filter(
     (a) => a.slug !== slug && a.category === article.category
   ).slice(0, 3);
+  const worldCup2026Links =
+    article.category === "2026 WC"
+      ? WORLD_CUP_2026_READING_PATH.filter((pathSlug) => pathSlug !== slug)
+          .map((pathSlug) => ARTICLES.find((a) => a.slug === pathSlug))
+          .filter(Boolean)
+          .slice(0, 4)
+      : [];
 
   const relatedMatchesRaw = await Promise.all(
     article.relatedMatchIds.map((id) => getMatch(id))
@@ -238,6 +260,118 @@ export default async function ArticlePage({
             );
           })}
         </div>
+
+        {/* 2026 hub links */}
+        {worldCup2026Links.length > 0 && (
+          <div
+            style={{
+              marginTop: "3.5rem",
+              padding: "1.5rem",
+              background: "var(--bg-surface)",
+              border: "1px solid var(--border)",
+              borderRadius: "8px",
+            }}
+          >
+            <Link
+              href="/world-cup-2026"
+              style={{
+                display: "inline-block",
+                fontFamily: "'JetBrains Mono',monospace",
+                fontSize: "0.65rem",
+                letterSpacing: "0.1em",
+                textTransform: "uppercase",
+                color: "var(--accent-green)",
+                textDecoration: "none",
+                marginBottom: "1rem",
+              }}
+            >
+              2026 World Cup Guide
+            </Link>
+            <div style={{ display: "grid", gap: "0.7rem" }}>
+              <Link
+                href="/world-cup-2026/teams"
+                style={{
+                  color: "var(--text-primary)",
+                  textDecoration: "none",
+                  fontFamily: "'Barlow Condensed',sans-serif",
+                  fontSize: "1rem",
+                  fontWeight: 700,
+                  lineHeight: 1.2,
+                  textTransform: "uppercase",
+                  letterSpacing: "0.04em",
+                }}
+              >
+                World Cup 2026 Team Tactical Profiles
+              </Link>
+              <Link
+                href="/world-cup-2026/groups"
+                style={{
+                  color: "var(--text-primary)",
+                  textDecoration: "none",
+                  fontFamily: "'Barlow Condensed',sans-serif",
+                  fontSize: "1rem",
+                  fontWeight: 700,
+                  lineHeight: 1.2,
+                  textTransform: "uppercase",
+                  letterSpacing: "0.04em",
+                }}
+              >
+                World Cup 2026 Groups A-L Tactical Guide
+              </Link>
+              <Link
+                href="/world-cup-2026/schedule"
+                style={{
+                  color: "var(--text-primary)",
+                  textDecoration: "none",
+                  fontFamily: "'Barlow Condensed',sans-serif",
+                  fontSize: "1rem",
+                  fontWeight: 700,
+                  lineHeight: 1.2,
+                  textTransform: "uppercase",
+                  letterSpacing: "0.04em",
+                }}
+              >
+                World Cup 2026 Schedule and Fixture Path
+              </Link>
+              <Link
+                href="/world-cup-2026/standings"
+                style={{
+                  color: "var(--text-primary)",
+                  textDecoration: "none",
+                  fontFamily: "'Barlow Condensed',sans-serif",
+                  fontSize: "1rem",
+                  fontWeight: 700,
+                  lineHeight: 1.2,
+                  textTransform: "uppercase",
+                  letterSpacing: "0.04em",
+                }}
+              >
+                World Cup 2026 Standings and Group Tables
+              </Link>
+              {worldCup2026Links.map((a) => {
+                if (!a) return null;
+                return (
+                  <Link
+                    key={a.slug}
+                    href={`/blog/${a.slug}`}
+                    style={{
+                      color: "var(--text-primary)",
+                      textDecoration: "none",
+                      fontFamily: "'Barlow Condensed',sans-serif",
+                      fontSize: "1rem",
+                      fontWeight: 700,
+                      lineHeight: 1.2,
+                      textTransform: "uppercase",
+                      letterSpacing: "0.04em",
+                    }}
+                  >
+                    {a.title}
+                  </Link>
+                );
+              })}
+            </div>
+          </div>
+        )}
 
         {/* Related Matches */}
         {relatedMatches.length > 0 && (

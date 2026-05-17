@@ -764,7 +764,7 @@ export default function MatchDetail({
           {activeTab === "players" && (
             <div>
               <div style={{ fontFamily: "'JetBrains Mono',monospace", fontSize: "0.62rem", color: "var(--text-muted)", letterSpacing: "0.1em", textTransform: "uppercase", marginBottom: "1.25rem" }}>
-                // Career stat profiles — not just World Cup performance
+                {"// Career stat profiles — not just World Cup performance"}
               </div>
               <div style={{ display: "flex", flexDirection: "column", gap: "1.25rem" }}>
                 {match.topPerformers.map((p, i) => {
@@ -1131,7 +1131,7 @@ export default function MatchDetail({
                 letterSpacing: "0.1em",
               }}
             >
-              // TACTICAL BREAKDOWNS
+              {"// TACTICAL BREAKDOWNS"}
             </div>
             <Link
               href="/matches"

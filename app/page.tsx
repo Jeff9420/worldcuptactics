@@ -114,7 +114,7 @@ export default function Home() {
       <div className="section" style={{ background: "var(--bg-surface)", borderTop: "1px solid var(--border)" }}>
         <div className="section-header">
           <div className="section-title">Featured Match</div>
-          <div className="section-sub">// THE GREATEST FINAL EVER PLAYED</div>
+          <div className="section-sub">{"// THE GREATEST FINAL EVER PLAYED"}</div>
           <Link href={`/matches/${FEATURED.id}`} className="section-link">Full Analysis →</Link>
         </div>
 
@@ -200,7 +200,7 @@ export default function Home() {
       <div className="section">
         <div className="section-header">
           <div className="section-title">Classic Matches</div>
-          <div className="section-sub">// TACTICAL BREAKDOWNS</div>
+          <div className="section-sub">{"// TACTICAL BREAKDOWNS"}</div>
           <Link href="/matches" className="section-link">All 30 Matches →</Link>
         </div>
         <div className="match-grid">
@@ -263,7 +263,7 @@ export default function Home() {
       <div className="section" style={{ background: "var(--bg-surface)", borderTop: "1px solid var(--border)" }}>
         <div className="section-header">
           <div className="section-title">AI Capabilities</div>
-          <div className="section-sub">// Powered by WorldCupTactics Engine</div>
+          <div className="section-sub">{"// Powered by WorldCupTactics Engine"}</div>
         </div>
         <div className="features-grid">
           {[
@@ -288,23 +288,23 @@ export default function Home() {
         <div style={{ maxWidth: "1100px", margin: "0 auto" }}>
           <div style={{ display: "flex", alignItems: "center", gap: "0.75rem", marginBottom: "1.5rem" }}>
             <div style={{ fontFamily: "'JetBrains Mono',monospace", fontSize: "0.68rem", letterSpacing: "0.14em", textTransform: "uppercase", color: "#FF4444" }}>
-              // 2026 World Cup
+              {"// 2026 World Cup"}
             </div>
             <div style={{ flex: 1, height: "1px", background: "rgba(255,68,68,0.2)" }} />
-            <Link href="/blog" style={{ fontFamily: "'Barlow Condensed',sans-serif", fontSize: "0.78rem", fontWeight: 600, letterSpacing: "0.06em", textTransform: "uppercase", color: "#FF4444", textDecoration: "none" }}>
-              All Articles →
+            <Link href="/world-cup-2026" style={{ fontFamily: "'Barlow Condensed',sans-serif", fontSize: "0.78rem", fontWeight: 600, letterSpacing: "0.06em", textTransform: "uppercase", color: "#FF4444", textDecoration: "none" }}>
+              2026 Guide →
             </Link>
           </div>
           <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fill, minmax(220px, 1fr))", gap: "1rem" }}>
             {[
-              { slug: "2026-world-cup-complete-guide", title: "Complete Guide to the 2026 World Cup", label: "48 Teams · 104 Matches" },
-              { slug: "2026-world-cup-favorites-contenders", title: "Who Will Win? Every Contender Analyzed", label: "Contenders Breakdown" },
-              { slug: "france-2026-world-cup-squad-analysis", title: "France 2026: Mbappé at His Peak", label: "🇫🇷 The Favorites" },
-              { slug: "brazil-2026-world-cup-squad-analysis", title: "Brazil 2026: End the 24-Year Wait?", label: "🇧🇷 Vinícius & Co." },
-              { slug: "england-2026-world-cup-squad-analysis", title: "England 2026: Bellingham's Time?", label: "🏴󠁧󠁢󠁥󠁮󠁧󠁿 The 60-Year Question" },
-              { slug: "argentina-2026-world-cup-squad-analysis", title: "Argentina 2026: Defending Without Messi?", label: "🇦🇷 Defending Champions" },
-              { slug: "spain-2026-world-cup-squad-analysis", title: "Spain 2026: Yamal's Generation", label: "🇪🇸 Euro 2024 Winners" },
-              { slug: "2026-world-cup-10-players-to-watch", title: "10 Players Who Will Define the Tournament", label: "Mbappé · Vinícius · Bellingham" },
+              { slug: "2026-world-cup-complete-guide", title: "World Cup 2026 Complete Guide", label: "Worldcup 2026" },
+              { slug: "world-cup-2026-standings-explained", title: "World Cup 2026 Standings Explained", label: "Standings Search" },
+              { slug: "portugal-2026-world-cup-squad-analysis", title: "Portugal 2026 Squad Tactical Preview", label: "Rising Query" },
+              { slug: "2026-world-cup-group-k-preview", title: "Group K Preview: Portugal, Colombia, Uzbekistan, Congo DR", label: "Portugal's Group" },
+              { slug: "2026-world-cup-48-teams-tactical-impact", title: "How 48 Teams Change World Cup Tactics", label: "Format Impact" },
+              { slug: "2026-world-cup-favorites-contenders", title: "Who Will Win? Every Contender Analyzed", label: "Contenders" },
+              { slug: "france-2026-world-cup-tactical-analysis", title: "France 2026 Tactical Analysis", label: "Favorites" },
+              { slug: "brazil-2026-world-cup-tactical-analysis", title: "Brazil 2026 Tactical Analysis", label: "Heavyweight" },
             ].map(({ slug, title, label }) => (
               <Link key={slug} href={`/blog/${slug}`} style={{ textDecoration: "none", color: "inherit" }}>
                 <div style={{ background: "rgba(255,68,68,0.04)", border: "1px solid rgba(255,68,68,0.15)", borderRadius: "8px", padding: "1.25rem" }}>

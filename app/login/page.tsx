@@ -1,6 +1,6 @@
 "use client";
 
-import { useState } from "react";
+import { useMemo, useState } from "react";
 import Nav from "../components/Nav";
 import { createClient } from "../lib/supabase-browser";
 
@@ -9,7 +9,7 @@ export default function LoginPage() {
   const [loading, setLoading] = useState(false);
   const [message, setMessage] = useState("");
   
-  const supabase = createClient();
+  const supabase = useMemo(() => createClient(), []);
 
   const handleLogin = async (e: React.FormEvent) => {
     e.preventDefault();
@@ -44,8 +44,9 @@ export default function LoginPage() {
         setMessage(`Error: ${error.message}`);
         setLoading(false);
       }
-    } catch (err: any) {
-      setMessage(`Error: ${err.message}`);
+    } catch (err: unknown) {
+      const message = err instanceof Error ? err.message : "Google login failed";
+      setMessage(`Error: ${message}`);
       setLoading(false);
     }
   };

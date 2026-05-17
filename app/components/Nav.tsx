@@ -2,15 +2,15 @@
 
 import Link from "next/link";
 import { usePathname } from "next/navigation";
-import { useEffect, useState } from "react";
+import { useEffect, useMemo, useState } from "react";
 import { createClient } from "../lib/supabase-browser";
-import { User } from "@supabase/supabase-js";
+import { AuthChangeEvent, Session, User } from "@supabase/supabase-js";
 
 export default function Nav() {
   const pathname = usePathname();
   const [user, setUser] = useState<User | null>(null);
   const [isPro, setIsPro] = useState(false);
-  const supabase = createClient();
+  const supabase = useMemo(() => createClient(), []);
 
   useEffect(() => {
     const fetchSession = async () => {
@@ -30,7 +30,7 @@ export default function Nav() {
     };
     fetchSession();
 
-    const { data: authListener } = supabase.auth.onAuthStateChange(async (event, session) => {
+    const { data: authListener } = supabase.auth.onAuthStateChange(async (_event: AuthChangeEvent, session: Session | null) => {
       if (session?.user) {
         setUser(session.user);
         const { data } = await supabase.from('profiles').select('is_pro').eq('id', session.user.id).single();
@@ -44,7 +44,7 @@ export default function Nav() {
     return () => {
       authListener.subscription.unsubscribe();
     };
-  }, []);
+  }, [supabase]);
 
   const handleLogout = async () => {
     await supabase.auth.signOut();
@@ -62,6 +62,9 @@ export default function Nav() {
         </Link>
         <Link href="/matches" className={`nav-link ${pathname.startsWith("/matches") ? "active" : ""}`}>
           Matches
+        </Link>
+        <Link href="/world-cup-2026" className={`nav-link ${pathname.startsWith("/world-cup-2026") ? "active" : ""}`}>
+          2026
         </Link>
         <Link href="/blog" className={`nav-link ${pathname.startsWith("/blog") ? "active" : ""}`}>
           Blog
@@ -81,18 +84,18 @@ export default function Nav() {
               {isPro && <span style={{ marginLeft: '8px', background: 'var(--gold)', color: '#000', padding: '2px 6px', borderRadius: '4px', fontWeight: 'bold' }}>PRO</span>}
             </div>
             {!isPro && (
-              <Link href="/pro" className="btn-primary" style={{ padding: '0.5rem 1rem', display: 'inline-flex', textDecoration: 'none' }}>
-                Upgrade
-              </Link>
+            <Link href="/pro" prefetch={false} className="btn-primary" style={{ padding: '0.5rem 1rem', display: 'inline-flex', textDecoration: 'none' }}>
+              Upgrade
+            </Link>
             )}
             <button className="btn-ghost" onClick={handleLogout}>Logout</button>
           </>
         ) : (
           <>
-            <Link href="/login" className="btn-ghost" style={{ display: 'inline-flex', textDecoration: 'none' }}>
+            <Link href="/login" prefetch={false} className="btn-ghost" style={{ display: 'inline-flex', textDecoration: 'none' }}>
               Sign In
             </Link>
-            <Link href="/pro" className="btn-primary" style={{ display: 'inline-flex', textDecoration: 'none' }}>
+            <Link href="/pro" prefetch={false} className="btn-primary" style={{ display: 'inline-flex', textDecoration: 'none' }}>
               Get Pro
             </Link>
           </>

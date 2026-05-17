@@ -3,7 +3,7 @@ import Stripe from "stripe";
 import { getUserProfile } from "../../../lib/supabase-server";
 
 const stripe = new Stripe(process.env.STRIPE_SECRET_KEY!, {
-  apiVersion: "2024-04-10" as any, // use current API version
+  apiVersion: "2026-04-22.dahlia",
 });
 
 export async function POST(req: NextRequest) {
@@ -39,8 +39,9 @@ export async function POST(req: NextRequest) {
     });
 
     return NextResponse.json({ url: session.url });
-  } catch (err: any) {
+  } catch (err: unknown) {
     console.error("Stripe Checkout Error:", err);
-    return NextResponse.json({ error: err.message }, { status: 500 });
+    const message = err instanceof Error ? err.message : "Stripe checkout failed";
+    return NextResponse.json({ error: message }, { status: 500 });
   }
 }

@@ -50,8 +50,9 @@ export async function POST(req: NextRequest) {
 
     console.log(`Successfully generated and saved AI analysis for match: ${matchId}`);
     return NextResponse.json({ success: true, matchId });
-  } catch (err: any) {
+  } catch (err: unknown) {
     console.error("AI Analysis error:", err);
-    return NextResponse.json({ error: err.message }, { status: 500 });
+    const message = err instanceof Error ? err.message : "Unknown AI analysis error";
+    return NextResponse.json({ error: message }, { status: 500 });
   }
 }

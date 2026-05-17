@@ -175,7 +175,7 @@ function generateStats(name: string, position: string, rating: number): PlayerSt
 // ─── Label assignment ─────────────────────────────────────────────────────────
 interface LabelDef { label: string; labelColor: string; labelIcon: string; flavor: string }
 
-function assignLabel(s: PlayerStats, position: string): LabelDef {
+function assignLabel(s: PlayerStats): LabelDef {
   const vals = [s.shooting, s.passing, s.dribbling, s.defending, s.pace, s.clutch];
   const avg = vals.reduce((a, b) => a + b, 0) / 6;
   const max = Math.max(...vals);
@@ -213,7 +213,7 @@ export function getPlayerProfile(name: string, position: string, rating: number)
     );
     stats = key ? PLAYER_DB[key] : generateStats(name, position, rating);
   }
-  const labelDef = assignLabel(stats, position);
+  const labelDef = assignLabel(stats);
   return { stats, ...labelDef };
 }
 

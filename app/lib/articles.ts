@@ -18,6 +18,85 @@ export interface Article {
 
 export const ARTICLES: Article[] = [
   {
+    slug: "world-cup-2026-standings-explained",
+    title: "World Cup 2026 Standings Explained: How the 48-Team Table Works",
+    excerpt:
+      "Twelve groups, eight best third-place teams, and a new Round of 32. A practical guide to reading the 2026 World Cup standings without getting lost.",
+    category: "2026 WC",
+    categoryColor: "#FF4444",
+    date: "2026-05-16",
+    readTime: 7,
+    metaDescription:
+      "World Cup 2026 standings explained — how the 12 groups work, how third-place teams qualify, the official tie-breakers, and why the new table changes tactics.",
+    relatedMatchIds: ["saudi-arabia-vs-argentina-2022-group", "germany-vs-south-korea-2018-group", "cameroon-vs-argentina-1990-group"],
+    content: [
+      {
+        type: "paragraph",
+        text: "The 2026 World Cup standings will look familiar at first glance: win, draw, loss, points, goal difference, goals scored. The catch is the scale. Instead of eight groups feeding a Round of 16, the tournament has 12 groups of four teams, and the knockout stage begins with a Round of 32. That means the table is no longer just about finishing first or second. Finishing third can still keep a team alive.",
+      },
+      {
+        type: "heading",
+        text: "The Basic Rule: Top Two Plus Eight Third-Place Teams",
+      },
+      {
+        type: "paragraph",
+        text: "Each group contains four teams and each team plays three group matches. The top two teams in every group qualify automatically, creating 24 confirmed knockout places. The remaining eight places go to the best third-place teams across all 12 groups. That is the single biggest difference from the 32-team era.",
+      },
+      {
+        type: "paragraph",
+        text: "The practical consequence is simple: four points will usually be a strong third-place total, three points may be enough if the goal difference is healthy, and two points will leave a team dependent on chaos elsewhere. Managers will track not only their own group but every other third-place race in the tournament.",
+      },
+      {
+        type: "heading",
+        text: "How To Read The Table During Matchday Three",
+      },
+      {
+        type: "paragraph",
+        text: "The final group matches are where the standings become most tactical. A team sitting third on three points might decide that a draw protects goal difference and keeps it above rival third-place teams. Another team on the same points but worse goal difference may have to chase a second goal even while leading. The table creates different incentives depending on what has happened in earlier groups.",
+      },
+      {
+        type: "quote",
+        text: "In the 48-team format, the table is not only a record of results. It is a live tactical constraint.",
+      },
+      {
+        type: "heading",
+        text: "The Tie-Breakers That Matter Most",
+      },
+      {
+        type: "paragraph",
+        text: "The first separation point is total points. If teams are level, FIFA first compares the matches played between the tied teams: points in those head-to-head games, then head-to-head goal difference, then head-to-head goals scored. If that still does not separate them, the ranking process moves to broader group measures and then to fair-play and drawing of lots if required.",
+      },
+      {
+        type: "paragraph",
+        text: "That ordering changes game management. A direct meeting against a rival for second or third place carries more weight than a normal three-point game because it can settle the mini-table later. A late red card can also become expensive beyond the current match because fair-play scoring can enter the tie-breaker chain if the football criteria cannot split teams.",
+      },
+      {
+        type: "heading",
+        text: "Why The New Standings Change Tactics",
+      },
+      {
+        type: "paragraph",
+        text: "The old format punished slow starts brutally: one defeat in a four-team group could leave a favorite under immediate pressure. The 2026 format gives teams a slightly wider path back, but it also creates more calculated football. Smaller teams can build a plan around compact defending, set pieces, and protecting goal difference. Favorites may rotate earlier if they believe four or six points are enough to control their path.",
+      },
+      {
+        type: "paragraph",
+        text: "The Round of 32 also changes squad management. Reaching the final now means eight matches, not seven. A team that burns its best XI to win the group by a narrow margin may pay for it later. The best tournament coaches will treat the standings as an energy map as much as a points table.",
+      },
+      {
+        type: "heading",
+        text: "What Fans Should Watch",
+      },
+      {
+        type: "paragraph",
+        text: "Do not only watch who is first. Watch the third-place line, goal difference, yellow cards, and which groups have already completed their final matches. A team that looks safe after its own game may become vulnerable hours later. A team that looks conservative may simply be reading the wider table more clearly than the crowd.",
+      },
+      {
+        type: "paragraph",
+        text: "That is what makes the 2026 standings interesting. The expanded World Cup does not remove pressure from the group stage. It spreads pressure across more teams, more matches, and more simultaneous calculations. The table will be part scoreboard, part chess clock.",
+      },
+    ],
+  },
+  {
     slug: "5-greatest-tactical-masterclasses-world-cup-history",
     title: "5 Greatest Tactical Masterclasses in World Cup History",
     excerpt:
@@ -1260,126 +1339,126 @@ export const ARTICLES: Article[] = [
 
   {
     slug: "portugal-2026-world-cup-squad-analysis",
-    title: "Portugal 2026: The Post-Ronaldo Era Begins",
-    excerpt: "Ronaldo will be 41. The question is no longer whether Portugal can win with him — it's whether they can win without relying on him. The most complex squad dynamic at the 2026 World Cup.",
+    title: "Portugal 2026 World Cup Squad: The Tactical Preview",
+    excerpt: "Portugal enter Group K with elite creators, a deep defence, and the Ronaldo question still hanging over every selection call. This is their tactical path.",
     category: "2026 WC",
     categoryColor: "#FF4444",
-    date: "2026-05-06",
+    date: "2026-05-16",
     readTime: 9,
-    metaDescription: "Portugal 2026 World Cup squad analysis — how Roberto Martínez handles the Ronaldo question, Bernardo Silva's role, Bruno Fernandes, and Portugal's real ceiling.",
+    metaDescription: "Portugal 2026 World Cup squad tactical preview — Group K opponents, likely formation, Ronaldo's role, Bruno Fernandes, Bernardo Silva, Rafael Leão, and Portugal's ceiling.",
     relatedMatchIds: ["uruguay-vs-portugal-2018-r16","portugal-vs-switzerland-2022-r16","morocco-vs-portugal-2022-qf"],
     content: [
           {
                 "type": "paragraph",
-                "text": "As Portugal gears up for the 2026 World Cup, the football world finds itself on the cusp of a monumental transition. Cristiano Ronaldo, now 41, symbolizes the end of an era that has seen Portugal rise to international prominence. Yet, the pressing question isn't simply about Ronaldo's role—be it ceremonial captain or genuine starter—but whether this team can forge a new identity, one that thrives without reliance on its long-standing talisman."
+                "text": "Portugal's 2026 World Cup campaign is not just another Ronaldo storyline. It is a squad-construction test. Roberto Martínez has one of the deepest player pools in the tournament: creators in Bruno Fernandes and Bernardo Silva, explosive width through Rafael Leão and the full-backs, elite centre-back options, and several ways to build the front line. The hard part is turning that depth into a stable tournament identity."
           },
           {
                 "type": "heading",
-                "text": "Ronaldo at 41: Transitioning Out"
+                "text": "Group K: Why The Colombia Match Sets The Ceiling"
           },
           {
                 "type": "paragraph",
-                "text": "In the run-up to the tournament, speculation abounds regarding Ronaldo's fitness and influence on the squad. Will he command a starting position, or will the mantle of leadership be passed to the newer generation? Given his declining physical attributes, it seems most feasible that Ronaldo's role could be transformed into a more symbolic position, one that allows him to guide younger players while taking the pitch in more limited appearances."
+                "text": "Portugal have been drawn into Group K with Colombia, Uzbekistan, and DR Congo. That is a manageable group for a contender, but not a soft one tactically. Colombia will test Portugal's midfield spacing and transition defence. DR Congo bring athletic pressure and direct running. Uzbekistan are organised enough to punish slow circulation if Portugal become predictable."
           },
           {
                 "type": "paragraph",
-                "text": "To illustrate the stark contrast, compare his current form to that of the emerging Gonçalo Ramos. The 21-year-old forward has evidenced an impressive strike rate, displaying both agility and a knack for finding the net. In his young career, Ramos has shown that he can shoulder some of the attacking responsibilities, which is critical for Portugal as they transition away from Ronaldo's once central role."
+                "text": "The key match is Portugal versus Colombia. If Portugal can control that game without opening the centre of the pitch, they are a serious quarter-final-or-better team. If they need individual moments to escape pressure, the same old tournament problem returns: brilliant players, but not enough collective control."
           },
           {
                 "type": "quote",
-                "text": "Portugal scored 31 goals in qualifying, a testament to their offensive depth even without Ronaldo's scoring exploits."
+                "text": "Portugal's ceiling depends less on star power than on whether their rest defence survives the moments after they lose the ball."
           },
           {
                 "type": "heading",
-                "text": "The Rise of Gonçalo Ramos"
+                "text": "The Best Shape: 4-2-3-1 With A Controlled Right Side"
           },
           {
                 "type": "paragraph",
-                "text": "Gonçalo Ramos has already demonstrated his capacity to perform on the international stage, particularly during the Euro 2024, where he emerged as a vital cog in Roberto Martínez's attacking machine. Featuring in a fluid 4-2-3-1 formation, Ramos’s speed and positioning allowed him to exploit defensive gaps left by opponents. As a natural goal scorer, he is likely to be crucial in opening up avenues for playmakers like Bruno Fernandes."
+                "text": "The cleanest version of Portugal is still a 4-2-3-1 that becomes a 3-2-5 in possession. One full-back can advance aggressively while the opposite full-back tucks in. That matters because Portugal's attackers naturally want freedom: Bruno drifts toward the ball, Bernardo manipulates pressure, Leão wants the left isolation, and the striker attacks the box. Without a secure rest-defence structure behind them, the front five can become too open."
           },
           {
                 "type": "paragraph",
-                "text": "The dynamics of Ramos’s integration into the squad will be fascinating to watch. With Ronaldo no longer the focal point, Ramos will not only have the chance to shine but will also need to assume the responsibility of leading the attack. The pressure on his shoulders could be substantial, but given his club performance with Paris Saint-Germain, the young striker may well thrive."
+                "text": "Martínez's biggest selection call is the double pivot. Portugal need one midfielder who can receive under pressure and another who protects counter-attacks. If both midfielders chase the ball, Colombia and any later knockout opponent will attack the channels beside the centre-backs. If the pivot stays disciplined, Portugal can let the creators play closer to goal."
           },
           {
                 "type": "heading",
-                "text": "Bruno Fernandes: The Engine Room"
+                "text": "Ronaldo's Role: Starter, Closer, Or Tactical Problem?"
           },
           {
                 "type": "paragraph",
-                "text": "Bruno Fernandes stands as the pivot around which Portugal will likely revolve in Qatar. Historically, Fernandes has been the architect of many of Portugal's recent successes, orchestrating play and connecting midfield to attack with remarkable ingenuity. His ability to deliver key passes and create chances will be indispensable, especially in high-stakes matches where creativity is paramount."
+                "text": "Cristiano Ronaldo is still the story because tournament football rewards penalty-box certainty. Set pieces, low crosses, and late pressure phases are exactly where he can still matter. The issue is not whether he can score. The issue is what Portugal lose in pressing, defensive recovery, and fluid rotation if the whole attack is built around him from the opening whistle."
           },
           {
                 "type": "paragraph",
-                "text": "Under Martínez, Fernandes has taken on an even more influential role, adapting to various tactical tweaks that utilize his vision and shooting ability. The combination of his game intelligence paired with Ramos up front could unlock even the tightest of defenses, something Portugal will need to capitalize on if they are to break their quarterfinal and semifinal curse."
+                "text": "The most balanced answer may be opponent-specific. Against deep blocks, Ronaldo can start if Portugal expect territory and crossing volume. Against Colombia or an elite knockout opponent, a more mobile striker such as Gonçalo Ramos gives Bruno and Bernardo more pressing cover and more movement between centre-backs. Ronaldo as a 60th-minute closer may be less romantic, but it could be more useful."
           },
           {
                 "type": "quote",
-                "text": "In Euro 2024, Fernandes recorded four assists, underscoring his vital role in the Portuguese attack."
+                "text": "The question is not whether Ronaldo belongs in the squad. It is whether Portugal can avoid making every possession bend toward him."
           },
           {
                 "type": "heading",
-                "text": "Bernardo Silva: A Class Apart"
+                "text": "Bruno And Bernardo: The Creative Balance"
           },
           {
                 "type": "paragraph",
-                "text": "Not to be overlooked, Bernardo Silva will bring his world-class quality to the 2026 campaign. The Manchester City star possesses an uncanny ability to control the tempo of the game, weaving between defenders and creating space for teammates. Silva’s versatility allows him to operate both centrally and on the flanks, providing tactical flexibility that Martínez will undoubtedly leverage."
+                "text": "Bruno Fernandes gives Portugal vertical passing, shots from zone 14, and early deliveries into the box. Bernardo Silva gives them control: press resistance, tempo changes, and the ability to keep the ball while the rest of the shape resets. Portugal need both, but not in the same spaces. If Bruno and Bernardo both come inside without compensation, the right wing can die and the midfield becomes crowded."
           },
           {
                 "type": "paragraph",
-                "text": "His understanding of the game and ability to read defensive setups make him a crucial asset. Whether he’s playing in a more advanced position to support Ramos or dropping deeper to link with Fernandes, Silva’s presence could be the key to navigating complicated fixtures against high-pressure opponents."
+                "text": "The best pattern is Bernardo starting right and moving inside only when the right-back provides width, while Bruno operates as the central accelerator. That gives Portugal a natural rhythm: Bernardo slows the game down when pressure rises; Bruno speeds it up when the defensive line breaks. Few teams in the tournament can match that contrast."
           },
           {
                 "type": "heading",
-                "text": "Rafael Leão: The X-Factor"
+                "text": "Rafael Leão And The Left-Side Isolation"
           },
           {
                 "type": "paragraph",
-                "text": "Rafael Leão, with his explosive pace and flair, represents another key aspect of Portugal's attacking arsenal. His unique ability to stretch defenses and create one-on-one opportunities makes him a formidable threat on the left flank. At just 23, Leão has already carved a niche for himself in high-stake matches, showcasing skill that belies his youth."
+                "text": "Leão is the player who changes the geometry of Portugal's attack. He does not need many touches to tilt a match. Give him a full-back one against one and the opponent has to choose between doubling him or leaving the far side exposed. That is how Portugal can turn sterile possession into real pressure."
           },
           {
                 "type": "paragraph",
-                "text": "The synergy between Leão, Fernandes, and Ramos will be critical for Portugal. Leão’s speed allows him to quickly transition from defense to attack, providing crucial width that can pull defenders apart. When coupled with Bruno's creativity and Ramos’s positioning, it forms a triangle that can unsettle any defense."
+                "text": "The trade-off is defensive. If Leão stays high and the left-back overlaps, Portugal must protect the space behind that lane. Against Colombia, that detail could decide the group. Against a knockout opponent with elite transition speed, it could decide the tournament."
           },
           {
                 "type": "quote",
-                "text": "Portugal's attacking potential is unparalleled, but consistency in major tournaments has eluded them."
+                "text": "Leão gives Portugal the shortest route to panic in an opponent's back line."
           },
           {
                 "type": "heading",
-                "text": "Consistent Quarterfinals and Semifinals: Breaking the Cycle"
+                "text": "The Defensive Base Is Better Than The Narrative Suggests"
           },
           {
                 "type": "paragraph",
-                "text": "Portugal has often found itself in the latter stages of major tournaments—reaching the quarterfinals or semifinals but falling short of ultimate glory. This has been attributed to a combination of factors, including tactical rigidity and moments of individual brilliance overshadowing team cohesion. As the 2026 World Cup approaches, overcoming this pattern will be paramount."
+                "text": "Portugal's attack gets the attention, but their title case starts at centre-back. They have the profile modern tournament teams need: defenders who can hold a high line, defend the box, and play through pressure. That allows Martínez to compress the pitch when Portugal dominate possession, rather than retreating into a passive block after every turnover."
           },
           {
                 "type": "paragraph",
-                "text": "While individual talent abounds in this squad, Martínez will need to foster a collective ethos that aligns with the tactical identity he envisions. Portugal must learn to play as a unit, leveraging their skills in synergy if they are to transcend previous shortcomings. As they faced a tough route through qualifying and drawn matches in significant competitions, churning past this psychological barrier will be just as critical as technical execution."
+                "text": "The full-backs are the swing piece. If both push high, Portugal become spectacular but vulnerable. If one stays deeper, the team looks less explosive but much harder to counter. The conservative version may be the one that wins knockout matches."
           },
           {
                 "type": "heading",
-                "text": "Martínez’s Tactical Blueprint"
+                "text": "Portugal's Realistic Ceiling"
           },
           {
                 "type": "paragraph",
-                "text": "Roberto Martínez has impressed since taking over the reins of the national team, instilling a sense of confidence and fluidity in how Portugal plays. His tactical predisposition leans towards an adaptable 4-2-3-1 setup, which has seen past success with the likes of Spain—often flexible in its approach. The key will be how he manipulates this formation to maximize the talents at his disposal."
+                "text": "Portugal should expect to reach the knockouts from Group K. Winning the group matters because it should create a cleaner route and reduce travel stress, but the bigger test begins when they face an opponent that can survive their first wave of pressure. That is where Portugal have sometimes looked like a collection of elite solutions rather than one system."
           },
           {
                 "type": "paragraph",
-                "text": "By focusing on ball retention and quick positional interchanges, Martínez aims to mitigate reliance on individual brilliance. This system will be crucial as they navigate a World Cup in which every team is tactically astute. The blend of experienced players like Ronaldo, even if he takes a backseat, interspersed with fresh talent like Ramos and Leão will be vital in executing his strategies effectively."
+                "text": "A semi-final is a realistic target if Martínez settles the striker role, keeps one full-back connected to the centre-backs, and resists the temptation to fit every famous attacker into the same XI. Winning the tournament is possible, but only if Portugal become boring in the right moments: secure behind the ball, patient against low blocks, and ruthless when Leão or Bruno creates the first crack."
           },
           {
                 "type": "heading",
-                "text": "Portugal’s Realistic Ceiling in 2026"
+                "text": "The Bottom Line"
           },
           {
                 "type": "paragraph",
-                "text": "Finding their footing in a post-Ronaldo landscape undoubtedly presents challenges, but the potential is abundantly clear. If Portugal can find harmony among their attacking talents and construct a cohesive defensive framework, they have every chance of making a deep run in the tournament. However, they must also confront the reality of squad cohesion and tactical adaptability."
+                "text": "Portugal have enough talent to win Group K and enough experience to manage the long tournament. The open question is tactical discipline. If the side becomes a platform for Bruno, Bernardo, and Leão rather than a nostalgia project around Ronaldo, Portugal are one of the most dangerous teams at the 2026 World Cup."
           },
           {
                 "type": "paragraph",
-                "text": "The goal for Portugal in 2026 isn't just to win; it's to establish a long-term vision that can sustain success beyond the current cycle. While they possess the quality and depth to challenge for the trophy, becoming a force without Ronaldo at the helm will define their legacy. In a World Cup filled with fierce competition and expectations, Portugal stands at a crossroads where the past meets an uncertain yet promising future."
+                "text": "If they fail, it probably will not be because they lack quality. It will be because too many good players tried to solve the same problem at once. That is the Martínez challenge in one sentence."
           }
     ],
   },
@@ -3270,102 +3349,102 @@ export const ARTICLES: Article[] = [
   },
   {
     slug: "2026-world-cup-group-k-preview",
-    title: "Group K Preview: Portugal, DR Congo, Uzbekistan, Colombia",
-    excerpt: "Portugal's post-Ronaldo generation steps up. Bruno Fernandes leads a team with genuine title ambitions — and Colombia are a dangerous second team.",
+    title: "Group K Preview: Portugal, Colombia, Uzbekistan, Congo DR",
+    excerpt: "Portugal have the deepest squad, Colombia have the most dangerous counterpunch, and the first match in Houston could shape the whole group.",
     category: "2026 WC",
     categoryColor: "#FF4444",
-    date: "2026-05-06",
-    readTime: 7,
-    metaDescription: "2026 World Cup Group K preview — Portugal, DR Congo, Uzbekistan, Colombia. The post-Ronaldo Portugal era analyzed.",
-    relatedMatchIds: ["portugal-vs-france-2022-qf","morocco-vs-portugal-2022-sf"],
+    date: "2026-05-16",
+    readTime: 8,
+    metaDescription: "2026 World Cup Group K preview — Portugal, Colombia, Uzbekistan, and Congo DR tactical analysis, fixture path, key battles, and qualification prediction.",
+    relatedMatchIds: ["uruguay-vs-portugal-2018-r16","portugal-vs-switzerland-2022-r16","morocco-vs-portugal-2022-qf"],
     content: [
           {
                 "type": "paragraph",
-                "text": "As the 2026 World Cup approaches, Group K has emerged as a captivating assembly of distinct football philosophies and styles. At the heart of this group lies Portugal, now navigating the post-Cristiano Ronaldo era. Bruno Fernandes, the Manchester United maestro, will shoulder the responsibilities, steering a side brimming with youthful exuberance and tactical acumen. Meanwhile, the DR Congo will look to leverage their physicality and directness, drawing on their AFCON pedigree. Uzbekistan, representing the Asian contingent, boasts a disciplined defensive structure, while Colombia seeks to redefine themselves without their former talisman, James Rodríguez. With the world watching, let’s dissect what to expect from these four nations."
+                "text": "Group K is one of the cleaner tactical stories of the 2026 World Cup. Portugal are the favorite because they have the most complete squad. Colombia are the threat because they can hurt elite teams in transition. Uzbekistan and Congo DR arrive with very different underdog profiles: one built on structure, the other on athletic pressure. The group is not about whether Portugal have enough talent. It is about whether they can control games without leaving space behind their own full-backs."
           },
           {
                 "type": "heading",
-                "text": "Portugal: The Rise of the New Generation"
+                "text": "Fixture Path: Houston Comes First"
           },
           {
                 "type": "paragraph",
-                "text": "Portugal’s shift towards a new generation has sparked intrigue across football circles. Under the guidance of Roberto Martínez, they have adopted a 4-2-3-1 formation that grants Bruno Fernandes the creative freedom to dictate tempo. This tactical arrangement allows Fernandes to drop deep, pulling strings from the midfield, while Gonçalo Ramos operates as the focal point in attack. The aim? To ensure a fluid offensive play that can dismantle even the most robust defenses."
+                "text": "Portugal open against Congo DR at Houston Stadium, while Uzbekistan face Colombia at Mexico City Stadium. The middle round gives us the key match: Colombia against Portugal at Miami Stadium. The group closes with Portugal versus Uzbekistan in Houston and Colombia versus Congo DR in Guadalajara. That order matters. If Portugal beat Congo DR, they can approach Colombia from a position of control. If they drop points in the opener, the Miami match becomes a pressure game rather than a measuring stick."
           },
           {
                 "type": "paragraph",
-                "text": "Supporting Fernandes are the likes of Rafael Leão and Diogo Neto, who will stretch the opposition with their pace and dribbling ability on the wings. Their seamless interchanges and runs behind opposition defenders will be crucial in stretching the game wide, creating ample space for Fernandes to exploit. Having transitioned away from the Ronaldo-centric playstyle, this dynamic quartet may catch Group K off-guard with their unpredictability and flair."
+                "text": "Colombia's opener is just as important. Uzbekistan are unlikely to give them open spaces early. If Colombia cannot turn possession into chances, they may reach Portugal needing a result. That would change the tactical shape of the group."
           },
           {
                 "type": "quote",
-                "text": "\"Portugal are no longer just a one-man team; with Fernandes at the helm, they are genuinely unpredictable and fluid, creating multiple avenues for attack.\" - Tactical Analyst"
+                "text": "Group K should be decided by Portugal's control against Colombia's transition threat."
           },
           {
                 "type": "heading",
-                "text": "DR Congo: An African Contender"
+                "text": "Portugal: The Best Squad, But A Real Balance Problem"
           },
           {
                 "type": "paragraph",
-                "text": "The Democratic Republic of Congo steps onto the world stage armed with the grit and resilience celebrated in African football. Known for their physical prowess, DR Congo is not just a defensive outfit; they aim to establish dominance across the pitch, particularly through their attacking spearhead, Cedric Bakambu. The former Villarreal forward brings a blend of speed and power, capable of contesting aerial duels and creating goal-scoring opportunities."
+                "text": "Portugal's strongest version is a 4-2-3-1 that behaves like a 3-2-5 with the ball. Bruno Fernandes can attack the spaces around the striker. Bernardo Silva can control the right half-space. Rafael Leão can isolate defenders on the left. The problem is what happens when that first attack breaks down. If both full-backs are high and the double pivot is stretched, Portugal can look more vulnerable than their reputation suggests."
           },
           {
                 "type": "paragraph",
-                "text": "Midfield is where the heart of their physicality lies. DR Congo’s players often prioritize aggressive pressing and direct play, particularly in high-stakes scenarios. As they face Portugal under the intense heat of North America, the Congolese could pose a real threat, especially if they capitalize early in matches, looking to unsettle their opponents. In what should be an exhilarating matchup against a more technical Portuguese side, their capacity to disrupt flow and create turnover will be paramount."
+                "text": "The Cristiano Ronaldo question still matters, but not in the lazy way. Ronaldo can still decide penalty-box moments. The harder question is whether Portugal press and rotate better with a more mobile striker from the start. Against Congo DR and Uzbekistan, territory may be enough. Against Colombia, Portugal need speed in their counter-press as much as finishing quality."
           },
           {
                 "type": "quote",
-                "text": "\"In the heat of summer in North America, DR Congo's physical style could either shine brightly or fade under the sun, but they are a wildcard not to overlook.\" - Football Strategist"
+                "text": "Portugal's best XI may not be the XI with the most famous names."
           },
           {
                 "type": "heading",
-                "text": "Uzbekistan: The Asian Underdog"
+                "text": "Colombia: Luis Díaz And The Second-Ball Game"
           },
           {
                 "type": "paragraph",
-                "text": "Uzbekistan arrives at the World Cup as the Asian qualifiers, boasting a reputation for disciplined organization and tactical resilience. Their approach to games often centers around a compact defensive block, combined with swift counter-attacks. With players like Eldor Shomurodov leading the line, they can surprise opponents when given the chance."
+                "text": "Colombia's route through Group K is built on two things: the left-sided threat of Luis Díaz and the ability to win the second ball after direct play. Díaz gives them a way to bypass long spells without possession. If Portugal's right-back steps high and Bernardo moves inside, that channel becomes the obvious target."
           },
           {
                 "type": "paragraph",
-                "text": "Understanding their role as the underdog, Uzbekistan will likely position themselves to absorb pressure from stronger sides like Portugal and Colombia, aiming to snatch points through well-timed breaks. It's this structure and discipline that could disrupt the flow for teams looking to establish their attacking rhythm against them. However, the challenge remains: can they translate tactical discipline into crucial goals?"
+                "text": "The risk for Colombia is control. They can look dangerous without necessarily controlling the match. Against Uzbekistan, they may need patient possession. Against Portugal, they may be happier without the ball. How quickly they switch between those two modes will decide whether they are fighting Portugal for first place or simply protecting second."
           },
           {
                 "type": "heading",
-                "text": "Colombia: Transitioning Beyond James"
+                "text": "Uzbekistan: Structure Before Ambition"
           },
           {
                 "type": "paragraph",
-                "text": "Colombia carries with it a legacy enriched by previous World Cup exploits, but entering the 2026 tournament, they are in a state of flux. The departure from the James Rodríguez era marks a significant transitional phase for the Cafeteros. While the absence of their most decorated playmaker raises questions, the emergence of Luís Díaz presents new avenues for their attacking potential."
+                "text": "Uzbekistan's path is narrow but clear. They need to keep games low-scoring, avoid early concessions, and turn set pieces into real pressure. Their most important match is probably the opener against Colombia. A draw there changes the whole group because it gives Uzbekistan a credible third-place platform before facing Portugal and Congo DR."
           },
           {
                 "type": "paragraph",
-                "text": "Díaz, now a key figure at Liverpool, has earned a reputation as a game-changer, capable of single-handedly influencing the outcome of matches. His pace and technical ability on the left flank will create a significant duel against Portugal's right-back, presenting a captivating tactical yarn that could tilt the match in either direction. Colombia will need to modernize their approach while blending the skill sets of both experienced and younger players to make a competitive impact in Group K."
+                "text": "Tactically, they should defend in compact lines and attack the space behind advanced full-backs. The challenge is volume. A team can survive pressure for 60 minutes and still lose if it never creates a second threat. Uzbekistan need at least one repeatable outlet, not just isolated counters."
           },
           {
                 "type": "quote",
-                "text": "\"Luis Díaz could be Colombia's answer to breaking down defenses; if he finds space, expect fireworks against any opponent.\" - International Scout"
+                "text": "For Uzbekistan, the first goal in any match may be worth more than the table shows."
           },
           {
                 "type": "heading",
-                "text": "Key Matchups and Tactical Battles"
+                "text": "Congo DR: The Group's Physical Stress Test"
           },
           {
                 "type": "paragraph",
-                "text": "Within this group, several matchups will undoubtedly attract attention. The clash between Portugal and Colombia is poised to be a highlight fixture, showcasing the battle between tactical fluidity and the artistry of individual brilliance. Bruno Fernandes pulling the strings could very well overshadow Colombia's transitional challenge. Equally significant will be the battle on the wings, where Leão's pace against Colombia’s defensive setup could set the tone."
+                "text": "Congo DR are the opponent nobody should want in the first game. They can turn a clean tactical plan into a duel-heavy match, especially if they press second balls and force center-backs into hurried clearances. Against Portugal, their best chance is to make the game ugly early: disrupt rhythm, win free kicks, and make the favorite defend backward."
           },
           {
                 "type": "paragraph",
-                "text": "On the other hand, DR Congo's physicality poses an intriguing threat to both Portugal and Colombia. Their ability to challenge defenders in aerial duels and maintain intensity throughout the match can unsettle the more technical teams in Group K. Each matchup not only serves as a physical contest but also as a psychological battleground impacting confidence as the tournament progresses."
+                "text": "The problem is chance quality. Physical pressure can create moments, but Group K still demands finishing and defensive concentration. If Congo DR chase games too early, Portugal and Colombia have the wide speed to punish them."
           },
           {
                 "type": "heading",
-                "text": "Predictions: Who Advances?"
+                "text": "Key Tactical Battles"
           },
           {
                 "type": "paragraph",
-                "text": "As we look ahead to the outcomes of Group K, predictions hinge heavily on the interplay of tactical execution and individual brilliance. Portugal, under Bruno Fernandes' stewardship, appears poised to top the group with their blend of youthful talent and strategic depth. While they may not have the haunting shadow of Ronaldo, they possess an equilibrium unlikely to be matched by their rivals."
+                "text": "The first battle is Portugal's right side against Díaz. If Portugal protect that channel, Colombia lose their fastest route to goal. The second is Portugal's striker choice against compact blocks. If the striker pins center-backs without freezing the press, Portugal can overwhelm Uzbekistan and Congo DR. The third is the third-place race: Uzbekistan versus Congo DR may decide whether Group K sends two teams forward or gives a third team a realistic knockout chance."
           },
           {
                 "type": "paragraph",
-                "text": "Colombia, with their star player Luís Díaz potentially making waves, is well-placed to snag second in the group. The unpredictability and creativity they can exhibit on the pitch could see them eclipse both DR Congo and Uzbekistan. While the African side cannot be dismissed lightly, their physicality may not be sufficient to navigate through the nuanced gameplay Portugal and Colombia offer."
+                "text": "Prediction: Portugal first, Colombia second, Uzbekistan narrowly ahead of Congo DR in the third-place fight. Portugal are too deep to miss the knockouts, but this group is a useful warning. If they do not control transitions here, better teams will expose the same weakness later."
           }
     ],
   },

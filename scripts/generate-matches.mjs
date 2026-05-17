@@ -137,13 +137,6 @@ IMPORTANT RULES:
   return JSON.parse(jsonMatch[0]);
 }
 
-// ─── 将 match 对象序列化为 TypeScript 代码 ───────────
-function matchToTypeScript(match) {
-  const json = JSON.stringify(match, null, 4);
-  // 把纯 JSON 的双引号 key 转为不带引号的 TS 对象 key（可选，但更美观）
-  return json;
-}
-
 // ─── 追加到 matches.ts ────────────────────────────────
 function appendToMatchesFile(matchJson) {
   let content = fs.readFileSync(MATCHES_FILE, "utf8");

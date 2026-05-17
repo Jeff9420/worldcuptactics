@@ -25,13 +25,18 @@ export async function generateMetadata({
       : match.status === "AET"
       ? " AET"
       : "";
+  const url = `https://worldcuptactics.com/matches/${match.id}`;
 
   return {
     title: `${match.home.name} ${score}${statusSuffix} ${match.away.name} — ${match.tournament} | WorldCupTactics`,
     description: match.metaDescription,
+    alternates: {
+      canonical: url,
+    },
     openGraph: {
       title: `${match.home.flag} ${match.home.name} ${score} ${match.away.name} ${match.away.flag} — Tactical Analysis`,
       description: `AI tactical breakdown of the ${match.year} World Cup ${match.stage}.`,
+      url,
       type: "article",
     },
   };
@@ -75,7 +80,7 @@ export default async function MatchPage({
       if (m.stage === match.stage) score += 1;
       return { m, score };
     })
-    .sort((a, b) => b.score - a.score || Math.random() - 0.5)
+    .sort((a, b) => b.score - a.score || a.m.id.localeCompare(b.m.id))
     .slice(0, 3)
     .map(({ m }) => m);
 

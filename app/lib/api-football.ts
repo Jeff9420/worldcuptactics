@@ -1,10 +1,63 @@
-import { Match, MatchStat, TimelineEvent, TopPerformer } from "./matches";
+import { Match, MatchStat, TimelineEvent } from "./matches";
 
 const API_KEY = process.env.API_FOOTBALL_KEY;
 const API_HOST = "v3.football.api-sports.io";
 const BASE_URL = `https://${API_HOST}`;
 
-async function fetchFromApi(endpoint: string) {
+type ApiStatValue = number | string | null;
+
+interface ApiStatistic {
+  type: string;
+  value: ApiStatValue;
+}
+
+interface ApiStatisticResponse {
+  team: { id: number };
+  statistics: ApiStatistic[];
+}
+
+interface ApiTeam {
+  id: number;
+  name: string;
+  logo: string;
+  colors?: {
+    player?: {
+      primary?: string;
+    };
+  };
+}
+
+interface ApiLineupPlayer {
+  player: { name: string };
+}
+
+interface ApiLineup {
+  team: ApiTeam;
+  formation?: string;
+  startXI?: ApiLineupPlayer[];
+}
+
+interface ApiEvent {
+  time: { elapsed: number; extra?: number | null };
+  team: { id: number };
+  player: { name: string };
+  assist?: { name?: string | null } | null;
+  type: string;
+  detail: string;
+}
+
+interface ApiFixtureResponse {
+  fixture: {
+    date: string;
+    venue: { name: string; city: string };
+    status: { short: string };
+  };
+  league: { name: string; season: number; round: string };
+  teams: { home: ApiTeam; away: ApiTeam };
+  goals: { home: number | null; away: number | null };
+}
+
+async function fetchFromApi<T>(endpoint: string): Promise<T[]> {
   if (!API_KEY) {
     throw new Error("API_FOOTBALL_KEY is not configured.");
   }
@@ -22,7 +75,7 @@ async function fetchFromApi(endpoint: string) {
     throw new Error(`API-Football request failed: ${response.statusText}`);
   }
 
-  const data = await response.json();
+  const data = (await response.json()) as { response: T[] };
   return data.response;
 }
 
@@ -35,10 +88,10 @@ export async function fetchAndNormalizeMatch(
 ): Promise<Partial<Match>> {
   // We fetch fixtures, statistics, lineups, and events concurrently
   const [fixtures, statistics, lineups, events] = await Promise.all([
-    fetchFromApi(`/fixtures?id=${fixtureId}`),
-    fetchFromApi(`/fixtures/statistics?fixture=${fixtureId}`),
-    fetchFromApi(`/fixtures/lineups?fixture=${fixtureId}`),
-    fetchFromApi(`/fixtures/events?fixture=${fixtureId}`),
+    fetchFromApi<ApiFixtureResponse>(`/fixtures?id=${fixtureId}`),
+    fetchFromApi<ApiStatisticResponse>(`/fixtures/statistics?fixture=${fixtureId}`),
+    fetchFromApi<ApiLineup>(`/fixtures/lineups?fixture=${fixtureId}`),
+    fetchFromApi<ApiEvent>(`/fixtures/events?fixture=${fixtureId}`),
   ]);
 
   if (!fixtures || fixtures.length === 0) {
@@ -49,27 +102,31 @@ export async function fetchAndNormalizeMatch(
   const homeTeamId = fixture.teams.home.id;
   const awayTeamId = fixture.teams.away.id;
 
-  const homeStats = statistics?.find((s: any) => s.team.id === homeTeamId)?.statistics || [];
-  const awayStats = statistics?.find((s: any) => s.team.id === awayTeamId)?.statistics || [];
+  const homeStats = statistics?.find((s) => s.team.id === homeTeamId)?.statistics || [];
+  const awayStats = statistics?.find((s) => s.team.id === awayTeamId)?.statistics || [];
 
-  const homeLineup = lineups?.find((l: any) => l.team.id === homeTeamId);
-  const awayLineup = lineups?.find((l: any) => l.team.id === awayTeamId);
+  const homeLineup = lineups?.find((l) => l.team.id === homeTeamId);
+  const awayLineup = lineups?.find((l) => l.team.id === awayTeamId);
 
-  const getStat = (statsArray: any[], type: string) => {
-    const stat = statsArray.find((s: any) => s.type === type);
+  const getStat = (statsArray: ApiStatistic[], type: string): number | string => {
+    const stat = statsArray.find((s) => s.type === type);
     if (!stat || stat.value === null) return 0;
     if (typeof stat.value === "string" && stat.value.includes("%")) {
       return parseInt(stat.value.replace("%", ""), 10);
     }
     return stat.value;
   };
+  const toNumber = (value: number | string, fallback = 0) => {
+    const parsed = typeof value === "number" ? value : parseFloat(value);
+    return Number.isFinite(parsed) ? parsed : fallback;
+  };
 
-  const homePossession = getStat(homeStats, "Ball Possession") || 50;
-  const awayPossession = getStat(awayStats, "Ball Possession") || 50;
-  const homeXG = parseFloat(getStat(homeStats, "expected_goals") || "0");
-  const awayXG = parseFloat(getStat(awayStats, "expected_goals") || "0");
+  const homePossession = toNumber(getStat(homeStats, "Ball Possession"), 50);
+  const awayPossession = toNumber(getStat(awayStats, "Ball Possession"), 50);
+  const homeXG = parseFloat(String(getStat(homeStats, "expected_goals") || "0"));
+  const awayXG = parseFloat(String(getStat(awayStats, "expected_goals") || "0"));
 
-  const normalizedTimeline: TimelineEvent[] = (events || []).map((e: any) => {
+  const normalizedTimeline: TimelineEvent[] = (events || []).map((e) => {
     let type: TimelineEvent["type"] = "goal";
     if (e.type === "Goal") {
       if (e.detail === "Penalty") type = "pen_goal";
@@ -127,8 +184,8 @@ export async function fetchAndNormalizeMatch(
       formation: homeLineup?.formation || "4-3-3",
       color: `#${homeLineup?.team?.colors?.player?.primary || "FFFFFF"}`, // Assuming API might provide colors or we generate it
       colorDim: `rgba(255,255,255,0.1)`,
-      players: homeLineup?.startXI?.map((p: any) => p.player.name) || [],
-      score: fixture.goals.home || 0,
+      players: homeLineup?.startXI?.map((p) => p.player.name) || [],
+      score: fixture.goals.home ?? 0,
     },
     away: {
       name: fixture.teams.away.name,
@@ -136,8 +193,8 @@ export async function fetchAndNormalizeMatch(
       formation: awayLineup?.formation || "4-3-3",
       color: `#${awayLineup?.team?.colors?.player?.primary || "000000"}`,
       colorDim: `rgba(0,0,0,0.1)`,
-      players: awayLineup?.startXI?.map((p: any) => p.player.name) || [],
-      score: fixture.goals.away || 0,
+      players: awayLineup?.startXI?.map((p) => p.player.name) || [],
+      score: fixture.goals.away ?? 0,
     },
     xG: { home: homeXG, away: awayXG },
     possession: { home: homePossession, away: awayPossession },

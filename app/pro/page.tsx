@@ -22,7 +22,7 @@ export default function ProPage() {
       } else {
         alert("Error initiating checkout. Please try again.");
       }
-    } catch (err) {
+    } catch {
       alert("Error connecting to payment provider.");
     }
     setLoading(false);

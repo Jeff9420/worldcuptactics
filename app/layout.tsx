@@ -47,7 +47,7 @@ export default function RootLayout({
       <body>
         <script
           async
-          src="https://pagead2.googlesyndication.com/pagead2/js/adsbygoogle.js?client=ca-pub-7585038406357402"
+          src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7585038406357402"
           crossOrigin="anonymous"
         />
         {children}

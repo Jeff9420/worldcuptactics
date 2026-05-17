@@ -3,7 +3,7 @@ import Stripe from "stripe";
 import { createClient } from "@supabase/supabase-js";
 
 const stripe = new Stripe(process.env.STRIPE_SECRET_KEY!, {
-  apiVersion: "2024-04-10" as any,
+  apiVersion: "2026-04-22.dahlia",
 });
 
 const webhookSecret = process.env.STRIPE_WEBHOOK_SECRET!;
@@ -23,9 +23,10 @@ export async function POST(req: NextRequest) {
   try {
     if (!sig || !webhookSecret) throw new Error("Missing signature or secret");
     event = stripe.webhooks.constructEvent(body, sig, webhookSecret);
-  } catch (err: any) {
-    console.error("Webhook Error:", err.message);
-    return NextResponse.json({ error: `Webhook Error: ${err.message}` }, { status: 400 });
+  } catch (err: unknown) {
+    const message = err instanceof Error ? err.message : "Invalid webhook payload";
+    console.error("Webhook Error:", message);
+    return NextResponse.json({ error: `Webhook Error: ${message}` }, { status: 400 });
   }
 
   try {
@@ -61,8 +62,9 @@ export async function POST(req: NextRequest) {
     }
 
     return NextResponse.json({ received: true });
-  } catch (err: any) {
-    console.error("Supabase Error:", err.message);
+  } catch (err: unknown) {
+    const message = err instanceof Error ? err.message : "Database error";
+    console.error("Supabase Error:", message);
     return NextResponse.json({ error: "Database error" }, { status: 500 });
   }
 }

@@ -1,0 +1,6 @@
+.env*
+.playwright-mcp/
+.serena/
+.next/
+node_modules/
+tsconfig.tsbuildinfo
