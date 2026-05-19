@@ -1158,10 +1158,49 @@ export const ARTICLES: Article[] = [
     category: "2026 WC",
     categoryColor: "#FF4444",
     date: "2026-04-28",
-    readTime: 7,
+    updatedAt: "2026-05-19",
+    readTime: 8,
     metaDescription:
-      "England 2026 World Cup analysis — Jude Bellingham, Harry Kane, Bukayo Saka, Phil Foden, and whether England can finally end 60 years of hurt at a World Cup.",
+      "England 2026 World Cup squad analysis: Group L fixtures, Bellingham, Kane, Saka, Foden, tactical shape, England vs Croatia and title chances.",
+    keywords: [
+      "England 2026 World Cup squad",
+      "England World Cup tactics",
+      "England Group L preview",
+      "England vs Croatia 2026",
+      "Bellingham World Cup 2026",
+    ],
     relatedMatchIds: ["argentina-vs-england-1986-qf"],
+    sourceLinks: [
+      {
+        label: "FIFA 2026 match schedule",
+        url: "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/match-schedule-fixtures-results-teams-stadiums",
+      },
+      {
+        label: "England team tactical profile",
+        url: "https://worldcuptactics.com/world-cup-2026/teams/england",
+      },
+      {
+        label: "England vs Croatia match preview",
+        url: "https://worldcuptactics.com/world-cup-2026/matches/england-vs-croatia",
+      },
+    ],
+    faq: [
+      {
+        question: "Who are England playing in Group L at the 2026 World Cup?",
+        answer:
+          "England are in Group L with Croatia, Ghana and Panama.",
+      },
+      {
+        question: "What is England's biggest tactical question in 2026?",
+        answer:
+          "England need to use Bellingham, Saka, Foden and Kane without losing midfield control or leaving the back line exposed after turnovers.",
+      },
+      {
+        question: "Can England win the 2026 World Cup?",
+        answer:
+          "England have a squad capable of reaching the semi-finals or final, but their title case depends on tempo control in knockout matches against elite midfields.",
+      },
+    ],
     content: [
       {
         type: "paragraph",
@@ -1210,6 +1249,18 @@ export const ARTICLES: Article[] = [
       {
         type: "paragraph",
         text: "The defensive foundation — built around a Premier League-tested back four and a reliable goalkeeper — provides the stability that England's attack needs. The squad is not lacking in quality at any position. It is lacking only in the evidence that these players can collectively produce their best football under the extreme pressure of a World Cup knockout match. That evidence will either arrive in North America or continue to be absent.",
+      },
+      {
+        type: "heading",
+        text: "Group L Path: Croatia First, Then Control",
+      },
+      {
+        type: "paragraph",
+        text: "England's first major checkpoint is Croatia. That match is not just a 2018 rematch; it is a test of whether England can keep a possession game quick without becoming impatient. Ghana then add pace and duel pressure, while Panama make set pieces and physical control important. England should qualify, but topping the group matters because it can reduce the volatility of the Round of 32 path.",
+      },
+      {
+        type: "paragraph",
+        text: "The practical target is simple: beat Croatia or at least avoid defeat, protect goal difference, and use the Ghana and Panama matches to build rhythm rather than simply rotate. In a 48-team tournament, depth helps only if the team structure remains stable when three or four starters change.",
       },
       {
         type: "heading",
@@ -3931,9 +3982,48 @@ export const ARTICLES: Article[] = [
     category: "2026 WC",
     categoryColor: "#FF4444",
     date: "2026-05-08",
-    readTime: 9,
-    metaDescription: "France 2026 World Cup tactical analysis — Mbappé, Griezmann, Tchouaméni. How Deschamps' 4-2-3-1 works and France's path to the final.",
+    updatedAt: "2026-05-19",
+    readTime: 10,
+    metaDescription: "France 2026 World Cup tactical analysis: Group I path, Mbappé, Griezmann, Tchouaméni, squad depth, transition attack and title chances.",
+    keywords: [
+      "France 2026 World Cup tactics",
+      "France World Cup squad",
+      "France Group I preview",
+      "Mbappe World Cup 2026",
+      "France Senegal Norway Iraq",
+    ],
     relatedMatchIds: ["france-vs-argentina-2022-final","france-vs-morocco-2022-sf","france-vs-croatia-2018-final"],
+    sourceLinks: [
+      {
+        label: "FIFA 2026 match schedule",
+        url: "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/match-schedule-fixtures-results-teams-stadiums",
+      },
+      {
+        label: "France team tactical profile",
+        url: "https://worldcuptactics.com/world-cup-2026/teams/france",
+      },
+      {
+        label: "World Cup 2026 Group I guide",
+        url: "https://worldcuptactics.com/world-cup-2026/groups/i",
+      },
+    ],
+    faq: [
+      {
+        question: "Who are France playing in Group I at the 2026 World Cup?",
+        answer:
+          "France are in Group I with Senegal, Norway and Iraq.",
+      },
+      {
+        question: "What is France's biggest tactical strength?",
+        answer:
+          "France can win matches in multiple ways: direct Mbappe transitions, midfield ball-winning, set pieces, and deep squad rotation.",
+      },
+      {
+        question: "What is France's biggest risk in 2026?",
+        answer:
+          "France can become too dependent on transition moments if opponents defend deep and deny Mbappe space behind the back line.",
+      },
+    ],
     content: [
           {
                 "type": "paragraph",
@@ -4010,6 +4100,18 @@ export const ARTICLES: Article[] = [
           {
                 "type": "paragraph",
                 "text": "The lessons learned from their last campaign, including the importance of maintaining composure and strategic flexibility in critical moments, will be invaluable. As they embark on this new challenge, can Mbappé channel the heartbreak of the 2022 final into motivation, driving his teammates towards the ultimate prize? That question will linger as the world watches France on the global stage once more."
+          },
+          {
+                "type": "heading",
+                "text": "Group I Path: Three Very Different Tests"
+          },
+          {
+                "type": "paragraph",
+                "text": "France's Group I path is more demanding than it first looks. Senegal bring athletic pressure and wide transition speed. Norway bring the Haaland problem: even a quiet match can become dangerous if one cross, second ball, or through pass reaches him cleanly. Iraq make the group a concentration test because France will be expected to dominate territory and avoid wasteful possession."
+          },
+          {
+                "type": "paragraph",
+                "text": "That mix is useful for judging France early. If they control Senegal's duels, handle Norway's direct channel threat, and break Iraq down without needing Mbappé to solve everything, their title case looks real. If every game becomes a transition exchange, the same volatility that nearly derailed them in 2022 can return."
           },
           {
                 "type": "heading",
@@ -4230,9 +4332,48 @@ export const ARTICLES: Article[] = [
     category: "2026 WC",
     categoryColor: "#FF4444",
     date: "2026-05-08",
-    readTime: 9,
-    metaDescription: "Spain 2026 World Cup tactical analysis — Pedri, Yamal, Morata. De La Fuente's possession system and Spain's genuine title credentials.",
+    updatedAt: "2026-05-19",
+    readTime: 10,
+    metaDescription: "Spain 2026 World Cup tactical analysis: Group H path, Yamal, Pedri, Rodri, rest defense, Spain vs Uruguay and title chances.",
+    keywords: [
+      "Spain 2026 World Cup tactics",
+      "Spain World Cup squad",
+      "Spain Group H preview",
+      "Spain vs Uruguay 2026",
+      "Lamine Yamal World Cup 2026",
+    ],
     relatedMatchIds: ["spain-vs-germany-2010-sf","spain-vs-netherlands-2010-final"],
+    sourceLinks: [
+      {
+        label: "FIFA 2026 match schedule",
+        url: "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/match-schedule-fixtures-results-teams-stadiums",
+      },
+      {
+        label: "Spain team tactical profile",
+        url: "https://worldcuptactics.com/world-cup-2026/teams/spain",
+      },
+      {
+        label: "Spain vs Uruguay match preview",
+        url: "https://worldcuptactics.com/world-cup-2026/matches/spain-vs-uruguay",
+      },
+    ],
+    faq: [
+      {
+        question: "Who are Spain playing in Group H at the 2026 World Cup?",
+        answer:
+          "Spain are in Group H with Cabo Verde, Saudi Arabia and Uruguay.",
+      },
+      {
+        question: "What is Spain's biggest tactical strength in 2026?",
+        answer:
+          "Spain's biggest strength is positional play through midfield, with Pedri and Rodri controlling tempo and Lamine Yamal stretching the right side.",
+      },
+      {
+        question: "What is Spain's main risk?",
+        answer:
+          "Spain's main risk is rest defense: if fullbacks and interiors advance together, Uruguay and other direct teams can attack the space behind them.",
+      },
+    ],
     content: [
           {
                 "type": "paragraph",
@@ -4312,6 +4453,18 @@ export const ARTICLES: Article[] = [
           },
           {
                 "type": "heading",
+                "text": "Group H Path: Uruguay Is The Real Stress Test"
+          },
+          {
+                "type": "paragraph",
+                "text": "Spain should control large spells against Cabo Verde and Saudi Arabia, but Uruguay are the group opponent who test the whole system. If Spain's fullbacks advance and the interiors rotate high, Uruguay can use Federico Valverde and direct forward runs to attack the spaces Spain leave behind. That is why Spain vs Uruguay is more than a group-stage headline: it is a preview of the problem Spain will face in the knockouts."
+          },
+          {
+                "type": "paragraph",
+                "text": "The most convincing Spain version is not simply the one with the most possession. It is the one that turns possession into penalty-box touches while keeping three players connected behind the ball. If that rest-defense triangle holds, Spain can look like a finalist. If it breaks, they can dominate the ball and still concede the best chances."
+          },
+          {
+                "type": "heading",
                 "text": "Conclusion"
           },
           {
@@ -4327,9 +4480,48 @@ export const ARTICLES: Article[] = [
     category: "2026 WC",
     categoryColor: "#FF4444",
     date: "2026-05-08",
-    readTime: 9,
-    metaDescription: "Brazil 2026 World Cup tactical analysis — Vinicius Jr, Rodrygo, Endrick. Dorival's 4-3-3 and Brazil's quest to end their 24-year wait.",
+    updatedAt: "2026-05-19",
+    readTime: 10,
+    metaDescription: "Brazil 2026 World Cup tactical analysis: Group C path, Vinicius Jr, Rodrygo, Endrick, rest defense, Brazil vs Morocco and title chances.",
+    keywords: [
+      "Brazil 2026 World Cup tactics",
+      "Brazil World Cup squad",
+      "Brazil Group C preview",
+      "Brazil vs Morocco 2026",
+      "Vinicius Jr World Cup 2026",
+    ],
     relatedMatchIds: ["brazil-vs-croatia-2022-qf","brazil-vs-germany-2014-sf"],
+    sourceLinks: [
+      {
+        label: "FIFA 2026 match schedule",
+        url: "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/match-schedule-fixtures-results-teams-stadiums",
+      },
+      {
+        label: "Brazil team tactical profile",
+        url: "https://worldcuptactics.com/world-cup-2026/teams/brazil",
+      },
+      {
+        label: "Brazil vs Morocco match preview",
+        url: "https://worldcuptactics.com/world-cup-2026/matches/brazil-vs-morocco",
+      },
+    ],
+    faq: [
+      {
+        question: "Who are Brazil playing in Group C at the 2026 World Cup?",
+        answer:
+          "Brazil are in Group C with Morocco, Haiti and Scotland.",
+      },
+      {
+        question: "What is Brazil's biggest tactical strength in 2026?",
+        answer:
+          "Brazil's biggest strength is wide attacking talent, especially the ability of Vinicius Jr, Rodrygo and Raphinha to create separation in one-v-one situations.",
+      },
+      {
+        question: "What is Brazil's biggest tactical risk?",
+        answer:
+          "Brazil's biggest risk is transition defense if both fullbacks advance and the midfield cannot protect the first pass after losing the ball.",
+      },
+    ],
     content: [
           {
                 "type": "paragraph",
@@ -4394,6 +4586,18 @@ export const ARTICLES: Article[] = [
           {
                 "type": "paragraph",
                 "text": "However, this approach also exposes Brazil to vulnerabilities, particularly in transition defense. Against teams that sit deep and absorb pressure—such as Croatia did in 2022—Brazil struggled to penetrate, underscoring a tactical frailty that could resurface in 2026. If faced with counter-attacks from teams like France or England, Brazil's high line might be exploited, potentially leading to devastating breaks."
+          },
+          {
+                "type": "heading",
+                "text": "Group C Path: Morocco Comes First"
+          },
+          {
+                "type": "paragraph",
+                "text": "Brazil's Group C path starts with the most important tactical test: Morocco. That match puts Brazil's wide talent against a team that knows how to defend compactly and attack quickly after regains. Haiti should be a match Brazil expect to control, while Scotland can make the group physical through direct play, aerial pressure and second balls."
+          },
+          {
+                "type": "paragraph",
+                "text": "The key for Brazil is not only winning the group. It is learning whether their rest defense can survive when the front line and fullbacks push high. If Brazil control Morocco without giving away transition chances, their title case strengthens immediately. If they need individual moments to escape pressure, the same knockout doubts remain."
           },
           {
                 "type": "heading",

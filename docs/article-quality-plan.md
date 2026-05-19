@@ -34,7 +34,9 @@ Status: completed locally; pending commit and deploy.
 - `england-2026-world-cup-squad-analysis`
 - `spain-2026-world-cup-tactical-analysis`
 - `brazil-2026-world-cup-tactical-analysis`
-- `france-2026-world-cup-opening-match-preview`
+- `france-2026-world-cup-tactical-analysis`
+
+Status: completed locally; pending commit and deploy.
 
 ### Batch 4: match and player-led demand
 
