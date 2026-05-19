@@ -3,7 +3,11 @@ import Link from "next/link";
 import { notFound } from "next/navigation";
 import Nav from "../../../components/Nav";
 import { ARTICLES } from "../../../lib/articles";
-import { WORLD_CUP_2026_TEAMS, getWorldCup2026Team } from "../../data";
+import {
+  WORLD_CUP_2026_TEAMS,
+  getWorldCup2026FeaturedMatchesForTeam,
+  getWorldCup2026Team,
+} from "../../data";
 
 const BASE = "https://worldcuptactics.com";
 
@@ -49,6 +53,7 @@ export default async function WorldCup2026TeamPage({
   const relatedArticles = team.relatedArticleSlugs
     .map((slug) => ARTICLES.find((article) => article.slug === slug))
     .filter(Boolean);
+  const featuredMatches = getWorldCup2026FeaturedMatchesForTeam(team.slug);
 
   const jsonLd = {
     "@context": "https://schema.org",
@@ -158,6 +163,69 @@ export default async function WorldCup2026TeamPage({
               <strong style={{ color: "var(--text-primary)" }}>Knockout ceiling:</strong> {team.knockoutCeiling}
             </p>
           </article>
+
+          {featuredMatches.length > 0 && (
+            <section style={{ marginBottom: "3rem" }}>
+              <h2
+                style={{
+                  fontFamily: "'Barlow Condensed',sans-serif",
+                  fontSize: "1.35rem",
+                  fontWeight: 800,
+                  letterSpacing: "0.05em",
+                  textTransform: "uppercase",
+                  marginBottom: "1rem",
+                }}
+              >
+                Key Match Preview
+              </h2>
+              <div style={{ display: "grid", gap: "0.75rem" }}>
+                {featuredMatches.map((match) => (
+                  <Link
+                    key={match.slug}
+                    href={`/world-cup-2026/matches/${match.slug}`}
+                    style={{ color: "inherit", textDecoration: "none" }}
+                  >
+                    <article
+                      style={{
+                        background: "var(--bg-surface)",
+                        border: "1px solid var(--border)",
+                        borderRadius: "6px",
+                        padding: "1rem 1.25rem",
+                      }}
+                    >
+                      <div
+                        style={{
+                          fontFamily: "'JetBrains Mono',monospace",
+                          fontSize: "0.62rem",
+                          letterSpacing: "0.1em",
+                          textTransform: "uppercase",
+                          color: "var(--accent-green)",
+                          marginBottom: "0.45rem",
+                        }}
+                      >
+                        {match.groupName} · {match.date}
+                      </div>
+                      <h3
+                        style={{
+                          fontFamily: "'Barlow Condensed',sans-serif",
+                          fontSize: "1rem",
+                          fontWeight: 800,
+                          letterSpacing: "0.04em",
+                          textTransform: "uppercase",
+                          marginBottom: "0.35rem",
+                        }}
+                      >
+                        {match.fixture}
+                      </h3>
+                      <p style={{ color: "var(--text-muted)", fontSize: "0.8rem", lineHeight: 1.55 }}>
+                        {match.stakes}
+                      </p>
+                    </article>
+                  </Link>
+                ))}
+              </div>
+            </section>
+          )}
 
           <section>
             <h2

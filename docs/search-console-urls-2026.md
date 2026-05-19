@@ -18,6 +18,7 @@ Status on 2026-05-19:
 
 https://worldcuptactics.com/world-cup-2026
 https://worldcuptactics.com/world-cup-2026/teams
+https://worldcuptactics.com/world-cup-2026/matches
 https://worldcuptactics.com/world-cup-2026/groups
 https://worldcuptactics.com/world-cup-2026/schedule
 https://worldcuptactics.com/world-cup-2026/standings
@@ -37,6 +38,21 @@ https://worldcuptactics.com/world-cup-2026/teams/netherlands
 https://worldcuptactics.com/world-cup-2026/teams/japan
 https://worldcuptactics.com/world-cup-2026/teams/morocco
 https://worldcuptactics.com/world-cup-2026/teams/colombia
+https://worldcuptactics.com/world-cup-2026/teams/croatia
+https://worldcuptactics.com/world-cup-2026/teams/uruguay
+https://worldcuptactics.com/world-cup-2026/teams/belgium
+https://worldcuptactics.com/world-cup-2026/teams/senegal
+https://worldcuptactics.com/world-cup-2026/teams/norway
+https://worldcuptactics.com/world-cup-2026/teams/canada
+https://worldcuptactics.com/world-cup-2026/teams/switzerland
+https://worldcuptactics.com/world-cup-2026/teams/korea-republic
+https://worldcuptactics.com/world-cup-2026/teams/australia
+https://worldcuptactics.com/world-cup-2026/teams/turkiye
+https://worldcuptactics.com/world-cup-2026/matches/portugal-vs-colombia
+https://worldcuptactics.com/world-cup-2026/matches/england-vs-croatia
+https://worldcuptactics.com/world-cup-2026/matches/brazil-vs-morocco
+https://worldcuptactics.com/world-cup-2026/matches/spain-vs-uruguay
+https://worldcuptactics.com/world-cup-2026/matches/netherlands-vs-japan
 
 ## Tier 3
 

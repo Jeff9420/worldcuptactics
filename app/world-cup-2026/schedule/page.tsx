@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import type { ReactNode } from "react";
 import Link from "next/link";
 import Nav from "../../components/Nav";
+import { WORLD_CUP_2026_FEATURED_MATCHES } from "../data";
 
 const PAGE_URL = "https://worldcuptactics.com/world-cup-2026/schedule";
 
@@ -272,6 +273,56 @@ export default function WorldCup2026SchedulePage() {
             </div>
           </section>
 
+          <section style={{ marginTop: "3rem" }}>
+            <SectionTitle>Key Match Previews</SectionTitle>
+            <div style={{ display: "grid", gap: "0.75rem" }}>
+              {WORLD_CUP_2026_FEATURED_MATCHES.map((match) => (
+                <Link
+                  key={match.slug}
+                  href={`/world-cup-2026/matches/${match.slug}`}
+                  style={{ color: "inherit", textDecoration: "none" }}
+                >
+                  <article
+                    style={{
+                      background: "var(--bg-surface)",
+                      border: "1px solid var(--border)",
+                      borderRadius: "6px",
+                      padding: "1rem 1.25rem",
+                    }}
+                  >
+                    <div
+                      style={{
+                        fontFamily: "'JetBrains Mono',monospace",
+                        fontSize: "0.62rem",
+                        letterSpacing: "0.1em",
+                        textTransform: "uppercase",
+                        color: "var(--accent-green)",
+                        marginBottom: "0.45rem",
+                      }}
+                    >
+                      {match.date} · {match.venue}
+                    </div>
+                    <h3
+                      style={{
+                        fontFamily: "'Barlow Condensed',sans-serif",
+                        fontSize: "1rem",
+                        fontWeight: 800,
+                        letterSpacing: "0.04em",
+                        textTransform: "uppercase",
+                        marginBottom: "0.35rem",
+                      }}
+                    >
+                      {match.fixture}
+                    </h3>
+                    <p style={{ color: "var(--text-muted)", fontSize: "0.8rem", lineHeight: 1.55 }}>
+                      {match.stakes}
+                    </p>
+                  </article>
+                </Link>
+              ))}
+            </div>
+          </section>
+
           <section
             style={{
               marginTop: "3rem",
@@ -284,6 +335,7 @@ export default function WorldCup2026SchedulePage() {
             <SectionTitle>Read Next</SectionTitle>
             <div style={{ display: "flex", gap: "0.75rem", flexWrap: "wrap" }}>
               <TextLink href="/world-cup-2026/teams">Team profiles</TextLink>
+              <TextLink href="/world-cup-2026/matches">Key match previews</TextLink>
               <TextLink href="/world-cup-2026/groups">All group guides</TextLink>
               <TextLink href="/world-cup-2026/standings">Standings and groups</TextLink>
               <TextLink href="/blog/2026-world-cup-group-k-preview">Group K tactical preview</TextLink>

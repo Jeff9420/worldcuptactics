@@ -1,7 +1,11 @@
 import type { MetadataRoute } from "next";
 import { getAllMatchIds } from "./lib/matches";
 import { ARTICLES } from "./lib/articles";
-import { WORLD_CUP_2026_GROUPS, WORLD_CUP_2026_TEAMS } from "./world-cup-2026/data";
+import {
+  WORLD_CUP_2026_FEATURED_MATCHES,
+  WORLD_CUP_2026_GROUPS,
+  WORLD_CUP_2026_TEAMS,
+} from "./world-cup-2026/data";
 
 const BASE = "https://worldcuptactics.com";
 
@@ -35,12 +39,20 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
     priority: 0.94,
   }));
 
+  const worldCup2026MatchUrls: MetadataRoute.Sitemap = WORLD_CUP_2026_FEATURED_MATCHES.map((match) => ({
+    url: `${BASE}/world-cup-2026/matches/${match.slug}`,
+    lastModified: new Date(),
+    changeFrequency: "weekly",
+    priority: 0.94,
+  }));
+
   return [
     { url: BASE, lastModified: new Date(), changeFrequency: "daily", priority: 1 },
     { url: `${BASE}/matches`, lastModified: new Date(), changeFrequency: "weekly", priority: 0.95 },
     { url: `${BASE}/world-cup-2026`, lastModified: new Date(), changeFrequency: "daily", priority: 0.98 },
     { url: `${BASE}/world-cup-2026/groups`, lastModified: new Date(), changeFrequency: "weekly", priority: 0.96 },
     { url: `${BASE}/world-cup-2026/teams`, lastModified: new Date(), changeFrequency: "weekly", priority: 0.96 },
+    { url: `${BASE}/world-cup-2026/matches`, lastModified: new Date(), changeFrequency: "weekly", priority: 0.96 },
     { url: `${BASE}/world-cup-2026/schedule`, lastModified: new Date(), changeFrequency: "daily", priority: 0.97 },
     { url: `${BASE}/world-cup-2026/standings`, lastModified: new Date(), changeFrequency: "daily", priority: 0.97 },
     { url: `${BASE}/blog`, lastModified: new Date(), changeFrequency: "weekly", priority: 0.9 },
@@ -50,6 +62,7 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
     ...matchUrls,
     ...groupUrls,
     ...teamUrls,
+    ...worldCup2026MatchUrls,
     ...articleUrls,
   ];
 }

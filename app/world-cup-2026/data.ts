@@ -20,6 +20,21 @@ export interface WorldCup2026Team {
   relatedArticleSlugs: string[];
 }
 
+export interface WorldCup2026FeaturedMatch {
+  slug: string;
+  fixture: string;
+  groupSlug: string;
+  groupName: string;
+  date: string;
+  venue: string;
+  teamSlugs: [string, string];
+  intro: string;
+  tacticalFocus: string;
+  keyDuel: string;
+  stakes: string;
+  relatedArticleSlugs: string[];
+}
+
 export const WORLD_CUP_2026_GROUPS: WorldCup2026Group[] = [
   {
     slug: "a",
@@ -381,6 +396,319 @@ export const WORLD_CUP_2026_TEAMS: WorldCup2026Team[] = [
       "2026-world-cup-dark-horses",
     ],
   },
+  {
+    slug: "croatia",
+    name: "Croatia",
+    groupSlug: "l",
+    groupName: "Group L",
+    confederation: "UEFA",
+    profile:
+      "Croatia remain one of the tournament's most experienced game-state teams, even as the midfield moves deeper into a generational transition.",
+    likelyShape: "4-3-3 with a compact midfield triangle",
+    tacticalFocus:
+      "Croatia's control still depends on midfield timing, press resistance, and the ability to slow matches when opponents want transition chaos.",
+    keyQuestion:
+      "Can Croatia keep enough central control against England and Ghana while refreshing an aging core?",
+    knockoutCeiling:
+      "Round of 16 or quarter-final upside if their midfield still controls pressure moments.",
+    relatedArticleSlugs: [
+      "england-vs-croatia-2026-preview",
+      "2026-world-cup-group-l-preview",
+      "2026-world-cup-group-stage-predictions",
+    ],
+  },
+  {
+    slug: "uruguay",
+    name: "Uruguay",
+    groupSlug: "h",
+    groupName: "Group H",
+    confederation: "CONMEBOL",
+    profile:
+      "Uruguay give Group H its edge because their midfield intensity and direct runners can make Spain's possession uncomfortable.",
+    likelyShape: "4-3-3 or 4-4-2 with aggressive midfield pressure",
+    tacticalFocus:
+      "Federico Valverde gives Uruguay a two-way engine, while their forwards can attack the space Spain leave behind advancing fullbacks.",
+    keyQuestion:
+      "Can Uruguay press Spain without losing the compactness that makes them so hard to play through?",
+    knockoutCeiling:
+      "Quarter-final threat if their midfield duels and transition finishing hold.",
+    relatedArticleSlugs: [
+      "2026-world-cup-group-h-preview",
+      "2026-world-cup-dark-horses",
+      "2026-world-cup-ones-to-watch",
+    ],
+  },
+  {
+    slug: "belgium",
+    name: "Belgium",
+    groupSlug: "g",
+    groupName: "Group G",
+    confederation: "UEFA",
+    profile:
+      "Belgium enter Group G as a possession favorite, but the wider tournament question is whether their new core can replace the old golden-generation control.",
+    likelyShape: "4-2-3-1 with central creators and wide runners",
+    tacticalFocus:
+      "Belgium should control territory against lower blocks, but Egypt and Iran can test their defensive spacing in transition.",
+    keyQuestion:
+      "Can Belgium create central penetration without becoming too open behind the ball?",
+    knockoutCeiling:
+      "Quarter-final ceiling if the attack becomes more balanced than star-dependent.",
+    relatedArticleSlugs: [
+      "2026-world-cup-group-g-preview",
+      "2026-world-cup-group-stage-predictions",
+      "2026-world-cup-favorites-contenders",
+    ],
+  },
+  {
+    slug: "senegal",
+    name: "Senegal",
+    groupSlug: "i",
+    groupName: "Group I",
+    confederation: "CAF",
+    profile:
+      "Senegal are the strongest physical counterweight to France in Group I, with enough pace and duel strength to turn the group into a real test.",
+    likelyShape: "4-3-3 with compact defending and fast wide releases",
+    tacticalFocus:
+      "Senegal can sit in a narrow block, win second balls, and attack quickly into the channels before favorites reset their shape.",
+    keyQuestion:
+      "Can Senegal combine defensive discipline with enough final-third quality to punish France or Norway?",
+    knockoutCeiling:
+      "Round of 16 or quarter-final upside if their transition chances become clean shots.",
+    relatedArticleSlugs: [
+      "2026-world-cup-group-i-preview",
+      "2026-world-cup-dark-horses",
+      "france-2026-opening-match-preview",
+    ],
+  },
+  {
+    slug: "norway",
+    name: "Norway",
+    groupSlug: "i",
+    groupName: "Group I",
+    confederation: "UEFA",
+    profile:
+      "Norway bring the tournament's clearest penalty-box question to Group I: how far can elite finishing carry a team against deeper tournament squads?",
+    likelyShape: "4-3-3 or 4-4-2 built around Haaland service",
+    tacticalFocus:
+      "Erling Haaland changes every defensive line Norway face, but the supply from midfield and wide areas must survive pressure from France and Senegal.",
+    keyQuestion:
+      "Can Norway give Haaland enough high-quality service without losing midfield protection?",
+    knockoutCeiling:
+      "Dangerous knockout outsider if they qualify cleanly and keep games direct.",
+    relatedArticleSlugs: [
+      "2026-world-cup-group-i-preview",
+      "2026-world-cup-dark-horses",
+      "2026-world-cup-ones-to-watch",
+    ],
+  },
+  {
+    slug: "canada",
+    name: "Canada",
+    groupSlug: "b",
+    groupName: "Group B",
+    confederation: "CONCACAF",
+    profile:
+      "Canada's home World Cup depends on turning athletic pace and crowd energy into controlled performances against organized opponents.",
+    likelyShape: "4-2-3-1 or 4-3-3 with vertical left-side attacks",
+    tacticalFocus:
+      "Alphonso Davies and Jonathan David give Canada decisive transition routes, but Switzerland will test whether the midfield can control slower games.",
+    keyQuestion:
+      "Can Canada manage home pressure without opening too much space behind their fullbacks?",
+    knockoutCeiling:
+      "Round of 16 target with quarter-final upside if home momentum turns into control.",
+    relatedArticleSlugs: [
+      "2026-world-cup-group-b-preview",
+      "2026-world-cup-host-cities-venues-guide",
+      "2026-world-cup-group-stage-predictions",
+    ],
+  },
+  {
+    slug: "switzerland",
+    name: "Switzerland",
+    groupSlug: "b",
+    groupName: "Group B",
+    confederation: "UEFA",
+    profile:
+      "Switzerland are the control team in Group B, built around tournament experience, compact defending, and clean game management.",
+    likelyShape: "4-2-3-1 with disciplined double-pivot protection",
+    tacticalFocus:
+      "Switzerland can slow Canada's speed by controlling central zones, forcing wide attacks, and turning set pieces into pressure.",
+    keyQuestion:
+      "Can Switzerland create enough open-play threat while keeping their defensive identity intact?",
+    knockoutCeiling:
+      "Round of 16 expectation with upset potential if the bracket opens.",
+    relatedArticleSlugs: [
+      "2026-world-cup-group-b-preview",
+      "2026-world-cup-group-stage-predictions",
+      "2026-world-cup-48-teams-tactical-impact",
+    ],
+  },
+  {
+    slug: "korea-republic",
+    name: "Korea Republic",
+    groupSlug: "a",
+    groupName: "Group A",
+    confederation: "AFC",
+    profile:
+      "Korea Republic make Group A dangerous because their transition threat and European-based attackers can punish teams that overcommit.",
+    likelyShape: "4-2-3-1 with fast wide breaks",
+    tacticalFocus:
+      "Son Heung-min remains the reference point, but Korea's real path depends on compact defending and quick support runs around him.",
+    keyQuestion:
+      "Can Korea Republic turn counter-attacks into enough goals to challenge Mexico for group control?",
+    knockoutCeiling:
+      "Round of 16 contender if they keep games compact and win the Mexico pressure match.",
+    relatedArticleSlugs: [
+      "2026-world-cup-group-a-preview",
+      "2026-world-cup-group-stage-predictions",
+      "2026-world-cup-dark-horses",
+    ],
+  },
+  {
+    slug: "australia",
+    name: "Australia",
+    groupSlug: "d",
+    groupName: "Group D",
+    confederation: "AFC",
+    profile:
+      "Australia bring tournament toughness to Group D, where second balls, defensive resilience, and set pieces could decide the margins.",
+    likelyShape: "4-4-2 or 4-2-3-1 with direct attacks",
+    tacticalFocus:
+      "Australia can frustrate possession teams by compressing central space and forcing opponents to solve aerial duels and restarts.",
+    keyQuestion:
+      "Can Australia create enough threat from direct play to punish the United States, Paraguay, or Türkiye?",
+    knockoutCeiling:
+      "Third-place qualification or Round of 32 upside if defensive discipline stays high.",
+    relatedArticleSlugs: [
+      "2026-world-cup-group-d-preview",
+      "2026-world-cup-group-stage-predictions",
+      "usa-2026-home-world-cup-preview",
+    ],
+  },
+  {
+    slug: "turkiye",
+    name: "Türkiye",
+    groupSlug: "d",
+    groupName: "Group D",
+    confederation: "UEFA",
+    profile:
+      "Türkiye add volatility to Group D because they can combine technical midfield quality with intense, emotional game states.",
+    likelyShape: "4-2-3-1 with creators between the lines",
+    tacticalFocus:
+      "Türkiye can disrupt the United States by attacking the spaces behind aggressive pressing and forcing the group into transition-heavy stretches.",
+    keyQuestion:
+      "Can Türkiye keep enough defensive control when the game becomes open?",
+    knockoutCeiling:
+      "Round of 32 threat if their creators turn broken phases into clean chances.",
+    relatedArticleSlugs: [
+      "2026-world-cup-group-d-preview",
+      "usa-2026-home-world-cup-preview",
+      "2026-world-cup-group-stage-predictions",
+    ],
+  },
+];
+
+export const WORLD_CUP_2026_FEATURED_MATCHES: WorldCup2026FeaturedMatch[] = [
+  {
+    slug: "portugal-vs-colombia",
+    fixture: "Portugal vs Colombia",
+    groupSlug: "k",
+    groupName: "Group K",
+    date: "Saturday, 27 June 2026",
+    venue: "Miami Stadium",
+    teamSlugs: ["portugal", "colombia"],
+    intro:
+      "Portugal vs Colombia is the Group K match most likely to decide first place, because it puts Portugal's creators against Colombia's transition threat.",
+    tacticalFocus:
+      "Portugal will want long spells of territorial pressure, while Colombia need Luis Díaz and their midfield carriers to attack the spaces left by advanced fullbacks.",
+    keyDuel: "Bruno Fernandes and Bernardo Silva between lines vs Colombia's midfield duel pressure.",
+    stakes: "Likely Group K control, cleaner knockout positioning, and a direct test of Portugal's title-level balance.",
+    relatedArticleSlugs: [
+      "2026-world-cup-group-k-preview",
+      "portugal-2026-world-cup-squad-analysis",
+      "portugal-2026-world-cup-tactical-analysis",
+    ],
+  },
+  {
+    slug: "england-vs-croatia",
+    fixture: "England vs Croatia",
+    groupSlug: "l",
+    groupName: "Group L",
+    date: "Wednesday, 17 June 2026",
+    venue: "Dallas Stadium",
+    teamSlugs: ["england", "croatia"],
+    intro:
+      "England vs Croatia brings the 2018 semi-final story into the 2026 group stage, with England's athletic creators facing Croatia's control instincts.",
+    tacticalFocus:
+      "England need speed around Jude Bellingham and Bukayo Saka without giving Croatia time to slow the match through midfield.",
+    keyDuel: "Jude Bellingham's vertical runs vs Croatia's midfield timing and cover.",
+    stakes: "A likely Group L tone-setter and one of the most searchable rematches of the group stage.",
+    relatedArticleSlugs: [
+      "england-vs-croatia-2026-preview",
+      "england-2026-world-cup-squad-analysis",
+      "2026-world-cup-group-l-preview",
+    ],
+  },
+  {
+    slug: "brazil-vs-morocco",
+    fixture: "Brazil vs Morocco",
+    groupSlug: "c",
+    groupName: "Group C",
+    date: "Saturday, 13 June 2026",
+    venue: "New York New Jersey Stadium",
+    teamSlugs: ["brazil", "morocco"],
+    intro:
+      "Brazil vs Morocco is a clash between Brazil's individual attacking ceiling and Morocco's proven compact-block tournament discipline.",
+    tacticalFocus:
+      "Brazil need width and final-third patience, while Morocco will look to compress central space and release runners early after regains.",
+    keyDuel: "Brazil's wide forwards vs Morocco's fullback coverage and midfield screen.",
+    stakes: "Group C control and an early read on whether Brazil's rest defense is title-ready.",
+    relatedArticleSlugs: [
+      "brazil-2026-opening-match-preview",
+      "brazil-2026-world-cup-tactical-analysis",
+      "2026-world-cup-group-c-preview",
+    ],
+  },
+  {
+    slug: "spain-vs-uruguay",
+    fixture: "Spain vs Uruguay",
+    groupSlug: "h",
+    groupName: "Group H",
+    date: "Friday, 26 June 2026",
+    venue: "Estadio Guadalajara",
+    teamSlugs: ["spain", "uruguay"],
+    intro:
+      "Spain vs Uruguay is the Group H pressure match: Spain's possession structure against Uruguay's midfield aggression and direct forward threat.",
+    tacticalFocus:
+      "Spain must protect rest-defense spaces when the fullbacks advance, because Uruguay can turn one midfield win into a fast penalty-box attack.",
+    keyDuel: "Spain's interiors and pivot spacing vs Federico Valverde's transition power.",
+    stakes: "A potential Group H decider with major implications for knockout seeding.",
+    relatedArticleSlugs: [
+      "spain-2026-world-cup-tactical-analysis",
+      "2026-world-cup-group-h-preview",
+      "2026-world-cup-dark-horses",
+    ],
+  },
+  {
+    slug: "netherlands-vs-japan",
+    fixture: "Netherlands vs Japan",
+    groupSlug: "f",
+    groupName: "Group F",
+    date: "Sunday, 14 June 2026",
+    venue: "Dallas Stadium",
+    teamSlugs: ["netherlands", "japan"],
+    intro:
+      "Netherlands vs Japan is one of the cleanest tactical contrasts of the group stage: Dutch build-up control against Japan's pressing and wide rotations.",
+    tacticalFocus:
+      "The Netherlands need clean first-phase exits, while Japan can create pressure traps through coordinated wide pressing and quick support runs.",
+    keyDuel: "Dutch center-back build-up and Frenkie de Jong's receiving angles vs Japan's press triggers.",
+    stakes: "Early Group F control in one of the tournament's most balanced tactical groups.",
+    relatedArticleSlugs: [
+      "netherlands-2026-world-cup-tactical-analysis",
+      "japan-2026-world-cup-dark-horse-analysis",
+      "2026-world-cup-group-f-preview",
+    ],
+  },
 ];
 
 export function getWorldCup2026Group(slug: string) {
@@ -393,4 +721,16 @@ export function getWorldCup2026Team(slug: string) {
 
 export function getWorldCup2026TeamByName(name: string) {
   return WORLD_CUP_2026_TEAMS.find((team) => team.name.toLowerCase() === name.toLowerCase());
+}
+
+export function getWorldCup2026FeaturedMatch(slug: string) {
+  return WORLD_CUP_2026_FEATURED_MATCHES.find((match) => match.slug === slug.toLowerCase());
+}
+
+export function getWorldCup2026FeaturedMatchesForGroup(groupSlug: string) {
+  return WORLD_CUP_2026_FEATURED_MATCHES.filter((match) => match.groupSlug === groupSlug.toLowerCase());
+}
+
+export function getWorldCup2026FeaturedMatchesForTeam(teamSlug: string) {
+  return WORLD_CUP_2026_FEATURED_MATCHES.filter((match) => match.teamSlugs.includes(teamSlug.toLowerCase()));
 }

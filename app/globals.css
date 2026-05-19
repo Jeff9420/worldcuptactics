@@ -41,6 +41,7 @@ nav {
   position: sticky;
   top: 0;
   z-index: 100;
+  min-width: 0;
 }
 .nav-logo {
   font-family: 'Barlow Condensed', sans-serif;
@@ -54,7 +55,16 @@ nav {
   flex-shrink: 0;
 }
 .nav-logo span { color: var(--accent-green); }
-.nav-links { display: flex; gap: 0.25rem; align-items: center; flex: 1; }
+.nav-links {
+  display: flex;
+  gap: 0.25rem;
+  align-items: center;
+  flex: 1;
+  min-width: 0;
+  overflow-x: auto;
+  scrollbar-width: none;
+}
+.nav-links::-webkit-scrollbar { display: none; }
 .nav-link {
   font-family: 'Barlow Condensed', sans-serif;
   font-size: 0.82rem;
@@ -65,11 +75,18 @@ nav {
   padding: 0.35rem 0.75rem;
   border-radius: 4px;
   text-decoration: none;
+  white-space: nowrap;
   transition: color 0.15s;
 }
 .nav-link:hover { color: var(--text-secondary); }
 .nav-link.active { color: var(--text-primary); }
-.nav-right { display: flex; align-items: center; gap: 0.75rem; margin-left: auto; }
+.nav-right {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  margin-left: auto;
+  min-width: 0;
+}
 .live-badge {
   display: flex; align-items: center; gap: 0.4rem;
   font-family: 'JetBrains Mono', monospace;
@@ -123,6 +140,43 @@ nav {
   transition: all 0.15s;
 }
 .btn-hero-ghost:hover { border-color: rgba(255,255,255,0.25); }
+
+@media (max-width: 760px) {
+  nav {
+    gap: 0.75rem;
+    padding: 0 1rem;
+    overflow: hidden;
+  }
+
+  .nav-logo {
+    font-size: 1rem;
+    letter-spacing: 0.03em;
+  }
+
+  .nav-links {
+    flex: 1 1 auto;
+    gap: 0.1rem;
+  }
+
+  .nav-link {
+    font-size: 0.75rem;
+    letter-spacing: 0.05em;
+    padding: 0.35rem 0.45rem;
+  }
+
+  .nav-right {
+    display: none;
+  }
+}
+
+@media (max-width: 420px) {
+  .nav-logo {
+    max-width: 130px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+}
 
 /* ── Tags ── */
 .match-tag {
