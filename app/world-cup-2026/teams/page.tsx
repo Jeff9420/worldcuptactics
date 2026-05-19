@@ -8,7 +8,7 @@ const PAGE_URL = "https://worldcuptactics.com/world-cup-2026/teams";
 export const metadata: Metadata = {
   title: "World Cup 2026 Teams: Tactical Profiles | WorldCupTactics",
   description:
-    "World Cup 2026 team tactical profiles for Portugal, Colombia, Brazil, France, England and more contenders.",
+    "World Cup 2026 team tactical profiles for Portugal, Argentina, Brazil, Spain, France, England, USA, Mexico and more contenders.",
   alternates: {
     canonical: PAGE_URL,
   },
@@ -64,8 +64,8 @@ export default function WorldCup2026TeamsPage() {
               World Cup 2026 Teams
             </h1>
             <p style={{ color: "var(--text-secondary)", fontSize: "1rem", lineHeight: 1.75, maxWidth: "760px" }}>
-              Tactical team profiles for the highest-demand 2026 searches. Each page connects
-              group context, likely shape, tactical risk, and related analysis into one crawlable path.
+              Tactical team profiles for the highest-demand 2026 searches. Each page connects group
+              context, likely shape, tactical risk, and related analysis into one crawlable path.
             </p>
           </div>
         </section>

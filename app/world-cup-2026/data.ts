@@ -213,6 +213,174 @@ export const WORLD_CUP_2026_TEAMS: WorldCup2026Team[] = [
       "england-vs-croatia-2026-preview",
     ],
   },
+  {
+    slug: "argentina",
+    name: "Argentina",
+    groupSlug: "j",
+    groupName: "Group J",
+    confederation: "CONMEBOL",
+    profile:
+      "Argentina arrive as defending champions with a draw that rewards control, rotation, and efficient game management before the knockout rounds.",
+    likelyShape: "4-3-3 or 4-4-2 diamond built around central overloads",
+    tacticalFocus:
+      "Argentina's midfield security and Messi's role between lines should let them slow games down, but Austria's press and Algeria's carriers make transition control important.",
+    keyQuestion:
+      "Can Argentina manage Messi's minutes while keeping enough pressing intensity to control Group J?",
+    knockoutCeiling:
+      "Title contender if the midfield remains compact and the attack does not become too dependent on one creator.",
+    relatedArticleSlugs: [
+      "argentina-2026-world-cup-squad-analysis",
+      "argentina-2026-world-cup-tactical-analysis",
+      "argentina-2026-opening-match-preview",
+    ],
+  },
+  {
+    slug: "spain",
+    name: "Spain",
+    groupSlug: "h",
+    groupName: "Group H",
+    confederation: "UEFA",
+    profile:
+      "Spain enter Group H as a possession favorite, but Uruguay's pressure and Saudi Arabia's compactness will test their rest defense early.",
+    likelyShape: "4-3-3 with positional rotations through midfield",
+    tacticalFocus:
+      "Spain can dominate territory through their interiors, yet the tournament depends on whether the fullbacks and midfield pivots protect counter-attacking lanes.",
+    keyQuestion:
+      "Can Spain turn possession into enough penalty-box threat without opening the game for Uruguay's direct runners?",
+    knockoutCeiling:
+      "Final contender if chance creation becomes more vertical and defensive transitions stay clean.",
+    relatedArticleSlugs: [
+      "spain-2026-world-cup-squad-analysis",
+      "spain-2026-world-cup-tactical-analysis",
+      "2026-world-cup-group-h-preview",
+    ],
+  },
+  {
+    slug: "germany",
+    name: "Germany",
+    groupSlug: "e",
+    groupName: "Group E",
+    confederation: "UEFA",
+    profile:
+      "Germany's Group E path is manageable on paper, but Ecuador and Côte d'Ivoire make it a real test of defensive balance and pressure management.",
+    likelyShape: "4-2-3-1 with aggressive occupation of the half-spaces",
+    tacticalFocus:
+      "Germany need Jamal Musiala and Florian Wirtz to create between lines without leaving the midfield exposed to direct counters.",
+    keyQuestion:
+      "Will Germany defend transitions well enough to avoid another tournament group-stage crisis?",
+    knockoutCeiling:
+      "Quarter-final or better if the possession structure finally matches the quality of the attacking midfield.",
+    relatedArticleSlugs: [
+      "germany-2026-world-cup-squad-analysis",
+      "germany-2026-world-cup-tactical-analysis",
+      "2026-world-cup-group-e-preview",
+    ],
+  },
+  {
+    slug: "usa",
+    name: "United States",
+    groupSlug: "d",
+    groupName: "Group D",
+    confederation: "CONCACAF",
+    profile:
+      "The United States get a home-tournament group built around athletic duels, pressing rhythm, and the pressure of turning promise into knockout progress.",
+    likelyShape: "4-3-3 with vertical pressing and quick wide attacks",
+    tacticalFocus:
+      "Christian Pulisic, Gio Reyna and Yunus Musah give the USMNT transition quality, but Paraguay, Australia and Türkiye will challenge their control in slower phases.",
+    keyQuestion:
+      "Can the United States add enough settled-possession quality to match their pressing and transition weapons?",
+    knockoutCeiling:
+      "Quarter-final threat if home energy becomes control rather than emotional chaos.",
+    relatedArticleSlugs: [
+      "usa-2026-home-world-cup-preview",
+      "2026-world-cup-group-d-preview",
+      "2026-world-cup-group-stage-predictions",
+    ],
+  },
+  {
+    slug: "mexico",
+    name: "Mexico",
+    groupSlug: "a",
+    groupName: "Group A",
+    confederation: "CONCACAF",
+    profile:
+      "Mexico carry the emotional weight of the opening match and a home group where tempo control matters as much as talent.",
+    likelyShape: "4-3-3 with wide service and aggressive pressing spells",
+    tacticalFocus:
+      "Mexico should have territorial control in several Group A games, but South Africa, Korea Republic and Czechia can all punish rushed attacks.",
+    keyQuestion:
+      "Can Mexico use home advantage without forcing the game open too early?",
+    knockoutCeiling:
+      "Round of 16 or quarter-final path if midfield control holds and the attack starts quickly.",
+    relatedArticleSlugs: [
+      "mexico-vs-south-africa-2026-preview",
+      "2026-world-cup-group-a-preview",
+      "2026-world-cup-host-cities-venues-guide",
+    ],
+  },
+  {
+    slug: "netherlands",
+    name: "Netherlands",
+    groupSlug: "f",
+    groupName: "Group F",
+    confederation: "UEFA",
+    profile:
+      "The Netherlands sit in one of the tournament's most interesting tactical groups, with Japan, Tunisia and Sweden all able to disrupt rhythm in different ways.",
+    likelyShape: "3-4-2-1 or 4-3-3 depending on opponent pressure",
+    tacticalFocus:
+      "Dutch build-up quality should travel well, but Japan's press and Sweden's aerial pressure can expose spacing if the wingbacks push too high.",
+    keyQuestion:
+      "Can the Netherlands control wide spaces while still giving their creators enough freedom between the lines?",
+    knockoutCeiling:
+      "Semi-final ceiling if defensive structure and attacking tempo align across the longer format.",
+    relatedArticleSlugs: [
+      "netherlands-2026-world-cup-squad-analysis",
+      "netherlands-2026-world-cup-tactical-analysis",
+      "2026-world-cup-group-f-preview",
+    ],
+  },
+  {
+    slug: "japan",
+    name: "Japan",
+    groupSlug: "f",
+    groupName: "Group F",
+    confederation: "AFC",
+    profile:
+      "Japan are a serious Group F threat because their pressing, wide rotations, and European-based core translate well against elite opposition.",
+    likelyShape: "4-2-3-1 or 3-4-2-1 with coordinated pressing triggers",
+    tacticalFocus:
+      "Japan can turn defensive organization into fast combinations through Kaoru Mitoma, Takefusa Kubo and runners from midfield.",
+    keyQuestion:
+      "Can Japan sustain their pressing quality across three very different group opponents?",
+    knockoutCeiling:
+      "Round of 16 or quarter-final upside if finishing matches their ball-winning and transition quality.",
+    relatedArticleSlugs: [
+      "japan-2026-world-cup-dark-horse-analysis",
+      "2026-world-cup-group-f-preview",
+      "2026-world-cup-dark-horses",
+    ],
+  },
+  {
+    slug: "morocco",
+    name: "Morocco",
+    groupSlug: "c",
+    groupName: "Group C",
+    confederation: "CAF",
+    profile:
+      "Morocco's 2022 run makes them more than a spoiler in Group C, especially against Brazil teams that leave space behind advanced fullbacks.",
+    likelyShape: "4-1-4-1 or 4-3-3 with compact mid-block defending",
+    tacticalFocus:
+      "Morocco can defend narrow, release wide runners early, and turn long spells without the ball into high-value transition attacks.",
+    keyQuestion:
+      "Can Morocco reproduce their knockout-level discipline while carrying more expectation than in 2022?",
+    knockoutCeiling:
+      "Dangerous knockout side if the defensive block remains compact and the wide outlets stay healthy.",
+    relatedArticleSlugs: [
+      "morocco-2026-world-cup-squad-analysis",
+      "2026-world-cup-group-c-preview",
+      "2026-world-cup-dark-horses",
+    ],
+  },
 ];
 
 export function getWorldCup2026Group(slug: string) {
