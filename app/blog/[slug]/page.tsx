@@ -69,26 +69,54 @@ export default async function ArticlePage({
   );
   const relatedMatches = relatedMatchesRaw.filter(Boolean);
 
-  const jsonLd = {
+  const articleJsonLd = {
     "@context": "https://schema.org",
     "@type": "Article",
     headline: article.title,
     description: article.metaDescription,
     datePublished: article.date,
+    dateModified: article.updatedAt ?? article.date,
+    author: {
+      "@type": "Organization",
+      name: "WorldCupTactics",
+      url: "https://worldcuptactics.com",
+    },
     publisher: {
       "@type": "Organization",
       name: "WorldCupTactics",
       url: "https://worldcuptactics.com",
     },
+    mainEntityOfPage: `https://worldcuptactics.com/blog/${article.slug}`,
+    keywords: article.keywords,
     url: `https://worldcuptactics.com/blog/${article.slug}`,
   };
+  const faqJsonLd = article.faq
+    ? {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        mainEntity: article.faq.map((item) => ({
+          "@type": "Question",
+          name: item.question,
+          acceptedAnswer: {
+            "@type": "Answer",
+            text: item.answer,
+          },
+        })),
+      }
+    : null;
 
   return (
     <>
       <script
         type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(articleJsonLd) }}
       />
+      {faqJsonLd && (
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(faqJsonLd) }}
+        />
+      )}
       <Nav />
 
       {/* Article header */}
@@ -145,6 +173,9 @@ export default async function ArticlePage({
               }}
             >
               {article.readTime} min read · {new Date(article.date).toLocaleDateString("en-US", { month: "long", day: "numeric", year: "numeric" })}
+              {article.updatedAt
+                ? ` · Updated ${new Date(article.updatedAt).toLocaleDateString("en-US", { month: "long", day: "numeric", year: "numeric" })}`
+                : ""}
             </span>
           </div>
 
@@ -261,6 +292,106 @@ export default async function ArticlePage({
           })}
         </div>
 
+        {article.faq && article.faq.length > 0 && (
+          <section
+            style={{
+              marginTop: "3.5rem",
+              paddingTop: "2rem",
+              borderTop: "1px solid var(--border)",
+            }}
+          >
+            <h2
+              style={{
+                fontFamily: "'Barlow Condensed',sans-serif",
+                fontSize: "1.6rem",
+                fontWeight: 800,
+                textTransform: "uppercase",
+                letterSpacing: "0.04em",
+                color: "var(--text-primary)",
+                marginBottom: "1.25rem",
+              }}
+            >
+              FAQ
+            </h2>
+            <div style={{ display: "grid", gap: "1rem" }}>
+              {article.faq.map((item) => (
+                <article
+                  key={item.question}
+                  style={{
+                    background: "var(--bg-surface)",
+                    border: "1px solid var(--border)",
+                    borderRadius: "8px",
+                    padding: "1.25rem",
+                  }}
+                >
+                  <h3
+                    style={{
+                      fontFamily: "'Barlow Condensed',sans-serif",
+                      fontSize: "1.05rem",
+                      fontWeight: 800,
+                      textTransform: "uppercase",
+                      letterSpacing: "0.04em",
+                      color: "var(--text-primary)",
+                      marginBottom: "0.5rem",
+                    }}
+                  >
+                    {item.question}
+                  </h3>
+                  <p style={{ color: "var(--text-secondary)", lineHeight: 1.7, margin: 0 }}>
+                    {item.answer}
+                  </p>
+                </article>
+              ))}
+            </div>
+          </section>
+        )}
+
+        {article.sourceLinks && article.sourceLinks.length > 0 && (
+          <section
+            style={{
+              marginTop: "2rem",
+              padding: "1.25rem",
+              background: "var(--bg-surface)",
+              border: "1px solid var(--border)",
+              borderRadius: "8px",
+            }}
+          >
+            <div
+              style={{
+                fontFamily: "'JetBrains Mono',monospace",
+                fontSize: "0.65rem",
+                letterSpacing: "0.1em",
+                textTransform: "uppercase",
+                color: "var(--text-muted)",
+                marginBottom: "0.75rem",
+              }}
+            >
+              Sources checked
+            </div>
+            <div style={{ display: "flex", flexDirection: "column", gap: "0.55rem" }}>
+              {article.sourceLinks.map((source) => (
+                <a
+                  key={source.url}
+                  href={source.url}
+                  target="_blank"
+                  rel="noreferrer"
+                  style={{
+                    color: "var(--accent-green)",
+                    textDecoration: "none",
+                    fontFamily: "'Barlow Condensed',sans-serif",
+                    fontSize: "1rem",
+                    fontWeight: 700,
+                    textTransform: "uppercase",
+                    letterSpacing: "0.04em",
+                  }}
+                >
+                  {source.label}
+                </a>
+              ))}
+            </div>
+          </section>
+        )}
+
         {/* 2026 hub links */}
         {worldCup2026Links.length > 0 && (
           <div
@@ -332,6 +463,21 @@ export default async function ArticlePage({
                 }}
               >
                 World Cup 2026 Schedule and Fixture Path
+              </Link>
+              <Link
+                href="/world-cup-2026/matches"
+                style={{
+                  color: "var(--text-primary)",
+                  textDecoration: "none",
+                  fontFamily: "'Barlow Condensed',sans-serif",
+                  fontSize: "1rem",
+                  fontWeight: 700,
+                  lineHeight: 1.2,
+                  textTransform: "uppercase",
+                  letterSpacing: "0.04em",
+                }}
+              >
+                World Cup 2026 Key Match Tactical Previews
               </Link>
               <Link
                 href="/world-cup-2026/standings"

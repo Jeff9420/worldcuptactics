@@ -3,6 +3,16 @@ export interface ArticleSection {
   text: string;
 }
 
+export interface ArticleFAQ {
+  question: string;
+  answer: string;
+}
+
+export interface ArticleSourceLink {
+  label: string;
+  url: string;
+}
+
 export interface Article {
   slug: string;
   title: string;
@@ -10,9 +20,13 @@ export interface Article {
   category: string;
   categoryColor: string;
   date: string;
+  updatedAt?: string;
   readTime: number;
   metaDescription: string;
+  keywords?: string[];
   relatedMatchIds: string[];
+  sourceLinks?: ArticleSourceLink[];
+  faq?: ArticleFAQ[];
   content: ArticleSection[];
 }
 
@@ -542,10 +556,49 @@ export const ARTICLES: Article[] = [
     category: "2026 WC",
     categoryColor: "#FF4444",
     date: "2026-04-30",
-    readTime: 8,
+    updatedAt: "2026-05-19",
+    readTime: 10,
     metaDescription:
-      "Complete guide to the 2026 FIFA World Cup — format, venues, key dates, 48-team structure, host cities across USA, Canada, and Mexico.",
+      "Complete 2026 World Cup guide: format, 48 teams, 12 groups, 104 matches, dates, host cities, qualification rules, venues, and tactical impact.",
+    keywords: [
+      "2026 World Cup complete guide",
+      "World Cup 2026 format",
+      "World Cup 2026 dates",
+      "World Cup 2026 host cities",
+      "48 team World Cup format",
+    ],
     relatedMatchIds: [],
+    sourceLinks: [
+      {
+        label: "FIFA 2026 groups and qualification rules",
+        url: "https://www.fifa.com/en/articles/groups-how-teams-qualify-tie-breakers",
+      },
+      {
+        label: "FIFA 2026 match schedule",
+        url: "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/match-schedule-fixtures-results-teams-stadiums",
+      },
+      {
+        label: "FIFA final venue confirmation",
+        url: "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/new-york-new-jersey-stadium-host-world-cup-2026-final",
+      },
+    ],
+    faq: [
+      {
+        question: "How many teams are in the 2026 World Cup?",
+        answer:
+          "The 2026 World Cup has 48 teams, split into 12 groups of four. The top two teams in each group and the eight best third-place teams reach the Round of 32.",
+      },
+      {
+        question: "When does the 2026 World Cup start and end?",
+        answer:
+          "The tournament starts on 11 June 2026 in Mexico City and ends with the final on 19 July 2026 at New York New Jersey Stadium.",
+      },
+      {
+        question: "Why does the 2026 format change tactics?",
+        answer:
+          "The Round of 32 and the best-third-place race make goal difference, rotation, and risk management more important than in the old 32-team format.",
+      },
+    ],
     content: [
       {
         type: "paragraph",
@@ -569,7 +622,7 @@ export const ARTICLES: Article[] = [
       },
       {
         type: "paragraph",
-        text: "The co-hosting arrangement between the United States, Canada, and Mexico marks the first time three nations have shared a World Cup. The United States hosts the majority of matches — 11 of the 16 venues are American. The final will be played at MetLife Stadium in East Rutherford, New Jersey, with a capacity of over 82,500. The semifinal venues include AT&T Stadium in Dallas and the Rose Bowl in Los Angeles.",
+        text: "The co-hosting arrangement between the United States, Canada, and Mexico marks the first time three nations have shared a World Cup. The United States hosts the majority of matches — 11 of the 16 venues are American. FIFA lists the final venue as New York New Jersey Stadium, with the match scheduled for Sunday 19 July 2026. The semifinal venues include Dallas Stadium and Los Angeles Stadium.",
       },
       {
         type: "paragraph",
@@ -594,6 +647,18 @@ export const ARTICLES: Article[] = [
       {
         type: "paragraph",
         text: "The 2026 World Cup opens on June 11 in Mexico City and concludes with the final on July 19 at MetLife Stadium in New Jersey. The round of 32 begins on June 28. The quarterfinals take place July 9-11. The semifinals are scheduled for July 14 and 15. Players competing in a deep run will play a minimum of seven matches across 39 days — with the potential for extra time and penalties adding physical demands that no previous generation of World Cup players has faced over such a concentrated schedule.",
+      },
+      {
+        type: "heading",
+        text: "What The New Format Changes Tactically",
+      },
+      {
+        type: "paragraph",
+        text: "The 48-team format changes the incentives before it changes the spectacle. In the old format, a team usually knew that four points from three games were enough and six points almost guaranteed a clean knockout path. In 2026, the eight best third-place teams also advance, so managers must think about goal difference, booking risk, squad rotation, and whether chasing a late equalizer is worth opening up the game.",
+      },
+      {
+        type: "paragraph",
+        text: "The Round of 32 also adds one more elimination match for the eventual champion. That creates a different squad-management problem: the best teams may need to win eight matches instead of seven. Depth, set-piece efficiency, and the ability to rest key players without losing structure become tournament weapons rather than nice-to-have details.",
       },
       {
         type: "heading",
@@ -1344,9 +1409,48 @@ export const ARTICLES: Article[] = [
     category: "2026 WC",
     categoryColor: "#FF4444",
     date: "2026-05-16",
+    updatedAt: "2026-05-19",
     readTime: 9,
-    metaDescription: "Portugal 2026 World Cup squad tactical preview — Group K opponents, likely formation, Ronaldo's role, Bruno Fernandes, Bernardo Silva, Rafael Leão, and Portugal's ceiling.",
+    metaDescription: "Portugal 2026 World Cup squad tactical preview: Group K fixtures, likely formation, Ronaldo's role, Bruno, Bernardo, Leão, key risks and ceiling.",
+    keywords: [
+      "Portugal 2026 World Cup squad",
+      "Portugal World Cup tactics",
+      "Portugal Group K preview",
+      "Cristiano Ronaldo 2026 World Cup role",
+      "Portugal vs Colombia 2026",
+    ],
     relatedMatchIds: ["uruguay-vs-portugal-2018-r16","portugal-vs-switzerland-2022-r16","morocco-vs-portugal-2022-qf"],
+    sourceLinks: [
+      {
+        label: "FIFA 2026 match schedule",
+        url: "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/match-schedule-fixtures-results-teams-stadiums",
+      },
+      {
+        label: "FIFA Group K qualification context",
+        url: "https://www.fifa.com/en/articles/groups-how-teams-qualify-tie-breakers",
+      },
+      {
+        label: "Portugal vs Colombia tactical preview",
+        url: "https://worldcuptactics.com/world-cup-2026/matches/portugal-vs-colombia",
+      },
+    ],
+    faq: [
+      {
+        question: "Who are Portugal playing in Group K at the 2026 World Cup?",
+        answer:
+          "Portugal are in Group K with Colombia, Uzbekistan and Congo DR. Their most important tactical test is the Colombia match in Miami.",
+      },
+      {
+        question: "What is Portugal's biggest tactical question for 2026?",
+        answer:
+          "Portugal need to balance Bruno Fernandes, Bernardo Silva, Rafael Leao and their striker choice without leaving the fullback channels open after turnovers.",
+      },
+      {
+        question: "Should Cristiano Ronaldo start for Portugal in 2026?",
+        answer:
+          "It should depend on the opponent. Ronaldo can still decide penalty-box moments, but against transition teams Portugal may need a more mobile striker to protect the press.",
+      },
+    ],
     content: [
           {
                 "type": "paragraph",
@@ -1435,6 +1539,18 @@ export const ARTICLES: Article[] = [
           {
                 "type": "paragraph",
                 "text": "The full-backs are the swing piece. If both push high, Portugal become spectacular but vulnerable. If one stays deeper, the team looks less explosive but much harder to counter. The conservative version may be the one that wins knockout matches."
+          },
+          {
+                "type": "heading",
+                "text": "Fixture Map And SEO Answer"
+          },
+          {
+                "type": "paragraph",
+                "text": "Portugal open Group K against Congo DR in Houston, then face Colombia in Miami before closing against Uzbekistan in Houston. That order is important. The opener is a control test against athletic pressure. Colombia is the ceiling test. Uzbekistan is the concentration test if Portugal already have points on the board."
+          },
+          {
+                "type": "paragraph",
+                "text": "For searchers asking whether Portugal can win the 2026 World Cup, the short answer is yes, but only if the team becomes more stable than spectacular. Their squad is deep enough for a semi-final run. The risk is not talent. The risk is a shape that lets opponents attack the space behind advanced full-backs."
           },
           {
                 "type": "heading",
@@ -3354,9 +3470,48 @@ export const ARTICLES: Article[] = [
     category: "2026 WC",
     categoryColor: "#FF4444",
     date: "2026-05-16",
-    readTime: 8,
-    metaDescription: "2026 World Cup Group K preview — Portugal, Colombia, Uzbekistan, and Congo DR tactical analysis, fixture path, key battles, and qualification prediction.",
+    updatedAt: "2026-05-19",
+    readTime: 9,
+    metaDescription: "World Cup 2026 Group K preview: Portugal, Colombia, Uzbekistan and Congo DR fixtures, tactics, key battles, qualification paths and prediction.",
+    keywords: [
+      "World Cup 2026 Group K",
+      "Portugal Colombia Uzbekistan Congo DR",
+      "Group K fixtures",
+      "Portugal vs Colombia 2026",
+      "World Cup Group K prediction",
+    ],
     relatedMatchIds: ["uruguay-vs-portugal-2018-r16","portugal-vs-switzerland-2022-r16","morocco-vs-portugal-2022-qf"],
+    sourceLinks: [
+      {
+        label: "FIFA 2026 match schedule",
+        url: "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/match-schedule-fixtures-results-teams-stadiums",
+      },
+      {
+        label: "FIFA group qualification rules",
+        url: "https://www.fifa.com/en/articles/groups-how-teams-qualify-tie-breakers",
+      },
+      {
+        label: "Portugal vs Colombia match page",
+        url: "https://worldcuptactics.com/world-cup-2026/matches/portugal-vs-colombia",
+      },
+    ],
+    faq: [
+      {
+        question: "Which teams are in World Cup 2026 Group K?",
+        answer:
+          "Group K contains Portugal, Colombia, Uzbekistan and Congo DR.",
+      },
+      {
+        question: "What is the key match in Group K?",
+        answer:
+          "Portugal vs Colombia is the key match because it is the clearest first-place decider and the strongest tactical contrast in the group.",
+      },
+      {
+        question: "Who is predicted to qualify from Group K?",
+        answer:
+          "Portugal are projected to finish first, Colombia second, with Uzbekistan and Congo DR likely fighting for a third-place route.",
+      },
+    ],
     content: [
           {
                 "type": "paragraph",
@@ -3433,6 +3588,18 @@ export const ARTICLES: Article[] = [
           {
                 "type": "paragraph",
                 "text": "The problem is chance quality. Physical pressure can create moments, but Group K still demands finishing and defensive concentration. If Congo DR chase games too early, Portugal and Colombia have the wide speed to punish them."
+          },
+          {
+                "type": "heading",
+                "text": "Qualification Paths"
+          },
+          {
+                "type": "paragraph",
+                "text": "Portugal's cleanest route is simple: beat Congo DR, avoid defeat against Colombia, and use the Uzbekistan match to manage the table. Colombia's path depends heavily on the opener against Uzbekistan. Win that match and they can attack Portugal with less pressure. Draw it and the Miami fixture becomes more fragile."
+          },
+          {
+                "type": "paragraph",
+                "text": "Uzbekistan and Congo DR are not playing only for second place. The 2026 format gives eight third-place teams a Round of 32 route, so a draw against Colombia or Portugal could matter enormously. That is why goal difference and late-game risk management should shape every Group K match after the opener."
           },
           {
                 "type": "heading",
@@ -5391,91 +5558,160 @@ export const ARTICLES: Article[] = [
   },
   {
     slug: "england-vs-croatia-2026-preview",
-    title: "England vs Croatia 2026: Redemption or Repeat?",
-    excerpt: "In 2018, Croatia beat England in the World Cup semifinal. Now they meet in the group stage of 2026. Bellingham vs Modric. Eight years of hurt for England.",
+    title: "England vs Croatia 2026 World Cup Preview: Date, Tactics, Key Duels",
+    excerpt:
+      "England meet Croatia in Group L on Wednesday 17 June 2026 at Dallas Stadium. This preview explains the fixture, tactical matchups, likely pressure points, and what changed since the 2018 semi-final.",
     category: "2026 WC",
     categoryColor: "#FF4444",
     date: "2026-05-09",
-    readTime: 8,
-    metaDescription: "England vs Croatia 2026 World Cup group stage preview — the 2018 semifinal rematch, Bellingham vs Modric, tactical analysis and prediction.",
+    updatedAt: "2026-05-19",
+    readTime: 10,
+    metaDescription:
+      "England vs Croatia 2026 preview: confirmed date, Dallas Stadium venue, Group L context, tactical analysis, key duels, prediction and FAQ.",
+    keywords: [
+      "England vs Croatia 2026",
+      "England Croatia World Cup preview",
+      "World Cup 2026 Group L",
+      "England World Cup fixtures",
+      "Croatia World Cup tactics",
+    ],
     relatedMatchIds: ["england-vs-croatia-2018-sf","england-vs-france-2022-qf"],
+    sourceLinks: [
+      {
+        label: "FIFA 2026 match schedule",
+        url: "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/match-schedule-fixtures-results-teams-stadiums",
+      },
+      {
+        label: "FIFA report: Croatia 2-1 England, 2018 semi-final",
+        url: "https://inside.fifa.com/news/history-maker-mandzukic-sends-croatia-into-first-final",
+      },
+      {
+        label: "England Football fixture confirmation",
+        url: "https://learn.englandfootball.com/sitecore/content/EnglandFootball/Home/articles/2025/Dec/06/england-fifa-world-cup-26-match-schedule-confirmed-20250612",
+      },
+    ],
+    faq: [
+      {
+        question: "When is England vs Croatia at the 2026 World Cup?",
+        answer:
+          "England vs Croatia is scheduled for Wednesday 17 June 2026 in Group L at Dallas Stadium.",
+      },
+      {
+        question: "Why is England vs Croatia a high-demand 2026 World Cup fixture?",
+        answer:
+          "It is a direct group-stage rematch of the 2018 World Cup semi-final, when Croatia came from behind to beat England 2-1 after extra time.",
+      },
+      {
+        question: "What is the main tactical question in England vs Croatia?",
+        answer:
+          "England need to turn athletic pressure and wide threat into chances without letting Croatia slow the game through midfield possession and second-ball control.",
+      },
+    ],
     content: [
-          {
-                "type": "paragraph",
-                "text": "As the excitement builds for the 2026 World Cup, a pivotal clash looms on the horizon: England versus Croatia. This match is not just another group stage encounter; it’s a poignant rematch of the 2018 World Cup semifinal, a match that saw Croatia emerge victorious and send England home with yet another chapter of disappointment and reflection. The ghosts of Luzhniki linger as these two teams prepare to face off once again, this time on American soil."
-          },
-          {
-                "type": "heading",
-                "text": "The 2018 Context"
-          },
-          {
-                "type": "paragraph",
-                "text": "On that fateful night in July 2018, England and Croatia battled for a place in the World Cup final. England's Kieran Trippier set the Wembley faithful alight with an exquisite free-kick that gave the Three Lions a dream start just five minutes into the game. However, Croatia, resilient and determined, would not be deterred. Ivan Perišić equalized with a clever volley, before Mario Mandžukić sealed Croatia's fate with a dramatic winner in extra time, sending the English fans' hopes crashing down."
-          },
-          {
-                "type": "paragraph",
-                "text": "Luka Modrić, the Croatian captain and midfield maestro, was instrumental in that match, illuminating the second half with a performance that demonstrated his unparalleled understanding of the game. Time and again, Modrić orchestrated play from deep, showing why he was ultimately awarded the Golden Ball for his performances throughout the tournament. For many England fans, the memory of that semifinal is a painful reminder of what might have been, and even now, they replay those critical moments with a mix of nostalgia and heartbreak."
-          },
-          {
-                "type": "quote",
-                "text": "'England’s 2018 World Cup hopes were dashed by an unwavering Croatian side, a reminder that in football, history can be a cruel companion.'"
-          },
-          {
-                "type": "heading",
-                "text": "The Rematch in 2026"
-          },
-          {
-                "type": "paragraph",
-                "text": "Fast forward to 2026, and the landscape of football has shifted dramatically. Croatia will face England again in the group stage, but with Modrić aging gracefully at 40 years old, curiosity surrounds his capacity to dictate a World Cup match. While his longevity and exceptional form at Real Madrid have defied conventional limits of age, the World Cup represents a different beast, one that demands not only skill but also the relentless energy that typically wanes with age."
-          },
-          {
-                "type": "paragraph",
-                "text": "On the opposite end, England boasts a new generation of talent, notably Jude Bellingham, who will be just 22 at this tournament. Following a season in which he led Real Madrid to Champions League glory, Bellingham bears the mantle of leadership for the coming World Cup. The opportunity now lies before him to dominate the midfield for England, transforming the narrative of eight years of hurt into a triumphant redemption."
-          },
-          {
-                "type": "quote",
-                "text": "'Jude Bellingham is poised to shine on the world stage. This is his tournament to dominate and prove his mettle against giants like Modrić.'"
-          },
-          {
-                "type": "heading",
-                "text": "Tactical Battles Ahead"
-          },
-          {
-                "type": "paragraph",
-                "text": "When considering the tactical framework, both coaches will undoubtedly opt for formations that play to their squad's strengths. Croatia typically sets up in a 4-3-3, with a mid-block defensive shape that allows Modrić to control the tempo from deep, seeking to frustrate England's attacking capabilities. However, for England to exploit this structure, Bellingham must effectuate vertical runs past Modrić and make himself a key asset in attacking transitions, potentially breaking through Croatia's defense."
-          },
-          {
-                "type": "paragraph",
-                "text": "Additionally, one of England’s significant advantages could come from their left flank. Bukayo Saka's one-on-one ability poses a constant threat to Croatia's left-back, who has struggled at times, and if Saka can deliver in those critical moments, he could carve open gaps that allow Bellingham and the other attackers to thrive. However, Croatia is not without its tactical weaponry; they possess set-piece capabilities that can exploit England’s defensive frailties. With players like Dejan Lovren and Josko Gvardiol in the mix, the Croatian threat from corners and free-kicks cannot be underestimated."
-          },
-          {
-                "type": "quote",
-                "text": "'Croatia’s set pieces are lethal; Vida and Gvardiol will be looking to capitalize on any lapses in England’s defense.'"
-          },
-          {
-                "type": "heading",
-                "text": "Psychological Weight of 2018"
-          },
-          {
-                "type": "paragraph",
-                "text": "As both teams prepare for this monumental clash, the psychological ramifications of their previous encounter in 2018 will be palpable. For England, who have endured a long journey towards reclaiming lost glory and confidence, this match serves as a vital test of character. Will they rise to the occasion, using the lessons learned from that semifinal heartbreak to motivate themselves, or will the weight of past traumas haunt their efforts?"
-          },
-          {
-                "type": "paragraph",
-                "text": "Conversely, Croatia will also face their own mental hurdles, having achieved historic success with their 2018 run. Now, without the vigor of their younger days, the challenge lies in balancing the nostalgia of past triumphs against their current capabilities. Each team will have its narratives and pressures; the outcome could very well hinge upon who handles this psychological intensity with greater poise."
-          },
-          {
-                "type": "heading",
-                "text": "Prediction: A Close Contest"
-          },
-          {
-                "type": "paragraph",
-                "text": "As the kickoff approaches, the anticipation mounts for what promises to be a tightly contested affair. My prediction is an England victory, likely by a scoreline of 2-1. Bellingham, driven by the desire to rewrite his nation’s narrative, will find the back of the net, but not without struggles, as the match might crawl into tension-filled moments. Croatia, with their tactical nous and experience, will not go down without a fight, making this encounter a thrilling spectacle."
-          },
-          {
-                "type": "paragraph",
-                "text": "Ultimately, this clash between England and Croatia encapsulates the duality of progression and haunting memories, where the past dances with the present. In this match, the stage is set for redemption, but will that elusive victory finally be England’s, or will history repeat itself once more? The world will be watching intently."
-          }
+      {
+        type: "paragraph",
+        text: "England vs Croatia is confirmed for Wednesday 17 June 2026 at Dallas Stadium in Group L. The search interest is obvious: this is the 2018 World Cup semi-final rematch, but the football question is more useful than the revenge angle. England arrive with more athletic midfield power and better wide depth than they had in Russia. Croatia arrive with a tournament identity built on control, timing, patience, and the ability to keep matches alive when the opponent wants them to become frantic.",
+      },
+      {
+        type: "paragraph",
+        text: "The match is also a clean early test of England's 2026 ceiling. A win would put them in command of Group L before the Ghana and Panama fixtures. A slow draw or defeat would reopen familiar questions: can England control elite tournament tempo, or do they still depend too much on moments from their best attackers?",
+      },
+      {
+        type: "heading",
+        text: "Fixture Facts and Search Intent",
+      },
+      {
+        type: "paragraph",
+        text: "The official schedule places England vs Croatia in Dallas on 17 June 2026, with Ghana vs Panama completing the same Group L matchday. For readers searching this fixture, the core questions are simple: when is it, where is it, why does it matter, and what kind of match should we expect tactically?",
+      },
+      {
+        type: "paragraph",
+        text: "The short answer: England should have the stronger individual attacking ceiling, but Croatia are exactly the kind of opponent who can punish impatient possession. If England attack with disconnected lines, Croatia can slow the rhythm, win second balls, and make the match feel closer than the talent gap suggests.",
+      },
+      {
+        type: "heading",
+        text: "What 2018 Still Teaches England",
+      },
+      {
+        type: "paragraph",
+        text: "The 2018 semi-final was not just a story of heartbreak. It was a tactical warning. England scored early through Kieran Trippier, but they did not turn the first-half advantage into control. Croatia survived the initial pressure, found Ivan Perisic in the second half, and won it through Mario Mandzukic in extra time. The deeper lesson was about game management: England had a lead, field position, and set-piece threat, but Croatia had the calmer midfield once the match became stretched.",
+      },
+      {
+        type: "paragraph",
+        text: "That is why the 2026 rematch should not be framed only as revenge. The real question is whether England can now combine vertical threat with patience. They need to attack faster than Croatia want, but not so fast that their midfield protection disappears.",
+      },
+      {
+        type: "heading",
+        text: "England's Best Route: Width, Third-Man Runs, Counter-Pressing",
+      },
+      {
+        type: "paragraph",
+        text: "England's best attacking route is likely to start wide. Bukayo Saka can pin the right side, force Croatia's fullback line backward, and create the inside lane for Jude Bellingham to arrive late. On the opposite side, England need a runner who can stretch the back line without turning every attack into a cross. Croatia are comfortable defending predictable wide delivery; they are less comfortable when the wide player, fullback, and advanced midfielder rotate quickly enough to pull the midfield screen apart.",
+      },
+      {
+        type: "paragraph",
+        text: "The counter-press matters just as much as the chance creation. England can push fullbacks and attacking midfielders high only if the first five seconds after losing the ball are aggressive and coordinated. If Croatia's first pass out of pressure reaches midfield cleanly, England's back line will be asked to defend open grass against runners instead of defending a settled block.",
+      },
+      {
+        type: "quote",
+        text: "The key for England is not simply creating more attacks. It is keeping Croatia from turning England attacks into Croatia possessions.",
+      },
+      {
+        type: "heading",
+        text: "Croatia's Best Route: Tempo Control and Second Balls",
+      },
+      {
+        type: "paragraph",
+        text: "Croatia's most realistic path is not to dominate territory for 90 minutes. It is to control enough of the middle third that England's pressure becomes uneven. If Luka Modric is involved, his role is less about covering huge spaces and more about receiving at the right moments, drawing pressure, and choosing when the game should speed up or slow down. If Croatia use a younger midfield profile, the same principle remains: protect the central lane first, then attack the spaces England leave beside their fullbacks.",
+      },
+      {
+        type: "paragraph",
+        text: "Second balls are the hidden tactical category in this fixture. England will try to press Croatia's build-up. Croatia will try to use direct passes and midfield knockdowns to escape that pressure. Whoever controls the loose ball after the first duel will control the emotional rhythm of the match.",
+      },
+      {
+        type: "heading",
+        text: "Key Duels",
+      },
+      {
+        type: "subheading",
+        text: "Jude Bellingham vs Croatia's midfield screen",
+      },
+      {
+        type: "paragraph",
+        text: "Bellingham is most dangerous when he can receive on the half-turn or arrive after the defensive line has already been moved. Croatia will want him receiving with his back to goal, where pressure from behind and cover from the side can force him into safer passes.",
+      },
+      {
+        type: "subheading",
+        text: "Bukayo Saka vs Croatia's left-side coverage",
+      },
+      {
+        type: "paragraph",
+        text: "Saka does not need to beat his marker every time. If he keeps Croatia's left side pinned, England can create the bigger advantage inside: late runs, cut-backs, and second-phase shots from the edge of the box.",
+      },
+      {
+        type: "subheading",
+        text: "England's rest defense vs Croatia's first forward pass",
+      },
+      {
+        type: "paragraph",
+        text: "This is the duel that may decide the match. England can look dominant for long spells and still be vulnerable if the holding midfielder and center backs are left with too much space to cover after turnovers.",
+      },
+      {
+        type: "heading",
+        text: "Prediction",
+      },
+      {
+        type: "paragraph",
+        text: "England should be slight favorites because they have more ways to create high-quality chances. The likely match pattern is England with more territory, Croatia with enough midfield control to make the game uncomfortable, and the result depending on whether England's counter-press holds after their own attacks. Prediction: England 2-1 Croatia, but only if England keep the match compact after turnovers. If the game becomes stretched too early, a draw is very plausible.",
+      },
+      {
+        type: "heading",
+        text: "SEO Summary",
+      },
+      {
+        type: "paragraph",
+        text: "England vs Croatia 2026 is more than a rematch headline. It is one of the clearest Group L tactical tests: England's athletic chance creation against Croatia's midfield control. The fixture has strong search demand because of the 2018 semi-final, but the useful preview angle is specific: date, venue, group context, tactical plan, key duels, and realistic prediction.",
+      },
     ],
   },
   {
