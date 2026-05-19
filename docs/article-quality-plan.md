@@ -18,14 +18,16 @@ Goal: upgrade all WorldCupTactics articles in small deployable batches, prioriti
 - `2026-world-cup-group-k-preview`
 - `england-vs-croatia-2026-preview`
 
-Status: in progress.
+Status: completed in `92fdf15`.
 
 ### Batch 2: group and host-intent pages
 
 - `2026-world-cup-group-l-preview`
 - `world-cup-2026-standings-explained`
 - `2026-world-cup-48-teams-tactical-impact`
-- `2026-world-cup-host-cities-travel-guide`
+- `2026-world-cup-host-cities-venues-guide`
+
+Status: completed locally; pending commit and deploy.
 
 ### Batch 3: contender team pages
 

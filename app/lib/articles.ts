@@ -39,10 +39,49 @@ export const ARTICLES: Article[] = [
     category: "2026 WC",
     categoryColor: "#FF4444",
     date: "2026-05-16",
-    readTime: 7,
+    updatedAt: "2026-05-19",
+    readTime: 8,
     metaDescription:
       "World Cup 2026 standings explained — how the 12 groups work, how third-place teams qualify, the official tie-breakers, and why the new table changes tactics.",
+    keywords: [
+      "World Cup 2026 standings",
+      "World Cup 2026 group tables",
+      "World Cup 2026 tie breakers",
+      "best third-place teams World Cup 2026",
+      "World Cup 2026 qualification rules",
+    ],
     relatedMatchIds: ["saudi-arabia-vs-argentina-2022-group", "germany-vs-south-korea-2018-group", "cameroon-vs-argentina-1990-group"],
+    sourceLinks: [
+      {
+        label: "FIFA 2026 qualification rules and tie-breakers",
+        url: "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/groups-how-teams-qualify-tie-breakers",
+      },
+      {
+        label: "World Cup 2026 standings hub",
+        url: "https://worldcuptactics.com/world-cup-2026/standings",
+      },
+      {
+        label: "World Cup 2026 groups hub",
+        url: "https://worldcuptactics.com/world-cup-2026/groups",
+      },
+    ],
+    faq: [
+      {
+        question: "How many teams qualify from each 2026 World Cup group?",
+        answer:
+          "The top two teams from each of the 12 groups qualify automatically, and the eight best third-place teams also reach the Round of 32.",
+      },
+      {
+        question: "What is the first 2026 World Cup group tie-breaker?",
+        answer:
+          "If teams in the same group are level on points, FIFA first compares the matches between the tied teams: points, then goal difference, then goals scored.",
+      },
+      {
+        question: "How are the best third-place teams ranked?",
+        answer:
+          "The best third-place teams are ranked by points, goal difference, goals scored, team conduct score, and then the most recent FIFA/Coca-Cola Men's World Ranking.",
+      },
+    ],
     content: [
       {
         type: "paragraph",
@@ -78,11 +117,23 @@ export const ARTICLES: Article[] = [
       },
       {
         type: "paragraph",
-        text: "The first separation point is total points. If teams are level, FIFA first compares the matches played between the tied teams: points in those head-to-head games, then head-to-head goal difference, then head-to-head goals scored. If that still does not separate them, the ranking process moves to broader group measures and then to fair-play and drawing of lots if required.",
+        text: "The first separation point is total points. If teams in the same group are level, FIFA first compares the matches played between the tied teams: points in those head-to-head games, then head-to-head goal difference, then head-to-head goals scored. If that still does not separate them, the ranking process moves to all-group goal difference, all-group goals scored, team conduct score, and then the most recent FIFA/Coca-Cola Men's World Ranking.",
       },
       {
         type: "paragraph",
-        text: "That ordering changes game management. A direct meeting against a rival for second or third place carries more weight than a normal three-point game because it can settle the mini-table later. A late red card can also become expensive beyond the current match because fair-play scoring can enter the tie-breaker chain if the football criteria cannot split teams.",
+        text: "That ordering changes game management. A direct meeting against a rival for second or third place carries more weight than a normal three-point game because it can settle the mini-table later. A late red card can also become expensive beyond the current match because team conduct score can enter the tie-breaker chain if the football criteria cannot split teams.",
+      },
+      {
+        type: "heading",
+        text: "Best Third-Place Table: The Hidden Standings Race",
+      },
+      {
+        type: "paragraph",
+        text: "The best third-place table will be one of the most searched parts of the tournament because it is not visible inside a single group. A team can finish third, leave the pitch thinking four points are enough, and still need results elsewhere to confirm qualification. The order is points, goal difference, goals scored, conduct score, and world ranking.",
+      },
+      {
+        type: "paragraph",
+        text: "This makes late goals unusually valuable. A team already losing 2-0 may still protect its tournament by keeping the score there instead of chasing wildly and losing 4-0. Conversely, a team winning 1-0 may have a reason to push for a second goal if that extra margin can move it above other third-place teams.",
       },
       {
         type: "heading",
@@ -1974,9 +2025,48 @@ export const ARTICLES: Article[] = [
     category: "2026 WC",
     categoryColor: "#FF4444",
     date: "2026-05-06",
-    readTime: 8,
-    metaDescription: "How the 48-team 2026 World Cup format changes tactics, squad management, and which teams benefit most from the new structure.",
+    updatedAt: "2026-05-19",
+    readTime: 9,
+    metaDescription: "How the 48-team 2026 World Cup format changes tactics: 12 groups, best third-place teams, Round of 32, rotation, risk and squad management.",
+    keywords: [
+      "48 team World Cup format",
+      "2026 World Cup tactical impact",
+      "World Cup 2026 Round of 32",
+      "best third-place teams tactics",
+      "World Cup squad rotation",
+    ],
     relatedMatchIds: ["cameroon-vs-argentina-1990-group","saudi-arabia-vs-argentina-2022-group","south-korea-vs-italy-2002-r16"],
+    sourceLinks: [
+      {
+        label: "FIFA 2026 qualification rules and tie-breakers",
+        url: "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/groups-how-teams-qualify-tie-breakers",
+      },
+      {
+        label: "World Cup 2026 complete guide",
+        url: "https://worldcuptactics.com/blog/2026-world-cup-complete-guide",
+      },
+      {
+        label: "World Cup 2026 standings explained",
+        url: "https://worldcuptactics.com/blog/world-cup-2026-standings-explained",
+      },
+    ],
+    faq: [
+      {
+        question: "How does the 48-team World Cup format work?",
+        answer:
+          "The 2026 World Cup has 12 groups of four teams. The top two in each group and the eight best third-place teams advance to a Round of 32.",
+      },
+      {
+        question: "Why does the 48-team format change tactics?",
+        answer:
+          "It changes the value of draws, goal difference, rotation, and late-game risk because third-place teams can still qualify.",
+      },
+      {
+        question: "Who benefits most from the 2026 format?",
+        answer:
+          "Deep squads benefit from the longer route, while organized underdogs benefit from the best-third-place path if they protect goal difference.",
+      },
+    ],
     content: [
           {
                 "type": "paragraph",
@@ -1992,11 +2082,11 @@ export const ARTICLES: Article[] = [
           },
           {
                 "type": "paragraph",
-                "text": "Consider the potential of a nation like Qatar, who, despite being hosts in 2022 and underperforming, can approach this new format with a renewed tactical mindset. A strategy focused on playing for draws—or even slight victories—could propel them forward three points at a time. Teams will be more inclined to focus on defensive solidity and disciplined midfield play, knowing that every point counts more than ever."
+                "text": "The real change is not that underdogs will simply play for draws. It is that a draw now has a clearer route into the knockout stage if it protects goal difference and sets up one winnable match. A compact 0-0 against a favorite can become a platform rather than a missed opportunity, especially if the final group match is against a direct third-place rival."
           },
           {
                 "type": "quote",
-                "text": "\"In a format where even a single point can be life-changing, the tactical emphasis on draws will redefine how smaller nations compete against powerhouses.\" - Tactical Analyst"
+                "text": "In a format where eight third-place teams survive, goal difference becomes a tactical asset rather than a statistical afterthought."
           },
           {
                 "type": "heading",
@@ -2008,11 +2098,11 @@ export const ARTICLES: Article[] = [
           },
           {
                 "type": "paragraph",
-                "text": "Additionally, squads will expand to 26 players, allowing coaches to select a larger pool to mitigate injury risks and accommodate tactical shifts mid-tournament. Teams with robust depth, such as France or Brazil, maintain a distinct advantage in this environment. In this context, effective squad management could be the key to success, particularly for teams favoring an intense style of play."
+                "text": "Depth becomes more important because the champion may need to survive eight matches. Teams with robust squads, such as France, Brazil, England, Spain or Portugal, gain a real structural advantage if they can rotate without breaking their pressing, rest-defense or set-piece routines. A deep bench is no longer only insurance against injury; it is part of the tactical plan."
           },
           {
                 "type": "quote",
-                "text": "\"Fatigue can be a killer in the knockout stages—having the luxury of a deeper squad could make or break campaigns for elite teams in 2026.\" - Former National Team Coach"
+                "text": "In 2026, the best squad may matter more than the best starting XI."
           },
           {
                 "type": "heading",
@@ -2024,7 +2114,7 @@ export const ARTICLES: Article[] = [
           },
           {
                 "type": "paragraph",
-                "text": "Conversely, smaller teams are now able to pinpoint their strategies with an eye toward just securing enough points to advance. The dynamism of attacking play we often associate with stronger squads may yield to more pragmatic, cautious formations. Coaches like Roberto Martinez of Belgium will have to weigh the immediate needs of their squad against the longer-term goal of making a deeper run in the tournament."
+                "text": "Conversely, smaller teams can build narrower plans around game state. The first objective may be to stay alive through 60 minutes, keep the score close, and turn set pieces or transitions into one decisive moment. The danger is passivity: a team that only protects goal difference may reach matchday three needing a win it has not rehearsed how to chase."
           },
           {
                 "type": "heading",
@@ -2053,6 +2143,18 @@ export const ARTICLES: Article[] = [
           {
                 "type": "paragraph",
                 "text": "In contrast, teams like Italy, historically known for their defensive solidity and counter-attacking prowess, may find that their approach suits the extended competition. The tactical flexibility demonstrated by such teams may provide a formula for handling high-pressure moments while preserving energy for longer matches."
+          },
+          {
+                "type": "heading",
+                "text": "The Best Third-Place Trap"
+          },
+          {
+                "type": "paragraph",
+                "text": "The best-third-place race creates a tactical trap. Three points may be enough in one tournament scenario and not enough in another. That uncertainty can freeze teams between two instincts: protect the point total or chase a goal that improves the margin. Coaches who read the live tournament table well will steal value. Coaches who treat every group as isolated will make late-game mistakes."
+          },
+          {
+                "type": "paragraph",
+                "text": "This is where substitutions become tactical signals. Bringing on a second striker may not mean a team is chasing a win; it may mean it needs one more goal for the third-place table. Adding a defensive midfielder may not mean fear; it may mean goal difference is already more valuable than a low-probability attack."
           },
           {
                 "type": "heading",
@@ -2375,13 +2477,52 @@ export const ARTICLES: Article[] = [
     category: "2026 WC",
     categoryColor: "#FF4444",
     date: "2026-05-06",
-    readTime: 8,
-    metaDescription: "Complete guide to all 16 2026 World Cup host cities and venues — USA, Canada, Mexico stadiums, capacities, which matches are played where, and the Final at MetLife.",
+    updatedAt: "2026-05-19",
+    readTime: 9,
+    metaDescription: "Complete guide to the 16 World Cup 2026 host cities and venues across USA, Canada and Mexico, including final venue, travel logic and tactical climate impact.",
+    keywords: [
+      "2026 World Cup host cities",
+      "World Cup 2026 venues",
+      "World Cup 2026 stadiums",
+      "New York New Jersey Stadium final",
+      "World Cup 2026 travel guide",
+    ],
     relatedMatchIds: ["west-germany-vs-argentina-1990-final","brazil-vs-germany-2002-final","argentina-vs-france-2022-final"],
+    sourceLinks: [
+      {
+        label: "FIFA 2026 hosts, cities and dates",
+        url: "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/fifa-world-cup-2026-hosts-cities-dates-usa-mexico-canada",
+      },
+      {
+        label: "FIFA 2026 match schedule",
+        url: "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/match-schedule-fixtures-results-teams-stadiums",
+      },
+      {
+        label: "FIFA final venue confirmation",
+        url: "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/new-york-new-jersey-stadium-host-world-cup-2026-final",
+      },
+    ],
+    faq: [
+      {
+        question: "How many host cities are there for the 2026 World Cup?",
+        answer:
+          "The 2026 World Cup uses 16 host cities across the United States, Canada and Mexico.",
+      },
+      {
+        question: "Where is the 2026 World Cup final?",
+        answer:
+          "The final is scheduled for Sunday 19 July 2026 at New York New Jersey Stadium.",
+      },
+      {
+        question: "Why do 2026 host cities matter tactically?",
+        answer:
+          "Travel distance, heat, altitude, roof conditions and surface adaptation can affect pressing intensity, rotation and recovery between matches.",
+      },
+    ],
     content: [
           {
                 "type": "paragraph",
-                "text": "As the world eagerly awaits the 2026 World Cup, anticipation is building not just for the matches, but for the unique venues that will host football's most prestigious tournament. Spanning across three countries—USA, Canada, and Mexico—this World Cup marks a historic moment as it will be the first to feature 48 teams, a significant increase from the 32 that participated in previous editions. In this comprehensive guide, we'll explore the 16 venues chosen for this monumental event, shedding light on their capacities, historical significance, and the experiences fans can expect."
+                "text": "The 2026 World Cup will be played across 16 host cities in the United States, Canada and Mexico. That matters for more than travel planning. The tournament stretches across different climates, time zones, stadium designs and playing conditions, so venues will influence recovery, pressing intensity, substitution timing and how coaches manage the long 104-match calendar."
           },
           {
                 "type": "heading",
@@ -2389,15 +2530,15 @@ export const ARTICLES: Article[] = [
           },
           {
                 "type": "paragraph",
-                "text": "The United States is set to host the lion's share of the matches, with 11 illustrious venues selected. MetLife Stadium in New Jersey stands out as the largest capacity stadium in the tournament, boasting a remarkable 82,500 seats. This iconic venue will host the World Cup Final, positioning it in the spotlight for one of the most anticipated moments in football history."
+                "text": "The United States hosts 11 of the 16 venues: New York New Jersey, Dallas, Los Angeles, Atlanta, Boston, Houston, Kansas City, Miami, Philadelphia, San Francisco Bay Area and Seattle. FIFA lists the final at New York New Jersey Stadium, while Dallas and Los Angeles are among the most important knockout-stage hubs."
           },
           {
                 "type": "paragraph",
-                "text": "Other notable stadiums include the AT&T Stadium in Dallas and SoFi Stadium in Los Angeles, both of which are not just modern marvels, but also capable of hosting large crowds. AT&T Stadium, with its cutting-edge facilities, has a capacity of approximately 80,000, while the sleek SoFi Stadium houses around 70,000 fans. These venues have previously hosted high-stakes games across various sports, including the NFL playoffs and Super Bowl, and will now be transformed into gladiatorial arenas for football's finest."
+                "text": "The practical split is important. East Coast venues reduce travel for teams based around New York, Boston, Philadelphia or Miami. Central venues such as Dallas, Houston, Kansas City and Atlanta create heat and recovery questions. West Coast venues such as Los Angeles, Seattle and the Bay Area may suit teams that want cooler evening conditions and shorter regional travel blocks."
           },
           {
                 "type": "quote",
-                "text": "MetLife Stadium isn't just another venue; it's where history will unfold on the world's biggest stage."
+                "text": "In 2026, the venue map is part of the tactics: travel and recovery will shape selection as much as formation."
           },
           {
                 "type": "heading",
@@ -2405,7 +2546,7 @@ export const ARTICLES: Article[] = [
           },
           {
                 "type": "paragraph",
-                "text": "In Mexico, Estadio Azteca stands as a titan of football history. This legendary stadium, with a capacity of 87,523, is not only the venue for the 1970 and 1986 World Cup Finals, which featured iconic moments like Diego Maradona's 'Hand of God' and his 'Goal of the Century', but it is also the first stadium to host two World Cup Finals. Its rich history and passionate crowd make it an unmissable venue for fans and players alike."
+                "text": "Mexico's venues are Mexico City Stadium, Guadalajara Stadium and Monterrey Stadium. Mexico City is the most tactically distinctive because of altitude and atmosphere. It hosted finals in 1970 and 1986, and it will stage the 2026 opening match. Teams that arrive without altitude planning may have to lower pressing volume and protect possession more carefully."
           },
           {
                 "type": "paragraph",
@@ -2433,15 +2574,15 @@ export const ARTICLES: Article[] = [
           },
           {
                 "type": "heading",
-                "text": "Travel Logistics for Fans: Crossing Borders"
+                "text": "Best Travel Corridors"
           },
           {
                 "type": "paragraph",
-                "text": "As fans from across the globe descend upon North America, navigating travel between countries and stadiums will be a crucial aspect of the tournament experience. With matches spread over three countries, fans attending multiple games must plan their logistics carefully. Major cities like New York, Dallas, and Mexico City have well-connected international airports, providing vital accessibility."
+                "text": "For fans, the cleanest plans are regional rather than continent-wide. A Northeast route can connect Boston, New York New Jersey and Philadelphia. A Central route can connect Dallas, Houston, Kansas City, Atlanta, Monterrey and Mexico City depending on fixtures. A Western route can connect Vancouver, Seattle, the Bay Area, Los Angeles and Guadalajara."
           },
           {
                 "type": "paragraph",
-                "text": "Moreover, the diversity of climates and cultures across the venues—from the sunny beaches of Miami to the cool breezes of Seattle—can enhance the travelling fan's experience. However, supporters need to keep in mind the local customs, travel regulations, and ticketing logistics to make the most of their World Cup journey."
+                "text": "Cross-border travel is possible, but it should not be treated like moving between compact European host cities. North American distances are large, and fixture timing matters. The best fan itinerary is usually built around one team path or one regional cluster, not a random list of stadiums."
           },
           {
                 "type": "heading",
@@ -3622,13 +3763,56 @@ export const ARTICLES: Article[] = [
     category: "2026 WC",
     categoryColor: "#FF4444",
     date: "2026-05-06",
-    readTime: 8,
-    metaDescription: "2026 World Cup Group L preview — England, Croatia, Ghana, Panama. Bellingham, Saka and England's title ambitions analyzed.",
+    updatedAt: "2026-05-19",
+    readTime: 9,
+    metaDescription: "World Cup 2026 Group L preview: England, Croatia, Ghana and Panama fixtures, tactics, key battles, England vs Croatia, qualification paths and prediction.",
+    keywords: [
+      "World Cup 2026 Group L",
+      "England Croatia Ghana Panama",
+      "England vs Croatia 2026",
+      "Group L fixtures",
+      "World Cup Group L prediction",
+    ],
     relatedMatchIds: ["england-vs-croatia-2018-sf","england-vs-france-2022-qf"],
+    sourceLinks: [
+      {
+        label: "FIFA 2026 match schedule",
+        url: "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/match-schedule-fixtures-results-teams-stadiums",
+      },
+      {
+        label: "FIFA Group qualification rules",
+        url: "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/groups-how-teams-qualify-tie-breakers",
+      },
+      {
+        label: "England vs Croatia match page",
+        url: "https://worldcuptactics.com/world-cup-2026/matches/england-vs-croatia",
+      },
+    ],
+    faq: [
+      {
+        question: "Which teams are in World Cup 2026 Group L?",
+        answer:
+          "Group L contains England, Croatia, Ghana and Panama.",
+      },
+      {
+        question: "What is the key match in Group L?",
+        answer:
+          "England vs Croatia is the key match because it is a 2018 World Cup semi-final rematch and likely shapes first place.",
+      },
+      {
+        question: "Who is predicted to qualify from Group L?",
+        answer:
+          "England are projected to finish first, Croatia second, with Ghana the most credible third-place threat and Panama needing set-piece efficiency.",
+      },
+    ],
     content: [
           {
                 "type": "paragraph",
-                "text": "As the 2026 FIFA World Cup approaches, the spotlight turns to Group L, featuring England, Croatia, Ghana, and Panama. This group promises a blend of youth, experience, and tactical battles that can ignite intense matchdays. With England and Croatia set for a rematch of their riveting 2018 semifinal, the stakes are high, while Ghana's youthful exuberance and Panama's gritty resolve add further intrigue."
+                "text": "World Cup 2026 Group L contains England, Croatia, Ghana and Panama. The headline fixture is England vs Croatia at Dallas Stadium on Wednesday 17 June 2026, a group-stage rematch of the 2018 semi-final. England have the strongest squad on paper, Croatia bring tournament control, Ghana add transition danger, and Panama make the group more physical than it first appears."
+          },
+          {
+                "type": "paragraph",
+                "text": "The group is not only about first place. Under the 48-team format, a third-place route may be available, so Ghana and Panama can treat goal difference and set pieces as part of the qualification plan. England and Croatia should still expect to advance, but one bad matchday can pull the entire group into a third-place calculation."
           },
           {
                 "type": "heading",
@@ -3636,11 +3820,11 @@ export const ARTICLES: Article[] = [
           },
           {
                 "type": "paragraph",
-                "text": "Under the guidance of Gareth Southgate or potentially a new manager by the time the tournament arrives, England will look to build on their impressive performance in Euro 2024, where they reached the final. With an abundance of attacking talent, the youngsters—led by Jude Bellingham—are expected to shoulder the expectations of a nation yearning for success. Bellingham, at just 23 years old, is already regarded as one of the best midfielders in the world, capable of dictating play and contributing both defensively and offensively."
+                "text": "England's case starts with chance creation. Jude Bellingham gives them vertical running from midfield, Bukayo Saka provides a reliable one-v-one outlet, and Harry Kane can connect attacks while still carrying penalty-box threat. The question is whether England can use that attacking depth without making the midfield too open after turnovers."
           },
           {
                 "type": "paragraph",
-                "text": "England's likely formation of either a 4-3-3 or a 4-2-3-1 allows for versatility in their attacking setup. With Bukayo Saka and Phil Foden providing width and creativity, Harry Kane will be central to their attacking strategy, both as a scorer and facilitator. As the all-time leading goal-scorer for the national team, Kane's experience and goal-scoring prowess will prove vital in tight matches."
+                "text": "A 4-2-3-1 or 4-3-3 both make sense, but the principle matters more than the label. England need one side to provide width, one midfielder to protect rest defense, and Bellingham arriving after the first line has been moved. If everyone attacks the same central spaces, Croatia and Ghana can both counter into the gaps."
           },
           {
                 "type": "quote",
@@ -3652,7 +3836,7 @@ export const ARTICLES: Article[] = [
           },
           {
                 "type": "paragraph",
-                "text": "Croatia's squad is a testament to resilience, featuring an aging but tactically astute lineup. Notably, Luka Modric, who will be a remarkable 40 years old during the tournament, could once again grace the pitch, despite questions about his physical condition. His ability to manage the tempo of the game is invaluable, and he will be crucial in orchestrating play from midfield alongside Mateo Kovacic and Marcelo Brozovic, two players who bring energy and tenacity to the Croatian midfield."
+                "text": "Croatia's tournament identity is built on midfield timing. Whether the old core plays heavy minutes or a younger group carries more of the running, the idea is the same: slow the opponent's emotional rhythm, keep the ball under pressure, and force favorites into impatient decisions. Against England, that means surviving wide pressure and making the match feel narrower."
           },
           {
                 "type": "paragraph",
@@ -3713,6 +3897,14 @@ export const ARTICLES: Article[] = [
           {
                 "type": "paragraph",
                 "text": "These dark horses have the potential to foil the anticipations of fans and pundits alike, turning Group L into one of the most intriguing sections of the tournament."
+          },
+          {
+                "type": "heading",
+                "text": "Qualification Paths"
+          },
+          {
+                "type": "paragraph",
+                "text": "England's clean path is to beat Croatia, then control the Ghana and Panama fixtures without over-rotating. Croatia's path is to avoid defeat against England and use their midfield advantage against Ghana and Panama. Ghana likely need one result against the top two or a strong win over Panama to enter the best-third-place table. Panama's path is narrower: keep games low-scoring, win set pieces, and avoid a heavy defeat that damages goal difference."
           },
           {
                 "type": "heading",
