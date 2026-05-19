@@ -41,9 +41,11 @@ Status: completed locally; pending commit and deploy.
 ### Batch 4: match and player-led demand
 
 - `brazil-2026-opening-match-preview`
-- `argentina-2026-world-cup-opener`
+- `argentina-2026-opening-match-preview`
 - `japan-2026-world-cup-dark-horse-analysis`
 - `2026-world-cup-dark-horses`
+
+Status: completed locally; pending commit and deploy.
 
 ### Batch 5: older evergreen tactical archive
 

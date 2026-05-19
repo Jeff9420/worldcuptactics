@@ -1884,13 +1884,56 @@ export const ARTICLES: Article[] = [
     category: "2026 WC",
     categoryColor: "#FF4444",
     date: "2026-05-06",
-    readTime: 8,
-    metaDescription: "Japan 2026 World Cup analysis — why Japan are genuine dark horses, their high-pressing system, key players in European leagues, and how far they can realistically go.",
+    updatedAt: "2026-05-19",
+    readTime: 9,
+    metaDescription: "Japan 2026 World Cup dark horse analysis: Group F path, pressing tactics, Mitoma, Kubo, Endo, Netherlands vs Japan and quarter-final upside.",
+    keywords: [
+      "Japan 2026 World Cup dark horse",
+      "Japan World Cup tactics",
+      "Japan Group F preview",
+      "Netherlands vs Japan 2026",
+      "Mitoma Kubo World Cup 2026",
+    ],
     relatedMatchIds: ["germany-vs-japan-2022-group","croatia-vs-japan-2022-r16","spain-vs-costa-rica-2022-group"],
+    sourceLinks: [
+      {
+        label: "FIFA 2026 match schedule",
+        url: "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/match-schedule-fixtures-results-teams-stadiums",
+      },
+      {
+        label: "Japan team tactical profile",
+        url: "https://worldcuptactics.com/world-cup-2026/teams/japan",
+      },
+      {
+        label: "Netherlands vs Japan match preview",
+        url: "https://worldcuptactics.com/world-cup-2026/matches/netherlands-vs-japan",
+      },
+    ],
+    faq: [
+      {
+        question: "Who are Japan playing in Group F at the 2026 World Cup?",
+        answer:
+          "Japan are in Group F with the Netherlands, Tunisia and Sweden.",
+      },
+      {
+        question: "Why are Japan a 2026 World Cup dark horse?",
+        answer:
+          "Japan combine coordinated pressing, technical wide players, European-based experience, and proven ability to beat elite teams from their 2022 wins over Germany and Spain.",
+      },
+      {
+        question: "How far can Japan go at the 2026 World Cup?",
+        answer:
+          "Japan have realistic Round of 16 quality and quarter-final upside if their finishing matches their pressing and transition game.",
+      },
+    ],
     content: [
           {
                 "type": "paragraph",
-                "text": "As we approach the 2026 World Cup, the rise of Japan as a serious contender demands our attention. The Samurai Blue's unexpected elimination of heavyweights Germany and Spain during the 2022 tournament left fans and analysts alike in awe. Under the shrewd guidance of coach Hajime Moriyasu, Japan has matured into one of the most tactically sophisticated teams to emerge from Asia. As a result, they now possess the potential to be the continent's most dangerous dark horse."
+                "text": "Japan are one of the clearest dark-horse teams at the 2026 World Cup because the argument is tactical, not romantic. They are in Group F with the Netherlands, Tunisia and Sweden, a group that rewards pressing structure, wide rotations and the ability to solve very different opponents. Japan have all three."
+          },
+          {
+                "type": "paragraph",
+                "text": "The search question is simple: can Japan go beyond the Round of 16? The realistic answer is yes, if their finishing keeps pace with their ball-winning. Their 2022 wins over Germany and Spain proved they can hurt elite teams. The next step is turning those one-game shocks into a repeatable tournament path."
           },
           {
                 "type": "heading",
@@ -1922,7 +1965,7 @@ export const ARTICLES: Article[] = [
           },
           {
                 "type": "paragraph",
-                "text": "As Japan prepares for the global stage once again, one of their standout strengths is an overwhelmingly European-based squad. Virtually every starter from the last World Cup now plies their trade in Europe's top leagues, lending them invaluable experience and technical skills. Players like Kaoru Mitoma, Takefusa Kubo, and Ritsu Doan are not merely representatives of their nation; they embody the highest level of competitive football."
+                "text": "As Japan prepares for the global stage again, one of their standout strengths is the number of players comfortable in European tempo. Kaoru Mitoma can carry the ball through pressure, Takefusa Kubo can receive between lines and accelerate attacks, Ritsu Doan gives direct shot threat, and Wataru Endo brings the defensive timing needed to protect the counter-press."
           },
           {
                 "type": "paragraph",
@@ -1943,6 +1986,18 @@ export const ARTICLES: Article[] = [
           {
                 "type": "paragraph",
                 "text": "Ritsu Doan has also come into sharper focus as a player who can turn games with sporadic brilliance. His knack for timely goals and direct involvement in attack makes him a valuable asset in high-pressure matches, where one moment of genius can define a team's fate. This diverse toolkit of players, underpinned by their tactical upbringing, showcases Japan's extensive armory ahead of the World Cup."
+          },
+          {
+                "type": "heading",
+                "text": "Group F Path: Netherlands First, Sweden Later"
+          },
+          {
+                "type": "paragraph",
+                "text": "Japan's most important tactical benchmark is the Netherlands match. Dutch build-up quality will test whether Japan's press can stay compact without leaving wide spaces behind the first line. Tunisia are a different problem: Japan may need more patient possession and set-piece discipline. Sweden bring aerial pressure and second-ball battles, so Japan's center-backs and holding midfielders must handle direct play without dropping too deep."
+          },
+          {
+                "type": "paragraph",
+                "text": "That variety makes Group F a useful dark-horse test. If Japan qualify cleanly from this group, it will not be because they solved one opponent type. It will mean they handled build-up control, compact defending and aerial pressure in three different matches."
           },
           {
                 "type": "quote",
@@ -5265,13 +5320,56 @@ export const ARTICLES: Article[] = [
     category: "2026 WC",
     categoryColor: "#FF4444",
     date: "2026-05-08",
-    readTime: 8,
-    metaDescription: "2026 World Cup dark horses — 5 teams who could shock the favourites. Tactical analysis of Japan, Colombia, Senegal, Uruguay, and Norway.",
+    updatedAt: "2026-05-19",
+    readTime: 9,
+    metaDescription: "2026 World Cup dark horses: tactical analysis of Japan, Colombia, Senegal, Uruguay and Norway, with group paths, upset routes and knockout upside.",
+    keywords: [
+      "2026 World Cup dark horses",
+      "World Cup 2026 underdogs",
+      "Japan Colombia Senegal Uruguay Norway",
+      "World Cup upset teams",
+      "World Cup 2026 surprise teams",
+    ],
     relatedMatchIds: ["south-korea-vs-germany-2002-sf","morocco-vs-portugal-2022-sf","japan-vs-germany-2022-r1"],
+    sourceLinks: [
+      {
+        label: "FIFA 2026 match schedule",
+        url: "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/match-schedule-fixtures-results-teams-stadiums",
+      },
+      {
+        label: "World Cup 2026 teams hub",
+        url: "https://worldcuptactics.com/world-cup-2026/teams",
+      },
+      {
+        label: "Japan dark horse deep dive",
+        url: "https://worldcuptactics.com/blog/japan-2026-world-cup-dark-horse-analysis",
+      },
+    ],
+    faq: [
+      {
+        question: "Who are the best dark horses for the 2026 World Cup?",
+        answer:
+          "Japan, Colombia, Senegal, Uruguay and Norway are the strongest dark-horse candidates because each has a clear tactical route to upset higher-ranked opponents.",
+      },
+      {
+        question: "What makes a team a World Cup dark horse?",
+        answer:
+          "A dark horse needs more than hype: it needs a repeatable tactical weapon, a manageable group path, and a way to survive knockout pressure.",
+      },
+      {
+        question: "Can a dark horse reach the 2026 World Cup semi-finals?",
+        answer:
+          "Yes. The expanded format gives more teams a route into the knockouts, but a semi-final run still requires defensive structure and set-piece or transition efficiency.",
+      },
+    ],
     content: [
           {
                 "type": "paragraph",
-                "text": "As the footballing world gears up for the 2026 FIFA World Cup, soccer fans and analysts alike are buzzing with predictions and speculations. With the tournament expanding to 48 teams, the landscape of what defines a 'dark horse' has dramatically shifted. Every World Cup produces its shock stories; in 2022, it was Morocco who captivated audiences, while in 2002, South Korea stunned the globe. Now, as we look ahead, several teams could provide similarly shocking narratives. Here are five dark horses poised to upset the established order in 2026."
+                "text": "The best 2026 World Cup dark horses are not simply teams with exciting players. They are teams with a clear upset mechanism: Japan's coordinated press, Colombia's transition threat, Senegal's duel power, Uruguay's midfield aggression and Norway's Haaland problem. Each can create a match state that favorites dislike."
+          },
+          {
+                "type": "paragraph",
+                "text": "The expanded 48-team format helps dark horses reach the knockout stage, but it does not make deep runs easy. A real dark horse needs a group path, a defensive floor, and one repeatable attacking weapon that travels under pressure. On that standard, these five teams stand out."
           },
           {
                 "type": "heading",
@@ -5315,7 +5413,7 @@ export const ARTICLES: Article[] = [
           },
           {
                 "type": "paragraph",
-                "text": "Emerging stars like Ismaila Sarr and Eduardo Camavinga bring fresh, dynamic elements to the squad, complementing the established veneration of their more experienced players. This new generation could elevate Senegal further up the tournament hierarchy, making them capable of shocking even the most prepared nations."
+                "text": "Senegal's best route is physical control plus fast wide attacks. Ismaïla Sarr and the next wave of forwards can stretch games, while the defensive core gives them a platform against teams that want clean central possession. In Group I, their matches against France and Norway will show whether that athletic edge can become a knockout-level weapon."
           },
           {
                 "type": "quote",
@@ -5347,7 +5445,7 @@ export const ARTICLES: Article[] = [
           },
           {
                 "type": "paragraph",
-                "text": "Norway's chances greatly depend on their group placement and the ability to avoid heavyweights like France in Group I. A favorable bracket could determine whether they harness their attacking capabilities effectively and manifest their potential. If everything aligns, Norway could find themselves in a position to make a run deep into the knockout stages."
+                "text": "Norway's path is difficult because France and Senegal are both in Group I, but that also makes them a useful dark-horse test. If they can give Haaland enough service against high-level defenders, they do not need long spells of control to damage stronger teams. One clean delivery can change a knockout match."
           },
           {
                 "type": "quote",
@@ -5769,13 +5867,56 @@ export const ARTICLES: Article[] = [
     category: "2026 WC",
     categoryColor: "#FF4444",
     date: "2026-05-09",
-    readTime: 8,
-    metaDescription: "Argentina 2026 World Cup opening preview — Messi at 38, defending champions, Group J analysis, and tactical breakdown of Scaloni's squad.",
+    updatedAt: "2026-05-19",
+    readTime: 9,
+    metaDescription: "Argentina 2026 World Cup opening preview: Group J path, Messi at 38, Scaloni tactics, Algeria, Austria, Jordan and the defending champions' risks.",
+    keywords: [
+      "Argentina 2026 World Cup opener",
+      "Argentina Group J preview",
+      "Messi 2026 World Cup",
+      "Argentina defending champions",
+      "Argentina Algeria Austria Jordan",
+    ],
     relatedMatchIds: ["argentina-vs-france-2022-final","argentina-vs-saudi-arabia-2022-r1"],
+    sourceLinks: [
+      {
+        label: "FIFA 2026 match schedule",
+        url: "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/match-schedule-fixtures-results-teams-stadiums",
+      },
+      {
+        label: "Argentina team tactical profile",
+        url: "https://worldcuptactics.com/world-cup-2026/teams/argentina",
+      },
+      {
+        label: "World Cup 2026 Group J guide",
+        url: "https://worldcuptactics.com/world-cup-2026/groups/j",
+      },
+    ],
+    faq: [
+      {
+        question: "Who are Argentina playing in Group J at the 2026 World Cup?",
+        answer:
+          "Argentina are in Group J with Algeria, Austria and Jordan.",
+      },
+      {
+        question: "What is Argentina's biggest risk as defending champions?",
+        answer:
+          "Argentina's biggest risk is managing Messi's minutes while keeping enough pressing intensity and midfield control to avoid slow starts.",
+      },
+      {
+        question: "Can Argentina defend the World Cup in 2026?",
+        answer:
+          "Argentina can contend again if Scaloni keeps the midfield compact and the attack evolves beyond relying on Messi for every decisive action.",
+      },
+    ],
     content: [
           {
                 "type": "paragraph",
-                "text": "As the footballing world gears up for the 2026 World Cup, all eyes will be on Argentina as they look to defend their hard-fought title. With Lionel Messi, now 38 years old, leading the charge, the question looms: can this squad replicate the triumph of 2022? The burden of being reigning champions is heavier than most can imagine, especially when considering the historical trend of World Cup victors faltering in their subsequent outing."
+                "text": "Argentina begin their 2026 World Cup title defense in Group J with Algeria, Austria and Jordan. The headline is Messi at 38, but the deeper question is structural: can Lionel Scaloni manage a defending champion through a longer tournament without making every possession depend on one creator?"
+          },
+          {
+                "type": "paragraph",
+                "text": "The opening phase matters because Argentina know exactly how quickly a World Cup can become unstable. Their 2022 loss to Saudi Arabia did not stop them winning the tournament, but it forced immediate pressure onto every remaining group match. In the 48-team format, a bad start is survivable, but it can damage rotation plans and knockout seeding."
           },
           {
                 "type": "heading",
@@ -5827,7 +5968,7 @@ export const ARTICLES: Article[] = [
           },
           {
                 "type": "paragraph",
-                "text": "Argentina finds itself in Group J, facing opponents eager to disrupt their title defense. Algeria, with their robust midfield and formidable AFCON pedigree, will certainly pose a threat, while Austria under Ralf Rangnick will present an intense pressing system that has caused problems for many teams. Lastly, Jordan, a lesser-known entity in this group, will aim to prove they can compete on the world stage."
+                "text": "Argentina's Group J opponents create three different problems. Algeria can carry the ball through pressure and turn midfield duels into transition attacks. Austria can press aggressively and make Argentina play faster than they want. Jordan are likely to defend compactly and make the champions prove they can create without forcing the final pass too early."
           },
           {
                 "type": "paragraph",
@@ -5843,7 +5984,7 @@ export const ARTICLES: Article[] = [
           },
           {
                 "type": "paragraph",
-                "text": "To secure a positive start, Argentina should adopt a possession-based strategy that emphasizes control over the match. By prioritizing ball retention, they can alleviate pressure and allow Messi to orchestrate from deeper positions. This will enable Scaloni's team to dictate the tempo and keep their opponents at bay, stifling any aggressive plays from the onset."
+                "text": "To secure a positive start, Argentina should use possession as protection, not decoration. The midfield needs to keep short distances around the ball so that losing possession does not expose the center-backs. Messi can still tilt the match from central pockets, but the team must build enough pressure through Alvarez, Mac Allister and runners from midfield that opponents cannot simply collapse around him."
           },
           {
                 "type": "paragraph",
@@ -6218,13 +6359,56 @@ export const ARTICLES: Article[] = [
     category: "2026 WC",
     categoryColor: "#FF4444",
     date: "2026-05-09",
-    readTime: 8,
-    metaDescription: "Brazil 2026 World Cup opening preview — Vinicius Jr, Rodrygo, Endrick in Group C, tactical analysis and Brazil's path to ending their 24-year wait.",
+    updatedAt: "2026-05-19",
+    readTime: 9,
+    metaDescription: "Brazil 2026 World Cup opening preview: Group C path, Brazil vs Morocco, Vinicius Jr, Rodrygo, Endrick, rest defense and title pressure.",
+    keywords: [
+      "Brazil 2026 World Cup opening match",
+      "Brazil vs Morocco 2026",
+      "Brazil Group C preview",
+      "Vinicius Rodrygo Endrick",
+      "Brazil World Cup tactics",
+    ],
     relatedMatchIds: ["brazil-vs-croatia-2022-qf","brazil-vs-germany-2014-sf"],
+    sourceLinks: [
+      {
+        label: "FIFA 2026 match schedule",
+        url: "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/match-schedule-fixtures-results-teams-stadiums",
+      },
+      {
+        label: "Brazil team tactical profile",
+        url: "https://worldcuptactics.com/world-cup-2026/teams/brazil",
+      },
+      {
+        label: "Brazil vs Morocco match preview",
+        url: "https://worldcuptactics.com/world-cup-2026/matches/brazil-vs-morocco",
+      },
+    ],
+    faq: [
+      {
+        question: "Who are Brazil playing in Group C at the 2026 World Cup?",
+        answer:
+          "Brazil are in Group C with Morocco, Haiti and Scotland.",
+      },
+      {
+        question: "Why is Brazil vs Morocco important?",
+        answer:
+          "Brazil vs Morocco is the key Group C tactical test because Morocco can defend compactly and counter into the spaces Brazil leave behind advanced fullbacks.",
+      },
+      {
+        question: "What is Brazil's biggest tactical risk in 2026?",
+        answer:
+          "Brazil's biggest risk is rest defense: the midfield must protect the first pass after turnovers if Vinicius, Rodrygo, Raphinha and the fullbacks attack high.",
+      },
+    ],
     content: [
           {
                 "type": "paragraph",
-                "text": "Brazil has not hoisted the World Cup trophy since 2002, a drought that has left a nation accustomed to glory in a state of both denial and discontent. Yet as the 2026 World Cup approaches, the Seleção find themselves flush with an unprecedented array of attacking talent, seeming to herald a new generation that could restore their lost luster on the world stage. With young stars such as Vinicius Jr., Rodrygo, and Endrick emerging as mainstays at top European clubs, the question remains whether their individual brilliance can be harnessed into a cohesive unit, or if Brazil will once again fall into the trap of relying solely on raw talent."
+                "text": "Brazil's 2026 World Cup campaign starts in Group C with Morocco, Haiti and Scotland, and the Morocco match is the immediate tactical test. This is not only a showcase for Vinicius Jr, Rodrygo, Endrick and Raphinha. It is an early answer to the question that has followed Brazil for years: can their attacking talent be protected by a stable rest-defense structure?"
+          },
+          {
+                "type": "paragraph",
+                "text": "Brazil have not won the World Cup since 2002, but this squad has enough one-v-one quality to scare every opponent. The issue is not whether Brazil can create chances. The issue is what happens when the first attack breaks down and the opponent's first pass escapes midfield pressure."
           },
           {
                 "type": "heading",
@@ -6264,7 +6448,7 @@ export const ARTICLES: Article[] = [
           },
           {
                 "type": "paragraph",
-                "text": "As Brazil eyes the knockout stages, their path in Group C presents intriguing challenges. First up are Morocco, whose remarkable run to the semi-finals in the last World Cup highlighted their tactical nous and defensive organization. The tactical imposition of their 4-3-3 defensive block effectively neutralized a free-flowing Portugal, causing more than a few raised eyebrows in the footballing world. Brazil must be wary, as Morocco is not a team to underestimate despite their previous status."
+                "text": "As Brazil eye the knockout stages, Group C presents three clear challenges. Morocco's 2022 semi-final run showed their compact defensive quality and transition threat. Haiti should be the match Brazil expect to control territorially. Scotland can make the group physical through direct play, aerial pressure and second balls."
           },
           {
                 "type": "paragraph",
