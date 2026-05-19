@@ -52,6 +52,15 @@ Status: completed locally; pending commit and deploy.
 - Prioritize articles with broad educational intent: false nine, tiki-taka, tactical masterclasses, and historical match autopsies.
 - Add clearer definitions, examples, tactical diagrams where possible, FAQ, and links to related World Cup matches.
 
+Batch 5A:
+
+- `5-greatest-tactical-masterclasses-world-cup-history`
+- `germany-7-1-brazil-tactical-autopsy`
+- `spain-tiki-taka-2010-world-cup-tactical-breakdown`
+- `evolution-of-the-false-9-world-cup`
+
+Status: completed locally; pending commit and deploy.
+
 ## Quality checklist
 
 - The first two paragraphs answer the main search query directly.

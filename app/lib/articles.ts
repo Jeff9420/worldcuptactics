@@ -169,18 +169,61 @@ export const ARTICLES: Article[] = [
     category: "Tactics",
     categoryColor: "#2DFF7C",
     date: "2026-04-28",
-    readTime: 8,
+    updatedAt: "2026-05-19",
+    readTime: 9,
     metaDescription:
-      "The five greatest tactical masterclasses in World Cup history — from Brazil 1970 to Germany vs Brazil 2014. Deep analysis of the formations and ideas that changed football.",
+      "Five World Cup tactical masterclasses explained: Brazil 1970, Total Football, France 2018, Spain 2010 and Germany 7-1 Brazil in 2014.",
+    keywords: [
+      "World Cup tactical masterclasses",
+      "greatest World Cup tactics",
+      "Brazil 1970 tactics",
+      "Spain 2010 tiki taka",
+      "Germany 7-1 Brazil tactics",
+    ],
     relatedMatchIds: [
       "germany-vs-brazil-2014-sf",
       "netherlands-vs-west-germany-1974-final",
       "brazil-vs-italy-1970-final",
     ],
+    sourceLinks: [
+      {
+        label: "FIFA: Brazil 4-1 Italy 1970 final",
+        url: "https://www.fifa.com/fr/tournaments/mens/worldcup/articles/bresil-italie-mexico-1970-finale",
+      },
+      {
+        label: "FIFA: Germany 7-1 Brazil 2014",
+        url: "https://www.fifa.com/en/articles/brazil-germany-2014",
+      },
+      {
+        label: "FIFA: Spain 2010 final and tiki-taka",
+        url: "https://www.fifa.com/en/tournaments/mens/worldcup/articles/euro-winners-world-cup-triumphs",
+      },
+    ],
+    faq: [
+      {
+        question: "What is a World Cup tactical masterclass?",
+        answer:
+          "A tactical masterclass is a match or tournament performance where one team's structure, pressing, spacing or game plan controls the opponent so clearly that the result follows from the system.",
+      },
+      {
+        question: "What is the greatest tactical performance in World Cup history?",
+        answer:
+          "Brazil's 1970 final and Germany's 7-1 over Brazil in 2014 are the two strongest candidates because both showed complete collective control in very different ways.",
+      },
+      {
+        question: "Why is Spain 2010 considered a tactical masterclass?",
+        answer:
+          "Spain controlled matches through positional play, short passing, immediate counter-pressing and midfield superiority, limiting opponents' ability to create chances.",
+      },
+    ],
     content: [
       {
         type: "paragraph",
-        text: "A tactical masterclass is not just about winning. It is about imposing your idea of football so completely that the opponent never finds a foothold — where every decision looks inevitable in hindsight and yet was the product of weeks of meticulous preparation. The World Cup, played under maximum pressure with the world watching, has produced a handful of such performances. These are the five that stand above the rest.",
+        text: "The greatest World Cup tactical masterclasses are not simply big wins. They are performances where one team uses structure, spacing, pressing or transitions so clearly that the opponent loses access to its own strengths. Brazil 1970, Netherlands 1974, France 2018, Spain 2010 and Germany 2014 all belong in that conversation for different tactical reasons.",
+      },
+      {
+        type: "paragraph",
+        text: "This list ranks performances by repeatable tactical mechanism, not nostalgia. A masterclass should explain how the team created superiority: overloads around the ball, positional rotations, transition traps, counter-pressing, or the deliberate targeting of an opponent's structural weakness.",
       },
       {
         type: "heading",
@@ -242,6 +285,14 @@ export const ARTICLES: Article[] = [
         type: "paragraph",
         text: "Germany's pressing was relentless and organized. Their positional rotations in the final third — Thomas Müller drifting, Toni Kroos finding pockets, Sami Khedira running late from deep — generated a goal every 69 seconds at one point. Four goals in a six-minute spell is not fortune. It is the consequence of perfect tactical preparation meeting a psychologically shattered opponent. It remains the most devastating single-game tactical display in World Cup history.",
       },
+      {
+        type: "heading",
+        text: "How To Spot A Masterclass",
+      },
+      {
+        type: "paragraph",
+        text: "The useful test is whether the opponent's failure was predictable from the tactical setup. Brazil 1970 overloaded Italy through movement. Spain 2010 removed time from opponents by keeping the ball and pressing instantly. Germany 2014 turned Brazil's missing defensive cover into repeated central entries. In each case, the scoreline was not just about finishing; it was a visible consequence of the plan.",
+      },
     ],
   },
   {
@@ -252,14 +303,57 @@ export const ARTICLES: Article[] = [
     category: "Match Analysis",
     categoryColor: "#F5C518",
     date: "2026-04-27",
-    readTime: 9,
+    updatedAt: "2026-05-19",
+    readTime: 10,
     metaDescription:
-      "A deep tactical autopsy of Germany's 7-1 destruction of Brazil in the 2014 World Cup semifinal — how Löw exposed every weakness in Scolari's system.",
+      "Germany 7-1 Brazil tactical autopsy: how Germany's press, midfield rotations and Brazil's structural collapse created the 2014 World Cup semi-final shock.",
     relatedMatchIds: ["germany-vs-brazil-2014-sf"],
+    keywords: [
+      "Germany 7-1 Brazil tactical analysis",
+      "Brazil Germany 2014 tactics",
+      "Mineirazo tactical autopsy",
+      "Toni Kroos 7-1 Brazil",
+      "World Cup 2014 semi-final analysis",
+    ],
+    sourceLinks: [
+      {
+        label: "FIFA: Germany hit Brazil for seven",
+        url: "https://www.fifa.com/en/articles/brazil-germany-2014",
+      },
+      {
+        label: "FIFA: Toni Kroos in the 7-1",
+        url: "https://www.fifa.com/pt/articles/copa-mundo-2014-alemanha-brasil-7-1-toni-kroos-gols",
+      },
+      {
+        label: "Archive match page: Germany vs Brazil 2014",
+        url: "https://worldcuptactics.com/matches/germany-vs-brazil-2014-sf",
+      },
+    ],
+    faq: [
+      {
+        question: "Why did Germany beat Brazil 7-1 in 2014?",
+        answer:
+          "Germany exposed Brazil's unstable defensive spacing, pressed the centre-backs, won second balls and attacked the spaces left when Brazil's back line stepped forward without cover.",
+      },
+      {
+        question: "Was Brazil 1-7 Germany just psychological collapse?",
+        answer:
+          "The psychology mattered, but the collapse came from tactical causes: poor rest defense, weak midfield cover and Germany's coordinated movement around Kroos, Müller and Khedira.",
+      },
+      {
+        question: "What was the key tactical lesson of the 7-1?",
+        answer:
+          "Elite attacking emotion is not enough without a compact structure behind the ball. Germany punished every gap Brazil left after losing possession.",
+      },
+    ],
     content: [
       {
         type: "paragraph",
-        text: "The Estádio Mineirão in Belo Horizonte is nicknamed the Mineirinho — the Little Miner. On the night of July 8, 2014, it witnessed the most seismic result in the history of the World Cup. Germany 7, Brazil 1. The host nation, missing their talisman Neymar and captain Thiago Silva, were not just beaten. They were systematically dismantled by a German team operating at the tactical peak of Joachim Löw's decade-long project.",
+        text: "Germany's 7-1 win over Brazil in the 2014 World Cup semi-final was the clearest example of tactical structure turning emotional pressure into collapse. Brazil were missing Neymar and Thiago Silva, but the defeat was not explained by absences alone. Germany pressed the build-up, attacked Brazil's poor rest defense and repeatedly found the spaces behind a back line that stepped forward without protection.",
+      },
+      {
+        type: "paragraph",
+        text: "The shock came from the scoreline. The warning signs were tactical: Brazil had no stable route out of pressure, no compact midfield screen, and no calm possession player to slow the game once Germany scored. By the time Toni Kroos and Sami Khedira started arriving into the box, the match had stopped being a contest of talent and became a stress test Brazil were structurally unable to pass.",
       },
       {
         type: "heading",
@@ -303,6 +397,18 @@ export const ARTICLES: Article[] = [
       },
       {
         type: "heading",
+        text: "Kroos As The Control Point",
+      },
+      {
+        type: "paragraph",
+        text: "Toni Kroos was the tactical control point of the rout. He did not only score twice. He positioned himself in the pockets Brazil's midfield failed to protect, received facing forward, and kept Germany's attacks moving before Brazil could reset. When Fernandinho and Luiz Gustavo were pulled toward the ball, Kroos and Khedira attacked the blind-side lane behind them.",
+      },
+      {
+        type: "paragraph",
+        text: "That is why the game still matters tactically. It shows how a midfield can destroy a defense without needing constant dribbling. Germany created superior angles, forced Brazil to turn, then attacked the next space before the host side had time to reorganize.",
+      },
+      {
+        type: "heading",
         text: "The Legacy: What 7-1 Changed",
       },
       {
@@ -323,14 +429,57 @@ export const ARTICLES: Article[] = [
     category: "Tactics",
     categoryColor: "#2DFF7C",
     date: "2026-04-26",
-    readTime: 8,
+    updatedAt: "2026-05-19",
+    readTime: 9,
     metaDescription:
-      "How Spain's tiki-taka possession system won the 2010 World Cup — the tactical principles, key players, and why it worked against every opponent in South Africa.",
+      "Spain tiki-taka 2010 tactical breakdown: how Xavi, Iniesta, Busquets and Del Bosque used possession, pressing and positional play to win the World Cup.",
     relatedMatchIds: ["spain-vs-netherlands-2010-final"],
+    keywords: [
+      "Spain tiki taka 2010 tactics",
+      "Spain 2010 World Cup tactical analysis",
+      "tiki-taka explained",
+      "Xavi Iniesta Busquets tactics",
+      "Spain Netherlands 2010 final analysis",
+    ],
+    sourceLinks: [
+      {
+        label: "FIFA: Iniesta and the 2010 final",
+        url: "https://www.fifa.com/es/articles/asi-fue-la-final-andres-iniesta-en-la-copa-mundial-fifa-sudafrica-2010",
+      },
+      {
+        label: "FIFA: EURO winners that won the World Cup",
+        url: "https://www.fifa.com/en/tournaments/mens/worldcup/articles/euro-winners-world-cup-triumphs",
+      },
+      {
+        label: "Archive match page: Spain vs Netherlands 2010",
+        url: "https://worldcuptactics.com/matches/spain-vs-netherlands-2010-final",
+      },
+    ],
+    faq: [
+      {
+        question: "What is tiki-taka?",
+        answer:
+          "Tiki-taka is a possession style based on short passing, constant support angles, positional spacing and immediate pressing after losing the ball.",
+      },
+      {
+        question: "Why did Spain's tiki-taka win the 2010 World Cup?",
+        answer:
+          "Spain controlled central midfield through Xavi, Iniesta and Busquets, limited opponent transitions, and used possession as both attack and defense.",
+      },
+      {
+        question: "Why did tiki-taka decline after 2010?",
+        answer:
+          "Opponents learned to press Spain's build-up earlier, attack behind the high line and deny the slow positional rhythm that had made the system so dominant.",
+      },
+    ],
     content: [
       {
         type: "paragraph",
-        text: "In the summer of 2010, Spain played a style of football that had never been seen at a World Cup before — and has never been replicated since. Tiki-taka: short passes, constant movement, relentless pressing when out of possession, and an almost religious belief that controlling the ball meant controlling the game. They scored just eight goals in seven matches. They did not need to score more.",
+        text: "Spain's tiki-taka won the 2010 World Cup by turning possession into control. It was not passing for decoration. It was a defensive and attacking system built on short support angles, positional spacing, immediate counter-pressing and the technical security of Xavi, Andrés Iniesta and Sergio Busquets.",
+      },
+      {
+        type: "paragraph",
+        text: "Spain scored only eight goals in seven matches, but the low total is part of the tactical story. They did not need open games. By keeping the ball for long spells, they reduced opponent attacks, managed match tempo and waited for the one clean chance that their midfield structure usually created.",
       },
       {
         type: "heading",
@@ -355,6 +504,10 @@ export const ARTICLES: Article[] = [
       {
         type: "paragraph",
         text: "Sergio Busquets was the linchpin. Playing as the single pivot in front of the back four, he screened the defense while simultaneously acting as the first passing station from deep. His spatial awareness — the ability to know where every player on the pitch was without looking — made him the quiet engine of the entire system. He rarely lost the ball. When he did, Spain's pressing triggered immediately: every player within a few meters of the ball converged simultaneously to win it back.",
+      },
+      {
+        type: "paragraph",
+        text: "The key word is distance. Spain's players stayed close enough to create safe passing lanes, but far enough apart to stretch the opponent's midfield line. That spacing meant pressure rarely arrived from a clean angle. If an opponent jumped toward Xavi, Iniesta or Busquets, the next pass usually found the newly opened space.",
       },
       {
         type: "quote",
@@ -535,14 +688,57 @@ export const ARTICLES: Article[] = [
     category: "Tactics",
     categoryColor: "#2DFF7C",
     date: "2026-04-23",
-    readTime: 7,
+    updatedAt: "2026-05-19",
+    readTime: 8,
     metaDescription:
-      "The history and evolution of the false 9 in the World Cup — from Hungary's Nándor Hidegkuti in 1954 to Messi and beyond. How football's most disorienting tactic works.",
+      "False 9 explained: how the role works, why center backs struggle with it, and how Hidegkuti, Messi and Spain shaped its World Cup evolution.",
     relatedMatchIds: ["hungary-vs-west-germany-1954-final"],
+    keywords: [
+      "false 9 explained",
+      "false nine tactics",
+      "World Cup false 9",
+      "Hidegkuti false nine",
+      "Messi false 9 tactics",
+    ],
+    sourceLinks: [
+      {
+        label: "False 9 tactical history",
+        url: "https://worldcuptactics.com/blog/evolution-of-the-false-9-world-cup",
+      },
+      {
+        label: "Spain tiki-taka tactical breakdown",
+        url: "https://worldcuptactics.com/blog/spain-tiki-taka-2010-world-cup-tactical-breakdown",
+      },
+      {
+        label: "Archive match page: Hungary vs West Germany 1954",
+        url: "https://worldcuptactics.com/matches/hungary-vs-west-germany-1954-final",
+      },
+    ],
+    faq: [
+      {
+        question: "What is a false 9 in football?",
+        answer:
+          "A false 9 is a nominal striker who drops into midfield instead of staying high, pulling center backs out of shape and creating space for runners.",
+      },
+      {
+        question: "Why is the false 9 difficult to defend?",
+        answer:
+          "Center backs must choose whether to follow the striker into midfield or hold the line. Both choices create space somewhere else.",
+      },
+      {
+        question: "Who made the false 9 famous?",
+        answer:
+          "Nándor Hidegkuti used an early version with Hungary in the 1950s, while Lionel Messi made the modern false 9 famous under Pep Guardiola at Barcelona.",
+      },
+    ],
     content: [
       {
         type: "paragraph",
-        text: "The false 9 sounds simple: instead of a traditional center forward who stays high and stretches the defense, you use a player who drops deep — into midfield — pulling center backs out of position and creating space for runners from behind. The reality is one of football's most tactically disorienting ideas, and it has produced some of the World Cup's most memorable passages of play.",
+        text: "A false 9 is a striker who behaves like a midfielder at key moments. Instead of staying high between the center backs, the player drops toward the ball, pulls defenders into uncomfortable decisions and opens space for wingers, midfield runners or a second forward to attack.",
+      },
+      {
+        type: "paragraph",
+        text: "The idea is powerful because it attacks defensive reference points. A normal back line knows where the number 9 should be. A false 9 removes that anchor. If a center back follows, the line opens. If the center back stays, the false 9 receives under little pressure and can turn to play forward.",
       },
       {
         type: "heading",
@@ -579,6 +775,14 @@ export const ARTICLES: Article[] = [
       {
         type: "paragraph",
         text: "The false 9 also stretches the opposition's defensive shape horizontally. A traditional center forward encourages a defense to concentrate centrally. A false 9 who drops to the left or right of center pulls at least one center back sideways, which opens channels for wide forwards to cut inside and find the pockets the false 9 has vacated.",
+      },
+      {
+        type: "heading",
+        text: "How Teams Defend It",
+      },
+      {
+        type: "paragraph",
+        text: "There are three common answers. One is to let a center back follow the false 9 and rely on the other defenders to cover the space behind. The second is to pass the false 9 onto a defensive midfielder. The third is to stay compact and refuse to follow, accepting that the false 9 will receive but denying the runners behind. None is perfect. The right answer depends on whether the opponent's runners are more dangerous than the false 9's passing.",
       },
       {
         type: "quote",
