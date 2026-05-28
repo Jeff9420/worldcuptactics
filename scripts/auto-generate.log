@@ -53,3 +53,97 @@
 To https://github.com/Jeff9420/worldcuptactics.git
    8dbe31f..2cd689c  main -> main
 [2026-05-08 15:33] 🚀 新文章已推送上线
+[2026-05-20 09:00] 开始自动生成...
+scripts/auto-generate.sh: line 28: md5sum: command not found
+scripts/auto-generate.sh: line 31: node: command not found
+scripts/auto-generate.sh: line 34: md5sum: command not found
+[2026-05-20 09:00] ✅ 无新内容，跳过 commit
+[2026-05-21 09:00] 开始自动生成...
+scripts/auto-generate.sh: line 28: md5sum: command not found
+scripts/auto-generate.sh: line 31: node: command not found
+scripts/auto-generate.sh: line 34: md5sum: command not found
+[2026-05-21 09:00] ✅ 无新内容，跳过 commit
+[2026-05-22 09:00] 开始自动生成...
+scripts/auto-generate.sh: line 28: md5sum: command not found
+scripts/auto-generate.sh: line 31: node: command not found
+scripts/auto-generate.sh: line 34: md5sum: command not found
+[2026-05-22 09:00] ✅ 无新内容，跳过 commit
+[2026-05-23 09:00] 开始自动生成...
+scripts/auto-generate.sh: line 28: md5sum: command not found
+scripts/auto-generate.sh: line 31: node: command not found
+scripts/auto-generate.sh: line 34: md5sum: command not found
+[2026-05-23 09:00] ✅ 无新内容，跳过 commit
+[2026-05-24 09:00] 开始自动生成...
+scripts/auto-generate.sh: line 28: md5sum: command not found
+scripts/auto-generate.sh: line 31: node: command not found
+scripts/auto-generate.sh: line 34: md5sum: command not found
+[2026-05-24 09:00] ✅ 无新内容，跳过 commit
+[2026-05-25 09:00] 开始自动生成...
+scripts/auto-generate.sh: line 28: md5sum: command not found
+scripts/auto-generate.sh: line 31: node: command not found
+scripts/auto-generate.sh: line 34: md5sum: command not found
+[2026-05-25 09:00] ✅ 无新内容，跳过 commit
+[2026-05-26 09:00] 开始自动生成...
+scripts/auto-generate.sh: line 28: md5sum: command not found
+scripts/auto-generate.sh: line 31: node: command not found
+scripts/auto-generate.sh: line 34: md5sum: command not found
+[2026-05-26 09:00] ✅ 无新内容，跳过 commit
+[2026-05-27 09:00] 开始自动生成...
+scripts/auto-generate.sh: line 28: md5sum: command not found
+scripts/auto-generate.sh: line 31: node: command not found
+scripts/auto-generate.sh: line 34: md5sum: command not found
+[2026-05-27 09:00] ✅ 无新内容，跳过 commit
+[2026-05-28 22:09] 开始自动生成...
+🚀 生成 48 篇2026预热文章
+
+⏭️  跳过 (已存在): germany-2026-world-cup-squad-analysis
+⏭️  跳过 (已存在): portugal-2026-world-cup-squad-analysis
+⏭️  跳过 (已存在): morocco-2026-world-cup-squad-analysis
+⏭️  跳过 (已存在): netherlands-2026-world-cup-squad-analysis
+⏭️  跳过 (已存在): japan-2026-world-cup-dark-horse-analysis
+⏭️  跳过 (已存在): 2026-world-cup-group-of-death
+⏭️  跳过 (已存在): 2026-world-cup-48-teams-tactical-impact
+⏭️  跳过 (已存在): 2026-world-cup-5-tactical-battles
+⏭️  跳过 (已存在): 2026-vs-2022-world-cup-differences
+⏭️  跳过 (已存在): 2026-world-cup-new-rules-format-explained
+⏭️  跳过 (已存在): 2026-world-cup-host-cities-venues-guide
+⏭️  跳过 (已存在): 2026-world-cup-group-a-preview
+⏭️  跳过 (已存在): 2026-world-cup-group-b-preview
+⏭️  跳过 (已存在): 2026-world-cup-group-c-preview
+⏭️  跳过 (已存在): 2026-world-cup-group-d-preview
+⏭️  跳过 (已存在): 2026-world-cup-group-e-preview
+⏭️  跳过 (已存在): 2026-world-cup-group-f-preview
+⏭️  跳过 (已存在): 2026-world-cup-group-g-preview
+⏭️  跳过 (已存在): 2026-world-cup-group-h-preview
+⏭️  跳过 (已存在): 2026-world-cup-group-i-preview
+⏭️  跳过 (已存在): 2026-world-cup-group-j-preview
+⏭️  跳过 (已存在): 2026-world-cup-group-k-preview
+⏭️  跳过 (已存在): 2026-world-cup-group-l-preview
+⏭️  跳过 (已存在): france-2026-world-cup-tactical-analysis
+⏭️  跳过 (已存在): argentina-2026-world-cup-tactical-analysis
+⏭️  跳过 (已存在): england-2026-world-cup-tactical-analysis
+⏭️  跳过 (已存在): spain-2026-world-cup-tactical-analysis
+⏭️  跳过 (已存在): brazil-2026-world-cup-tactical-analysis
+⏭️  跳过 (已存在): germany-2026-world-cup-tactical-analysis
+⏭️  跳过 (已存在): portugal-2026-world-cup-tactical-analysis
+⏭️  跳过 (已存在): netherlands-2026-world-cup-tactical-analysis
+⏭️  跳过 (已存在): 2026-world-cup-winner-prediction
+⏭️  跳过 (已存在): 2026-world-cup-group-stage-predictions
+⏭️  跳过 (已存在): 2026-world-cup-dark-horses
+⏭️  跳过 (已存在): 2026-world-cup-ones-to-watch
+⏭️  跳过 (已存在): 2026-world-cup-tactical-trends
+⏭️  跳过 (已存在): 2026-world-cup-bracket-simulator
+⏭️  跳过 (已存在): mexico-vs-south-africa-2026-preview
+⏭️  跳过 (已存在): argentina-2026-opening-match-preview
+⏭️  跳过 (已存在): france-2026-opening-match-preview
+⏭️  跳过 (已存在): england-vs-croatia-2026-preview
+⏭️  跳过 (已存在): usa-2026-home-world-cup-preview
+⏭️  跳过 (已存在): brazil-2026-opening-match-preview
+⏭️  跳过 (已存在): 2026-world-cup-ticket-prices-scandal
+⏭️  跳过 (已存在): 2026-world-cup-var-rules-changes
+⏭️  跳过 (已存在): 2026-world-cup-prize-money
+⏭️  跳过 (已存在): 2026-world-cup-host-cities-atmosphere
+⏭️  跳过 (已存在): messi-last-world-cup-legacy
+
+📊 完成: 0 成功, 0 失败
+[2026-05-28 22:09] ✅ 无新内容，跳过 commit

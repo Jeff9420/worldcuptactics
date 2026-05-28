@@ -2,6 +2,9 @@
 # 自动生成文章 + 检测变化 + commit + push
 # 由 cron 定时调用，无需人工干预
 
+# cron 默认 PATH 极简，必须显式注入 node (nvm) / git / md5
+export PATH="$HOME/.nvm/versions/node/v24.12.0/bin:/usr/local/bin:/opt/homebrew/bin:/usr/bin:/bin:/usr/sbin:/sbin"
+
 SCRIPT_DIR="$HOME/worldcuptactics"
 ENV_FILE="$SCRIPT_DIR/.env.local"
 LOG_FILE="$SCRIPT_DIR/scripts/auto-generate.log"
