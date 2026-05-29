@@ -147,3 +147,211 @@ scripts/auto-generate.sh: line 34: md5sum: command not found
 
 📊 完成: 0 成功, 0 失败
 [2026-05-28 22:09] ✅ 无新内容，跳过 commit
+[2026-05-29 09:00] 开始自动生成...
+📅 今日新增日选题: 2026-05-29-final-squad-announcement-day-tracker
+🚀 生成 69 篇2026预热文章
+
+⏭️  跳过 (已存在): germany-2026-world-cup-squad-analysis
+⏭️  跳过 (已存在): portugal-2026-world-cup-squad-analysis
+⏭️  跳过 (已存在): morocco-2026-world-cup-squad-analysis
+⏭️  跳过 (已存在): netherlands-2026-world-cup-squad-analysis
+⏭️  跳过 (已存在): japan-2026-world-cup-dark-horse-analysis
+⏭️  跳过 (已存在): 2026-world-cup-group-of-death
+⏭️  跳过 (已存在): 2026-world-cup-48-teams-tactical-impact
+⏭️  跳过 (已存在): 2026-world-cup-5-tactical-battles
+⏭️  跳过 (已存在): 2026-vs-2022-world-cup-differences
+⏭️  跳过 (已存在): 2026-world-cup-new-rules-format-explained
+⏭️  跳过 (已存在): 2026-world-cup-host-cities-venues-guide
+⏭️  跳过 (已存在): 2026-world-cup-group-a-preview
+⏭️  跳过 (已存在): 2026-world-cup-group-b-preview
+⏭️  跳过 (已存在): 2026-world-cup-group-c-preview
+⏭️  跳过 (已存在): 2026-world-cup-group-d-preview
+⏭️  跳过 (已存在): 2026-world-cup-group-e-preview
+⏭️  跳过 (已存在): 2026-world-cup-group-f-preview
+⏭️  跳过 (已存在): 2026-world-cup-group-g-preview
+⏭️  跳过 (已存在): 2026-world-cup-group-h-preview
+⏭️  跳过 (已存在): 2026-world-cup-group-i-preview
+⏭️  跳过 (已存在): 2026-world-cup-group-j-preview
+⏭️  跳过 (已存在): 2026-world-cup-group-k-preview
+⏭️  跳过 (已存在): 2026-world-cup-group-l-preview
+⏭️  跳过 (已存在): france-2026-world-cup-tactical-analysis
+⏭️  跳过 (已存在): argentina-2026-world-cup-tactical-analysis
+⏭️  跳过 (已存在): england-2026-world-cup-tactical-analysis
+⏭️  跳过 (已存在): spain-2026-world-cup-tactical-analysis
+⏭️  跳过 (已存在): brazil-2026-world-cup-tactical-analysis
+⏭️  跳过 (已存在): germany-2026-world-cup-tactical-analysis
+⏭️  跳过 (已存在): portugal-2026-world-cup-tactical-analysis
+⏭️  跳过 (已存在): netherlands-2026-world-cup-tactical-analysis
+⏭️  跳过 (已存在): 2026-world-cup-winner-prediction
+⏭️  跳过 (已存在): 2026-world-cup-group-stage-predictions
+⏭️  跳过 (已存在): 2026-world-cup-dark-horses
+⏭️  跳过 (已存在): 2026-world-cup-ones-to-watch
+⏭️  跳过 (已存在): 2026-world-cup-tactical-trends
+⏭️  跳过 (已存在): 2026-world-cup-bracket-simulator
+⏭️  跳过 (已存在): mexico-vs-south-africa-2026-preview
+⏭️  跳过 (已存在): argentina-2026-opening-match-preview
+⏭️  跳过 (已存在): france-2026-opening-match-preview
+⏭️  跳过 (已存在): england-vs-croatia-2026-preview
+⏭️  跳过 (已存在): usa-2026-home-world-cup-preview
+⏭️  跳过 (已存在): brazil-2026-opening-match-preview
+⏭️  跳过 (已存在): 2026-world-cup-ticket-prices-scandal
+⏭️  跳过 (已存在): 2026-world-cup-var-rules-changes
+⏭️  跳过 (已存在): 2026-world-cup-prize-money
+⏭️  跳过 (已存在): 2026-world-cup-host-cities-atmosphere
+⏭️  跳过 (已存在): messi-last-world-cup-legacy
+[49/69] 生成: France's 2026 Final 26-Man Squad: Deschamps' Hardest Decisions
+  ✅ 完成: france-2026-final-26-man-squad-analysis
+[50/69] 生成: Argentina's 2026 Final Squad Announced: Who Scaloni Left Out
+  ✅ 完成: argentina-2026-final-26-man-squad
+[51/69] 生成: Brazil's 2026 Squad Revealed: Dorival's 26 to End 24 Years of Hurt
+  ⚠️  重试: Bad control character in string literal in JSON at position 6296 (line 23 column 167)
+  ✅ 完成: brazil-2026-final-26-man-squad
+[52/69] 生成: England's 2026 Squad Announced: Bellingham, Foden, and Two Shock Picks
+  ✅ 完成: england-2026-final-26-man-squad
+[53/69] 生成: Spain's 2026 Squad: De La Fuente's Bold Youth Call
+  ✅ 完成: spain-2026-final-26-man-squad
+[54/69] 生成: How to Watch the 2026 World Cup in the United States: Complete Streaming Guide
+[2026-05-29 09:02] 开始自动生成...
+📅 今日新增日选题: 2026-05-29-final-squad-announcement-day-tracker
+🚀 生成 69 篇2026预热文章
+
+⏭️  跳过 (已存在): germany-2026-world-cup-squad-analysis
+⏭️  跳过 (已存在): portugal-2026-world-cup-squad-analysis
+⏭️  跳过 (已存在): morocco-2026-world-cup-squad-analysis
+⏭️  跳过 (已存在): netherlands-2026-world-cup-squad-analysis
+⏭️  跳过 (已存在): japan-2026-world-cup-dark-horse-analysis
+⏭️  跳过 (已存在): 2026-world-cup-group-of-death
+⏭️  跳过 (已存在): 2026-world-cup-48-teams-tactical-impact
+⏭️  跳过 (已存在): 2026-world-cup-5-tactical-battles
+⏭️  跳过 (已存在): 2026-vs-2022-world-cup-differences
+⏭️  跳过 (已存在): 2026-world-cup-new-rules-format-explained
+⏭️  跳过 (已存在): 2026-world-cup-host-cities-venues-guide
+⏭️  跳过 (已存在): 2026-world-cup-group-a-preview
+⏭️  跳过 (已存在): 2026-world-cup-group-b-preview
+⏭️  跳过 (已存在): 2026-world-cup-group-c-preview
+⏭️  跳过 (已存在): 2026-world-cup-group-d-preview
+⏭️  跳过 (已存在): 2026-world-cup-group-e-preview
+⏭️  跳过 (已存在): 2026-world-cup-group-f-preview
+⏭️  跳过 (已存在): 2026-world-cup-group-g-preview
+⏭️  跳过 (已存在): 2026-world-cup-group-h-preview
+⏭️  跳过 (已存在): 2026-world-cup-group-i-preview
+⏭️  跳过 (已存在): 2026-world-cup-group-j-preview
+⏭️  跳过 (已存在): 2026-world-cup-group-k-preview
+⏭️  跳过 (已存在): 2026-world-cup-group-l-preview
+⏭️  跳过 (已存在): france-2026-world-cup-tactical-analysis
+⏭️  跳过 (已存在): argentina-2026-world-cup-tactical-analysis
+⏭️  跳过 (已存在): england-2026-world-cup-tactical-analysis
+⏭️  跳过 (已存在): spain-2026-world-cup-tactical-analysis
+⏭️  跳过 (已存在): brazil-2026-world-cup-tactical-analysis
+⏭️  跳过 (已存在): germany-2026-world-cup-tactical-analysis
+⏭️  跳过 (已存在): portugal-2026-world-cup-tactical-analysis
+⏭️  跳过 (已存在): netherlands-2026-world-cup-tactical-analysis
+⏭️  跳过 (已存在): 2026-world-cup-winner-prediction
+⏭️  跳过 (已存在): 2026-world-cup-group-stage-predictions
+⏭️  跳过 (已存在): 2026-world-cup-dark-horses
+⏭️  跳过 (已存在): 2026-world-cup-ones-to-watch
+⏭️  跳过 (已存在): 2026-world-cup-tactical-trends
+⏭️  跳过 (已存在): 2026-world-cup-bracket-simulator
+⏭️  跳过 (已存在): mexico-vs-south-africa-2026-preview
+⏭️  跳过 (已存在): argentina-2026-opening-match-preview
+⏭️  跳过 (已存在): france-2026-opening-match-preview
+⏭️  跳过 (已存在): england-vs-croatia-2026-preview
+⏭️  跳过 (已存在): usa-2026-home-world-cup-preview
+⏭️  跳过 (已存在): brazil-2026-opening-match-preview
+⏭️  跳过 (已存在): 2026-world-cup-ticket-prices-scandal
+⏭️  跳过 (已存在): 2026-world-cup-var-rules-changes
+⏭️  跳过 (已存在): 2026-world-cup-prize-money
+⏭️  跳过 (已存在): 2026-world-cup-host-cities-atmosphere
+⏭️  跳过 (已存在): messi-last-world-cup-legacy
+⏭️  跳过 (已存在): france-2026-final-26-man-squad-analysis
+⏭️  跳过 (已存在): argentina-2026-final-26-man-squad
+⏭️  跳过 (已存在): brazil-2026-final-26-man-squad
+⏭️  跳过 (已存在): england-2026-final-26-man-squad
+⏭️  跳过 (已存在): spain-2026-final-26-man-squad
+[54/69] 生成: How to Watch the 2026 World Cup in the United States: Complete Streaming Guide
+  ✅ 完成: how-to-watch-2026-world-cup-united-states
+[55/69] 生成: How to Watch the 2026 World Cup Outside the US: UK, India, Brazil and Beyond
+  ✅ 完成: how-to-watch-2026-world-cup-united-states
+[55/69] 生成: How to Watch the 2026 World Cup Outside the US: UK, India, Brazil and Beyond
+  ⚠️  重试: Unexpected token '\', ...", "text": \"Football"... is not valid JSON
+  ✅ 完成: how-to-watch-2026-world-cup-uk-global
+[56/69] 生成: Buying 2026 World Cup Tickets on Resale: Avoid the Scams
+  ✅ 完成: how-to-watch-2026-world-cup-uk-global
+  ✅ 完成: 2026-world-cup-ticket-resale-guide
+[56/69] 生成: Buying 2026 World Cup Tickets on Resale: Avoid the Scams
+  📦 使用缓存...
+  ✅ 完成: 2026-world-cup-ticket-resale-guide
+[57/69] 生成: 2026 World Cup Odds: Who Bookmakers Think Will Win and Why
+[57/69] 生成: 2026 World Cup Odds: Who Bookmakers Think Will Win and Why
+  ✅ 完成: 2026-world-cup-odds-bookmaker-predictions
+[58/69] 生成: AI Supercomputer Predictions for the 2026 World Cup: What the Models Say
+  ✅ 完成: 2026-world-cup-odds-bookmaker-predictions
+[58/69] 生成: AI Supercomputer Predictions for the 2026 World Cup: What the Models Say
+  ⚠️  重试: Bad control character in string literal in JSON at position 3507 (line 13 column 352)
+  ✅ 完成: 2026-world-cup-ai-supercomputer-predictions
+[59/69] 生成: Maple, Zayu, Clutch: The Story Behind the 2026 World Cup Mascots
+  ✅ 完成: 2026-world-cup-mascot-zayu-maple-clutch
+  ✅ 完成: 2026-world-cup-ai-supercomputer-predictions
+[60/69] 生成: Every 2026 World Cup Kit Ranked: The Best and Worst Jerseys
+[59/69] 生成: Maple, Zayu, Clutch: The Story Behind the 2026 World Cup Mascots
+  📦 使用缓存...
+  ✅ 完成: 2026-world-cup-mascot-zayu-maple-clutch
+[60/69] 生成: Every 2026 World Cup Kit Ranked: The Best and Worst Jerseys
+  ✅ 完成: 2026-world-cup-kit-rankings
+  ✅ 完成: 2026-world-cup-kit-rankings
+[61/69] 生成: 14 Days to Kickoff: Every Contender's Final Pre-Tournament Form Check
+[61/69] 生成: 14 Days to Kickoff: Every Contender's Final Pre-Tournament Form Check
+  ✅ 完成: 2026-world-cup-countdown-14-days-form-check
+[62/69] 生成: 2026 World Cup Opening Ceremony at the Azteca: What to Expect
+  ✅ 完成: 2026-world-cup-countdown-14-days-form-check
+[62/69] 生成: 2026 World Cup Opening Ceremony at the Azteca: What to Expect
+  ✅ 完成: 2026-world-cup-opening-ceremony-azteca
+[63/69] 生成: Lamine Yamal at His First World Cup: Can an 18-Year-Old Change History?
+  ✅ 完成: 2026-world-cup-opening-ceremony-azteca
+[63/69] 生成: Lamine Yamal at His First World Cup: Can an 18-Year-Old Change History?
+  ✅ 完成: lamine-yamal-first-world-cup-2026
+[64/69] 生成: All 48 World Cup 2026 Head Coaches Ranked
+  ✅ 完成: lamine-yamal-first-world-cup-2026
+[64/69] 生成: All 48 World Cup 2026 Head Coaches Ranked
+  ✅ 完成: every-2026-world-cup-coach-ranked
+[65/69] 生成: Heat, Altitude, and Travel: The Hidden Tactical Battles of the 2026 World Cup
+  ✅ 完成: every-2026-world-cup-coach-ranked
+[65/69] 生成: Heat, Altitude, and Travel: The Hidden Tactical Battles of the 2026 World Cup
+  ✅ 完成: 2026-world-cup-altitude-heat-tactical-impact
+[66/69] 生成: Modrić, Ronaldo, Messi: The Last Dance at the 2026 World Cup
+  ⚠️  重试: Unexpected token '\', ...", "text": \"Altitude"... is not valid JSON
+  ✅ 完成: modric-ronaldo-messi-last-dance-2026
+[67/69] 生成: Erling Haaland's First World Cup: Can He Drag Norway to the Knockouts?
+  ⚠️  重试: Unexpected token '\', ...", "text": \"As teams"... is not valid JSON
+  ✅ 完成: 2026-world-cup-haaland-norway-deep-run-possible
+[68/69] 生成: Golden Boot Race 2026: Mbappé, Haaland, Kane, Yamal — Who Wins the Top Scorer Award?
+  ✅ 完成: 2026-world-cup-altitude-heat-tactical-impact
+  ✅ 完成: 2026-world-cup-mbappe-haaland-yamal-golden-boot-race
+[66/69] 生成: Modrić, Ronaldo, Messi: The Last Dance at the 2026 World Cup
+  📦 使用缓存...
+[69/69] 生成: Final Squad Announcement Day: Tracking Every Federation's 26-Man List
+  ✅ 完成: modric-ronaldo-messi-last-dance-2026
+[67/69] 生成: Erling Haaland's First World Cup: Can He Drag Norway to the Knockouts?
+  📦 使用缓存...
+  ✅ 完成: 2026-world-cup-haaland-norway-deep-run-possible
+[68/69] 生成: Golden Boot Race 2026: Mbappé, Haaland, Kane, Yamal — Who Wins the Top Scorer Award?
+  📦 使用缓存...
+  ✅ 完成: 2026-world-cup-mbappe-haaland-yamal-golden-boot-race
+[69/69] 生成: Final Squad Announcement Day: Tracking Every Federation's 26-Man List
+  ✅ 完成: 2026-05-29-final-squad-announcement-day-tracker
+
+📊 完成: 21 成功, 0 失败
+[main 4c9aefe] feat: auto-generate articles [2026-05-29] — 100 total
+ Author: Claude Automation <noreply@anthropic.com>
+ 1 file changed, 3971 insertions(+)
+fatal: could not read Username for 'https://github.com': Device not configured
+[2026-05-29 09:00] 🚀 新文章已推送上线
+  ✅ 完成: 2026-05-29-final-squad-announcement-day-tracker
+
+📊 完成: 16 成功, 0 失败
+[main df59c6c] feat: auto-generate articles [2026-05-29] — 101 total
+ Author: Claude Automation <noreply@anthropic.com>
+ 1 file changed, 101 insertions(+)
+To https://github.com/Jeff9420/worldcuptactics.git
+   18f59ea..df59c6c  main -> main
+[2026-05-29 09:02] 🚀 新文章已推送上线
