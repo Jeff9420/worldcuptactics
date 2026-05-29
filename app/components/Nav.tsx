@@ -2,54 +2,9 @@
 
 import Link from "next/link";
 import { usePathname } from "next/navigation";
-import { useEffect, useMemo, useState } from "react";
-import { createClient } from "../lib/supabase-browser";
-import { AuthChangeEvent, Session, User } from "@supabase/supabase-js";
 
 export default function Nav() {
   const pathname = usePathname();
-  const [user, setUser] = useState<User | null>(null);
-  const [isPro, setIsPro] = useState(false);
-  const supabase = useMemo(() => createClient(), []);
-
-  useEffect(() => {
-    const fetchSession = async () => {
-      const { data: { session } } = await supabase.auth.getSession();
-      if (session?.user) {
-        setUser(session.user);
-        // Fetch profile to see if pro
-        const { data } = await supabase
-          .from('profiles')
-          .select('is_pro')
-          .eq('id', session.user.id)
-          .single();
-        if (data?.is_pro) {
-          setIsPro(true);
-        }
-      }
-    };
-    fetchSession();
-
-    const { data: authListener } = supabase.auth.onAuthStateChange(async (_event: AuthChangeEvent, session: Session | null) => {
-      if (session?.user) {
-        setUser(session.user);
-        const { data } = await supabase.from('profiles').select('is_pro').eq('id', session.user.id).single();
-        setIsPro(data?.is_pro || false);
-      } else {
-        setUser(null);
-        setIsPro(false);
-      }
-    });
-
-    return () => {
-      authListener.subscription.unsubscribe();
-    };
-  }, [supabase]);
-
-  const handleLogout = async () => {
-    await supabase.auth.signOut();
-    window.location.href = "/"; // Force a hard reload to clear all server/client states
-  };
 
   return (
     <nav>
@@ -75,31 +30,6 @@ export default function Nav() {
         <Link href="/contact" className={`nav-link ${pathname === "/contact" ? "active" : ""}`}>
           Contact
         </Link>
-      </div>
-      <div className="nav-right">
-        {user ? (
-          <>
-            <div className="nav-link" style={{ fontSize: '0.8rem', color: 'var(--text-muted)' }}>
-              {user.email}
-              {isPro && <span style={{ marginLeft: '8px', background: 'var(--gold)', color: '#000', padding: '2px 6px', borderRadius: '4px', fontWeight: 'bold' }}>PRO</span>}
-            </div>
-            {!isPro && (
-            <Link href="/pro" prefetch={false} className="btn-primary" style={{ padding: '0.5rem 1rem', display: 'inline-flex', textDecoration: 'none' }}>
-              Upgrade
-            </Link>
-            )}
-            <button className="btn-ghost" onClick={handleLogout}>Logout</button>
-          </>
-        ) : (
-          <>
-            <Link href="/login" prefetch={false} className="btn-ghost" style={{ display: 'inline-flex', textDecoration: 'none' }}>
-              Sign In
-            </Link>
-            <Link href="/pro" prefetch={false} className="btn-primary" style={{ display: 'inline-flex', textDecoration: 'none' }}>
-              Get Pro
-            </Link>
-          </>
-        )}
       </div>
     </nav>
   );

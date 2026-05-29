@@ -6,8 +6,6 @@ import { Match, getPlayerPositions } from "../../lib/matches";
 import { getPlayerProfile, STAT_LABELS } from "../../lib/players";
 import RadarChart from "../../components/RadarChart";
 import AdUnit from "../../components/AdUnit";
-import { createClient } from "../../lib/supabase-browser";
-import { useEffect } from "react";
 
 type Tab = "tactics" | "stats" | "timeline" | "ai" | "players";
 
@@ -75,22 +73,6 @@ export default function MatchDetail({
 }) {
   const [activeTab, setActiveTab] = useState<Tab>("tactics");
   const [activeCtrl, setActiveCtrl] = useState("Formation");
-  const [isPro, setIsPro] = useState<boolean | null>(null);
-
-  const supabase = createClient();
-
-  useEffect(() => {
-    const checkPro = async () => {
-      const { data: { session } } = await supabase.auth.getSession();
-      if (!session) {
-        setIsPro(false);
-        return;
-      }
-      const { data } = await supabase.from('profiles').select('is_pro').eq('id', session.user.id).single();
-      setIsPro(data?.is_pro === true);
-    };
-    checkPro();
-  }, [supabase]);
 
   const homePos = getPlayerPositions(match.home.formation, match.home.players, "home");
   const awayPos = getPlayerPositions(match.away.formation, match.away.players, "away");
@@ -191,7 +173,7 @@ export default function MatchDetail({
           </div>
 
           {/* ─── AD BANNER (non-pro only) ─── */}
-          {isPro === false && (
+          {false && (
             <AdUnit
               slot={process.env.NEXT_PUBLIC_ADSENSE_SLOT_BANNER ?? ""}
               format="horizontal"
@@ -590,7 +572,7 @@ export default function MatchDetail({
           )}
 
           {/* ─── AD RECTANGLE IN STATS (non-pro only) ─── */}
-          {activeTab === "stats" && isPro === false && (
+          {activeTab === "stats" && false && (
             <AdUnit
               slot={process.env.NEXT_PUBLIC_ADSENSE_SLOT_RECTANGLE ?? ""}
               format="rectangle"
@@ -690,7 +672,7 @@ export default function MatchDetail({
           )}
 
           {/* ─── AD RECTANGLE IN TIMELINE (non-pro only) ─── */}
-          {activeTab === "timeline" && isPro === false && (
+          {activeTab === "timeline" && false && (
             <AdUnit
               slot={process.env.NEXT_PUBLIC_ADSENSE_SLOT_RECTANGLE ?? ""}
               format="rectangle"
@@ -701,7 +683,7 @@ export default function MatchDetail({
           {/* ─── AI REPORT TAB ─── */}
           {activeTab === "ai" && (
             <div style={{ position: "relative" }}>
-              {isPro === false && (
+              {false && (
                 <div style={{
                   position: "absolute",
                   top: 0, left: 0, right: 0, bottom: 0,
@@ -729,7 +711,7 @@ export default function MatchDetail({
                 </div>
               )}
               
-              <div style={{ filter: isPro === false ? "blur(4px)" : "none", pointerEvents: isPro === false ? "none" : "auto", userSelect: isPro === false ? "none" : "auto" }}>
+              <div style={{ filter: false ? "blur(4px)" : "none", pointerEvents: false ? "none" : "auto", userSelect: false ? "none" : "auto" }}>
                 <div className="ai-insight" style={{ marginBottom: "1rem" }}>
                   <div className="insight-label">🤖 AI Tactical Analysis</div>
                   <div className="insight-text" style={{ whiteSpace: "pre-line" }}>
