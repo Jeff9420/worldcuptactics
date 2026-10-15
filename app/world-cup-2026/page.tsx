@@ -82,8 +82,21 @@ export default function WorldCup2026Page() {
   const latest = articles.filter((article) => !FEATURED_SLUGS.includes(article.slug)).slice(0, 18);
   const groupPreviews = articles.filter((article) => /group [a-l]/i.test(article.title)).slice(0, 12);
 
+  const breadcrumbJsonLd = {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    itemListElement: [
+      { "@type": "ListItem", position: 1, name: "Home", item: "https://worldcuptactics.com" },
+      { "@type": "ListItem", position: 2, name: "World Cup 2026", item: HUB_URL },
+    ],
+  };
+
   return (
     <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbJsonLd) }}
+      />
       <Nav />
 
       <main>

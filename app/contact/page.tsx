@@ -5,6 +5,9 @@ export const metadata: Metadata = {
   title: "Contact Us | WorldCupTactics",
   description:
     "Get in touch with the WorldCupTactics team — questions, feedback, partnership enquiries, and press requests welcome.",
+  alternates: {
+    canonical: "https://worldcuptactics.com/contact",
+  },
 };
 
 const TOPICS = [

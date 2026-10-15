@@ -7,6 +7,9 @@ export const metadata: Metadata = {
   title: "Tactical Analysis Blog | WorldCupTactics",
   description:
     "Deep tactical analysis articles on the World Cup — formations, legendary teams, iconic matches, and the ideas that shaped modern football.",
+  alternates: {
+    canonical: "https://worldcuptactics.com/blog",
+  },
 };
 
 const CATEGORIES = ["All", "2026 WC", "Tactics", "Match Analysis", "Legends", "Player Analysis"];

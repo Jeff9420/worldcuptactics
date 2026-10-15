@@ -5,6 +5,9 @@ export const metadata: Metadata = {
   title: "About WorldCupTactics | AI-Powered Football Tactical Analysis",
   description:
     "WorldCupTactics is an AI-powered platform delivering deep tactical analysis of every World Cup match — formations, xG, key moments, and historical context.",
+  alternates: {
+    canonical: "https://worldcuptactics.com/about",
+  },
 };
 
 export default function AboutPage() {

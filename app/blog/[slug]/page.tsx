@@ -29,7 +29,7 @@ export async function generateMetadata({
   const url = `https://worldcuptactics.com/blog/${article.slug}`;
 
   return {
-    title: `${article.title} | WorldCupTactics`,
+    title: article.seoTitle ?? `${article.title} | WorldCupTactics`,
     description: article.metaDescription,
     alternates: {
       canonical: url,
