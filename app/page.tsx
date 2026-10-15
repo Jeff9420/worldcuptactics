@@ -1,3 +1,4 @@
+import type { Metadata } from "next";
 import Link from "next/link";
 import Nav from "./components/Nav";
 import EmailCapture from "./components/EmailCapture";
@@ -14,9 +15,45 @@ const GRID_MATCHES = [
   MATCHES.find((m) => m.id === "uruguay-vs-brazil-1950-final")!,
 ];
 
+const SITE_URL = "https://worldcuptactics.com";
+
+export const metadata: Metadata = {
+  title: "World Cup Tactical Analysis & Breakdowns | WorldCupTactics",
+  description:
+    "Tactical breakdowns of the greatest World Cup matches: formations, xG models and key moments from 1950 to 2026, plus a World Cup 2026 tactical guide.",
+  alternates: {
+    canonical: SITE_URL,
+  },
+};
+
 export default function Home() {
+  const websiteJsonLd = {
+    "@context": "https://schema.org",
+    "@type": "WebSite",
+    name: "WorldCupTactics",
+    url: SITE_URL,
+    description:
+      "Deep tactical analysis of the greatest World Cup matches ever played — formations, xG models, AI insights, and historical context from 1950 to 2026.",
+    inLanguage: "en-US",
+    publisher: { "@type": "Organization", name: "WorldCupTactics", url: SITE_URL },
+  };
+  const organizationJsonLd = {
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    name: "WorldCupTactics",
+    url: SITE_URL,
+  };
+
   return (
     <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(websiteJsonLd) }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(organizationJsonLd) }}
+      />
       <Nav />
 
       {/* HERO */}
@@ -32,7 +69,7 @@ export default function Home() {
             BY AI
           </h1>
           <p className="hero-subtitle">
-            Deep tactical analysis of the greatest World Cup matches ever played — formations, xG models, AI insights, and historical context from 1954 to 2026.
+            Deep tactical analysis of the greatest World Cup matches ever played — formations, xG models, AI insights, and historical context from 1950 to 2026.
           </p>
           <div className="hero-actions">
             <Link href="/matches" className="btn-hero">Explore Matches</Link>

@@ -5,6 +5,9 @@ export const metadata: Metadata = {
   title: "Privacy Policy | WorldCupTactics",
   description:
     "Privacy Policy for WorldCupTactics.com — how we collect, use, and protect your data.",
+  alternates: {
+    canonical: "https://worldcuptactics.com/privacy",
+  },
 };
 
 export default function PrivacyPage() {

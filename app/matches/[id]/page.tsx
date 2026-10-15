@@ -26,9 +26,11 @@ export async function generateMetadata({
       ? " AET"
       : "";
   const url = `https://worldcuptactics.com/matches/${match.id}`;
+  const baseTitle = `${match.home.name} ${score}${statusSuffix} ${match.away.name} (${match.year} World Cup) Tactical Analysis`;
+  const brandedTitle = `${baseTitle} | WorldCupTactics`;
 
   return {
-    title: `${match.home.name} ${score}${statusSuffix} ${match.away.name} — ${match.tournament} | WorldCupTactics`,
+    title: brandedTitle.length <= 60 ? brandedTitle : baseTitle,
     description: match.metaDescription,
     alternates: {
       canonical: url,
@@ -68,6 +70,20 @@ export default async function MatchPage({
     url: `https://worldcuptactics.com/matches/${match.id}`,
     organizer: { "@type": "Organization", name: "FIFA" },
   };
+  const breadcrumbJsonLd = {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    itemListElement: [
+      { "@type": "ListItem", position: 1, name: "Home", item: "https://worldcuptactics.com" },
+      { "@type": "ListItem", position: 2, name: "Matches", item: "https://worldcuptactics.com/matches" },
+      {
+        "@type": "ListItem",
+        position: 3,
+        name: `${match.home.name} vs ${match.away.name}`,
+        item: `https://worldcuptactics.com/matches/${match.id}`,
+      },
+    ],
+  };
 
   // Related matches: score by relevance (same teams > same era > same stage)
   const era = (year: number) => Math.floor(year / 10) * 10;
@@ -89,6 +105,10 @@ export default async function MatchPage({
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbJsonLd) }}
       />
       <Nav />
       <MatchDetail match={match} relatedMatches={related} />

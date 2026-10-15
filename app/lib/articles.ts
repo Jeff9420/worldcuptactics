@@ -16,6 +16,7 @@ export interface ArticleSourceLink {
 export interface Article {
   slug: string;
   title: string;
+  seoTitle?: string;
   excerpt: string;
   category: string;
   categoryColor: string;
@@ -2585,6 +2586,7 @@ export const ARTICLES: Article[] = [
   {
     slug: "2026-vs-2022-world-cup-differences",
     title: "2026 vs 2022: Everything That's Different About This World Cup",
+    seoTitle: "2026 vs 2022 World Cup: Key Differences Explained",
     excerpt: "More teams. Three host nations. New rules. A completely different format. The 2026 World Cup breaks from every tradition — here's exactly what's changed and why it matters.",
     category: "2026 WC",
     categoryColor: "#FF4444",
